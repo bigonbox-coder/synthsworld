@@ -28,6 +28,32 @@ automatic continuous expansion.
 
 ## Procedure
 
+0. **Bővítés: új gyártónevek keresése, ha a sor kiürülőben van.** Kristóf
+   célja explicit "minél több gyártót megtaláljunk" -- eddig a
+   `discovery_queue` kizárólag kézi beültetésből (Kristóf/Jarvis adott meg
+   neveket) és mellékesen felbukkanó kapcsolatokból (pl. Korg kutatásából
+   előkerült Yamaha) bővült, NEM volt olyan lépés, ami aktívan új neveket
+   keresne. Ha a `found` állapotú sorok száma a batch-méret alá csökken
+   (kevesebb, mint amennyit egy futtatás feldolgozna), VAGY Kristóf
+   kifejezetten "bővítést" kér, végezz egy külön kereső-kört ELŐSZÖR:
+   - Nézd át gyűjtő-forrásokat: Wikipedia "Category:Synthesizer
+     manufacturers" (vagy hasonló kategória-oldal), vintagesynth.com
+     gyártó-indexe, Encyclotronic, és bármi mást Kristóf küld (lásd a
+     "Ismert források" listát lent).
+   - Mindig `quarantine-reader`-en át fetch-eld ezeket is, sose közvetlenül.
+   - Szűrd ki a már ismert neveket (`canonical_name` VAGY
+     `manufacturer_name_history.name` egyezés, kis/nagybetű-független) és a
+     már a sorban lévőket, hogy ne kerüljön duplikátum a `discovery_queue`-ba.
+   - Az újonnan talált neveket vedd fel a `discovery_queue`-ba `found`
+     státusszal, MÉG NE kutasd ki őket ugyanebben a körben -- ez a lépés
+     csak a NÉV-forrást bővíti, a tényleges kutatás marad a 3. lépésben.
+   - Számold meg és jelezd Kristófnak, hány új nevet találtál ebben a
+     körben, mielőtt folytatnád a tényleges kutatással.
+
+   **Ismert források (bővíthető lista, Kristóf mondja a továbbiakat):**
+   Wikipedia, Wikidata, vintagesynth.com, Encyclotronic. (2026-08-29-ig
+   ennyi lett megnevezve.)
+
 1. **Backup first, always.** Before touching the live DB, copy it:
    `cp db/synthsworld.sqlite db/backups/$(date -u +%Y%m%dT%H%M%SZ).sqlite`
    (skip only if the file doesn't exist yet, i.e. before the first run).
@@ -38,8 +64,13 @@ automatic continuous expansion.
    claim more than the requested batch size.
 
 3. **For each manufacturer name in the batch:**
-   a. `WebSearch` for the manufacturer (company history, founding, country,
-      current status, official site).
+   a. `WebSearch` for the manufacturer -- run MORE THAN ONE query, not just
+      the bare name. At minimum: `"<name>" history founded`,
+      `"<name>" synthesizer manufacturer official site`, and if the first
+      results look thin, `"<name>" acquired OR discontinued OR bankruptcy`
+      to surface relations/status changes a single generic search might
+      miss. Kristóf's explicit priority is thoroughness over speed here --
+      a single shallow search per manufacturer is not enough.
    b. Identify candidate sources: the manufacturer's own official website if
       findable, Wikipedia/Wikidata, and only then other sources (forums,
       gear blogs, magazines).
