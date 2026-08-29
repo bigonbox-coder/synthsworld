@@ -1,0 +1,4 @@
+# Pre-write safety-copy backups accumulate over time and don't need to be
+# version-controlled -- the git history of synthsworld.sqlite already
+# captures the meaningful snapshots.
+db/backups/
