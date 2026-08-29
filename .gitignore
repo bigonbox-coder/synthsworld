@@ -9,3 +9,5 @@ admin/.token
 admin/admin.log
 admin/admin.error.log
 
+__pycache__/
+*.pyc
