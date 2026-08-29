@@ -2,3 +2,10 @@
 # version-controlled -- the git history of synthsworld.sqlite already
 # captures the meaningful snapshots.
 db/backups/
+
+# Local admin-app auth token (fallback when the vault write fails) and its
+# service logs -- never commit a live credential or log noise.
+admin/.token
+admin/admin.log
+admin/admin.error.log
+

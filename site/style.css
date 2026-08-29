@@ -1,0 +1,303 @@
+:root {
+  --bg: #0f1115;
+  --panel: #171a21;
+  --panel-2: #1e222b;
+  --border: #2a2f3a;
+  --text: #e6e8ec;
+  --text-dim: #9aa2b1;
+  --accent: #6ea8fe;
+  --confirmed: #4caf7d;
+  --review: #d9a441;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 300px;
+  flex-shrink: 0;
+  background: var(--panel);
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 16px;
+  overflow-y: auto;
+}
+
+.brand {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 18px;
+}
+
+.nav-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin-bottom: 18px;
+}
+
+.nav-section {
+  padding: 8px 10px;
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text-dim);
+}
+
+.nav-section.active {
+  background: var(--panel-2);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.nav-section.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+#search {
+  width: 100%;
+  padding: 9px 10px;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+  background: var(--panel-2);
+  color: var(--text);
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+#search:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.manufacturer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.manufacturer-list li {
+  padding: 9px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.manufacturer-list li:hover {
+  background: var(--panel-2);
+}
+
+.manufacturer-list li.selected {
+  background: var(--accent);
+  color: #0f1115;
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.badge.confirmed { background: var(--confirmed); }
+.badge.needs_review { background: var(--review); }
+
+.no-results {
+  color: var(--text-dim);
+  font-size: 13px;
+  padding: 10px;
+}
+
+.content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 40px 48px;
+}
+
+.empty-state {
+  color: var(--text-dim);
+  max-width: 560px;
+}
+
+.empty-state h1 {
+  color: var(--text);
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+.detail {
+  max-width: 720px;
+}
+
+.detail h1 {
+  font-size: 30px;
+  margin: 0 0 4px;
+}
+
+.detail .meta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 24px;
+  color: var(--text-dim);
+  font-size: 14px;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 10px;
+  border-radius: 100px;
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid var(--border);
+}
+
+.status-pill.confirmed { color: var(--confirmed); border-color: var(--confirmed); }
+.status-pill.needs_review { color: var(--review); border-color: var(--review); }
+
+.review-notice {
+  background: rgba(217, 164, 65, 0.12);
+  border: 1px solid var(--review);
+  color: var(--review);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.detail section {
+  margin-bottom: 28px;
+}
+
+.detail h2 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-dim);
+  margin-bottom: 10px;
+}
+
+.detail p {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.detail a {
+  color: var(--accent);
+}
+
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border-left: 2px solid var(--border);
+}
+
+.timeline li {
+  position: relative;
+  padding: 4px 0 4px 18px;
+  font-size: 14px;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  left: -5px;
+  top: 12px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.relations-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.relations-list li {
+  font-size: 14px;
+  padding: 8px 12px;
+  background: var(--panel-2);
+  border-radius: 8px;
+}
+
+.relations-list .rel-type {
+  color: var(--text-dim);
+  text-transform: capitalize;
+}
+
+/* Mobile: stack sidebar above content instead of a fixed 300px side rail
+   eating most of a phone's width. Sidebar keeps its own scroll region so a
+   long manufacturer list doesn't push the detail panel off screen. */
+@media (max-width: 700px) {
+  .layout {
+    flex-direction: column;
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-height: 45vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding: 16px;
+  }
+
+  #search {
+    padding: 12px 10px;
+    font-size: 16px; /* >=16px avoids iOS Safari auto-zoom on focus */
+  }
+
+  .manufacturer-list li {
+    padding: 12px 10px;
+    font-size: 15px;
+  }
+
+  .content {
+    padding: 20px 16px;
+    overflow-y: visible;
+  }
+
+  .detail h1,
+  .empty-state h1 {
+    font-size: 22px;
+  }
+
+  .detail .meta-row {
+    font-size: 13px;
+  }
+
+  .relations-list li,
+  .timeline li {
+    font-size: 14px;
+  }
+}

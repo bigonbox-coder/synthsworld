@@ -1,0 +1,199 @@
+[
+  {
+    "id": 10,
+    "canonical_name": "Aguilar Amplification",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 8,
+    "canonical_name": "Darkglass Electronics",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 3,
+    "canonical_name": "inMusic Brands",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 5,
+    "canonical_name": "Korg Inc.",
+    "country": "Japan",
+    "short_history": "Founded in 1962 in Tokyo as Keio Electronic Laboratories by Tsutomu Kato and Tadashi Osanai, initially producing rhythm machines and organs. Adopted the Korg brand and later the corporate name Korg Inc.; entered synthesizers in 1973 (Mini-Korg), with major success from the MS-20 and later Wavestation. Yamaha held a 51% stake 1987-1993 before founder Kato bought back control. Remains privately held and active, with a history of acquiring other audio-equipment brands (Vox in 1992, Darkglass Electronics in 2022).",
+    "official_website": "https://www.korg.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Korg Inc.",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "name": "Keio Electronic Laboratories",
+        "start_year": 1962,
+        "end_year": 1970
+      },
+      {
+        "name": "Keio Giken Kogyo Inc.",
+        "start_year": 1970,
+        "end_year": null
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "acquired",
+        "year": null,
+        "related_manufacturer_id": 9,
+        "related_name": "Spector Bass"
+      },
+      {
+        "relation_type": "acquired",
+        "year": null,
+        "related_manufacturer_id": 10,
+        "related_name": "Aguilar Amplification"
+      },
+      {
+        "relation_type": "acquired_by",
+        "year": 1987,
+        "related_manufacturer_id": 6,
+        "related_name": "Yamaha"
+      },
+      {
+        "relation_type": "acquired",
+        "year": 1992,
+        "related_manufacturer_id": 7,
+        "related_name": "Vox"
+      },
+      {
+        "relation_type": "regained_independence_from",
+        "year": 1993,
+        "related_manufacturer_id": 6,
+        "related_name": "Yamaha"
+      },
+      {
+        "relation_type": "acquired",
+        "year": 2022,
+        "related_manufacturer_id": 8,
+        "related_name": "Darkglass Electronics"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "canonical_name": "Moog Music",
+    "country": "United States",
+    "short_history": "Founded in 1953 in New York by Robert Moog and his father as R.A. Moog Co., producing theremins. Introduced the first commercial modular synthesizer in 1964 and the Minimoog in 1970; renamed Moog Music in 1972. Sold to Norlin Musical Instruments in 1973, went bankrupt in 1987. Robert Moog's Big Briar reacquired the Moog trademark and revived Moog Music in 2002. Acquired by inMusic Brands in June 2023; still actively producing instruments in Asheville, North Carolina.",
+    "official_website": "https://www.moogmusic.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "R.A. Moog Co.",
+        "start_year": 1953,
+        "end_year": 1972
+      },
+      {
+        "name": "Moog Music",
+        "start_year": 1972,
+        "end_year": 1987
+      },
+      {
+        "name": "Big Briar",
+        "start_year": 1978,
+        "end_year": 2002
+      },
+      {
+        "name": "Moog Music",
+        "start_year": 2002,
+        "end_year": null
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "acquired_by",
+        "year": 1973,
+        "related_manufacturer_id": 2,
+        "related_name": "Norlin Musical Instruments"
+      },
+      {
+        "relation_type": "acquired_by",
+        "year": 2023,
+        "related_manufacturer_id": 3,
+        "related_name": "inMusic Brands"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "canonical_name": "Norlin Musical Instruments",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 4,
+    "canonical_name": "Roland Corporation",
+    "country": "Japan",
+    "short_history": "Founded April 18, 1972 in Osaka, Japan by Ikutaro Kakehashi (previously founder of Ace Electronic Industries, a separate earlier company). Became a global leader in electronic musical instruments and drum machines (SH-1000, Jupiter-4, Juno-60, TB-303, TR-808, TR-909). Headquarters moved to Hamamatsu, Shizuoka in 2005. Taken private via a 2014 management buyout backed by Taiyo Pacific Partners; relisted on the Tokyo Stock Exchange in December 2020.",
+    "official_website": "https://www.roland.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 9,
+    "canonical_name": "Spector Bass",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 7,
+    "canonical_name": "Vox",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 6,
+    "canonical_name": "Yamaha",
+    "country": null,
+    "short_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "needs_review",
+    "name_history": [],
+    "relations": []
+  }
+]

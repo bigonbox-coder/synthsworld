@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="hu">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Synthsworld</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <nav class="sidebar">
+    <div class="brand">Synthsworld</div>
+    <div class="nav-sections">
+      <div class="nav-section active" data-section="manufacturers">Gyártók</div>
+      <div class="nav-section disabled" title="Hamarosan">Hangszerek</div>
+      <div class="nav-section disabled" title="Hamarosan">Dokumentumok</div>
+    </div>
+    <input id="search" type="search" placeholder="Gyártó keresése…" autocomplete="off">
+    <ul id="manufacturer-list" class="manufacturer-list"></ul>
+  </nav>
+  <main class="content">
+    <div id="empty-state" class="empty-state">
+      <h1>Synthsworld</h1>
+      <p>Válassz egy gyártót a bal oldali listából a részletekhez.</p>
+    </div>
+    <article id="detail" class="detail" hidden></article>
+  </main>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

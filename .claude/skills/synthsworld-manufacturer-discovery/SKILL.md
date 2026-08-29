@@ -56,6 +56,14 @@ automatic continuous expansion.
       related manufacturer doesn't exist yet in `manufacturers`, create a
       minimal row for it and add it to `discovery_queue` too so it gets
       properly researched later).
+   e. **`short_history` MUST be written in your own words, synthesized
+      across sources -- never copy-paste or lightly reword a sentence from
+      any single source.** This is a public website; verbatim or
+      near-verbatim text lifted from a source is a real copyright problem,
+      not just a style issue. Combining facts from 2+ sources into your own
+      original summary sentence is both the accuracy rule (see confidence
+      logic below) and the copyright-safety rule at the same time -- do it
+      that way by default, don't treat it as an extra step.
 
 4. **Write every fact to `facts_sources`** BEFORE deciding on confidence --
    one row per (manufacturer, field, source), never overwrite an existing
