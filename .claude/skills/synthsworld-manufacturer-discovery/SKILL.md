@@ -55,7 +55,15 @@ automatic continuous expansion.
       `manufacturer_relations` rows, linking two DIFFERENT records -- if the
       related manufacturer doesn't exist yet in `manufacturers`, create a
       minimal row for it and add it to `discovery_queue` too so it gets
-      properly researched later).
+      properly researched later. **That new stub row MUST be inserted with
+      `confidence_level='unresearched'` explicitly -- never `'confirmed'`,
+      never left to a column default, never `'needs_review'` either.** A
+      stub has zero research behind it; that is a different situation from
+      `needs_review` (research WAS attempted, but sources conflict or only a
+      weak source exists). Conflating the two is exactly the bug that
+      happened once already (Yamaha and Vox sat as indistinguishable from a
+      genuinely uncertain fact, purely because they were unresearched
+      stubs) -- do not reintroduce it.
    e. **`short_history` MUST be written in your own words, synthesized
       across sources -- never copy-paste or lightly reword a sentence from
       any single source.** This is a public website; verbatim or
@@ -72,15 +80,21 @@ automatic continuous expansion.
    Wikipedia/Wikidata, `'other'` for everything else.
 
 5. **Confidence logic** (apply per field, then roll up to the manufacturer's
-   `confidence_level`):
-   - A fact sourced from `manufacturer_official` alone counts as confirmed.
-   - Any other single source does NOT count as confirmed -- needs a second,
-     independent, agreeing source.
-   - If two sources disagree on a field's value, do NOT pick one: both stay
-     in `facts_sources`, and the manufacturer's `confidence_level` becomes
-     `'needs_review'`, with a one-line note in `discovery_queue.notes`
-     explaining the conflict (e.g. "founding year: 1969 per official site
-     vs 1970 per Wikipedia").
+   `confidence_level`). Three states, not two -- keep them distinct:
+   - `unresearched`: no research has been attempted at all. This is ONLY
+     the state a brand-new stub row starts in (see step 3d). The moment you
+     actually research a manufacturer in this step, it must leave this
+     state one way or the other -- it becomes `confirmed` or
+     `needs_review`, never stays `unresearched` after a real pass.
+   - `confirmed`: a fact sourced from `manufacturer_official` alone counts
+     as confirmed. Any other single source does NOT count as confirmed --
+     needs a second, independent, agreeing source to reach `confirmed`.
+   - `needs_review`: research WAS attempted, but either only a single
+     non-official source exists, or two sources disagree on a field's
+     value. On disagreement, do NOT pick one: both stay in `facts_sources`,
+     and the manufacturer's `confidence_level` becomes `needs_review`, with
+     a one-line note in `discovery_queue.notes` explaining the conflict
+     (e.g. "founding year: 1969 per official site vs 1970 per Wikipedia").
    - When picking which value to WRITE into the `manufacturers` table's
      display fields (as opposed to what's stored in `facts_sources`, which
      always keeps everything): prefer `manufacturer_official` >

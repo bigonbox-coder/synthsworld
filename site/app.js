@@ -14,6 +14,18 @@
     });
   }
 
+  function confidenceClass(level) {
+    if (level === "confirmed") return "confirmed";
+    if (level === "unresearched") return "unresearched";
+    return "needs_review";
+  }
+
+  function confidenceLabel(level) {
+    if (level === "confirmed") return "Megerősítve";
+    if (level === "unresearched") return "Még nincs kikutatva";
+    return "Ellenőrzésre vár";
+  }
+
   function yearRange(startYear, endYear) {
     var start = startYear == null ? "?" : startYear;
     var end = endYear == null ? "present" : endYear;
@@ -41,7 +53,7 @@
       if (m.id === state.selectedId) li.classList.add("selected");
 
       var badge = document.createElement("span");
-      badge.className = "badge " + (m.confidence_level === "confirmed" ? "confirmed" : "needs_review");
+      badge.className = "badge " + confidenceClass(m.confidence_level);
 
       var label = document.createElement("span");
       label.textContent = m.canonical_name;
@@ -65,17 +77,21 @@
     detailEl.hidden = false;
 
     var isConfirmed = m.confidence_level === "confirmed";
+    var isUnresearched = m.confidence_level === "unresearched";
     var html = "";
 
     html += "<h1>" + escapeHtml(m.canonical_name) + "</h1>";
     html += '<div class="meta-row">';
-    html += '<span class="status-pill ' + (isConfirmed ? "confirmed" : "needs_review") + '">' +
-      (isConfirmed ? "Megerősítve" : "Ellenőrzésre vár") + "</span>";
+    html += '<span class="status-pill ' + confidenceClass(m.confidence_level) + '">' +
+      confidenceLabel(m.confidence_level) + "</span>";
     if (m.country) html += "<span>" + escapeHtml(m.country) + "</span>";
     if (m.status) html += "<span>" + escapeHtml(m.status) + "</span>";
     html += "</div>";
 
-    if (!isConfirmed) {
+    if (isUnresearched) {
+      html += '<div class="unresearched-notice">Ez a gyártó egyelőre csak egy másik cég kutatása során ' +
+        "került elő kapcsolódó névként, önmagában még nem lett kikutatva. Az alábbi adatok hiányoznak, amíg ez meg nem történik.</div>";
+    } else if (!isConfirmed) {
       html += '<div class="review-notice">Ez a bejegyzés még nincs függetlenül megerősítve. ' +
         "Az alábbi adatok hiányosak, ellenőrizetlenek, vagy egyetlen, nem megerősített forrásból származhatnak.</div>";
     }

@@ -8,6 +8,7 @@
   --accent: #6ea8fe;
   --confirmed: #4caf7d;
   --review: #d9a441;
+  --unresearched: #8b93a3;
 }
 
 * { box-sizing: border-box; }
@@ -122,6 +123,7 @@ html, body {
 
 .badge.confirmed { background: var(--confirmed); }
 .badge.needs_review { background: var(--review); }
+.badge.unresearched { background: var(--unresearched); }
 
 .no-results {
   color: var(--text-dim);
@@ -177,11 +179,22 @@ html, body {
 
 .status-pill.confirmed { color: var(--confirmed); border-color: var(--confirmed); }
 .status-pill.needs_review { color: var(--review); border-color: var(--review); }
+.status-pill.unresearched { color: var(--unresearched); border-color: var(--unresearched); }
 
 .review-notice {
   background: rgba(217, 164, 65, 0.12);
   border: 1px solid var(--review);
   color: var(--review);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 13px;
+  margin-bottom: 24px;
+}
+
+.unresearched-notice {
+  background: rgba(139, 147, 163, 0.12);
+  border: 1px solid var(--unresearched);
+  color: var(--unresearched);
   padding: 10px 14px;
   border-radius: 8px;
   font-size: 13px;

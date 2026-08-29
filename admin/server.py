@@ -76,6 +76,7 @@ STYLE = """
   .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
   .dot.confirmed { background: #2e9e4f; }
   .dot.needs_review { background: #d9a520; }
+  .dot.unresearched { background: #8b93a3; }
   .name { font-weight: 600; font-size: 1.05rem; }
   .sub { color: #666; font-size: 0.85rem; margin-top: 2px; }
   h1 { font-size: 1.3rem; margin: 4px 0 10px; }
@@ -83,11 +84,13 @@ STYLE = """
   .pill { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: 0.8rem; font-weight: 600; }
   .pill.confirmed { background: #e3f5e8; color: #1e7a37; }
   .pill.needs_review { background: #fbf0d6; color: #96731a; }
+  .pill.unresearched { background: #e8eaee; color: #565f6f; }
   section { margin: 14px 0; }
   section h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.02em; color: #777; margin-bottom: 4px; }
   .btn { display: inline-block; padding: 12px 18px; border-radius: 8px; border: none; font-size: 1rem; font-weight: 600; cursor: pointer; }
   .btn-approve { background: #2e9e4f; color: #fff; }
   .btn-unapprove { background: #d9a520; color: #fff; }
+  .btn-disabled { background: #d5d8de; color: #6b7280; cursor: not-allowed; }
   .back { display: inline-block; margin-bottom: 10px; color: #555; text-decoration: none; }
   textarea { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; min-height: 70px; }
   .note-list li { background: #fff; border: 1px solid #e5e3dd; border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; list-style: none; }
@@ -201,6 +204,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._send_json({"error": "not found"}, 404)
             return
         prev = row["confidence_level"]
+        if prev == "unresearched":
+            con.close()
+            self._send_json({"error": "Ez a gyarto meg nincs kikutatva, nincs mit jovahagyni. Eloszor fusson le ra a kutatas."}, 400)
+            return
         new = "needs_review" if prev == "confirmed" else "confirmed"
         cur.execute("UPDATE manufacturers SET confidence_level=?, updated_at=strftime('%Y-%m-%dT%H:%M:%fZ','now') WHERE id=?", (new, mid))
         action = "approved" if new == "confirmed" else "unapproved"
@@ -290,9 +297,16 @@ function filterList() {{
         ).fetchall()
         con.close()
 
-        is_confirmed = m["confidence_level"] == "confirmed"
-        btn_label = "Visszavonas (ellenorzesre)" if is_confirmed else "Jovahagyom"
-        btn_class = "btn-unapprove" if is_confirmed else "btn-approve"
+        conf = m["confidence_level"]
+        is_confirmed = conf == "confirmed"
+        is_unresearched = conf == "unresearched"
+        pill_label = {"confirmed": "Megerositve", "unresearched": "Meg nincs kikutatva"}.get(conf, "Ellenorzesre var")
+        if is_unresearched:
+            btn_label = "Meg nincs mit jovahagyni (nincs kikutatva)"
+            btn_class = "btn-disabled"
+        else:
+            btn_label = "Visszavonas (ellenorzesre)" if is_confirmed else "Jovahagyom"
+            btn_class = "btn-unapprove" if is_confirmed else "btn-approve"
 
         hist_html = ""
         for nh in name_hist:
@@ -319,11 +333,11 @@ function filterList() {{
 <a class="back" href="/">&larr; vissza a listahoz</a>
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
-<span class="pill {esc(m["confidence_level"])}">{"Megerositve" if is_confirmed else "Ellenorzesre var"}</span>
+<span class="pill {esc(conf)}">{pill_label}</span>
 <span>{esc(m["country"] or "")}</span>
 <span>{esc(m["status"] or "")}</span>
 </div>
-<button class="btn {btn_class}" onclick="toggleApproval()">{btn_label}</button>
+<button class="btn {btn_class}" onclick="toggleApproval()" {"disabled" if is_unresearched else ""}>{btn_label}</button>
 
 {"<section><h2>Tortenet</h2><p>" + esc(m["short_history"]) + "</p></section>" if m["short_history"] else ""}
 {"<section><h2>Hivatalos weboldal</h2><p><a href=\"" + esc(m["official_website"]) + "\" target=\"_blank\">" + esc(m["official_website"]) + "</a></p></section>" if m["official_website"] else ""}
@@ -345,7 +359,8 @@ function filterList() {{
 <script>
 function toggleApproval() {{
   fetch('/api/manufacturer/{mid}/toggle', {{method:'POST'}}).then(function(r) {{
-    if (r.ok) location.reload();
+    if (r.ok) {{ location.reload(); return; }}
+    r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});
   }});
 }}
 function addNote() {{
