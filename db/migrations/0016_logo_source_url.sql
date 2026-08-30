@@ -1,0 +1,13 @@
+-- manufacturer_logos.source_url: where the logo file actually came from.
+--
+-- The table stored a Drive link and a review status but nothing about
+-- provenance, so once a logo was uploaded there was no way to tell whether it
+-- came from the manufacturer's own press kit, Wikimedia Commons, or a random
+-- image search -- and no way to check its licence later. Every other fact in
+-- this database carries its source; a logo is a published asset on a public
+-- website, so it needs one more than most.
+--
+-- Left NULL for the sixteen logos collected before this migration; their
+-- provenance is not recorded anywhere and inventing it would be worse than
+-- an honest NULL.
+ALTER TABLE manufacturer_logos ADD COLUMN source_url TEXT;

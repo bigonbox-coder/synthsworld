@@ -53,25 +53,42 @@ def db():
     return con
 
 
-def logo_rel_path(mid):
-    """Local static-file path for a manufacturer's logo thumbnail, or None.
-    Master assets live in Drive (source of truth); this is a small local
+def logo_rel_path(logo_id):
+    """Local static-file path for ONE logo row, or None.
+
+    Named after the logo ROW, not the manufacturer: a company can have several
+    logos over its life (that is what manufacturer_logos.start_year/end_year
+    are for), and the old <manufacturer_id>.<ext> naming left a second logo
+    with nowhere to live. Master assets are in Drive; this is a small local
     copy so the admin page never depends on Drive sharing/hotlinking."""
     for ext in ("svg", "png"):
-        p = os.path.join(LOGO_DIR, f"{mid}.{ext}")
+        p = os.path.join(LOGO_DIR, f"logo-{logo_id}.{ext}")
         if os.path.exists(p):
-            return f"/static/logos/{mid}.{ext}"
+            return f"/static/logos/logo-{logo_id}.{ext}"
     return None
+
+
+def manufacturer_logos(con, mid):
+    """Every logo row for one manufacturer, newest era first, each with its
+    resolved local path (None when the row records 'searched, found nothing')."""
+    rows = con.execute(
+        """SELECT id, drive_file_url, start_year, end_year, logo_review_status, source_url
+           FROM manufacturer_logos WHERE manufacturer_id=?
+           ORDER BY end_year IS NULL DESC, start_year IS NULL, start_year DESC, id DESC""",
+        (mid,),
+    ).fetchall()
+    return [(r, logo_rel_path(r["id"])) for r in rows]
 
 
 def logo_status(con, mid):
     """Three states, not two -- distinguish 'never looked' from 'looked,
     nothing found', same reasoning as the confirmed/needs_review/unresearched
     split on the manufacturer itself (Kristóf's request, 2026-08-30).
-    Returns 'found' | 'not_found' | 'not_attempted'."""
-    path = logo_rel_path(mid)
-    if path:
-        return "found", path
+    Returns 'found' | 'not_found' | 'not_attempted', plus the path and review
+    status of the PRIMARY logo -- the current-era one the list page shows."""
+    for row, path in manufacturer_logos(con, mid):
+        if path:
+            return "found", path
     row = con.execute(
         "SELECT 1 FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)
     ).fetchone()
@@ -101,10 +118,10 @@ LOGO_STAT_LABELS = {
 def logo_review_status(con, mid):
     """Reversible review verdict on a FOUND logo (Kristóf, 2026-08-30):
     NULL/no row = not yet reviewed, else 'approved' | 'outdated' | 'wrong'."""
-    row = con.execute(
-        "SELECT logo_review_status FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)
-    ).fetchone()
-    return row["logo_review_status"] if row else None
+    for row, path in manufacturer_logos(con, mid):
+        if path:
+            return row["logo_review_status"]
+    return None
 
 
 def esc(s):
@@ -154,6 +171,11 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .logo-badge.outdated { background: #d9a520; }
   .logo-badge.wrong { background: #c0392b; }
   .logo-missing { width: 48px; height: 48px; border-radius: 6px; background: #f0efe9; border: 1px dashed #ccc; flex: 0 0 auto; order: 2; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; color: #999; text-align: center; line-height: 1; }
+  .logo-strip { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start; margin-bottom: 10px; }
+  .logo-card { background: #fff; border: 1px solid #e6e4dc; border-radius: 10px; padding: 12px 14px; }
+  .logo-era { font-size: 0.75rem; color: #666; margin-bottom: 2px; }
+  .logo-source { font-size: 0.7rem; margin-bottom: 6px; }
+  .logo-source-none { color: #b0aca0; }
   .logo-detail { max-width: 140px; max-height: 80px; object-fit: contain; display: block; margin-bottom: 10px; }
   .logo-detail-missing { display: inline-block; padding: 8px 12px; border-radius: 8px; background: #f0efe9; border: 1px dashed #ccc; color: #888; font-size: 0.85rem; margin-bottom: 10px; }
   .dot.confirmed { background: #2e9e4f; }
@@ -350,7 +372,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path.startswith("/api/manufacturer/") and path.endswith("/logo-review"):
             mid = int(path.split("/")[3])
-            self._logo_review(mid, data.get("status", ""))
+            self._logo_review(mid, data.get("status", ""), data.get("logo_id"))
             return
 
         self.send_response(404)
@@ -432,7 +454,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.close()
         self._send_json({"ok": True, "new_confidence_level": new})
 
-    def _logo_review(self, mid, status):
+    def _logo_review(self, mid, status, logo_id=None):
         # Reversible verdict on a FOUND logo -- Kristóf can change his mind
         # later, this just records the current decision and logs it, same
         # spirit as manufacturer confirm/unapprove. EXCEPT 'wrong': that one
@@ -445,32 +467,42 @@ class Handler(http.server.BaseHTTPRequestHandler):
             return
         con = db()
         cur = con.cursor()
-        row = cur.execute("SELECT id, drive_file_url FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)).fetchone()
+        # A manufacturer can have several logos, so the verdict has to name
+        # WHICH one. logo_id comes from the button; without it, fall back to
+        # the primary (current-era) row so an older client still works.
+        if logo_id:
+            row = cur.execute(
+                "SELECT id, drive_file_url FROM manufacturer_logos WHERE id=? AND manufacturer_id=?",
+                (logo_id, mid),
+            ).fetchone()
+        else:
+            row = next((r for r, path in manufacturer_logos(con, mid) if path), None)
         if not row:
             con.close()
             self._send_json({"error": "no logo on file for this manufacturer"}, 404)
             return
+        lid = row["id"]
 
         note = None
         if status == "wrong":
             drive_url = row["drive_file_url"]
             deleted_local = None
             for ext in ("svg", "png"):
-                p = os.path.join(LOGO_DIR, f"{mid}.{ext}")
+                p = os.path.join(LOGO_DIR, f"logo-{lid}.{ext}")
                 if os.path.exists(p):
                     os.remove(p)
-                    deleted_local = f"{mid}.{ext}"
+                    deleted_local = f"logo-{lid}.{ext}"
                     break
             note = f"deleted local={deleted_local} drive_url={drive_url}"
             # Reset to the same shape as "searched, nothing found" elsewhere
             # in this app (row exists, drive_file_url NULL) -- logo_status()
             # already treats that as not_found, no new state to invent.
             cur.execute(
-                "UPDATE manufacturer_logos SET drive_file_url=NULL, logo_review_status=NULL WHERE manufacturer_id=?",
-                (mid,),
+                "UPDATE manufacturer_logos SET drive_file_url=NULL, logo_review_status=NULL WHERE id=?",
+                (lid,),
             )
         else:
-            cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE manufacturer_id=?", (status, mid))
+            cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE id=?", (status, lid))
 
         cur.execute(
             "INSERT INTO manufacturer_review_log (manufacturer_id, action, note) VALUES (?, ?, ?)",
@@ -750,6 +782,7 @@ function filterList() {{
         ).fetchall()
         logo_state, logo_path = logo_status(con, mid)
         logo_review = logo_review_status(con, mid) if logo_state == "found" else None
+        logo_rows = manufacturer_logos(con, mid)
         con.close()
 
         conf = m["confidence_level"]
@@ -762,6 +795,36 @@ function filterList() {{
         else:
             btn_label = "Visszavonas (ellenorzesre)" if is_confirmed else "Jovahagyom"
             btn_class = "btn-unapprove" if is_confirmed else "btn-approve"
+
+        # One card per logo row: a company can have several marks over its
+        # life, and each needs its own era, provenance and verdict.
+        logos_html = ""
+        for lrow, lpath in logo_rows:
+            if not lpath:
+                continue
+            lid = lrow["id"]
+            era = ""
+            if lrow["start_year"] or lrow["end_year"]:
+                era = f'{lrow["start_year"] or "?"}-{lrow["end_year"] or "jelen"}'
+            verdict = lrow["logo_review_status"]
+            badge = (f'<span class="pill {verdict}">{LOGO_REVIEW_LABELS[verdict]}</span> '
+                     if verdict in LOGO_REVIEW_LABELS else "")
+            btn_text = "Dontes modositasa" if verdict else "Logo ellenorzese"
+            src = (f'<div class="logo-source"><a href="{esc(lrow["source_url"])}" target="_blank" '
+                   f'rel="noopener">forras</a></div>' if lrow["source_url"] else
+                   '<div class="logo-source logo-source-none">forras nincs rogzitve</div>')
+            logos_html += (
+                f'<div class="logo-card">'
+                f'<img class="logo-detail" src="{lpath}" alt="">'
+                f'{f"<div class=\"logo-era\">{esc(era)}</div>" if era else ""}'
+                f'{src}'
+                f'<div>{badge}<button class="logo-review-btn" '
+                f'onclick="openLogoDialog({lid})">{btn_text}</button></div>'
+                f'</div>'
+            )
+        if not logos_html:
+            logos_html = ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>'
+                          if logo_state == "not_found" else "")
 
         hist_html = ""
         for nh in name_hist:
@@ -804,8 +867,7 @@ function filterList() {{
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a listahoz</a>
-{f'<img class="logo-detail" src="{logo_path}" alt="">' if logo_state == "found" else ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>' if logo_state == "not_found" else "")}
-{f'<span class="pill {logo_review}">{LOGO_REVIEW_LABELS[logo_review]}</span> <button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Dontes modositasa</button>' if logo_state == "found" and logo_review else ('<button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" else "")}
+<div class="logo-strip">{logos_html}</div>
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
@@ -875,10 +937,15 @@ function addNote() {{
     body: JSON.stringify({{note: t}})
   }}).then(function(r) {{ if (r.ok) location.reload(); }});
 }}
+var currentLogoId = null;
+function openLogoDialog(id) {{
+  currentLogoId = id;
+  document.getElementById('logoDialog').showModal();
+}}
 function logoReview(status) {{
   fetch('/api/manufacturer/{mid}/logo-review', {{
     method:'POST', headers:{{'Content-Type':'application/json'}},
-    body: JSON.stringify({{status: status}})
+    body: JSON.stringify({{status: status, logo_id: currentLogoId}})
   }}).then(function(r) {{
     if (r.ok) {{ location.reload(); return; }}
     r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});

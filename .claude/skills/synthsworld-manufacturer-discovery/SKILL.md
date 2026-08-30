@@ -436,6 +436,33 @@ függetlenül attól, hogy ma is gyárt.
    is just a fast local thumbnail source). Don't force a logo if nothing
    clean turns up -- note it and move on, same spirit as everything else in
    this pipeline.
+   **Egy gyártónak TÖBB logója lehet (2026-08-30, migráció 0016).** A
+   `manufacturer_logos` mindig is támogatta (ezért van rajta
+   `start_year`/`end_year`), de a lokális thumbnail a GYÁRTÓ azonosítójáról
+   volt elnevezve, így a második logónak nem volt hova kerülnie. Mostantól a
+   fájlnév a LOGÓ-SOR azonosítója: `admin/static/logos/logo-<logo_id>.<ext>`.
+   Az adminfelület részletes oldala az összes logót kirakja, mindegyiket saját
+   korszakával, forrás-linkjével és saját ellenőrző gombjával; a listaoldal
+   továbbra is egyet mutat, a jelenlegi korszakút. A logó-ellenőrzés API-ja
+   `logo_id`-t vár a törzsben.
+
+   **A `source_url` oszlop (migráció 0016) KÖTELEZŐEN kitöltendő új logónál.**
+   Eddig egy feltöltött logóról nem lehetett megmondani, honnan jött, tehát a
+   licencét sem lehetett később ellenőrizni. Minden más tény forrást hordoz
+   ebben az adatbázisban; egy logó publikus weboldalra kerülő asset, tehát
+   pláne kell neki. A migráció előtti tizenhat logónál a mező NULL, mert a
+   származásuk sehol nem volt feljegyezve.
+
+   **NE találj ki évszámot egy logóhoz.** A `start_year`/`end_year` maradjon
+   NULL, ha a forrás nem mond korszakot. Konkrét eset (2026-08-30): Kristóf az
+   `Akai brand logo.svg`-t választotta régi logónak, de a Commons-oldal
+   semmilyen korszakot nem állít róla, és a forrása egy 2015-ös használati
+   útmutató. Az évszámok NULL-ok maradtak, és az, hogy nincs dokumentált
+   korszaka, a felülvizsgálati naplóba került. Ugyanabban a kategóriában a GX
+   és Super GX jelvényekhez VAN korszak (1970-es, 1980-as évek), de azok
+   tape-fej technológia-jelvények, nem cégnév-wordmarkok, tehát más
+   osztályba tartoznak, mint a cég logója.
+
    **Three states, not two (Kristóf's request, 2026-08-30):** "never
    looked yet" must be distinguishable from "looked, found nothing".
    If no logo is found after a real attempt, STILL insert a row into
