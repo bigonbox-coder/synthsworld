@@ -26,6 +26,30 @@ process a batch from `discovery_queue`. NOT yet wired into any scheduler --
 this only runs when explicitly triggered, until Kristóf approves turning on
 automatic continuous expansion.
 
+## Scope (mit gyártson a cég, hogy egyáltalán belekerüljön)
+
+Kristóf pontosan meghatározta (2026-08-30): **elsősorban szintetizátorok**,
+plusz ami közvetlenül kapcsolódik: **dobgépek, szekvenszerek, orgonák,
+elektromos zongorák**. **Effektek/erősítők CSAK akkor**, ha ugyanaz a cég
+gyárt valamit a fenti kategóriák közül is (pl. Doepfer: elsősorban
+moduláris szintetizátor, de van néhány effektje is -- ő belefér). Egy
+TISZTÁN effekt/erősítő gyártó (pl. basszus-erősítő, basszus-pedál cég, ami
+sosem gyártott szintit/dobgépet/szekvenszert/orgonát/zongorát) NEM tartozik
+bele, akkor sem, ha egy már bekerült gyártó felvásárolta vagy kapcsolódik
+hozzá.
+
+**Ez konkrétan előfordult hiba (2026-08-30):** a Korg-kutatás felvásárlási
+kapcsolatként hozta be a Spector Bass-t (basszusgitár), Darkglass
+Electronics-ot és Aguilar Amplification-t (mindkettő basszus-erősítő/pedál),
+ezeket Kristóf kérésére törölni kellett, mert egyik sem gyárt semmit a
+fenti kategóriákból. **Amikor egy kapcsolat egy ÚJ céget hoz be (step 3d),
+MINDIG ellenőrizd először, mit gyárt az a cég, mielőtt stub-ot csinálsz
+neki -- ha kizárólag effekt/erősítő és semmi mást, NE vedd fel, se
+`manufacturers`-be, se `discovery_queue`-ba.** Ha bizonytalan vagy (a cég
+terméklistája nem egyértelmű a gyors keresésből), inkább vedd fel
+`unresearched` stub-ként és jelezd Kristófnak kétség esetén, mint hogy
+találgatva kihagyj egy tényleg releváns gyártót.
+
 ## Procedure
 
 0. **Bővítés: új gyártónevek keresése, ha a sor kiürülőben van.** Kristóf
