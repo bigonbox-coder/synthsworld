@@ -666,6 +666,23 @@ whatever happened to be reachable. Jen (Italy) is the worked example of the
 genuinely-blocked case: vintagesynth had only a product page, both Wikipedias
 404, and the two useful Italian sources were unreachable.
 
+### Fandom wikis: blocked as HTML, open through api.php
+
+`electronicmusic.fandom.com` is on the allowlist and is a cited source in
+several records, but the page HTML is not reachable: `WebFetch` gets **HTTP
+402 Payment Required** and plain curl gets **403**. Fandom's bot defence, not
+an allowlist problem.
+
+The MediaWiki API is open and returns clean wikitext:
+
+    curl -sSL "https://electronicmusic.fandom.com/api.php?action=parse&page=Sound_Transform_Systems&prop=wikitext&format=json"
+    # -> 200, wikitext at .parse.wikitext["*"]
+
+Underscores for spaces in `page=`. This is better than the rendered page
+anyway: no navigation chrome, and the source markup shows what the article
+actually asserts. Same trick works on any Fandom wiki. Hand the JSON to a
+sub-agent for extraction, as with any other untrusted source.
+
 ### HTTP-only legacy sites: WebFetch cannot reach them, ever
 
 `WebFetch` silently upgrades every `http://` URL to `https://`. A site that
