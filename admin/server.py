@@ -93,7 +93,7 @@ STYLE = """
   .btn-disabled { background: #d5d8de; color: #6b7280; cursor: not-allowed; }
   .btn-toggle { display: inline-block; margin-top: 6px; padding: 8px 14px; border-radius: 6px; border: 1px solid #ccc; background: #fff; font-size: 0.9rem; cursor: pointer; min-height: 36px; }
   .long-history { margin-top: 10px; line-height: 1.6; }
-  .back { display: inline-block; margin-bottom: 10px; color: #555; text-decoration: none; }
+  .back { display: inline-block; margin-bottom: 14px; padding: 12px 18px; min-height: 44px; box-sizing: border-box; color: #333; text-decoration: none; background: #fff; border: 1px solid #ccc; border-radius: 8px; font-size: 1rem; font-weight: 600; }
   textarea { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; min-height: 70px; }
   .note-list li { background: #fff; border: 1px solid #e5e3dd; border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; list-style: none; }
   .note-meta { color: #888; font-size: 0.75rem; }
