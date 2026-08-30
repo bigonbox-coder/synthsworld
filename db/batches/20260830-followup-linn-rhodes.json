@@ -110,6 +110,12 @@
           "value": "trademark licensed exclusively to Rhodes Music Group Ltd by Joseph Brandstetter; production resumed 2021",
           "source_url": "https://rhodesmusic.com/the-history-of-rhodes/",
           "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "owner-review:kristof/2026-08-30",
+          "source_tier": "owner"
         }
       ],
       "instruments": [
@@ -134,13 +140,9 @@
           "category": "software instrument"
         }
       ],
-      "conflicts": [
-        "country: stored as United States, the country of origin, but the manufacturer's own site states the current company is Rhodes Music Group Ltd, registered in England and Wales and operating from Leeds. These are not contradictory facts about one moment, they are the origin and the present, but the record has only one country field. Left as United States and flagged for Kristof: the alternative is splitting the modern UK licensee into its own record, since it licenses the trademark from Joseph Brandstetter rather than owning the original company.",
-        "Brandstetter's acquisition of the Rhodes trademark is dated 2004 by the company's own history page and 2007 by Wikipedia. Both stored; the official source is the stronger tier but the discrepancy is not explained anywhere.",
-        "legal name: the terms and conditions say Rhodes Music Group Ltd (company no. 12015661), while the site footer says Rhodes Music Ltd. The site never explains the relationship between the two."
-      ],
-      "review_note": "The company's own history page RESOLVED three things the first pass had to leave open. (1) The 1997 return of the rights: the official account matches the Harold Rhodes article, not the Rhodes piano article -- Roland returned the name to Harold with Joseph Brandstetter's help after Harold's 1996 stroke. (2) The 1983 sentence that read as garbled is accurate: William Schultz was head of CBS and bought Rhodes for himself, which is why he is described both ways. (3) The Mark I now has a year, 1965, released by CBS the same year it bought Fender; CBS dropped the Fender name from it in 1974. Also newly sourced: the 1942 Army Air Corps Lap Piano or Xylette, 29 notes from B-17 tubing, upwards of 125,000 made; CBS paid 13 million dollars for Fender; roughly 250,000 Rhodes pianos built 1965-1984; Roland is said not to have informed Harold of the 1987 sale. Note on ownership: the site says only that chairman Matt Pelling founded Loopmasters. It does NOT say Loopmasters owns Rhodes, and names no parent or shareholder -- Wikipedia's 'formed by Loopmasters' is not corroborated by the company itself. Still absent from every source: the MK-80 Roland-era digital pianos, and any founding date for the current company.",
-      "queue_name": "Rhodes Music Corporation"
+      "review_note": "OWNER DECISION 2026-08-30: Kristof ruled that Rhodes is American -- one record, country=United States, with the modern UK operation (Rhodes Music Group Ltd, registered in England and Wales, building the MK8 in Leeds under a trademark licence from Joseph Brandstetter) described in the history rather than split into a second manufacturer record. The company's own history page RESOLVED three things the first pass had to leave open. (1) The 1997 return of the rights: the official account matches the Harold Rhodes article, not the Rhodes piano article -- Roland returned the name to Harold with Joseph Brandstetter's help after Harold's 1996 stroke. (2) The 1983 sentence that read as garbled is accurate: William Schultz was head of CBS and bought Rhodes for himself, which is why he is described both ways. (3) The Mark I now has a year, 1965, released by CBS the same year it bought Fender; CBS dropped the Fender name from it in 1974. Also newly sourced: the 1942 Army Air Corps Lap Piano or Xylette, 29 notes from B-17 tubing, upwards of 125,000 made; CBS paid 13 million dollars for Fender; roughly 250,000 Rhodes pianos built 1965-1984; Roland is said not to have informed Harold of the 1987 sale. Note on ownership: the site says only that chairman Matt Pelling founded Loopmasters. It does NOT say Loopmasters owns Rhodes, and names no parent or shareholder -- Wikipedia's 'formed by Loopmasters' is not corroborated by the company itself. Still absent from every source: the MK-80 Roland-era digital pianos, and any founding date for the current company. Two documented discrepancies, recorded here rather than as conflicts because neither is two sources disagreeing about a stored manufacturer field: Brandstetter's acquisition of the Rhodes trademark is dated 2004 by the company's own history page and 2007 by Wikipedia. Both stored; the official source is the stronger tier but the discrepancy is not explained anywhere. legal name: the terms and conditions say Rhodes Music Group Ltd (company no. 12015661), while the site footer says Rhodes Music Ltd. The site never explains the relationship between the two.",
+      "queue_name": "Rhodes Music Corporation",
+      "country": "United States"
     }
   ]
 }
