@@ -154,11 +154,74 @@ def resolve_maker(slug, makers):
     return makers.get(slug.replace("-", " ").lower())
 
 
+PLACEHOLDER = re.compile(
+    r"maintenance|under[-_]?construction|coming[-_ ]?soon|parked|parking|"
+    r"suspended|account[-_]?disabled|domain[-_]?for[-_]?sale", re.I)
+
+
+def promote_official(conn):
+    """Fill manufacturers.official_website where it is empty.
+
+    Only from a link on the maker's OWN domain that answered (live/redirected/
+    blocked -- a WAF refusing us still proves the host is there), and only when
+    every such link agrees on one domain. The stored value is the domain root,
+    not whatever deep product page we happened to find it on.
+
+    A page on the manufacturer's own site is the top source tier, so this needs
+    no second source -- but it is still written to facts_sources, and it never
+    touches confidence_level: the company itself is still unresearched.
+    """
+    rows = conn.execute("""
+        SELECT m.id, m.canonical_name, l.domain, l.url, l.found_on, l.final_url
+        FROM manufacturers m JOIN external_links l ON l.manufacturer_id = m.id
+        WHERE (m.official_website IS NULL OR m.official_website = '')
+          AND l.link_type = 'manufacturer_official'
+          AND l.status IN ('live', 'redirected', 'blocked')
+        ORDER BY m.canonical_name""").fetchall()
+    by_maker = {}
+    for mid, canon, domain, url, found_on, final_url in rows:
+        # A domain that resolves is not the same as a site that is there.
+        # E-mu's emu.com answers, but every path lands on maintenance.html --
+        # recording that as the official site would look like evidence and be
+        # worth nothing.
+        if final_url and PLACEHOLDER.search(final_url):
+            print(f"SKIP {canon}: {domain} redirects to a placeholder "
+                  f"({final_url})", file=sys.stderr)
+            continue
+        by_maker.setdefault((mid, canon), []).append((domain, url, found_on))
+
+    done = 0
+    for (mid, canon), hits in by_maker.items():
+        domains = {d for d, _, _ in hits}
+        if len(domains) != 1:
+            print(f"SKIP {canon}: {len(domains)} candidate domains {sorted(domains)}",
+                  file=sys.stderr)
+            continue
+        domain = domains.pop()
+        site = f"https://{domain}/"
+        found_on = hits[0][2]
+        with conn:
+            conn.execute(
+                """UPDATE manufacturers SET official_website = ?,
+                   updated_at = strftime('%Y-%m-%dT%H:%M:%fZ','now') WHERE id = ?""",
+                (site, mid))
+            conn.execute(
+                """INSERT INTO facts_sources
+                     (manufacturer_id, field_name, value, source_url, source_tier)
+                   VALUES (?, 'official_website', ?, ?, 'manufacturer_official')""",
+                (mid, site, found_on))
+        print(f"SET  {canon}: {site}", file=sys.stderr)
+        done += 1
+    print(f"{done} official websites filled", file=sys.stderr)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("batch", nargs="?")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--report", action="store_true")
+    ap.add_argument("--promote-official", action="store_true",
+                    help="fill an EMPTY official_website from a live own-domain link")
     args = ap.parse_args()
 
     conn = sqlite3.connect(DB_PATH)
@@ -175,6 +238,10 @@ def main():
             flag = "have" if have else "EMPTY"
             print(f"{canon:38} {flag:5} {status:10} {url}  [{label}]")
         print(f"\n{len(rows)} official-site candidates", file=sys.stderr)
+        return
+
+    if args.promote_official:
+        promote_official(conn)
         return
 
     if not args.batch:

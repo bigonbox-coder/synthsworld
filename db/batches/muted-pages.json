@@ -1,0 +1,1525 @@
+{
+  "source": "muted.io",
+  "pages": [
+    {
+      "maker_slug": "Waldorf Music",
+      "model_slug": "Quantum Mk2",
+      "display_name": "Waldorf Quantum Mk2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://waldorfmusic.com/quantum-en/",
+          "label": "Waldorf Quantum Mk2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital-Analog Hybrid",
+        "voices": "16",
+        "polyphony": "Polyphonic",
+        "price": "$4800",
+        "features": "Granular Synthesis, Wavetable Synthesis"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Wavestate MKII",
+      "display_name": "Korg Wavestate MKII",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/wavestate/",
+          "label": "Korg Wavestate MKII product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Wave Sequencing 2.0",
+        "voices": "96",
+        "polyphony": "Polyphonic",
+        "price": "$700",
+        "features": "Sequencer, Effects"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-4d",
+      "display_name": "Roland SH-4d",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/products/sh-4d/",
+          "label": "Roland SH-4d product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual analog",
+        "voices": "60",
+        "polyphony": "Polyphonic",
+        "price": "$650",
+        "features": "11 Oscillator Models, Multitimbral Sequencer, Arpeggiator"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Volca FM 2",
+      "display_name": "Korg Volca FM 2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/dj/volca_fm2/",
+          "label": "Korg Volca FM 2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital FM",
+        "voices": "3",
+        "polyphony": "Polyphonic",
+        "price": "$170",
+        "features": "Sequencer, Portable"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Syntakt",
+      "display_name": "Elektron Syntakt",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/syntakt-explorer",
+          "label": "Elektron Syntakt product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "12",
+        "polyphony": "Polyphonic",
+        "price": "$950",
+        "features": "Sequencer, 4 analog tracks & 8 digital tracks"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "Circuit Tracks",
+      "display_name": "Novation Circuit Tracks",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://us.novationmusic.com/products/circuit-tracks",
+          "label": "Novation Circuit Tracks product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "6 Synth, 4 Drum",
+        "polyphony": "Polyphonic",
+        "price": "$400",
+        "features": "Sequencer, Battery-powered"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "RD-8 Mk2",
+      "display_name": "Behringer RD-8 Mk2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/behringer/product?modelCode=P0EH9",
+          "label": "Behringer RD-8 Mk2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "16 (Drum Parts)",
+        "polyphony": "Polyphonic (Drum Parts)",
+        "price": "$350",
+        "features": "Sequencer, Wave Designer, Dual-Mode Filter"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Take 5",
+      "display_name": "Sequential Take 5",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/take-5-compact-poly-synth/",
+          "label": "Sequential Take 5 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "5",
+        "polyphony": "Polyphonic",
+        "price": "$1500",
+        "features": "Dual effects, Aftertouch"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Cat",
+      "display_name": "Behringer Cat",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/behringer/product?modelCode=P0DNE",
+          "label": "Behringer Cat product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Duophonic",
+        "price": "$200",
+        "features": "Duophonic Analog Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Waldorf Music",
+      "model_slug": "Iridium",
+      "display_name": "Waldorf Iridium",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://waldorfmusic.com/iridium-en/",
+          "label": "Waldorf Iridium product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital/Analog Hybrid",
+        "voices": "16",
+        "polyphony": "Polyphonic",
+        "price": "$2700",
+        "features": "Wavetable, Sampler, Kernel synthesis"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JUPITER-X",
+      "display_name": "Roland JUPITER-X",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/products/jupiter-x/",
+          "label": "Roland JUPITER-X product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual Analog",
+        "voices": "256",
+        "polyphony": "Polyphonic",
+        "price": "$2700",
+        "features": "Multi-engine, ZEN-Core sound engine"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Model:Cycles",
+      "display_name": "Elektron Model:Cycles",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/modelcycles-explorer",
+          "label": "Elektron Model:Cycles product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital FM",
+        "voices": "6",
+        "polyphony": "Polyphonic (drum parts)",
+        "price": "$400",
+        "features": "Sequencer, Parameter locks"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Pro 3",
+      "display_name": "Sequential Pro 3",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/pro-3/",
+          "label": "Sequential Pro 3 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "3",
+        "polyphony": "Paraphonic",
+        "price": "$2000",
+        "features": "Sequencer, Wavetable oscillators"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet-5 Rev4",
+      "display_name": "Sequential Prophet-5 Rev4",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/prophet-5/",
+          "label": "Sequential Prophet-5 Rev4 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "5",
+        "polyphony": "Polyphonic",
+        "price": "$3600",
+        "features": "Classic Reissue, Effects"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "RD-6",
+      "display_name": "Behringer RD-6",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0E4G",
+          "label": "Behringer RD-6 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "8 (Drum Parts)",
+        "polyphony": "Polyphonic (Drum Parts)",
+        "price": "$190",
+        "features": "Sequencer, Wave Designer"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Subharmonicon",
+      "display_name": "Moog Subharmonicon",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/subharmonicon",
+          "label": "Moog Subharmonicon product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "6",
+        "polyphony": "Polyphonic",
+        "price": "$700",
+        "features": "Semi-modular, Subharmonic Generators"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-6S",
+      "display_name": "Roland TR-6S",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/tr-6s/",
+          "label": "Roland TR-6S product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "ACB (Analog Circuit Behavior)",
+        "voices": "6 (Drum Parts)",
+        "polyphony": "Polyphonic (Drum Parts)",
+        "price": "$400",
+        "features": "FM Sound Generation, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "WASP DELUXE",
+      "display_name": "Behringer WASP DELUXE",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0DN6",
+          "label": "Behringer WASP DELUXE product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$300",
+        "features": "Reissue, patchable"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "YC61",
+      "display_name": "Yamaha YC61",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/yc/index.html",
+          "label": "Yamaha YC61 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$2000",
+        "features": "Organ, Piano, Synthesizer sections"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "YC88",
+      "display_name": "Yamaha YC88",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/stagekeyboards/yc/index.html",
+          "label": "Yamaha YC88 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$3150",
+        "features": "Organ, Piano, Synthesizer sections"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "CP73",
+      "display_name": "Yamaha CP73",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/cp88_73/index.html",
+          "label": "Yamaha CP73 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$2100",
+        "features": "Electric Piano, Clavinet, Organ"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Crave",
+      "display_name": "Behringer Crave",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0DPX",
+          "label": "Behringer Crave product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$200",
+        "features": "Patchable, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FANTOM-8",
+      "display_name": "Roland FANTOM-8",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/fantom_series/",
+          "label": "Roland FANTOM-8 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$4000",
+        "features": "Sampler, Sequencer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FANTOM-6",
+      "display_name": "Roland FANTOM-6",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/fantom_series/",
+          "label": "Roland FANTOM-6 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual Analog",
+        "voices": "128 voices (varies by sound engine)",
+        "polyphony": "Polyphonic",
+        "price": "$3000",
+        "features": "Sequencer, sampler, color touch screen"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JU-06A",
+      "display_name": "Roland JU-06A",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/ju-06a/",
+          "label": "Roland JU-06A product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital ACB (Analog Circuit Behavior)",
+        "voices": "4",
+        "polyphony": "Polyphonic",
+        "price": "$400",
+        "features": "Sequencer, Battery-powered"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Jupiter-Xm",
+      "display_name": "Roland Jupiter-Xm",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/products/jupiter-xm/",
+          "label": "Roland Jupiter-Xm product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "ZEN-Core, Analog Modeling",
+        "voices": "256",
+        "polyphony": "Polyphonic",
+        "price": "$1500",
+        "features": "Sequencer, Multi-timbral"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "K-2",
+      "display_name": "Behringer K-2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0DN7",
+          "label": "Behringer K-2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Duophonic",
+        "price": "$200",
+        "features": "Semi-modular, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Matriarch",
+      "display_name": "Moog Matriarch",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/matriarch",
+          "label": "Moog Matriarch product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "4",
+        "polyphony": "Paraphonic",
+        "price": "$1900",
+        "features": "Semi-modular, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-707",
+      "display_name": "Roland MC-707",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/mc-707/",
+          "label": "Roland MC-707 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$1000",
+        "features": "Sequencer, Sampler"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Minilogue XD",
+      "display_name": "Korg Minilogue XD",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/minilogue_xd/",
+          "label": "Korg Minilogue XD product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "4",
+        "polyphony": "Polyphonic",
+        "price": "$650",
+        "features": "Sequencer, effects"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Model:Samples",
+      "display_name": "Elektron Model:Samples",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/modelsamples-explorer",
+          "label": "Elektron Model:Samples product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "6",
+        "polyphony": "Polyphonic (drum parts)",
+        "price": "$400",
+        "features": "Sequencer, Parameter locks"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "MS-1",
+      "display_name": "Behringer MS-1",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0DNG",
+          "label": "Behringer MS-1 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$390",
+        "features": "Sequencer, Arpeggiator"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Poly D",
+      "display_name": "Behringer Poly D",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0D9J",
+          "label": "Behringer Poly D product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "4",
+        "polyphony": "Polyphonic",
+        "price": "$600",
+        "features": "Distortion, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Pro-1",
+      "display_name": "Behringer Pro-1",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/behringer/product?modelCode=P0DRK",
+          "label": "Behringer Pro-1 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Duophonic",
+        "price": "$300",
+        "features": "Sequencer, Arpeggiator"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "Summit",
+      "display_name": "Novation Summit",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://us.novationmusic.com/products/summit",
+          "label": "Novation Summit product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Hybrid Digital/Analog",
+        "voices": "16",
+        "polyphony": "Polyphonic",
+        "price": "$2300",
+        "features": "Dual Filters, Multi-timbral"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "TD-3",
+      "display_name": "Behringer TD-3",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0DTD",
+          "label": "Behringer TD-3 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$130",
+        "features": "Sequencer, Distortion"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Volca Modular",
+      "display_name": "Korg Volca Modular",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/dj/volca_modular/",
+          "label": "Korg Volca Modular product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Semi-Modular Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$170",
+        "features": "Compact, battery-powered"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "DFAM (Drummer From Another Mother)",
+      "display_name": "Moog DFAM (Drummer From Another Mother)",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/dfam-drummer-another-mother",
+          "label": "Moog DFAM (Drummer From Another Mother) product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Monophonic (drum parts)",
+        "price": "$600",
+        "features": "Semi-modular, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Digitone",
+      "display_name": "Elektron Digitone",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/digitone-explorer",
+          "label": "Elektron Digitone product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital FM",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$800",
+        "features": "Sequencer, Multiple FM algorithms"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Grandmother",
+      "display_name": "Moog Grandmother",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/grandmother",
+          "label": "Moog Grandmother product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$1000",
+        "features": "Semi-Modular, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Neutron",
+      "display_name": "Behringer Neutron",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/behringer/product?modelCode=P0CM5",
+          "label": "Behringer Neutron product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Paraphonic",
+        "price": "$350",
+        "features": "Semi-modular, Overdrive"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "One",
+      "display_name": "Moog One",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/moog-one",
+          "label": "Moog One product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "16",
+        "polyphony": "Polyphonic",
+        "price": "$10000",
+        "features": "Multitimbral, Effects"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Prologue 8",
+      "display_name": "Korg Prologue 8",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/prologue/",
+          "label": "Korg Prologue 8 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$1200",
+        "features": "Multitimbral, Digital Multi-Engine"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet X",
+      "display_name": "Sequential Prophet X",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/prophet-x/",
+          "label": "Sequential Prophet X product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital/Analog Hybrid",
+        "voices": "16",
+        "polyphony": "Polyphonic",
+        "price": "$3500",
+        "features": "Sampler, Dual digital effects"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-8S",
+      "display_name": "Roland TR-8S",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/tr-8s/",
+          "label": "Roland TR-8S product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "ACB (Analog Circuit Behavior)",
+        "voices": "11 (Drum Parts)",
+        "polyphony": "Polyphonic (Drum Parts)",
+        "price": "$750",
+        "features": "Sampler, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Analog Four MKII",
+      "display_name": "Elektron Analog Four MKII",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/analog-four-mkii-explorer",
+          "label": "Elektron Analog Four MKII product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "4",
+        "polyphony": "Polyphonic",
+        "price": "$1750",
+        "features": "Sequencer, Overbridge support"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Analog Rytm MKII",
+      "display_name": "Elektron Analog Rytm MKII",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/analog-rytm-mkii-explorer",
+          "label": "Elektron Analog Rytm MKII product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "8 (Drum Parts)",
+        "polyphony": "Polyphonic (Drum Parts)",
+        "price": "$1900",
+        "features": "Sampler, Overdrive"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Digitakt",
+      "display_name": "Elektron Digitakt",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/digitakt-explorer",
+          "label": "Elektron Digitakt product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$800",
+        "features": "Sampler, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "KROSS 2",
+      "display_name": "Korg KROSS 2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/kross2/",
+          "label": "Korg KROSS 2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "120",
+        "polyphony": "Polyphonic",
+        "price": "$830",
+        "features": "Sampler, Audio recorder"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "Model D",
+      "display_name": "Behringer Model D",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/product.html?modelCode=P0CQJ",
+          "label": "Behringer Model D product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "3",
+        "polyphony": "Monophonic",
+        "price": "$300",
+        "features": "Reissue, Patchable"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Monologue",
+      "display_name": "Korg Monologue",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/monologue/",
+          "label": "Korg Monologue product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$350",
+        "features": "Sequencer, Microtuning"
+      }
+    },
+    {
+      "maker_slug": "Elektron",
+      "model_slug": "Octatrack MKII",
+      "display_name": "Elektron Octatrack MKII",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.elektron.se/us/octratrack-mkii-explorer",
+          "label": "Elektron Octatrack MKII product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Sampler",
+        "voices": "8 (Audio), 8 (MIDI)",
+        "polyphony": "Polyphonic",
+        "price": "$1500",
+        "features": "Sequencer, Effects"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "Peak",
+      "display_name": "Novation Peak",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://us.novationmusic.com/products/peak",
+          "label": "Novation Peak product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Hybrid Digital/Analog",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$1600",
+        "features": "Wavetable synthesis, Dual effects"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet Rev2",
+      "display_name": "Sequential Prophet Rev2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/prophetrev2/",
+          "label": "Sequential Prophet Rev2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "8/16",
+        "polyphony": "Polyphonic",
+        "price": "$2000-2600",
+        "features": "Dual effects, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "REV2",
+      "display_name": "Sequential REV2",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/prophetrev2/",
+          "label": "Sequential REV2 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "8/16",
+        "polyphony": "Polyphonic",
+        "price": "$2000-2600",
+        "features": "Dual effects, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-01A",
+      "display_name": "Roland SH-01A",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/sh-01a/",
+          "label": "Roland SH-01A product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital ACB (Analog Circuit Behavior)",
+        "voices": "4",
+        "polyphony": "Polyphonic",
+        "price": "$400",
+        "features": "Sequencer, Unison mode"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Subsequent 37",
+      "display_name": "Moog Subsequent 37",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/subsequent-37",
+          "label": "Moog Subsequent 37 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Paraphonic",
+        "price": "$1900",
+        "features": "Duophonic, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Behringer",
+      "model_slug": "DeepMind 12",
+      "display_name": "Behringer DeepMind 12",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.behringer.com/behringer/product?modelCode=P0AC5",
+          "label": "Behringer DeepMind 12 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "12",
+        "polyphony": "Polyphonic",
+        "price": "$800",
+        "features": "Built-in Wi-Fi, Effects"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Minimoog Model D",
+      "display_name": "Moog Minimoog Model D",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/minimoog-model-d",
+          "label": "Moog Minimoog Model D product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog Subtractive",
+        "voices": "3",
+        "polyphony": "Monophonic",
+        "price": "$5000",
+        "features": "Iconic synth"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "Montage 6",
+      "display_name": "Yamaha Montage 6",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montage/index.html",
+          "label": "Yamaha Montage 6 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128 (AWM2), 64 (FM-X)",
+        "polyphony": "Polyphonic",
+        "price": "$3500",
+        "features": "Super Knob controller, Motion Sequences"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "Montage 8",
+      "display_name": "Yamaha Montage 8",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/montage/index.html",
+          "label": "Yamaha Montage 8 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "AWM2 (Advanced Wave Memory 2), FM-X",
+        "voices": "128 (AWM2), 64 (FM-X)",
+        "polyphony": "Polyphonic",
+        "price": "$4500",
+        "features": "Super Knob controller, Motion Sequences"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "OB-6",
+      "display_name": "Sequential OB-6",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/ob-6/",
+          "label": "Sequential OB-6 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "6",
+        "polyphony": "Polyphonic",
+        "price": "$3500",
+        "features": "Dual effects engine, Step sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-8",
+      "display_name": "Roland SYSTEM-8",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/products/system-8/",
+          "label": "Roland SYSTEM-8 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual Analog",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$1550",
+        "features": "Plug-Out Technology, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JD-XA",
+      "display_name": "Roland JD-XA",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/products/jd-xa/",
+          "label": "Roland JD-XA product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "64 Digital, 4 Analog",
+        "polyphony": "Polyphonic",
+        "price": "$2200",
+        "features": "SuperNatural Synth Engine, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JD-Xi",
+      "display_name": "Roland JD-Xi",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/jd-xi/",
+          "label": "Roland JD-Xi product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "129 Digital, 1 Analog",
+        "polyphony": "Polyphonic",
+        "price": "$600",
+        "features": "Sequencer, Vocoder"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JUNO-DS61",
+      "display_name": "Roland JUNO-DS61",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.roland.com/ca/products/juno-ds61/",
+          "label": "Roland JUNO-DS61 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "128",
+        "polyphony": "Polyphonic",
+        "price": "$800",
+        "features": "Sampler, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Mother-32",
+      "display_name": "Moog Mother-32",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.moogmusic.com/products/mother-32",
+          "label": "Moog Mother-32 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$700",
+        "features": "Semi-modular, Sequencer"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet 6",
+      "display_name": "Sequential Prophet 6",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.sequential.com/product/prophet-6/",
+          "label": "Sequential Prophet 6 product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "6",
+        "polyphony": "Polyphonic",
+        "price": "$3500",
+        "features": "Dual effects engine, Step sequencer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "Reface CS",
+      "display_name": "Yamaha Reface CS",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/reface/reface_cs.html",
+          "label": "Yamaha Reface CS product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual Analog",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$450",
+        "features": "Looper, Built-in Speakers, Portable"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "Reface DX",
+      "display_name": "Yamaha Reface DX",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://usa.yamaha.com/products/music_production/synthesizers/reface/reface_dx.html",
+          "label": "Yamaha Reface DX product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital FM",
+        "voices": "8",
+        "polyphony": "Polyphonic",
+        "price": "$450",
+        "features": "Looper, Built-in speakers, Portable"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "Bass Station II",
+      "display_name": "Novation Bass Station II",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://us.novationmusic.com/products/bass-station-ii",
+          "label": "Novation Bass Station II product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "2",
+        "polyphony": "Monophonic",
+        "price": "$500",
+        "features": "Sequencer, Arpeggiator"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "MS-20 Mini",
+      "display_name": "Korg MS-20 Mini",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/synthesizers/ms_20mini/",
+          "label": "Korg MS-20 Mini product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "1",
+        "polyphony": "Monophonic",
+        "price": "$580",
+        "features": "Semi-modular, Self-oscillating filters"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Volca Beats",
+      "display_name": "Korg Volca Beats",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/dj/volca_beats/",
+          "label": "Korg Volca Beats product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog/Digital Hybrid",
+        "voices": "10",
+        "polyphony": "Polyphonic (drum parts)",
+        "price": "$150",
+        "features": "Sequencer, Stutter"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Volca Keys",
+      "display_name": "Korg Volca Keys",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://www.korg.com/us/products/dj/volca_keys/",
+          "label": "Korg Volca Keys product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Analog",
+        "voices": "3",
+        "polyphony": "Polyphonic",
+        "price": "$150",
+        "features": "Loop sequencer, Self-tuning function, Portable"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "MiniNova",
+      "display_name": "Novation MiniNova",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://us.novationmusic.com/products/mininova",
+          "label": "Novation MiniNova product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Virtual Analog",
+        "voices": "18",
+        "polyphony": "Polyphonic",
+        "price": "$450",
+        "features": "Vocoder, Effects"
+      }
+    },
+    {
+      "maker_slug": "Waldorf Music",
+      "model_slug": "Blofeld",
+      "display_name": "Waldorf Blofeld",
+      "source_url": "https://muted.io/synth-list/",
+      "links": [
+        {
+          "url": "https://waldorfmusic.com/blofeld-en/",
+          "label": "Waldorf Blofeld product page",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "synthesis": "Digital",
+        "voices": "25",
+        "polyphony": "Polyphonic",
+        "price": "$580",
+        "features": "Wavetable Synthesis, Effects"
+      }
+    }
+  ]
+}

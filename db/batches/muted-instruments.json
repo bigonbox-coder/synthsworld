@@ -1,0 +1,429 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Behringer",
+      "instruments": [
+        {
+          "name": "Cat",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Crave",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "DeepMind 12",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "K-2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "MS-1",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Model D",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Neutron",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Poly D",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Pro-1",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "RD-6",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "RD-8 Mk2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2021
+        },
+        {
+          "name": "TD-3",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "WASP DELUXE",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elektron",
+      "instruments": [
+        {
+          "name": "Analog Four MKII",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Analog Rytm MKII",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Digitakt",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Digitone",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Model:Cycles",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Model:Samples",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Octatrack MKII",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Syntakt",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2022
+        }
+      ]
+    },
+    {
+      "canonical_name": "Korg Inc.",
+      "instruments": [
+        {
+          "name": "KROSS 2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "MS-20 Mini",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2013
+        },
+        {
+          "name": "Minilogue XD",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Monologue",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Prologue 8",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Volca Beats",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2013
+        },
+        {
+          "name": "Volca FM 2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2022
+        },
+        {
+          "name": "Volca Keys",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2013
+        },
+        {
+          "name": "Volca Modular",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Wavestate MKII",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "canonical_name": "Moog Music",
+      "instruments": [
+        {
+          "name": "DFAM (Drummer From Another Mother)",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Grandmother",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Matriarch",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Minimoog Model D",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "Mother-32",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "One",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Subharmonicon",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Subsequent 37",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        }
+      ]
+    },
+    {
+      "canonical_name": "Novation",
+      "instruments": [
+        {
+          "name": "Bass Station II",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2013
+        },
+        {
+          "name": "Circuit Tracks",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2021
+        },
+        {
+          "name": "MiniNova",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2012
+        },
+        {
+          "name": "Peak",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Summit",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        }
+      ]
+    },
+    {
+      "canonical_name": "Roland Corporation",
+      "instruments": [
+        {
+          "name": "FANTOM-6",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "FANTOM-8",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "JD-XA",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "JD-Xi",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "JU-06A",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "JUNO-DS61",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "JUPITER-X",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Jupiter-Xm",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "MC-707",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "SH-01A",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "SH-4d",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2023
+        },
+        {
+          "name": "SYSTEM-8",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "TR-6S",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "TR-8S",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sequential",
+      "instruments": [
+        {
+          "name": "OB-6",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "Pro 3",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Prophet 6",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "Prophet Rev2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Prophet X",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2018
+        },
+        {
+          "name": "Prophet-5 Rev4",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "REV2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2017
+        },
+        {
+          "name": "Take 5",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2021
+        }
+      ]
+    },
+    {
+      "canonical_name": "Waldorf Music",
+      "instruments": [
+        {
+          "name": "Blofeld",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2007
+        },
+        {
+          "name": "Iridium",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "Quantum Mk2",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2023
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yamaha",
+      "instruments": [
+        {
+          "name": "CP73",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2019
+        },
+        {
+          "name": "Montage 6",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "Montage 8",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2016
+        },
+        {
+          "name": "Reface CS",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "Reface DX",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2015
+        },
+        {
+          "name": "YC61",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        },
+        {
+          "name": "YC88",
+          "source_url": "https://muted.io/synth-list/",
+          "year": 2020
+        }
+      ]
+    }
+  ]
+}
