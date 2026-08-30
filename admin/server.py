@@ -116,10 +116,10 @@ LOGO_BADGE_ICON = {
 }
 
 LOGO_STAT_LABELS = {
-    "needs_approval": "Logo jovahagyasra var",
-    "outdated": "Logo elavult",
-    "wrong": "Logo teves",
-    "not_found": "Nincs logo",
+    "needs_approval": "Jóváhagyandó",
+    "outdated": "Elavult",
+    "wrong": "Téves",
+    "not_found": "Nincs logó",
 }
 
 
@@ -219,7 +219,7 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .stat.confirmed .n { color: #1e7a37; }
   .stat.needs_review .n { color: #96731a; }
   .stat.unresearched .n { color: #565f6f; }
-  .stat .lbl { font-size: 0.72rem; color: #777; text-transform: uppercase; letter-spacing: 0.02em; }
+  .stat .lbl { font-size: 0.72rem; color: #777; text-transform: uppercase; letter-spacing: 0.02em; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block; }
   .stat.clickable { cursor: pointer; -webkit-tap-highlight-color: transparent; }
   .stat.clickable.active { outline: 2px solid #333; outline-offset: -1px; }
   .stat.needs_approval .n { color: #96731a; }
@@ -624,9 +624,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
             f'<span class="n">{counts[level]}</span>'
             f'<span class="lbl">{label}</span></div>'
             for level, label in (
-                ("confirmed", "Megerositve"),
-                ("needs_review", "Ellenorzesre var"),
-                ("unresearched", "Meg nincs kikutatva"),
+                ("confirmed", "Megerősítve"),
+                ("needs_review", "Ellenőrizendő"),
+                ("unresearched", "Kikutatatlan"),
             )
         )
 
@@ -641,7 +641,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             f'<div class="stat total"><span class="n">{total_instruments}</span>'
             f'<span class="lbl">Hangszerek</span></div>'
             f'<div class="stat total"><span class="n">{total_links}</span>'
-            f'<span class="lbl">Kulso linkek</span></div>'
+            f'<span class="lbl">Külső linkek</span></div>'
         )
 
         logo_stats_html = "".join(
@@ -661,7 +661,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         if review_rows:
             review_html = (
                 '<div class="review-section" id="review-section">'
-                "<h2>Ellenorzesre var</h2>"
+                "<h2>Ellenőrizendő</h2>"
                 + "".join(card(item) for item in review_rows)
                 + "</div>"
             )
@@ -805,12 +805,12 @@ function filterList() {{
         conf = m["confidence_level"]
         is_confirmed = conf == "confirmed"
         is_unresearched = conf == "unresearched"
-        pill_label = {"confirmed": "Megerositve", "unresearched": "Meg nincs kikutatva"}.get(conf, "Ellenorzesre var")
+        pill_label = {"confirmed": "Megerősítve", "unresearched": "Kikutatatlan"}.get(conf, "Ellenőrizendő")
         if is_unresearched:
-            btn_label = "Meg nincs mit jovahagyni (nincs kikutatva)"
+            btn_label = "Nincs mit jóváhagyni (kikutatatlan)"
             btn_class = "btn-disabled"
         else:
-            btn_label = "Visszavonas (ellenorzesre)" if is_confirmed else "Jovahagyom"
+            btn_label = "Visszavonás (ellenőrizendő)" if is_confirmed else "Jóváhagyom"
             btn_class = "btn-unapprove" if is_confirmed else "btn-approve"
 
         # One card per logo row: a company can have several marks over its
