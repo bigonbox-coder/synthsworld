@@ -76,7 +76,9 @@ találgatva kihagyj egy tényleg releváns gyártót.
 
    **Ismert források (bővíthető lista, Kristóf mondja a továbbiakat):**
    Wikipedia, Wikidata, vintagesynth.com, Encyclotronic, Synthtopia,
-   MatrixSynth, perfectcircuit.com, Sequencer.de, Muzines.co.uk.
+   MatrixSynth, perfectcircuit.com, Sequencer.de, Muzines.co.uk,
+   ruskeys.net/eng/synths.php (majdnem az összes orosz gyártót lefedi,
+   kifejezetten hasznos az orosz régiós kereséshez).
 
    **Ország/régió szerinti keresés is legyen a bővítés része** (Kristóf
    javaslata, 2026-08-30): a fenti gyűjtő-oldalak mellett `WebSearch`-ön
