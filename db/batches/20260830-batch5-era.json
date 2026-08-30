@@ -1,0 +1,866 @@
+{
+  "_note": "Phase-1 research batch, 2026-08-30 (batch of five, era-priority 1940s-1980s): Fairlight, Casio, Farfisa, Rhodes, Linn Electronics. Linn's country/city came from a second research pass after the first found no source for it. Official manufacturer sites were mostly unreachable this round (added to the egress allowlist, live next session), so histories are anchored on Wikipedia, in one case the manufacturer's own history page.",
+  "manufacturers": [
+    {
+      "canonical_name": "Fairlight",
+      "queue_name": "Fairlight",
+      "country": "Australia",
+      "city": "Sydney",
+      "status": "acquired",
+      "founded_year": 1975,
+      "founders": "Kim Ryrie, Peter Vogel",
+      "entity_type": "company",
+      "short_history": "Fairlight is an Australian company founded in Sydney in December 1975 by Kim Ryrie and Peter Vogel, two school friends who set out to build a synthesizer controlled by the newly available microprocessor. Their attempts at synthesizing convincing acoustic timbres kept failing, and in 1978 Vogel found that simply recording a sound into memory and repitching it beat anything they could synthesize; they called the technique sampling. The resulting Fairlight CMI, launched in 1979, was the first commercially available digital sampling instrument, and although it cost as much as a house it reshaped popular music through the 1980s in the hands of Peter Gabriel, Kate Bush, Trevor Horn and Stevie Wonder. Cheap MIDI samplers from Akai and others destroyed the market by the mid-1980s, and the company turned to professional audio post-production instead, building the MFX, Dream and Quantum workstations. Blackmagic Design bought Fairlight in September 2016, and the technology now lives on inside DaVinci Resolve's audio page.",
+      "long_history": "Kim Ryrie founded the magazine Electronics Today International and had designed the ETI 4600, a build-it-yourself analogue synthesizer whose limited palette frustrated him. In 1975 he asked his former classmate Peter Vogel about building what Ryrie called the world's greatest synthesizer around the newly announced microprocessor, and in December that year the two formed a home business, naming it after the hydrofoil ferry that passed Ryrie's grandmother's house on Sydney Harbour. The original goal was not sampling at all but physical modelling: producing sounds that resembled real acoustic instruments, initially through a digitally controlled analogue synthesizer, because they found the competing Moog difficult to control. Six months in they met Motorola consultant Tony Furse and licensed his QASAR M8 design, built with the Canberra School of Electronic Music, mainly for its processing power; two 8-bit Motorola 6800 processors, a light pen and a graphics display. The QASAR could only generate exact harmonic partials and sounded sterile, and the 1976-1978 QASAR M8 CMI that followed was a two-by-two-by-four-foot research machine the pair themselves called unmarketable. To keep the lights on they built office computers for Remington Office Machines, an exercise Vogel remembered as horrendous although they sold 120 of them. The turn came in 1978 when Vogel recorded about a second of a piano piece off a radio broadcast and played it back at different pitches. He recalled in 2005 that by modern standards it was an awful piano sound, but at the time it was a million times more like a piano than anything a synthesizer had produced, and that they realised they could stop bothering with synthesis and simply put real sounds in memory. Ryrie admitted they regarded using recorded real-life sounds as a compromise, as cheating, and were not proud of it. The Fairlight CMI Series I shipped from 1979 with 16 kB of sample memory, variable 24 to 8 kHz sampling, eight-inch floppies holding 22 samples each, the Music Composition Language and a light pen for drawing waveforms on screen, selling in Britain for 12,000 pounds. In the summer of 1979 Vogel demonstrated it at Peter Gabriel's home during the making of Gabriel's third album; Gabriel sampled breaking bottles and bricks, and Stephen Paine, who was present, later described the idea of recording a sound into solid-state memory with real-time pitch control as incredibly exciting at a time when everything that captured sound was tape-based. Gabriel and Paine formed Syco Systems to distribute the instrument in Britain; the first customer was John Paul Jones of Led Zeppelin, followed by Kate Bush, Trevor Horn, Alan Parsons, Richard Wright and Thomas Dolby, while Stevie Wonder, Herbie Hancock, Jan Hammer, Todd Rundgren and Joni Mitchell took it up in the United States. The British Musicians' Union called the machine a lethal threat to its members. The Series II of 1982, at 30,000 pounds, brought the Page R pattern sequencer and the ORCH 5 orchestra hit and ARR 1 vocal presets that became the signature sounds of the decade; the 1983 Series IIx added MIDI, and the Series III of 1985 moved to 16-bit sampling at up to 44.1 kHz with 14 MB of memory, a graphics tablet in place of the light pen, and the CAPS sequencer. Sales then collapsed against the Atari ST and Akai's S612, S900 and S1000 samplers, and the company shifted toward post-production. Fairlight ESP, standing for Electric Sound and Picture, was established in April 1989 by Ryrie with financial backing from the Australian distributor Amber. The MFX workstations ran from 1990 to 2000, followed by the Dream Constellation in 2004, the FPGA-based Crystal Core engine, Dream II software in 2008, the self-labelling Xynergi control surface in 2008, and the Quantum console in 2012. Blackmagic Design acquired the company in September 2016, and from version 14 in 2017 DaVinci Resolve has shipped an integrated Fairlight audio page used on films including Logan and Murder on the Orient Express. A separate Fairlight line, the Computer Video Instrument invented by Kia Silverbrook, debuted in 1984 as a hybrid analogue and digital video instrument operated by sliders and a stylus rather than a keyboard.",
+      "name_history": [
+        {
+          "name": "Fairlight Instruments Pty Ltd",
+          "start_year": 1975,
+          "end_year": null
+        },
+        {
+          "name": "Fairlight ESP",
+          "start_year": 1989,
+          "end_year": null
+        },
+        {
+          "name": "Fairlight Audio Pty Ltd",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "instruments": [
+        {
+          "name": "QASAR M8",
+          "year": 1975,
+          "category": "prototype"
+        },
+        {
+          "name": "QASAR M8 CMI",
+          "year": 1976,
+          "category": "prototype"
+        },
+        {
+          "name": "CMI Series I",
+          "year": 1979,
+          "category": "sampler"
+        },
+        {
+          "name": "CMI Series II",
+          "year": 1982,
+          "category": "sampler"
+        },
+        {
+          "name": "CMI Series IIx",
+          "year": 1983,
+          "category": "sampler"
+        },
+        {
+          "name": "CMI Series III",
+          "year": 1985,
+          "category": "sampler"
+        },
+        {
+          "name": "Computer Video Instrument (CVI)",
+          "year": 1984,
+          "category": "video instrument"
+        },
+        {
+          "name": "MFX1",
+          "year": 1990,
+          "category": "workstation"
+        },
+        {
+          "name": "MFX2",
+          "year": 1992,
+          "category": "workstation"
+        },
+        {
+          "name": "MFX3",
+          "year": 1994,
+          "category": "workstation"
+        },
+        {
+          "name": "MFX3+",
+          "year": 1996,
+          "category": "workstation"
+        },
+        {
+          "name": "Dream Constellation",
+          "year": 2004,
+          "category": "workstation"
+        },
+        {
+          "name": "Xynergi",
+          "year": 2008,
+          "category": "control surface"
+        },
+        {
+          "name": "Quantum",
+          "year": 2012,
+          "category": "console"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Australia",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_CMI",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Australia",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_CMI",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Fairlight CMI and Fairlight (company) articles",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_CMI",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Fairlight CMI and Fairlight (company) articles",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Fairlight CMI and Fairlight (company) articles",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_CMI",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Fairlight CMI and Fairlight (company) articles",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Fairlight Instruments Pty Ltd",
+          "value": "Fairlight Instruments Pty Ltd was established by Peter Vogel and Kim Ryrie, 1975",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Fairlight ESP",
+          "value": "Fairlight ESP (Electric Sound and Picture) established April 1989 by Kim Ryrie with backing from the distributor Amber; the source says established, not renamed",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Fairlight Audio Pty Ltd",
+          "value": "listed as the successor entity in the infobox; no year given in the source",
+          "source_url": "https://en.wikipedia.org/wiki/Fairlight_(company)",
+          "source_tier": "wikidata"
+        }
+      ],
+      "review_note": "Product-level and gap notes, none of which touch a stored manufacturer field. (1) The Fairlight (company) article loosely dates the CMI to the mid-1970s while the Fairlight CMI article dates Series I to 1979 with only QASAR prototypes before it; the CMI article is the stronger source and was followed. (2) The CMI infobox claims dates 1979-1989, 2011-present, but the article body has no post-1989 content explaining the 2011 restart. (3) No independent official Fairlight website could be confirmed: Wikipedia lists only a Blackmagic Design product page, and fairlightinstruments.com was refused by the fetch allowlist this round (now added, retry next session). (4) City is stored as Sydney, the founding city; the company article's infobox gives Port Melbourne, Victoria as the current HQ, and neither source dates the move. (5) One extraction pass produced a claim that Fairlight Instruments renamed itself Peter Vogel Instruments in July 2012; that string was NOT in the raw wikitext and has been deliberately excluded as an extraction artifact. (6) No source found mentions a Voicetracker, a CMI-30A, or any bankruptcy or receivership."
+    },
+    {
+      "canonical_name": "Casio",
+      "queue_name": "Casio",
+      "country": "Japan",
+      "city": "Tokyo",
+      "official_website": "https://world.casio.com/",
+      "status": "active",
+      "founded_year": 1946,
+      "founders": "Tadao Kashio, Toshio Kashio, Kazuo Kashio, Yukio Kashio",
+      "entity_type": "company",
+      "short_history": "Casio began in April 1946 as Kashio Seisakujo, a small workshop set up in Mitaka, Tokyo by Tadao Kashio, and was formally incorporated as Casio Computer Co., Ltd. in June 1957 alongside the 14-A, which the company describes as the world's first compact all-electric calculator. The four Kashio brothers built the firm on calculators and later watches, and extended the same digital electronics into music: it entered the instrument market in 1980 with the Casiotone, whose sound engine Toshio Kashio developed himself. Casio's real mark on synthesis came in 1984 with phase distortion, an original digital method invented by Masanori Ishibashi that gave the CZ range bright digital timbres for a fraction of the price of Yamaha's FM instruments. The SK-1 of 1985 did the same for sampling, putting a working sampler in the hands of anyone with a hundred dollars, and the FZ-1 and RZ-1 followed for serious studio use. The company remains active and publicly listed in Tokyo, still making digital pianos under the Privia and Celviano names.",
+      "long_history": "Tadao Kashio established Kashio Seisakujo in Mitaka, Tokyo in April 1946, and the business grew around his three brothers Toshio, Kazuo and Yukio. Casio Computer Co., Ltd. was formally established in June 1957 with the launch of the 14-A, described by the company as the world's first compact all-electric calculator; the Japanese name was originally written in kanji as 樫尾計算機株式会社 and switched to katakana in October 1960, the romanised form CASIO having been chosen over the literal KASHIO from the outset because the founders wanted a name that would travel internationally. Calculators drove the firm's growth: the model 001 desktop machine of September 1965 with the first constant storage dial and memory function, the AL-1000 of October 1967 billed as the world's first programmable electronic desktop calculator, factories in Tokyo from 1960 and Kofu from 1969, and overseas offices in Switzerland from 1967 and Germany from 1969. Casio entered the electronic musical instrument market in 1980 with the Casiotone 201, a keyboard using a sound generation system developed by Toshio Kashio that reproduced 29 preset sounds; the sources disagree on whether this was January or July of that year. A run of consumer keyboards followed, including the tiny VL-1 of 1981 with its Walsh-function synthesis and built-in calculator, the CT-401 of 1981 with the first polyphonic auto-accompaniment, and the MT series. The decisive product was phase distortion synthesis, introduced in the CZ range in 1984 and patented from priorities in 1981 and 1982 by Masanori Ishibashi. Phase distortion works by hard-synchronising an angular modulator waveform of straight-line segments to a carrier sine wave of the same period and driving the amount of distortion from a DCW envelope, giving more linear spectra than the Bessel-function spectra of Yamaha's FM and making it better suited to subtractive-style programming. The CZ-101 arrived in 1984 with 49 miniature keys, eight voices, four-part multitimbrality and three eight-stage envelopes; the CZ-1000 of 1985 was the same instrument with full-sized keys, the 16-voice CZ-5000 of 1985 added an eight-track sequencer, and the CZ-3000 and the velocity- and aftertouch-sensitive CZ-1 followed in 1986. The VZ-1 of 1988 replaced them at the top of the range with iPD, a related but distinct method closer to phase modulation, alongside the rack-mounted VZ-8M and VZ-10M aimed at guitar and wind controller players. Casio was equally disruptive in sampling. The SK-1 of 1985 was described as the cheapest sampler in the world: four voices, 32 mini keys, 8-bit PCM at 9.38 kHz giving about 1.4 seconds of volatile memory, no MIDI, and a cult following that later ran from Fatboy Slim to Beck and Portishead. The RZ-1 drum machine of 1986 combined 12 PCM drum sounds with 0.8 seconds of user sampling across four banks, and the FZ-1 of 1987 was a serious 16-bit, eight-voice instrument sampling from 9 to 36 kHz with a megabyte of memory expandable to two and eight individual outputs, with the FZ-10M as its rack version. The Casiotone name faded as more accurate synthesis methods took over and was revived in 2019. In digital pianos Casio launched the Privia line in 2003 with the PX-100, adding Linear Morphing in 2009, the AiR engine in 2012 and the slim PX-S range from 2019, and continues to sell the Celviano cabinet pianos alongside it. The company is headquartered in Shibuya, Tokyo and is listed on the Tokyo Stock Exchange.",
+      "name_history": [
+        {
+          "name": "Kashio Seisakujo",
+          "start_year": 1946,
+          "end_year": 1957
+        },
+        {
+          "name": "Casio Computer Co., Ltd.",
+          "start_year": 1957,
+          "end_year": null
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Casiotone 201",
+          "year": 1980,
+          "category": "keyboard"
+        },
+        {
+          "name": "VL-1",
+          "year": 1981,
+          "category": "keyboard"
+        },
+        {
+          "name": "MT-40",
+          "year": 1981,
+          "category": "keyboard"
+        },
+        {
+          "name": "CT-401",
+          "year": 1981,
+          "category": "keyboard"
+        },
+        {
+          "name": "CZ-101",
+          "year": 1984,
+          "category": "synthesizer"
+        },
+        {
+          "name": "CZ-230",
+          "year": 1985,
+          "category": "synthesizer"
+        },
+        {
+          "name": "CZ-1000",
+          "year": 1985,
+          "category": "synthesizer"
+        },
+        {
+          "name": "CZ-5000",
+          "year": 1985,
+          "category": "synthesizer"
+        },
+        {
+          "name": "SK-1",
+          "year": 1985,
+          "category": "sampler"
+        },
+        {
+          "name": "CZ-3000",
+          "year": 1986,
+          "category": "synthesizer"
+        },
+        {
+          "name": "CZ-1",
+          "year": 1986,
+          "category": "synthesizer"
+        },
+        {
+          "name": "RZ-1",
+          "year": 1986,
+          "category": "drum machine"
+        },
+        {
+          "name": "FZ-1",
+          "year": 1987,
+          "category": "sampler"
+        },
+        {
+          "name": "FZ-10M",
+          "year": 1987,
+          "category": "sampler"
+        },
+        {
+          "name": "VZ-1",
+          "year": 1988,
+          "category": "synthesizer"
+        },
+        {
+          "name": "VZ-8M",
+          "year": 1988,
+          "category": "synthesizer"
+        },
+        {
+          "name": "VZ-10M",
+          "year": 1988,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Privia PX-100",
+          "year": 2003,
+          "category": "digital piano"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://en.wikipedia.org/wiki/Casio",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E8%A8%88%E7%AE%97%E6%A9%9F",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://world.casio.com/corporate/history/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Casio",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://ja.wikipedia.org/wiki/%E3%82%AB%E3%82%B7%E3%82%AA%E8%A8%88%E7%AE%97%E6%A9%9F",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://world.casio.com/",
+          "source_url": "https://en.wikipedia.org/wiki/Casio",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from Casio's own corporate history page, both Wikipedia language versions, the phase distortion synthesis article and vintagesynth model pages",
+          "source_url": "https://world.casio.com/corporate/history/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from Casio's own corporate history page, both Wikipedia language versions, the phase distortion synthesis article and vintagesynth model pages",
+          "source_url": "https://en.wikipedia.org/wiki/Casio",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from Casio's own corporate history page, both Wikipedia language versions, the phase distortion synthesis article and vintagesynth model pages",
+          "source_url": "https://world.casio.com/corporate/history/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from Casio's own corporate history page, both Wikipedia language versions, the phase distortion synthesis article and vintagesynth model pages",
+          "source_url": "https://en.wikipedia.org/wiki/Phase_distortion_synthesis",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Kashio Seisakujo",
+          "value": "founded April 1946 in Mitaka, Tokyo by Tadao Kashio",
+          "source_url": "https://world.casio.com/corporate/history/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "name_history:Casio Computer Co., Ltd.",
+          "value": "formally established June 1957",
+          "source_url": "https://world.casio.com/corporate/history/",
+          "source_tier": "manufacturer_official"
+        }
+      ],
+      "review_note": "Nothing here touches a stored manufacturer field, so none of it downgrades the record. (1) The first Casiotone launch month is given as January 1980 by the English Wikipedia and July 1980 by the Japanese one; the model is called Casiotone 201 in one article and CT-201 in another. (2) The CZ-101 is dated 1984 by the phase distortion and Casiotone articles and 1985-88 by vintagesynth; these read as launch year versus production span, not a contradiction, and 1984 is stored. (3) Casio's own history page names Shigeru Kashio as president at the 1957 incorporation, a fifth Kashio neither Wikipedia lists among the four founding brothers. (4) The English Wikipedia gives world.casio.com as the official site and the Japanese one gives casio.jp; these are the global and Japanese portals of the same company, not a conflict. (5) No acquisition or merger involving any named company was found in any source, which is an absence of evidence rather than evidence of absence. (6) Casio's own corporate history page covers calculators only and contains no musical instrument milestone at all."
+    },
+    {
+      "canonical_name": "Farfisa",
+      "queue_name": "Farfisa",
+      "country": "Italy",
+      "city": "Osimo",
+      "status": "defunct",
+      "founded_year": 1946,
+      "ended_year": 1998,
+      "founders": "merger of three accordion makers: Paolo Settimio Soprani (Castelfidardo), F.lli Scandalli (Camerano) and Frontalini (Numana)",
+      "entity_type": "company",
+      "short_history": "Farfisa was formed in 1946 at Camerano in the Italian Marche when three accordion makers weakened by the war, Paolo Settimio Soprani of Castelfidardo, the Scandalli brothers of Camerano and Frontalini of Numana, merged their businesses; the name is a contraction of the Italian for united accordion factories. Through the 1950s it added guitars, pianos and organs, and electronics transformed it in the 1960s. The Compact combo organs that followed gave 1960s garage rock and 1970s pop and progressive rock one of their most recognisable sounds, cheap enough to undercut a Vox Continental by half, and the VIP and Soundmaker keyboards carried the name into the synthesizer era. American conglomerate Lear Siegler took control in the 1960s, the rival accordion house Bontempi bought the company in October 1984, and it closed in 1998, absorbed into Comus, which itself ended in 2003. An intercom division split off in 1993 survives as ACI Farfisa in Osimo. The instrument brand was later bought together with Bontempi by iCom S.p.A., which restarted production under the Farfisa name in 2025.",
+      "long_history": "The three firms that became Farfisa were all part of the accordion industry clustered around Castelfidardo in the Marche, and all had been damaged by the Second World War: Paolo Settimio Soprani of Castelfidardo, the Scandalli brothers of Camerano, founded by Silvio Scandalli and employing between four and seven hundred people before the merger, and Frontalini of Numana. Their 1946 union at Camerano produced a company whose formal name is recorded as Fabbriche Riunite Fisarmoniche Italiane S.p.A., glossed as united Italian accordion factories, while the Italian sources gloss the acronym slightly differently as FAbbriche Riunite di FISArmoniche. Accordions remained the core business into the 1950s, when the company branched into guitars, pianos and organs, and it kept an acoustic piano line, Furstein, from 1969 to 1998. The real turn came with electronics in the 1960s. The Microrgan portable reed organ appeared in 1958 and the Cordovox electrified accordion, developed with Lowrey, in 1960, but the Combo Compact of 1964 defined the company. Built in Osimo with production also at Castelfidardo, Aspio Terme and Camerano, and sold in the United States through Chicago Musical Instruments, initially rebadged as CMI organs, the Compact range exploited low Italian labour costs to undercut its rivals: in 1966 the Mini Compact listed at 495 dollars against 995 for a Vox Continental. Compact, Mini Compact, Compact Deluxe and Compact Duo organs became a fixture of 1960s garage rock and were later used by Richard Wright of Pink Floyd, Philip Glass on Einstein on the Beach, Steve Reich in Four Organs, Sun Ra, Elton John on Crocodile Rock, Mike Oldfield on Tubular Bells, and later still by Blondie, The B-52's, Talking Heads and Stereolab. The FAST series from the late 1960s, its name glossed as Farfisa All Silicon Transistor, and the Professional series that followed extended the range, and the drawbar Matador of 1972 chased the Hammond sound that fashion had turned toward. The VIP series ran through the 1970s with foot-operated pitch bend, the VIP 255 turning up with John Paul Jones of Led Zeppelin, the VIP 400 with Edgar Froese of Tangerine Dream and the VIP 600 with Michael MacNeil of Simple Minds. Farfisa moved into multitimbral keyboards and synthesizers from 1975 with the Syntorchestra, a polyphonic string ensemble combined with a monophonic synthesizer that Klaus Schulze used on Moondawn and Manuel Goettsching on New Age of Earth, followed by the Polychrome and the Soundmaker, which Tony Banks of Genesis played. The company also ran a music publishing arm, Farfisa Edizioni Musicali, issuing accordion and electronic organ repertoire and the magazine Fisarmonica. American conglomerate Lear Siegler held a controlling interest from the 1960s until 1984, with the Italian and English sources giving 1965 and 1968 respectively for when that began. The synthesizer boom of the late 1970s destroyed combo organ volumes; Bravo and Commander of 1980 were the last combo organ models and the last unit was built in 1982. Bontempi S.p.A. acquired the company in October 1984 and it closed in 1998, passing to Comus, which ceased trading in 2003. The intercom division, created in 1967 as an internal unit, was given its own legal personality in 1993 and continues today as ACI Farfisa at Via Ezio Vanoni 3 in Osimo, making door entry, video surveillance and home automation systems, keeping the Farfisa name but no longer making instruments. The company's archive, covering 1946 to 1984, was acquired by the municipality of Camerano around 2005. The instrument brand was later bought alongside Bontempi by iCom S.p.A., and production of Farfisa-branded instruments restarted in 2025.",
+      "name_history": [
+        {
+          "name": "Fabbriche Riunite Fisarmoniche Italiane S.p.A.",
+          "start_year": 1946,
+          "end_year": null
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Bontempi",
+          "relation_type": "acquired_by",
+          "year": 1984
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Transicord",
+          "year": null,
+          "category": "electronic accordion"
+        },
+        {
+          "name": "Microrgan",
+          "year": 1958,
+          "category": "organ"
+        },
+        {
+          "name": "Cordovox",
+          "year": 1960,
+          "category": "electronic accordion"
+        },
+        {
+          "name": "Combo Compact",
+          "year": 1964,
+          "category": "organ"
+        },
+        {
+          "name": "Mini Compact",
+          "year": 1966,
+          "category": "organ"
+        },
+        {
+          "name": "Compact Deluxe",
+          "year": 1966,
+          "category": "organ"
+        },
+        {
+          "name": "Compact Duo",
+          "year": 1966,
+          "category": "organ"
+        },
+        {
+          "name": "Furstein",
+          "year": 1969,
+          "category": "acoustic piano"
+        },
+        {
+          "name": "Matador",
+          "year": 1972,
+          "category": "organ"
+        },
+        {
+          "name": "VIP 255",
+          "year": 1970,
+          "category": "organ"
+        },
+        {
+          "name": "VIP 400",
+          "year": 1970,
+          "category": "organ"
+        },
+        {
+          "name": "VIP 600",
+          "year": 1970,
+          "category": "organ"
+        },
+        {
+          "name": "Syntorchestra",
+          "year": 1975,
+          "category": "string synthesizer"
+        },
+        {
+          "name": "Soundmaker",
+          "year": 1980,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Syntorchestra 4",
+          "year": 1980,
+          "category": "string synthesizer"
+        },
+        {
+          "name": "Polychrome",
+          "year": null,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Bravo",
+          "year": 1980,
+          "category": "organ"
+        },
+        {
+          "name": "Commander",
+          "year": 1980,
+          "category": "organ"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://www.farfisa.com/en/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Italian and English Wikipedia articles plus the surviving ACI Farfisa company site",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Italian and English Wikipedia articles plus the surviving ACI Farfisa company site",
+          "source_url": "https://en.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Italian and English Wikipedia articles plus the surviving ACI Farfisa company site",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Italian and English Wikipedia articles plus the surviving ACI Farfisa company site",
+          "source_url": "https://en.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Fabbriche Riunite Fisarmoniche Italiane S.p.A.",
+          "value": "en.wikipedia gives this as the formal name; the Camerano archive fonds is titled 'Farfisa. Fabbriche riunite fisarmoniche italiane spa di Camerano (1946-1984)'",
+          "source_url": "https://en.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Fabbriche Riunite Fisarmoniche Italiane S.p.A.",
+          "value": "archive fonds title quoted on the Italian article",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "acronym_expansion",
+          "value": "FAbbriche Riunite di FISArmoniche (verbatim it.wikipedia)",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "acronym_expansion",
+          "value": "Fabbriche Riunite Fisarmoniche Italiane S.p.A., glossed 'United Italian Accordion Factories'",
+          "source_url": "https://en.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "acronym_expansion",
+          "value": "the company's own surviving site does NOT expand the acronym at all",
+          "source_url": "https://www.farfisa.com/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:acquired_by:Bontempi",
+          "value": "Bontempi S.p.A. dall'ottobre 1984 alla chiusura",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "Lear Siegler control start year: it.wikipedia says 'Lear Siegler dal 1965 al 1984', en.wikipedia says Lear Siegler 'became a major controlling interest' in 1968. Both stored; not resolved."
+      ],
+      "review_note": "Notes that do not touch a stored field. (1) The acronym has two readings: it.wikipedia glosses FARFISA as FAbbriche Riunite di FISArmoniche, en.wikipedia expands it as Fabbriche Riunite Fisarmoniche Italiane S.p.A.; the Italian page itself carries both, the second inside the archive fonds title, so they are probably the loose gloss and the formal name of one thing rather than a real dispute. Both are stored, neither picked. (2) Founder name variants: 'Paolo Settimio Soprani' (it) vs 'Settimo Soprani' (en); Scandalli placed at Camerano (it) vs producing in Castelfidardo (en). (3) No official website is stored: farfisa.com is the ACI Farfisa intercom business, not the instrument brand, and it makes no instruments. (4) Product year variance between the two articles: Compact series ends 1969 (it) or 1968 (en); FAST starts 1968 (it) or 1967 (en); Professional ends 1971 (it) or 1975 (en); Soundmaker 1980 (it) or 'late 1970s' (en). (5) Ardis and Chung Faith, sometimes named in connection with Farfisa, appear in NO source read and are deliberately absent. (6) Status is stored as defunct with ended_year 1998, the closure of the instrument company; the 2025 iCom relaunch and the surviving ACI Farfisa intercom business are described in the history rather than changing the status."
+    },
+    {
+      "canonical_name": "Rhodes",
+      "queue_name": "Rhodes Music Corporation",
+      "country": "United States",
+      "city": "Pasadena",
+      "status": "active",
+      "founded_year": 1946,
+      "founders": "Harold Burroughs Rhodes",
+      "entity_type": "company",
+      "short_history": "Rhodes is the maker of the electric piano that carries its founder's name. Harold Burroughs Rhodes, a Californian piano teacher, built his first instrument during the Second World War from scrap aircraft parts so that convalescing servicemen could learn to play in bed, and turned the idea into the Pre-Piano, demonstrated publicly in 1948. Leo Fender's company took the business on at the end of the 1950s, and under the Fender Rhodes name the tine-driven electric piano became one of the defining sounds of jazz, soul and pop from the late 1960s onward. Ownership passed to CBS with Fender in 1965, and CBS's Rhodes division also built the Rhodes Chroma, a polyphonic synthesizer whose design it bought from the collapsing ARP Instruments. The main factory closed in 1985, Roland held the name from 1987, and the rights returned to Harold Rhodes in 1997, three years before his death. The brand was revived by Rhodes Music Group, formed in 2021, which has resumed building the instrument.",
+      "long_history": "Harold Burroughs Rhodes, born in 1910 in San Fernando, California, was teaching piano when the Second World War gave him his invention. Serving in the Army Air Corps, he built a small keyboard instrument from salvaged aircraft parts so that hospitalised servicemen could learn to play without leaving their beds, and the idea became the Pre-Piano, also called the Bantam Piano, which he developed from 1946 and demonstrated publicly in Los Angeles on 21 May 1948. He built the first hundred instruments himself at 2370 East Foothill Boulevard in Pasadena. The sources describe the company he ran in those years slightly differently: one names it the Rhodes Piano Corporation, another simply treats 1946 to 1959 as the period of Harold Rhodes' individual ownership. In 1958 he began a business affiliation with Leo Fender to manufacture the instruments, and in 1959 Fender's company bought the business outright; the Piano Bass followed, and the Fender Rhodes Electric Piano proper arrived in 1965. That was also the year CBS bought Fender, and Rhodes spent the next eighteen years inside a broadcasting conglomerate. The instruments of that era are the famous ones: the 73-note Suitcase Piano with its integrated amplifier and stereo tremolo, the 73-note Stage Piano of 1970, the 88-note model of 1971 and the Mark II of late 1979. The mechanism, a hammer striking a stiff wire tine next to an electromagnetic pickup, gave the bell-like tone that runs through Herbie Hancock, Chick Corea, Stevie Wonder and thousands of records besides. CBS Musical Instruments also used the Rhodes name for something quite different. When ARP Instruments collapsed in 1981, CBS bought the design of a polyphonic synthesizer ARP had developed in 1979 and 1980 and brought it to market through its Rhodes division as the Rhodes Chroma, built from 1982 to 1984 at 5,295 dollars for the keyboard and 3,150 for the expander, with a proprietary Digital Access Control bus rather than MIDI and an Apple IIe interface for patch and sequence storage; sources give between 1,400 and 3,000 units built. The Mark III EK-10 of 1980 had already tried to graft analogue oscillators and filters onto the electromechanical action. The company was sold in 1983 to William Schultz, who closed the main factory in 1985; the Mark V of 1984 was the last piano the original company made. Roland bought the business in 1987 and used the name for digital instruments, and in 1997 the rights came back to Harold Rhodes, although the two sources describe that differently, one saying he re-acquired them and the other that Roland returned them after Joe Brandstetter bought the trademark. Harold Rhodes died in Canoga Park, California in 2000. Brandstetter, described as his former business partner, acquired the rights to the name in 2007, the year of the Rhodes Mark 7. In 2021 the audio company Loopmasters formed Rhodes Music Group Ltd, which announced the MK8 and has brought the instrument back into production.",
+      "name_history": [
+        {
+          "name": "Rhodes Piano Corporation",
+          "start_year": 1946,
+          "end_year": 1959
+        },
+        {
+          "name": "Fender Rhodes",
+          "start_year": 1959,
+          "end_year": 1983
+        },
+        {
+          "name": "Rhodes Music Group Ltd",
+          "start_year": 2021,
+          "end_year": null
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "ARP Instruments",
+          "relation_type": "acquired",
+          "year": 1981
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Pre-Piano",
+          "year": 1948,
+          "category": "electric piano"
+        },
+        {
+          "name": "Piano Bass",
+          "year": 1959,
+          "category": "electric piano"
+        },
+        {
+          "name": "Fender Rhodes Electric Piano",
+          "year": 1965,
+          "category": "electric piano"
+        },
+        {
+          "name": "Suitcase Piano",
+          "year": 1965,
+          "category": "electric piano"
+        },
+        {
+          "name": "Stage Piano 73",
+          "year": 1970,
+          "category": "electric piano"
+        },
+        {
+          "name": "Stage Piano 88",
+          "year": 1971,
+          "category": "electric piano"
+        },
+        {
+          "name": "Mark II",
+          "year": 1979,
+          "category": "electric piano"
+        },
+        {
+          "name": "Mark III EK-10",
+          "year": 1980,
+          "category": "electric piano"
+        },
+        {
+          "name": "Rhodes Chroma",
+          "year": 1982,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Chroma Expander",
+          "year": 1982,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Mark V",
+          "year": 1984,
+          "category": "electric piano"
+        },
+        {
+          "name": "Rhodes Mark 7",
+          "year": 2007,
+          "category": "electric piano"
+        },
+        {
+          "name": "MK8",
+          "year": 2021,
+          "category": "electric piano"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_piano",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Harold_Rhodes_(inventor)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_piano",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Rhodes piano, Harold Rhodes and Rhodes Chroma articles plus the vintagesynth Chroma page",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_piano",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Rhodes piano, Harold Rhodes and Rhodes Chroma articles plus the vintagesynth Chroma page",
+          "source_url": "https://en.wikipedia.org/wiki/Harold_Rhodes_(inventor)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Rhodes piano, Harold Rhodes and Rhodes Chroma articles plus the vintagesynth Chroma page",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_piano",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Rhodes piano, Harold Rhodes and Rhodes Chroma articles plus the vintagesynth Chroma page",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_Chroma",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired:ARP Instruments",
+          "value": "the Rhodes Chroma was designed by ARP Instruments in 1979-80; CBS bought the design as ARP went bankrupt in 1981 and built it through its Rhodes division 1982-84",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_Chroma",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired:ARP Instruments",
+          "value": "an ARP project that Rhodes acquired after ARP dissolved in 1981",
+          "source_url": "https://www.vintagesynth.com/rhodes/chroma",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Rhodes Piano Corporation",
+          "value": "named on the Harold Rhodes article; the Rhodes piano article instead frames 1946-59 as individual ownership without naming a company",
+          "source_url": "https://en.wikipedia.org/wiki/Harold_Rhodes_(inventor)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Rhodes Music Group Ltd",
+          "value": "In 2021, a new company, Rhodes Music Group Ltd, was formed by the audio company Loopmasters",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_piano",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "The 1997 return of the rights is described two incompatible ways: the Rhodes piano article says Harold Rhodes re-acquired them, while the Harold Rhodes article says Roland returned them after Joe Brandstetter purchased the trademark from Roland, which also places Brandstetter in 1997 as well as 2007. Both stored, neither picked.",
+        "The queue name for this record was 'Rhodes Music Corporation', but that company name appears in NO source read: the Wikipedia article of that title is a 404. Stored as unverified; the canonical name is Rhodes.",
+        "official_website unverified: rhodes.com turns out to be Rhodes Enterprises, an unrelated Texas property developer, and rhodespiano.com redirects to rhodesmusic.com which was refused by the fetch allowlist this round. No official site is stored rather than storing a wrong one."
+      ],
+      "review_note": "Product- and detail-level notes. (1) The Fender deal is dated 1958 (affiliation begins) and 1959 (purchase) by two sources; these read as two stages of one deal rather than a contradiction and both are in the history. (2) The 1983 sale sentence calls William Schultz 'the CBS boss' while describing him as the buyer, which reads as garbled in the source; the widely used name Fender Musical Instruments Corporation was NOT found in any source read and is deliberately absent. (3) Chroma production numbers are given as 1,400-3,000 by one source and 3,000 by another. (4) The Chroma Expander is attributed to Fender in one article while the keyboard is attributed to CBS Musical Instruments / Rhodes Division. (5) Piano Bass is listed as 1959-62 while the same page says production began early in 1962. (6) No release year for the Mark I was found in any source, and nothing at all was found about the Roland-era MK-80 digital pianos."
+    },
+    {
+      "canonical_name": "Linn Electronics",
+      "queue_name": "Linn Electronics",
+      "country": "United States",
+      "status": "defunct",
+      "founded_year": 1979,
+      "ended_year": 1986,
+      "founders": "Roger Linn, Alex Moffett",
+      "entity_type": "company",
+      "short_history": "Linn Electronics was founded in 1979 by Roger Linn and Alex Moffett to build Linn's design for a drum machine that played recordings of real drums instead of synthesizing them. The LM-1 Drum Computer that resulted in 1980 was the first programmable drum machine to use samples of acoustic drums, and at around 5,500 dollars only 525 were built, but they went to Prince, Michael Jackson, Stevie Wonder, Peter Gabriel and The Human League and changed how records sounded. The cheaper LinnDrum of 1982 sold roughly five thousand and became the decade's default drum sound. The Linn 9000 of 1984, the first machine to combine a digital drum machine with a MIDI sequencer, was ambitious enough to be the company's undoing: chronic software bugs made it expensive to fix and support, and Linn Electronics ran out of money in February 1986. Forat Electronics bought the remaining assets and kept building and servicing the machines until 1994. Roger Linn went on to design the Akai MPC60 as an individual, and founded the unrelated Roger Linn Design in 2001.",
+      "long_history": "Roger Curtis Linn had toured as a guitarist with Leon Russell at twenty-one before turning to instrument design. In 1979 he and Alex Moffett founded Linn Moffett Electronics, soon renamed Linn Electronics, to develop his idea for a drum machine built on recorded samples of real drums rather than the synthesized approximations every rival used. The LM-1 Drum Computer, announced in 1979 and shipping in 1980, held twelve percussion samples in 8-bit linear PCM at 28 kHz, offered ten voices in its first revision and nine in the two that followed, and introduced the quantisation and swing controls it called timing correct and shuffle. It sold for around 5,500 dollars, with later revisions listed between 4,995 and 3,995, and only 525 were built before production ended in 1983; owners included Prince, who used it exhaustively, along with Michael Jackson, Stevie Wonder, Peter Gabriel, Queen, Fleetwood Mac, The Human League, Gary Numan and Tears For Fears. It entered the TECnology Hall of Fame in 2005. The LinnDrum of 1982, frequently but wrongly called the LM-2, brought the idea within reach at 2,995 dollars: twelve-voice polyphony, fifteen-part multitimbrality, 8-bit samples at 28 to 35 kHz, 56 user and 42 preset patterns, 49 songs, fifteen hard plastic pads, individual outputs and level and pan per voice, and tuning on the snare, toms and congas. Around five thousand were sold between 1982 and 1985, and it became one of the most recognisable sounds of the decade. Moffett had left the company in 1982. The Linn 9000 of 1984 was the ambitious step too far and, in hindsight, the blueprint for a whole product category: the first integrated digital drum machine and MIDI sequencer, with eighteen velocity-sensitive pads, a 32-track sequencer holding 60,000 notes, an 8-bit sampler running at 40 kHz with just over thirteen seconds of memory, a built-in mixer with programmable hi-hat decay and panning, and optional SMPTE and floppy drive. No more than 1,100 were made. It and the rack-mounted LinnSequencer of 1985 shipped with chronic software bugs that wrecked their reliability and were expensive to re-engineer and service. Roger Linn later gave the reasons plainly: the company simply ran out of money and could not raise more, having faced technical problems with the 9000, strong competition, no investment financing and all the classic growing pains of a new business. Linn Electronics went out of business in February 1986; the rack-mounted LinnDrum Midistudio, announced that January with sixteen dynamic rubber pads in the four-by-four layout, never went into production. Forat Electronics, referred to in different sources as Forat Electronics Corporation and Forat Music and Electronics, bought the remaining assets and manufactured and sold the Forat F9000 and the LinnSequencer until 1994, servicing and upgrading the whole Linn range and building an improved 9000 with expanded sequencer memory, better SMPTE and bug fixes. Akai never bought Linn Electronics or its assets: what followed was a personal design partnership between Roger Linn as an individual and Akai Professional, after the company was already dead, producing the MPC60 in 1988 and later the MPC60 MkII and MPC3000. Linn described the arrangement as a good fit because Akai needed a creative designer with ideas and he did not want to handle sales, marketing, finance or manufacturing. The four-by-four pad grid the 9000 and the Midistudio pioneered, carried into the MPC, became a standard fixture of music production and had a major effect on hip-hop. Roger Linn founded the separate Roger Linn Design in 2001, fifteen years after Linn Electronics ended and with no corporate continuity between them, producing the AdrenaLinn effects unit, the Tempest analogue drum machine co-developed with Dave Smith in 2011, and the LinnStrument expressive MIDI controller in 2014. He received a Grammy Award for Lifetime Technical Achievement in 2011.",
+      "name_history": [
+        {
+          "name": "Linn Moffett Electronics",
+          "start_year": 1979,
+          "end_year": 1979
+        }
+      ],
+      "instruments": [
+        {
+          "name": "LM-1 Drum Computer",
+          "year": 1980,
+          "category": "drum machine"
+        },
+        {
+          "name": "LinnDrum",
+          "year": 1982,
+          "category": "drum machine"
+        },
+        {
+          "name": "Linn 9000",
+          "year": 1984,
+          "category": "drum machine"
+        },
+        {
+          "name": "LinnSequencer",
+          "year": 1985,
+          "category": "sequencer"
+        },
+        {
+          "name": "LinnDrum Midistudio",
+          "year": 1986,
+          "category": "drum machine"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Roger_Linn",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Roger_Linn",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Linn Electronics, Roger Linn, LinnDrum and Linn LM-1 articles plus vintagesynth model pages",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Linn Electronics, Roger Linn, LinnDrum and Linn LM-1 articles plus vintagesynth model pages",
+          "source_url": "https://en.wikipedia.org/wiki/Roger_Linn",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Linn Electronics, Roger Linn, LinnDrum and Linn LM-1 articles plus vintagesynth model pages",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from the Linn Electronics, Roger Linn, LinnDrum and Linn LM-1 articles plus vintagesynth model pages",
+          "source_url": "https://www.vintagesynth.com/linn-electronics/linn-9000",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Linn Moffett Electronics",
+          "value": "originally Linn Moffett Electronics, soon renamed Linn Electronics; no exact rename year given",
+          "source_url": "https://en.wikipedia.org/wiki/Roger_Linn",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:successor_of:Forat Electronics",
+          "value": "Forat Electronics purchased the remaining assets in 1986 and manufactured the Forat F9000 and LinnSequencer until 1994",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Forat Electronics",
+          "relation_type": "succeeded_by",
+          "year": 1986
+        }
+      ],
+      "conflicts": [
+        "country and city: NO source read states where Linn Electronics was based. 'United States' is stored on the strength of the Roger Linn article describing him as an American designer and of the machines being priced in dollars, which is an inference, not a sourced statement about the company. Sound On Sound's Roger Linn page is now HTTP 410, mu:zines' search endpoint would not accept the query, and Roger Linn's own site says nothing about the company's founding, location or end. This needs a real source before the record can be trusted on location."
+      ],
+      "review_note": "Detail notes. (1) The successor firm's name appears in three variants across three Wikipedia articles: Forat Electronics, Forat Electronics Corporation and Forat Music and Electronics. (2) Akai's role is frequently misreported: Akai did NOT buy Linn Electronics or its assets, and Roger Linn Design (2001) is a separate later company, not a rename or successor. Only Forat bought anything. (3) Sources disagree on why Roger Linn later left Akai: one says disputes over royalty payments, the other says Akai went out of business and its assets were bought by Numark. (4) The LinnDrum is often incorrectly called the LM-2; that is not an official product name and is not stored as one. (5) The two sources give completely non-overlapping lists of notable LinnDrum users. (6) No prices were found for the Linn 9000, LinnSequencer or Midistudio."
+    }
+  ]
+}
