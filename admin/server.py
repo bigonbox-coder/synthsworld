@@ -89,6 +89,13 @@ LOGO_BADGE_ICON = {
     "wrong": "✕",  # x mark
 }
 
+LOGO_STAT_LABELS = {
+    "needs_approval": "Logo jovahagyasra var",
+    "outdated": "Logo elavult",
+    "wrong": "Logo teves",
+    "not_found": "Nincs logo",
+}
+
 
 def logo_review_status(con, mid):
     """Reversible review verdict on a FOUND logo (Kristóf, 2026-08-30):
@@ -166,6 +173,13 @@ STYLE = """
   .stat.needs_review .n { color: #96731a; }
   .stat.unresearched .n { color: #565f6f; }
   .stat .lbl { font-size: 0.72rem; color: #777; text-transform: uppercase; letter-spacing: 0.02em; }
+  .stat.clickable { cursor: pointer; -webkit-tap-highlight-color: transparent; }
+  .stat.clickable.active { outline: 2px solid #333; outline-offset: -1px; }
+  .stat.needs_approval .n { color: #96731a; }
+  .stat.outdated .n { color: #96731a; }
+  .stat.wrong .n { color: #a33; }
+  .stat.not_found .n { color: #565f6f; }
+  .stats-row2 { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
   .review-section { background: #fbf3df; border: 1px solid #ecd8a3; border-radius: 12px; padding: 10px 12px 4px; margin-bottom: 16px; }
   .review-section h2 { color: #96731a; margin-bottom: 8px; }
   .review-section .card { border-color: #ecd8a3; }
@@ -414,11 +428,30 @@ class Handler(http.server.BaseHTTPRequestHandler):
             "SELECT id, canonical_name, country, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
         ).fetchall()
 
-        def card(r):
-            status, logo = logo_status(con, r["id"])
+        # Precompute logo state ONCE per row (used for both the stat counts
+        # and the cards -- avoids hitting the DB twice per manufacturer).
+        counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
+        logo_counts = {"needs_approval": 0, "outdated": 0, "wrong": 0, "not_found": 0}
+        enriched = []
+        for r in rows:
+            lstatus, lpath = logo_status(con, r["id"])
+            lreview = logo_review_status(con, r["id"]) if lstatus == "found" else None
+            enriched.append((r, lstatus, lpath, lreview))
+            counts[r["confidence_level"]] = counts.get(r["confidence_level"], 0) + 1
+            if lstatus == "found":
+                if lreview == "outdated":
+                    logo_counts["outdated"] += 1
+                elif lreview == "wrong":
+                    logo_counts["wrong"] += 1
+                elif not lreview:
+                    logo_counts["needs_approval"] += 1
+            elif lstatus == "not_found":
+                logo_counts["not_found"] += 1
+
+        def card(item):
+            r, status, logo, review = item
             review_pill = ""
             if status == "found":
-                review = logo_review_status(con, r["id"])
                 badge = (
                     f'<span class="logo-badge {review}" title="{LOGO_REVIEW_LABELS.get(review, "")}">{LOGO_BADGE_ICON.get(review, "")}</span>'
                     if review else ""
@@ -430,8 +463,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 logo_html = '<span class="logo-missing" title="Kerestünk logót, nem találtunk">nincs<br>kép</span>'
             else:
                 logo_html = ""
+            # data-logo-review is 'none' ONLY for a found-but-unreviewed logo
+            # (that is exactly what the "needs approval" stat tile filters
+            # on) -- left blank for not_found/not_attempted so it can't
+            # accidentally match that filter.
+            logo_review_attr = (review or "none") if status == "found" else ""
             return (
-                f'<a class="card" href="/manufacturer/{r["id"]}">'
+                f'<a class="card" href="/manufacturer/{r["id"]}" '
+                f'data-confidence="{esc(r["confidence_level"])}" '
+                f'data-logo-status="{esc(status)}" '
+                f'data-logo-review="{esc(logo_review_attr)}">'
                 f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
@@ -441,12 +482,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'</a>'
             )
 
-        counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
-        for r in rows:
-            counts[r["confidence_level"]] = counts.get(r["confidence_level"], 0) + 1
-
         stats_html = "".join(
-            f'<div class="stat {level}"><span class="n">{counts[level]}</span>'
+            f'<div class="stat {level} clickable" data-filter-dim="confidence" data-filter-val="{level}" onclick="toggleFilter(this)">'
+            f'<span class="n">{counts[level]}</span>'
             f'<span class="lbl">{label}</span></div>'
             for level, label in (
                 ("confirmed", "Megerositve"),
@@ -455,13 +493,25 @@ class Handler(http.server.BaseHTTPRequestHandler):
             )
         )
 
-        review_rows = [r for r in rows if r["confidence_level"] == "needs_review"]
+        logo_stats_html = "".join(
+            f'<div class="stat {key} clickable" data-filter-dim="logo-{dim}" data-filter-val="{val}" onclick="toggleFilter(this)">'
+            f'<span class="n">{logo_counts[key]}</span>'
+            f'<span class="lbl">{LOGO_STAT_LABELS[key]}</span></div>'
+            for key, dim, val in (
+                ("needs_approval", "review", "none"),
+                ("outdated", "review", "outdated"),
+                ("wrong", "review", "wrong"),
+                ("not_found", "status", "not_found"),
+            )
+        )
+
+        review_rows = [item for item in enriched if item[0]["confidence_level"] == "needs_review"]
         review_html = ""
         if review_rows:
             review_html = (
                 '<div class="review-section" id="review-section">'
                 "<h2>Ellenorzesre var</h2>"
-                + "".join(card(r) for r in review_rows)
+                + "".join(card(item) for item in review_rows)
                 + "</div>"
             )
 
@@ -470,11 +520,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # non-clickable entry -- keeps the strip's shape stable as the list
         # grows from 10 to 2000+ rows instead of jumping around.
         by_letter = {}
-        for r in rows:
-            first = (r["canonical_name"] or "?")[0].upper()
+        for item in enriched:
+            first = (item[0]["canonical_name"] or "?")[0].upper()
             if not first.isalpha():
                 first = "#"
-            by_letter.setdefault(first, []).append(r)
+            by_letter.setdefault(first, []).append(item)
 
         alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)] + ["#"]
         azbar_html = "".join(
@@ -488,7 +538,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 continue
             list_html += f'<div class="letter-group" data-letter="{L}">'
             list_html += f'<div class="letter-heading" id="letter-{L}">{L}</div>'
-            list_html += "".join(card(r) for r in by_letter[L])
+            list_html += "".join(card(item) for item in by_letter[L])
             list_html += "</div>"
 
         con.close()
@@ -500,17 +550,38 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
 <div class="stats">{stats_html}</div>
+<div class="stats-row2">{logo_stats_html}</div>
 {review_html}
 <input type="search" id="q" placeholder="Gyarto kereses..." oninput="filterList()">
 <div class="azbar" id="azbar">{azbar_html}</div>
 <div id="list">{list_html}</div>
 </div>
 <script>
+var activeFilter = null; // {{dim: 'confidence'|'logo-review'|'logo-status', val: '...'}}
+
+function toggleFilter(el) {{
+  var dim = el.getAttribute('data-filter-dim');
+  var val = el.getAttribute('data-filter-val');
+  if (activeFilter && activeFilter.dim === dim && activeFilter.val === val) {{
+    activeFilter = null;
+  }} else {{
+    activeFilter = {{dim: dim, val: val}};
+  }}
+  document.querySelectorAll('.stat.clickable').forEach(function(s) {{
+    var match = activeFilter && s.getAttribute('data-filter-dim') === activeFilter.dim && s.getAttribute('data-filter-val') === activeFilter.val;
+    s.classList.toggle('active', !!match);
+  }});
+  filterList();
+}}
+
 function filterList() {{
   var q = document.getElementById('q').value.toLowerCase();
+  var attr = activeFilter ? ('data-' + activeFilter.dim) : null;
   document.querySelectorAll('.card').forEach(function(c) {{
     var name = c.querySelector('.name').textContent.toLowerCase();
-    c.style.display = name.indexOf(q) === -1 ? 'none' : '';
+    var matchesSearch = name.indexOf(q) !== -1;
+    var matchesFilter = !activeFilter || c.getAttribute(attr) === activeFilter.val;
+    c.style.display = (matchesSearch && matchesFilter) ? '' : 'none';
   }});
   // Hide a letter-group's heading entirely if every card under it is filtered out,
   // so filtering doesn't leave a trail of empty "B", "C"... headers.
