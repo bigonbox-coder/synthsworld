@@ -1,0 +1,996 @@
+{
+  "_note": "Phase-1 research batch, 2026-08-30. Ten era-priority (1960s-1980s) manufacturers. Field names normalised to the project convention (short_history, long_history, country, status, official_website, relation:<type>:<company>, name_history:<name>). Only conflicts that touch a STORED manufacturer field are listed under `conflicts` (they downgrade the record to needs_review); product-level discrepancies go in `review_note` instead.",
+  "manufacturers": [
+    {
+      "canonical_name": "Electronic Music Studios (London) Ltd.",
+      "queue_name": "Electronic Music Studios",
+      "country": "United Kingdom",
+      "official_website": "https://emssynthesisers.co.uk/",
+      "status": "active",
+      "short_history": "Electronic Music Studios (EMS) is a British electronic instrument maker founded in 1969 in Putney, London, by composer and engineer Peter Zinovieff together with composer Tristram Cary and electronics designer David Cockerell. The firm is best known for the VCS3, one of the first compact, commercially sold synthesizers in Europe, and for its portable siblings the Synthi A and Synthi AKS. EMS instruments became closely associated with British progressive rock and experimental music, turning up on records by Pink Floyd, Brian Eno and Roxy Music, and in the BBC Radiophonic Workshop's studio. Years of shaky finances pushed the original company into insolvency around 1979, after which its assets and manufacturing rights changed hands more than once. A small operation based in Cornwall, run since the late 1990s by a former employee, still builds instruments to the original EMS specifications today.",
+      "long_history": "EMS traces back to a one-off electronic device Peter Zinovieff, David Cockerell and Tristram Cary built for composer Don Banks; its success convinced the trio to formally set up Electronic Music Studios (London) Ltd in Putney, London in 1969 to develop and sell instruments commercially. Their first product, the VCS3 (nicknamed 'The Putney'), launched later that year: a semi-modular synthesizer built into a small wooden case with three oscillators, a ring modulator, a joystick controller, and a distinctive pin-matrix patchboard instead of patch cables. At roughly 330 pounds it undercut Moog's competing modular gear by a wide margin and beat the Minimoog to market by about a year, making it one of the first synthesizers a working musician could realistically buy and carry. Cockerell was the main circuit designer, while Cary, already an electronic-music pioneer with his own home studio, shaped the instrument's L-shaped case and control layout; Zinovieff, who had earlier run the electronic group Unit Delta Plus with BBC Radiophonic Workshop members, drove the business side. EMS followed the VCS3 with the briefcase-portable Synthi A in 1971, the Synthi AKS in 1972 (which added a built-in sequencer and touch keyboard and became famous for its role on Pink Floyd's 'On the Run'), and the large-format Synthi 100 in 1971, a roughly 6,500-pound modular system of which only around 30 were built and which the BBC Radiophonic Workshop used heavily on programmes including Doctor Who. The company also built vocoders, sequencer modules, and even an early video synthesizer, the Spectron, in 1974. EMS gear found favour well beyond the classical and experimental scene it was designed for, turning up in recordings by King Crimson, The Who, Roxy Music, Kraftwerk, Tangerine Dream and Jean-Michel Jarre. Despite the instruments' cult status, EMS struggled financially for much of the 1970s; a costly, unsuccessful push into the mass market for guitar effects pedals is often cited as a contributing factor, and the company collapsed into bankruptcy around 1979. Its Putney and Great Milton operations were liquidated and manufacturing rights were picked up by Datanomics, a firm based in Wareham, Dorset, where some EMS production had already been happening since the early 1970s. Ownership and production continued to shift over the following years. In 1997 a former EMS employee, Robin Wood, acquired the rights to the EMS name and restarted small-scale production of the classic range built to the original specifications; that operation is now based in Ladock, near Truro, Cornwall, and continues to sell and service EMS instruments today.",
+      "name_history": [],
+      "relations": [],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios_(London)_Ltd",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.wikidata.org/wiki/Q1326103",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios_(London)_Ltd",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://emssynthesisers.co.uk/",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios_(London)_Ltd",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1969 in Putney, London by Peter Zinovieff, Tristram Cary and David Cockerell",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "1997 revival by former employee Robin Wood, now based in Ladock, Cornwall",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios_(London)_Ltd",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "VCS3 (1969), Synthi A (1971), Synthi AKS (1972), Synthi 100 (1971), Spectron video synthesizer (1974)",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_VCS_3",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Bankruptcy circa 1979 after financial trouble including a guitar-effects venture; assets to Datanomics",
+          "source_url": "https://www.electronicsound.co.uk/features/long-reads/ems-a-very-british-synthesiser/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "VCS3 (1969), Synthi A (1971), Synthi AKS (1972), Synthi 100 (1971), Spectron video synthesizer (1974)",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_VCS_3",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Bankruptcy circa 1979 after financial trouble including a guitar-effects venture; assets to Datanomics",
+          "source_url": "https://www.electronicsound.co.uk/features/long-reads/ems-a-very-british-synthesiser/",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "official_website: Wikidata still lists the dead 'http://www.ems-synthi.demon.co.uk/' (flagged there as link rot) while search results point to 'https://emssynthesisers.co.uk/' as the live site. Both probably refer to the same Cornwall successor operation at different times, but the live site could not be fetched (domain not on the quarantine-reader allowlist), so this is unverified."
+      ],
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Palm Products GmbH",
+      "queue_name": "Palm Products GmbH",
+      "country": "Germany",
+      "official_website": null,
+      "status": "defunct",
+      "short_history": "Palm Products GmbH (PPG) was a German synthesizer manufacturer based in Hamburg, founded in 1975 by musician and engineer Wolfgang Palm. After early modular and Minimoog-style monophonic designs, Palm pioneered wavetable synthesis in the late 1970s, a method of digitally storing and scanning through short waveforms to generate evolving timbres. That work culminated in the PPG Wave series (Wave 2, 2.2 and 2.3), which combined digital oscillators with analog filters and became widely used by new-wave and electronic artists through the 1980s. Falling prices for rival digital synths and samplers eroded PPG's market and the company ceased operating in 1987. Wolfgang Palm went on to help design wavetable instruments for Waldorf, a company founded by PPG's former German distributor, and in 2020 the PPG brand itself passed to the plugin company Brainworx and Plugin Alliance for use on software instruments.",
+      "long_history": "Wolfgang Palm, a keyboardist active in the Hamburg music scene, founded Palm Products GmbH in 1975 to build electronic instruments, reportedly beginning with modular synthesizer gear supplied to acts including Tangerine Dream. His first standalone product line, the 300-series modular system, did not sell well, and he followed it with the more conventional, Minimoog-inspired monophonic 1002 and 1020 synthesizers; the 1020 stood out for using digitally controlled oscillators, which were more stable in tuning than the voltage-controlled oscillators typical of the era and gave PPG instruments a recognizable tone. Palm's most consequential work began in the late 1970s, when he developed wavetable synthesis, building up sound by digitally storing short waveform segments and smoothly scanning between them, first realized in the Wavecomputer 360 of 1979, an eight-voice polyphonic instrument pairing digital oscillators with analog filters and amplifiers. This technology matured into the PPG Wave 2 in 1981, followed by the Wave 2.2 and Wave 2.3 through 1987; roughly a thousand units across the Wave family were built in total, each oscillator offering dozens of selectable waveforms drawn from onboard wavetables. Priced around 7,000 to 10,000 dollars, the Wave series found favour with prominent 1980s acts including Depeche Mode, Gary Numan and David Bowie's collaborators, and Depeche Mode's Alan Wilder in particular became known as a heavy user. PPG also built companion computer hardware, notably the Waveterm from 1982, used to edit and design wavetables and sequences for the Wave synths, and around 1986 Palm prototyped an ambitious all-in-one workstation called the Realizer, which proved too costly and technically complex to bring to market. Increasing competition from cheaper digital synthesizers and samplers squeezed PPG's business through the mid-1980s and the company shut down in 1987. Wolfgang Palm did not leave the field: he contributed digital synthesis design work to Waldorf Music, a company founded in 1988 by PPG's former German distributor specifically to continue building wavetable-based instruments, starting with the Microwave, so that Waldorf's early products are widely regarded as PPG's direct technical successors. Decades later, in 2020, ownership of the PPG name and brand passed to the audio-plugin company Brainworx, part of the Plugin Alliance group, which began releasing PPG-branded software instruments; sources describe that deal inconsistently, naming either Plugin Alliance or Brainworx as the buyer, with Native Instruments later acquiring Brainworx.",
+      "name_history": [],
+      "relations": [
+        {
+          "related_company": "Waldorf Music",
+          "relation_type": "succeeded_by",
+          "year": 1988
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Germany",
+          "source_url": "https://en.wikipedia.org/wiki/Palm_Products_GmbH",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Germany",
+          "source_url": "https://www.wikidata.org/wiki/Q3361555",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Palm_Products_GmbH",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/PPG_Wave",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1975 in Hamburg by Wolfgang Palm",
+          "source_url": "https://en.wikipedia.org/wiki/Wolfgang_Palm",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Wavecomputer 360 (1979), PPG Wave 2/2.2/2.3 (1981-1987), Waveterm, Realizer prototype",
+          "source_url": "https://en.wikipedia.org/wiki/PPG_Wave",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Ceased operations 1987 under development cost and competitive pressure",
+          "source_url": "https://en.wikipedia.org/wiki/Palm_Products_GmbH",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:succeeded_by:Waldorf Music",
+          "value": "Waldorf founded 1988 by PPG's former German distributor to continue wavetable synthesis, with Wolfgang Palm's involvement",
+          "source_url": "https://www.gearnews.com/german-synthesizers-synth/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Wavecomputer 360 (1979), PPG Wave 2/2.2/2.3 (1981-1987), Waveterm, Realizer prototype",
+          "source_url": "https://en.wikipedia.org/wiki/PPG_Wave",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Ceased operations 1987 under development cost and competitive pressure",
+          "source_url": "https://en.wikipedia.org/wiki/Palm_Products_GmbH",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "2020 brand acquisition: the English Wikipedia article says Plugin Alliance acquired the PPG brand, while a gearnews.com summary names Brainworx as the buyer, with Native Instruments later acquiring Brainworx. Brainworx and Plugin Alliance are closely related entities so this may be inconsistent naming of one corporate group rather than a true factual conflict; gearnews.com and side-line.com could not be fetched (not on the quarantine-reader allowlist) to settle it."
+      ],
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Oxford Synthesiser Company",
+      "queue_name": "Oxford Synthesiser Company",
+      "country": "United Kingdom",
+      "official_website": null,
+      "status": "defunct",
+      "short_history": "The Oxford Synthesiser Company (OSC) was a short-lived British synth maker set up in 1982 by electronics designer Chris Huggett, fresh off the collapse of his previous company Electronic Dream Plant, together with Paul Wiffen. Its only product was the OSCar, a monophonic hybrid synthesizer combining digitally controlled oscillators with analog filters, distinguished by an unusual case wrapped in black rubber and designed by independent product designer Anthony Harrison-Griffin. Despite winning a devoted following among electronic and pop musicians for its distinctive additive-synthesis waveforms and eventually gaining MIDI, the OSCar could not compete commercially with cheaper mass-produced digital synths such as Yamaha's DX7. OSC shut down in 1986 after only a few thousand units had been built. The OSCar has since become a sought-after collector's instrument and lives on in several software emulations.",
+      "long_history": "After Electronic Dream Plant folded, Chris Huggett founded the Oxford Synthesiser Company in 1982, reportedly with financial help from family, and brought in Paul Wiffen to help develop the new instrument. The result, the OSCar, reached the market in either 1983 or 1984 depending on the source. Unlike the Wasp's minimalist approach, the OSCar was built as a fuller-featured instrument: a 37-key, three-octave keyboard, two digitally controlled oscillators feeding a pair of switchable 12dB analog filters that could be linked for a steeper 24dB slope, and an unusual additive-synthesis mode letting a player shape custom waveforms by adjusting the levels of up to 24 harmonics directly from the keyboard. A built-in sequencer allowed limited duophonic playing by storing and replaying note sequences. Industrial designer Anthony Harrison-Griffin gave the synth its recognizable look: chunky black rubberized housing meant to protect the controls, a world away from the sleek finishes of Japanese rivals. Later production units, from around 1984 onward, added MIDI and an expanded 36-patch memory, up from the earlier 12 user and 24 preset slots. Around 2,000 OSCars are estimated to have been built in total before the company closed in 1986, unable to keep up with Yamaha's FM-synthesis DX7 and the broader shift toward cheaper digital instruments. In its short run, though, the OSCar found its way onto records by artists including Jean-Michel Jarre, Ultravox, Stevie Wonder and Asia, and it remained popular later with electronic acts such as Orbital, Underworld and Hardfloor. After OSC's closure, Huggett continued designing instruments, working on Akai's S-series samplers and then, from the 1990s, at Novation. The OSCar's legacy also lives on through software recreations such as GForce's impOSCar, and in 2024 Behringer announced a hardware clone under the name POLYOsc.",
+      "name_history": [],
+      "relations": [
+        {
+          "related_company": "Electronic Dream Plant",
+          "relation_type": "successor_of",
+          "year": 1982
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://en.wikipedia.org/wiki/Oxford_Synthesiser_Company",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.vintagesynth.com/oxford-synthesiser-company/oscar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Oxford_Synthesiser_Company",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://www.vintagesynth.com/oxford-synthesiser-company/oscar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1982 by Chris Huggett with Paul Wiffen after EDP closed",
+          "source_url": "https://en.wikipedia.org/wiki/Oxford_Synthesiser_Company",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Huggett established OSC with family financial backing",
+          "source_url": "https://en.wikipedia.org/wiki/Chris_Huggett",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "OSCar: 2 DCOs, dual 12dB analog filters linkable to 24dB, 37-key keyboard, 24-harmonic additive synthesis, built-in sequencer, MIDI on later units, ~2,000 built",
+          "source_url": "https://www.vintagesynth.com/oxford-synthesiser-company/oscar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Case design by Anthony Harrison-Griffin; OSCar introduced 1984",
+          "source_url": "https://en.wikipedia.org/wiki/OSC_OSCar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "GForce impOSCar emulation; Behringer POLYOsc hardware clone announced 2024",
+          "source_url": "https://synthanatomy.com/2024/08/behringer-polyosc.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:successor_of:Electronic Dream Plant",
+          "value": "OSC founded by Huggett after Electronic Dream Plant closed",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "OSCar: 2 DCOs, dual 12dB analog filters linkable to 24dB, 37-key keyboard, 24-harmonic additive synthesis, built-in sequencer, MIDI on later units, ~2,000 built",
+          "source_url": "https://www.vintagesynth.com/oxford-synthesiser-company/oscar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Case design by Anthony Harrison-Griffin; OSCar introduced 1984",
+          "source_url": "https://en.wikipedia.org/wiki/OSC_OSCar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "GForce impOSCar emulation; Behringer POLYOsc hardware clone announced 2024",
+          "source_url": "https://synthanatomy.com/2024/08/behringer-polyosc.html",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [],
+      "review_note": "Product-level only, company facts are consistent: OSCar launch given as 1983 (OSC OSCar article, Vintage Synth Explorer) vs 1984 (Oxford Synthesiser Company article), and production end as 1985 vs 1986. The name is Americanised to 'Oxford Synthesizer Company' by some sources (Sound on Sound, some Commons categories); same entity, not a rename. soundonsound.com and UK Companies House were blocked by the fetch allowlist and would likely settle the launch year.",
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Electronic Dream Plant",
+      "queue_name": "Electronic Dream Plant",
+      "country": "United Kingdom",
+      "official_website": null,
+      "status": "defunct",
+      "short_history": "Electronic Dream Plant (EDP) was a small synthesizer manufacturer based near Oxford, England, founded in 1977 by musician Adrian Wagner together with electronics designer Chris Huggett. The company made its name with the Wasp, a cheap, brightly coloured monosynth with a non-mechanical touch keyboard that undercut the price of rival synths of the era. EDP expanded the line with the single-oscillator Gnat, the Spider step sequencer and the Caterpillar keyboard controller, but persistent financial trouble led Huggett to leave around 1980 and the original company to collapse into bankruptcy. Wagner kept the brand alive briefly through a follow-up venture before losing control of it in 1981, and the EDP name disappeared from the market by 1982. Decades later the Wasp's hybrid digital-oscillator and analog-filter design, and even its clunky touch keyboard, have inspired reissues and clones from other manufacturers.",
+      "long_history": "EDP was set up in 1977 in the countryside outside Oxford by the musician and self-taught synth builder Adrian Wagner, who partnered with electronics engineer Chris Huggett to turn Wagner's idea for an affordable synthesizer into a sellable product. To get it into production, the pair secured roughly 10,000 pounds in backing from a London musical-instrument retailer, Argent's Keyboards. The result was the Wasp, unveiled in 1978 at the low price of 199 pounds, well under half what a comparable synth cost at the time. Its yellow-and-black striped case, borrowed from its insect-themed name, hid two digital oscillators feeding an analog filter, plus a keyboard with no moving keys at all: flat capacitive touch-plates under a printed sticker, an approach that saved money but proved fragile and unpopular with players used to a real keyboard action. Even so, the Wasp sold well enough that the first batch reportedly cleared out of a London shop within hours of going on sale in September 1978. EDP followed the Wasp with several siblings: the cheaper single-oscillator Gnat, styled by outside product designer Anthony Harrison-Griffin; the Wasp Deluxe of 1979, which added a proper mechanical keyboard and wood side panels; and the Spider, a 252-step digital sequencer built with the help of Oxford University engineer Steve Evans, unusually deep-featured for its time. A four-voice keyboard controller called the Caterpillar followed in 1980, though by then Huggett, after the company ran into serious money trouble in 1979, had already left. EDP subsequently went bankrupt as unpaid supplier debts piled up. Wagner tried to keep going under a renamed successor, Electronic Dream Plant (Oxford), which kept producing the Gnat, but he was pushed out of that venture too in 1981; he then set up a further small outfit, Wasp Synthesizers, that built a handful of wood-cased 'Special' editions of the Wasp and Gnat before folding within the year. The EDP name itself ceased trading by 1982. Huggett went on to found the Oxford Synthesiser Company that same year and later worked with Akai and, from the 1990s, Novation, where the 1992 Bass Station and its descendants explicitly drew on the Wasp's oscillator design. The Wasp's reputation has only grown since: its sound and touch-plate keyboard were cloned by hobbyists in the 2017 'Jasper DIY' project and, in 2019, given an affordable modern hardware remake by Behringer.",
+      "name_history": [
+        {
+          "name": "Electronic Dream Plant (Oxford)",
+          "start_year": 1980,
+          "end_year": 1981
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.vintagesynth.com/electronic-dream-plant-edp/wasp",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1977 by Adrian Wagner and Chris Huggett",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "1981 trade profile credits Adrian Wagner as founder, without naming Huggett as co-founder",
+          "source_url": "http://www.muzines.co.uk/articles/electronic-dream-plant-limited/2641",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Wasp launched 1978 at 199 pounds; dual DCOs, analog filter, capacitive touch keyboard",
+          "source_url": "https://www.vintagesynth.com/electronic-dream-plant-edp/wasp",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Gnat, Spider 252-step sequencer (with Steve Evans), Caterpillar controller (1980); Jasper DIY clone 2017, Behringer Wasp 2019",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Huggett founded OSC in 1982, later Akai and Novation (Bass Station, 1992 onward)",
+          "source_url": "https://en.wikipedia.org/wiki/Chris_Huggett",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Electronic Dream Plant (Oxford)",
+          "value": "Wagner-led successor that kept producing the Gnat until he was ousted in 1981",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Dream_Plant",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Wasp launched 1978 at 199 pounds; dual DCOs, analog filter, capacitive touch keyboard",
+          "source_url": "https://www.vintagesynth.com/electronic-dream-plant-edp/wasp",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Huggett founded OSC in 1982, later Akai and Novation (Bass Station, 1992 onward)",
+          "source_url": "https://en.wikipedia.org/wiki/Chris_Huggett",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "Founders: Wikipedia credits both Adrian Wagner and Chris Huggett as 1977 co-founders, while a contemporaneous May 1981 trade profile (muzines.co.uk) describes the company as established by Wagner alone. Possibly a reflection of Huggett having already left rather than a factual disagreement, but unresolved.",
+        "name_history entry 'Electronic Dream Plant (Oxford)': it is ambiguous whether this was a renamed continuation of the same entity or a legally distinct new company; the 1980-1981 year range is inferred from context, not stated in any source.",
+        "Closure timeline: Huggett left in early 1980, the original company went bankrupt after that, the Oxford successor ran until Wagner was ousted in 1981, and Wikipedia states 'EDP closed in 1982' without making clear which entity that refers to."
+      ],
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Siel",
+      "queue_name": "Siel",
+      "country": "Italy",
+      "official_website": null,
+      "status": "acquired",
+      "short_history": "Siel (Societa Industrie Elettroniche) was founded in 1976 in Acquaviva Picena, in Italy's Marche region, by Carlo Lucarelli, an electronics designer who had previously worked at fellow Italian instrument maker Farfisa. Over the following decade the company built electronic organs and a well-regarded run of analog synthesizers, including the polyphonic Orchestra, the budget-friendly Cruise, and the six-voice Opera 6 and DK-series keyboards that added MIDI as the format matured. Some Siel designs were sold abroad under other brands, most notably as the ARP Quartet and the Sequential Circuits Prelude. The company's independent run ended in 1987 when its business combined with Roland's European operations, after which the Siel product line was discontinued.",
+      "long_history": "Siel traces back to 1976, when Carlo Lucarelli left Farfisa, another Marche-region instrument manufacturer, to start his own electronics firm in the small town of Acquaviva Picena in the province of Ascoli Piceno. This put Siel in the middle of a cluster of Italian keyboard makers active in the region from the 1950s through the 1980s, alongside Farfisa, Crumar, Elka, Bontempi, Eko and Welson. Siel's early focus was electronic organs, but by the late 1970s it had moved into synthesizers. Its 1979 Orchestra was a fully polyphonic, performance-oriented instrument built around a divide-down oscillator design with preset brass, string, reed/organ and piano voices; it proved influential enough that ARP Instruments licensed a version for the US market as the Quartet. A simpler monophonic model, the Mono, followed in 1980, and the 1981 Cruise combined elements of the Mono and Orchestra designs. In 1982 Siel revisited its flagship polysynth with the OR400 (Orchestra 2), a six-voice, two-oscillator-per-voice instrument that was among the first affordable polyphonic synths to offer velocity sensitivity and MIDI; Sequential Circuits distributed a rebadged version as the Prelude. Siel's best-remembered instrument is the Opera 6, an analog six-voice polysynth in the same market segment as Roland's Juno series, with later production runs swapping in DCOs for tuning stability and adding MIDI. The mid-1980s DK line (DK600, DK700, DK80, DK70) extended the Opera 6 architecture into splittable, layerable and dual-synth configurations, and Siel also built peripheral products such as the CMK 49 keyboard interface for the Commodore 64. The company's run as an independent maker ended in 1987, though sources characterise the event differently: one account describes Roland straightforwardly buying out Siel to acquire its Italian sales and distribution network, needed after an existing Roland distributor went bankrupt, and immediately discontinuing Siel's own product lines; another describes it as a joint venture between Siel and Roland Corporation of Osaka that formed a new entity, Roland Europe S.p.A. Either way, Siel-branded products ended in 1987 and the business became part of Roland's European operation.",
+      "name_history": [
+        {
+          "name": "Societa Industrie Elettroniche",
+          "start_year": 1976,
+          "end_year": 1987
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Roland Corporation",
+          "relation_type": "acquired_by",
+          "year": 1987
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://www.wikidata.org/wiki/Q594443",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://electronicmusic.fandom.com/wiki/SIEL",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1976 by Carlo Lucarelli, previously of Farfisa",
+          "source_url": "https://www.wikidata.org/wiki/Q594443",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Orchestra, Mono, Cruise, OR400/Orchestra 2, Opera 6, DK600/DK700/DK80/DK70, CMK 49",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Orchestra sold by ARP as the Quartet; OR400 sold by Sequential Circuits as the Prelude",
+          "source_url": "https://commons.wikimedia.org/wiki/Category:Societa_Industrie_Elettroniche_(SIEL)",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Opera 6 production run 1983-1985, comparable to the Juno series",
+          "source_url": "https://www.vintagesynth.com/siel/opera-6",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Societa Industrie Elettroniche",
+          "value": "Full company name behind the Siel brand",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired_by:Roland Corporation",
+          "value": "1987 combination with Roland forming Roland Europe S.p.A.",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Orchestra, Mono, Cruise, OR400/Orchestra 2, Opera 6, DK600/DK700/DK80/DK70, CMK 49",
+          "source_url": "https://en.wikipedia.org/wiki/Siel",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Orchestra sold by ARP as the Quartet; OR400 sold by Sequential Circuits as the Prelude",
+          "source_url": "https://commons.wikimedia.org/wiki/Category:Societa_Industrie_Elettroniche_(SIEL)",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Opera 6 production run 1983-1985, comparable to the Juno series",
+          "source_url": "https://www.vintagesynth.com/siel/opera-6",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "Dissolution year: the English Wikipedia article text says Siel was disestablished in 1986, while Wikidata (Q594443) lists 1987.",
+        "Nature of the 1987 Roland event: a fan wiki frames it as Roland buying Siel outright for its distribution channels and then discontinuing Siel products; Italian Wikipedia (per search summary, it.wikipedia.org is not on the fetch allowlist) frames it as a joint venture creating Roland Europe S.p.A. Both agree on the 1987 date and the end of Siel-branded products but disagree on deal structure."
+      ],
+      "review_note": "Product-level: Opera 6 release given as 1983 (Vintage Synth Explorer) vs 1984 (English Wikipedia).",
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Teisco",
+      "queue_name": "Teisco",
+      "country": "Japan",
+      "official_website": null,
+      "status": "acquired",
+      "short_history": "Teisco began in Tokyo in 1946 as a small electronics workshop founded by guitarist Atsuwo Kaneko and engineer Doryu Matsuda, going through two name changes before settling on 'Teisco Co.' in 1964. It became internationally known in the 1960s for inexpensive, distinctively shaped electric guitars, basses, amplifiers and drum kits exported to the US and UK. Piano maker Kawai acquired Teisco in 1967, wound the guitar business down over the following years, and in the late 1970s and early 1980s repurposed the Teisco name for a line of analog synthesizers such as the 100F, 60F, 110F and the four-voice SX-400, before retiring the brand. A separate, unrelated 2018 revival by BandLab Technologies brought the Teisco name back only for guitar effects pedals, not synthesizers.",
+      "long_history": "Teisco's roots go back to 1946, when Hawaiian- and Spanish-guitar player Atsuwo Kaneko partnered with electrical engineer Doryu Matsuda to found a small instrument workshop in Tokyo, initially called Aoi Onpa Kenkyujo. The company was renamed Nippon Onpa Kogyo Co. in 1956 and finally Teisco Co. in 1964. Despite the name superficially reading like an acronym for 'Tokyo Electric Instrument and Sound Company', Kaneko himself reportedly said on record that this was not the origin, and that he simply liked how the name sounded. Through the 1950s and 1960s Teisco built a reputation, especially abroad, for affordable and unusually styled electric guitars, the palette-shaped 'May Queen' model being a well-known example, often loaded with four pickups and elaborate switching, along with basses including the six-string TB-64, amplifiers frequently badged 'Checkmate', drum kits and PA gear; production scaled up to tens of thousands of guitars a month at its peak, much of it OEM work for export markets including the US and UK, where players such as Hound Dog Taylor later used the instruments and where they found a second life in the 1990s among noise-rock and alternative guitarists as cheap alternatives to vintage Fenders. A downturn in the mid-1960s led Teisco to be acquired in 1967 by Kawai Musical Instruments Manufacturing Co., the Hamamatsu piano maker founded in 1927. Kawai ran Teisco largely as a separate operation at first, phasing out the Teisco name on guitars by 1969 in export markets and 1977 within Japan itself. Around 1977 to 1980, Kawai used the Teisco name for its first synthesizers, starting with the Synthesizer 100F, and expanded the range as Kawai pushed into overseas synth sales: the monophonic 60F and duophonic 110F arrived together, followed in 1981 by Kawai's first polyphonic synth, the four-voice SX-400, sold under the Teisco name outside Japan and sometimes as a Kawai-badged unit even within the same production run, since branding was inconsistent. By the mid-1980s Kawai had folded the Teisco brand entirely into its own name for keyboards. The Teisco name lay dormant for decades until 2018, when Singapore-based BandLab Technologies revived it, not for synthesizers or guitars but as a line of guitar effects pedals shown at that year's NAMM show; this revival is a distinct, present-day use of the name that falls outside the synth, organ and electric-piano scope of this database.",
+      "name_history": [
+        {
+          "name": "Aoi Onpa Kenkyujo",
+          "start_year": 1946,
+          "end_year": 1956
+        },
+        {
+          "name": "Nippon Onpa Kogyo Co.",
+          "start_year": 1956,
+          "end_year": 1964
+        },
+        {
+          "name": "Teisco Co., Ltd.",
+          "start_year": 1964,
+          "end_year": null
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Kawai Musical Instruments",
+          "relation_type": "acquired_by",
+          "year": 1967
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco_Del_Rey",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1946 by Atsuwo Kaneko and Doryu Matsuda; renamed 1956 and 1964",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "May Queen guitar, TB-64 bass, Checkmate amps; notable users incl. Hound Dog Taylor, Jim Reid, James Iha",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Synthesizer 100F (1977), 60F and 110F, SX-400 (1981), Kawai's first polysynth",
+          "source_url": "https://reverb.com/news/the-earliest-synths-to-come-out-of-japan",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "SX-400: four-voice analog synth, 1981-1982, comparable to the Juno-6",
+          "source_url": "https://www.vintagesynth.com/misc/sx400.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Kaneko denied the 'Tokyo Electric Instrument and Sound Co.' acronym story",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco_Del_Rey",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "2018 BandLab revival used the name for fuzz/boost/delay pedals only, no synths",
+          "source_url": "https://www.gearnews.com/namm-2018-teisco-relaunched-brand-fuzz-boost-delay-effects/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Aoi Onpa Kenkyujo",
+          "value": "Original 1946 company name",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "name_history:Nippon Onpa Kogyo Co.",
+          "value": "Company name from 1956",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired_by:Kawai Musical Instruments",
+          "value": "Kawai acquired Teisco in 1967",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Synthesizer 100F (1977), 60F and 110F, SX-400 (1981), Kawai's first polysynth",
+          "source_url": "https://reverb.com/news/the-earliest-synths-to-come-out-of-japan",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "SX-400: four-voice analog synth, 1981-1982, comparable to the Juno-6",
+          "source_url": "https://www.vintagesynth.com/misc/sx400.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Kaneko denied the 'Tokyo Electric Instrument and Sound Co.' acronym story",
+          "source_url": "https://en.wikipedia.org/wiki/Teisco_Del_Rey",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "2018 BandLab revival used the name for fuzz/boost/delay pedals only, no synths",
+          "source_url": "https://www.gearnews.com/namm-2018-teisco-relaunched-brand-fuzz-boost-delay-effects/",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "Founding year: the English Wikipedia article states in one place that Teisco 'operated from 1948 to 1967' and in another that it was founded in 1946, an internal inconsistency in the same source. 1946, with named founders, is the more specific figure and is used here, but the discrepancy is unresolved."
+      ],
+      "review_note": "Not a conflict, a market nuance: the Teisco name was dropped from guitars in 1969 for export markets but only in 1977 within Japan. kawai-global.com and reverb.com were blocked by the fetch allowlist, so the synth-era dates rest on search snippets plus Vintage Synth Explorer.",
+      "logo_candidate_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Teisco_circlelogo.svg"
+    },
+    {
+      "canonical_name": "Ace Tone",
+      "queue_name": "Ace Tone",
+      "country": "Japan",
+      "official_website": null,
+      "status": "defunct",
+      "short_history": "Ace Tone, formally Ace Electronic Industries Inc., was a Japanese manufacturer of organs, amplifiers, effects units and drum machines, founded in Osaka in 1960 by engineer Ikutaro Kakehashi with backing from the trading company Sakata Shokai. Its best-known product was the Rhythm Ace line of preset drum machines, starting with the six-button R1 in 1964 and reaching commercial success with the FR-1 in 1967, which led to a business partnership with the Hammond Organ Company. In 1972 Kakehashi left to found Roland Corporation, and Ace Tone itself was folded into a Hammond and Sakata Shokai joint venture called Nihon Hammond soon after, ending the Ace Tone brand as an independent line. Roland's earliest drum machines directly reused Ace Tone circuit designs, making Ace Tone the acknowledged forerunner of Roland even though the two companies were never formally merged.",
+      "long_history": "Ikutaro Kakehashi (1930-2017) began repairing radios and electronics in Osaka in the 1950s after recovering from tuberculosis, and by the late 1950s was experimenting with building his own electric organ from spare parts. He formally founded Ace Electronic Industries Inc., trading as Ace Tone, in Osaka in 1960 with investment from the trading house Sakata Shokai, initially building amplifiers before moving into electronic organs, some of which were sold as OEM products under the Matsushita/Panasonic and National brands. In 1964 Kakehashi unveiled the R1 Rhythm Ace at the NAMM Show, a transistorized six-button percussion instrument regarded as one of the earliest fully electronic drum devices, though it sold poorly because it lacked automatic accompaniment patterns. Ace Tone set up US distribution through the Sorkin company in 1965, and in 1967 launched the FR-1 Rhythm Ace, which added automatically triggered preset rhythm patterns and variable tempo; the FR-1 was a commercial hit and led to a partnership with the American organ maker Hammond. Through the late 1960s and early 1970s Ace Tone expanded into combo and home organs (the TOP and GT series, the X-3), electric pianos (AP-100), synthesizers (the Multistrings SY-5, PS-1000 and SY-100), guitar effects including fuzz boxes and echo units, and a wide range of guitar and bass amplifiers, PA mixers and microphones, sold partly under other brand names such as Multivox. Kakehashi left the company in 1972 to found Roland Corporation; not long after, Ace Electronic Industries was restructured into Nihon Hammond, a joint venture between the Hammond Organ Company and Sakata Shokai, and the Ace Tone name faded from the market. Roland's own first drum machines, the Rhythm 33 and Rhythm 77, were direct descendants of Ace Tone's FR-3L and FR-7L models, cementing Ace Tone's reputation as Roland's direct technical and commercial ancestor, though the sources reviewed describe no formal corporate merger or acquisition linking the two companies.",
+      "name_history": [
+        {
+          "name": "Ace Electronic Industries Inc.",
+          "start_year": 1960,
+          "end_year": 1972
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Roland Corporation",
+          "relation_type": "predecessor_of",
+          "year": 1972
+        },
+        {
+          "related_company": "Hammond Organ Company",
+          "relation_type": "merged_into",
+          "year": null
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Japan",
+          "source_url": "https://www.wikidata.org/wiki/Q4673009",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Ikutaro_Kakehashi",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded 1960 in Osaka by Ikutaro Kakehashi with Sakata Shokai investment",
+          "source_url": "https://www.wikidata.org/wiki/Q4673009",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "R1 Rhythm Ace (1964), FR-1 (1967), Hammond partnership, organs, AP-100 electric piano, SY-5/PS-1000/SY-100",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Rhythm Ace FR-1/FR-2/FR-20/FR-6 technical detail, fully analog, shared PCBs",
+          "source_url": "https://www.matrixsynth.com/2023/11/the-ace-tone-rhythm-ace-family-fr-1.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Ace Electronic Industries Inc.",
+          "value": "Formal company name behind the Ace Tone brand",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:predecessor_of:Roland Corporation",
+          "value": "Kakehashi left Ace Tone in 1972 to found Roland; Roland's Rhythm 33 and 77 descend from Ace Tone's FR-3L and FR-7L",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:merged_into:Hammond Organ Company",
+          "value": "Ace Tone restructured under Nihon Hammond, a Hammond and Sakata Shokai joint venture",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "R1 Rhythm Ace (1964), FR-1 (1967), Hammond partnership, organs, AP-100 electric piano, SY-5/PS-1000/SY-100",
+          "source_url": "https://en.wikipedia.org/wiki/Ace_Tone",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Rhythm Ace FR-1/FR-2/FR-20/FR-6 technical detail, fully analog, shared PCBs",
+          "source_url": "https://www.matrixsynth.com/2023/11/the-ace-tone-rhythm-ace-family-fr-1.html",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "End of the Ace Tone brand is imprecise within one source: Wikipedia says Kakehashi left in 1972 but separately dates the Nihon Hammond restructuring to 'the mid-1970s'; the two statements are not reconciled, so the merged_into relation is stored without a year.",
+        "The Roland link is founder continuity and product lineage, not a corporate transaction: no source describes an asset or equity transfer from Ace Tone to Roland. Stored as predecessor_of rather than as an acquisition or spin-off, which may need review.",
+        "A search summary claimed Kakehashi's 1972 departure was triggered by Sakata Shokai being acquired by Sumitomo Chemical; this did not appear in the fetched Wikipedia content and is omitted from the history as unverified."
+      ],
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Serge Modular Music Systems",
+      "queue_name": "Serge Modular",
+      "country": "United States",
+      "official_website": "https://serge-modular.com/",
+      "status": "active",
+      "short_history": "Serge Modular is an American analog modular synthesizer system created by composer and engineer Serge Tcherepnin, developed together with Rich Gold and Randy Cohen at CalArts starting in late 1972. Tcherepnin hand-built the first roughly twenty units in 1973 and formally established Serge Modular Music Systems in California in 1974 to manufacture and sell the modules commercially, positioning them as a cheaper, more DIY-friendly alternative to Buchla and Moog systems. Production continued through the 1970s and into the mid-1980s, until Tcherepnin closed the original company in 1986 and returned to France. In the early 1990s the designs and production passed to Rex Probe's Sound Transform Systems, and since around 2015 the German company Random*Source has produced Serge modules in both classic 4U and Eurorack formats in collaboration with Tcherepnin himself, who since 2018 holds the title Chief Innovation Officer there.",
+      "long_history": "Serge Alexandrovich Tcherepnin, born in 1941 near Paris into a family of composers, studied with Nadia Boulanger and at Harvard before working with Pierre Boulez and Karlheinz Stockhausen in the late 1960s. While teaching at CalArts under Morton Subotnick in the early 1970s, Tcherepnin worked with students Rich Gold and Randy Cohen to design a new kind of modular synthesizer aimed at being far less expensive than the Buchla systems used at the school; conceptual work began in late 1972 and the first roughly twenty hand-built units, informally called 'Tcherepnins', were assembled in Tcherepnin's home in 1973. After leaving his CalArts post in 1974, Tcherepnin set up a small manufacturing operation, first in Hollywood, to build the system commercially under the name Serge Modular Music Systems, with mass production ramping up from 1975. Unlike Buchla's approach of one dedicated function per module, Serge panels exposed raw circuit building blocks, using colour-coded banana jacks for control voltage, audio and gate signals, so that patchers could combine them in unconventional ways. The company relocated to a Victorian house on Haight Street in San Francisco around 1980, but sales declined through the early 1980s, and Tcherepnin closed Serge Modular Music Systems altogether in 1986, moving back to France; from 1986 to roughly 1993 modules were still built only occasionally, to special order. In the early 1990s Tcherepnin sold the circuit designs to Rex Probe, an early collaborator, who founded Sound Transform Systems in Oakland, California to resume regular production, later packaging modules into more approachable pre-built 'Shop Panel' and 'M-Class' systems; sources give either 1992 or 1993 for that transfer. Tcherepnin also non-exclusively licensed the Serge designs to several other manufacturers over time, including CGS and Elby Designs in Australia; the most prominent of these today is the German company Random*Source, which began building Serge modules in classic 4U and newer Eurorack formats around 2015 and now runs serge-modular.com as the current public face of the brand. Since 2018 Tcherepnin himself has again been formally involved as Random*Source's Chief Innovation Officer, working on what the company describes as a fifth generation of Serge modular hardware.",
+      "name_history": [],
+      "relations": [
+        {
+          "related_company": "Sound Transform Systems",
+          "relation_type": "acquired_by",
+          "year": null
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_Tcherepnin",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_Tcherepnin",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://www.vintagesynth.com/serge/modular",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "official_website",
+          "value": "serge-modular.com, described in search results as the official home of Serge Modular, run with Random*Source. NOT verified by direct fetch, domain not on the quarantine-reader allowlist.",
+          "source_url": "https://serge-modular.com/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Designed by Tcherepnin, Rich Gold and Randy Cohen at CalArts late 1972; first ~20 units 1973; company founded 1974; production 1975-1986",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Tcherepnin born 1941, closed the company 1986, Random*Source Chief Innovation Officer since 2018",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_Tcherepnin",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Production interrupted 1986-1993; designs sold to Rex Probe; Shop Panel and M-Class systems under Sound Transform Systems",
+          "source_url": "https://www.vintagesynth.com/serge/modular",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:acquired_by:Sound Transform Systems",
+          "value": "Designs and production passed to Rex Probe's Sound Transform Systems in the early 1990s",
+          "source_url": "https://www.vintagesynth.com/serge/modular",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Tcherepnin born 1941, closed the company 1986, Random*Source Chief Innovation Officer since 2018",
+          "source_url": "https://en.wikipedia.org/wiki/Serge_Tcherepnin",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Production interrupted 1986-1993; designs sold to Rex Probe; Shop Panel and M-Class systems under Sound Transform Systems",
+          "source_url": "https://www.vintagesynth.com/serge/modular",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "Year the Serge designs passed to Rex Probe / Sound Transform Systems: 1992 in one summary, 1993 in the directly fetched text of the same site (vintagesynth.com). Stored without a year.",
+        "official_website could not be verified: serge-modular.com is not on the quarantine-reader allowlist, so the URL and its description come from search snippets only and the site was never read.",
+        "One search summary states Sound Transform Systems was founded by Rex Probe in 1984, which would predate the Serge transfer by several years; not corroborated by the fetched page."
+      ],
+      "review_note": "Random*Source (Germany) builds Serge modules under licence with Tcherepnin's involvement. That is a licensing and collaboration arrangement, not a merger or acquisition, so it is deliberately NOT stored as a relation; Random*Source is queued separately as a manufacturer to research on its own.",
+      "logo_candidate_url": null
+    },
+    {
+      "canonical_name": "Crumar",
+      "queue_name": "Crumar",
+      "country": "Italy",
+      "official_website": "https://www.crumar.it/",
+      "status": "active",
+      "short_history": "Crumar was an Italian maker of electronic organs, string machines and analog synthesizers, founded in Castelfidardo in the late 1960s by Mario Crucianelli together with a business partner named Marchetti, whose surnames were blended to create the brand name. Through the 1970s the company built organs and string and piano synthesizers before moving into fuller synthesizer designs, culminating in respected models such as the DS-2, the Bob Moog-designed Spirit, and the DCO-based Bit One, Bit 01 and Bit 99 polysynths of the mid-1980s. Competition from Japanese digital keyboard makers pushed the original company out of business in the mid-to-late 1980s. In 2008 the Crumar name was revived as a new Italian company, and it now sells digital organs, stage pianos and occasional reissues of classic models under the original brand.",
+      "long_history": "Crumar traces back to Castelfidardo, a historic Italian hub for accordion and electronic-instrument manufacturing. It grew out of Mario Crucianelli's existing accordion business, and the Crumar name was formed by combining syllables of 'Crucianelli' and 'Marchetti', the surname of a business partner. Through the early-to-mid 1970s Crumar's catalogue centred on electric pianos and string synthesizers, including the Compac-piano, Compac-string, Pianoman, Stringman and Multiman lines, alongside the Organizer series of drawbar organs built between 1974 and 1981 and the Performer analog strings-and-brass synth. In 1978 Crumar released the DS-2, notable for using one of the earliest digitally controlled oscillator designs in a synthesizer. The company also partnered with the New York firm Music Technology Inc. to help produce the GDS and later the Digital Keyboards Synergy digital synthesizers. In 1983 Crumar released the monophonic Spirit, designed in collaboration with Minimoog co-designer Bob Moog and engineer Jim Scott; it became one of the brand's most sought-after instruments and was used by artists including Sun Ra. In 1984 and 1985 Crumar launched the Bit series, comprising the Bit One synth, the Bit 01 rack expander and the Bit 99 keyboard version, six-voice analog polysynths with two DCOs per voice and MIDI, which in the US were also sold under the name 'Unique DBE'. Despite this innovation, the rise of cheaper, more powerful Japanese digital synthesizers such as the Yamaha DX7 eroded Crumar's market, and the original company declared bankruptcy and wound down operations in the second half of the 1980s; one account describes the winding-down as a gradual sale of projects and business units rather than a single closure event. The brand lay dormant until 2008, when it was reformed as a new Italian company; sources name Andrea Agnoletto as the owner who revived it, while another account credits a 2009 acquisition by a firm called V.M. Connection, and it is unclear whether these are the same entity, a rename or sequential owners. Since then Crumar has released digital organs including the Mojo clonewheel line, stage pianos such as the DK61, Sorrento, BURN and Seven, and limited-run analog reissues, among them a 100-unit run of the Spirit reissued in 2023 that has since sold out.",
+      "name_history": [],
+      "relations": [],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Crumar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://www.sequencer.de/syns/crumar/Bit99_bit01_bitOne.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Crumar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://www.crumar.it/ . NOT verified by direct fetch, domain not on the quarantine-reader allowlist.",
+          "source_url": "https://www.crumar.it/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded by Mario Crucianelli in the late 1960s; name from Crucianelli plus Marchetti",
+          "source_url": "https://en.wikipedia.org/wiki/Crumar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "DS-2 (1978), Spirit (1983, designed with Bob Moog), Bit One/Bit 01/Bit 99 (1984-1985)",
+          "source_url": "https://en.wikipedia.org/wiki/Crumar",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Bit series technical detail and the 'Unique DBE' US rebrand",
+          "source_url": "https://www.sequencer.de/syns/crumar/Bit99_bit01_bitOne.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Bit 99 specification and character",
+          "source_url": "https://www.vintagesynth.com/crumar/bit-99",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Bit series technical detail and the 'Unique DBE' US rebrand",
+          "source_url": "https://www.sequencer.de/syns/crumar/Bit99_bit01_bitOne.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Bit 99 specification and character",
+          "source_url": "https://www.vintagesynth.com/crumar/bit-99",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "Founding: Wikipedia says 'the late 1960s' with founder Mario Crucianelli; a Reverb summary gives 1971 and once misnames the founder 'Marco' Crucianelli. Reverb could not be fetched (not on the allowlist), so this is a search-snippet claim only.",
+        "Closure year: Wikipedia gives 1987; a Reverb summary gives 1986, tied to a bankruptcy just before a planned sampler launch.",
+        "Revival: Wikipedia says the brand was revived in 2008 by an unnamed new Italian company; a Perfect Circuit article (HTTP 403, not fetchable) reportedly says V.M. Connection acquired the rights in 2009; a ZoomInfo snippet names Andrea Agnoletto as the owner who reformed it in 2008. Whether these describe one entity or successive owners is unresolved."
+      ],
+      "logo_candidate_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Crumar_logo.png"
+    },
+    {
+      "canonical_name": "Elka",
+      "queue_name": "Elka",
+      "country": "Italy",
+      "official_website": null,
+      "status": "defunct",
+      "short_history": "Elka was an Italian electronic organ and synthesizer manufacturer based in Castelfidardo, active from the 1960s through the mid-1980s and best known for its Rhapsody string-synthesizer line and the Synthex, a highly regarded eight-voice polyphonic analog synthesizer designed by independent engineer Mario Maggi and produced by Elka from 1981 to 1985. As a company more focused on home and combo organs, Elka never became a dominant force in the professional synthesizer market despite the Synthex's later cult status among electronic musicians. In the late 1980s Elka's business and instrument lines passed to General Electro Music (GEM), a fellow Castelfidardo instrument maker, which was itself consolidated into the Generalmusic group; from then on Elka survived mainly as one of Generalmusic's brand names rather than an independent company. Generalmusic's own financial collapse in the early 2010s, and a 2015 crowdfunding attempt to relaunch a Synthex reissue that failed to reach its funding goal, left Elka without any active production or official website today.",
+      "long_history": "Elka's roots go back to Castelfidardo, one of Italy's historic centres for accordion and electronic-organ manufacturing, alongside contemporaries such as Farfisa, Crumar and GEM. Secondary, forum-derived sources describe Elka as founded around 1965, reading the name as an acronym combining 'Elettronica' and 'Kastelfidardo'; one such source names Mario and Piero Crucianelli plus two additional partners as founders, though this comes from a non-authoritative forum thread and could not be corroborated against a primary source, so it should be treated cautiously. Elka built home and combo organs through the late 1960s and 1970s, including models such as the Solist 505 monophonic synth, the Artist 707 and the X-705 combo organ and synth, and the Rhapsody string-synthesizer series, the Rhapsody 490 with a 49-key keyboard and two layerable voices and the larger Rhapsody 610 with 61 keys and four voices, built roughly between 1974 and 1980. Elka's best-known product, the Synthex, began as the independent creation of Milan-based designer Mario Maggi, who built a working prototype in 1981 after being turned down for backing by other Italian manufacturers including Crumar and GEM; he ultimately demonstrated the instrument to Elka executives through a chance introduction, and Elka agreed to fund and manufacture it. The Synthex launched at the 1982 Frankfurt Musikmesse, used a Rockwell 6502P CPU, eight-voice polyphony with two DCOs per voice, a built-in four-track sequencer, a multimode filter and a joystick for pitch and modulation instead of a wheel; roughly 1,850 units were built through 1985. It became popular with artists including Jean-Michel Jarre, who used it for the laser-harp sounds on 'Rendez-Vous', as well as Stevie Wonder, Depeche Mode's Martin Gore, Duran Duran's Nick Rhodes, Keith Emerson and film composer Fabio Frizzi. In the UK the brand was distributed as 'Elka-Orla' by a company called Bluebridge Music, which packaged Elka and the separate manufacturer Orla under one storefront name; Elka and Orla were never the same Italian legal company, and Orla, founded independently in Castelfidardo by Nazzareno Orlandoni, continued operating long after Elka's Italian operations ended. Elka's own instrument business was acquired by General Electro Music, another Castelfidardo maker, in either 1987 or 1989 depending on the source. GEM and Elka, along with a studio-equipment line called LEM, were later consolidated under the corporate name Generalmusic around 1994, which then marketed GEM, LEM and Elka as three separate brand lines. Generalmusic ran into serious financial trouble in the late 2000s, laying off staff in February 2009 and ultimately filing for bankruptcy around 2011. In December 2014 a Finnish group, Soundion Oy Ltd, took over ownership of the GEM, LEM and Elka brands and announced plans to bring back a product lineup in 2015 including a possible Synthex reissue; an Indiegogo campaign launched around July 2015 to fund that reissue failed to reach its goal, and no Elka products or official Elka website have surfaced since.",
+      "name_history": [],
+      "relations": [
+        {
+          "related_company": "GEM (General Electro Music)",
+          "relation_type": "acquired_by",
+          "year": null
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Synthex",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Rhapsody",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Generalmusic",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://www.matrixsynth.com/2009/02/general-music-no-more.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Founded around 1965 in Castelfidardo, name read as Elettronica plus Kastelfidardo",
+          "source_url": "https://organforum.com/forums/forum/electronic-organs-midi/home-organs/17128-orla-elka",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Synthex designed by Mario Maggi, produced by Elka 1981-1985, ~1,850 units, notable users",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Synthex",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Rhapsody 490 and 610 string synthesizers, 1974-1980; X-705 and Solist 505",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Rhapsody",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Maggi pitched Elka after being turned down by Crumar and GEM",
+          "source_url": "https://www.gearnews.com/italian-synthesizers/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Elka and Orla were separate companies; 'Elka-Orla' was a UK distributor brand used by Bluebridge Music",
+          "source_url": "https://organforum.com/forums/forum/electronic-organs-midi/home-organs/17128-orla-elka",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "GEM/LEM/Elka brand structure under Generalmusic; 2011 bankruptcy; Soundion Oy took over the brands end of 2014; failed 2015 Indiegogo Synthex reissue",
+          "source_url": "https://en.wikipedia.org/wiki/Generalmusic",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired_by:GEM (General Electro Music)",
+          "value": "GEM acquired the Elka brand in 1987 or 1989 depending on source",
+          "source_url": "https://www.matrixsynth.com/2009/02/general-music-no-more.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Synthex designed by Mario Maggi, produced by Elka 1981-1985, ~1,850 units, notable users",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Synthex",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Rhapsody 490 and 610 string synthesizers, 1974-1980; X-705 and Solist 505",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Rhapsody",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Maggi pitched Elka after being turned down by Crumar and GEM",
+          "source_url": "https://www.gearnews.com/italian-synthesizers/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "GEM/LEM/Elka brand structure under Generalmusic; 2011 bankruptcy; Soundion Oy took over the brands end of 2014; failed 2015 Indiegogo Synthex reissue",
+          "source_url": "https://en.wikipedia.org/wiki/Generalmusic",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "GEM's acquisition of Elka is dated 1987 by one source and 1989 by another; stored without a year.",
+        "Founding: the 1965 founding date and the founder names (Mario and Piero Crucianelli plus partners) come from a single forum thread with no corroboration. If true it would imply a family link to Crumar's founder Mario Crucianelli, which no other source discusses. Treated as unverified.",
+        "Wikipedia's Elka Rhapsody infobox attributes 1974-1980 manufacture to 'Generalmusic', which is chronologically impossible since GEM only acquired Elka in the late 1980s. Almost certainly an artifact of listing the current rights-holder rather than the original maker, but recorded rather than silently corrected."
+      ],
+      "review_note": "The common 'Elka-Orla' name is NOT a rename of Elka: per a detailed forum account it was only a UK retail brand used by distributor Bluebridge Music for two separate Italian companies, so name_history is deliberately left empty. No usable Elka logo exists on Commons or Brands of the World (searches return an unrelated Turkish flag maker, suspension parts and a radio station). Generalmusic is treated as the corporate consolidation of GEM and is described in prose rather than given its own manufacturer record.",
+      "logo_candidate_url": null
+    }
+  ]
+}

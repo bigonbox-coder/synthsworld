@@ -227,6 +227,41 @@ függetlenül attól, hogy ma is gyárt.
       (`field_name` = `'short_history'` and `'long_history'`), same
       per-field confidence rules apply to each independently.
 
+3z. **A DB-írást NE kézzel, SQL-lel csináld: `python3 db/ingest.py <batch.json>`**
+   (2026-08-30-tól). A kutató-kör eredményét egy JSON köteg-fájlba gyűjtsd
+   (`db/batches/YYYYMMDD-*.json`), és azt töltsd be a szkripttel. Ez végzi az
+   upsertet `canonical_name`-re, az append-only `facts_sources` írást, a
+   name_history/relations beszúrást, a kapcsolatból felbukkanó cégek
+   `unresearched` stubjait + queue-sorát, és lépteti a `discovery_queue`-t.
+   Van `--dry-run`, MINDIG futtasd le előbb azzal. A pontos JSON-alakot a
+   szkript docstringje írja le.
+
+   **A `field_name` konvenció KÖTÖTT** (a régi 19 rekord is így épült, ne térj
+   el tőle, különben a confidence-logika nem talál rá a mezőre): `country`,
+   `status`, `official_website`, `short_history`, `long_history`,
+   `relation:<típus>:<Cégnév>`, `name_history:<Név>`. NE írj olyat, hogy
+   "founding/founders" vagy "country, status, canonical_name" -- egy sor egy
+   mezőről szól. A `country`/`status` sor `value`-ja a sima kanonikus érték
+   legyen ("Italy", "defunct"), NE díszítsd zárójeles kiegészítéssel, mert
+   akkor két forrás nem fog egyezni és hamis `needs_review` lesz belőle.
+
+   **A kapcsolatban szereplő cégnevet normalizáld a betöltés ELŐTT** a már
+   létező `canonical_name`-re vagy a `discovery_queue` nevére. Konkrét hiba
+   (2026-08-30): a kutatás "Roland Corporation / Roland Europe S.p.A." és
+   "Kawai Musical Instruments Manufacturing Co., Ltd." néven adta vissza a
+   kapcsolatot, ami a meglévő "Roland Corporation" és a sorban álló "Kawai
+   Musical Instruments" MELLÉ csinált volna új stubot. Mindig nézd meg előbb,
+   szerepel-e a cég valamilyen néven a DB-ben vagy a sorban.
+
+   **Vállalati szintű vs. termék szintű ellentmondás (fontos):** csak az
+   számít `conflicts`-nak (és rántja `needs_review`-ba a rekordot), ami egy
+   TÁROLT gyártó-mezőt érint (ország, státusz, hivatalos oldal, a történet
+   érdemi állítása, névtörténet, kapcsolat). Egy termék megjelenési éve (pl.
+   "az Opera 6 1983 vagy 1984") nem tárolt gyártó-mező, azt a `review_note`
+   mezőbe tedd: rákerül a queue-sor jegyzetére, de nem minősíti vissza a
+   rekordot. Enélkül gyakorlatilag minden gyártó `needs_review` lesz, amitől
+   a jelzés elveszíti az értelmét.
+
 4. **Write every fact to `facts_sources`** BEFORE deciding on confidence --
    one row per (manufacturer, field, source), never overwrite an existing
    row for the same field from a different source. `source_tier` is
@@ -366,6 +401,20 @@ egyszerű névváltozás), vagy bármi, ahol a hiba drága lenne. A "favágás"
 
 ## Buktatók
 
+- **Az allowlist 2026-08-30-án bővült** (`store/egress-allowlist.json` a
+  marveen projektben, session-restart kell hozzá): felkerült a
+  soundonsound.com, gearnews.com, reverb.com, modulargrid.net, sdiy.info,
+  electronicsound.co.uk, electronicmusic.fandom.com, organforum.com,
+  synthanatomy.com, és -- ez a legfontosabb -- a NEM angol Wikipédiák
+  (it/de/ja/fr/ru/es). Korábban csak az `en.wikipedia.org` volt engedve, így
+  egy olasz vagy japán gyártóról szóló, sokszor bővebb helyi szócikk
+  elérhetetlen volt. Olasz/japán/orosz gyártónál MOST MÁR nézd meg a helyi
+  nyelvű Wikipédiát is, ne csak az angolt.
+- Ha egy forrás 403-mal vagy 404-gyel jön vissza (nem allowlist-hiba, hanem
+  bot-védelem vagy rossz útvonal), az is jelentendő, ne próbálkozz kerülő
+  úttal. Konkrét eset: a perfectcircuit.com/signal cikkek 403-at adnak, az
+  encyclotronic.com/manufacturers/<nev>/ útvonal 404-et, a ruskeys.net pedig
+  visszautasította a kapcsolatot.
 - Sose fetch-eld közvetlenül egy külső oldalt -- mindig `quarantine-reader`
   agent-en keresztül, lásd a marveen projekt hasonló szabályát
   (`.claude/skills/kdp-topic-research/SKILL.md`) és annak ismert korlátait
