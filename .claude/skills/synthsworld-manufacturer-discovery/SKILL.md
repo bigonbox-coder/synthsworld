@@ -505,8 +505,15 @@ payload, and surfaces infoboxes):
   DuckDuckGo, Startpage and Qwant return "Suspended: CAPTCHA" more or less
   permanently here; Brave answers but suspends itself under rapid fire. So
   `search.py` no longer uses the "general" category (whose default set is
-  mostly those) and instead names `google cse,bing,brave,marginalia`. Measured
-  on the same query that is 30 results instead of 6. A batch that suddenly
+  mostly those) and instead names its own engine list: `google cse, bing,
+  brave, marginalia, yandex, yep, seznam`. Measured on the same query that is
+  30 results instead of 6, and five engines answering instead of one. **Yandex
+  matters specifically for Cyrillic sources** -- it is the engine that actually
+  indexes the Russian pages a Soviet-era manufacturer needs.
+  `search.py` also paces itself: it records when each search finished and the
+  next one waits out a 4-second gap. Brave's self-suspension lasts far longer
+  than the pause that avoids it, so a burst of fast searches ends up slower AND
+  thinner than paced ones. Do not work around the pacing. A batch that suddenly
   returns thin results is still worth checking against `unresponsive_engines`
   in the output before concluding a manufacturer is undocumented.
 - **If the container is down**, `search.py` exits with "searxng unreachable".

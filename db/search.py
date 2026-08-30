@@ -23,6 +23,8 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import tempfile
+from pathlib import Path
 
 BASE = "http://127.0.0.1:8888/search"
 TIMEOUT = 30
@@ -34,7 +36,32 @@ TIMEOUT = 30
 # four answer reliably; measured on the same query, 30 results instead of 6.
 # Marginalia is in for its indie/vintage index, which is exactly this project's
 # subject matter.
-DEFAULT_ENGINES = "google cse,bing,brave,marginalia"
+DEFAULT_ENGINES = "google cse,bing,brave,marginalia,yandex,yep,seznam"
+
+# Brave suspends itself when queried back to back, and the suspension lasts far
+# longer than the pause that would have avoided it -- so a burst of fast
+# searches ends up SLOWER and thinner than paced ones. Each run records when it
+# finished; the next run waits out the remainder of the gap. A file, not an
+# in-process timer, because every search is a separate process.
+MIN_GAP_SECONDS = 4.0
+LAST_CALL_FILE = Path(tempfile.gettempdir()) / "synthsworld-searxng-last-call"
+
+
+def pace():
+    """Wait out MIN_GAP_SECONDS since the previous search, if it was recent."""
+    try:
+        elapsed = time.time() - LAST_CALL_FILE.stat().st_mtime
+        if elapsed < MIN_GAP_SECONDS:
+            time.sleep(MIN_GAP_SECONDS - elapsed)
+    except OSError:
+        pass  # first run, or the temp file was cleaned up
+
+
+def mark_call():
+    try:
+        LAST_CALL_FILE.touch()
+    except OSError:
+        pass  # pacing is an optimisation, never a reason to fail a search
 
 
 def search(query, lang="", count=10, categories="general", engines="",
@@ -53,6 +80,7 @@ def search(query, lang="", count=10, categories="general", engines="",
         params["language"] = lang
     url = f"{BASE}?{urllib.parse.urlencode(params)}"
 
+    pace()
     last = None
     for attempt in range(retries):
         try:
@@ -66,6 +94,7 @@ def search(query, lang="", count=10, categories="general", engines="",
     else:
         raise SystemExit(f"searxng unreachable after {retries} tries: {last}")
 
+    mark_call()
     out = []
     for r in data.get("results", [])[:count]:
         out.append({
