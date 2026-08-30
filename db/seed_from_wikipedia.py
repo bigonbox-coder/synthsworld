@@ -76,6 +76,30 @@ MAX_NAME = 120
 # Dropped when comparing a harvested name against what we already have, so
 # "Oberheim Electronics" does not get queued next to the existing "Oberheim".
 # Comparison only -- the harvested spelling is what gets stored.
+# Wikidata instance-of classes that mean "this article is a company". The
+# Finnish category tree walked into a per-brand subcategory and produced a
+# snowmobile, two sound chips and a racing team; the Yamaha article's own
+# category is not a list of manufacturers. Titles are also people (Robert Moog)
+# and instruments (Elka Rhapsody). Checking what the item actually IS filters
+# all of that in one step, and anything rejected is printed rather than dropped
+# silently.
+COMPANY_TYPES = {
+    "Q4830453",    # business
+    "Q783794",     # company
+    "Q6881511",    # enterprise
+    "Q891723",     # public company
+    "Q1589009",    # privately held company
+    "Q167037",     # corporation
+    "Q43229",      # organization
+    "Q210167",     # video game developer (software synth makers show up as this)
+    "Q1002697",    # periodical? no -- kept out deliberately
+    "Q18388277",   # technology company
+    "Q1183699",    # record label
+    "Q431289",     # brand
+    "Q3918",       # (university) -- research labs that built instruments
+}
+COMPANY_TYPES.discard("Q1002697")
+
 NOISE_WORDS = {
     "inc", "incorporated", "ltd", "limited", "llc", "gmbh", "ag", "ab", "kg",
     "co", "company", "corp", "corporation", "spa", "srl", "sa", "bv", "nv",
@@ -149,21 +173,30 @@ def resolve_to_wikidata(wiki, titles):
             if qid:
                 qid_by_title[page["title"]] = qid
 
-    label_by_qid = {}
+    label_by_qid, types_by_qid = {}, {}
     for batch in chunks(sorted(set(qid_by_title.values()))):
         data = api("www", {
             "action": "wbgetentities",
             "ids": "|".join(batch),
-            "props": "labels",
+            "props": "labels|claims",
             "languages": "en",
         }, host="www.wikidata.org")
         for qid, ent in data.get("entities", {}).items():
             label = ent.get("labels", {}).get("en", {}).get("value")
             if label:
                 label_by_qid[qid] = label
+            types = set()
+            for claim in ent.get("claims", {}).get("P31", []):
+                value = claim.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+                if isinstance(value, dict) and value.get("id"):
+                    types.add(value["id"])
+            types_by_qid[qid] = types
 
     out = {}
     for title, qid in qid_by_title.items():
+        if not (types_by_qid.get(qid, set()) & COMPANY_TYPES):
+            print(f"  - not a company, skipped: {label_by_qid.get(qid, title)}")
+            continue
         out[title] = (qid, label_by_qid.get(qid))
     return out
 
@@ -206,10 +239,14 @@ def main():
     args = ap.parse_args()
 
     roots = WIKI_ROOTS.get(args.wiki, ROOTS)
+    # Only the English tree has useful subcategories (the "... of <country>"
+    # lists). Elsewhere a subcategory is typically a single brand's own category,
+    # which is where a snowmobile and a racing team came from.
+    walk_subcats = args.wiki not in WIKI_ROOTS
     titles = {}  # raw page title -> source category
     for root in roots:
         pages = members(args.wiki, root, "page")
-        subcats = members(args.wiki, root, "subcat")
+        subcats = members(args.wiki, root, "subcat") if walk_subcats else []
         if not pages and not subcats:
             print(f"  (skipped, no such category: {root})")
             continue
@@ -223,7 +260,9 @@ def main():
     resolved = resolve_to_wikidata(args.wiki, sorted(titles))
     harvested = {}  # name -> (source category, qid)
     for title, cat in titles.items():
-        qid, label = resolved.get(title, (None, None))
+        if title not in resolved:
+            continue  # unresolved or not a company -- reported above
+        qid, label = resolved[title]
         name = clean(label or title)
         if name:
             harvested.setdefault(name, (cat, qid))
