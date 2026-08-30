@@ -320,6 +320,22 @@ függetlenül attól, hogy ma is gyárt.
    though a `manufacturer_logos` row already exists -- don't skip it just
    because a row is present.** Only a NULL/unset review status (never
    reviewed) or `approved` means the existing logo can be left alone.
+   **`outdated` keeps everything as-is** (real logo, real era, just not
+   current -- `start_year`/`end_year` exist on `manufacturer_logos` for
+   attaching that era later, not populated yet). **`wrong` actually
+   DELETES the asset** the moment Kristóf picks it in the admin panel: the
+   local static copy is removed and the row is reset to
+   `drive_file_url=NULL, logo_review_status=NULL` (same shape as
+   "searched, found nothing" everywhere else) -- all done automatically by
+   the standalone Python app itself. **Known gap:** that Python process has
+   no LLM/agent tool access, so it CANNOT call the Drive delete tool itself
+   -- the Drive file is left behind (orphaned) until an agent does a
+   cleanup pass. When starting a research/logo session, check
+   `manufacturer_review_log` for `action='logo_wrong'` rows -- the `note`
+   field records the deleted Drive URL (format:
+   `deleted local=<name> drive_url=<url>`) -- and delete those Drive files
+   via `mcp__google-drive__deleteItem` (extract the file ID from the URL)
+   if not already cleaned up.
 
 8. **Report back to Kristóf** (via Jarvis, in Hungarian, on Telegram): how
    many processed, how many confirmed vs needs_review, and a one-line

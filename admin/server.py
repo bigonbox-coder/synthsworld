@@ -343,25 +343,50 @@ class Handler(http.server.BaseHTTPRequestHandler):
     def _logo_review(self, mid, status):
         # Reversible verdict on a FOUND logo -- Kristóf can change his mind
         # later, this just records the current decision and logs it, same
-        # spirit as manufacturer confirm/unapprove.
+        # spirit as manufacturer confirm/unapprove. EXCEPT 'wrong': that one
+        # is not just a flag, it actually deletes the asset (Kristóf,
+        # 2026-08-30: "kuka" -- it's not even the right company's logo, no
+        # reason to keep it around). 'outdated' keeps everything, it was a
+        # real logo for a real era, just not the current one.
         if status not in ("approved", "outdated", "wrong"):
             self._send_json({"error": "invalid status"}, 400)
             return
         con = db()
         cur = con.cursor()
-        row = cur.execute("SELECT id FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)).fetchone()
+        row = cur.execute("SELECT id, drive_file_url FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)).fetchone()
         if not row:
             con.close()
             self._send_json({"error": "no logo on file for this manufacturer"}, 404)
             return
-        cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE manufacturer_id=?", (status, mid))
+
+        note = None
+        if status == "wrong":
+            drive_url = row["drive_file_url"]
+            deleted_local = None
+            for ext in ("svg", "png"):
+                p = os.path.join(LOGO_DIR, f"{mid}.{ext}")
+                if os.path.exists(p):
+                    os.remove(p)
+                    deleted_local = f"{mid}.{ext}"
+                    break
+            note = f"deleted local={deleted_local} drive_url={drive_url}"
+            # Reset to the same shape as "searched, nothing found" elsewhere
+            # in this app (row exists, drive_file_url NULL) -- logo_status()
+            # already treats that as not_found, no new state to invent.
+            cur.execute(
+                "UPDATE manufacturer_logos SET drive_file_url=NULL, logo_review_status=NULL WHERE manufacturer_id=?",
+                (mid,),
+            )
+        else:
+            cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE manufacturer_id=?", (status, mid))
+
         cur.execute(
             "INSERT INTO manufacturer_review_log (manufacturer_id, action, note) VALUES (?, ?, ?)",
-            (mid, f"logo_{status}", None),
+            (mid, f"logo_{status}", note),
         )
         con.commit()
         con.close()
-        self._send_json({"ok": True, "logo_review_status": status})
+        self._send_json({"ok": True, "logo_review_status": None if status == "wrong" else status})
 
     def _add_note(self, mid, note):
         if not note:
