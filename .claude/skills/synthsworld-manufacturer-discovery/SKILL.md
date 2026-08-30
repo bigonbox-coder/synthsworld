@@ -579,3 +579,15 @@ Conventions, so the column stays comparable across records:
 These are NOT in `CORE_FIELDS` deliberately: Kristóf's priority is breadth
 (get as many manufacturers in as possible), so a missing founding year must
 not downgrade an otherwise well-sourced record.
+
+## synthpedia.net (source added by Kristóf, 2026-08-30)
+
+`https://synthpedia.net/manufacturers/` is a manufacturer index, and the site
+also carries per-instrument pages under each maker
+(`synthpedia.net/<maker>/<model>/`). That makes it useful twice: as a
+name-discovery aggregator for step 0 now, and as an instrument catalogue when
+phase 2 starts. Added to the egress allowlist, so it is reachable from the
+first session started after 2026-08-30.
+
+Treat it as an `other` tier source: it is a curated site, not the
+manufacturer's own word, so on its own it does not confirm a fact.
