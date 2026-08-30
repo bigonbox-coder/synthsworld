@@ -1,0 +1,499 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Roland Corporation",
+      "instruments": [
+        {
+          "name": "AT-500",
+          "source_url": "https://www.roland.com/us/support/by_product/at-500/updates_drivers/",
+          "category": "Atelier Organ"
+        },
+        {
+          "name": "AT-75",
+          "source_url": "https://www.roland.com/us/support/by_product/at-75/updates_drivers/",
+          "category": "Atelier Organ"
+        },
+        {
+          "name": "AT-900",
+          "source_url": "https://www.roland.com/us/support/by_product/at-900/updates_drivers/",
+          "category": "Atelier Organ"
+        },
+        {
+          "name": "C-200",
+          "source_url": "https://www.roland.com/us/support/by_product/c-200/updates_drivers/",
+          "category": "Classic Organ"
+        },
+        {
+          "name": "E-50",
+          "source_url": "https://www.roland.com/us/support/by_product/e-50/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "E-60",
+          "source_url": "https://www.roland.com/us/support/by_product/e-60/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "E-80",
+          "source_url": "https://www.roland.com/us/support/by_product/e-80/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "FA-06",
+          "source_url": "https://www.roland.com/us/support/by_product/fa-06/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "FA-07",
+          "source_url": "https://www.roland.com/us/support/by_product/fa-07/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "FA-08",
+          "source_url": "https://www.roland.com/us/support/by_product/fa-08/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "FANTOM 6 EX",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom_6_ex/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM 7",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom_7/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM 7 EX",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom_7_ex/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM 8 EX",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom_8_ex/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM-06",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-06/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM-07",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-07/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "FANTOM-08",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-08/updates_drivers/",
+          "category": "Synthesizer Keyboard"
+        },
+        {
+          "name": "Fantom-G6",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-g6/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-G7",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-g7/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-G8",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-g8/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-S88",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-s88/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-X6",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-x6/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-X7",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-x7/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-X8",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-x8/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "Fantom-Xa",
+          "source_url": "https://www.roland.com/us/support/by_product/fantom-xa/updates_drivers/",
+          "category": "Workstation Keyboard"
+        },
+        {
+          "name": "G-70",
+          "source_url": "https://www.roland.com/us/support/by_product/g-70/updates_drivers/",
+          "category": "Music Workstation"
+        },
+        {
+          "name": "GAIA 2",
+          "source_url": "https://www.roland.com/us/support/by_product/gaia_2/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "GR-20",
+          "source_url": "https://www.roland.com/us/support/by_product/gr-20/updates_drivers/",
+          "category": "Guitar Synthesizer"
+        },
+        {
+          "name": "GR-33",
+          "source_url": "https://www.roland.com/us/support/by_product/gr-33/updates_drivers/",
+          "category": "Guitar Synthesizer"
+        },
+        {
+          "name": "GR-55",
+          "source_url": "https://www.roland.com/us/support/by_product/gr-55/updates_drivers/",
+          "category": "Guitar Synthesizer"
+        },
+        {
+          "name": "GW-7",
+          "source_url": "https://www.roland.com/us/support/by_product/gw-7/updates_drivers/",
+          "category": "Workstation"
+        },
+        {
+          "name": "GW-8",
+          "source_url": "https://www.roland.com/us/support/by_product/gw-8/updates_drivers/",
+          "category": "Workstation"
+        },
+        {
+          "name": "INTEGRA-7",
+          "source_url": "https://www.roland.com/us/support/by_product/integra-7/updates_drivers/",
+          "category": "SuperNATURAL Sound Module"
+        },
+        {
+          "name": "J-6",
+          "source_url": "https://www.roland.com/us/support/by_product/j-6/updates_drivers/",
+          "category": "Chord Synthesizer"
+        },
+        {
+          "name": "JD-08",
+          "source_url": "https://www.roland.com/us/support/by_product/jd-08/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "JP-08",
+          "source_url": "https://www.roland.com/us/support/by_product/jp-08/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "JU-06",
+          "source_url": "https://www.roland.com/us/support/by_product/ju-06/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "JUNO-D6",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-d6/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "JUNO-D7",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-d7/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "JUNO-D8",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-d8/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "JUNO-DS76",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-ds76/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "JUNO-DS88",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-ds88/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "JUNO-X",
+          "source_url": "https://www.roland.com/us/support/by_product/juno-x/updates_drivers/",
+          "category": "Programmable Polyphonic Synthesizer"
+        },
+        {
+          "name": "JX-03",
+          "source_url": "https://www.roland.com/us/support/by_product/jx-03/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "JX-08",
+          "source_url": "https://www.roland.com/us/support/by_product/jx-08/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "Lucina AX-09",
+          "source_url": "https://www.roland.com/us/support/by_product/lucina_ax-09/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "MC-101",
+          "source_url": "https://www.roland.com/us/support/by_product/mc-101/updates_drivers/",
+          "category": "GROOVEBOX"
+        },
+        {
+          "name": "Mobile Studio Canvas",
+          "source_url": "https://www.roland.com/us/support/by_product/mobile_studio_canvas/updates_drivers/",
+          "category": "Sound Module with DAW Software"
+        },
+        {
+          "name": "P-6",
+          "source_url": "https://www.roland.com/us/support/by_product/p-6/updates_drivers/",
+          "category": "Creative Sampler"
+        },
+        {
+          "name": "RD-08",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-08/updates_drivers/",
+          "category": "Stage Piano"
+        },
+        {
+          "name": "RD-150",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-150/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-2000 EX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-2000_ex/updates_drivers/",
+          "category": "Stage Piano"
+        },
+        {
+          "name": "RD-300GX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-300gx/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-300SX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-300sx/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-600",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-600/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-700",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-700/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-700GX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-700gx/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-700SX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-700sx/updates_drivers/",
+          "category": "Digital Stage Piano"
+        },
+        {
+          "name": "RD-800",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-800/updates_drivers/",
+          "category": "Stage Piano"
+        },
+        {
+          "name": "RD-88",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-88/updates_drivers/",
+          "category": "Stage Piano"
+        },
+        {
+          "name": "RD-88 EX",
+          "source_url": "https://www.roland.com/us/support/by_product/rd-88_ex/updates_drivers/",
+          "category": "Stage Piano"
+        },
+        {
+          "name": "RS-70",
+          "source_url": "https://www.roland.com/us/support/by_product/rs-70/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "S-1",
+          "source_url": "https://www.roland.com/us/support/by_product/s-1/updates_drivers/",
+          "category": "Tweak Synthesizer"
+        },
+        {
+          "name": "S-760",
+          "source_url": "https://www.roland.com/us/support/by_product/s-760/updates_drivers/",
+          "category": "Digital Sampler"
+        },
+        {
+          "name": "SD-20",
+          "source_url": "https://www.roland.com/us/support/by_product/sd-20/updates_drivers/",
+          "category": "USB Bus-Powered MIDI Sound Module"
+        },
+        {
+          "name": "SD-80",
+          "source_url": "https://www.roland.com/us/support/by_product/sd-80/updates_drivers/",
+          "category": "USB MIDI Sound Module and Synthesizer"
+        },
+        {
+          "name": "SP-404A",
+          "source_url": "https://www.roland.com/us/support/by_product/sp-404a/updates_drivers/",
+          "category": "Linear Wave Sampler"
+        },
+        {
+          "name": "SP-404MKII",
+          "source_url": "https://www.roland.com/us/support/by_product/sp-404mk2/updates_drivers/",
+          "category": "Creative Sampler and Effector"
+        },
+        {
+          "name": "SP-404SX",
+          "source_url": "https://www.roland.com/us/support/by_product/sp-404sx/updates_drivers/",
+          "category": "Linear Wave Sampler"
+        },
+        {
+          "name": "SYSTEM-1",
+          "source_url": "https://www.roland.com/us/support/by_product/system-1/updates_drivers/",
+          "category": "PLUG-OUT Synthesizer"
+        },
+        {
+          "name": "SYSTEM-1m",
+          "source_url": "https://www.roland.com/us/support/by_product/system-1m/updates_drivers/",
+          "category": "PLUG-OUT Synthesizer"
+        },
+        {
+          "name": "SYSTEM-500 Complete Set",
+          "source_url": "https://www.roland.com/us/support/by_product/system-500_complete_set/updates_drivers/",
+          "category": "Modular Synthesizer"
+        },
+        {
+          "name": "TD-50X",
+          "source_url": "https://www.roland.com/us/support/by_product/td-50x/updates_drivers/",
+          "category": "Sound Module"
+        },
+        {
+          "name": "TR-08",
+          "source_url": "https://www.roland.com/us/support/by_product/tr-08/updates_drivers/",
+          "category": "Rhythm Composer"
+        },
+        {
+          "name": "TR-09",
+          "source_url": "https://www.roland.com/us/support/by_product/tr-09/updates_drivers/",
+          "category": "Rhythm Composer"
+        },
+        {
+          "name": "TR-8",
+          "source_url": "https://www.roland.com/us/support/by_product/tr-8/updates_drivers/",
+          "category": "Rhythm Performer"
+        },
+        {
+          "name": "V-STUDIO 700",
+          "source_url": "https://www.roland.com/us/support/by_product/v-studio_700/updates_drivers/",
+          "category": "Digital Audio Workstation"
+        },
+        {
+          "name": "V-Synth GT",
+          "source_url": "https://www.roland.com/us/support/by_product/v-synth_gt/updates_drivers/",
+          "category": "Elastic Audio Synthesizer"
+        },
+        {
+          "name": "V-Synth XT",
+          "source_url": "https://www.roland.com/us/support/by_product/v-synth_xt/updates_drivers/",
+          "category": "Synthesizer"
+        },
+        {
+          "name": "VK-77",
+          "source_url": "https://www.roland.com/us/support/by_product/vk-77/updates_drivers/",
+          "category": "Combo Organ"
+        },
+        {
+          "name": "VK-88",
+          "source_url": "https://www.roland.com/us/support/by_product/vk-88/updates_drivers/",
+          "category": "Combo Organ"
+        },
+        {
+          "name": "VK-8M",
+          "source_url": "https://www.roland.com/us/support/by_product/vk-8m/updates_drivers/",
+          "category": "Organ Sound Module"
+        },
+        {
+          "name": "VS-1680",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-1680/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-1824CD",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-1824cd/updates_drivers/",
+          "category": "24-bit Digital Workstation"
+        },
+        {
+          "name": "VS-1880",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-1880/updates_drivers/",
+          "category": "24-bit Digital Studio Workstation"
+        },
+        {
+          "name": "VS-2000CD",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-2000cd/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-2400CD",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-2400cd/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-2480",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-2480/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-2480CD",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-2480cd/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-2480DVD",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-2480dvd/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-840",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-840/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-840EX",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-840ex/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-840GX",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-840gx/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-880",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-880/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-880EX",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-880ex/updates_drivers/",
+          "category": "Digital Studio Workstation"
+        },
+        {
+          "name": "VS-890",
+          "source_url": "https://www.roland.com/us/support/by_product/vs-890/updates_drivers/",
+          "category": "24-bit Digital Studio Workstation"
+        },
+        {
+          "name": "XV-2020",
+          "source_url": "https://www.roland.com/us/support/by_product/xv-2020/updates_drivers/",
+          "category": "64-Voice Expandable Synthesizer Module"
+        },
+        {
+          "name": "XV-88",
+          "source_url": "https://www.roland.com/us/support/by_product/xv-88/updates_drivers/",
+          "category": "128-Voice Expandable Synthesizer"
+        }
+      ]
+    }
+  ]
+}
