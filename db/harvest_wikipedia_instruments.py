@@ -186,7 +186,13 @@ def main():
             unmatched.append(f"[category] {cat}")
             continue
         for page in members(cat):
-            add(maker, page["title"], "synthesizer")
+            # NO category here. "Category:Roland synthesizers" is a container
+            # for that maker's instruments, and Wikipedia files drum machines,
+            # samplers and controllers in it too -- the CR-78 and the Boss
+            # SP-303 both arrived through this pass. Stamping 'synthesizer' on
+            # every member turned a guess into a stored fact. The flat
+            # categories below are real evidence; this one is not.
+            add(maker, page["title"], None)
 
     # 2. flat instrument categories, matched by title prefix
     for cat, category in FLAT_CATEGORIES:
