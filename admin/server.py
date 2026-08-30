@@ -196,6 +196,16 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .stat.outdated .n { color: #96731a; }
   .stat.wrong .n { color: #a33; }
   .stat.not_found .n { color: #565f6f; }
+  .stat.total .n { color: #333; }
+  .link-list { list-style: none; padding: 0; margin: 0; }
+  .link-list li { padding: 5px 0; border-bottom: 1px solid #f0efe9; font-size: 0.9rem; }
+  .link-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 7px; background: #bbb; vertical-align: middle; }
+  .link-dot.live { background: #1e7a37; }
+  .link-dot.redirected { background: #6a8fbf; }
+  .link-dot.dead { background: #a33; }
+  .link-dot.error { background: #96731a; }
+  .link-type { color: #888; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.02em; }
+  .link-where { color: #555; font-size: 0.78rem; }
   .stats-row2 { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
   .review-section { background: #fbf3df; border: 1px solid #ecd8a3; border-radius: 12px; padding: 10px 12px 4px; margin-bottom: 16px; }
   .review-section h2 { color: #96731a; margin-bottom: 8px; }
@@ -558,6 +568,20 @@ class Handler(http.server.BaseHTTPRequestHandler):
             )
         )
 
+        # Totals row. Deliberately NOT clickable: there are hundreds of
+        # instruments, so filtering the manufacturer list by them would be
+        # meaningless -- this is a progress readout, nothing more.
+        total_instruments = con.execute(
+            "SELECT COUNT(*) FROM instruments").fetchone()[0]
+        total_links = con.execute(
+            "SELECT COUNT(*) FROM external_links").fetchone()[0]
+        totals_html = (
+            f'<div class="stat total"><span class="n">{total_instruments}</span>'
+            f'<span class="lbl">Hangszerek</span></div>'
+            f'<div class="stat total"><span class="n">{total_links}</span>'
+            f'<span class="lbl">Kulso linkek</span></div>'
+        )
+
         logo_stats_html = "".join(
             f'<div class="stat {key} clickable" data-filter-dim="logo-{dim}" data-filter-val="{val}" onclick="toggleFilter(this)">'
             f'<span class="n">{logo_counts[key]}</span>'
@@ -617,6 +641,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <div class="wrap">
 <div class="stats">{stats_html}</div>
 <div class="stats-row2">{logo_stats_html}</div>
+<div class="stats-row2">{totals_html}</div>
 {review_html}
 <input type="search" id="q" placeholder="Gyarto kereses..." oninput="filterList()">
 <div class="azbar" id="azbar">{azbar_html}</div>
@@ -693,6 +718,22 @@ function filterList() {{
             "SELECT action, note, previous_confidence_level, new_confidence_level, created_at FROM manufacturer_review_log WHERE manufacturer_id=? ORDER BY created_at DESC",
             (mid,),
         ).fetchall()
+        # Every link we hold for this maker: its own, plus the ones found on
+        # its instruments' pages. Ordered so the maker-level and still-live
+        # ones come first -- a dead 2004 fan page is the least useful row here.
+        links = con.execute(
+            """SELECT l.url, l.label, l.link_type, l.status, l.final_url,
+                      i.name AS instrument_name
+               FROM external_links l
+               LEFT JOIN instruments i ON i.id = l.instrument_id
+               WHERE l.manufacturer_id = ?
+                  OR i.manufacturer_id = ?
+               ORDER BY l.instrument_id IS NOT NULL,
+                        CASE l.status WHEN 'live' THEN 0 WHEN 'redirected' THEN 1
+                                      WHEN 'unchecked' THEN 2 WHEN 'error' THEN 3
+                                      ELSE 4 END,
+                        l.link_type, l.url""", (mid, mid)
+        ).fetchall()
         logo_state, logo_path = logo_status(con, mid)
         logo_review = logo_review_status(con, mid) if logo_state == "found" else None
         con.close()
@@ -729,6 +770,18 @@ function filterList() {{
             else:
                 notes_html += f'<li><em>{esc(n["action"])}</em>: {esc(n["previous_confidence_level"])} -&gt; {esc(n["new_confidence_level"])}<div class="note-meta">{esc(n["created_at"])}</div></li>'
 
+        links_html = ""
+        for i, l in enumerate(links):
+            hidden = ' class="link-extra" style="display:none"' if i >= 12 else ""
+            where = f' <span class="link-where">{esc(l["instrument_name"])}</span>' if l["instrument_name"] else ""
+            links_html += (
+                f'<li{hidden}><span class="link-dot {esc(l["status"])}" '
+                f'title="{esc(l["status"])}"></span>'
+                f'<a href="{esc(l["url"])}" target="_blank" rel="noopener noreferrer">'
+                f'{esc(l["label"] or l["url"])}</a>'
+                f' <span class="link-type">{esc(l["link_type"].replace("_", " "))}</span>'
+                f'{where}</li>')
+
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
@@ -756,6 +809,7 @@ function filterList() {{
   + "</section>") if m["short_history"] else ""}
 {"<section><h2>Hivatalos weboldal</h2><p><a href=\"" + esc(m["official_website"]) + "\" target=\"_blank\">" + esc(m["official_website"]) + "</a></p></section>" if m["official_website"] else ""}
 {f'<section><h2>Hangszerek <span class="count">{len(instruments)}</span></h2><ul class="instrument-list">' + inst_html + "</ul></section>" if inst_html else ""}
+{f'<section><h2>Kulso linkek <span class="count">{len(links)}</span></h2><ul class="link-list">' + links_html + "</ul>" + ('<button class="btn-toggle" onclick="toggleLinks()" id="linksBtn">Mind a ' + str(len(links)) + "</button>" if len(links) > 12 else "") + "</section>" if links_html else ""}
 {"<section><h2>Nevtortenet</h2><ul>" + hist_html + "</ul></section>" if hist_html else ""}
 {"<section><h2>Kapcsolodo gyartok</h2><ul>" + rel_html + "</ul></section>" if rel_html else ""}
 
@@ -779,6 +833,13 @@ function filterList() {{
 <button class="cancel" onclick="document.getElementById('logoDialog').close()">Megsem</button>
 </div></dialog>''' if logo_state == "found" else ""}
 <script>
+function toggleLinks() {{
+  var rows = document.querySelectorAll('.link-extra');
+  var b = document.getElementById('linksBtn');
+  var show = rows.length && rows[0].style.display === 'none';
+  rows.forEach(function(r) {{ r.style.display = show ? '' : 'none'; }});
+  b.textContent = show ? 'Kevesebbet' : ('Mind a ' + ({len(links)}));
+}}
 function toggleLongHistory() {{
   var t = document.getElementById('longHistText');
   var b = document.getElementById('longHistBtn');
