@@ -63,27 +63,112 @@
     "relations": [],
     "instruments": [
       {
-        "name": "AX60",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "AX73",
-        "year": null,
+        "name": "AX80",
+        "year": 1984,
         "category": null
       },
       {
-        "name": "AX80",
-        "year": null,
+        "name": "S612",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "AX60",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "AX73",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "VX90",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "X3700",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "X7000",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "S700",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "MPC60",
+        "year": 1988,
         "category": "synthesizer"
       },
       {
-        "name": "Electronic wind instrument",
-        "year": null,
+        "name": "S1000",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "S900",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "VX600",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "S01",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "MPC 3000",
+        "year": 1994,
+        "category": "synthesizer"
+      },
+      {
+        "name": "S2000",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "S3000",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "S20",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "S5000",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "MPC 2000",
+        "year": 1999,
         "category": "synthesizer"
       },
       {
         "name": "MFC42",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "MPC 1000",
+        "year": 2003,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Electronic wind instrument",
         "year": null,
         "category": null
       },
@@ -98,84 +183,19 @@
         "category": null
       },
       {
-        "name": "MPC 1000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MPC 2000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MPC 3000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MPC60",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Rhythm Wolf",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S01",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S1000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "S20",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S3000",
         "year": null,
         "category": null
       },
       {
         "name": "S3000XL",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "S5000",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "S612",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S700",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "S900",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "SG01v",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Timbre Wolf",
@@ -186,26 +206,6 @@
         "name": "Tomcat",
         "year": null,
         "category": null
-      },
-      {
-        "name": "VX600",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "VX90",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "X3700",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "X7000",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "XR10",
@@ -236,108 +236,113 @@
     "relations": [],
     "instruments": [
       {
-        "name": "Airsynth",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Andromeda A6",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "D4",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Fusion",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "HR-16",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Ion",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Micron",
-        "year": null,
+        "year": 1987,
         "category": null
       },
       {
         "name": "MMT-8",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Nanobass",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Nanopiano",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Nanosynth",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS6",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS61",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS7",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS71",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS8",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QS81",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "QSR",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Quadrasynth",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "S4",
-        "year": null,
+        "year": 1987,
         "category": null
       },
       {
         "name": "SR-16",
-        "year": null,
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "D4",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "Quadrasynth",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "QuadraSynth Plus Piano",
+        "year": 1993,
+        "category": "Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "S4",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "QS6",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "QS7",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "QS8",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "QSR",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "Nanobass",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Nanopiano",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Nanosynth",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "QS61",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "QS71",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "QS81",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Airsynth",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Andromeda A6",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Ion",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Micron",
+        "year": 2004,
+        "category": null
+      },
+      {
+        "name": "Fusion",
+        "year": 2005,
         "category": null
       }
     ]
@@ -370,34 +375,94 @@
     "relations": [],
     "instruments": [
       {
-        "name": "16-Voice Electronic Piano",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "2002",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "2500",
-        "year": null,
-        "category": "synthesizer"
+        "year": 1970,
+        "category": null
       },
       {
         "name": "2600",
-        "year": null,
+        "year": 1971,
+        "category": null
+      },
+      {
+        "name": "Odyssey 1",
+        "year": 1972,
+        "category": null
+      },
+      {
+        "name": "Pro Soloist",
+        "year": 1972,
+        "category": null
+      },
+      {
+        "name": "Explorer I",
+        "year": 1974,
+        "category": null
+      },
+      {
+        "name": "Solina String Ensemble",
+        "year": 1974,
+        "category": null
+      },
+      {
+        "name": "Axxe",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Little Brother",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Omni MK-1",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Solina String Synthesizer",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Sequencer",
+        "year": 1976,
         "category": null
       },
       {
         "name": "Avatar",
-        "year": null,
-        "category": "synthesizer"
+        "year": 1977,
+        "category": null
       },
       {
-        "name": "Axxe",
+        "name": "Pro/DGX",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "Quadra",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Quartet",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Solus",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "16-Voice Electronic Piano",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "2002",
+        "year": null,
+        "category": null
       },
       {
         "name": "Chroma",
@@ -410,94 +475,34 @@
         "category": "synthesizer"
       },
       {
-        "name": "Explorer I",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Little Brother",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Odyssey",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Odyssey 1",
         "year": null,
         "category": null
       },
       {
         "name": "Omni",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Omni 2",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Omni MK-1",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "Pro Soloist",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Pro/DGX",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Quadra",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Quartet",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "Rhodes Chroma",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Sequencer",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Solina String Ensemble",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "Solina String Synthesizer",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Solus",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "String Ensemble",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "String Synthesizer",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       }
     ]
   },
@@ -517,6 +522,66 @@
     "name_history": [],
     "relations": [],
     "instruments": [
+      {
+        "name": "DeepMind 12",
+        "year": 2016,
+        "category": null
+      },
+      {
+        "name": "Neutron",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "Crave",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "K-2",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "MS-1",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Poly D",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Pro-1",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "TD-3",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Cat",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "RD-6",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "WASP DELUXE",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "RD-8 Mk2",
+        "year": 2021,
+        "category": null
+      },
       {
         "name": "Model D",
         "year": null,
@@ -541,6 +606,26 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Touche",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "400 Series",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "700 Series",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "200E Series",
+        "year": 2005,
+        "category": null
+      },
+      {
         "name": "100 Series",
         "year": null,
         "category": null
@@ -552,11 +637,6 @@
       },
       {
         "name": "200 series Electric Music Box",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "200E Series",
         "year": null,
         "category": null
       },
@@ -701,19 +781,9 @@
         "category": "module"
       },
       {
-        "name": "400 Series",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "700 Series",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Charles Cohen",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "LEM218",
@@ -723,15 +793,10 @@
       {
         "name": "Lightning",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Thunder",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Touche",
         "year": null,
         "category": null
       }
@@ -754,27 +819,52 @@
     "relations": [],
     "instruments": [
       {
-        "name": "Bassman",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Bit 01",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Bit 99",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Bit One",
-        "year": null,
+        "name": "Multiman S",
+        "year": 1977,
         "category": null
       },
       {
         "name": "DS-2",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Performer",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Stratus",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "Spirit",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "Bit One",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "One",
+        "year": 1984,
+        "category": "Analog Polyphonic Synthesizer"
+      },
+      {
+        "name": "Bit 01",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "Bit 99",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "Bassman",
         "year": null,
         "category": null
       },
@@ -790,26 +880,6 @@
       },
       {
         "name": "Mojo 61",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Multiman S",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Performer",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Spirit",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Stratus",
         "year": null,
         "category": null
       },
@@ -837,34 +907,34 @@
     "relations": [],
     "instruments": [
       {
+        "name": "MS-404",
+        "year": 1994,
+        "category": null
+      },
+      {
         "name": "100",
-        "year": null,
+        "year": 1995,
         "category": null
       },
       {
         "name": "A-100",
-        "year": null,
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "Drehbank",
+        "year": 1998,
         "category": null
       },
       {
         "name": "Dark Energy",
-        "year": null,
+        "year": 2009,
         "category": null
       },
       {
         "name": "DarkEnergyIII",
         "year": null,
         "category": null
-      },
-      {
-        "name": "Drehbank",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MS-404",
-        "year": null,
-        "category": "synthesizer"
       }
     ]
   },
@@ -885,52 +955,182 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Modular Systems",
+        "year": 1973,
+        "category": null
+      },
+      {
         "name": "Audity",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Audity 2000",
-        "year": null,
+        "year": 1979,
         "category": null
       },
       {
-        "name": "B-3",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Carnaval",
-        "year": null,
+        "name": "Emulator",
+        "year": 1981,
         "category": null
       },
       {
         "name": "Drumulator",
-        "year": null,
+        "year": 1983,
         "category": "drum machine"
       },
       {
-        "name": "E Drum",
-        "year": null,
+        "name": "Emulator II",
+        "year": 1984,
+        "category": "synthesizer"
+      },
+      {
+        "name": "SP-12",
+        "year": 1985,
         "category": null
       },
       {
         "name": "Emax",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Emulator",
-        "year": null,
+        "year": 1986,
         "category": null
       },
       {
-        "name": "Emulator II",
-        "year": null,
-        "category": "synthesizer"
+        "name": "Emulator III",
+        "year": 1987,
+        "category": null
       },
       {
-        "name": "Emulator III",
+        "name": "SP-1200",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "Proteus",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "Procussion",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "Morpheus",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "Vintage Keys",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "ESI-32",
+        "year": 1994,
+        "category": null
+      },
+      {
+        "name": "Orbit 9090",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "Carnaval",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Planet Phatt",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Audity 2000",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "ESI-4000",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "B-3",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "ESI-2000",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Proteus 2000",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Mophatt",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Planet Earth",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Virtuoso 2000",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Xtreme Lead 1",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "MK-6 Mophatt Keys",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "MP-7 Command Station",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "Orbit 3",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "PK-6 Proteus Keys",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "Proteus 2500",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "XK-6 Xtreme Keys",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "XL-7 Command Station",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "Proteus 1000",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "Vintage Pro",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "E Drum",
         "year": null,
         "category": null
       },
@@ -945,137 +1145,7 @@
         "category": null
       },
       {
-        "name": "ESI-2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "ESI-32",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "ESI-4000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MK-6 Mophatt Keys",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Modular System",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Modular Systems",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Mophatt",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Morpheus",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MP-7 Command Station",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Orbit 3",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Orbit 9090",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "PK-6 Proteus Keys",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Planet Earth",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Planet Phatt",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Procussion",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Proteus",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Proteus 1000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Proteus 2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Proteus 2500",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SP-12",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SP-1200",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Vintage Keys",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Vintage Pro",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Virtuoso 2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "XK-6 Xtreme Keys",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "XL-7 Command Station",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Xtreme Lead 1",
         "year": null,
         "category": null
       }
@@ -1093,7 +1163,7 @@
     "long_history": "EDP was set up in 1977 in the countryside outside Oxford by the musician and self-taught synth builder Adrian Wagner, who partnered with electronics engineer Chris Huggett to turn Wagner's idea for an affordable synthesizer into a sellable product. To get it into production, the pair secured roughly 10,000 pounds in backing from a London musical-instrument retailer, Argent's Keyboards. The result was the Wasp, unveiled in 1978 at the low price of 199 pounds, well under half what a comparable synth cost at the time. Its yellow-and-black striped case, borrowed from its insect-themed name, hid two digital oscillators feeding an analog filter, plus a keyboard with no moving keys at all: flat capacitive touch-plates under a printed sticker, an approach that saved money but proved fragile and unpopular with players used to a real keyboard action. Even so, the Wasp sold well enough that the first batch reportedly cleared out of a London shop within hours of going on sale in September 1978. EDP followed the Wasp with several siblings: the cheaper single-oscillator Gnat, styled by outside product designer Anthony Harrison-Griffin; the Wasp Deluxe of 1979, which added a proper mechanical keyboard and wood side panels; and the Spider, a 252-step digital sequencer built with the help of Oxford University engineer Steve Evans, unusually deep-featured for its time. A four-voice keyboard controller called the Caterpillar followed in 1980, though by then Huggett, after the company ran into serious money trouble in 1979, had already left. EDP subsequently went bankrupt as unpaid supplier debts piled up. Wagner tried to keep going under a renamed successor, Electronic Dream Plant (Oxford), which kept producing the Gnat, but he was pushed out of that venture too in 1981; he then set up a further small outfit, Wasp Synthesizers, that built a handful of wood-cased 'Special' editions of the Wasp and Gnat before folding within the year. The EDP name itself ceased trading by 1982. Huggett went on to found the Oxford Synthesiser Company that same year and later worked with Akai and, from the 1990s, Novation, where the 1992 Bass Station and its descendants explicitly drew on the Wasp's oscillator design. The Wasp's reputation has only grown since: its sound and touch-plate keyboard were cloned by hobbyists in the 2017 'Jasper DIY' project and, in 2019, given an affordable modern hardware remake by Behringer.",
     "official_website": null,
     "status": "defunct",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
     "name_history": [
       {
         "name": "Electronic Dream Plant (Oxford)",
@@ -1104,12 +1174,22 @@
     "relations": [],
     "instruments": [
       {
-        "name": "Caterpillar",
-        "year": null,
+        "name": "Wasp",
+        "year": 1978,
         "category": null
       },
       {
         "name": "Gnat",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Spider",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Caterpillar",
         "year": null,
         "category": null
       },
@@ -1120,16 +1200,6 @@
       },
       {
         "name": "Keytar",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Spider",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Wasp",
         "year": null,
         "category": null
       },
@@ -1157,14 +1227,34 @@
     "long_history": "EMS traces back to a one-off electronic device Peter Zinovieff, David Cockerell and Tristram Cary built for composer Don Banks; its success convinced the trio to formally set up Electronic Music Studios (London) Ltd in Putney, London in 1969 to develop and sell instruments commercially. Their first product, the VCS3 (nicknamed 'The Putney'), launched later that year: a semi-modular synthesizer built into a small wooden case with three oscillators, a ring modulator, a joystick controller, and a distinctive pin-matrix patchboard instead of patch cables. At roughly 330 pounds it undercut Moog's competing modular gear by a wide margin and beat the Minimoog to market by about a year, making it one of the first synthesizers a working musician could realistically buy and carry. Cockerell was the main circuit designer, while Cary, already an electronic-music pioneer with his own home studio, shaped the instrument's L-shaped case and control layout; Zinovieff, who had earlier run the electronic group Unit Delta Plus with BBC Radiophonic Workshop members, drove the business side. EMS followed the VCS3 with the briefcase-portable Synthi A in 1971, the Synthi AKS in 1972 (which added a built-in sequencer and touch keyboard and became famous for its role on Pink Floyd's 'On the Run'), and the large-format Synthi 100 in 1971, a roughly 6,500-pound modular system of which only around 30 were built and which the BBC Radiophonic Workshop used heavily on programmes including Doctor Who. The company also built vocoders, sequencer modules, and even an early video synthesizer, the Spectron, in 1974. EMS gear found favour well beyond the classical and experimental scene it was designed for, turning up in recordings by King Crimson, The Who, Roxy Music, Kraftwerk, Tangerine Dream and Jean-Michel Jarre. Despite the instruments' cult status, EMS struggled financially for much of the 1970s; a costly, unsuccessful push into the mass market for guitar effects pedals is often cited as a contributing factor, and the company collapsed into bankruptcy around 1979. Its Putney and Great Milton operations were liquidated and manufacturing rights were picked up by Datanomics, a firm based in Wareham, Dorset, where some EMS production had already been happening since the early 1970s. Ownership and production continued to shift over the following years. In 1997 a former EMS employee, Robin Wood, acquired the rights to the EMS name and restarted small-scale production of the classic range built to the original specifications; that operation is now based in Ladock, near Truro, Cornwall, and continues to sell and service EMS instruments today.",
     "official_website": "https://emssynthesisers.co.uk/",
     "status": "active",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": [],
     "instruments": [
       {
+        "name": "VCS3",
+        "year": 1969,
+        "category": null
+      },
+      {
+        "name": "Synthi",
+        "year": 1971,
+        "category": null
+      },
+      {
+        "name": "Synthi Sequencer 256",
+        "year": 1971,
+        "category": null
+      },
+      {
+        "name": "Vocoder 2000",
+        "year": 1975,
+        "category": null
+      },
+      {
         "name": "Electronic Music Studios",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "PolySynthi",
@@ -1177,14 +1267,9 @@
         "category": null
       },
       {
-        "name": "Synthi",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Synthi 100",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Synthi A",
@@ -1212,21 +1297,6 @@
         "category": null
       },
       {
-        "name": "Synthi Sequencer 256",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "VCS3",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Vocoder 2000",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Vocoder 5000",
         "year": null,
         "category": null
@@ -1249,6 +1319,46 @@
     "name_history": [],
     "relations": [],
     "instruments": [
+      {
+        "name": "SidStation",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Machinedrum SPS-1",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "Monomachine SFX-6",
+        "year": 2004,
+        "category": null
+      },
+      {
+        "name": "Analog Four MKII",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "Analog Rytm MKII",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "Octatrack MKII",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "Model:Samples",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Model:Cycles",
+        "year": 2020,
+        "category": null
+      },
       {
         "name": "Analog Rytm",
         "year": null,
@@ -1275,27 +1385,12 @@
         "category": null
       },
       {
-        "name": "Machinedrum SPS-1",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Monomachine",
         "year": null,
         "category": null
       },
       {
-        "name": "Monomachine SFX-6",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Octatrack",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SidStation",
         "year": null,
         "category": null
       },
@@ -1325,17 +1420,27 @@
         "relation_type": "acquired_by",
         "year": null,
         "related_manufacturer_id": 40,
-        "related_name": "GEM (General Electro Music)"
+        "related_name": "Generalmusic"
       }
     ],
     "instruments": [
       {
-        "name": "Drumstar 80",
-        "year": null,
+        "name": "Soloist 505",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Synthex",
+        "year": 1981,
         "category": null
       },
       {
         "name": "EK-22",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "Drumstar 80",
         "year": null,
         "category": null
       },
@@ -1346,16 +1451,6 @@
       },
       {
         "name": "Rhapsody",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Soloist 505",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Synthex",
         "year": null,
         "category": null
       }
@@ -1378,52 +1473,87 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Mirage",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "ESQ-1",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "EPS",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "SQ-80",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "VFX",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "EPS-16+",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "SD-1",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "ASR-10",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "TS-10 TS-12",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "TS-12",
+        "year": 1993,
+        "category": "Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "ASR X",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "ASR X Pro",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "Fizmo",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "ZR-76",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "Halo",
+        "year": 2002,
+        "category": null
+      },
+      {
         "name": "ASR",
         "year": null,
         "category": null
       },
       {
-        "name": "ASR X",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "ASR X Pro",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "ASR-10",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "EPS",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "EPS-16 Plus",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "EPS-16+",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "ESQ-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Fizmo",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Halo",
         "year": null,
         "category": null
       },
@@ -1433,29 +1563,14 @@
         "category": null
       },
       {
-        "name": "Mirage",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "MR61",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SD-1",
         "year": null,
         "category": null
       },
       {
         "name": "SDP-1",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SQ-80",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "sq-R",
@@ -1464,21 +1579,6 @@
       },
       {
         "name": "TS-10",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "TS-10 TS-12",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "VFX",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "ZR-76",
         "year": null,
         "category": null
       }
@@ -1492,7 +1592,7 @@
     "founded_year": 1976,
     "ended_year": 2001,
     "founders": null,
-    "short_history": "The Kachkanar Radio Factory Formanta was a Soviet, later Russian, electronics plant in Kachkanar, Sverdlovsk Oblast. It opened in August 1976 as a branch of the Sverdlovsk works Electroavtomatika, the enterprise later known as Vektor, and grew into the country's best-known producer of electronic musical instruments: synthesizers including the P-432 and the widely exported Polivoks, percussion synthesizers, the EMS-01 combined organ and synthesizer, and instrument amplifiers, alongside consumer tape recorders and music centres sold under the Okari name. The Polivoks was designed at the Vektor plant and only manufactured here. Instrument production wound down in the early 1990s as the plant turned to televisions and household appliances, and the factory was declared bankrupt in 2001.",
+    "short_history": "The Kachkanar Radio Factory Formanta was a Soviet, later Russian, electronics plant in Kachkanar, Sverdlovsk Oblast. It opened in August 1976 as a branch of the Sverdlovsk Electroavtomatika works, the enterprise later known as Vektor, and was made an independent radio factory by ministerial order in October 1980, taking the Formanta name formally in March 1989. It grew into the country's best-known producer of electronic musical instruments: synthesizers including the P-432 and the widely exported Polivoks, which was designed at Vektor and built here in series, percussion synthesizers, the EMS-01 combined organ and synthesizer, and instrument amplifiers, alongside televisions, light cords, vacuum cleaners and consumer audio. It also made defence radio equipment, including phase shifters for S-300 systems from 1984. Peak employment was around 4,500 in the 1980s. Declared bankrupt on 26 May 2001, its workforce was dismissed that August and the company liquidated.",
     "long_history": "The plant at Kachkanar in Sverdlovsk Oblast opened in August 1976 as a branch of the Sverdlovsk enterprise Electroavtomatika, known in its later form as Vektor, and traded as the Kachkanar Radio Factory Formanta. Alongside the electronics work expected of a Soviet radio plant, it became the Soviet Union's most visible manufacturer of electronic musical instruments. Its catalogue included the P-432 and P-465 synthesizers, the Formanta Mini, the EMS-01 combining a polyphonic organ with a monophonic synthesizer, percussion and drum synthesizers, the UEMI-10 and UEMI-50 instrument amplifiers, and, outside music, tape recorders and music centres under the Okari brand and sound-producing note alphabets for schools. The instrument it is remembered for is the Polivoks, a duophonic analogue synthesizer engineered at the Vektor plant by Vladimir Kuzmin, whose wife Olimpiada shaped its severe orange-and-grey appearance after Soviet military radio equipment; the design was handed to Kachkanar for series production. Sources do not agree on the production run: one account gives roughly 100,000 units at up to 1,000 a month, while Kuzmin himself put output at 200 to 300 a month, implying no more than about 32,000 in total. The dates given for the Polivoks also differ between sources, with the Russian account placing manufacture at Kachkanar in 1988 to 1992 and the English one giving 1982 to 1990 for the instrument overall. Musical instrument production ended in the early 1990s, after which the plant made televisions, vacuum cleaners and washing machines. It was declared bankrupt on 26 May 2001 and its workers dismissed on 24 August 2001; as of 2021 parts of the former factory buildings were in use as shops, entertainment venues, hotels and small workshops.",
     "official_website": null,
     "status": "defunct",
@@ -1501,12 +1601,17 @@
     "relations": [
       {
         "relation_type": "spun_off_from",
-        "year": 1976,
+        "year": 1980,
         "related_manufacturer_id": 43,
         "related_name": "Vektor"
       }
     ],
     "instruments": [
+      {
+        "name": "Polivoks",
+        "year": 1982,
+        "category": null
+      },
       {
         "name": "EMS-01",
         "year": null,
@@ -1526,51 +1631,181 @@
         "name": "P-465",
         "year": null,
         "category": null
-      },
-      {
-        "name": "Polivoks",
-        "year": null,
-        "category": null
       }
     ]
   },
   {
     "id": 40,
-    "canonical_name": "GEM (General Electro Music)",
-    "country": null,
-    "city": null,
-    "founded_year": null,
-    "ended_year": null,
-    "founders": null,
-    "short_history": null,
+    "canonical_name": "Generalmusic",
+    "country": "Italy",
+    "city": "San Giovanni in Marignano",
+    "founded_year": 1890,
+    "ended_year": 2011,
+    "founders": "Antonio Galanti",
+    "short_history": "The company began in 1890 as an accordion workshop founded by Antonio Galanti in San Giovanni in Marignano, on the Adriatic coast. It turned to electronics in 1959 under the GEM name and became one of Italy's largest instrument makers, building electronic organs, then digital keyboards, pianos and the Equinox and S-series synthesizers, and supplying Baldwin-branded instruments to the American market. It took over the Elka brand in 1989 and renamed itself Generalmusic in 1992. The Rimini court opened bankruptcy proceedings in June 2011 and Italian production ended; the GEM, LEM and Elka names have since passed through Finnish ownership and, in 2026, to new Italian owners.",
     "long_history": null,
     "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
-    "relations": [],
-    "instruments": []
+    "status": "defunct",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Premiata Fabbrica di Fisarmoniche Galanti",
+        "start_year": 1890,
+        "end_year": 1959
+      },
+      {
+        "name": "GEM",
+        "start_year": 1959,
+        "end_year": 1992
+      },
+      {
+        "name": "Generalmusic",
+        "start_year": 1992,
+        "end_year": 2011
+      },
+      {
+        "name": "Generalmusic S.p.A.",
+        "start_year": 1992,
+        "end_year": null
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "owner_of",
+        "year": 1989,
+        "related_manufacturer_id": 39,
+        "related_name": "Elka"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Equinox",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Genesys",
+        "year": null,
+        "category": "keyboard"
+      },
+      {
+        "name": "Genesys Pro",
+        "year": null,
+        "category": "keyboard"
+      },
+      {
+        "name": "Joker 61",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "Mini Gem",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "Promega 3",
+        "year": null,
+        "category": "electric piano"
+      },
+      {
+        "name": "Realpiano Pro1",
+        "year": null,
+        "category": "electric piano"
+      },
+      {
+        "name": "S2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "S2R",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "S3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "S3 Turbo",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "WK1",
+        "year": null,
+        "category": "keyboard"
+      },
+      {
+        "name": "WS2",
+        "year": null,
+        "category": "keyboard"
+      }
+    ]
   },
   {
     "id": 35,
     "canonical_name": "Hammond Organ Company",
-    "country": null,
-    "city": null,
-    "founded_year": null,
-    "ended_year": null,
-    "founders": null,
-    "short_history": null,
+    "country": "United States",
+    "city": "Chicago",
+    "founded_year": 1928,
+    "ended_year": 1985,
+    "founders": "Laurens Hammond",
+    "short_history": "Laurens Hammond founded the Hammond Clock Company in Chicago in 1928, building synchronous-motor clocks. When the Depression cut clock sales he turned the same rotating-gear principle into a musical instrument: the tonewheel organ, patented in 1934 and sold from 1935 as the Model A. The company, renamed for the organ that made it famous, went on to build around two million instruments and to define the sound of gospel, jazz and rock through the B-3. It also produced the Novachord, an early polyphonic electronic instrument, and the Solovox. Manufacturing ended in 1985; the brand passed to Hammond Organ Australia in 1986 and to Suzuki in 1989, which has carried it on as Hammond-Suzuki.",
     "long_history": null,
     "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
+    "status": "acquired",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Hammond Clock Company",
+        "start_year": 1928,
+        "end_year": 1935
+      },
+      {
+        "name": "Hammond Organ Company",
+        "start_year": 1935,
+        "end_year": 1985
+      },
+      {
+        "name": "Hammond-Suzuki",
+        "start_year": 1989,
+        "end_year": null
+      }
+    ],
     "relations": [],
     "instruments": [
       {
-        "name": "102200",
-        "year": null,
+        "name": "Model A",
+        "year": 1935,
+        "category": "electronic organ"
+      },
+      {
+        "name": "Novachord",
+        "year": 1939,
         "category": null
+      },
+      {
+        "name": "C-3",
+        "year": 1954,
+        "category": "Electro-Mechanical Organ"
+      },
+      {
+        "name": "102200",
+        "year": 1974,
+        "category": null
+      },
+      {
+        "name": "New B-3",
+        "year": 2002,
+        "category": "electronic organ"
+      },
+      {
+        "name": "A-100",
+        "year": null,
+        "category": "electronic organ"
       },
       {
         "name": "Auto Vari 64 Drum Machine",
@@ -1578,7 +1813,42 @@
         "category": null
       },
       {
+        "name": "B-3",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
         "name": "Hammond organ",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "M-3",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "SK1",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "Solovox",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "X-66",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "XB-2",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "XK-5",
         "year": null,
         "category": "electronic organ"
       }
@@ -1587,23 +1857,96 @@
   {
     "id": 33,
     "canonical_name": "Kawai Musical Instruments",
-    "country": null,
-    "city": null,
-    "founded_year": null,
+    "country": "Japan",
+    "city": "Hamamatsu",
+    "founded_year": 1927,
     "ended_year": null,
-    "founders": null,
-    "short_history": null,
+    "founders": "Koichi Kawai",
+    "short_history": "Koichi Kawai, who had trained as an apprentice under Torakusu Yamaha, left Nippon Gakki and on 9 August 1927 opened his own Kawai Musical Instruments Research Laboratory in Hamamatsu; the business was incorporated as a company in May 1951. It built its reputation on acoustic pianos and remains one of the largest makers of them, but it also spent the 1980s and 1990s as a serious electronic-instrument manufacturer: electronic organs from 1960, analogue synthesizers sold under the Teisco name it had absorbed, then its own K-series digital synthesizers starting with the K3 in 1986 and the K1 in 1988, the additive K5 and K5000, and the R-series drum machines. It is listed on the Tokyo Stock Exchange Prime Market, is headquartered at 200 Terajima-cho, Chuo-ku, Hamamatsu, Shizuoka, and is still active.",
     "long_history": null,
-    "official_website": null,
+    "official_website": "https://www.kawai-global.com/",
     "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
-    "relations": [],
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Kawai Musical Instruments Research Laboratory",
+        "start_year": 1927,
+        "end_year": 1951
+      },
+      {
+        "name": "Kawai Musical Instruments Manufacturing Co., Ltd.",
+        "start_year": 1951,
+        "end_year": null
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "owner_of",
+        "year": null,
+        "related_manufacturer_id": 32,
+        "related_name": "Teisco"
+      }
+    ],
     "instruments": [
+      {
+        "name": "EP608",
+        "year": 1983,
+        "category": "Electric Piano"
+      },
+      {
+        "name": "SX-210",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "SX-240",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "K3",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "K5M",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "K1M",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "K1IIR",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "K4R",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "XD-5",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "K5000",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "GMega",
+        "year": null,
+        "category": "sound module"
+      },
       {
         "name": "K1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "K11",
@@ -1611,39 +1954,14 @@
         "category": null
       },
       {
-        "name": "K1IIR",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "K1M",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "K3",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "K4",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "K4R",
-        "year": null,
         "category": null
       },
       {
-        "name": "K5000",
+        "name": "K5",
         "year": null,
         "category": "synthesizer"
-      },
-      {
-        "name": "K5M",
-        "year": null,
-        "category": null
       },
       {
         "name": "KC20",
@@ -1658,27 +1976,17 @@
       {
         "name": "Q-80",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "R-100",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SX-210",
-        "year": null,
         "category": null
       },
       {
-        "name": "SX-240",
+        "name": "R-50",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "XD-5",
-        "year": null,
-        "category": "synthesizer"
+        "category": "drum machine"
       }
     ]
   },
@@ -1740,29 +2048,379 @@
     ],
     "instruments": [
       {
-        "name": "01/W",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "707",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "770",
-        "year": null,
+        "name": "MiniKorg 700",
+        "year": 1974,
         "category": null
       },
       {
         "name": "900PS Preset Synthesizer",
-        "year": null,
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Maxi Korg 800DV",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "SB-100 Synthe Bass",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "770",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "Minipops 35 MP-35",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "Polyphonic Ensemble P",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "Polyphonic Ensemble S",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "M500 Micro Preset",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "PS-3100",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "PS-3300",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "MS-10",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "MS-20",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "MS-50",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "PS-3200",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "SQ-10 Analog Sequencer",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "VC-10 Vocoder",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Delta",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Lambda ES50",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Rhythm 55 KR-55",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Sigma",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "SM-20",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Trident",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "X-911",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Mono/Poly",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Polysix",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Poly-61",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "KPR-77",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "Poly-800",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "DDM-110",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DW-6000",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DW-8000",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DDD-1",
+        "year": 1986,
+        "category": "drum machine"
+      },
+      {
+        "name": "DSS-1",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "DVP-1",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "707",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "DDD-5",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "DS-8",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "M1",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "Wavestation",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "01/W",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "01/W FD",
+        "year": 1991,
+        "category": "Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "01R/W",
+        "year": 1991,
+        "category": "Rack Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "Wavestation AD",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "Wavestation SR",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "05R/W",
+        "year": 1993,
+        "category": "Half-Rack Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "X3",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "Prophecy",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "Trinity",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "X5D",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "Z1",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Electribe EA-1",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Electribe R ER-1",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Electribe S ES-1",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "MS2000",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Electribe M EM-1",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "KARMA",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "MicroKORG",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "Electribe MX EMX-1",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Electribe SX ESX-1",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Microkontrol",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Legacy Collection",
+        "year": 2004,
+        "category": null
+      },
+      {
+        "name": "Triton",
+        "year": 2005,
+        "category": null
+      },
+      {
+        "name": "Kaoss PAD KP1",
+        "year": 2006,
+        "category": null
+      },
+      {
+        "name": "R3",
+        "year": 2006,
+        "category": "synthesizer"
+      },
+      {
+        "name": "RADIAS",
+        "year": 2006,
+        "category": null
+      },
+      {
+        "name": "microX",
+        "year": 2007,
+        "category": "Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "Monotron",
+        "year": 2011,
+        "category": null
+      },
+      {
+        "name": "MS-20 Mini",
+        "year": 2013,
+        "category": null
+      },
+      {
+        "name": "KROSS 2",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "Prologue 8",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "Minilogue XD",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Volca FM 2",
+        "year": 2022,
+        "category": null
+      },
+      {
+        "name": "Wavestate MKII",
+        "year": 2023,
         "category": null
       },
       {
         "name": "ARP Odyssey",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "CX-3",
@@ -1770,52 +2428,17 @@
         "category": "electronic organ"
       },
       {
-        "name": "DDD-1",
-        "year": null,
-        "category": "drum machine"
-      },
-      {
-        "name": "DDD-5",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DDM-110",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Delta",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "DRM-1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "DS-10",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DS-8",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "DSN-12",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DSS-1",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DVP-1",
         "year": null,
         "category": null
       },
@@ -1825,47 +2448,7 @@
         "category": "synthesizer"
       },
       {
-        "name": "DW-6000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DW-8000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Electribe",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Electribe EA-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Electribe M EM-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Electribe MX EMX-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Electribe R ER-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Electribe S ES-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Electribe SX ESX-1",
         "year": null,
         "category": null
       },
@@ -1875,19 +2458,9 @@
         "category": "sampler"
       },
       {
-        "name": "Kaoss PAD KP1",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Kaossilator",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "KARMA",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Kingkorg",
@@ -1902,57 +2475,37 @@
       {
         "name": "Korg i3",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Korg miniKORG 700",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "KPR-77",
         "year": null,
         "category": null
       },
       {
         "name": "KR 55",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Kronos",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Lambda ES50",
-        "year": null,
         "category": null
       },
       {
-        "name": "Legacy Collection",
+        "name": "Kronos",
         "year": null,
         "category": null
       },
       {
         "name": "LittleBits Synth Kit",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "M01D",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "M1",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "M3",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "M50",
@@ -1960,29 +2513,9 @@
         "category": "synthesizer"
       },
       {
-        "name": "M500 Micro Preset",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Maxi Korg 800DV",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Micro X",
         "year": null,
         "category": null
-      },
-      {
-        "name": "Microkontrol",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MicroKORG",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "Microkorgxl",
@@ -1997,20 +2530,10 @@
       {
         "name": "Mini Pops",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MiniKorg 700",
-        "year": null,
         "category": null
       },
       {
         "name": "Minilogue",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Minipops 35 MP-35",
         "year": null,
         "category": null
       },
@@ -2020,49 +2543,14 @@
         "category": null
       },
       {
-        "name": "Mono/Poly",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Monologue",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Monotribe",
         "year": null,
         "category": null
-      },
-      {
-        "name": "Monotron",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MS-10",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MS-20",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MS-20 Mini",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MS-50",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MS2000",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "N364",
@@ -2072,17 +2560,17 @@
       {
         "name": "N364/264",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Nautilus",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "OASYS",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "OASYS PCI",
@@ -2090,67 +2578,7 @@
         "category": "synthesizer"
       },
       {
-        "name": "Poly-61",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Poly-800",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Polyphonic Ensemble P",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Polyphonic Ensemble S",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Polysix",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Prophecy",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "PS-3100",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "PS-3200",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "PS-3300",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "R3",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "RADIAS",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Rhythm 330",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Rhythm 55 KR-55",
         "year": null,
         "category": null
       },
@@ -2161,26 +2589,6 @@
       },
       {
         "name": "S3",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SB-100 Synthe Bass",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Sigma",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SM-20",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SQ-10 Analog Sequencer",
         "year": null,
         "category": null
       },
@@ -2200,54 +2608,34 @@
         "category": null
       },
       {
-        "name": "Trident",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Trinity",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Triton",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "VC-10",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "VC-10 Vocoder",
         "year": null,
         "category": null
       },
       {
         "name": "Volca",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Volca Bass",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Volca Beats",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Volca Keys",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Volca Modular",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Volca Nubass",
@@ -2255,42 +2643,7 @@
         "category": null
       },
       {
-        "name": "Wavestation",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Wavestation AD",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Wavestation SR",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "X-911",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "X3",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "X50",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "X5D",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Z1",
         "year": null,
         "category": "synthesizer"
       }
@@ -2313,33 +2666,38 @@
     "relations": [],
     "instruments": [
       {
-        "name": "K1000",
-        "year": null,
+        "name": "K250",
+        "year": 1984,
         "category": null
       },
       {
         "name": "K150",
-        "year": null,
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "K1000",
+        "year": 1988,
         "category": null
       },
       {
         "name": "K2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "K250",
-        "year": null,
+        "year": 1991,
         "category": null
       },
       {
         "name": "K2500",
-        "year": null,
+        "year": 1996,
         "category": "synthesizer"
       },
       {
+        "name": "K2500RS",
+        "year": 1996,
+        "category": "Rack Digital Polyphonic Synthesizer"
+      },
+      {
         "name": "K2600",
-        "year": null,
+        "year": 1999,
         "category": null
       },
       {
@@ -2397,6 +2755,161 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Synthesizer 1C2C3C",
+        "year": 1964,
+        "category": null
+      },
+      {
+        "name": "Minimoog",
+        "year": 1970,
+        "category": null
+      },
+      {
+        "name": "Sonic Six",
+        "year": 1972,
+        "category": null
+      },
+      {
+        "name": "Satellite",
+        "year": 1973,
+        "category": null
+      },
+      {
+        "name": "Micromoog",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Minitmoog",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Polymoog 203A",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Taurus I",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "Multimoog",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Prodigy",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Vocoder",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Liberation",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Opus 3",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Rogue",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Source",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Taurus II",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Memorymoog",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "Etherwave Theremin",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "MF-101 Lowpass Filter",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "MF-102 Ring Modulator",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "MF-103 12 Stage Phaser",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "CP-251 Control Processor",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "MF-104 Analog Delay",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Minimoog Voyager",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "Little Phatty",
+        "year": 2007,
+        "category": null
+      },
+      {
+        "name": "MF-105M Midi Murf",
+        "year": 2009,
+        "category": null
+      },
+      {
+        "name": "Slim Phatty",
+        "year": 2011,
+        "category": null
+      },
+      {
+        "name": "Subsequent 37",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "DFAM (Drummer From Another Mother)",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "One",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "Matriarch",
+        "year": 2019,
+        "category": null
+      },
+      {
         "name": "1130 drum controller",
         "year": null,
         "category": "synthesizer"
@@ -2404,75 +2917,15 @@
       {
         "name": "Animoog",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CP-251 Control Processor",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Etherwave Theremin",
-        "year": null,
         "category": null
       },
       {
         "name": "Grandmother",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Guitar",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Liberation",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Little Phatty",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Memorymoog",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MF-101 Lowpass Filter",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MF-102 Ring Modulator",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MF-103 12 Stage Phaser",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MF-104 Analog Delay",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MF-105M Midi Murf",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Micromoog",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Minimoog",
         "year": null,
         "category": null
       },
@@ -2482,19 +2935,9 @@
         "category": null
       },
       {
-        "name": "Minimoog Voyager",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Minitmoog",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Model 15",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Moog modular synthesizer",
@@ -2504,52 +2947,22 @@
       {
         "name": "Moog synthesizer",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Mother-32",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Multimoog",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Opus 3",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Polymoog",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Polymoog 203A",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "Prodigy",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "Realistic Concertmate MG-1",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Rogue",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Satellite",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Sirin",
@@ -2557,24 +2970,9 @@
         "category": null
       },
       {
-        "name": "Slim Phatty",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Sonic Six",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Source",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Sub 37",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SUB Phatty",
@@ -2587,39 +2985,19 @@
         "category": "synthesizer"
       },
       {
-        "name": "Synthesizer 1C2C3C",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Taurus",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Taurus I",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Taurus II",
         "year": null,
         "category": null
       },
       {
         "name": "Theremini",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Vocoder",
-        "year": null,
         "category": null
       },
       {
         "name": "Werkstatt-Ø1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       }
     ]
   },
@@ -2641,7 +3019,7 @@
     "instruments": [
       {
         "name": "Synclavier",
-        "year": null,
+        "year": 1977,
         "category": null
       },
       {
@@ -2669,12 +3047,82 @@
     "instruments": [
       {
         "name": "Bass Station",
-        "year": null,
+        "year": 1993,
         "category": null
       },
       {
         "name": "Bass Station Rack",
-        "year": null,
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "DrumStation",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "Drum Station V2",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Super Bass Station",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Supernova",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "Nova",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Station",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "D Station",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "K Station",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "KS4",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Xiosynth",
+        "year": 2007,
+        "category": null
+      },
+      {
+        "name": "MiniNova",
+        "year": 2012,
+        "category": null
+      },
+      {
+        "name": "Bass Station II",
+        "year": 2013,
+        "category": null
+      },
+      {
+        "name": "Summit",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Circuit Tracks",
+        "year": 2021,
         "category": null
       },
       {
@@ -2693,37 +3141,7 @@
         "category": null
       },
       {
-        "name": "D Station",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Digital Music Systems",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Drum Station V2",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DrumStation",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "K Station",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "KS4",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Nova",
         "year": null,
         "category": null
       },
@@ -2733,32 +3151,12 @@
         "category": null
       },
       {
-        "name": "Station",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Super Bass Station",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Supernova",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Ultranova",
         "year": null,
         "category": null
       },
       {
         "name": "X-Station",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Xiosynth",
         "year": null,
         "category": null
       }
@@ -2781,127 +3179,137 @@
     "relations": [],
     "instruments": [
       {
-        "name": "DMX",
-        "year": null,
-        "category": "drum machine"
-      },
-      {
-        "name": "DPX1",
-        "year": null,
+        "name": "SEM",
+        "year": 1974,
         "category": null
       },
       {
-        "name": "DS-2",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DSX",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DX",
-        "year": null,
+        "name": "Four Voice",
+        "year": 1975,
         "category": null
       },
       {
-        "name": "Echoplex Digital Pro",
-        "year": null,
+        "name": "Two Voice",
+        "year": 1975,
         "category": null
       },
       {
         "name": "Eight Voice",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Four Voice",
-        "year": null,
+        "year": 1977,
         "category": null
       },
       {
-        "name": "Matrix 1000",
-        "year": null,
+        "name": "Mini Sequencer",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "OB-1",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "OB-X",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "DMX",
+        "year": 1980,
+        "category": "drum machine"
+      },
+      {
+        "name": "OB-SX",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "DSX",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "OB-Xa",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "DX",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "OB-8",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "Prommer",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "Xpander",
+        "year": 1984,
         "category": null
       },
       {
         "name": "Matrix 12",
-        "year": null,
+        "year": 1985,
         "category": null
       },
       {
         "name": "Matrix 6R",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "OB XK",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "DPX1",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "Matrix 1000",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "Strummer",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "OB MX",
+        "year": 1994,
+        "category": null
+      },
+      {
+        "name": "OB12",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Echoplex Digital Pro",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "DS-2",
         "year": null,
         "category": null
       },
       {
         "name": "Matrix synthesizers",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Mini Sequencer",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "OB MX",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "OB XK",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "OB-1",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "OB-8",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "OB-SX",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "OB-X",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "OB-Xa",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "OB12",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "Polyphonic Synthesizer",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Prommer",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SEM",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Strummer",
         "year": null,
         "category": null
       },
@@ -2911,19 +3319,9 @@
         "category": null
       },
       {
-        "name": "Two Voice",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Two-Voice Pro",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Xpander",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       }
     ]
   },
@@ -2952,7 +3350,7 @@
     "instruments": [
       {
         "name": "OSCar",
-        "year": null,
+        "year": 1983,
         "category": null
       }
     ]
@@ -2981,6 +3379,16 @@
     ],
     "instruments": [
       {
+        "name": "Wave 2",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Realizer",
+        "year": 1986,
+        "category": null
+      },
+      {
         "name": "1002",
         "year": null,
         "category": null
@@ -2991,19 +3399,9 @@
         "category": null
       },
       {
-        "name": "Realizer",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "Wave",
         "year": null,
         "category": "synthesizer"
-      },
-      {
-        "name": "Wave 2",
-        "year": null,
-        "category": null
       },
       {
         "name": "Wave 2.2",
@@ -3034,29 +3432,694 @@
     "relations": [],
     "instruments": [
       {
-        "name": "Aira Compact",
-        "year": null,
+        "name": "RE-201 Space Echo",
+        "year": 1973,
+        "category": null
+      },
+      {
+        "name": "SH-1000",
+        "year": 1973,
+        "category": null
+      },
+      {
+        "name": "SH-2000",
+        "year": 1973,
+        "category": null
+      },
+      {
+        "name": "TR-66",
+        "year": 1973,
+        "category": null
+      },
+      {
+        "name": "SH-3A",
+        "year": 1974,
+        "category": null
+      },
+      {
+        "name": "System 100",
+        "year": 1975,
+        "category": null
+      },
+      {
+        "name": "RS-202 Strings",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "SH-5",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "System 700",
+        "year": 1976,
+        "category": null
+      },
+      {
+        "name": "GR-500",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CR-68",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "CR-78",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Jupiter-4",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "RS-505 Paraphonic",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "SH-1",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "SH-2",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "SH-7",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "Promars MRS-2",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "RS-09",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "SVC-350 Vocoder",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "System-100M",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "CR-8000",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Saturn 09",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "SH-09",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Jupiter-8",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "TR-808",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Juno-6",
+        "year": 1982,
         "category": "synthesizer"
       },
       {
-        "name": "Alpha Juno",
-        "year": null,
-        "category": "synthesizer"
+        "name": "Juno-60",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "TB-303",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "TR-606",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "CMU-800",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "CMU-810",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "Jupiter-6",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "JX-3P",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "MC-202",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "MKS-30",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "SH-101",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "GR-700",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "Juno-106",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "MKS-10",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "MKS-80",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "TR-909",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "Alpha Juno-2",
+        "year": 1985,
+        "category": "Analog Polyphonic Synthesizer"
+      },
+      {
+        "name": "HS-60",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "JX-8P",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "TR-707",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "TR-727",
+        "year": 1985,
+        "category": null
       },
       {
         "name": "Alpha Juno 1",
-        "year": null,
+        "year": 1986,
         "category": null
       },
       {
         "name": "Alpha Juno 2",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "JX-10",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "MKS-7",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "MKS-70",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "S-10",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "S-50",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "TR-505",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "D-50",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "D-550",
+        "year": 1987,
+        "category": "Rack Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "MKS-50",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "MT-32",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "S-220",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "S-330",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "TR-626",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "D-10",
+        "year": 1988,
+        "category": "Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "D-110",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "U-110",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "S-770",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "U-20",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "D-70",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "JD-800",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "JV-80",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "JV-880",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "JW-50",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "R-70",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "R-8",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "JD-990",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "JV-90",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "JV-1080",
+        "year": 1994,
+        "category": null
+      },
+      {
+        "name": "XP-10",
+        "year": 1994,
+        "category": null
+      },
+      {
+        "name": "XP-50",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "JP-8000",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "MC-303",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "XP-60",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "XP-80",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "JV-2080",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "JP-8080",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "JX-305",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "MC-505",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "SP-808",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "EG-101",
+        "year": 1999,
+        "category": "synthesizer"
+      },
+      {
+        "name": "EM-10",
+        "year": 1999,
+        "category": "Digital Accompaniment Keyboard"
+      },
+      {
+        "name": "JV-1010",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "XP-30",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "MC-307",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "VP-9000",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "XV-3080",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "XV-5080",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "D2",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "SH-32",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "XV-5050",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "MC-09",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "MC-909",
+        "year": 2003,
+        "category": null
+      },
+      {
+        "name": "Fantom XR",
+        "year": 2004,
+        "category": "Rack Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "Juno-D",
+        "year": 2005,
+        "category": null
+      },
+      {
+        "name": "SH-201",
+        "year": 2006,
+        "category": null
+      },
+      {
+        "name": "VP-550",
+        "year": 2006,
+        "category": null
+      },
+      {
+        "name": "Juno-G",
+        "year": 2007,
+        "category": null
+      },
+      {
+        "name": "V-Synth",
+        "year": 2007,
+        "category": null
+      },
+      {
+        "name": "Juno Stage",
+        "year": 2008,
+        "category": null
+      },
+      {
+        "name": "Juno DI",
+        "year": 2009,
+        "category": null
+      },
+      {
+        "name": "VP-770",
+        "year": 2009,
+        "category": null
+      },
+      {
+        "name": "Gaia SH-01",
+        "year": 2010,
+        "category": null
+      },
+      {
+        "name": "JUNO-DS61",
+        "year": 2015,
+        "category": null
+      },
+      {
+        "name": "SYSTEM-8",
+        "year": 2016,
+        "category": null
+      },
+      {
+        "name": "SE-02",
+        "year": 2017,
+        "category": "Desktop Analog Monophonic Synthesizer"
+      },
+      {
+        "name": "SH-01A",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "TR-8S",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "FANTOM-6",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "FANTOM-8",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "JU-06A",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "Jupiter-Xm",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "MC-707",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "JUPITER-X",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "TR-6S",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "SH-4d",
+        "year": 2023,
+        "category": null
+      },
+      {
+        "name": "Aerophone AE-10",
+        "year": null,
+        "category": "Digital Wind Instrument"
+      },
+      {
+        "name": "Aerophone AE-20",
+        "year": null,
+        "category": "Digital Wind Instrument"
+      },
+      {
+        "name": "Aerophone Pro",
+        "year": null,
+        "category": "Digital Wind Instrument"
+      },
+      {
+        "name": "Aira Compact",
         "year": null,
         "category": null
       },
       {
+        "name": "Alpha Juno",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "AT-100",
+        "year": null,
+        "category": "MUSIC ATELIER"
+      },
+      {
+        "name": "AT-300",
+        "year": null,
+        "category": "MUSIC ATELIER"
+      },
+      {
+        "name": "AT-500",
+        "year": null,
+        "category": "Atelier Organ"
+      },
+      {
+        "name": "AT-75",
+        "year": null,
+        "category": "Atelier Organ"
+      },
+      {
+        "name": "AT-800",
+        "year": null,
+        "category": "MUSIC ATELIER"
+      },
+      {
+        "name": "AT-900",
+        "year": null,
+        "category": "Atelier Organ"
+      },
+      {
+        "name": "AT-900C",
+        "year": null,
+        "category": "MUSIC ATELIER"
+      },
+      {
+        "name": "ATELIER Combo AT-350C",
+        "year": null,
+        "category": "MUSIC ATELIER"
+      },
+      {
         "name": "AX-Edge",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "AX-Synth",
@@ -3064,74 +4127,59 @@
         "category": "synthesizer"
       },
       {
+        "name": "BK-3",
+        "year": null,
+        "category": "Backing Keyboard"
+      },
+      {
+        "name": "BK-5",
+        "year": null,
+        "category": "Backing Keyboard"
+      },
+      {
+        "name": "BK-5 OR",
+        "year": null,
+        "category": "Backing Keyboard"
+      },
+      {
+        "name": "BK-7m",
+        "year": null,
+        "category": "Backing Module"
+      },
+      {
+        "name": "BK-9",
+        "year": null,
+        "category": "Backing Keyboard"
+      },
+      {
         "name": "Boss SP-202",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Boss SP-303",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Boss SP-505",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CMU-800",
-        "year": null,
         "category": null
       },
       {
-        "name": "CMU-810",
+        "name": "C-200",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "CR-68",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CR-78",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CR-8000",
-        "year": null,
-        "category": null
+        "category": "Classic Organ"
       },
       {
         "name": "D-05",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "D-110",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "D-50",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "D-70",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "D-Beam",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "D2",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "DDR-30",
@@ -3139,19 +4187,89 @@
         "category": "drum machine"
       },
       {
+        "name": "DisCover 5",
+        "year": null,
+        "category": "RealTime Orchestrator"
+      },
+      {
+        "name": "DisCover 5M",
+        "year": null,
+        "category": "Realtime Orchestrator"
+      },
+      {
         "name": "DJ-70",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "DP-90",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "DP-90S",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "DP603",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "DP90e",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "DP90Se",
+        "year": null,
+        "category": "Digital Piano"
       },
       {
         "name": "E-20",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
-        "name": "EG-101",
+        "name": "E-50",
         "year": null,
-        "category": "synthesizer"
+        "category": "Music Workstation"
+      },
+      {
+        "name": "E-60",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
+        "name": "E-80",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
+        "name": "E-A7",
+        "year": null,
+        "category": "Expandable Arranger"
+      },
+      {
+        "name": "E-X10",
+        "year": null,
+        "category": "Arranger Keyboard"
+      },
+      {
+        "name": "E-X50",
+        "year": null,
+        "category": "Arranger Keyboard"
+      },
+      {
+        "name": "EM-2000",
+        "year": null,
+        "category": "Creative Keyboard"
+      },
+      {
+        "name": "EM-55",
+        "year": null,
+        "category": "Interactive Keyboard"
       },
       {
         "name": "EM101",
@@ -3159,9 +4277,119 @@
         "category": null
       },
       {
+        "name": "EXR-3",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-3s",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-40 OR",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-46 OR",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-5",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-5s",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-7",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "EXR-7s",
+        "year": null,
+        "category": "Interactive Arranger"
+      },
+      {
+        "name": "F-110",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F-120R",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F-130R",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F-140R",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F-20",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F107",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "F701",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FA-06",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
+        "name": "FA-07",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
+        "name": "FA-08",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
         "name": "Fantom",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "FANTOM 6 EX",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
+        "name": "FANTOM 7",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
+        "name": "FANTOM 7 EX",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
+        "name": "FANTOM 8 EX",
+        "year": null,
+        "category": "Synthesizer Keyboard"
       },
       {
         "name": "Fantom S",
@@ -3169,39 +4397,309 @@
         "category": null
       },
       {
+        "name": "FANTOM-06",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
+        "name": "FANTOM-07",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
+        "name": "FANTOM-08",
+        "year": null,
+        "category": "Synthesizer Keyboard"
+      },
+      {
         "name": "Fantom-G",
         "year": null,
         "category": "synthesizer"
       },
       {
-        "name": "Fantom-X",
+        "name": "Fantom-G6",
         "year": null,
-        "category": "synthesizer"
+        "category": "Workstation Keyboard"
       },
       {
-        "name": "Gaia SH-01",
+        "name": "Fantom-G7",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-G8",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-S88",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-X",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Fantom-X6",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-X7",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-X8",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "Fantom-Xa",
+        "year": null,
+        "category": "Workstation Keyboard"
+      },
+      {
+        "name": "FP-10",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-2",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-30",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-30X",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-4",
+        "year": null,
+        "category": "Digital Portable Piano"
+      },
+      {
+        "name": "FP-4F",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-5",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-50",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-60",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-60X",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-7",
+        "year": null,
+        "category": "Digital Portable Piano"
+      },
+      {
+        "name": "FP-7F",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-80",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-90",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-90X",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FP-E50",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "FR-18 diatonic",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-1x",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-1xb",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-3x",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-3xb",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-4x",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-4xb",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-7x",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-7xb",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-8x",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-8x Dallapè",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "FR-8xb",
+        "year": null,
+        "category": "V-Accordion"
+      },
+      {
+        "name": "G-70",
+        "year": null,
+        "category": "Music Workstation"
+      },
+      {
+        "name": "GAIA 2",
+        "year": null,
+        "category": "Synthesizer"
+      },
+      {
+        "name": "GO:KEYS",
+        "year": null,
+        "category": "Music Creation Keyboard (GO-61K)"
+      },
+      {
+        "name": "GO:KEYS 3",
+        "year": null,
+        "category": "Music Creation Keyboard"
+      },
+      {
+        "name": "GO:KEYS 5",
+        "year": null,
+        "category": "Music Creation Keyboard"
+      },
+      {
+        "name": "GO:PIANO",
+        "year": null,
+        "category": "Digital Piano (GO-61P)"
+      },
+      {
+        "name": "GO:PIANO88",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP-3",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP-6",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP-9",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP-9M",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP607",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "GP609",
+        "year": null,
+        "category": "Digital Piano"
       },
       {
         "name": "GR-1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "GR-20",
+        "year": null,
+        "category": "Guitar Synthesizer"
       },
       {
         "name": "GR-300",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "GR-500",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "GR-700",
-        "year": null,
         "category": null
+      },
+      {
+        "name": "GR-33",
+        "year": null,
+        "category": "Guitar Synthesizer"
+      },
+      {
+        "name": "GR-55",
+        "year": null,
+        "category": "Guitar Synthesizer"
+      },
+      {
+        "name": "GW-7",
+        "year": null,
+        "category": "Workstation"
+      },
+      {
+        "name": "GW-8",
+        "year": null,
+        "category": "Workstation"
       },
       {
         "name": "HandSonic",
@@ -3209,47 +4707,182 @@
         "category": "drum machine"
       },
       {
-        "name": "HS-60",
+        "name": "HandSonic HPD-20",
         "year": null,
-        "category": null
+        "category": "Digital Hand Percussion"
       },
       {
-        "name": "JD-800",
+        "name": "HP-107",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Piano"
       },
       {
-        "name": "JD-990",
+        "name": "HP-109",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Mini-Grand Piano"
+      },
+      {
+        "name": "HP-201",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP-203",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP-207",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP-302",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP-305",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP-307",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP-503",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP-505",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP-507",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "HP504",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP506",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP508",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP601",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP603/HP603A",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP605",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP702",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HP704",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HPi-50",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HPi-50e",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HPi-6",
+        "year": null,
+        "category": "Digital Interactive Piano"
+      },
+      {
+        "name": "HPi-6s",
+        "year": null,
+        "category": "Digital Interactive Piano"
+      },
+      {
+        "name": "HPi-7",
+        "year": null,
+        "category": "Digital Interactive Piano"
+      },
+      {
+        "name": "HPi-7F",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "HPi-7LE",
+        "year": null,
+        "category": "Digital Interactive Piano"
+      },
+      {
+        "name": "HPi-7s",
+        "year": null,
+        "category": "Digital Interactive Piano"
+      },
+      {
+        "name": "INTEGRA-7",
+        "year": null,
+        "category": "SuperNATURAL Sound Module"
+      },
+      {
+        "name": "J-6",
+        "year": null,
+        "category": "Chord Synthesizer"
+      },
+      {
+        "name": "JD-08",
+        "year": null,
+        "category": "Sound Module"
       },
       {
         "name": "JD-XA",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "JD-Xi",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "JP-8000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "JP-8080",
-        "year": null,
         "category": null
       },
       {
-        "name": "Juno",
+        "name": "JP-08",
         "year": null,
-        "category": "synthesizer"
+        "category": "Sound Module"
       },
       {
-        "name": "Juno DI",
+        "name": "JU-06",
+        "year": null,
+        "category": "Sound Module"
+      },
+      {
+        "name": "Juno",
         "year": null,
         "category": null
       },
@@ -3259,44 +4892,44 @@
         "category": null
       },
       {
-        "name": "Juno Stage",
+        "name": "JUNO-D6",
         "year": null,
-        "category": null
+        "category": "Synthesizer"
       },
       {
-        "name": "Juno-106",
+        "name": "JUNO-D7",
         "year": null,
-        "category": "synthesizer"
+        "category": "Synthesizer"
       },
       {
-        "name": "Juno-6",
+        "name": "JUNO-D8",
         "year": null,
-        "category": "synthesizer"
+        "category": "Synthesizer"
       },
       {
-        "name": "Juno-60",
+        "name": "JUNO-DS76",
         "year": null,
-        "category": null
+        "category": "Synthesizer"
       },
       {
-        "name": "Juno-D",
+        "name": "JUNO-DS88",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Juno-G",
-        "year": null,
-        "category": "synthesizer"
+        "category": "Synthesizer"
       },
       {
         "name": "Juno-Gi",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "JUNO-X",
+        "year": null,
+        "category": "Programmable Polyphonic Synthesizer"
       },
       {
         "name": "Jupiter",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Jupiter XM",
@@ -3304,29 +4937,14 @@
         "category": null
       },
       {
-        "name": "Jupiter-4",
+        "name": "Jupiter-50",
         "year": null,
         "category": null
       },
       {
-        "name": "Jupiter-50",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Jupiter-6",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Jupiter-8",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Jupiter-80",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "JV-1000",
@@ -3334,164 +4952,214 @@
         "category": null
       },
       {
-        "name": "JV-1010",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "JV-1080",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "JV-2080",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "JV-30",
         "year": null,
         "category": null
       },
       {
-        "name": "JV-80",
+        "name": "JX-03",
         "year": null,
-        "category": null
+        "category": "Sound Module"
       },
       {
-        "name": "JV-880",
+        "name": "JX-08",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "JV-90",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "JW-50",
-        "year": null,
-        "category": null
+        "category": "Sound Module"
       },
       {
         "name": "JX-1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
-        "name": "JX-10",
+        "name": "KIYOLA KF-10",
         "year": null,
-        "category": "synthesizer"
+        "category": "Artisan Digital Piano"
       },
       {
-        "name": "JX-305",
+        "name": "KIYOLA KF-20",
         "year": null,
-        "category": "synthesizer"
+        "category": "Artisan Digital Piano"
       },
       {
-        "name": "JX-3P",
+        "name": "KIYOLA KF-25",
         "year": null,
-        "category": "synthesizer"
+        "category": "Artisan Digital Piano"
       },
       {
-        "name": "JX-8P",
+        "name": "KR-103",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Intelligent Piano"
       },
       {
-        "name": "MC-09",
+        "name": "KR-105",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Intelligent Piano"
       },
       {
-        "name": "MC-202",
+        "name": "KR-107",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Intelligent Piano"
       },
       {
-        "name": "MC-303",
+        "name": "KR-111",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Intelligent Mini-Grand Piano"
       },
       {
-        "name": "MC-307",
+        "name": "KR-115",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Intelligent Mini-Grand Piano"
+      },
+      {
+        "name": "KR-115M",
+        "year": null,
+        "category": "Digital Intelligent Mini-Grand Player Piano"
+      },
+      {
+        "name": "KR-117M",
+        "year": null,
+        "category": "Digital Intelligent Grand Player Piano"
+      },
+      {
+        "name": "KR-15M",
+        "year": null,
+        "category": "Digital Intelligent Mini-Grand Player Piano"
+      },
+      {
+        "name": "KR-17M",
+        "year": null,
+        "category": "Digital Intelligent Grand Player Piano"
+      },
+      {
+        "name": "Lucina AX-09",
+        "year": null,
+        "category": "Synthesizer"
+      },
+      {
+        "name": "LX-10",
+        "year": null,
+        "category": "Digital Upright Grand Piano"
+      },
+      {
+        "name": "LX-10F",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "LX-15",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "LX-15e",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX-17",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX-5",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX-6",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX-7",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX-9",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX705",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX706",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "LX708",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "MC-101",
+        "year": null,
+        "category": "GROOVEBOX"
       },
       {
         "name": "MC-4 Microcomposer",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MC-505",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "MC-8 Microcomposer",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "MC-808",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MC-909",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MKS-10",
         "year": null,
         "category": null
       },
       {
         "name": "MKS-20",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "MKS-30",
-        "year": null,
         "category": null
       },
       {
-        "name": "MKS-50",
+        "name": "Mobile Studio Canvas",
         "year": null,
-        "category": null
+        "category": "Sound Module with DAW Software"
       },
       {
-        "name": "MKS-7",
+        "name": "MP200",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "MKS-70",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "MKS-80",
-        "year": null,
-        "category": "synthesizer"
+        "category": "Digital Piano"
       },
       {
         "name": "MS-1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
-        "name": "MT-32",
+        "name": "MV-8000",
         "year": null,
-        "category": "synthesizer"
+        "category": "Production Studio"
+      },
+      {
+        "name": "MV-8800",
+        "year": null,
+        "category": "Production Studio"
+      },
+      {
+        "name": "OCTAPAD SPD-30",
+        "year": null,
+        "category": "Digital Percussion Pad"
       },
       {
         "name": "OP-8",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "P-6",
+        "year": null,
+        "category": "Creative Sampler"
       },
       {
         "name": "Pgs.php",
@@ -3499,34 +5167,134 @@
         "category": null
       },
       {
-        "name": "Promars MRS-2",
+        "name": "PRELUDE",
         "year": null,
-        "category": null
+        "category": "Portable Keyboard"
       },
       {
         "name": "R-5",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "R-70",
-        "year": null,
         "category": null
       },
       {
-        "name": "R-8",
+        "name": "RCP800",
         "year": null,
-        "category": "synthesizer"
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RD-08",
+        "year": null,
+        "category": "Stage Piano"
       },
       {
         "name": "RD-1000",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
-        "name": "RE-201 Space Echo",
+        "name": "RD-150",
         "year": null,
-        "category": null
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-2000",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RD-2000 EX",
+        "year": null,
+        "category": "Stage Piano"
+      },
+      {
+        "name": "RD-300GX",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-300NX",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RD-300SX",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-600",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-64",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RD-700",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-700GX",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-700NX",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RD-700SX",
+        "year": null,
+        "category": "Digital Stage Piano"
+      },
+      {
+        "name": "RD-800",
+        "year": null,
+        "category": "Stage Piano"
+      },
+      {
+        "name": "RD-88",
+        "year": null,
+        "category": "Stage Piano"
+      },
+      {
+        "name": "RD-88 EX",
+        "year": null,
+        "category": "Stage Piano"
+      },
+      {
+        "name": "RG-1",
+        "year": null,
+        "category": "Digital Mini-Grand Piano"
+      },
+      {
+        "name": "RG-1F",
+        "year": null,
+        "category": "Digital Grand"
+      },
+      {
+        "name": "RG-3",
+        "year": null,
+        "category": "Digital Mini-Grand Piano"
+      },
+      {
+        "name": "RG-3F",
+        "year": null,
+        "category": "Digital Grand"
+      },
+      {
+        "name": "RG-3M",
+        "year": null,
+        "category": "Digital Mini-Grand Player Piano"
+      },
+      {
+        "name": "RG-7",
+        "year": null,
+        "category": "Digital Grand Player Piano"
       },
       {
         "name": "Rhythm 55",
@@ -3534,9 +5302,54 @@
         "category": "synthesizer"
       },
       {
-        "name": "RS-09",
+        "name": "RK-100",
         "year": null,
-        "category": null
+        "category": "VIMA Recreational Keyboard"
+      },
+      {
+        "name": "RK-300",
+        "year": null,
+        "category": "VIMA Recreational Keyboard"
+      },
+      {
+        "name": "RK-500",
+        "year": null,
+        "category": "VIMA Recreational Keyboard"
+      },
+      {
+        "name": "RM-700",
+        "year": null,
+        "category": "Digital Entertainment Piano"
+      },
+      {
+        "name": "RP-301R",
+        "year": null,
+        "category": "SuperNATURAL Piano"
+      },
+      {
+        "name": "RP102",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RP107",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RP401R",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RP501R",
+        "year": null,
+        "category": "Digital Piano"
+      },
+      {
+        "name": "RP701",
+        "year": null,
+        "category": "Digital Piano"
       },
       {
         "name": "RS-101",
@@ -3546,11 +5359,6 @@
       {
         "name": "RS-202",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "RS-202 Strings",
-        "year": null,
         "category": null
       },
       {
@@ -3559,49 +5367,34 @@
         "category": null
       },
       {
-        "name": "RS-505 Paraphonic",
+        "name": "RS-70",
         "year": null,
-        "category": null
+        "category": "Synthesizer"
       },
       {
-        "name": "S-10",
+        "name": "RT-MicS",
         "year": null,
-        "category": "synthesizer"
+        "category": "Hybrid Drum Module"
       },
       {
-        "name": "S-220",
+        "name": "S-1",
         "year": null,
-        "category": null
+        "category": "Tweak Synthesizer"
       },
       {
-        "name": "S-330",
+        "name": "S-760",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "S-50",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "S-770",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Saturn 09",
-        "year": null,
-        "category": null
+        "category": "Digital Sampler"
       },
       {
         "name": "SC-55",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SC-7",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SC-88",
@@ -3611,65 +5404,20 @@
       {
         "name": "SC-8850",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "SD-20",
+        "year": null,
+        "category": "USB Bus-Powered MIDI Sound Module"
+      },
+      {
+        "name": "SD-80",
+        "year": null,
+        "category": "USB MIDI Sound Module and Synthesizer"
       },
       {
         "name": "SH-01 Gaia",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SH-09",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-1",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-1000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-101",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SH-2",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-2000",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-201",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SH-32",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-3A",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SH-5",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SH-7",
         "year": null,
         "category": null
       },
@@ -3681,7 +5429,7 @@
       {
         "name": "Sound Canvas",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SP-303",
@@ -3691,147 +5439,627 @@
       {
         "name": "SP-404",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "SP-404A",
+        "year": null,
+        "category": "Linear Wave Sampler"
+      },
+      {
+        "name": "SP-404MKII",
+        "year": null,
+        "category": "Creative Sampler and Effector"
+      },
+      {
+        "name": "SP-404SX",
+        "year": null,
+        "category": "Linear Wave Sampler"
       },
       {
         "name": "SP-555",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SP-606",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
-        "name": "SP-808",
+        "name": "SPD-S",
         "year": null,
-        "category": "synthesizer"
+        "category": "Sampling Pad"
+      },
+      {
+        "name": "SPD-SX",
+        "year": null,
+        "category": "Sampling Pad"
+      },
+      {
+        "name": "SPD-SX PRO",
+        "year": null,
+        "category": "Sampling Pad"
+      },
+      {
+        "name": "SPD-SX Special Edition",
+        "year": null,
+        "category": "Sampling Pad"
+      },
+      {
+        "name": "SPD::ONE ELECTRO",
+        "year": null,
+        "category": "Percussion Pad"
+      },
+      {
+        "name": "SPD::ONE KICK",
+        "year": null,
+        "category": "Percussion Pad"
+      },
+      {
+        "name": "SPD::ONE PERCUSSION",
+        "year": null,
+        "category": "Percussion Pad"
+      },
+      {
+        "name": "SPD::ONE WAV PAD",
+        "year": null,
+        "category": "Percussion Pad"
       },
       {
         "name": "SRX expansion board",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SVC-350 Vocoder",
-        "year": null,
         "category": null
       },
       {
-        "name": "System 100",
+        "name": "SYSTEM-1",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "System 700",
-        "year": null,
-        "category": "synthesizer"
+        "category": "PLUG-OUT Synthesizer"
       },
       {
         "name": "System-1 Aira",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "System-100M",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "TB-303",
-        "year": null,
         "category": null
       },
       {
-        "name": "TR-505",
+        "name": "SYSTEM-1m",
         "year": null,
-        "category": "synthesizer"
+        "category": "PLUG-OUT Synthesizer"
       },
       {
-        "name": "TR-606",
+        "name": "SYSTEM-500 512",
         "year": null,
-        "category": "synthesizer"
+        "category": "Modular VCO"
       },
       {
-        "name": "TR-626",
+        "name": "SYSTEM-500 521",
         "year": null,
-        "category": null
+        "category": "Modular VCF"
       },
       {
-        "name": "TR-66",
+        "name": "SYSTEM-500 530",
         "year": null,
-        "category": null
+        "category": "Modular VCA"
       },
       {
-        "name": "TR-707",
+        "name": "SYSTEM-500 540",
         "year": null,
-        "category": "synthesizer"
+        "category": "Modular 2ENV-LFO"
       },
       {
-        "name": "TR-727",
+        "name": "SYSTEM-500 572",
         "year": null,
-        "category": null
+        "category": "Modular PHASE SHIFTER/DELAY/LFO"
       },
       {
-        "name": "TR-808",
+        "name": "SYSTEM-500 Complete Set",
         "year": null,
-        "category": null
+        "category": "Modular Synthesizer"
       },
       {
-        "name": "TR-909",
+        "name": "T-8",
         "year": null,
-        "category": null
+        "category": "Beat Machine"
       },
       {
-        "name": "U-110",
+        "name": "TAIKO-1",
         "year": null,
-        "category": "synthesizer"
+        "category": "Electronic Taiko Percussion"
       },
       {
-        "name": "U-20",
+        "name": "TB-03",
         "year": null,
-        "category": "synthesizer"
+        "category": "Bass Line"
       },
       {
-        "name": "V-Synth",
+        "name": "TB-3",
         "year": null,
-        "category": "synthesizer"
+        "category": "Touch Bassline"
+      },
+      {
+        "name": "TD-02K",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-02KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-07DMK",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-07KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-07KVX",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-07KX",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-11",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-11K",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-11KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-12",
+        "year": null,
+        "category": "Percussion Sound Module"
+      },
+      {
+        "name": "TD-12KX",
+        "year": null,
+        "category": "V-Stage Series"
+      },
+      {
+        "name": "TD-12S",
+        "year": null,
+        "category": "V-Stage Series"
+      },
+      {
+        "name": "TD-12SV",
+        "year": null,
+        "category": "V-Stage Series"
+      },
+      {
+        "name": "TD-15",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-15K",
+        "year": null,
+        "category": "V-Drums V-Tour Series"
+      },
+      {
+        "name": "TD-15KV",
+        "year": null,
+        "category": "V-Drums V-Tour Series"
+      },
+      {
+        "name": "TD-17",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-17K-L",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-17KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-17KV2",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-17KVX",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-17KVX2",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-20",
+        "year": null,
+        "category": "Percussion Sound Module"
+      },
+      {
+        "name": "TD-20S",
+        "year": null,
+        "category": "V-Pro Series"
+      },
+      {
+        "name": "TD-25",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-25K",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-25KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-25KVX",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-27",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-27KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-27KV2",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-30",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-30K",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-30KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "TD-50K",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50K180",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50K2",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50KV",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50KV-RM",
+        "year": null,
+        "category": "Custom V-Drums"
+      },
+      {
+        "name": "TD-50KV2",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50KVX",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD-50X",
+        "year": null,
+        "category": "Sound Module"
+      },
+      {
+        "name": "TD-6S",
+        "year": null,
+        "category": "V-Tour Series"
+      },
+      {
+        "name": "TD-6SX",
+        "year": null,
+        "category": "V-Tour Series"
+      },
+      {
+        "name": "TD-6SXT",
+        "year": null,
+        "category": "V-Tour Series"
+      },
+      {
+        "name": "TD-6V",
+        "year": null,
+        "category": "Percussion Sound Module"
+      },
+      {
+        "name": "TD-8",
+        "year": null,
+        "category": "Percussion Sound Module"
+      },
+      {
+        "name": "TD313",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD316",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD513",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD516",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD713",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TD716",
+        "year": null,
+        "category": "V-Drums"
+      },
+      {
+        "name": "TR-06",
+        "year": null,
+        "category": "Drumatix"
+      },
+      {
+        "name": "TR-08",
+        "year": null,
+        "category": "Rhythm Composer"
+      },
+      {
+        "name": "TR-09",
+        "year": null,
+        "category": "Rhythm Composer"
+      },
+      {
+        "name": "TR-1000",
+        "year": null,
+        "category": "Rhythm Creator"
+      },
+      {
+        "name": "TR-8",
+        "year": null,
+        "category": "Rhythm Performer"
+      },
+      {
+        "name": "V-Combo VR-09",
+        "year": null,
+        "category": "Live Performance Keyboard"
+      },
+      {
+        "name": "V-Combo VR-09-B",
+        "year": null,
+        "category": "Live Performance Keyboard"
+      },
+      {
+        "name": "V-Combo VR-700",
+        "year": null,
+        "category": "Stage Keyboard"
+      },
+      {
+        "name": "V-Combo VR-730",
+        "year": null,
+        "category": "Live Performance Keyboard"
+      },
+      {
+        "name": "V-Piano",
+        "year": null,
+        "category": "V-Piano"
+      },
+      {
+        "name": "V-Piano Grand",
+        "year": null,
+        "category": "V-Piano"
+      },
+      {
+        "name": "V-STAGE 76",
+        "year": null,
+        "category": "Performance Keyboard"
+      },
+      {
+        "name": "V-STAGE 88",
+        "year": null,
+        "category": "Performance Keyboard"
+      },
+      {
+        "name": "V-Synth GT",
+        "year": null,
+        "category": "Elastic Audio Synthesizer"
+      },
+      {
+        "name": "V-Synth XT",
+        "year": null,
+        "category": "Synthesizer"
+      },
+      {
+        "name": "V31",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "V51",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "V71",
+        "year": null,
+        "category": "Drum Sound Module"
+      },
+      {
+        "name": "VAD103",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD306",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD307",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD316",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD503",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD504",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD506",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD507",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD516",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD706",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
+      },
+      {
+        "name": "VAD716",
+        "year": null,
+        "category": "V-Drums Acoustic Design"
       },
       {
         "name": "VariOS",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "VERSELAB MV-1",
+        "year": null,
+        "category": "Song Production Studio"
+      },
+      {
+        "name": "VIMA JM-5",
+        "year": null,
+        "category": "Entertainment Module"
+      },
+      {
+        "name": "VIMA JM-8",
+        "year": null,
+        "category": "Entertainment Module"
       },
       {
         "name": "VK-7",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "VK-77",
+        "year": null,
+        "category": "Combo Organ"
       },
       {
         "name": "VK-8",
         "year": null,
-        "category": "synthesizer"
+        "category": null
+      },
+      {
+        "name": "VK-88",
+        "year": null,
+        "category": "Combo Organ"
+      },
+      {
+        "name": "VK-8M",
+        "year": null,
+        "category": "Organ Sound Module"
+      },
+      {
+        "name": "VP-03",
+        "year": null,
+        "category": "Vocoder"
       },
       {
         "name": "VP-330",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "VP-550",
-        "year": null,
         "category": null
       },
       {
-        "name": "VP-770",
+        "name": "VR-760",
         "year": null,
-        "category": null
+        "category": "V-Combo"
       },
       {
-        "name": "VP-9000",
+        "name": "VS-1880",
         "year": null,
-        "category": null
+        "category": "24-bit Digital Studio Workstation"
+      },
+      {
+        "name": "VS-890",
+        "year": null,
+        "category": "24-bit Digital Studio Workstation"
       },
       {
         "name": "VSC",
@@ -3841,52 +6069,22 @@
       {
         "name": "W-30",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "XP-10",
-        "year": null,
         "category": null
       },
       {
-        "name": "XP-30",
+        "name": "XV-2020",
         "year": null,
-        "category": "synthesizer"
+        "category": "64-Voice Expandable Synthesizer Module"
       },
       {
-        "name": "XP-50",
+        "name": "XV-88",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "XP-60",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "XP-80",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "XV-3080",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "XV-5050",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "XV-5080",
-        "year": null,
-        "category": null
+        "category": "128-Voice Expandable Synthesizer"
       },
       {
         "name": "Zenology",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       }
     ]
   },
@@ -3930,133 +6128,178 @@
     ],
     "instruments": [
       {
-        "name": "Drumtraks",
-        "year": null,
-        "category": "drum machine"
+        "name": "Prophet-5",
+        "year": 1978,
+        "category": null
       },
       {
-        "name": "Evolver",
-        "year": null,
+        "name": "Prophet-5 Rev. 2",
+        "year": 1978,
+        "category": "Analog Polyphonic Synthesizer"
+      },
+      {
+        "name": "Prophet 10",
+        "year": 1980,
         "category": null
       },
       {
         "name": "Fugue",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Max",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Mono Evolver",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Mopho",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Multitrak",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Poly Evolver",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Poly Evolver Rack",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Prelude",
-        "year": null,
+        "year": 1981,
         "category": null
       },
       {
         "name": "Pro-One",
-        "year": null,
+        "year": 1981,
         "category": "synthesizer"
       },
       {
-        "name": "Prophet 08",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Prophet 10",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Prophet 2000",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Prophet 3000",
-        "year": null,
+        "name": "Prelude",
+        "year": 1982,
         "category": null
       },
       {
         "name": "Prophet 600",
-        "year": null,
+        "year": 1982,
         "category": null
       },
       {
         "name": "Prophet Remote",
-        "year": null,
+        "year": 1982,
         "category": null
       },
       {
         "name": "Prophet T8",
-        "year": null,
+        "year": 1983,
         "category": null
       },
       {
-        "name": "Prophet VS",
-        "year": null,
-        "category": "synthesizer"
+        "name": "Drumtraks",
+        "year": 1984,
+        "category": "drum machine"
       },
       {
-        "name": "Prophet-5",
-        "year": null,
+        "name": "Max",
+        "year": 1984,
         "category": null
       },
       {
         "name": "Six-Trak",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Split-8",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Studio 440",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Tempest",
-        "year": null,
+        "year": 1984,
         "category": null
       },
       {
-        "name": "Tetra",
-        "year": null,
+        "name": "Multitrak",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "Prophet 2000",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "Split-8",
+        "year": 1985,
         "category": null
       },
       {
         "name": "TOM",
-        "year": null,
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "Prophet VS",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "Prophet 3000",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "Studio 440",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "Evolver",
+        "year": 2002,
+        "category": null
+      },
+      {
+        "name": "Poly Evolver Rack",
+        "year": 2004,
+        "category": null
+      },
+      {
+        "name": "Poly Evolver",
+        "year": 2005,
+        "category": null
+      },
+      {
+        "name": "Mono Evolver",
+        "year": 2006,
+        "category": null
+      },
+      {
+        "name": "Prophet 08",
+        "year": 2007,
+        "category": null
+      },
+      {
+        "name": "Mopho",
+        "year": 2008,
+        "category": null
+      },
+      {
+        "name": "Tetra",
+        "year": 2009,
+        "category": null
+      },
+      {
+        "name": "Tempest",
+        "year": 2011,
+        "category": null
+      },
+      {
+        "name": "Prophet 6",
+        "year": 2015,
+        "category": null
+      },
+      {
+        "name": "OB-6",
+        "year": 2016,
+        "category": null
+      },
+      {
+        "name": "Prophet Rev2",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "REV2",
+        "year": 2017,
+        "category": null
+      },
+      {
+        "name": "Prophet X",
+        "year": 2018,
+        "category": null
+      },
+      {
+        "name": "Pro 3",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "Prophet-5 Rev4",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "Take 5",
+        "year": 2021,
         "category": null
       }
     ]
@@ -4086,7 +6329,7 @@
     "instruments": [
       {
         "name": "Modular",
-        "year": null,
+        "year": 1975,
         "category": null
       }
     ]
@@ -4121,32 +6364,52 @@
     ],
     "instruments": [
       {
-        "name": "CMK 49",
-        "year": null,
+        "name": "Orchestra",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Mono",
+        "year": 1980,
         "category": null
       },
       {
         "name": "Cruise",
-        "year": null,
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "Opera 6",
+        "year": 1983,
         "category": null
       },
       {
         "name": "DK600",
-        "year": null,
+        "year": 1984,
         "category": null
+      },
+      {
+        "name": "DK 80",
+        "year": 1985,
+        "category": "Analog Polyphonic Synthesizer"
       },
       {
         "name": "DK70",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DK700",
-        "year": null,
+        "year": 1985,
         "category": null
       },
       {
         "name": "DK80",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DK700",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "CMK 49",
         "year": null,
         "category": null
       },
@@ -4166,22 +6429,7 @@
         "category": null
       },
       {
-        "name": "Mono",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Opera 6",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "OR400",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Orchestra",
         "year": null,
         "category": null
       },
@@ -4195,19 +6443,102 @@
   {
     "id": 37,
     "canonical_name": "Sound Transform Systems",
-    "country": null,
+    "country": "United States",
     "city": null,
     "founded_year": null,
     "ended_year": null,
-    "founders": null,
-    "short_history": null,
+    "founders": "Rex Probe",
+    "short_history": "Sound Transform Systems is the company Serge Modular Music System became. Serge Tcherepnin's business, founded in 1974 out of CalArts and run from Hollywood and later San Francisco, declined through the 1980s, and in the early 1990s Rex Probe took it over and renamed it. STS dropped the DIY kits that had defined the Serge ethos and standardised the range instead: first the pre-configured Shop Panels, later the smaller M-Class panels, and a handful of new modules of its own such as the pulse divider, Boolean logic and MIDI-CV. Schematics stopped being published in the late 1990s, which pushed the Serge community into reverse-engineering the designs, and from the 2010s Tcherepnin licensed them to other makers.",
     "long_history": null,
     "official_website": null,
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "needs_review",
     "name_history": [],
-    "relations": [],
-    "instruments": []
+    "relations": [
+      {
+        "relation_type": "successor_of",
+        "year": null,
+        "related_manufacturer_id": 36,
+        "related_name": "Serge Modular Music Systems"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Animal",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Animate",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Blue Control",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Blue Voice",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Creature",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Gator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Klangziet",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Mayhem",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Quad Slope",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Red Control Panel",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Red Fun Station",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Soup Kitchen 1",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Soup Kitchen 2",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Triple Oscillator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "Wave Processor",
+        "year": null,
+        "category": "module"
+      }
+    ]
   },
   {
     "id": 32,
@@ -4249,6 +6580,41 @@
     ],
     "instruments": [
       {
+        "name": "Synthesizer 100F",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "Synthesizer 100F 0",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "S100P",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "Synthesizer 110F",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "Synthesizer 110F 0",
+        "year": 1980,
+        "category": null
+      },
+      {
+        "name": "SX-400",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "SX-240",
+        "year": 1984,
+        "category": null
+      },
+      {
         "name": "100F",
         "year": null,
         "category": null
@@ -4269,42 +6635,7 @@
         "category": null
       },
       {
-        "name": "S100P",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "SX-210",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SX-240",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SX-400",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Synthesizer 100F",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Synthesizer 100F 0",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Synthesizer 110F",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Synthesizer 110F 0",
         "year": null,
         "category": null
       }
@@ -4313,17 +6644,38 @@
   {
     "id": 43,
     "canonical_name": "Vektor",
-    "country": null,
-    "city": null,
-    "founded_year": null,
+    "country": "Russia",
+    "city": "Yekaterinburg",
+    "founded_year": 1941,
     "ended_year": null,
     "founders": null,
-    "short_history": null,
+    "short_history": "Vektor is an Urals electronics enterprise in Yekaterinburg, formerly Sverdlovsk. It was set up in 1941 around the Moscow 'Geodeziya' plant evacuated to Sverdlovsk, traded first as Factory No. 356, then from 1966 to 1992 as the Sverdlovsk Electroavtomatika Works, and was reorganised in 2002 into the joint-stock Ural Production Enterprise Vektor with the state holding all shares. Its own account claims fifteen years as the monopoly producer of Soviet electronic musical instruments and amplification. The Kachkanar plant that became Formanta opened in August 1976 as its branch and was separated into an independent radio factory in October 1980; the Polivoks was developed at Vektor from 1980 under chief engineer Vladimir Kuzmin, with the instrument's military-radio appearance credited to his wife Olimpiada Kuzmina, and built in series by Formanta.",
     "long_history": null,
     "official_website": null,
     "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
+    "confidence_level": "needs_review",
+    "name_history": [
+      {
+        "name": "Ural Production Enterprise Vektor",
+        "start_year": null,
+        "end_year": null
+      },
+      {
+        "name": "Zavod No. 356",
+        "start_year": 1941,
+        "end_year": 1966
+      },
+      {
+        "name": "Sverdlovsk Electroavtomatika Works",
+        "start_year": 1966,
+        "end_year": 1992
+      },
+      {
+        "name": "AO Uralskoye proizvodstvennoye predpriyatiye Vektor",
+        "start_year": 2002,
+        "end_year": null
+      }
+    ],
     "relations": [],
     "instruments": []
   },
@@ -4360,27 +6712,113 @@
   {
     "id": 28,
     "canonical_name": "Waldorf Music",
-    "country": null,
-    "city": null,
-    "founded_year": null,
+    "country": "Germany",
+    "city": "Remagen",
+    "founded_year": 1988,
     "ended_year": null,
-    "founders": null,
-    "short_history": null,
+    "founders": "Wolfgang Duren",
+    "short_history": "Waldorf was founded in 1988 in the Rhineland town it is named after, by Wolfgang Duren, who had been PPG's German distributor. When PPG closed in 1987 Duren carried its wavetable synthesis forward using ASICs Wolfgang Palm had designed, and the Microwave became the company's first instrument. The Wave, the Q series and the microQ followed, and Waldorf became the reference point for wavetable sound in Germany. The original company went insolvent in February 2004; a new Waldorf Music GmbH was set up in 2006 -- a continuation of the brand rather than a legal successor -- and it is active today from Remagen with the Blofeld, Quantum, Iridium and Kyra.",
     "long_history": null,
-    "official_website": null,
+    "official_website": "https://waldorfmusic.com/",
     "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Waldorf Electronics GmbH",
+        "start_year": 1988,
+        "end_year": 2004
+      },
+      {
+        "name": "Waldorf Music AG",
+        "start_year": 2004,
+        "end_year": 2006
+      },
+      {
+        "name": "Waldorf Music GmbH",
+        "start_year": 2006,
+        "end_year": null
+      }
+    ],
     "relations": [],
     "instruments": [
       {
-        "name": "Blofeld",
-        "year": null,
-        "category": "synthesizer"
+        "name": "Microwave",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "Wave",
+        "year": 1993,
+        "category": null
+      },
+      {
+        "name": "Miniworks 4 Pole",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "Pulse",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "Microwave II",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "Microwave XT",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "X Pole",
+        "year": 1998,
+        "category": null
       },
       {
         "name": "D Pole",
-        "year": null,
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Microwave XTK",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Q",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "Micro Q",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "PPG Wave 2V",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "Blofeld",
+        "year": 2009,
+        "category": null
+      },
+      {
+        "name": "Iridium",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "M",
+        "year": 2021,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Quantum Mk2",
+        "year": 2023,
         "category": null
       },
       {
@@ -4394,34 +6832,14 @@
         "category": null
       },
       {
-        "name": "Micro Q",
+        "name": "Lector",
         "year": null,
-        "category": null
+        "category": "vocoder"
       },
       {
-        "name": "Microwave",
+        "name": "microQ",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "Microwave II",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Microwave XT",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Microwave XTK",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "Miniworks 4 Pole",
-        "year": null,
-        "category": null
+        "category": "synthesizer"
       },
       {
         "name": "NW1 Wavetable Module",
@@ -4429,14 +6847,9 @@
         "category": null
       },
       {
-        "name": "PPG Wave 2V",
+        "name": "Pulse 2",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "Pulse",
-        "year": null,
-        "category": null
+        "category": "synthesizer"
       },
       {
         "name": "PULSE2",
@@ -4444,14 +6857,14 @@
         "category": null
       },
       {
-        "name": "Q",
+        "name": "Quantum",
         "year": null,
         "category": null
       },
       {
-        "name": "Quantum",
+        "name": "Rocket",
         "year": null,
-        "category": null
+        "category": "synthesizer"
       },
       {
         "name": "Streichfett",
@@ -4464,14 +6877,9 @@
         "category": null
       },
       {
-        "name": "Wave",
+        "name": "Zarenbourg",
         "year": null,
-        "category": null
-      },
-      {
-        "name": "X Pole",
-        "year": null,
-        "category": null
+        "category": "electric piano"
       }
     ]
   },
@@ -4499,7 +6907,7 @@
     "instruments": [
       {
         "name": "Bass Synthesizer",
-        "year": null,
+        "year": 1977,
         "category": null
       }
     ]
@@ -4532,19 +6940,389 @@
     "relations": [],
     "instruments": [
       {
-        "name": "A3000",
-        "year": null,
-        "category": "sampler"
+        "name": "GX-1",
+        "year": 1973,
+        "category": null
       },
       {
-        "name": "AN1x",
-        "year": null,
+        "name": "SY-1",
+        "year": 1974,
+        "category": null
+      },
+      {
+        "name": "CS-10",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CS-30",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CS-50",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CS-60",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CS-80",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "SS30",
+        "year": 1977,
+        "category": null
+      },
+      {
+        "name": "CS-15",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "CS-5",
+        "year": 1978,
+        "category": null
+      },
+      {
+        "name": "CS-15D",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "CS-20M",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "CS-40M",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "SK20",
+        "year": 1979,
+        "category": null
+      },
+      {
+        "name": "CS-70M",
+        "year": 1981,
+        "category": null
+      },
+      {
+        "name": "CS01",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "SY20",
+        "year": 1982,
+        "category": null
+      },
+      {
+        "name": "DX1",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "DX7",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "DX9",
+        "year": 1983,
+        "category": null
+      },
+      {
+        "name": "TX816",
+        "year": 1984,
+        "category": null
+      },
+      {
+        "name": "DX100",
+        "year": 1985,
         "category": "synthesizer"
       },
       {
-        "name": "AN200",
-        "year": null,
+        "name": "DX21",
+        "year": 1985,
         "category": null
+      },
+      {
+        "name": "DX27",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DX5",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "ED10",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "TX7",
+        "year": 1985,
+        "category": null
+      },
+      {
+        "name": "DX7IID DX7IIFD",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "FB-01",
+        "year": 1986,
+        "category": null
+      },
+      {
+        "name": "PSS-170",
+        "year": 1986,
+        "category": "Digital Accompaniment Keyboard"
+      },
+      {
+        "name": "RX-5",
+        "year": 1986,
+        "category": "drum machine"
+      },
+      {
+        "name": "Portasound PSS-470",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "TX16W",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "TX802",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "TX81Z",
+        "year": 1987,
+        "category": null
+      },
+      {
+        "name": "DX11",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "TQ5",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "YS200",
+        "year": 1988,
+        "category": null
+      },
+      {
+        "name": "SY77",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "V50",
+        "year": 1989,
+        "category": null
+      },
+      {
+        "name": "SY22",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "TG33",
+        "year": 1990,
+        "category": null
+      },
+      {
+        "name": "RY30",
+        "year": 1991,
+        "category": "synthesizer"
+      },
+      {
+        "name": "SY99",
+        "year": 1991,
+        "category": null
+      },
+      {
+        "name": "SY35",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "SY85",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "TG500",
+        "year": 1992,
+        "category": null
+      },
+      {
+        "name": "W7",
+        "year": 1994,
+        "category": null
+      },
+      {
+        "name": "QS300",
+        "year": 1995,
+        "category": null
+      },
+      {
+        "name": "CS1x",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "QY700 Sequencer",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "SU10",
+        "year": 1996,
+        "category": null
+      },
+      {
+        "name": "AN1x",
+        "year": 1997,
+        "category": null
+      },
+      {
+        "name": "DJX (Portatone PSR-D1)",
+        "year": 1998,
+        "category": "Digital Accompaniment Keyboard"
+      },
+      {
+        "name": "EX5",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "EX5R",
+        "year": 1998,
+        "category": "Rack Digital Polyphonic Synthesizer"
+      },
+      {
+        "name": "EX7",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "FS1R",
+        "year": 1998,
+        "category": null
+      },
+      {
+        "name": "SU700",
+        "year": 1998,
+        "category": "synthesizer"
+      },
+      {
+        "name": "A4000",
+        "year": 1999,
+        "category": "Rack Sampler"
+      },
+      {
+        "name": "CS2x",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "CS6x",
+        "year": 1999,
+        "category": "synthesizer"
+      },
+      {
+        "name": "RM1x",
+        "year": 1999,
+        "category": null
+      },
+      {
+        "name": "DJX IIB",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "DJX-IIB",
+        "year": 2000,
+        "category": "Groovebox"
+      },
+      {
+        "name": "S30",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "SU200",
+        "year": 2000,
+        "category": null
+      },
+      {
+        "name": "AN200",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "DX200",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "RS7000",
+        "year": 2001,
+        "category": null
+      },
+      {
+        "name": "Motif",
+        "year": 2005,
+        "category": null
+      },
+      {
+        "name": "Montage 6",
+        "year": 2016,
+        "category": null
+      },
+      {
+        "name": "Montage 8",
+        "year": 2016,
+        "category": null
+      },
+      {
+        "name": "CP73",
+        "year": 2019,
+        "category": null
+      },
+      {
+        "name": "YC61",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "YC88",
+        "year": 2020,
+        "category": null
+      },
+      {
+        "name": "A3000",
+        "year": null,
+        "category": "sampler"
       },
       {
         "name": "CP-70",
@@ -4554,87 +7332,12 @@
       {
         "name": "CP88-73",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS-10",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "CS-15",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS-15D",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-20M",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-30",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-40M",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-5",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-50",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-60",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS-70M",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS-80",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS01",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "CS1x",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS2x",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "CS30/CS30L synthesizer",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "CS6x",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "CX5",
@@ -4644,11 +7347,6 @@
       {
         "name": "CX5M",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DJX IIB",
-        "year": null,
         "category": null
       },
       {
@@ -4657,124 +7355,39 @@
         "category": "drum machine"
       },
       {
-        "name": "DX1",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DX100",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "DX100 (synthesizer)",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DX11",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "DX200",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DX21",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DX27",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "DX5",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DX7",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DX7IID DX7IIFD",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "DX9",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "ED10",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "EX5",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "EX7",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "FB-01",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "FS1R",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "GS1",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "GS2",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "GX-1",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "KX-5",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "List of Yamaha Corporation products",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "MM6",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "MO",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Motif",
-        "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Motif XS",
@@ -4799,11 +7412,6 @@
       {
         "name": "PortaSound",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "Portasound PSS-470",
-        "year": null,
         "category": null
       },
       {
@@ -4814,7 +7422,7 @@
       {
         "name": "PSR-E323",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "PSS-780",
@@ -4827,37 +7435,22 @@
         "category": "drum machine"
       },
       {
-        "name": "QS300",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "QY10",
         "year": null,
         "category": "music workstation"
       },
       {
-        "name": "QY700 Sequencer",
+        "name": "Reface",
         "year": null,
         "category": null
       },
       {
-        "name": "Reface",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Reface CS",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "Reface DX",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "RM1x",
         "year": null,
         "category": "synthesizer"
       },
@@ -4867,17 +7460,7 @@
         "category": "drum machine"
       },
       {
-        "name": "RS7000",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "RX-11",
-        "year": null,
-        "category": "drum machine"
-      },
-      {
-        "name": "RX-5",
         "year": null,
         "category": "drum machine"
       },
@@ -4887,59 +7470,24 @@
         "category": null
       },
       {
-        "name": "RY30",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "S-YXG series",
         "year": null,
         "category": "synthesizer"
       },
       {
-        "name": "S30",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "S80",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "S90",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "SHS-10",
         "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SK20",
-        "year": null,
         "category": null
-      },
-      {
-        "name": "SS30",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SU10",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SU200",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SU700",
-        "year": null,
-        "category": "synthesizer"
       },
       {
         "name": "SY",
@@ -4947,57 +7495,12 @@
         "category": "synthesizer"
       },
       {
-        "name": "SY-1",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "SY-55",
         "year": null,
         "category": null
       },
       {
-        "name": "SY20",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SY22",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SY35",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "SY77",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SY85",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "SY99",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Tenori-on",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "TG33",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "TG500",
         "year": null,
         "category": null
       },
@@ -5009,7 +7512,7 @@
       {
         "name": "TG77",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "TMX",
@@ -5017,49 +7520,14 @@
         "category": "drum machine"
       },
       {
-        "name": "TQ5",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "TX16W",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "TX7",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "TX802",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "TX816",
-        "year": null,
-        "category": null
-      },
-      {
-        "name": "TX81Z",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
         "name": "Tyros2",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "V50",
         "year": null,
         "category": null
       },
       {
         "name": "V50 (music workstation)",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "VL-70m",
@@ -5072,14 +7540,9 @@
         "category": null
       },
       {
-        "name": "W7",
-        "year": null,
-        "category": null
-      },
-      {
         "name": "WX5",
         "year": null,
-        "category": "synthesizer"
+        "category": null
       },
       {
         "name": "XG",
@@ -5103,11 +7566,6 @@
       },
       {
         "name": "YMF278",
-        "year": null,
-        "category": "synthesizer"
-      },
-      {
-        "name": "YS200",
         "year": null,
         "category": "synthesizer"
       }

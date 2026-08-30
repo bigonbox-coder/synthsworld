@@ -80,14 +80,32 @@ def field_confidence(sources, field_name):
     return "confirmed" if any(len(urls) >= 2 for urls in by_value.values()) else "needs_review"
 
 
-def roll_up(entry):
-    """Manufacturer-level confidence + the note explaining a needs_review."""
+def roll_up(entry, prior_sources=()):
+    """Manufacturer-level confidence + the note explaining a needs_review.
+
+    `prior_sources` are the facts_sources rows already stored for this
+    manufacturer from earlier passes. They must be counted: evidence does not
+    stop being evidence because it arrived in a previous batch. Without this a
+    second pass that adds one new source re-derives confidence from that batch
+    alone and leaves the record stuck at needs_review forever.
+    """
     reasons = list(entry.get("conflicts") or [])
-    sources = entry.get("sources") or []
+    sources = list(entry.get("sources") or []) + list(prior_sources)
     for field in CORE_FIELDS:
         if entry.get(field) and field_confidence(sources, field) != "confirmed":
             reasons.append(f"{field}: single non-official source only")
     return ("needs_review" if reasons else "confirmed"), "; ".join(reasons)
+
+
+def load_prior_sources(conn, name):
+    """Sources already recorded for the manufacturer this entry refers to."""
+    mid = find_manufacturer(conn, name)
+    if mid is None:
+        return []
+    return [{"field_name": f, "value": v, "source_url": u, "source_tier": t}
+            for f, v, u, t in conn.execute(
+                """SELECT field_name, value, source_url, source_tier
+                   FROM facts_sources WHERE manufacturer_id = ?""", (mid,))]
 
 
 def find_manufacturer(conn, name):
@@ -306,7 +324,8 @@ def main(argv):
     conn.execute("PRAGMA foreign_keys = ON")
 
     for entry in batch["manufacturers"]:
-        confidence, note = roll_up(entry)
+        confidence, note = roll_up(
+            entry, load_prior_sources(conn, entry["canonical_name"]))
         # upsert returns the confidence actually stored, which differs from the
         # rolled-up one when the guards above keep an existing value.
         mid, action, confidence = upsert_manufacturer(
