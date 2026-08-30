@@ -275,6 +275,33 @@ függetlenül attól, hogy ma is gyárt.
    everything resolved cleanly, `'needs_review'` if there's a real
    conflict or missing critical field, and update `updated_at`.
 
+7a. **Logo collection (added 2026-08-30), part of processing each
+   manufacturer, not a separate manual pass.** Prefer vector (SVG); if
+   none, take the largest available raster and cap it at ~2000px on the
+   long edge (never upscale). Source priority: the manufacturer's own
+   official site (look for a press/media/brand-assets page), falling back
+   to Wikimedia Commons (search `"<name>" logo site:commons.wikimedia.org`,
+   then fetch the exact file via
+   `https://commons.wikimedia.org/wiki/Special:FilePath/<File_name.ext>`
+   with plain `curl` -- this is a BINARY download, route it directly, not
+   through `quarantine-reader`, which only returns text). Watch for
+   name collisions (e.g. "Vox" also names a media company and political
+   party -- verify the file is actually about the right, in-scope company
+   before using it, check the Commons category/description). Use
+   `db/collect_logo.sh <url> <manufacturer-slug>` to download and
+   auto-resize (it shells out to `ffmpeg`, already installed, no Pillow/pip
+   needed -- pip isn't even installed on this machine). Then: create a
+   Drive subfolder for the manufacturer under the Synthsworld root folder
+   (id `1MeZmC5sNI9-4MAWAL-Vmt7Ax4u2fKvDf`) if one doesn't exist, upload the
+   logo there via `mcp__google-drive__uploadFile`, insert the returned
+   share link into `manufacturer_logos` (`drive_file_url`), AND copy the
+   same local file into `admin/static/logos/<manufacturer_id>.<ext>` so the
+   admin panel can show a thumbnail without depending on Drive
+   sharing/hotlinking (Drive holds the master asset; the admin static copy
+   is just a fast local thumbnail source). Don't force a logo if nothing
+   clean turns up -- note it and move on, same spirit as everything else in
+   this pipeline.
+
 8. **Report back to Kristóf** (via Jarvis, in Hungarian, on Telegram): how
    many processed, how many confirmed vs needs_review, and a one-line
    summary of anything flagged for his attention. Don't dump raw rows into

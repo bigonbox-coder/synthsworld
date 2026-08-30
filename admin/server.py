@@ -23,6 +23,7 @@ from http import cookies
 PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(PROJECT_ROOT, "db", "synthsworld.sqlite")
 TOKEN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".token")
+LOGO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static", "logos")
 COOKIE_NAME = "synthsworld_admin_token"
 
 BIND_HOST = os.environ.get("SYNTHSWORLD_ADMIN_HOST", "100.123.64.100")
@@ -51,6 +52,17 @@ def db():
     return con
 
 
+def logo_rel_path(mid):
+    """Local static-file path for a manufacturer's logo thumbnail, or None.
+    Master assets live in Drive (source of truth); this is a small local
+    copy so the admin page never depends on Drive sharing/hotlinking."""
+    for ext in ("svg", "png"):
+        p = os.path.join(LOGO_DIR, f"{mid}.{ext}")
+        if os.path.exists(p):
+            return f"/static/logos/{mid}.{ext}"
+    return None
+
+
 def esc(s):
     if s is None:
         return ""
@@ -74,6 +86,9 @@ STYLE = """
   .card { display: block; padding: 12px 14px; margin-bottom: 8px; background: #fff; border-radius: 10px; text-decoration: none; color: #222; border: 1px solid #e5e3dd; }
   .card:active { background: #f0efe9; }
   .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
+  .logo-thumb { width: 32px; height: 32px; object-fit: contain; border-radius: 6px; background: #fff; border: 1px solid #eee; margin-right: 10px; vertical-align: middle; float: left; }
+  .card { overflow: auto; }
+  .logo-detail { max-width: 140px; max-height: 80px; object-fit: contain; display: block; margin-bottom: 10px; }
   .dot.confirmed { background: #2e9e4f; }
   .dot.needs_review { background: #d9a520; }
   .dot.unresearched { background: #8b93a3; }
@@ -170,6 +185,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._render_list(set_cookie=from_url)
             return
 
+        if path.startswith("/static/logos/"):
+            self._serve_logo(path)
+            return
+
         if path.startswith("/manufacturer/"):
             try:
                 mid = int(path.rsplit("/", 1)[-1])
@@ -210,6 +229,29 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         self.send_response(404)
         self.end_headers()
+
+    def _serve_logo(self, path):
+        # path like /static/logos/<mid>.<ext> -- resolve safely under LOGO_DIR,
+        # no path traversal (basename only, extension whitelist).
+        fname = os.path.basename(path)
+        ext = fname.rsplit(".", 1)[-1].lower() if "." in fname else ""
+        if ext not in ("svg", "png", "jpg", "jpeg"):
+            self.send_response(404)
+            self.end_headers()
+            return
+        fpath = os.path.join(LOGO_DIR, fname)
+        if not os.path.isfile(fpath) or os.path.dirname(os.path.abspath(fpath)) != os.path.abspath(LOGO_DIR):
+            self.send_response(404)
+            self.end_headers()
+            return
+        mime = {"svg": "image/svg+xml", "png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg"}[ext]
+        with open(fpath, "rb") as f:
+            body = f.read()
+        self.send_response(200)
+        self.send_header("Content-Type", mime)
+        self.send_header("Cache-Control", "public, max-age=86400")
+        self.end_headers()
+        self.wfile.write(body)
 
     # ---- actions ----
     def _toggle_approval(self, mid):
@@ -264,8 +306,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.close()
 
         def card(r):
+            logo = logo_rel_path(r["id"])
+            logo_html = f'<img class="logo-thumb" src="{logo}" alt="">' if logo else ""
             return (
                 f'<a class="card" href="/manufacturer/{r["id"]}">'
+                f'{logo_html}'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
                 f'<div class="sub">{esc(r["country"] or "")}</div>'
@@ -417,6 +462,7 @@ function filterList() {{
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a listahoz</a>
+{f'<img class="logo-detail" src="{logo_rel_path(mid)}" alt="">' if logo_rel_path(mid) else ""}
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
