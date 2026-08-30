@@ -425,7 +425,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     def _render_list(self, set_cookie=False):
         con = db()
         rows = con.execute(
-            "SELECT id, canonical_name, country, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
+            "SELECT id, canonical_name, country, founded_year, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
         ).fetchall()
 
         # Precompute logo state ONCE per row (used for both the stat counts
@@ -476,7 +476,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
-                f'<div class="sub">{esc(r["country"] or "")}{review_pill}</div>'
+                f'<div class="sub">{esc(", ".join([x for x in (r["country"], str(r["founded_year"]) if r["founded_year"] else None) if x]))}{review_pill}</div>'
                 f'</div>'
                 f'{logo_html}'
                 f'</a>'
@@ -666,9 +666,11 @@ function filterList() {{
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
-<span>{esc(m["country"] or "")}</span>
+<span>{esc(", ".join([x for x in (m["city"], m["country"]) if x]))}</span>
+<span>{esc((str(m["founded_year"]) if m["founded_year"] else "?") + "-" + (str(m["ended_year"]) if m["ended_year"] else "") ) if (m["founded_year"] or m["ended_year"]) else ""}</span>
 <span>{esc(m["status"] or "")}</span>
 </div>
+{f'<p class="founders">Alapitok: {esc(m["founders"])}</p>' if m["founders"] else ""}
 <button class="btn {btn_class}" onclick="toggleApproval()" {"disabled" if is_unresearched else ""}>{btn_label}</button>
 
 {("<section><h2>Tortenet</h2><p>" + esc(m["short_history"]) + "</p>"

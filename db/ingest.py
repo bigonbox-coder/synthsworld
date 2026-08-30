@@ -13,6 +13,8 @@ Expected JSON shape:
     {"manufacturers": [
        {"canonical_name": "...", "country": "...", "official_website": "...",
         "status": "active|defunct|acquired",
+        "founded_year": 1969, "ended_year": null, "city": "Simmern",
+        "founders": "Wilhelm-Erich Franz, Reinhard Franz",
         "short_history": "...", "long_history": "...",
         "name_history": [{"name": "...", "start_year": 1969, "end_year": 1974}],
         "relations": [{"related_company": "...", "relation_type": "acquired_by",
@@ -112,12 +114,14 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
         ).fetchone()[0]
         if previous == "confirmed":
             confidence = "confirmed"
-    cols = ("country", "official_website", "status", "short_history", "long_history")
+    cols = ("country", "official_website", "status", "short_history", "long_history",
+            "founded_year", "ended_year", "city", "founders")
     if mid is None:
+        placeholders = ", ".join(["?"] * (len(cols) + 4))
         conn.execute(
             f"""INSERT INTO manufacturers
                 (canonical_name, {', '.join(cols)}, confidence_level, created_at, updated_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                VALUES ({placeholders})""",
             (entry["canonical_name"], *[entry.get(c) for c in cols], confidence, ts, ts),
         )
         return conn.execute("SELECT last_insert_rowid()").fetchone()[0], "inserted"

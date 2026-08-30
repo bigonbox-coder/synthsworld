@@ -84,9 +84,20 @@
     html += '<div class="meta-row">';
     html += '<span class="status-pill ' + confidenceClass(m.confidence_level) + '">' +
       confidenceLabel(m.confidence_level) + "</span>";
-    if (m.country) html += "<span>" + escapeHtml(m.country) + "</span>";
+    var place = [m.city, m.country].filter(Boolean).join(", ");
+    if (place) html += "<span>" + escapeHtml(place) + "</span>";
+    // A single "1969-2010" reads better than two separate year chips, and an
+    // open-ended range still says something: the company is still going.
+    if (m.founded_year || m.ended_year) {
+      html += "<span>" + escapeHtml(String(m.founded_year || "?")) +
+        (m.ended_year ? "\u2013" + escapeHtml(String(m.ended_year)) : "\u2013") + "</span>";
+    }
     if (m.status) html += "<span>" + escapeHtml(m.status) + "</span>";
     html += "</div>";
+
+    if (m.founders) {
+      html += '<p class="founders">Alapítók: ' + escapeHtml(m.founders) + "</p>";
+    }
 
     if (isUnresearched) {
       html += '<div class="unresearched-notice">Ez a gyártó egyelőre csak egy másik cég kutatása során ' +

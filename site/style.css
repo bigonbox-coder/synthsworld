@@ -335,3 +335,9 @@ html, body {
     font-size: 14px;
   }
 }
+
+.founders {
+  margin: -0.25rem 0 1rem;
+  color: var(--muted, #666);
+  font-size: 0.9rem;
+}

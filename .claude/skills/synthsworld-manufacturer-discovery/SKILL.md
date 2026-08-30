@@ -538,3 +538,35 @@ be reachable. Add the domains, leave the queue row at `found` with a note
 saying what is blocked and why, and pick it up after the next restart. Jen
 (Italy) is the worked example: vintagesynth had only a product page, both
 Wikipedias 404, and the two useful Italian sources were unreachable.
+
+## Company-fact columns (added 2026-08-30, migration 0009)
+
+`manufacturers` now carries `founded_year`, `ended_year`, `city` and
+`founders` as real columns, not just sentences inside the history. Kristóf
+asked for founding and ending explicitly and invited anything else obviously
+useful, hence the other two. Extract all four on every research pass and put
+them in the batch JSON alongside `country`/`status`; also write a
+`facts_sources` row per field, with the exact `field_name` (`founded_year`,
+`ended_year`, `city`, `founders`) -- the fixed-convention rule applies to
+these the same as to the older fields.
+
+Conventions, so the column stays comparable across records:
+- `founded_year` / `ended_year` hold the CANONICAL legal-entity years. Where
+  operational and legal dates differ (Siel: production stopped 1986,
+  deregistered 1987), the column takes the legal one and the prose keeps the
+  distinction.
+- `ended_year` applies to `acquired` records too, not only `defunct`: it is
+  the year the company stopped existing as an independent entity (Teisco 1967,
+  Wersi 2010).
+- `city` is the FOUNDING city, not the current headquarters, so it stays
+  stable and pairs with `founded_year`. A later move belongs in the prose
+  (Moog: founded in New York, today in Asheville -- the column says New York).
+- `founders` is a plain comma-separated list of names, no roles.
+- **Leave a column NULL rather than guess.** "Founded in the late 1960s"
+  (Crumar) or "collapsed around 1980" (Electronic Dream Plant) is not a year;
+  a later pass with a real source fills it. None of these four are CORE
+  fields, so a NULL does not drag the record to `needs_review`.
+
+These are NOT in `CORE_FIELDS` deliberately: Kristóf's priority is breadth
+(get as many manufacturers in as possible), so a missing founding year must
+not downgrade an otherwise well-sourced record.
