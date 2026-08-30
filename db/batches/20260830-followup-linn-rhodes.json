@@ -1,0 +1,146 @@
+{
+  "_note": "Follow-up pass 2026-08-30: the two manufacturer-owned sources that were unreachable in the first pass. Kristof supplied the working Roger Linn Design URL (/about/about-museum) after the research pass had already concluded the site said nothing; rhodesmusic.com became reachable once added to the allowlist.",
+  "manufacturers": [
+    {
+      "canonical_name": "Linn Electronics",
+      "country": "United States",
+      "status": "defunct",
+      "founded_year": 1979,
+      "ended_year": 1986,
+      "founders": "Roger Linn, Alex Moffett",
+      "short_history": "Linn Electronics was founded in 1979 by Roger Linn and Alex Moffett to build Linn's design for a drum machine that played recordings of real drums instead of synthesizing them. Linn had already proved the idea in 1977, at twenty-two, with a prototype built around a COMPAL-80 computer that he used on a Leon Russell album; that machine now sits in the Musee de la Musique in Paris. The LM-1 Drum Computer announced in 1979 was the world's first drum machine with sampled sounds and the first with practical real-time recording, introducing the ideas it called Timing Correct and Swing. At 5,000 dollars only about five hundred were built, but their owners were a roll-call of the decade: Prince, Madonna, Michael Jackson, Peter Gabriel, Elton John, Devo. The cheaper LinnDrum of 1982 sold around five thousand and became the default drum sound of the era. The Linn 9000 of 1984, the first machine to combine a sampling drum machine with a multitrack MIDI sequencer, was the company's undoing: its last units were sold in February 1986, when, in Roger Linn's own words, Linn Electronics closed its doors due to strong competition and the growing pains of a small business. Forat Electronics of Los Angeles bought the remaining assets and kept the machines running for years afterwards. Linn himself went on to design the Akai MPC60 as an individual, and founded the separate Roger Linn Design in 2001.",
+      "long_history": "Roger Curtis Linn toured as a guitarist with Leon Russell in his early twenties before turning to instrument design. In 1977, at twenty-two and before Linn Electronics existed, he built a programmable drum machine and sequencer around a COMPAL-80, a commercial computer made by Computer Power and Light of Studio City, California, and used it for the drum parts on Russell's 1977 album Life and Love, which he engineered and co-produced; the prototype is now held by the Musee de la Musique in Paris. In 1979 he and Alex Moffett founded Linn Moffett Electronics, soon renamed Linn Electronics, to turn the idea into a product. The LM-1 Drum Computer, announced in 1979 and shipping in 1980, was the world's first drum machine with sampled sounds and the first with a practical system of real-time recording; the quantisation and swing controls it introduced as Timing Correct and Swing are still standard vocabulary. Its eighteen fixed drum sounds were mostly recorded by the Los Angeles session drummer Art Wood and sampled at only 28 kHz in an 8-bit non-linear format, with cymbals left out because long sounds cost too much memory. Roger Linn's own account puts the price at 5,000 dollars and the run at about 500 units; Wikipedia gives 5,500 dollars and 525. Owners included Prince, who used it exhaustively, Madonna, Michael Jackson, Tina Turner, Peter Gabriel, Elton John, Rod Stewart, Devo, Bruce Hornsby, Stevie Wonder, Queen, Fleetwood Mac, The Human League, Gary Numan and Tears For Fears; the machine entered the TECnology Hall of Fame in 2005. Moffett left the company in 1982, the year the LinnDrum arrived as the LM-1's successor at 3,000 dollars, with around five thousand built. It added crash and ride cymbals, longer samples, sounds a user could change by opening the lid and swapping the chips in their sockets, and five live drum trigger inputs, alongside twelve-voice polyphony, 56 user and 42 preset patterns, forty-nine songs, fifteen pads and individual outputs. It is often incorrectly called the LM-2, which was never an official name. The Linn 9000 of 1984 was the ambitious step that defined a whole product category and killed its maker: the first machine to combine a sampling drum machine with a multitrack MIDI sequencer, with touch-sensitive pads, user sampling, a programmable hi-hat decay slider, an alphanumeric display, a programmable mixer and SMPTE sync, at 5,000 dollars or 7,000 fully expanded, with about 1,100 built. It and the rack-mounted LinnSequencer of 1985 shipped with chronic software bugs that were expensive to re-engineer and to support. The last units were sold in February 1986, when the company closed; Linn's own site gives the reason as strong competition and the growing pains of a small business, and he elsewhere added that they simply ran out of money and could not raise more, having had no investment financing. The rack-mounted LinnDrum Midistudio, announced that January, never went into production. Forat Electronics, named in different sources as Forat Electronics Corporation and Forat Music and Electronics, bought the remaining assets and manufactured and sold the Forat F9000 and the LinnSequencer until 1994, servicing and upgrading the whole range; Roger Linn still directs owners of the old machines to Forat in Los Angeles today, although his own site never says Forat bought anything. Akai never bought Linn Electronics or its assets. What followed was a personal design partnership: Linn designed the MPC60 MIDI Production Center for Akai in 1988, his signature printed on the front panel, and the collaboration ran through the MPC60 MkII to the MPC3000 of 1994, the last product of the partnership; the MPC2000 of 1997 was made without him. The four-by-four grid of pads the Linn 9000 and the Midistudio pioneered became a fixture of music production through the MPC and had a major effect on hip-hop. Roger Linn founded Roger Linn Design in 2001, a separate company with no corporate continuity to the first, working from his home office in Los Altos, California with manufacturing handled by Leemah Electronics of Brisbane, California; its products are the AdrenaLinn effects unit, the Tempest analogue drum machine co-developed with Dave Smith in 2011, and the LinnStrument expressive MIDI controller of 2014. He received a Grammy Award for Lifetime Technical Achievement in 2011.",
+      "instruments": [
+        {
+          "name": "COMPAL-80 prototype",
+          "year": 1977,
+          "category": "prototype"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "short_history",
+          "value": "founder's own first-person account on Roger Linn Design's museum page, combined with the Wikipedia articles",
+          "source_url": "https://www.rogerlinndesign.com/about/about-museum",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "founder's own first-person account on Roger Linn Design's museum and legacy-products pages, combined with the Wikipedia articles",
+          "source_url": "https://www.rogerlinndesign.com/about/about-museum",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "founder's own first-person account",
+          "source_url": "https://www.rogerlinndesign.com/about/about-roger-linn-design",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://www.rogerlinndesign.com/about/about-museum",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "closure_reason",
+          "value": "The last units were sold in February of 1986, when Linn Electronics closed its doors due to strong competition and the growing pains of a small business",
+          "source_url": "https://www.rogerlinndesign.com/about/about-museum",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "country and city: STILL not stated by any source, including the manufacturer-side primary source. Roger Linn's own museum page does not give the company's location; its only geographic hints are 'local L.A. session drummer Art Wood' and his calling it 'my first company of the early 1980s'. 'United States' remains an inference from dollar pricing and those hints, not a sourced statement. NOTE: the museum page contains the string 'Studio City, California', but that is the location of Computer Power and Light, maker of the COMPAL-80 used in the 1977 prototype, NOT Linn Electronics' address -- do not let it leak in. 'Los Altos, California' belongs to Roger Linn Design, the later separate company."
+      ],
+      "review_note": "Resolved and corrected against the founder's own account, which Kristof located at /about/about-museum after the research pass had wrongly concluded the site said nothing (the obvious /about path 404s). (1) LM-1 price and units: 5,000 dollars and about 500 per Roger Linn, 5,500 dollars and 525 per Wikipedia; both stored, the founder's figures used in the history. (2) The LM-1's eighteen drum sounds were mostly recorded by L.A. session drummer Art Wood at 28 kHz 8-bit non-linear, cymbals omitted for memory cost. (3) Linn 9000: 5,000 dollars, 7,000 fully expanded, about 1,100 built, last units sold February 1986. (4) The 1977 COMPAL-80 prototype predates the company, was used on Leon Russell's Life and Love, and is now in the Musee de la Musique, Paris. (5) IMPORTANT: Roger Linn's own site never says Forat Electronics bought the assets -- it only directs owners to forat.com for support. The asset purchase rests on Wikipedia alone; the primary source is silent, not contradicting. (6) Alex Moffett is not mentioned anywhere on Roger Linn's site, nor is any founding year for Linn Electronics or for Roger Linn Design. (7) The LinnDrum Midistudio is not mentioned on the site at all.",
+      "queue_name": "Linn Electronics"
+    },
+    {
+      "canonical_name": "Rhodes",
+      "official_website": "https://rhodesmusic.com/",
+      "status": "active",
+      "short_history": "Rhodes is the maker of the electric piano that carries its founder's name. In 1942 Harold Rhodes, a piano teacher who by twenty ran a chain of his own piano schools, was in the US Army Air Corps giving lessons to wounded servicemen, and built a 29-note lap piano out of leftover aluminium tubing from B-17 bombers so he could carry it from bed to bed; more than 125,000 were made. After the war he founded the Rhodes Piano Corporation and produced the Pre-Piano in 1946, the first electric Rhodes. He went into partnership with Leo Fender in 1959, and when CBS bought Fender in 1965 it released the Fender Rhodes Mark I; the tine-driven piano became one of the defining sounds of jazz, soul and pop, with an estimated 250,000 built during the CBS years. CBS dropped the Fender name in 1974, its own chief William Schultz bought Rhodes personally in 1983, and Roland took it over in 1987, more interested in the trademark than in building the instrument. Roland returned the Rhodes name to Harold in 1997 with the help of his friend Joseph Brandstetter, who acquired the trademark himself and built the Mk7. Harold Rhodes died in 2000. The instrument returned to production in 2021 under Rhodes Music Group Ltd, which licenses the trademark from Brandstetter and builds the MK8 in the United Kingdom.",
+      "long_history": "Harold Burroughs Rhodes was born in 1910 in San Fernando, California, and by the age of twenty was running a chain of Harold Rhodes School of Popular Piano locations across the United States. In 1942 he was serving in the US Army Air Corps, providing piano lessons and entertainment to wounded servicemen as therapy, and since a real piano could not be carried from bedside to bedside he built one that could: a 29-note xylophone-like instrument made from leftover aluminium tubing from B-17 bombers, called the Army Air Corps Lap Piano or Xylette. By the company's own account upwards of 125,000 were produced, and the Rhodes sound started there. After the war he founded the Rhodes Piano Corporation and produced the Rhodes Pre-Piano in 1946, the first electric Rhodes piano, with a built-in amplifier, a 38-note keyboard and a wooden top; he built the first hundred instruments himself at 2370 East Foothill Boulevard in Pasadena, and demonstrated the instrument publicly in Los Angeles on 21 May 1948. In 1959 he entered a partnership with Leo Fender and the Fender Rhodes Piano Bass followed, using the bottom 32 notes and taken up enthusiastically by Ray Manzarek of The Doors. CBS bought Fender in 1965 for thirteen million dollars and released the Fender Rhodes Mark I that same year. The mechanism, a hammer striking a stiff wire tine beside an electromagnetic pickup, gave the bell-like tone that runs through Herbie Hancock, Chick Corea and Stevie Wonder; the company estimates around 250,000 Rhodes pianos were built between 1965 and 1984. The 73-note Suitcase Piano with its integrated amplifier and stereo tremolo and the 73- and 88-note Stage Pianos of 1970 and 1971 defined the range, CBS dropped the Fender name in 1974 to leave simply the Rhodes Mark I, the Mark II arrived in 1979 and the Mark III EK-10 of 1980 tried grafting analogue oscillators and filters onto the electromechanical action. CBS Musical Instruments also used the Rhodes name for something entirely different: when ARP Instruments collapsed in 1981, CBS bought the design of a polyphonic synthesizer ARP had developed in 1979 and 1980 and brought it out through its Rhodes division as the Rhodes Chroma, built from 1982 to 1984 at 5,295 dollars for the keyboard and 3,150 for the expander, using a proprietary Digital Access Control bus rather than MIDI and an Apple IIe for patch and sequence storage; sources give between 1,400 and 3,000 units. In 1983 William Schultz, then head of CBS, bought Rhodes for himself, ending the CBS era; the Mark V of 1984 that followed is regarded by many as the finest of them, and the main factory closed in 1985. Roland bought the business in 1987, and by the company's own telling Harold Rhodes was not informed of the sale; Roland wanted the trademark rather than the instrument and used the name for digital keyboards with sampled Rhodes sounds. His widow Margit told the New York Times in 2001 that he would not have one in the house. Harold suffered a stroke in 1996, and in 1997 Roland returned the Rhodes name to him with the help of his friend Joseph Brandstetter, who had worked with him since 1989 on the Rhodes Piano Method and who saw to it that Harold received a NARAS Grammy Lifetime Presidential Merit Award that year. Harold Rhodes died in 2000 at the age of 89, without having managed the return to a true electromechanical instrument he had promised. Brandstetter acquired the Rhodes trademark and built the last version of the old line, the Mk7, to critical acclaim; the company's own history dates that acquisition to 2004 while Wikipedia gives 2007. Brandstetter remains the longest-standing holder of the trademark and now licenses it exclusively to Rhodes Music Group Ltd for the manufacture of instruments. That company, registered in England and Wales and operating from Leeds, brought the instrument back in 2021 under chairman Matt Pelling, the founder of Loopmasters, keeping Harold Rhodes' asymmetrical tuning fork design as the basis of every new model. Its MK8 is built in the United Kingdom, joined since by the Stage 61 and by a line of software instruments including the V8, a multi-sampled and modelled version of the MK8 itself.",
+      "name_history": [
+        {
+          "name": "Rhodes Music Group Ltd",
+          "start_year": 2021,
+          "end_year": null
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "official_website",
+          "value": "https://rhodesmusic.com/",
+          "source_url": "https://rhodesmusic.com/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://rhodesmusic.com/rhodes-today/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "short_history",
+          "value": "anchored on the company's own history page, with Wikipedia filling gaps",
+          "source_url": "https://rhodesmusic.com/the-history-of-rhodes/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "long_history",
+          "value": "anchored on the company's own history page, with Wikipedia filling gaps",
+          "source_url": "https://rhodesmusic.com/the-history-of-rhodes/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "legal_name",
+          "value": "We are Rhodes Music Group Ltd a company registered in England and Wales. Our company registration number is 12015661 and our registered office is at 30-34 North Street, Hailsham, East Sussex, UK, BN27 1DW.",
+          "source_url": "https://rhodesmusic.com/terms-conditions/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "legal_name",
+          "value": "the site footer instead reads 'Rhodes Music Ltd'; the operating and manufacturer address is 2b Meanwood Close, Leeds, LS7 2JL, West Yorkshire, UK",
+          "source_url": "https://rhodesmusic.com/gpsr-compliance/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "name_history:Rhodes Music Group Ltd",
+          "value": "trademark licensed exclusively to Rhodes Music Group Ltd by Joseph Brandstetter; production resumed 2021",
+          "source_url": "https://rhodesmusic.com/the-history-of-rhodes/",
+          "source_tier": "manufacturer_official"
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Army Air Corps Lap Piano (Xylette)",
+          "year": 1942,
+          "category": "electric piano"
+        },
+        {
+          "name": "Rhodes Mark I",
+          "year": 1965,
+          "category": "electric piano"
+        },
+        {
+          "name": "Stage 61",
+          "year": 2024,
+          "category": "electric piano"
+        },
+        {
+          "name": "V8",
+          "year": 2023,
+          "category": "software instrument"
+        }
+      ],
+      "conflicts": [
+        "country: stored as United States, the country of origin, but the manufacturer's own site states the current company is Rhodes Music Group Ltd, registered in England and Wales and operating from Leeds. These are not contradictory facts about one moment, they are the origin and the present, but the record has only one country field. Left as United States and flagged for Kristof: the alternative is splitting the modern UK licensee into its own record, since it licenses the trademark from Joseph Brandstetter rather than owning the original company.",
+        "Brandstetter's acquisition of the Rhodes trademark is dated 2004 by the company's own history page and 2007 by Wikipedia. Both stored; the official source is the stronger tier but the discrepancy is not explained anywhere.",
+        "legal name: the terms and conditions say Rhodes Music Group Ltd (company no. 12015661), while the site footer says Rhodes Music Ltd. The site never explains the relationship between the two."
+      ],
+      "review_note": "The company's own history page RESOLVED three things the first pass had to leave open. (1) The 1997 return of the rights: the official account matches the Harold Rhodes article, not the Rhodes piano article -- Roland returned the name to Harold with Joseph Brandstetter's help after Harold's 1996 stroke. (2) The 1983 sentence that read as garbled is accurate: William Schultz was head of CBS and bought Rhodes for himself, which is why he is described both ways. (3) The Mark I now has a year, 1965, released by CBS the same year it bought Fender; CBS dropped the Fender name from it in 1974. Also newly sourced: the 1942 Army Air Corps Lap Piano or Xylette, 29 notes from B-17 tubing, upwards of 125,000 made; CBS paid 13 million dollars for Fender; roughly 250,000 Rhodes pianos built 1965-1984; Roland is said not to have informed Harold of the 1987 sale. Note on ownership: the site says only that chairman Matt Pelling founded Loopmasters. It does NOT say Loopmasters owns Rhodes, and names no parent or shareholder -- Wikipedia's 'formed by Loopmasters' is not corroborated by the company itself. Still absent from every source: the MK-80 Roland-era digital pianos, and any founding date for the current company.",
+      "queue_name": "Rhodes Music Corporation"
+    }
+  ]
+}

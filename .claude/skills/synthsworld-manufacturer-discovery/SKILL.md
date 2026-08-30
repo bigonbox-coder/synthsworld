@@ -595,17 +595,46 @@ URLs**, not one agent per URL, and never a second agent for a follow-up URL
 that could have been listed in the first. Same research, roughly half to a
 third of the cost.
 
-### Allowlist changes are NOT live (confirmed 2026-08-30)
+### Allowlist changes: add the domain, then RETRY IN THE SAME SESSION
 
-Adding a domain to `store/egress-allowlist.json` in the marveen repo does
-nothing for the *current* session -- `quarantine-reader` answers
-"domain not on quarantine-reader fetch allowlist" until the session restarts.
-So when a manufacturer's best sources (its own site, a specialist local-language
-page) are off-allowlist, do NOT ingest a thin record from whatever happens to
-be reachable. Add the domains, leave the queue row at `found` with a note
-saying what is blocked and why, and pick it up after the next restart. Jen
-(Italy) is the worked example: vintagesynth had only a product page, both
-Wikipedias 404, and the two useful Italian sources were unreachable.
+Earlier guidance here said an allowlist change never takes effect until the
+session restarts. That is WRONG as an absolute, and following it wastes whole
+research rounds. What actually happened on 2026-08-30, all within one session:
+`world.casio.com`, added minutes before the fetch, went straight through;
+`farfisa.com` and `rogerlinndesign.com`, added at the same moment, were
+refused on the first attempt and then loaded fine on a second attempt a few
+minutes later. So the behaviour is inconsistent, not uniformly deferred.
+
+**Procedure when a needed domain is refused:** add it to
+`store/egress-allowlist.json`, then immediately try again in a NEW
+`quarantine-reader` call. Only if the second attempt is also refused should
+you leave the queue row at `found` with a note saying what is blocked, and
+pick it up after the next restart. Do not ingest a thin record built from
+whatever happened to be reachable. Jen (Italy) is the worked example of the
+genuinely-blocked case: vintagesynth had only a product page, both Wikipedias
+404, and the two useful Italian sources were unreachable.
+
+**Also check the PATH, not just the domain.** A 404 on a site's obvious
+`/about` does not mean the site has nothing. rogerlinndesign.com returns 404
+for `/about`, `/about-roger-linn`, `/roger-linn` and `/pages/about`, but the
+real content sits at `/about/about-museum` -- Kristóf found it after the
+research pass had already concluded the site said nothing. When a
+manufacturer's own site is reachable but the obvious paths 404, look at what
+the site's own navigation links to before concluding there is no history page.
+
+**Ismert URL-csapdák (2026-08-30):**
+- A vintagesynth.com-nak NINCS gyártó-index oldala: a `/manufacturers` és a
+  `/<gyarto>` út egyaránt 404. Kizárólag a `/<gyarto>/<modell>` minta
+  működik (pl. `/casio/cz-101`, `/linn-electronics/linndrum`). A slug sem
+  mindig a puszta gyártónév: a Linné `linn-electronics`, nem `linn`.
+- A `rhodes.com` NEM a zongoragyártó, hanem egy texasi ingatlanfejlesztő
+  (Rhodes Enterprises). A valódi oldal: `rhodespiano.com`, ami 301-gyel
+  a `rhodesmusic.com`-ra megy.
+- A `farfisa.com` az ACI Farfisa kaputelefon-üzletág, nem a hangszermárka;
+  hangszert nem árul, a betűszót nem oldja fel.
+- A soundonsound.com `/people/roger-linn` oldala 410 Gone.
+- A muzines.co.uk keresője nem a `?q=` paramétert használja: a
+  `?q=<kifejezés>` hívás "search query is too short" hibát ad.
 
 ## Company-fact columns (added 2026-08-30, migration 0009)
 
