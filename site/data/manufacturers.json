@@ -1598,14 +1598,7 @@
     "status": "defunct",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": [
-      {
-        "relation_type": "spun_off_from",
-        "year": 1980,
-        "related_manufacturer_id": 43,
-        "related_name": "Vektor"
-      }
-    ],
+    "relations": [],
     "instruments": [
       {
         "name": "Polivoks",
@@ -3357,7 +3350,7 @@
   },
   {
     "id": 27,
-    "canonical_name": "Palm Products GmbH",
+    "canonical_name": "PPG",
     "country": "Germany",
     "city": "Hamburg",
     "founded_year": 1975,
@@ -3368,7 +3361,13 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
-    "name_history": [],
+    "name_history": [
+      {
+        "name": "Palm Products GmbH",
+        "start_year": 1975,
+        "end_year": 1987
+      }
+    ],
     "relations": [
       {
         "relation_type": "succeeded_by",
@@ -6640,44 +6639,6 @@
         "category": null
       }
     ]
-  },
-  {
-    "id": 43,
-    "canonical_name": "Vektor",
-    "country": "Russia",
-    "city": "Yekaterinburg",
-    "founded_year": 1941,
-    "ended_year": null,
-    "founders": null,
-    "short_history": "Vektor is an Urals electronics enterprise in Yekaterinburg, formerly Sverdlovsk. It was set up in 1941 around the Moscow 'Geodeziya' plant evacuated to Sverdlovsk, traded first as Factory No. 356, then from 1966 to 1992 as the Sverdlovsk Electroavtomatika Works, and was reorganised in 2002 into the joint-stock Ural Production Enterprise Vektor with the state holding all shares. Its own account claims fifteen years as the monopoly producer of Soviet electronic musical instruments and amplification. The Kachkanar plant that became Formanta opened in August 1976 as its branch and was separated into an independent radio factory in October 1980; the Polivoks was developed at Vektor from 1980 under chief engineer Vladimir Kuzmin, with the instrument's military-radio appearance credited to his wife Olimpiada Kuzmina, and built in series by Formanta.",
-    "long_history": null,
-    "official_website": null,
-    "status": "active",
-    "confidence_level": "needs_review",
-    "name_history": [
-      {
-        "name": "Ural Production Enterprise Vektor",
-        "start_year": null,
-        "end_year": null
-      },
-      {
-        "name": "Zavod No. 356",
-        "start_year": 1941,
-        "end_year": 1966
-      },
-      {
-        "name": "Sverdlovsk Electroavtomatika Works",
-        "start_year": 1966,
-        "end_year": 1992
-      },
-      {
-        "name": "AO Uralskoye proizvodstvennoye predpriyatiye Vektor",
-        "start_year": 2002,
-        "end_year": null
-      }
-    ],
-    "relations": [],
-    "instruments": []
   },
   {
     "id": 7,

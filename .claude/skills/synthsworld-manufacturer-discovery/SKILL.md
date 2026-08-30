@@ -92,6 +92,39 @@ Ha kétséges, hogy egy felbukkanó cég holding-e vagy tényleges gyártó,
 gyorsan nézd meg mit gyárt: ha van saját terméke a fenti kategóriákból,
 kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
 
+**A döntő teszt: adott-e ki hangszert a SAJÁT NEVE alatt.** Nem az számít,
+hogy a cég fizikailag gyártott-e valamit, hanem hogy van-e olyan hangszer,
+ami az ő nevét viseli. Egy üzem, ami más márkanév alatt futó hangszereket
+állít elő, tényleges gyártó. Egy cég, ami csak birtokol, finanszíroz vagy
+tervez egy másik cégnek, nem az, akkor sem, ha a papíron ő az anyavállalat.
+
+**Konkrét eset -- Vektor (2026-08-30, Kristóf döntése, a rekord TÖRÖLVE).**
+A szverdlovszki «Вектор» üzem felkerült gyártóként, mert a Poliovoksot ott
+tervezték és a kacskanari Formanta 1976-1980 között a fiókja volt. Kristóf
+kiszúrta, hogy ez nem elég: a neve alatt nem volt hangszer, csak üzleti
+szinten volt köze a hangszergyártáshoz. Az ellenőrzés megerősítette -- a
+ru.wikipedia terméklistájában (taxofon, rádiórelé, gáztűzhely, liftvezérlés)
+nincs hangszer, a szintetizátor-kategóriában nincs Vektor bejegyzés, és
+egyetlen modellnév sincs Vektor márkához kötve. Az egyetlen ellentmondó
+mondat ("«Вектор» 15 éven át monopolista volt a hazai elektromos hangszerek
+gyártásában") a vállalat SZEREPÉRŐL szól, nem termékmárkáról, és a
+hivatkozása ellenőrizetlen. A rekord törölve, a `manufacturer_relations` sor
+is; a tervezés ténye és a fiók-viszony a Formanta `short_history`-jába
+került prózaként, ahogy a fenti szabály előírja.
+
+**Jelzés, ami ezt olcsón kiszúrja:** ha egy gyártónak NULLA hangszere van,
+miközben minden más rekordnak van legalább egy, az majdnem mindig azt
+jelenti, hogy nem gyártó, hanem anyacég vagy tervezőhely. Érdemes rákérdezni
+egy `LEFT JOIN instruments ... HAVING count(*) = 0` lekérdezéssel, mielőtt
+egy ilyen rekord bekerül a listába.
+
+**A `canonical_name` az legyen, amin a világ ismeri a céget, nem a hosszú
+jogi név (Kristóf admin-megjegyzése, 2026-08-30 04:33).** Konkrétan: a
+"Palm Products GmbH" rekord `PPG`-re lett átnevezve, a jogi név a
+`manufacturer_name_history`-ba került. Ugyanez az elv vitte a
+"GEM (General Electro Music)" rekordot `Generalmusic`-ra. A jogi/teljes név
+soha nem vész el, csak nem az a fő címke.
+
 **Szoftver-szintetizátor gyártók IS beletartoznak (Kristóf kiegészítése,
 2026-08-30), de erősen szűrve.** Irreálisan sok szoftveres szintetizátor
 létezik, ezért csak azok kerüljenek be, amik kultikusak, széles körben
