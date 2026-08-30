@@ -75,8 +75,18 @@ találgatva kihagyj egy tényleg releváns gyártót.
      körben, mielőtt folytatnád a tényleges kutatással.
 
    **Ismert források (bővíthető lista, Kristóf mondja a továbbiakat):**
-   Wikipedia, Wikidata, vintagesynth.com, Encyclotronic. (2026-08-29-ig
-   ennyi lett megnevezve.)
+   Wikipedia, Wikidata, vintagesynth.com, Encyclotronic, Synthtopia,
+   MatrixSynth, perfectcircuit.com, Sequencer.de, Muzines.co.uk.
+
+   **Ország/régió szerinti keresés is legyen a bővítés része** (Kristóf
+   javaslata, 2026-08-30): a fenti gyűjtő-oldalak mellett `WebSearch`-ön
+   keresztül fuss rá konkrét ország/régió + "synthesizer manufacturers"
+   (vagy "synthesizer company" stb.) kombinációkra is, pl. "Russian
+   synthesizer manufacturers", "Japanese synthesizer companies", "German
+   synthesizer brands". Ez olyan kisebb, kevésbé angol nyelvű piacon
+   ismert gyártókat is felszínre hozhat, amik a nagy gyűjtő-oldalakon nem
+   feltétlenül szerepelnek. Ugyanúgy csak a NÉV-forrás bővítése ez a lépés
+   is, a tényleges mélykutatás marad a 3. lépésben.
 
 1. **Backup first, always.** Before touching the live DB, copy it:
    `cp db/synthsworld.sqlite db/backups/$(date -u +%Y%m%dT%H%M%SZ).sqlite`
