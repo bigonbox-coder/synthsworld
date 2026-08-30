@@ -648,7 +648,15 @@ minutes later. So the behaviour is inconsistent, not uniformly deferred.
 `store/egress-allowlist.json`, then immediately try again in a NEW
 `quarantine-reader` call. Only if the second attempt is also refused should
 you leave the queue row at `found` with a note saying what is blocked, and
-pick it up after the next restart. Do not ingest a thin record built from
+pick it up after the next restart.
+
+**The retry works for SOME domains and not others -- do not expect it.**
+Measured on 2026-08-30, all in one session: `world.casio.com` went through on
+the first try; `farfisa.com` and `rogerlinndesign.com` were refused once and
+loaded on the retry; `logo.wine` and `forat.com` stayed refused no matter how
+many times they were retried, and genuinely needed a restart. So: retry ONCE,
+and if it fails again, stop retrying and park the row -- a third and fourth
+attempt is just burning turns. Do not ingest a thin record built from
 whatever happened to be reachable. Jen (Italy) is the worked example of the
 genuinely-blocked case: vintagesynth had only a product page, both Wikipedias
 404, and the two useful Italian sources were unreachable.

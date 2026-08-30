@@ -625,19 +625,26 @@
   {
     "id": 47,
     "canonical_name": "Bontempi",
-    "country": null,
-    "city": null,
-    "founded_year": null,
-    "ended_year": null,
+    "country": "Italy",
+    "city": "Potenza Picena",
+    "founded_year": 1937,
+    "ended_year": 2014,
     "founders": null,
-    "short_history": null,
-    "long_history": null,
+    "short_history": "Bontempi is an Italian instrument maker founded in 1937 at Potenza Picena in the Marche, later headquartered in Macerata with a plant at Martinsicuro. It is best known for cheap plastic-cased chord organs, whose sound comes not from electronics but from harmonium-type reeds blown by a small motor, and which made the company a fixture of European homes through the 1970s and 1980s; the phrase 'a Bontempi sound' still describes a nostalgic, toy-like electronic timbre. From the mid-1980s it moved into home electronic keyboards aimed at learners and amateurs rather than professionals, alongside educational and toy instruments. Its importance to the synthesizer story is corporate rather than musical: Bontempi S.p.A. bought Farfisa in October 1984 and owned it until Farfisa closed in 1998. The company itself entered preventive liquidation in January 2014, and the Bontempi and Farfisa brands both now belong to iCom S.p.A., which restarted Farfisa-branded production in 2025.",
+    "long_history": "Bontempi was founded in 1937 at Potenza Picena in the province of Macerata; no source consulted names its founder. Trading later as Gruppo Bontempi with its head office in Macerata and a further plant at Martinsicuro in the province of Teramo, it built its business on the chord organ: a small, plastic-cased keyboard instrument in which a motor drives air across harmonium-type reeds, so the sound is mechanical rather than electronic. Cheap, portable and forgiving, these instruments reached an enormous domestic audience across Europe in the 1970s and 1980s, and left a mark on the language of electronic music, where 'a Bontempi sound' is shorthand for a nostalgic, deliberately toy-like timbre. From the mid-1980s the company shifted to home electronic keyboards, and its range broadened into educational instruments of all kinds -- wind instruments, keyboards, guitars, drums and percussion -- and outright toy instruments, which is why the Italian encyclopaedia files it among toy manufacturers as well as instrument makers. Nothing in the sources describes a professional, stage or studio line. Its place in this database rests instead on a corporate move: in October 1984 Bontempi S.p.A. acquired Farfisa, the Osimo firm whose combo organs had defined a decade of popular music, and held it until Farfisa closed in 1998, after which Farfisa passed to Comus and Comus itself ceased in 2003. Bontempi's own end came in January 2014, when the company applied for concordato preventivo, Italy's preventive-liquidation procedure. Two entities emerged from it, Cooperativa Industria Abruzzo SpA of Martinsicuro and iCom SpA, headed by Andrea Ariola. iCom S.p.A. now holds the Bontempi and Farfisa brands together, and restarted production of Farfisa-branded instruments in 2025.",
     "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
+    "status": "acquired",
+    "confidence_level": "needs_review",
     "entity_type": "company",
     "name_history": [],
-    "relations": [],
+    "relations": [
+      {
+        "relation_type": "acquired",
+        "year": 1984,
+        "related_manufacturer_id": 46,
+        "related_name": "Farfisa"
+      }
+    ],
     "instruments": [],
     "logos": []
   },
@@ -2047,20 +2054,38 @@
   {
     "id": 50,
     "canonical_name": "Forat Electronics",
-    "country": null,
-    "city": null,
-    "founded_year": null,
+    "country": "United States",
+    "city": "Los Angeles",
+    "founded_year": 1986,
     "ended_year": null,
     "founders": null,
-    "short_history": null,
-    "long_history": null,
+    "short_history": "Forat Electronics is a Los Angeles company that exists because Linn Electronics did not. When Roger Linn's firm ran out of money in February 1986, Forat bought its remaining assets and kept the machines alive: it manufactured and sold the Forat F9000 and the LinnSequencer until 1994, and has serviced, re-sampled, customised and upgraded the whole Linn range ever since. The F9000 is a rebuilt Linn 9000 rather than a new design, but it is sold under Forat's own name and fixes what killed the original: the software bugs are gone, the sequencer memory is four times larger, and it gained full SMPTE read and write, MIDI clock, song position pointer, sample editing and battery-backed memory. Roger Linn himself still sends owners of the old machines to Forat, saying he has not thought about those products in nearly forty years.",
+    "long_history": "Linn Electronics closed in February 1986 after the Linn 9000's chronic software problems proved too expensive to fix, and Forat Electronics Corporation was formed that year around the purchase of what was left. The sources name the company three different ways -- Forat Electronics, Forat Electronics Corporation and Forat Music and Electronics -- and its own site could not be reached to settle which is correct. What Forat bought was the remaining assets of the Linn line, and what it did with them was unusual: rather than simply selling off stock, it went on manufacturing. The Forat F9000 is the Linn 9000 rebuilt, addressing point by point the faults that had sunk its maker. Every old software bug is fixed; the sequencer memory is four times the original; SMPTE is full read and write rather than read-only; MIDI clock and song position pointer are supported; sample editing is possible on the machine; and the memory is battery-backed. Vintagesynth, comparing the two, tells anyone wanting a practical instrument rather than a collector's piece to look at the Forat instead. Forat also continued the LinnSequencer, the rack-mounted 32-track MIDI sequencer, and sold both until 1994. Alongside manufacturing it became the service house for everything Linn ever made, offering repairs, replacement sounds, customisation and upgrades for the LM-1, the LinnDrum, the Linn 9000 and the LinnSequencer, and it has done that continuously since the mid-1980s. That role is why Roger Linn, on his own site's legacy-products page, tells owners of his first company's machines that he cannot help them himself and points them at Forat in Los Angeles.",
     "official_website": null,
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "needs_review",
     "entity_type": "company",
     "name_history": [],
-    "relations": [],
-    "instruments": [],
+    "relations": [
+      {
+        "relation_type": "successor_of",
+        "year": 1986,
+        "related_manufacturer_id": 49,
+        "related_name": "Linn"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "Forat F9000",
+        "year": 1986,
+        "category": "drum machine"
+      },
+      {
+        "name": "LinnSequencer (Forat production)",
+        "year": 1986,
+        "category": "sequencer"
+      }
+    ],
     "logos": []
   },
   {
@@ -3219,7 +3244,7 @@
   },
   {
     "id": 49,
-    "canonical_name": "Linn Electronics",
+    "canonical_name": "Linn",
     "country": "United States",
     "city": null,
     "founded_year": 1979,
@@ -3229,13 +3254,18 @@
     "long_history": "Roger Curtis Linn toured as a guitarist with Leon Russell in his early twenties before turning to instrument design. In 1977, at twenty-two and before Linn Electronics existed, he built a programmable drum machine and sequencer around a COMPAL-80, a commercial computer made by Computer Power and Light of Studio City, California, and used it for the drum parts on Russell's 1977 album Life and Love, which he engineered and co-produced; the prototype is now held by the Musee de la Musique in Paris. In 1979 he and Alex Moffett founded Linn Moffett Electronics, soon renamed Linn Electronics, to turn the idea into a product. The LM-1 Drum Computer, announced in 1979 and shipping in 1980, was the world's first drum machine with sampled sounds and the first with a practical system of real-time recording; the quantisation and swing controls it introduced as Timing Correct and Swing are still standard vocabulary. Its eighteen fixed drum sounds were mostly recorded by the Los Angeles session drummer Art Wood and sampled at only 28 kHz in an 8-bit non-linear format, with cymbals left out because long sounds cost too much memory. Roger Linn's own account puts the price at 5,000 dollars and the run at about 500 units; Wikipedia gives 5,500 dollars and 525. Owners included Prince, who used it exhaustively, Madonna, Michael Jackson, Tina Turner, Peter Gabriel, Elton John, Rod Stewart, Devo, Bruce Hornsby, Stevie Wonder, Queen, Fleetwood Mac, The Human League, Gary Numan and Tears For Fears; the machine entered the TECnology Hall of Fame in 2005. Moffett left the company in 1982, the year the LinnDrum arrived as the LM-1's successor at 3,000 dollars, with around five thousand built. It added crash and ride cymbals, longer samples, sounds a user could change by opening the lid and swapping the chips in their sockets, and five live drum trigger inputs, alongside twelve-voice polyphony, 56 user and 42 preset patterns, forty-nine songs, fifteen pads and individual outputs. It is often incorrectly called the LM-2, which was never an official name. The Linn 9000 of 1984 was the ambitious step that defined a whole product category and killed its maker: the first machine to combine a sampling drum machine with a multitrack MIDI sequencer, with touch-sensitive pads, user sampling, a programmable hi-hat decay slider, an alphanumeric display, a programmable mixer and SMPTE sync, at 5,000 dollars or 7,000 fully expanded, with about 1,100 built. It and the rack-mounted LinnSequencer of 1985 shipped with chronic software bugs that were expensive to re-engineer and to support. The last units were sold in February 1986, when the company closed; Linn's own site gives the reason as strong competition and the growing pains of a small business, and he elsewhere added that they simply ran out of money and could not raise more, having had no investment financing. The rack-mounted LinnDrum Midistudio, announced that January, never went into production. Forat Electronics, named in different sources as Forat Electronics Corporation and Forat Music and Electronics, bought the remaining assets and manufactured and sold the Forat F9000 and the LinnSequencer until 1994, servicing and upgrading the whole range; Roger Linn still directs owners of the old machines to Forat in Los Angeles today, although his own site never says Forat bought anything. Akai never bought Linn Electronics or its assets. What followed was a personal design partnership: Linn designed the MPC60 MIDI Production Center for Akai in 1988, his signature printed on the front panel, and the collaboration ran through the MPC60 MkII to the MPC3000 of 1994, the last product of the partnership; the MPC2000 of 1997 was made without him. The four-by-four grid of pads the Linn 9000 and the Midistudio pioneered became a fixture of music production through the MPC and had a major effect on hip-hop. Roger Linn founded Roger Linn Design in 2001, a separate company with no corporate continuity to the first, working from his home office in Los Altos, California with manufacturing handled by Leemah Electronics of Brisbane, California; its products are the AdrenaLinn effects unit, the Tempest analogue drum machine co-developed with Dave Smith in 2011, and the LinnStrument expressive MIDI controller of 2014. He received a Grammy Award for Lifetime Technical Achievement in 2011.",
     "official_website": null,
     "status": "defunct",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
     "entity_type": "company",
     "name_history": [
       {
         "name": "Linn Moffett Electronics",
         "start_year": 1979,
         "end_year": 1979
+      },
+      {
+        "name": "Linn Electronics",
+        "start_year": 1979,
+        "end_year": 1986
       }
     ],
     "relations": [

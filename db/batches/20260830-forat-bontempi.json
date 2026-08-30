@@ -1,0 +1,200 @@
+{
+  "_note": "Research pass 2026-08-30 for the two remaining unresearched stubs, both surfaced via relations: Forat Electronics (from Linn) and Bontempi (from Farfisa). forat.com was refused by the fetcher even after allowlisting and retry, so Forat is anchored on Wikipedia, vintagesynth and Roger Linn's own site instead of its own.",
+  "manufacturers": [
+    {
+      "canonical_name": "Forat Electronics",
+      "queue_name": "Forat Electronics",
+      "country": "United States",
+      "city": "Los Angeles",
+      "status": "active",
+      "founded_year": 1986,
+      "entity_type": "company",
+      "short_history": "Forat Electronics is a Los Angeles company that exists because Linn Electronics did not. When Roger Linn's firm ran out of money in February 1986, Forat bought its remaining assets and kept the machines alive: it manufactured and sold the Forat F9000 and the LinnSequencer until 1994, and has serviced, re-sampled, customised and upgraded the whole Linn range ever since. The F9000 is a rebuilt Linn 9000 rather than a new design, but it is sold under Forat's own name and fixes what killed the original: the software bugs are gone, the sequencer memory is four times larger, and it gained full SMPTE read and write, MIDI clock, song position pointer, sample editing and battery-backed memory. Roger Linn himself still sends owners of the old machines to Forat, saying he has not thought about those products in nearly forty years.",
+      "long_history": "Linn Electronics closed in February 1986 after the Linn 9000's chronic software problems proved too expensive to fix, and Forat Electronics Corporation was formed that year around the purchase of what was left. The sources name the company three different ways -- Forat Electronics, Forat Electronics Corporation and Forat Music and Electronics -- and its own site could not be reached to settle which is correct. What Forat bought was the remaining assets of the Linn line, and what it did with them was unusual: rather than simply selling off stock, it went on manufacturing. The Forat F9000 is the Linn 9000 rebuilt, addressing point by point the faults that had sunk its maker. Every old software bug is fixed; the sequencer memory is four times the original; SMPTE is full read and write rather than read-only; MIDI clock and song position pointer are supported; sample editing is possible on the machine; and the memory is battery-backed. Vintagesynth, comparing the two, tells anyone wanting a practical instrument rather than a collector's piece to look at the Forat instead. Forat also continued the LinnSequencer, the rack-mounted 32-track MIDI sequencer, and sold both until 1994. Alongside manufacturing it became the service house for everything Linn ever made, offering repairs, replacement sounds, customisation and upgrades for the LM-1, the LinnDrum, the Linn 9000 and the LinnSequencer, and it has done that continuously since the mid-1980s. That role is why Roger Linn, on his own site's legacy-products page, tells owners of his first company's machines that he cannot help them himself and points them at Forat in Los Angeles.",
+      "instruments": [
+        {
+          "name": "Forat F9000",
+          "year": 1986,
+          "category": "drum machine"
+        },
+        {
+          "name": "LinnSequencer (Forat production)",
+          "year": 1986,
+          "category": "sequencer"
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Linn",
+          "relation_type": "successor_of",
+          "year": 1986
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://www.rogerlinndesign.com/support/support-legacy-products",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "city",
+          "value": "Los Angeles",
+          "source_url": "https://www.rogerlinndesign.com/support/support-legacy-products",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://www.vintagesynth.com/linn-electronics/linn-9000",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1986",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Linn Electronics article, the vintagesynth Linn 9000 page and Roger Linn's own legacy-products page",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from three sources",
+          "source_url": "https://www.vintagesynth.com/linn-electronics/linn-9000",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from three sources",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from three sources",
+          "source_url": "https://www.vintagesynth.com/linn-electronics/linn-9000",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:successor_of:Linn",
+          "value": "Forat Electronics purchased their remaining assets, manufactured and sold the Forat F9000 and LinnSequencer until 1994",
+          "source_url": "https://en.wikipedia.org/wiki/Linn_Electronics",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "The company's own site could not be read: forat.com was refused by the fetcher even after being added to the allowlist AND retried, so it genuinely needs a session restart. That leaves the full legal name unsettled between three variants in circulation (Forat Electronics / Forat Electronics Corporation / Forat Music and Electronics), and no first-party confirmation of the address, founder, or that the company still trades. Retry forat.com/sampler/ after the next restart.",
+        "status 'active' rests on present-tense phrasing in two older sources ('provide service...', 'has specialized in servicing them... since the mid-eighties') plus Roger Linn still pointing owners there. No current-year evidence that the company is trading was found."
+      ],
+      "review_note": "SCOPE TEST PASSED, and it is worth recording why, because Forat looks at first glance like a service shop. It is both: it services the whole Linn range, but it also manufactured and sold the F9000 and the LinnSequencer under its OWN name until 1994, which is the decisive test in this project. Two independent sources say so. Founder name and founding month were not found in any source."
+    },
+    {
+      "canonical_name": "Bontempi",
+      "queue_name": "Bontempi",
+      "country": "Italy",
+      "city": "Potenza Picena",
+      "status": "acquired",
+      "founded_year": 1937,
+      "ended_year": 2014,
+      "entity_type": "company",
+      "short_history": "Bontempi is an Italian instrument maker founded in 1937 at Potenza Picena in the Marche, later headquartered in Macerata with a plant at Martinsicuro. It is best known for cheap plastic-cased chord organs, whose sound comes not from electronics but from harmonium-type reeds blown by a small motor, and which made the company a fixture of European homes through the 1970s and 1980s; the phrase 'a Bontempi sound' still describes a nostalgic, toy-like electronic timbre. From the mid-1980s it moved into home electronic keyboards aimed at learners and amateurs rather than professionals, alongside educational and toy instruments. Its importance to the synthesizer story is corporate rather than musical: Bontempi S.p.A. bought Farfisa in October 1984 and owned it until Farfisa closed in 1998. The company itself entered preventive liquidation in January 2014, and the Bontempi and Farfisa brands both now belong to iCom S.p.A., which restarted Farfisa-branded production in 2025.",
+      "long_history": "Bontempi was founded in 1937 at Potenza Picena in the province of Macerata; no source consulted names its founder. Trading later as Gruppo Bontempi with its head office in Macerata and a further plant at Martinsicuro in the province of Teramo, it built its business on the chord organ: a small, plastic-cased keyboard instrument in which a motor drives air across harmonium-type reeds, so the sound is mechanical rather than electronic. Cheap, portable and forgiving, these instruments reached an enormous domestic audience across Europe in the 1970s and 1980s, and left a mark on the language of electronic music, where 'a Bontempi sound' is shorthand for a nostalgic, deliberately toy-like timbre. From the mid-1980s the company shifted to home electronic keyboards, and its range broadened into educational instruments of all kinds -- wind instruments, keyboards, guitars, drums and percussion -- and outright toy instruments, which is why the Italian encyclopaedia files it among toy manufacturers as well as instrument makers. Nothing in the sources describes a professional, stage or studio line. Its place in this database rests instead on a corporate move: in October 1984 Bontempi S.p.A. acquired Farfisa, the Osimo firm whose combo organs had defined a decade of popular music, and held it until Farfisa closed in 1998, after which Farfisa passed to Comus and Comus itself ceased in 2003. Bontempi's own end came in January 2014, when the company applied for concordato preventivo, Italy's preventive-liquidation procedure. Two entities emerged from it, Cooperativa Industria Abruzzo SpA of Martinsicuro and iCom SpA, headed by Andrea Ariola. iCom S.p.A. now holds the Bontempi and Farfisa brands together, and restarted production of Farfisa-branded instruments in 2025.",
+      "relations": [
+        {
+          "related_company": "Farfisa",
+          "relation_type": "acquired",
+          "year": 1984
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "Italy",
+          "source_url": "https://en.wikipedia.org/wiki/Bontempi",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "status",
+          "value": "acquired",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1937",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1937",
+          "source_url": "https://en.wikipedia.org/wiki/Bontempi",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "official_website",
+          "value": "www.bontempi.com (listed by it.wikipedia; the site itself was NOT reachable, so this is unverified first-party)",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from the Italian company article, the English article and the Italian Farfisa article",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "short_history",
+          "value": "synthesised from three articles",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from three articles",
+          "source_url": "https://it.wikipedia.org/wiki/Bontempi_(azienda)",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "long_history",
+          "value": "synthesised from three articles",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "relation:acquired:Farfisa",
+          "value": "Bontempi S.p.A. dall'ottobre 1984 alla chiusura",
+          "source_url": "https://it.wikipedia.org/wiki/Farfisa",
+          "source_tier": "wikidata"
+        }
+      ],
+      "conflicts": [
+        "SCOPE QUESTION FOR KRISTOF, not a source dispute. Bontempi passes the 'released instruments under its own name' test, but the sources place those instruments firmly on the toy and educational side: the Italian encyclopaedia files the company under Italian TOY manufacturers, its signature chord organ is plastic-cased and produces sound from motor-blown reeds rather than electronically, and the English article calls the later range accessible and affordable, aimed at learners and amateurs rather than professionals. By the sound-generation test Kristof set for accordions and wind instruments (in if the instrument generates the sound electronically, out if it is merely amplified), the reed chord organ is OUT and only the post-1985 home electronic keyboards are IN. The record is stored so nothing is lost, but whether a toy-and-education maker belongs in a synthesizer museum is Kristof's call, exactly as Vektor was. Its undisputed claim to a place is corporate: it owned Farfisa from 1984 to 1998.",
+        "The Farfisa acquisition is dated October 1984 by the Italian Farfisa article and 1985 by the English Bontempi article; the English article carries a maintenance banner warning it may contain AI-generated text, so 1984 is stored and 1985 recorded as the weaker variant."
+      ],
+      "review_note": "Not found in any source and deliberately absent: the founder's name, a full registered legal name, any company name change, the year iCom acquired the brands, and any model list or model years. The premise that Bontempi began with accordions is NOT supported -- that heritage belongs to Farfisa, and no Bontempi source mentions accordions. bontempi.com was not reachable, so there is no first-party data at all in this record."
+    }
+  ]
+}
