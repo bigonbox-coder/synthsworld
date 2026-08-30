@@ -50,6 +50,23 @@ terméklistája nem egyértelmű a gyors keresésből), inkább vedd fel
 `unresearched` stub-ként és jelezd Kristófnak kétség esetén, mint hogy
 találgatva kihagyj egy tényleg releváns gyártót.
 
+**Magánszemélyek: alapból nem, de nem automatikus elutasítás (Kristóf
+szabálya, 2026-08-30 06:08).** Egy magánszemély, aki kapcsolási rajzokat,
+DIY-terveket vagy nyílt konstrukciókat publikál, NEM gyártó -- a terv nem
+termék. DE ha az illető ténylegesen készít és forgalmaz kész hangszert vagy
+modult a saját neve alatt, akkor IGEN, bekerül. **Tehát ezeket az eseteket
+KI KELL VIZSGÁLNI, nem szabad névre ránézve dönteni.** A vizsgálat kérdése
+egyetlen mondat: van-e olyan konkrét, megvásárolható, összeszerelt hangszer
+vagy modul, amit ő ad ki? Ha csak PCB, panel, rajz vagy építési útmutató van,
+akkor nem. Ha bizonytalan a kép, `unresearched` marad és Kristóf dönt.
+
+A `discovery_queue`-ban ezek a sorok `notes`-ában ott van a
+`SZEMELY -- vizsgald meg gyart-e kesz terméket` jelölés, hogy a kutatásnál ne
+csússzon át rajta a figyelem. Konkrét, már sorban álló esetek a matrixsynth
+címkékből: Thomas Henry, Ken Stone, yusynth, Ian Fritz, Rob Hordijk, Scott
+Stites, Roman Filippov, Eric Archer, Alex Evans, Akihiko Matsumoto, Giorgio
+Sancristoforo.
+
 **Holding/anyacégek NEM kapnak önálló gyártói rekordot (Kristóf szabálya,
 2026-08-30).** Ha egy cég csak TULAJDONOL más, in-scope gyártókat, de saját
 maga nem tervez/gyárt semmit a fenti kategóriákból (pl. Norlin Musical
