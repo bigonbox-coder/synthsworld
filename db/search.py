@@ -27,6 +27,15 @@ import urllib.request
 BASE = "http://127.0.0.1:8888/search"
 TIMEOUT = 30
 
+# Naming engines explicitly rather than letting the "general" category decide.
+# The category's default set leans on engines that answer "Suspended: CAPTCHA"
+# for an automated client (DuckDuckGo, Startpage, Qwant), which left a single
+# engine actually replying and made results look thin when they were not. These
+# four answer reliably; measured on the same query, 30 results instead of 6.
+# Marginalia is in for its indie/vintage index, which is exactly this project's
+# subject matter.
+DEFAULT_ENGINES = "google cse,bing,brave,marginalia"
+
 
 def search(query, lang="", count=10, categories="general", engines="",
            retries=3):
@@ -36,8 +45,10 @@ def search(query, lang="", count=10, categories="general", engines="",
     # article that the general web engines rank far below the English one.
     if engines:
         params["engines"] = engines
-    else:
+    elif categories:
         params["categories"] = categories
+    else:
+        params["engines"] = DEFAULT_ENGINES
     if lang:
         params["language"] = lang
     url = f"{BASE}?{urllib.parse.urlencode(params)}"
@@ -88,7 +99,8 @@ def main():
     ap.add_argument("query")
     ap.add_argument("--lang", default="", help="e.g. it-IT, ja-JP, de-DE")
     ap.add_argument("--n", type=int, default=10)
-    ap.add_argument("--categories", default="general")
+    ap.add_argument("--categories", default="",
+                    help="use a SearXNG category instead of the default engine set")
     ap.add_argument("--engines", default="",
                     help="comma-separated, e.g. wikipedia,wikidata; "
                          "overrides --categories")

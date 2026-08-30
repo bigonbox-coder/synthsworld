@@ -501,12 +501,14 @@ payload, and surfaces infoboxes):
   script handles this: naming engines overrides the category.
 - **The `wikipedia` engine answers with an infobox, not a result row.** Read
   the `infoboxes` key too -- ignoring it silently discards the best source.
-- **Engines rate-limit on bursts.** Brave/DuckDuckGo/Startpage return
-  "Suspended: CAPTCHA" if queried rapidly in sequence, leaving only Google
-  CSE answering. Space queries out; the script already backs off on retry.
-  A batch that suddenly returns thin results is usually this, not a genuine
-  absence of sources -- check `unresponsive_engines` in the output before
-  concluding a manufacturer is undocumented.
+- **Engines rate-limit on bursts, and some never answer an automated client.**
+  DuckDuckGo, Startpage and Qwant return "Suspended: CAPTCHA" more or less
+  permanently here; Brave answers but suspends itself under rapid fire. So
+  `search.py` no longer uses the "general" category (whose default set is
+  mostly those) and instead names `google cse,bing,brave,marginalia`. Measured
+  on the same query that is 30 results instead of 6. A batch that suddenly
+  returns thin results is still worth checking against `unresponsive_engines`
+  in the output before concluding a manufacturer is undocumented.
 - **If the container is down**, `search.py` exits with "searxng unreachable".
   Restart with
   `docker compose -f /home/kristof/projects/searxng/docker-compose.yml up -d`.
