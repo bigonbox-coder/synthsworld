@@ -87,6 +87,21 @@ STYLE = """
   .pill.unresearched { background: #e8eaee; color: #565f6f; }
   section { margin: 14px 0; }
   section h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.02em; color: #777; margin-bottom: 4px; }
+  .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+  .stat { flex: 1 1 90px; background: #fff; border: 1px solid #e5e3dd; border-radius: 10px; padding: 10px 12px; text-align: center; }
+  .stat .n { font-size: 1.4rem; font-weight: 700; display: block; }
+  .stat.confirmed .n { color: #1e7a37; }
+  .stat.needs_review .n { color: #96731a; }
+  .stat.unresearched .n { color: #565f6f; }
+  .stat .lbl { font-size: 0.72rem; color: #777; text-transform: uppercase; letter-spacing: 0.02em; }
+  .review-section { background: #fbf3df; border: 1px solid #ecd8a3; border-radius: 12px; padding: 10px 12px 4px; margin-bottom: 16px; }
+  .review-section h2 { color: #96731a; margin-bottom: 8px; }
+  .review-section .card { border-color: #ecd8a3; }
+  .azbar { position: sticky; top: 0; z-index: 5; display: flex; overflow-x: auto; gap: 2px; background: #f6f5f2; padding: 6px 0; margin-bottom: 6px; -webkit-overflow-scrolling: touch; }
+  .azbar a { flex: 0 0 auto; min-width: 30px; min-height: 30px; display: flex; align-items: center; justify-content: center; border-radius: 6px; background: #fff; border: 1px solid #e5e3dd; color: #333; text-decoration: none; font-size: 0.85rem; font-weight: 600; }
+  .azbar a.empty { color: #ccc; border-color: #eee; pointer-events: none; }
+  .letter-group { margin-bottom: 4px; }
+  .letter-heading { font-size: 1rem; font-weight: 700; color: #999; padding: 10px 2px 4px; scroll-margin-top: 46px; }
   .btn { display: inline-block; padding: 12px 18px; border-radius: 8px; border: none; font-size: 1rem; font-weight: 600; cursor: pointer; }
   .btn-approve { background: #2e9e4f; color: #fff; }
   .btn-unapprove { background: #d9a520; color: #fff; }
@@ -247,31 +262,100 @@ class Handler(http.server.BaseHTTPRequestHandler):
             "SELECT id, canonical_name, country, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
         ).fetchall()
         con.close()
-        items = ""
-        for r in rows:
-            items += (
+
+        def card(r):
+            return (
                 f'<a class="card" href="/manufacturer/{r["id"]}">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
                 f'<div class="sub">{esc(r["country"] or "")}</div>'
                 f'</a>'
             )
+
+        counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
+        for r in rows:
+            counts[r["confidence_level"]] = counts.get(r["confidence_level"], 0) + 1
+
+        stats_html = "".join(
+            f'<div class="stat {level}"><span class="n">{counts[level]}</span>'
+            f'<span class="lbl">{label}</span></div>'
+            for level, label in (
+                ("confirmed", "Megerositve"),
+                ("needs_review", "Ellenorzesre var"),
+                ("unresearched", "Meg nincs kikutatva"),
+            )
+        )
+
+        review_rows = [r for r in rows if r["confidence_level"] == "needs_review"]
+        review_html = ""
+        if review_rows:
+            review_html = (
+                '<div class="review-section" id="review-section">'
+                "<h2>Ellenorzesre var</h2>"
+                + "".join(card(r) for r in review_rows)
+                + "</div>"
+            )
+
+        # Full A-Z list, grouped by first letter. Letters present in the data
+        # get a live jump link; letters with nothing get a greyed-out,
+        # non-clickable entry -- keeps the strip's shape stable as the list
+        # grows from 10 to 2000+ rows instead of jumping around.
+        by_letter = {}
+        for r in rows:
+            first = (r["canonical_name"] or "?")[0].upper()
+            if not first.isalpha():
+                first = "#"
+            by_letter.setdefault(first, []).append(r)
+
+        alphabet = [chr(c) for c in range(ord("A"), ord("Z") + 1)] + ["#"]
+        azbar_html = "".join(
+            f'<a href="#letter-{L}">{L}</a>' if L in by_letter else f'<a class="empty">{L}</a>'
+            for L in alphabet
+        )
+
+        list_html = ""
+        for L in alphabet:
+            if L not in by_letter:
+                continue
+            list_html += f'<div class="letter-group" data-letter="{L}">'
+            list_html += f'<div class="letter-heading" id="letter-{L}">{L}</div>'
+            list_html += "".join(card(r) for r in by_letter[L])
+            list_html += "</div>"
+
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
 <title>Synthsworld admin</title>{STYLE}</head><body>
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
+<div class="stats">{stats_html}</div>
+{review_html}
 <input type="search" id="q" placeholder="Gyarto kereses..." oninput="filterList()">
-<div id="list">{items}</div>
+<div class="azbar" id="azbar">{azbar_html}</div>
+<div id="list">{list_html}</div>
 </div>
 <script>
 function filterList() {{
   var q = document.getElementById('q').value.toLowerCase();
-  document.querySelectorAll('#list .card').forEach(function(c) {{
+  document.querySelectorAll('.card').forEach(function(c) {{
     var name = c.querySelector('.name').textContent.toLowerCase();
     c.style.display = name.indexOf(q) === -1 ? 'none' : '';
   }});
+  // Hide a letter-group's heading entirely if every card under it is filtered out,
+  // so filtering doesn't leave a trail of empty "B", "C"... headers.
+  document.querySelectorAll('.letter-group').forEach(function(g) {{
+    var anyVisible = Array.prototype.some.call(g.querySelectorAll('.card'), function(c) {{
+      return c.style.display !== 'none';
+    }});
+    g.style.display = anyVisible ? '' : 'none';
+  }});
+  var reviewSection = document.getElementById('review-section');
+  if (reviewSection) {{
+    var anyVisible = Array.prototype.some.call(reviewSection.querySelectorAll('.card'), function(c) {{
+      return c.style.display !== 'none';
+    }});
+    reviewSection.style.display = anyVisible ? '' : 'none';
+  }}
 }}
 </script>
 </body></html>"""
