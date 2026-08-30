@@ -6823,10 +6823,17 @@
     ],
     "logos": [
       {
-        "file": "logos/logo-2.svg",
+        "file": "logos/logo-31.svg",
         "start_year": null,
         "end_year": null,
-        "source_url": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Roland_Corporation_logo.svg",
+        "review_status": null
+      },
+      {
+        "file": "logos/logo-2.svg",
+        "start_year": 1981,
+        "end_year": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Roland_logo.svg",
         "review_status": "outdated"
       }
     ]

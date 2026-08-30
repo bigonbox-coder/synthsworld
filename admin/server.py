@@ -74,7 +74,15 @@ def manufacturer_logos(con, mid):
     rows = con.execute(
         """SELECT id, drive_file_url, start_year, end_year, logo_review_status, source_url
            FROM manufacturer_logos WHERE manufacturer_id=?
-           ORDER BY end_year IS NULL DESC, start_year IS NULL, start_year DESC, id DESC""",
+           -- Same rule as site/generate.py, deliberately: the approved logo
+           -- leads and an 'outdated' one never does, so the admin page and the
+           -- public site agree on which mark represents the company. CASE and
+           -- not a boolean key, because `NULL = 'approved'` is NULL in SQLite
+           -- and NULL sorts first, which would push an unreviewed upload to
+           -- the front -- exactly backwards.
+           ORDER BY CASE logo_review_status
+                      WHEN 'approved' THEN 0 WHEN 'outdated' THEN 2 ELSE 1 END,
+                    end_year IS NULL DESC, start_year IS NULL, start_year DESC, id DESC""",
         (mid,),
     ).fetchall()
     return [(r, logo_rel_path(r["id"])) for r in rows]
@@ -372,7 +380,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path.startswith("/api/manufacturer/") and path.endswith("/logo-review"):
             mid = int(path.split("/")[3])
-            self._logo_review(mid, data.get("status", ""), data.get("logo_id"))
+            self._logo_review(mid, data.get("status", ""), data.get("logo_id"),
+                              data.get("reason"))
             return
 
         self.send_response(404)
@@ -454,7 +463,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.close()
         self._send_json({"ok": True, "new_confidence_level": new})
 
-    def _logo_review(self, mid, status, logo_id=None):
+    def _logo_review(self, mid, status, logo_id=None, reason=None):
         # Reversible verdict on a FOUND logo -- Kristóf can change his mind
         # later, this just records the current decision and logs it, same
         # spirit as manufacturer confirm/unapprove. EXCEPT 'wrong': that one
@@ -494,6 +503,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     deleted_local = f"logo-{lid}.{ext}"
                     break
             note = f"deleted local={deleted_local} drive_url={drive_url}"
+            if reason:
+                note = f"{reason} | {note}"
             # Reset to the same shape as "searched, nothing found" elsewhere
             # in this app (row exists, drive_file_url NULL) -- logo_status()
             # already treats that as not_found, no new state to invent.
@@ -503,6 +514,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
             )
         else:
             cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE id=?", (status, lid))
+            # A verdict without a reason is a dead end: Kristóf marked the
+            # Roland logo 'outdated' at 03:24 on 2026-08-30 and the actual
+            # problem -- that it was the plain wordmark with the graphic mark
+            # missing -- only surfaced eleven hours later, in chat. The note
+            # field is where that belongs.
+            note = reason or None
 
         cur.execute(
             "INSERT INTO manufacturer_review_log (manufacturer_id, action, note) VALUES (?, ?, ?)",
@@ -803,10 +820,15 @@ function filterList() {{
             if not lpath:
                 continue
             lid = lrow["id"]
+            verdict = lrow["logo_review_status"]
             era = ""
             if lrow["start_year"] or lrow["end_year"]:
-                era = f'{lrow["start_year"] or "?"}-{lrow["end_year"] or "jelen"}'
-            verdict = lrow["logo_review_status"]
+                # "jelen" only if this really is the current mark. A logo
+                # Kristóf marked outdated is by definition NOT in use now, so
+                # an open-ended range there means "we don't know when it
+                # ended", not "still current".
+                end = lrow["end_year"] or ("?" if verdict == "outdated" else "jelen")
+                era = f'{lrow["start_year"] or "?"}-{end}'
             badge = (f'<span class="pill {verdict}">{LOGO_REVIEW_LABELS[verdict]}</span> '
                      if verdict in LOGO_REVIEW_LABELS else "")
             btn_text = "Dontes modositasa" if verdict else "Logo ellenorzese"
@@ -903,6 +925,7 @@ function filterList() {{
 </div>
 {'''<dialog id="logoDialog"><div class="dialog-wrap">
 <h3>Logo ellenorzese</h3>
+<textarea id="logoReason" placeholder="Miert? (nem kotelezo, de sokat er -- pl. hianyzik rola a grafikai resz)"></textarea>
 <button onclick="logoReview('approved')">Jovahagyva, jo ez a logo</button>
 <button onclick="logoReview('outdated')">Elavult, mast hasznalnak most</button>
 <button onclick="logoReview('wrong')">Teves, ez nem is a megfelelo logo</button>
@@ -945,7 +968,8 @@ function openLogoDialog(id) {{
 function logoReview(status) {{
   fetch('/api/manufacturer/{mid}/logo-review', {{
     method:'POST', headers:{{'Content-Type':'application/json'}},
-    body: JSON.stringify({{status: status, logo_id: currentLogoId}})
+    body: JSON.stringify({{status: status, logo_id: currentLogoId,
+                           reason: (document.getElementById('logoReason').value || '').trim()}})
   }}).then(function(r) {{
     if (r.ok) {{ location.reload(); return; }}
     r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});

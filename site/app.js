@@ -159,8 +159,11 @@
       html += '<section><h2>Logók <span class="count">' + m.logos.length +
         '</span></h2><div class="logo-gallery">';
       m.logos.forEach(function (lg) {
+        // "present" only for a mark still in use. One flagged outdated is by
+        // definition not current, so an open end means "end date unknown".
+        var end = lg.end_year || (lg.review_status === "outdated" ? "?" : "present");
         var era = (lg.start_year || lg.end_year)
-          ? escapeHtml(yearRange(lg.start_year, lg.end_year)) : "";
+          ? escapeHtml((lg.start_year || "?") + " – " + end) : "";
         html += '<figure class="logo-item"><img src="' + escapeHtml(lg.file) + '" alt="" loading="lazy">' +
           (era ? '<figcaption>' + era + "</figcaption>" : "") + "</figure>";
       });
