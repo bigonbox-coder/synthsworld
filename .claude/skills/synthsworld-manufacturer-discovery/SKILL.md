@@ -301,6 +301,14 @@ függetlenül attól, hogy ma is gyárt.
    is just a fast local thumbnail source). Don't force a logo if nothing
    clean turns up -- note it and move on, same spirit as everything else in
    this pipeline.
+   **Three states, not two (Kristóf's request, 2026-08-30):** "never
+   looked yet" must be distinguishable from "looked, found nothing".
+   If no logo is found after a real attempt, STILL insert a row into
+   `manufacturer_logos` for that manufacturer with `drive_file_url = NULL`
+   -- a missing row means "not attempted", a row with a NULL url means
+   "attempted, nothing found", a row with a url means "found". The admin
+   panel (`admin/server.py`, `logo_status()`) already renders all three
+   states distinctly, keep feeding it this way.
 
 8. **Report back to Kristóf** (via Jarvis, in Hungarian, on Telegram): how
    many processed, how many confirmed vs needs_review, and a one-line

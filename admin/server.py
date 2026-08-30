@@ -63,6 +63,20 @@ def logo_rel_path(mid):
     return None
 
 
+def logo_status(con, mid):
+    """Three states, not two -- distinguish 'never looked' from 'looked,
+    nothing found', same reasoning as the confirmed/needs_review/unresearched
+    split on the manufacturer itself (Kristóf's request, 2026-08-30).
+    Returns 'found' | 'not_found' | 'not_attempted'."""
+    path = logo_rel_path(mid)
+    if path:
+        return "found", path
+    row = con.execute(
+        "SELECT 1 FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)
+    ).fetchone()
+    return ("not_found", None) if row else ("not_attempted", None)
+
+
 def esc(s):
     if s is None:
         return ""
@@ -87,8 +101,10 @@ STYLE = """
   .card:active { background: #f0efe9; }
   .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
   .logo-thumb { width: 32px; height: 32px; object-fit: contain; border-radius: 6px; background: #fff; border: 1px solid #eee; margin-right: 10px; vertical-align: middle; float: left; }
+  .logo-missing { width: 32px; height: 32px; border-radius: 6px; background: #f0efe9; border: 1px dashed #ccc; margin-right: 10px; float: left; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; color: #999; text-align: center; line-height: 1; }
   .card { overflow: auto; }
   .logo-detail { max-width: 140px; max-height: 80px; object-fit: contain; display: block; margin-bottom: 10px; }
+  .logo-detail-missing { display: inline-block; padding: 8px 12px; border-radius: 8px; background: #f0efe9; border: 1px dashed #ccc; color: #888; font-size: 0.85rem; margin-bottom: 10px; }
   .dot.confirmed { background: #2e9e4f; }
   .dot.needs_review { background: #d9a520; }
   .dot.unresearched { background: #8b93a3; }
@@ -303,11 +319,15 @@ class Handler(http.server.BaseHTTPRequestHandler):
         rows = con.execute(
             "SELECT id, canonical_name, country, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
         ).fetchall()
-        con.close()
 
         def card(r):
-            logo = logo_rel_path(r["id"])
-            logo_html = f'<img class="logo-thumb" src="{logo}" alt="">' if logo else ""
+            status, logo = logo_status(con, r["id"])
+            if status == "found":
+                logo_html = f'<img class="logo-thumb" src="{logo}" alt="">'
+            elif status == "not_found":
+                logo_html = '<span class="logo-missing" title="Kerestünk logót, nem találtunk">nincs<br>kép</span>'
+            else:
+                logo_html = ""
             return (
                 f'<a class="card" href="/manufacturer/{r["id"]}">'
                 f'{logo_html}'
@@ -366,6 +386,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             list_html += f'<div class="letter-heading" id="letter-{L}">{L}</div>'
             list_html += "".join(card(r) for r in by_letter[L])
             list_html += "</div>"
+
+        con.close()
 
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -426,6 +448,7 @@ function filterList() {{
             "SELECT action, note, previous_confidence_level, new_confidence_level, created_at FROM manufacturer_review_log WHERE manufacturer_id=? ORDER BY created_at DESC",
             (mid,),
         ).fetchall()
+        logo_state, logo_path = logo_status(con, mid)
         con.close()
 
         conf = m["confidence_level"]
@@ -462,7 +485,7 @@ function filterList() {{
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a listahoz</a>
-{f'<img class="logo-detail" src="{logo_rel_path(mid)}" alt="">' if logo_rel_path(mid) else ""}
+{f'<img class="logo-detail" src="{logo_path}" alt="">' if logo_state == "found" else ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>' if logo_state == "not_found" else "")}
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
