@@ -1,0 +1,21 @@
+{"manufacturers": [
+ {
+  "canonical_name": "Vektor",
+  "country": "Russia",
+  "city": "Sverdlovsk",
+  "status": "active",
+  "short_history": "Vektor is the Sverdlovsk production enterprise, today Yekaterinburg, where the Polivoks was developed. Work began in 1980 after management put synthesizer research into the plan; the chief engineer was Vladimir Kuzmin and the instrument's severe military-radio appearance came from his wife Olimpiada Kuzmina. Vektor is a manufacturing enterprise in its own right rather than a design bureau, and the Kachkanar radio factory Formanta, which built the Polivoks in series from 1983 until 1990, was its subsidiary. The plant traded earlier as Electroavtomatika.",
+  "name_history": [
+    {"name": "Ural Production Enterprise Vektor", "start_year": null, "end_year": null}
+  ],
+  "sources": [
+    {"field_name": "country", "value": "Russia", "source_url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B2%D0%BE%D0%BA%D1%81", "source_tier": "other"},
+    {"field_name": "country", "value": "Russia", "source_url": "https://petelin.ru/pcmagic/polyvoks/polyvoks.htm", "source_tier": "other"},
+    {"field_name": "city", "value": "Sverdlovsk", "source_url": "https://petelin.ru/pcmagic/polyvoks/polyvoks.htm", "source_tier": "other"},
+    {"field_name": "short_history", "value": "synthesised from both sources", "source_url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B2%D0%BE%D0%BA%D1%81", "source_tier": "other"},
+    {"field_name": "short_history", "value": "synthesised from both sources", "source_url": "https://petelin.ru/pcmagic/polyvoks/polyvoks.htm", "source_tier": "other"}
+  ],
+  "conflicts": ["status: no source says whether the enterprise still trades. 'active' is the column default, not a finding, and must not be read as one."],
+  "review_note": "Scope question resolved: petelin.ru names it OAO Uralskoye proizvodstvennoye predpriyatiye Vektor (JSC Ural Production Enterprise Vektor), a production enterprise, and describes Formanta in Kachkanar as its subsidiary. It is therefore not a design house that never built anything -- the earlier doubt is settled and it stays. Also: the Polivoks was PLANNED for series production in 1982 but actually started in 1983 (petelin.ru); two dates, two events, not a source conflict. The exact legal name rests on one source, so the canonical name is left as Vektor with the full form recorded in name_history."
+ }
+]}
