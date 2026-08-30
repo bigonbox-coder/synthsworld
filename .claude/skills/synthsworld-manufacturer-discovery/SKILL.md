@@ -309,6 +309,17 @@ függetlenül attól, hogy ma is gyárt.
    "attempted, nothing found", a row with a url means "found". The admin
    panel (`admin/server.py`, `logo_status()`) already renders all three
    states distinctly, keep feeding it this way.
+   **Logo review workflow (added 2026-08-30):** Kristóf can mark a FOUND
+   logo as `approved` / `outdated` (real logo, but not the current one) /
+   `wrong` (mismatched, needs a fresh search) via a button on the admin
+   panel's manufacturer detail page (`manufacturer_logos.logo_review_status`,
+   reversible, logged to `manufacturer_review_log` as `logo_approved` /
+   `logo_outdated` / `logo_wrong`). **When processing a manufacturer during
+   a research pass, check this field first: if `logo_review_status` is
+   `outdated` or `wrong`, treat it as needing a FRESH logo search even
+   though a `manufacturer_logos` row already exists -- don't skip it just
+   because a row is present.** Only a NULL/unset review status (never
+   reviewed) or `approved` means the existing logo can be left alone.
 
 8. **Report back to Kristóf** (via Jarvis, in Hungarian, on Telegram): how
    many processed, how many confirmed vs needs_review, and a one-line

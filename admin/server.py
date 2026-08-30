@@ -77,6 +77,22 @@ def logo_status(con, mid):
     return ("not_found", None) if row else ("not_attempted", None)
 
 
+LOGO_REVIEW_LABELS = {
+    "approved": "Jovahagyva",
+    "outdated": "Elavult logo",
+    "wrong": "Teves logo",
+}
+
+
+def logo_review_status(con, mid):
+    """Reversible review verdict on a FOUND logo (Kristóf, 2026-08-30):
+    NULL/no row = not yet reviewed, else 'approved' | 'outdated' | 'wrong'."""
+    row = con.execute(
+        "SELECT logo_review_status FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)
+    ).fetchone()
+    return row["logo_review_status"] if row else None
+
+
 def esc(s):
     if s is None:
         return ""
@@ -116,6 +132,16 @@ STYLE = """
   .pill.confirmed { background: #e3f5e8; color: #1e7a37; }
   .pill.needs_review { background: #fbf0d6; color: #96731a; }
   .pill.unresearched { background: #e8eaee; color: #565f6f; }
+  .pill.approved { background: #e3f5e8; color: #1e7a37; }
+  .pill.outdated { background: #fbf0d6; color: #96731a; }
+  .pill.wrong { background: #fbe0e0; color: #a33; }
+  dialog { border: none; border-radius: 12px; padding: 0; max-width: 360px; width: 90vw; }
+  dialog::backdrop { background: rgba(0,0,0,0.4); }
+  .dialog-wrap { padding: 16px; }
+  .dialog-wrap h3 { margin: 0 0 12px; font-size: 1.05rem; }
+  .dialog-wrap button { display: block; width: 100%; margin-bottom: 8px; padding: 12px; border-radius: 8px; border: 1px solid #ccc; background: #fff; font-size: 0.95rem; text-align: left; cursor: pointer; min-height: 44px; }
+  .dialog-wrap button.cancel { text-align: center; color: #888; border: none; margin-top: 4px; margin-bottom: 0; }
+  .logo-review-btn { display: inline-block; margin-left: 8px; padding: 4px 10px; border-radius: 999px; border: 1px solid #ccc; background: #fff; font-size: 0.75rem; cursor: pointer; }
   section { margin: 14px 0; }
   section h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 0.02em; color: #777; margin-bottom: 4px; }
   .stats { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -243,6 +269,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._add_note(mid, data.get("note", "").strip())
             return
 
+        if path.startswith("/api/manufacturer/") and path.endswith("/logo-review"):
+            mid = int(path.split("/")[3])
+            self._logo_review(mid, data.get("status", ""))
+            return
+
         self.send_response(404)
         self.end_headers()
 
@@ -293,6 +324,29 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.commit()
         con.close()
         self._send_json({"ok": True, "new_confidence_level": new})
+
+    def _logo_review(self, mid, status):
+        # Reversible verdict on a FOUND logo -- Kristóf can change his mind
+        # later, this just records the current decision and logs it, same
+        # spirit as manufacturer confirm/unapprove.
+        if status not in ("approved", "outdated", "wrong"):
+            self._send_json({"error": "invalid status"}, 400)
+            return
+        con = db()
+        cur = con.cursor()
+        row = cur.execute("SELECT id FROM manufacturer_logos WHERE manufacturer_id=?", (mid,)).fetchone()
+        if not row:
+            con.close()
+            self._send_json({"error": "no logo on file for this manufacturer"}, 404)
+            return
+        cur.execute("UPDATE manufacturer_logos SET logo_review_status=? WHERE manufacturer_id=?", (status, mid))
+        cur.execute(
+            "INSERT INTO manufacturer_review_log (manufacturer_id, action, note) VALUES (?, ?, ?)",
+            (mid, f"logo_{status}", None),
+        )
+        con.commit()
+        con.close()
+        self._send_json({"ok": True, "logo_review_status": status})
 
     def _add_note(self, mid, note):
         if not note:
@@ -451,6 +505,7 @@ function filterList() {{
             (mid,),
         ).fetchall()
         logo_state, logo_path = logo_status(con, mid)
+        logo_review = logo_review_status(con, mid) if logo_state == "found" else None
         con.close()
 
         conf = m["confidence_level"]
@@ -488,6 +543,7 @@ function filterList() {{
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a listahoz</a>
 {f'<img class="logo-detail" src="{logo_path}" alt="">' if logo_state == "found" else ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>' if logo_state == "not_found" else "")}
+{f'<span class="pill {logo_review}">{LOGO_REVIEW_LABELS[logo_review]}</span> <button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" and logo_review else ('<button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" else "")}
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
@@ -517,6 +573,13 @@ function filterList() {{
 <ul class="note-list">{notes_html or "<li>Meg nincs bejegyzes.</li>"}</ul>
 </section>
 </div>
+{'''<dialog id="logoDialog"><div class="dialog-wrap">
+<h3>Logo ellenorzese</h3>
+<button onclick="logoReview('approved')">Jovahagyva, jo ez a logo</button>
+<button onclick="logoReview('outdated')">Elavult, mast hasznalnak most</button>
+<button onclick="logoReview('wrong')">Teves, ez nem is a megfelelo logo</button>
+<button class="cancel" onclick="document.getElementById('logoDialog').close()">Megsem</button>
+</div></dialog>''' if logo_state == "found" else ""}
 <script>
 function toggleLongHistory() {{
   var t = document.getElementById('longHistText');
@@ -538,6 +601,15 @@ function addNote() {{
     method:'POST', headers:{{'Content-Type':'application/json'}},
     body: JSON.stringify({{note: t}})
   }}).then(function(r) {{ if (r.ok) location.reload(); }});
+}}
+function logoReview(status) {{
+  fetch('/api/manufacturer/{mid}/logo-review', {{
+    method:'POST', headers:{{'Content-Type':'application/json'}},
+    body: JSON.stringify({{status: status}})
+  }}).then(function(r) {{
+    if (r.ok) {{ location.reload(); return; }}
+    r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});
+  }});
 }}
 </script>
 </body></html>"""
