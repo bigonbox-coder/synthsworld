@@ -97,12 +97,12 @@ STYLE = """
   header { background: #1c1c1e; color: #fff; padding: 14px 16px; font-size: 1.1rem; font-weight: 600; }
   .wrap { padding: 12px; max-width: 900px; margin: 0 auto; }
   input[type=search] { width: 100%; padding: 12px; font-size: 1rem; border: 1px solid #ccc; border-radius: 8px; margin-bottom: 10px; }
-  .card { display: block; padding: 12px 14px; margin-bottom: 8px; background: #fff; border-radius: 10px; text-decoration: none; color: #222; border: 1px solid #e5e3dd; }
+  .card { display: flex; align-items: center; gap: 10px; padding: 12px 14px; margin-bottom: 8px; background: #fff; border-radius: 10px; text-decoration: none; color: #222; border: 1px solid #e5e3dd; }
+  .card-text { flex: 1 1 auto; min-width: 0; }
   .card:active { background: #f0efe9; }
   .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; }
-  .logo-thumb { width: 32px; height: 32px; object-fit: contain; border-radius: 6px; background: #fff; border: 1px solid #eee; margin-right: 10px; vertical-align: middle; float: left; }
-  .logo-missing { width: 32px; height: 32px; border-radius: 6px; background: #f0efe9; border: 1px dashed #ccc; margin-right: 10px; float: left; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; color: #999; text-align: center; line-height: 1; }
-  .card { overflow: auto; }
+  .logo-thumb { width: 48px; height: 48px; object-fit: contain; border-radius: 6px; background: #fff; border: 1px solid #eee; flex: 0 0 auto; order: 2; }
+  .logo-missing { width: 48px; height: 48px; border-radius: 6px; background: #f0efe9; border: 1px dashed #ccc; flex: 0 0 auto; order: 2; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; color: #999; text-align: center; line-height: 1; }
   .logo-detail { max-width: 140px; max-height: 80px; object-fit: contain; display: block; margin-bottom: 10px; }
   .logo-detail-missing { display: inline-block; padding: 8px 12px; border-radius: 8px; background: #f0efe9; border: 1px dashed #ccc; color: #888; font-size: 0.85rem; margin-bottom: 10px; }
   .dot.confirmed { background: #2e9e4f; }
@@ -330,10 +330,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 logo_html = ""
             return (
                 f'<a class="card" href="/manufacturer/{r["id"]}">'
-                f'{logo_html}'
+                f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
                 f'<div class="sub">{esc(r["country"] or "")}</div>'
+                f'</div>'
+                f'{logo_html}'
                 f'</a>'
             )
 
