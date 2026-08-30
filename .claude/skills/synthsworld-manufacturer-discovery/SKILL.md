@@ -96,6 +96,13 @@ kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
    ruskeys.net/eng/synths.php (majdnem az összes orosz gyártót lefedi,
    kifejezetten hasznos az orosz régiós kereséshez).
 
+   **Ha egy forrás-oldalon van kifejezett gyártó-lista/böngésző funkció,
+   MENJ EGYENESEN ODA**, ne általános keresést futtass az oldalon
+   (Kristóf példája, 2026-08-30): vintagesynth.com-on a "Browse the Gear"
+   gomb közvetlenül egy gyártó-listához vezet, ezt közvetlenül célozd meg.
+   Ha egy jövőbeli forrásnál is van ilyen közvetlen böngésző/lista oldal,
+   azt használd a sima keresés helyett, gyorsabb és teljesebb.
+
    **Ország/régió szerinti keresés is legyen a bővítés része** (Kristóf
    javaslata, 2026-08-30): a fenti gyűjtő-oldalak mellett `WebSearch`-ön
    keresztül fuss rá konkrét ország/régió + "synthesizer manufacturers"
