@@ -543,7 +543,7 @@ function filterList() {{
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a listahoz</a>
 {f'<img class="logo-detail" src="{logo_path}" alt="">' if logo_state == "found" else ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>' if logo_state == "not_found" else "")}
-{f'<span class="pill {logo_review}">{LOGO_REVIEW_LABELS[logo_review]}</span> <button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" and logo_review else ('<button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" else "")}
+{f'<span class="pill {logo_review}">{LOGO_REVIEW_LABELS[logo_review]}</span> <button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Dontes modositasa</button>' if logo_state == "found" and logo_review else ('<button class="logo-review-btn" onclick="document.getElementById(&quot;logoDialog&quot;).showModal()">Logo ellenorzese</button>' if logo_state == "found" else "")}
 <h1>{esc(m["canonical_name"])}</h1>
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
