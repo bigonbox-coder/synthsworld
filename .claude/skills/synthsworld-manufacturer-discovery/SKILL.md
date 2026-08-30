@@ -50,6 +50,22 @@ terméklistája nem egyértelmű a gyors keresésből), inkább vedd fel
 `unresearched` stub-ként és jelezd Kristófnak kétség esetén, mint hogy
 találgatva kihagyj egy tényleg releváns gyártót.
 
+**Holding/anyacégek NEM kapnak önálló gyártói rekordot (Kristóf szabálya,
+2026-08-30).** Ha egy cég csak TULAJDONOL más, in-scope gyártókat, de saját
+maga nem tervez/gyárt semmit a fenti kategóriákból (pl. Norlin Musical
+Instruments és inMusic Brands, akik csak birtokolták/birtokolják a Moogot;
+vagy Focusrite, aki hangkártyát gyárt, de tulajdonolja a Novation és
+Sequential szintetizátor-márkákat), NE kapjon saját `manufacturers` sort.
+A tulajdonlás ténye a TÉNYLEGES gyártó (Moog, Sequential stb.) saját
+`short_history`/`long_history` szövegébe kerül prózaként ("2023-ban
+felvásárolta az inMusic Brands" jellegű mondat), nem külön rekordként és
+nem `manufacturer_relations` sorként. Ez a `manufacturer_relations` tábla
+KÉT, mindkettő in-scope, ténylegesen hangszert gyártó cég közti kapcsolatra
+való (pl. Vox felvásárlása Korg által, mindkettő tényleges hangszergyártó).
+Ha kétséges, hogy egy felbukkanó cég holding-e vagy tényleges gyártó,
+gyorsan nézd meg mit gyárt: ha van saját terméke a fenti kategóriákból,
+kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
+
 ## Procedure
 
 0. **Bővítés: új gyártónevek keresése, ha a sor kiürülőben van.** Kristóf

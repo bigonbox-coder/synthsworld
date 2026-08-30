@@ -35,30 +35,6 @@
     "relations": []
   },
   {
-    "id": 12,
-    "canonical_name": "Focusrite",
-    "country": "United Kingdom",
-    "short_history": "British audio-electronics company founded 1985 by Rupert Neve; makes audio interfaces and studio preamps rather than instruments itself, but owns synth/groovebox maker Novation (since 2004) and synth maker Sequential (since 2021).",
-    "long_history": "Focusrite was founded in 1985 by British audio engineer Rupert Neve, shortly after he ended his consulting relationship with his earlier company, Neve Electronics; his first work under the Focusrite name was building console extenders and outboard modules for Neve consoles already installed at Sir George Martin's AIR Studios in London and Montserrat. In April 1989 Phil Dudderidge, who remains the company's chairman, acquired Focusrite and steered its subsequent growth; under his direction Focusrite designed the Focusrite Studio Console in 1990 and built a reputation for high-end microphone preamps, equalizers and channel strips, particularly the ISA series descended from the original ISA110 designs. Rather than making instruments itself, Focusrite has expanded mainly by acquisition, building a group of complementary audio brands: it bought synthesizer and groovebox maker Novation in August 2004, floated on London's AIM market as Focusrite plc in December 2014, and added monitor-speaker maker ADAM Audio in July 2019 and loudspeaker manufacturer Martin Audio in December 2019. In April 2021 Focusrite acquired Sequential, the American analog-synthesizer company founded by Dave Smith, bringing an actual instrument-manufacturing brand into the group; the Focusrite Group now trades under eight brands including Focusrite, Focusrite Pro, Martin Audio, ADAM Audio, Novation, Ampify Music, Optimal Audio, and Sequential. Focusrite itself continues to focus on audio interfaces and studio recording hardware rather than instruments; its relevance to this database is chiefly as the parent company of Sequential and Novation.",
-    "official_website": "https://focusrite.com",
-    "status": "active",
-    "confidence_level": "confirmed",
-    "name_history": [],
-    "relations": []
-  },
-  {
-    "id": 3,
-    "canonical_name": "inMusic Brands",
-    "country": "United States",
-    "short_history": "American music-technology holding company (founded from Numark's 1992 acquisition) that owns Moog Music, Akai Professional, Denon DJ, Numark, Rane and M-Audio among others; does not design instruments itself, only acquires and operates other brands.",
-    "long_history": "inMusic Brands traces its roots to 1992, when Jack O'Donnell purchased the assets of Numark, a DJ-equipment brand. Over the following three decades O'Donnell built inMusic into a large private portfolio of professional audio and music-technology companies through a sustained string of acquisitions rather than organic in-house product development: Alesis was taken over out of bankruptcy in 2001, Akai Professional's musical-instrument division was acquired in 2005, Italian live-sound company Alto Professional joined the group in 2010, and in June 2023 inMusic acquired Moog Music, giving the group its first serious foothold in analog synthesizer manufacturing. In May 2026 inMusic agreed to acquire the Berlin-based music-technology company Native Instruments, maker of Kontakt, Traktor and iZotope, further extending its reach into software instruments. Today inMusic's brand portfolio includes Akai Professional, Moog Music, Denon DJ, Numark, Rane, and M-Audio, among others. Like Norlin before it, inMusic itself does not design or build instruments under its own name; its relevance to this database is as Moog Music's current parent company.",
-    "official_website": "https://www.inmusicbrands.com",
-    "status": "active",
-    "confidence_level": "confirmed",
-    "name_history": [],
-    "relations": []
-  },
-  {
     "id": 5,
     "canonical_name": "Korg Inc.",
     "country": "Japan",
@@ -142,31 +118,6 @@
         "end_year": null
       }
     ],
-    "relations": [
-      {
-        "relation_type": "acquired_by",
-        "year": 1973,
-        "related_manufacturer_id": 2,
-        "related_name": "Norlin Musical Instruments"
-      },
-      {
-        "relation_type": "acquired_by",
-        "year": 2023,
-        "related_manufacturer_id": 3,
-        "related_name": "inMusic Brands"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "canonical_name": "Norlin Musical Instruments",
-    "country": "United States",
-    "short_history": "American holding company that owned Gibson guitars, Epiphone, Lowrey organs and Moog Music from 1973 to the mid-1980s, before financial trouble and a hostile takeover forced it to sell off all its instrument brands; no longer exists as an instrument business.",
-    "long_history": "Norlin traces back to 1913 as the Ecuadorian Corporation, originally a holding company for a brewery, cement plant and other business interests in Ecuador. Under president Norton Stevens the company pivoted toward American electronics and manufacturing acquisitions during the 1960s, and took its final name, Norlin, by combining Norton Stevens' surname with that of Arnold Berlin, president of the Chicago Musical Instrument Company (CMI), which Norlin acquired in 1969. That acquisition made Norlin, briefly, the largest musical-instrument manufacturer in the United States, with a portfolio that came to include Gibson guitars, Epiphone, Lowrey organs, and, from 1973, Moog Music. The music division drove the bulk of Norlin's revenue through the early-to-mid 1970s, but the industry downturn following the 1975 recession forced the conglomerate to sell off its remaining Ecuadorian operations and other units. Norlin became the target of a hostile takeover attempt in the mid-1980s, and in response divested its instrument brands one by one: Lowrey Organ was sold in October 1984, Moog Music not long after, and finally Gibson itself in January 1986, sold for five million dollars to a group of investors who took over a company that was within months of shutting down entirely. Norlin no longer exists as an independent musical-instrument business; its relevance to this database is entirely as Moog Music's owner during a difficult, formative decade of that company's history.",
-    "official_website": null,
-    "status": "defunct",
-    "confidence_level": "confirmed",
-    "name_history": [],
     "relations": []
   },
   {
@@ -237,12 +188,6 @@
         "year": 1987,
         "related_manufacturer_id": 6,
         "related_name": "Yamaha"
-      },
-      {
-        "relation_type": "acquired_by",
-        "year": 2021,
-        "related_manufacturer_id": 12,
-        "related_name": "Focusrite"
       }
     ]
   },
