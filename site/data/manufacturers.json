@@ -32,6 +32,18 @@
         "related_manufacturer_id": 4,
         "related_name": "Roland Corporation"
       }
+    ],
+    "instruments": [
+      {
+        "name": "Rhythm Ace FR-1",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Rhythm Ace R1",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -48,7 +60,14 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "MPC",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 17,
@@ -64,7 +83,19 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Andromeda A6",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Ion",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 14,
@@ -91,7 +122,24 @@
         "end_year": 1981
       }
     ],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "ARP 2600",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Chroma",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Odyssey",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 19,
@@ -107,7 +155,14 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Model D",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 21,
@@ -123,7 +178,8 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 38,
@@ -139,7 +195,34 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Bit 01",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Bit 99",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Bit One",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "DS-2",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Spirit",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 20,
@@ -155,7 +238,14 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "A-100",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 22,
@@ -171,7 +261,24 @@
     "status": "defunct",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Emulator",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "SP-12",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "SP-1200",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 30,
@@ -193,7 +300,29 @@
         "end_year": 1981
       }
     ],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Caterpillar",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Gnat",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Spider",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Wasp",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 26,
@@ -209,7 +338,24 @@
     "status": "active",
     "confidence_level": "needs_review",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Synthi A",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Synthi AKS",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "VCS3",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 15,
@@ -225,7 +371,39 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Digitakt",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Digitone",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Machinedrum",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Monomachine",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "SidStation",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Syntakt",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 39,
@@ -248,6 +426,18 @@
         "related_manufacturer_id": 40,
         "related_name": "GEM (General Electro Music)"
       }
+    ],
+    "instruments": [
+      {
+        "name": "Rhapsody",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Synthex",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -264,7 +454,34 @@
     "status": "defunct",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "ASR",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "EPS",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "ESQ-1",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Mirage",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "VFX",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 42,
@@ -287,6 +504,33 @@
         "related_manufacturer_id": 43,
         "related_name": "Vektor"
       }
+    ],
+    "instruments": [
+      {
+        "name": "EMS-01",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Formanta Mini",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "P-432",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "P-465",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Polivoks",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -303,7 +547,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 35,
@@ -319,7 +564,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 33,
@@ -335,7 +581,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 5,
@@ -392,6 +639,23 @@
         "related_manufacturer_id": 6,
         "related_name": "Yamaha"
       }
+    ],
+    "instruments": [
+      {
+        "name": "MiniKorg 700",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "MS-20",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Wavestation",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -408,7 +672,24 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "K2000",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "K250",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "K2700",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 1,
@@ -445,7 +726,19 @@
         "end_year": null
       }
     ],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Minimoog",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Minimoog Model D",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 25,
@@ -461,7 +754,19 @@
     "status": "defunct",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Synclavier",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Synclavier II",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 16,
@@ -477,7 +782,14 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Bass Station",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 13,
@@ -493,7 +805,24 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Four Voice",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Synthesizer Expander Module",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Two Voice",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 29,
@@ -516,6 +845,13 @@
         "related_manufacturer_id": 30,
         "related_name": "Electronic Dream Plant"
       }
+    ],
+    "instruments": [
+      {
+        "name": "OSCar",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -530,7 +866,7 @@
     "long_history": "Wolfgang Palm, a keyboardist active in the Hamburg music scene, founded Palm Products GmbH in 1975 to build electronic instruments, reportedly beginning with modular synthesizer gear supplied to acts including Tangerine Dream. His first standalone product line, the 300-series modular system, did not sell well, and he followed it with the more conventional, Minimoog-inspired monophonic 1002 and 1020 synthesizers; the 1020 stood out for using digitally controlled oscillators, which were more stable in tuning than the voltage-controlled oscillators typical of the era and gave PPG instruments a recognizable tone. Palm's most consequential work began in the late 1970s, when he developed wavetable synthesis, building up sound by digitally storing short waveform segments and smoothly scanning between them, first realized in the Wavecomputer 360 of 1979, an eight-voice polyphonic instrument pairing digital oscillators with analog filters and amplifiers. This technology matured into the PPG Wave 2 in 1981, followed by the Wave 2.2 and Wave 2.3 through 1987; roughly a thousand units across the Wave family were built in total, each oscillator offering dozens of selectable waveforms drawn from onboard wavetables. Priced around 7,000 to 10,000 dollars, the Wave series found favour with prominent 1980s acts including Depeche Mode, Gary Numan and David Bowie's collaborators, and Depeche Mode's Alan Wilder in particular became known as a heavy user. PPG also built companion computer hardware, notably the Waveterm from 1982, used to edit and design wavetables and sequences for the Wave synths, and around 1986 Palm prototyped an ambitious all-in-one workstation called the Realizer, which proved too costly and technically complex to bring to market. Increasing competition from cheaper digital synthesizers and samplers squeezed PPG's business through the mid-1980s and the company shut down in 1987. Wolfgang Palm did not leave the field: he contributed digital synthesis design work to Waldorf Music, a company founded in 1988 by PPG's former German distributor specifically to continue building wavetable-based instruments, starting with the Microwave, so that Waldorf's early products are widely regarded as PPG's direct technical successors. Decades later, in 2020, ownership of the PPG name and brand passed to the audio-plugin company Brainworx, part of the Plugin Alliance group, which began releasing PPG-branded software instruments; sources describe that deal inconsistently, naming either Plugin Alliance or Brainworx as the buyer, with Native Instruments later acquiring Brainworx.",
     "official_website": null,
     "status": "defunct",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": [
       {
@@ -538,6 +874,23 @@
         "year": 1988,
         "related_manufacturer_id": 28,
         "related_name": "Waldorf Music"
+      }
+    ],
+    "instruments": [
+      {
+        "name": "PPG Wave 2",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "PPG Wave 2.2",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "PPG Wave 2.3",
+        "year": null,
+        "category": null
       }
     ]
   },
@@ -555,7 +908,39 @@
     "status": "active",
     "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "Juno-60",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Jupiter-4",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "SH-1000",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "TB-303",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "TR-808",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "TR-909",
+        "year": null,
+        "category": null
+      }
+    ]
   },
   {
     "id": 11,
@@ -594,6 +979,13 @@
         "related_manufacturer_id": 6,
         "related_name": "Yamaha"
       }
+    ],
+    "instruments": [
+      {
+        "name": "Prophet-5",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -617,7 +1009,8 @@
         "related_manufacturer_id": 37,
         "related_name": "Sound Transform Systems"
       }
-    ]
+    ],
+    "instruments": []
   },
   {
     "id": 31,
@@ -646,6 +1039,33 @@
         "related_manufacturer_id": 4,
         "related_name": "Roland Corporation"
       }
+    ],
+    "instruments": [
+      {
+        "name": "Cruise",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "DK70",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "EX70",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Opera 6",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "Orchestra",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -662,7 +1082,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 32,
@@ -701,6 +1122,33 @@
         "related_manufacturer_id": 33,
         "related_name": "Kawai Musical Instruments"
       }
+    ],
+    "instruments": [
+      {
+        "name": "100F",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "110F",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "60F",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "S100P",
+        "year": null,
+        "category": null
+      },
+      {
+        "name": "SX-400",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -717,7 +1165,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 7,
@@ -740,6 +1189,13 @@
         "related_manufacturer_id": 5,
         "related_name": "Korg Inc."
       }
+    ],
+    "instruments": [
+      {
+        "name": "Continental",
+        "year": null,
+        "category": null
+      }
     ]
   },
   {
@@ -756,7 +1212,8 @@
     "status": "active",
     "confidence_level": "unresearched",
     "name_history": [],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 41,
@@ -778,7 +1235,8 @@
         "end_year": null
       }
     ],
-    "relations": []
+    "relations": [],
+    "instruments": []
   },
   {
     "id": 6,
@@ -805,6 +1263,13 @@
         "end_year": null
       }
     ],
-    "relations": []
+    "relations": [],
+    "instruments": [
+      {
+        "name": "DX7",
+        "year": null,
+        "category": null
+      }
+    ]
   }
 ]

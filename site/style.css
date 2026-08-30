@@ -341,3 +341,23 @@ html, body {
   color: var(--muted, #666);
   font-size: 0.9rem;
 }
+
+.instrument-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+.instrument-list li {
+  background: rgba(127, 127, 127, 0.12);
+  border-radius: 4px;
+  padding: 0.2rem 0.55rem;
+  font-size: 0.9rem;
+}
+.instrument-list .year { opacity: 0.6; }
+h2 .count {
+  font-size: 0.8rem;
+  font-weight: normal;
+  opacity: 0.6;
+}

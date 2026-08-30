@@ -121,6 +121,17 @@
         "\" target=\"_blank\" rel=\"noopener\">" + escapeHtml(m.official_website) + "</a></p></section>";
     }
 
+    if (m.instruments && m.instruments.length) {
+      html += '<section><h2>Hangszerek <span class="count">' + m.instruments.length +
+        "</span></h2><ul class=\"instrument-list\">";
+      m.instruments.forEach(function (it) {
+        html += "<li>" + escapeHtml(it.name) +
+          (it.year ? ' <span class="year">' + escapeHtml(String(it.year)) + "</span>" : "") +
+          "</li>";
+      });
+      html += "</ul></section>";
+    }
+
     if (m.name_history && m.name_history.length) {
       html += "<section><h2>Névtörténet</h2><ul class=\"timeline\">";
       m.name_history.forEach(function (nh) {

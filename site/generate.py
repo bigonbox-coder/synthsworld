@@ -37,6 +37,7 @@ def main() -> None:
     for m in manufacturers:
         m["name_history"] = []
         m["relations"] = []
+        m["instruments"] = []
 
     cur.execute(
         """
@@ -50,6 +51,20 @@ def main() -> None:
         if m is not None:
             m["name_history"].append(
                 {"name": row["name"], "start_year": row["start_year"], "end_year": row["end_year"]}
+            )
+
+    cur.execute(
+        """
+        SELECT manufacturer_id, name, year, category
+        FROM instruments
+        ORDER BY year IS NULL, year, name COLLATE NOCASE
+        """
+    )
+    for row in cur.fetchall():
+        m = by_id.get(row["manufacturer_id"])
+        if m is not None:
+            m["instruments"].append(
+                {"name": row["name"], "year": row["year"], "category": row["category"]}
             )
 
     cur.execute(

@@ -17,6 +17,8 @@ Expected JSON shape:
         "founders": "Wilhelm-Erich Franz, Reinhard Franz",
         "short_history": "...", "long_history": "...",
         "name_history": [{"name": "...", "start_year": 1969, "end_year": 1974}],
+        "instruments": ["SX-1000", {"name": "DK 80", "year": 1985,
+                                    "category": "synthesizer"}],
         "relations": [{"related_company": "...", "relation_type": "acquired_by",
                        "year": 1987}],
         "sources": [{"field_name": "country", "value": "...",
@@ -106,6 +108,15 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
     """Insert or update on canonical_name; never create a duplicate company."""
     ts = now()
     mid = find_manufacturer(conn, entry["canonical_name"])
+    if mid is not None and not entry.get("sources"):
+        # An entry carrying no sources is an addition to an existing record (a
+        # model list, say), not a research pass. It has no evidence behind it,
+        # so it must not restate confidence in either direction -- without this
+        # guard an instruments-only batch silently promotes a needs_review
+        # record to confirmed.
+        confidence = conn.execute(
+            "SELECT confidence_level FROM manufacturers WHERE id = ?", (mid,)
+        ).fetchone()[0]
     if mid is not None and confidence == "needs_review" and not conflicts:
         # A thinner re-pass must not demote an already-confirmed record: only a
         # real source conflict does that, never merely fewer sources this time.
@@ -124,7 +135,7 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
                 VALUES ({placeholders})""",
             (entry["canonical_name"], *[entry.get(c) for c in cols], confidence, ts, ts),
         )
-        return conn.execute("SELECT last_insert_rowid()").fetchone()[0], "inserted"
+        return conn.execute("SELECT last_insert_rowid()").fetchone()[0], "inserted", confidence
     # Update in place, but never blank out an existing value with a missing one.
     sets, params = [], []
     for c in cols:
@@ -134,7 +145,7 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
     sets += ["confidence_level = ?", "updated_at = ?"]
     params += [confidence, ts, mid]
     conn.execute(f"UPDATE manufacturers SET {', '.join(sets)} WHERE id = ?", params)
-    return mid, "updated"
+    return mid, "updated", confidence
 
 
 def stub_manufacturer(conn, name):
@@ -196,6 +207,33 @@ def add_name_history(conn, mid, names):
             """INSERT INTO manufacturer_name_history (manufacturer_id, name, start_year, end_year)
                VALUES (?, ?, ?, ?)""",
             (mid, n["name"], n.get("start_year"), n.get("end_year")),
+        )
+        added += 1
+    return added
+
+
+def add_instruments(conn, mid, instruments):
+    """Model names for one manufacturer. Names only -- specifications are phase 2.
+
+    Accepts either a bare string or {"name", "year", "category", "source_url"},
+    because most passes will only have the name.
+    """
+    added = 0
+    for item in instruments:
+        entry = {"name": item} if isinstance(item, str) else dict(item or {})
+        name = (entry.get("name") or "").strip()
+        if not name:
+            continue
+        exists = conn.execute(
+            "SELECT 1 FROM instruments WHERE manufacturer_id = ? AND lower(name) = lower(?)",
+            (mid, name),
+        ).fetchone()
+        if exists:
+            continue
+        conn.execute(
+            """INSERT INTO instruments (manufacturer_id, name, year, category, source_url)
+               VALUES (?, ?, ?, ?, ?)""",
+            (mid, name, entry.get("year"), entry.get("category"), entry.get("source_url")),
         )
         added += 1
     return added
@@ -263,15 +301,20 @@ def main(argv):
 
     for entry in batch["manufacturers"]:
         confidence, note = roll_up(entry)
-        mid, action = upsert_manufacturer(conn, entry, confidence, entry.get('conflicts') or [])
+        # upsert returns the confidence actually stored, which differs from the
+        # rolled-up one when the guards above keep an existing value.
+        mid, action, confidence = upsert_manufacturer(
+            conn, entry, confidence, entry.get('conflicts') or [])
         facts = add_sources(conn, mid, entry.get("sources") or [])
         names = add_name_history(conn, mid, entry.get("name_history") or [])
         rels, stubbed = add_relations(conn, mid, entry.get("relations") or [])
+        insts = add_instruments(conn, mid, entry.get("instruments") or [])
         extra = entry.get("review_note")
         full_note = "; ".join(n for n in (note, extra) if n)
         closed = close_queue(conn, entry, confidence, full_note)
         print(f"{entry['canonical_name']:<34} id={mid:<4} {action:<8} {confidence}")
-        print(f"    facts+{facts} names+{names} relations+{rels} queue={closed or 'no row'}")
+        print(f"    facts+{facts} names+{names} relations+{rels} instruments+{insts} "
+              f"queue={closed or 'no row'}")
         if stubbed:
             print(f"    new unresearched stubs: {', '.join(stubbed)}")
         if note:

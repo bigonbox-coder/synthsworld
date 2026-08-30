@@ -591,3 +591,26 @@ first session started after 2026-08-30.
 
 Treat it as an `other` tier source: it is a curated site, not the
 manufacturer's own word, so on its own it does not confirm a fact.
+
+## Instrument names (phase 1.5, added 2026-08-30, migration 0011)
+
+Kristóf approved collecting a MODEL NAME LIST per manufacturer during the same
+research pass, because it is nearly free once the sources are open and it earns
+its place twice: it shows what the company actually built (which is how the
+scope rule gets decided), and unfamiliar model names surface manufacturers we
+had never heard of.
+
+**Names only.** No specifications, no polyphony, no filter type -- that is
+phase 2 and a different table. Pass them in the batch JSON as
+`"instruments": ["OSCar", {"name": "Wasp", "year": 1978, "category": "synthesizer"}]`;
+a bare string is fine and will be the normal case. `year` only where a source
+states it.
+
+Leave amplifiers and effects out even when the prose names them (Vox AC30, the
+Ace Tone amplifiers): the instruments table follows the same scope rule as the
+manufacturers table.
+
+**Guard worth knowing about:** an entry with no `sources` key is treated as an
+addition to an existing record, not a research pass, and cannot change its
+`confidence_level` in either direction. So a model-list-only batch will never
+silently promote a `needs_review` manufacturer to `confirmed`.

@@ -131,6 +131,12 @@ ICON_TAGS = """<link rel="icon" type="image/png" sizes="32x32" href="/static/ico
 
 STYLE = """
 <style>
+.instrument-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
+.instrument-list li { background: rgba(127,127,127,.14); border-radius: 4px; padding: .2rem .55rem; font-size: .9rem; }
+.instrument-list .year { opacity: .6; }
+h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
+</style>
+<style>
   :root { color-scheme: light; }
   * { box-sizing: border-box; }
   body { font-family: -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; background: #f6f5f2; color: #222; }
@@ -679,6 +685,10 @@ function filterList() {{
                FROM manufacturer_relations r JOIN manufacturers m2 ON m2.id = r.related_manufacturer_id
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
+        instruments = con.execute(
+            """SELECT name, year, category FROM instruments WHERE manufacturer_id=?
+               ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
+        ).fetchall()
         notes = con.execute(
             "SELECT action, note, previous_confidence_level, new_confidence_level, created_at FROM manufacturer_review_log WHERE manufacturer_id=? ORDER BY created_at DESC",
             (mid,),
@@ -702,6 +712,11 @@ function filterList() {{
         for nh in name_hist:
             yr = f'{nh["start_year"] or "?"}-{nh["end_year"] or "jelen"}'
             hist_html += f'<li class="timeline"><strong>{esc(nh["name"])}</strong> -- {esc(yr)}</li>'
+
+        inst_html = ""
+        for it in instruments:
+            year = f' <span class="year">{it["year"]}</span>' if it["year"] else ""
+            inst_html += f'<li>{esc(it["name"])}{year}</li>'
 
         rel_html = ""
         for r in relations:
@@ -740,6 +755,7 @@ function filterList() {{
      if m["long_history"] else "")
   + "</section>") if m["short_history"] else ""}
 {"<section><h2>Hivatalos weboldal</h2><p><a href=\"" + esc(m["official_website"]) + "\" target=\"_blank\">" + esc(m["official_website"]) + "</a></p></section>" if m["official_website"] else ""}
+{f'<section><h2>Hangszerek <span class="count">{len(instruments)}</span></h2><ul class="instrument-list">' + inst_html + "</ul></section>" if inst_html else ""}
 {"<section><h2>Nevtortenet</h2><ul>" + hist_html + "</ul></section>" if hist_html else ""}
 {"<section><h2>Kapcsolodo gyartok</h2><ul>" + rel_html + "</ul></section>" if rel_html else ""}
 
