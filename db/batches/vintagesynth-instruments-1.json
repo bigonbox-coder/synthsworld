@@ -1,0 +1,2575 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "ARP Instruments",
+      "instruments": [
+        {
+          "name": "2500",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/2500"
+        },
+        {
+          "name": "2600",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/2600"
+        },
+        {
+          "name": "Avatar",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/avatar"
+        },
+        {
+          "name": "Axxe",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/axxe"
+        },
+        {
+          "name": "Explorer I",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/explorer-i"
+        },
+        {
+          "name": "Little Brother",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/little-brother"
+        },
+        {
+          "name": "Odyssey 1",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/odyssey-1"
+        },
+        {
+          "name": "Omni MK-1",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/omni-mk-1"
+        },
+        {
+          "name": "Pro Soloist",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/pro-soloist"
+        },
+        {
+          "name": "Pro/DGX",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/prodgx"
+        },
+        {
+          "name": "Quadra",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/quadra"
+        },
+        {
+          "name": "Quartet",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/quartet"
+        },
+        {
+          "name": "Sequencer",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/sequencer"
+        },
+        {
+          "name": "Solina String Ensemble",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/solina-string-ensemble"
+        },
+        {
+          "name": "Solina String Synthesizer",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/solina-string-synthesizer"
+        },
+        {
+          "name": "Solus",
+          "source_url": "https://www.vintagesynth.com/index.php/arp/solus"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Akai Professional",
+      "instruments": [
+        {
+          "name": "AX60",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/ax60"
+        },
+        {
+          "name": "AX73",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/ax73"
+        },
+        {
+          "name": "AX80",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/ax80"
+        },
+        {
+          "name": "MFC42",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/mfc42"
+        },
+        {
+          "name": "MINIAK",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/MINIAK"
+        },
+        {
+          "name": "MPC 1000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/mpc1000"
+        },
+        {
+          "name": "MPC 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/mpc2000"
+        },
+        {
+          "name": "MPC 3000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/mpc3000"
+        },
+        {
+          "name": "MPC60",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/mpc60"
+        },
+        {
+          "name": "Rhythm Wolf",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/rhythm_wolf"
+        },
+        {
+          "name": "S01",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s01"
+        },
+        {
+          "name": "S1000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s1000"
+        },
+        {
+          "name": "S20",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s20"
+        },
+        {
+          "name": "S2000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s2000"
+        },
+        {
+          "name": "S3000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s3000"
+        },
+        {
+          "name": "S5000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s5000"
+        },
+        {
+          "name": "S612",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s612"
+        },
+        {
+          "name": "S700",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s700"
+        },
+        {
+          "name": "S900",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/s900"
+        },
+        {
+          "name": "Timbre Wolf",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/timbre_wolf"
+        },
+        {
+          "name": "Tomcat",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/tomcat"
+        },
+        {
+          "name": "VX600",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/vx600"
+        },
+        {
+          "name": "VX90",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/vx90"
+        },
+        {
+          "name": "X3700",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/x3700"
+        },
+        {
+          "name": "X7000",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/x7000"
+        },
+        {
+          "name": "XR10",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/XR10"
+        },
+        {
+          "name": "XR20",
+          "source_url": "https://www.vintagesynth.com/index.php/akai/XR20"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alesis",
+      "instruments": [
+        {
+          "name": "Airsynth",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/airsynth"
+        },
+        {
+          "name": "Andromeda A6",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/andromeda-a6"
+        },
+        {
+          "name": "D4",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/d4"
+        },
+        {
+          "name": "Fusion",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/fusion"
+        },
+        {
+          "name": "HR-16",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/hr-16"
+        },
+        {
+          "name": "Ion",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/ion"
+        },
+        {
+          "name": "MMT-8",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/mmt-8"
+        },
+        {
+          "name": "Micron",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/micron"
+        },
+        {
+          "name": "Nanobass",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/nanobass"
+        },
+        {
+          "name": "Nanopiano",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/nanopiano"
+        },
+        {
+          "name": "Nanosynth",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/nanosynth"
+        },
+        {
+          "name": "QS6",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs6"
+        },
+        {
+          "name": "QS61",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs61"
+        },
+        {
+          "name": "QS7",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs7"
+        },
+        {
+          "name": "QS71",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs71"
+        },
+        {
+          "name": "QS8",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs8"
+        },
+        {
+          "name": "QS81",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qs81"
+        },
+        {
+          "name": "QSR",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/qsr"
+        },
+        {
+          "name": "Quadrasynth",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/quadrasynth"
+        },
+        {
+          "name": "S4",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/s4"
+        },
+        {
+          "name": "SR-16",
+          "source_url": "https://www.vintagesynth.com/index.php/alesis/sr-16"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Buchla Electronic Musical Instruments",
+      "instruments": [
+        {
+          "name": "100 Series",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/100-series"
+        },
+        {
+          "name": "200 Series",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/200-series"
+        },
+        {
+          "name": "200E Series",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/200e-series"
+        },
+        {
+          "name": "400 Series",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/400-series"
+        },
+        {
+          "name": "700 Series",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/700-series"
+        },
+        {
+          "name": "Touche",
+          "source_url": "https://www.vintagesynth.com/index.php/buchla/touche"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Crumar",
+      "instruments": [
+        {
+          "name": "Bit 01",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/bit-01"
+        },
+        {
+          "name": "Bit 99",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/bit-99"
+        },
+        {
+          "name": "Bit One",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/bit-one"
+        },
+        {
+          "name": "DS-2",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/ds-2"
+        },
+        {
+          "name": "Multiman S",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/multiman-s"
+        },
+        {
+          "name": "Performer",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/performer"
+        },
+        {
+          "name": "Spirit",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/spirit"
+        },
+        {
+          "name": "Stratus",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/stratus"
+        },
+        {
+          "name": "Trilogy Orchestral Synthesizer",
+          "source_url": "https://www.vintagesynth.com/index.php/crumar/trilogy_orchestral_synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Doepfer",
+      "instruments": [
+        {
+          "name": "100",
+          "source_url": "https://www.vintagesynth.com/index.php/doepfer/100"
+        },
+        {
+          "name": "Dark Energy",
+          "source_url": "https://www.vintagesynth.com/index.php/doepfer/dark-energy"
+        },
+        {
+          "name": "DarkEnergyIII",
+          "source_url": "https://www.vintagesynth.com/index.php/doepfer/DarkEnergyIII"
+        },
+        {
+          "name": "Drehbank",
+          "source_url": "https://www.vintagesynth.com/index.php/doepfer/drehbank"
+        },
+        {
+          "name": "MS-404",
+          "source_url": "https://www.vintagesynth.com/index.php/doepfer/ms-404"
+        }
+      ]
+    },
+    {
+      "canonical_name": "E-mu Systems",
+      "instruments": [
+        {
+          "name": "Audity",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/audity"
+        },
+        {
+          "name": "Audity 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/audity-2000"
+        },
+        {
+          "name": "B-3",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/b-3"
+        },
+        {
+          "name": "Carnaval",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/carnaval"
+        },
+        {
+          "name": "Drumulator",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/drumulator"
+        },
+        {
+          "name": "E Drum",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/e-drum"
+        },
+        {
+          "name": "EMULATOR4",
+          "source_url": "https://www.vintagesynth.com/index.php/emu/emulator4"
+        },
+        {
+          "name": "ESI-2000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/esi-2000"
+        },
+        {
+          "name": "ESI-32",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/esi-32"
+        },
+        {
+          "name": "ESI-4000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/esi-4000"
+        },
+        {
+          "name": "Emax",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/emax"
+        },
+        {
+          "name": "Emulator",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/emulator"
+        },
+        {
+          "name": "Emulator II",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/emulator-ii"
+        },
+        {
+          "name": "Emulator III",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/emulator-iii"
+        },
+        {
+          "name": "MK-6 Mophatt Keys",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/mk-6-mophatt-keys"
+        },
+        {
+          "name": "MP-7 Command Station",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/mp-7-command-station"
+        },
+        {
+          "name": "Modular Systems",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/modular-systems"
+        },
+        {
+          "name": "Mophatt",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/mophatt"
+        },
+        {
+          "name": "Morpheus",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/morpheus"
+        },
+        {
+          "name": "Orbit 3",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/orbit-3"
+        },
+        {
+          "name": "Orbit 9090",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/orbit-9090"
+        },
+        {
+          "name": "PK-6 Proteus Keys",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/pk-6-proteus-keys"
+        },
+        {
+          "name": "Planet Earth",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/planet-earth"
+        },
+        {
+          "name": "Planet Phatt",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/planet-phatt"
+        },
+        {
+          "name": "Procussion",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/procussion"
+        },
+        {
+          "name": "Proteus",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/proteus"
+        },
+        {
+          "name": "Proteus 1000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/proteus-1000"
+        },
+        {
+          "name": "Proteus 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/proteus-2000"
+        },
+        {
+          "name": "Proteus 2500",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/proteus-2500"
+        },
+        {
+          "name": "SP-12",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/sp-12"
+        },
+        {
+          "name": "SP-1200",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/sp-1200"
+        },
+        {
+          "name": "Vintage Keys",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/vintage-keys"
+        },
+        {
+          "name": "Vintage Pro",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/vintage-pro"
+        },
+        {
+          "name": "Virtuoso 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/virtuoso-2000"
+        },
+        {
+          "name": "XK-6 Xtreme Keys",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/xk-6-xtreme-keys"
+        },
+        {
+          "name": "XL-7 Command Station",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/xl-7-command-station"
+        },
+        {
+          "name": "Xtreme Lead 1",
+          "source_url": "https://www.vintagesynth.com/index.php/e-mu/xtreme-lead-1"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Electronic Dream Plant",
+      "instruments": [
+        {
+          "name": "Gnat",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-dream-plant-edp/gnat"
+        },
+        {
+          "name": "Spider",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-dream-plant-edp/spider"
+        },
+        {
+          "name": "Wasp",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-dream-plant-edp/wasp"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Electronic Music Studios (London) Ltd.",
+      "instruments": [
+        {
+          "name": "PolySynthi",
+          "source_url": "https://www.vintagesynth.com/index.php/ems/poly-synthi"
+        },
+        {
+          "name": "Synthi",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-music-studios-ems/synthi"
+        },
+        {
+          "name": "Synthi Sequencer 256",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-music-studios-ems/synthi-sequencer-256"
+        },
+        {
+          "name": "VCS3",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-music-studios-ems/vcs3"
+        },
+        {
+          "name": "Vocoder 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/electronic-music-studios-ems/vocoder-2000"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elektron",
+      "instruments": [
+        {
+          "name": "Analog Rytm",
+          "source_url": "https://www.vintagesynth.com/index.php/elektron/analog-rytm"
+        },
+        {
+          "name": "Machinedrum SPS-1",
+          "source_url": "https://www.vintagesynth.com/index.php/elektron/machinedrum-sps-1"
+        },
+        {
+          "name": "Monomachine SFX-6",
+          "source_url": "https://www.vintagesynth.com/index.php/elektron/monomachine-sfx-6"
+        },
+        {
+          "name": "Octatrack",
+          "source_url": "https://www.vintagesynth.com/index.php/Elektron/octatrack"
+        },
+        {
+          "name": "SidStation",
+          "source_url": "https://www.vintagesynth.com/index.php/elektron/sidstation"
+        },
+        {
+          "name": "analogrytmMKII",
+          "source_url": "https://www.vintagesynth.com/index.php/elektron/analogrytmMKII"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elka",
+      "instruments": [
+        {
+          "name": "Drumstar 80",
+          "source_url": "https://www.vintagesynth.com/index.php/elka/drumstar-80"
+        },
+        {
+          "name": "EK-22",
+          "source_url": "https://www.vintagesynth.com/index.php/elka/ek-22"
+        },
+        {
+          "name": "EM44",
+          "source_url": "https://www.vintagesynth.com/index.php/elka/em44"
+        },
+        {
+          "name": "Soloist 505",
+          "source_url": "https://www.vintagesynth.com/index.php/elka/soloist-505"
+        },
+        {
+          "name": "Synthex",
+          "source_url": "https://www.vintagesynth.com/index.php/elka/synthex"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ensoniq",
+      "instruments": [
+        {
+          "name": "ASR X",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/asr-x"
+        },
+        {
+          "name": "ASR X Pro",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/asr-x-pro"
+        },
+        {
+          "name": "ASR-10",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/asr-10"
+        },
+        {
+          "name": "EPS",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/eps"
+        },
+        {
+          "name": "EPS-16+",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/eps-16"
+        },
+        {
+          "name": "ESQ-1",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/esq-1"
+        },
+        {
+          "name": "Fizmo",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/fizmo"
+        },
+        {
+          "name": "Halo",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/halo"
+        },
+        {
+          "name": "KT-88",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/kt-88"
+        },
+        {
+          "name": "MR61",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/MR-61"
+        },
+        {
+          "name": "Mirage",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/mirage"
+        },
+        {
+          "name": "SD-1",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/sd-1"
+        },
+        {
+          "name": "SQ-80",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/sq-80"
+        },
+        {
+          "name": "TS-10 TS-12",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/ts-10-ts-12"
+        },
+        {
+          "name": "VFX",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/vfx"
+        },
+        {
+          "name": "ZR-76",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/zr-76"
+        },
+        {
+          "name": "sq-R",
+          "source_url": "https://www.vintagesynth.com/index.php/ensoniq/sq-R"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Formanta Radio Factory",
+      "instruments": [
+        {
+          "name": "Polivoks",
+          "source_url": "https://www.vintagesynth.com/index.php/formanta/polivoks"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hammond Organ Company",
+      "instruments": [
+        {
+          "name": "102200",
+          "source_url": "https://www.vintagesynth.com/index.php/hammond/102200"
+        },
+        {
+          "name": "Auto Vari 64 Drum Machine",
+          "source_url": "https://www.vintagesynth.com/index.php/hammond/auto-vari-64-drum-machine"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kawai Musical Instruments",
+      "instruments": [
+        {
+          "name": "K11",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k11"
+        },
+        {
+          "name": "K1IIR",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k1iir"
+        },
+        {
+          "name": "K1M",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k1m"
+        },
+        {
+          "name": "K3",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k3"
+        },
+        {
+          "name": "K4R",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k4r"
+        },
+        {
+          "name": "K5000",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k5000"
+        },
+        {
+          "name": "K5M",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/k5m"
+        },
+        {
+          "name": "KC20",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/KC20"
+        },
+        {
+          "name": "R-100",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/R-100"
+        },
+        {
+          "name": "SX-210",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/sx-210"
+        },
+        {
+          "name": "SX-240",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/sx-240"
+        },
+        {
+          "name": "XD-5",
+          "source_url": "https://www.vintagesynth.com/index.php/kawai/xd-5"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Korg Inc.",
+      "instruments": [
+        {
+          "name": "01/W",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/01w"
+        },
+        {
+          "name": "707",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/707"
+        },
+        {
+          "name": "770",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/770"
+        },
+        {
+          "name": "900PS Preset Synthesizer",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/900ps-preset-synthesizer"
+        },
+        {
+          "name": "DDD-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ddd-1"
+        },
+        {
+          "name": "DDD-5",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ddd-5"
+        },
+        {
+          "name": "DDM-110",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ddm-110"
+        },
+        {
+          "name": "DS-8",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ds-8"
+        },
+        {
+          "name": "DSS-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/dss-1"
+        },
+        {
+          "name": "DVP-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/dvp-1"
+        },
+        {
+          "name": "DW-6000",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/dw-6000"
+        },
+        {
+          "name": "DW-8000",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/dw-8000"
+        },
+        {
+          "name": "Delta",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/delta"
+        },
+        {
+          "name": "Electribe EA-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-ea-1"
+        },
+        {
+          "name": "Electribe M EM-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-m-em-1"
+        },
+        {
+          "name": "Electribe MX EMX-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-mx-emx-1"
+        },
+        {
+          "name": "Electribe R ER-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-r-er-1"
+        },
+        {
+          "name": "Electribe S ES-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-s-es-1"
+        },
+        {
+          "name": "Electribe SX ESX-1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/electribe-sx-esx-1"
+        },
+        {
+          "name": "KARMA",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/karma"
+        },
+        {
+          "name": "KPR-77",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/kpr-77"
+        },
+        {
+          "name": "Kaoss PAD KP1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/kaoss-pad-kp1"
+        },
+        {
+          "name": "Kingkorg",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/kingkorg"
+        },
+        {
+          "name": "Lambda ES50",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/lambda-es50"
+        },
+        {
+          "name": "Legacy Collection",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/legacy-collection"
+        },
+        {
+          "name": "M1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/m1"
+        },
+        {
+          "name": "M3",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/m3"
+        },
+        {
+          "name": "M50",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/m50"
+        },
+        {
+          "name": "M500 Micro Preset",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/m500-micro-preset"
+        },
+        {
+          "name": "MINIPOPS120",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/minipops120"
+        },
+        {
+          "name": "MS-10",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ms-10"
+        },
+        {
+          "name": "MS-20",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ms-20"
+        },
+        {
+          "name": "MS-20 Mini",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ms-20-mini"
+        },
+        {
+          "name": "MS-50",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ms-50"
+        },
+        {
+          "name": "MS2000",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ms2000"
+        },
+        {
+          "name": "Maxi Korg 800DV",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/maxi-korg-800dv"
+        },
+        {
+          "name": "Micro X",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/micro-x"
+        },
+        {
+          "name": "MicroKORG",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/microkorg"
+        },
+        {
+          "name": "Microkontrol",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/microkontrol"
+        },
+        {
+          "name": "Microkorgxl",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/microkorgxl"
+        },
+        {
+          "name": "Microstation",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/microstation"
+        },
+        {
+          "name": "MiniKorg 700",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/minikorg-700"
+        },
+        {
+          "name": "Minilogue",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/minilogue"
+        },
+        {
+          "name": "Minipops 35 MP-35",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/minipops-35-mp-35"
+        },
+        {
+          "name": "Mono/Poly",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/monopoly"
+        },
+        {
+          "name": "Monologue",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/monologue"
+        },
+        {
+          "name": "Monotribe",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/monotribe"
+        },
+        {
+          "name": "Monotron",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/monotron"
+        },
+        {
+          "name": "N364",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/n364"
+        },
+        {
+          "name": "PS-3100",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ps-3100"
+        },
+        {
+          "name": "PS-3200",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ps-3200"
+        },
+        {
+          "name": "PS-3300",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/ps-3300"
+        },
+        {
+          "name": "Poly-61",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/poly-61"
+        },
+        {
+          "name": "Poly-800",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/poly-800"
+        },
+        {
+          "name": "Polyphonic Ensemble P",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/polyphonic-ensemble-p"
+        },
+        {
+          "name": "Polyphonic Ensemble S",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/polyphonic-ensemble-s"
+        },
+        {
+          "name": "Polysix",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/polysix"
+        },
+        {
+          "name": "Prophecy",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/prophecy"
+        },
+        {
+          "name": "R3",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/r3"
+        },
+        {
+          "name": "RADIAS",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/radias"
+        },
+        {
+          "name": "RK-100S",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/RK-100S"
+        },
+        {
+          "name": "Rhythm 330",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/rhythm-330"
+        },
+        {
+          "name": "Rhythm 55 KR-55",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/rhythm-55-kr-55"
+        },
+        {
+          "name": "S3",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/S3"
+        },
+        {
+          "name": "SB-100 Synthe Bass",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/sb-100-synthe-bass"
+        },
+        {
+          "name": "SM-20",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/sm-20"
+        },
+        {
+          "name": "SQ-10 Analog Sequencer",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/sq-10-analog-sequencer"
+        },
+        {
+          "name": "Sigma",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/sigma"
+        },
+        {
+          "name": "Symphony 03",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/symphony-03"
+        },
+        {
+          "name": "T3",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/t3"
+        },
+        {
+          "name": "TR88",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/tr88"
+        },
+        {
+          "name": "Trident",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/trident"
+        },
+        {
+          "name": "Trinity",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/trinity"
+        },
+        {
+          "name": "Triton",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/triton"
+        },
+        {
+          "name": "VC-10 Vocoder",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/vc-10-vocoder"
+        },
+        {
+          "name": "Volca Bass",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/volca-bass"
+        },
+        {
+          "name": "Volca Beats",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/volca-beats"
+        },
+        {
+          "name": "Volca Keys",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/volca-keys"
+        },
+        {
+          "name": "Volca Nubass",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/volca_nubass"
+        },
+        {
+          "name": "Wavestation",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/wavestation"
+        },
+        {
+          "name": "Wavestation AD",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/wavestation-ad"
+        },
+        {
+          "name": "Wavestation SR",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/wavestation-sr"
+        },
+        {
+          "name": "X-911",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/x-911"
+        },
+        {
+          "name": "X3",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/x3"
+        },
+        {
+          "name": "X50",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/x50"
+        },
+        {
+          "name": "X5D",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/x5d"
+        },
+        {
+          "name": "Z1",
+          "source_url": "https://www.vintagesynth.com/index.php/korg/z1"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kurzweil Music Systems",
+      "instruments": [
+        {
+          "name": "K1000",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/k1000"
+        },
+        {
+          "name": "K150",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/k150"
+        },
+        {
+          "name": "K2000",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/k2000"
+        },
+        {
+          "name": "K250",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/k250"
+        },
+        {
+          "name": "K2600",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/k2600"
+        },
+        {
+          "name": "PC2R",
+          "source_url": "https://www.vintagesynth.com/index.php/kurzweil/pc2r"
+        },
+        {
+          "name": "PC88MX",
+          "source_url": "https://www.vintagesynth.com/index.php/Kurzweil/PC88MX"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Moog Music",
+      "instruments": [
+        {
+          "name": "CP-251 Control Processor",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/cp-251-control-processor"
+        },
+        {
+          "name": "Etherwave Theremin",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/etherwave-theremin"
+        },
+        {
+          "name": "Liberation",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/liberation"
+        },
+        {
+          "name": "Little Phatty",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/little-phatty"
+        },
+        {
+          "name": "MF-101 Lowpass Filter",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/mf-101-lowpass-filter"
+        },
+        {
+          "name": "MF-102 Ring Modulator",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/mf-102-ring-modulator"
+        },
+        {
+          "name": "MF-103 12 Stage Phaser",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/mf-103-12-stage-phaser"
+        },
+        {
+          "name": "MF-104 Analog Delay",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/mf-104-analog-delay"
+        },
+        {
+          "name": "MF-105M Midi Murf",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/mf-105m-midi-murf"
+        },
+        {
+          "name": "Memorymoog",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/memorymoog"
+        },
+        {
+          "name": "Micromoog",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/micromoog"
+        },
+        {
+          "name": "Minimoog",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/minimoog"
+        },
+        {
+          "name": "Minimoog Voyager",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/minimoog-voyager"
+        },
+        {
+          "name": "Minitmoog",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/minitmoog"
+        },
+        {
+          "name": "Multimoog",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/multimoog"
+        },
+        {
+          "name": "Opus 3",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/opus-3"
+        },
+        {
+          "name": "Polymoog 203A",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/polymoog-203a"
+        },
+        {
+          "name": "Prodigy",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/prodigy"
+        },
+        {
+          "name": "Rogue",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/rogue"
+        },
+        {
+          "name": "SUB Phatty",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/sub_phatty"
+        },
+        {
+          "name": "Satellite",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/satellite"
+        },
+        {
+          "name": "Sirin",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/sirin"
+        },
+        {
+          "name": "Slim Phatty",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/slim-phatty"
+        },
+        {
+          "name": "Sonic Six",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/sonic-six"
+        },
+        {
+          "name": "Source",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/source"
+        },
+        {
+          "name": "Synthesizer 1C2C3C",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/synthesizer-1c2c3c"
+        },
+        {
+          "name": "Taurus I",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/taurus-i"
+        },
+        {
+          "name": "Taurus II",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/taurus-ii"
+        },
+        {
+          "name": "Vocoder",
+          "source_url": "https://www.vintagesynth.com/index.php/moog/vocoder"
+        }
+      ]
+    },
+    {
+      "canonical_name": "New England Digital",
+      "instruments": [
+        {
+          "name": "Synclavier",
+          "source_url": "https://www.vintagesynth.com/index.php/new-england-digital/synclavier"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Novation",
+      "instruments": [
+        {
+          "name": "Bass STATION2",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/bass_station2"
+        },
+        {
+          "name": "Bass Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/bass-station"
+        },
+        {
+          "name": "Bass Station Rack",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/bass-station-rack"
+        },
+        {
+          "name": "Circuit",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/Circuit"
+        },
+        {
+          "name": "Circuit Mono Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/circuit_mono_station"
+        },
+        {
+          "name": "D Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/d-station"
+        },
+        {
+          "name": "Drum Station V2",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/drum-station-v2"
+        },
+        {
+          "name": "DrumStation",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/drum-station"
+        },
+        {
+          "name": "K Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/k-station"
+        },
+        {
+          "name": "KS4",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/ks4"
+        },
+        {
+          "name": "Nova",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/nova"
+        },
+        {
+          "name": "Peak",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/peak"
+        },
+        {
+          "name": "Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/station"
+        },
+        {
+          "name": "Super Bass Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/super-bass-station"
+        },
+        {
+          "name": "Supernova",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/supernova"
+        },
+        {
+          "name": "Ultranova",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/ultranova"
+        },
+        {
+          "name": "X-Station",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/x-station"
+        },
+        {
+          "name": "Xiosynth",
+          "source_url": "https://www.vintagesynth.com/index.php/novation/xiosynth"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oberheim",
+      "instruments": [
+        {
+          "name": "DMX",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/dmx"
+        },
+        {
+          "name": "DPX1",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/dpx1"
+        },
+        {
+          "name": "DSX",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/dsx"
+        },
+        {
+          "name": "DX",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/dx"
+        },
+        {
+          "name": "Echoplex Digital Pro",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/echoplex-digital-pro"
+        },
+        {
+          "name": "Eight Voice",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/eight-voice"
+        },
+        {
+          "name": "Four Voice",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/four-voice"
+        },
+        {
+          "name": "Matrix 1000",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/matrix-1000"
+        },
+        {
+          "name": "Matrix 12",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/matrix-12"
+        },
+        {
+          "name": "Matrix 6R",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/matrix-6r"
+        },
+        {
+          "name": "Mini Sequencer",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/mini-sequencer"
+        },
+        {
+          "name": "OB MX",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-mx"
+        },
+        {
+          "name": "OB XK",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-xk"
+        },
+        {
+          "name": "OB-1",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-1"
+        },
+        {
+          "name": "OB-8",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-8"
+        },
+        {
+          "name": "OB-SX",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-sx"
+        },
+        {
+          "name": "OB-X",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-x"
+        },
+        {
+          "name": "OB-Xa",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-xa"
+        },
+        {
+          "name": "OB12",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/ob-12"
+        },
+        {
+          "name": "Prommer",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/prommer"
+        },
+        {
+          "name": "SEM",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/sem"
+        },
+        {
+          "name": "Strummer",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/strummer"
+        },
+        {
+          "name": "Two Voice",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/two-voice"
+        },
+        {
+          "name": "Two-Voice Pro",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/two_voice_pro"
+        },
+        {
+          "name": "Xpander",
+          "source_url": "https://www.vintagesynth.com/index.php/oberheim/xpander"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oxford Synthesiser Company",
+      "instruments": [
+        {
+          "name": "OSCar",
+          "source_url": "https://www.vintagesynth.com/index.php/oxford-synthesiser-company/oscar"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Palm Products GmbH",
+      "instruments": [
+        {
+          "name": "1002",
+          "source_url": "https://www.vintagesynth.com/index.php/ppg/1002"
+        },
+        {
+          "name": "KX5",
+          "source_url": "https://www.vintagesynth.com/index.php/ppg/kx5"
+        },
+        {
+          "name": "Realizer",
+          "source_url": "https://www.vintagesynth.com/index.php/ppg/realizer"
+        },
+        {
+          "name": "Wave 2",
+          "source_url": "https://www.vintagesynth.com/index.php/ppg/wave-2"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Roland Corporation",
+      "instruments": [
+        {
+          "name": "Alpha Juno 1",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/alpha-juno-1"
+        },
+        {
+          "name": "Alpha Juno 2",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/alpha-juno-2"
+        },
+        {
+          "name": "CMU-800",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/cmu-800"
+        },
+        {
+          "name": "CMU-810",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/cmu-810"
+        },
+        {
+          "name": "CR-68",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/cr-68"
+        },
+        {
+          "name": "CR-78",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/cr-78"
+        },
+        {
+          "name": "CR-8000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/cr-8000"
+        },
+        {
+          "name": "D-110",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/d-110"
+        },
+        {
+          "name": "D-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/d-50"
+        },
+        {
+          "name": "D-70",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/d-70"
+        },
+        {
+          "name": "D2",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/d2"
+        },
+        {
+          "name": "DJ-70",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/dj-70"
+        },
+        {
+          "name": "EG-101",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/eg-101"
+        },
+        {
+          "name": "EM101",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/em101"
+        },
+        {
+          "name": "Fantom S",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/fantom-s"
+        },
+        {
+          "name": "Fantom-X",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/fantom-x"
+        },
+        {
+          "name": "GR-300",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/gr-300"
+        },
+        {
+          "name": "GR-500",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/gr-500"
+        },
+        {
+          "name": "GR-700",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/gr-700"
+        },
+        {
+          "name": "Gaia SH-01",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/gaia-sh-01"
+        },
+        {
+          "name": "HS-60",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/hs-60"
+        },
+        {
+          "name": "JD-800",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jd-800"
+        },
+        {
+          "name": "JD-990",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jd-990"
+        },
+        {
+          "name": "JD-XA",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jd-xa"
+        },
+        {
+          "name": "JP-8000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jp-8000"
+        },
+        {
+          "name": "JP-8080",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jp-8080"
+        },
+        {
+          "name": "JV-1000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-1000"
+        },
+        {
+          "name": "JV-1010",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-1010"
+        },
+        {
+          "name": "JV-1080",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-1080"
+        },
+        {
+          "name": "JV-2080",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-2080"
+        },
+        {
+          "name": "JV-30",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-30"
+        },
+        {
+          "name": "JV-80",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-80"
+        },
+        {
+          "name": "JV-880",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-880"
+        },
+        {
+          "name": "JV-90",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jv-90"
+        },
+        {
+          "name": "JW-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jw-50"
+        },
+        {
+          "name": "JX-1",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jx-1"
+        },
+        {
+          "name": "JX-305",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jx-305"
+        },
+        {
+          "name": "JX-3P",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jx-3p"
+        },
+        {
+          "name": "JX-8P",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jx-8p"
+        },
+        {
+          "name": "Juno DI",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-di"
+        },
+        {
+          "name": "Juno DS-61",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-ds-61"
+        },
+        {
+          "name": "Juno Stage",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-stage"
+        },
+        {
+          "name": "Juno-106",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno106"
+        },
+        {
+          "name": "Juno-6",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-6"
+        },
+        {
+          "name": "Juno-D",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-d"
+        },
+        {
+          "name": "Juno-G",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/juno-g"
+        },
+        {
+          "name": "Jupiter XM",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jupiter-xm"
+        },
+        {
+          "name": "Jupiter-4",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jupiter-4"
+        },
+        {
+          "name": "Jupiter-6",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jupiter-6"
+        },
+        {
+          "name": "Jupiter-8",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/jupiter-8"
+        },
+        {
+          "name": "MC-09",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-09"
+        },
+        {
+          "name": "MC-202",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-202"
+        },
+        {
+          "name": "MC-303",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-303"
+        },
+        {
+          "name": "MC-307",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-307"
+        },
+        {
+          "name": "MC-505",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-505"
+        },
+        {
+          "name": "MC-808",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-808"
+        },
+        {
+          "name": "MC-909",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mc-909"
+        },
+        {
+          "name": "MKS-10",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-10"
+        },
+        {
+          "name": "MKS-30",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-30"
+        },
+        {
+          "name": "MKS-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-50"
+        },
+        {
+          "name": "MKS-7",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-7"
+        },
+        {
+          "name": "MKS-70",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-70"
+        },
+        {
+          "name": "MKS-80",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mks-80"
+        },
+        {
+          "name": "MT-32",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/mt-32"
+        },
+        {
+          "name": "Pgs.php",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/pgs.php"
+        },
+        {
+          "name": "Promars MRS-2",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/promars-mrs-2"
+        },
+        {
+          "name": "R-70",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/r-70"
+        },
+        {
+          "name": "R-8",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/r-8"
+        },
+        {
+          "name": "RE-201 Space Echo",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/re-201-space-echo"
+        },
+        {
+          "name": "RS-09",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/rs-09"
+        },
+        {
+          "name": "RS-101",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/rs-101"
+        },
+        {
+          "name": "RS-202 Strings",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/rs-202-strings"
+        },
+        {
+          "name": "RS-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/rs-50"
+        },
+        {
+          "name": "RS-505 Paraphonic",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/rs-505-paraphonic"
+        },
+        {
+          "name": "S-10",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/s-10"
+        },
+        {
+          "name": "S-220",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/s-220"
+        },
+        {
+          "name": "S-330",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/s-330"
+        },
+        {
+          "name": "S-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/s-50"
+        },
+        {
+          "name": "S-770",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/s-770"
+        },
+        {
+          "name": "SC-88",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/SC-88"
+        },
+        {
+          "name": "SH-09",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-09"
+        },
+        {
+          "name": "SH-1",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-1"
+        },
+        {
+          "name": "SH-1000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-1000"
+        },
+        {
+          "name": "SH-101",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-101"
+        },
+        {
+          "name": "SH-2",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-2"
+        },
+        {
+          "name": "SH-2000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-2000"
+        },
+        {
+          "name": "SH-201",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-201"
+        },
+        {
+          "name": "SH-32",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-32"
+        },
+        {
+          "name": "SH-3A",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-3a"
+        },
+        {
+          "name": "SH-5",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-5"
+        },
+        {
+          "name": "SH-7",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sh-7"
+        },
+        {
+          "name": "SP-404",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/SP-404"
+        },
+        {
+          "name": "SP-808",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/sp-808"
+        },
+        {
+          "name": "SVC-350 Vocoder",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/svc-350-vocoder"
+        },
+        {
+          "name": "Saturn 09",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/saturn-09"
+        },
+        {
+          "name": "Soniccell",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/soniccell"
+        },
+        {
+          "name": "System 100",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/system-100"
+        },
+        {
+          "name": "System 700",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/system-700"
+        },
+        {
+          "name": "System-100M",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/system-100m"
+        },
+        {
+          "name": "TB-303",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tb-303"
+        },
+        {
+          "name": "TR-505",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-505"
+        },
+        {
+          "name": "TR-606",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-606"
+        },
+        {
+          "name": "TR-626",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-626"
+        },
+        {
+          "name": "TR-66",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-66"
+        },
+        {
+          "name": "TR-707",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-707"
+        },
+        {
+          "name": "TR-727",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-727"
+        },
+        {
+          "name": "TR-808",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-808"
+        },
+        {
+          "name": "TR-909",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/tr-909"
+        },
+        {
+          "name": "U-110",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/u-110"
+        },
+        {
+          "name": "U-20",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/u-20"
+        },
+        {
+          "name": "V-Synth",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/v-synth"
+        },
+        {
+          "name": "VP-550",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/vp-550"
+        },
+        {
+          "name": "VP-770",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/vp-770"
+        },
+        {
+          "name": "VP-9000",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/vp-9000"
+        },
+        {
+          "name": "W-30",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/w-30"
+        },
+        {
+          "name": "XP-10",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xp-10"
+        },
+        {
+          "name": "XP-30",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xp-30"
+        },
+        {
+          "name": "XP-50",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xp-50"
+        },
+        {
+          "name": "XP-60",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xp-60"
+        },
+        {
+          "name": "XP-80",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xp-80"
+        },
+        {
+          "name": "XV-3080",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xv-3080"
+        },
+        {
+          "name": "XV-5050",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xv-5050"
+        },
+        {
+          "name": "XV-5080",
+          "source_url": "https://www.vintagesynth.com/index.php/roland/xv-5080"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sequential",
+      "instruments": [
+        {
+          "name": "Drumtraks",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/drumtraks"
+        },
+        {
+          "name": "Evolver",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/evolver"
+        },
+        {
+          "name": "Fugue",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/fugue"
+        },
+        {
+          "name": "Max",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/max"
+        },
+        {
+          "name": "Mono Evolver",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/mono-evolver"
+        },
+        {
+          "name": "Mopho",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/mopho"
+        },
+        {
+          "name": "Multitrak",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/multitrak"
+        },
+        {
+          "name": "Poly Evolver",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/poly-evolver"
+        },
+        {
+          "name": "Poly Evolver Rack",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/poly-evolver-rack"
+        },
+        {
+          "name": "Prelude",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prelude"
+        },
+        {
+          "name": "Pro-One",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/pro-one"
+        },
+        {
+          "name": "Prophet 08",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/prophet-08"
+        },
+        {
+          "name": "Prophet 10",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-10"
+        },
+        {
+          "name": "Prophet 2000",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-2000"
+        },
+        {
+          "name": "Prophet 3000",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-3000"
+        },
+        {
+          "name": "Prophet 600",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-600"
+        },
+        {
+          "name": "Prophet Remote",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-remote"
+        },
+        {
+          "name": "Prophet T8",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-t8"
+        },
+        {
+          "name": "Prophet VS",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-vs"
+        },
+        {
+          "name": "Prophet-5",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/prophet-5"
+        },
+        {
+          "name": "Six-Trak",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/six-trak"
+        },
+        {
+          "name": "Split-8",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/split-8"
+        },
+        {
+          "name": "Studio 440",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/studio-440"
+        },
+        {
+          "name": "TOM",
+          "source_url": "https://www.vintagesynth.com/index.php/sequential-circuits/tom"
+        },
+        {
+          "name": "Tempest",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/tempest"
+        },
+        {
+          "name": "Tetra",
+          "source_url": "https://www.vintagesynth.com/index.php/dave-smith-instruments/tetra"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Serge Modular Music Systems",
+      "instruments": [
+        {
+          "name": "Modular",
+          "source_url": "https://www.vintagesynth.com/index.php/serge/modular"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Siel",
+      "instruments": [
+        {
+          "name": "Cruise",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/cruise"
+        },
+        {
+          "name": "DK600",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/dk600"
+        },
+        {
+          "name": "DK70",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/dk70"
+        },
+        {
+          "name": "DK80",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/dk80"
+        },
+        {
+          "name": "Mono",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/mono"
+        },
+        {
+          "name": "Opera 6",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/opera-6"
+        },
+        {
+          "name": "Orchestra",
+          "source_url": "https://www.vintagesynth.com/index.php/siel/orchestra"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Teisco",
+      "instruments": [
+        {
+          "name": "S100P",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco/s100p"
+        },
+        {
+          "name": "SX-240",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco/sx-240"
+        },
+        {
+          "name": "SX-400",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco/sx-400"
+        },
+        {
+          "name": "Synthesizer 100F",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco-kawai/synthesizer-100f"
+        },
+        {
+          "name": "Synthesizer 100F 0",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco-kawai/synthesizer-100f-0"
+        },
+        {
+          "name": "Synthesizer 110F",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco/synthesizer-110f"
+        },
+        {
+          "name": "Synthesizer 110F 0",
+          "source_url": "https://www.vintagesynth.com/index.php/teisco/synthesizer-110f-0"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Waldorf Music",
+      "instruments": [
+        {
+          "name": "Blofeld",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/blofeld"
+        },
+        {
+          "name": "D Pole",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/d-pole"
+        },
+        {
+          "name": "KB37",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/KB37"
+        },
+        {
+          "name": "Kyra",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/kyra"
+        },
+        {
+          "name": "Micro Q",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/micro-q"
+        },
+        {
+          "name": "Microwave",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/microwave"
+        },
+        {
+          "name": "Microwave II",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/microwave-ii"
+        },
+        {
+          "name": "Microwave XT",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/microwave-xt"
+        },
+        {
+          "name": "Microwave XTK",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/microwave-xtk"
+        },
+        {
+          "name": "Miniworks 4 Pole",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/miniworks-4-pole"
+        },
+        {
+          "name": "NW1 Wavetable Module",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/nw1_wavetable_module"
+        },
+        {
+          "name": "PPG Wave 2V",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/ppg-wave-2v"
+        },
+        {
+          "name": "PULSE2",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/pulse2"
+        },
+        {
+          "name": "Pulse",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/pulse"
+        },
+        {
+          "name": "Q",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/q"
+        },
+        {
+          "name": "Quantum",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/quantum"
+        },
+        {
+          "name": "Streichfett",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/streichfett"
+        },
+        {
+          "name": "Stvc",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/stvc"
+        },
+        {
+          "name": "Wave",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/wave"
+        },
+        {
+          "name": "X Pole",
+          "source_url": "https://www.vintagesynth.com/index.php/waldorf/x-pole"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Wersi",
+      "instruments": [
+        {
+          "name": "Bass Synthesizer",
+          "source_url": "https://www.vintagesynth.com/index.php/wersi/bass-synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yamaha",
+      "instruments": [
+        {
+          "name": "A3000",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/a3000"
+        },
+        {
+          "name": "AN1x",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/an1x"
+        },
+        {
+          "name": "AN200",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/an200"
+        },
+        {
+          "name": "CS-10",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-10"
+        },
+        {
+          "name": "CS-15",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-15"
+        },
+        {
+          "name": "CS-15D",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-15d"
+        },
+        {
+          "name": "CS-20M",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-20m"
+        },
+        {
+          "name": "CS-30",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-30"
+        },
+        {
+          "name": "CS-40M",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-40m"
+        },
+        {
+          "name": "CS-5",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-5"
+        },
+        {
+          "name": "CS-50",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-50"
+        },
+        {
+          "name": "CS-60",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-60"
+        },
+        {
+          "name": "CS-70M",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-70m"
+        },
+        {
+          "name": "CS-80",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs-80"
+        },
+        {
+          "name": "CS01",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs01"
+        },
+        {
+          "name": "CS1x",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs1x"
+        },
+        {
+          "name": "CS2x",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs2x"
+        },
+        {
+          "name": "CS6x",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/cs6x"
+        },
+        {
+          "name": "DJX IIB",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/djx-iib"
+        },
+        {
+          "name": "DX1",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx1"
+        },
+        {
+          "name": "DX100",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx100"
+        },
+        {
+          "name": "DX11",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx11"
+        },
+        {
+          "name": "DX200",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx200"
+        },
+        {
+          "name": "DX21",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx21"
+        },
+        {
+          "name": "DX27",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx27"
+        },
+        {
+          "name": "DX5",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx5"
+        },
+        {
+          "name": "DX7",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx7"
+        },
+        {
+          "name": "DX7IID DX7IIFD",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx7iid-dx7iifd"
+        },
+        {
+          "name": "DX9",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/dx9"
+        },
+        {
+          "name": "ED10",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ed10"
+        },
+        {
+          "name": "EX5",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ex5"
+        },
+        {
+          "name": "EX7",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ex7"
+        },
+        {
+          "name": "FB-01",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/fb-01"
+        },
+        {
+          "name": "FS1R",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/fs1r"
+        },
+        {
+          "name": "GS1",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/GS-1"
+        },
+        {
+          "name": "GX-1",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/gx-1"
+        },
+        {
+          "name": "MX49_61_88",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/MX49_61_88"
+        },
+        {
+          "name": "Motif",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/motif"
+        },
+        {
+          "name": "Portasound PSS-470",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/portasound-pss-470"
+        },
+        {
+          "name": "QS300",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/qs300"
+        },
+        {
+          "name": "QY700 Sequencer",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/qy700-sequencer"
+        },
+        {
+          "name": "RM1x",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/rm1x"
+        },
+        {
+          "name": "RS7000",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/rs7000"
+        },
+        {
+          "name": "RX-5",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/rx5"
+        },
+        {
+          "name": "RX8",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/rx8"
+        },
+        {
+          "name": "RY30",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ry30"
+        },
+        {
+          "name": "S30",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/s30"
+        },
+        {
+          "name": "SK20",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sk20"
+        },
+        {
+          "name": "SS30",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ss30"
+        },
+        {
+          "name": "SU10",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/su10"
+        },
+        {
+          "name": "SU200",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/su200"
+        },
+        {
+          "name": "SU700",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/su700"
+        },
+        {
+          "name": "SY-1",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy-1"
+        },
+        {
+          "name": "SY-55",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/SY-55"
+        },
+        {
+          "name": "SY20",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy20"
+        },
+        {
+          "name": "SY22",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy22"
+        },
+        {
+          "name": "SY35",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy35"
+        },
+        {
+          "name": "SY77",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy77"
+        },
+        {
+          "name": "SY85",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy85"
+        },
+        {
+          "name": "SY99",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/sy99"
+        },
+        {
+          "name": "TG33",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tg33"
+        },
+        {
+          "name": "TG500",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tg500"
+        },
+        {
+          "name": "TG55-Tone-Generator",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/TG55-Tone-Generator"
+        },
+        {
+          "name": "TQ5",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tq5"
+        },
+        {
+          "name": "TX16W",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tx16w"
+        },
+        {
+          "name": "TX7",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tx7"
+        },
+        {
+          "name": "TX802",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tx802"
+        },
+        {
+          "name": "TX816",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tx816"
+        },
+        {
+          "name": "TX81Z",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/tx81z"
+        },
+        {
+          "name": "V50",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/v50"
+        },
+        {
+          "name": "VL-70m",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/VL-70m"
+        },
+        {
+          "name": "VSS-200",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/VSS-200"
+        },
+        {
+          "name": "W7",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/w7"
+        },
+        {
+          "name": "YS200",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/ys200"
+        },
+        {
+          "name": "portasound-PSS-480",
+          "source_url": "https://www.vintagesynth.com/index.php/yamaha/portasound-PSS-480"
+        }
+      ]
+    }
+  ]
+}
