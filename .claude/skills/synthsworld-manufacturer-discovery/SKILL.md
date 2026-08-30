@@ -66,6 +66,30 @@ Ha kétséges, hogy egy felbukkanó cég holding-e vagy tényleges gyártó,
 gyorsan nézd meg mit gyárt: ha van saját terméke a fenti kategóriákból,
 kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
 
+**Szoftver-szintetizátor gyártók IS beletartoznak (Kristóf kiegészítése,
+2026-08-30), de erősen szűrve.** Irreálisan sok szoftveres szintetizátor
+létezik, ezért csak azok kerüljenek be, amik kultikusak, széles körben
+ismertek, vagy jelentősek a múzeum szempontjából (Kristóf példája:
+Spectrasonics, akinek a hangszerei fel fognak kerülni). NE vegyél fel
+minden létező szoftver-szintit, csak azokat, amikről több forrás is
+egybehangzóan azt írja, hogy iparági etalon, klasszikus, vagy kiemelkedő
+jelentőségű volt/az. Ha bizonytalan vagy egy szoftver-szinti
+jelentőségében, inkább hagyd ki egyelőre és jelezd Kristófnak, mint hogy
+felvegyél egy jelentéktelen terméket -- itt a szűrés szigorúbb, mint a
+fizikai hangszereknél.
+
+**Korszak-prioritás (Kristóf kiegészítése, 2026-08-30): a 70-es, 80-as,
+90-es évek a fő fókusz, NEM kizárólagosan, de messze a legfontosabb.**
+A weboldal induláshoz elsősorban ebből a korszakból származó gyártók/
+hangszerek feldolgozása a cél, a mai/jelenlegi hangszerek a legalacsonyabb
+prioritásúak (nem tiltottak, csak utoljára jönnek). Ez a lépés 0
+(bővítés) és a 2. lépés (köteg kiválasztása) sorrendjét befolyásolja:
+amikor van választásod, melyik nevet/gyártót dolgozd fel előbb, a régebbi,
+klasszikus (70-90-es évekbeli) gyártókat/hangszereket részesítsd előnyben
+a tisztán modern/jelenkori gyártókkal szemben. Ha egy gyártó mindkét
+korszakban aktív volt (pl. Roland, Korg), az természetesen benne van,
+függetlenül attól, hogy ma is gyárt.
+
 ## Procedure
 
 0. **Bővítés: új gyártónevek keresése, ha a sor kiürülőben van.** Kristóf
@@ -80,6 +104,19 @@ kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
      manufacturers" (vagy hasonló kategória-oldal), vintagesynth.com
      gyártó-indexe, Encyclotronic, és bármi mást Kristóf küld (lásd a
      "Ismert források" listát lent).
+   - **Bontsd kategóriákra a keresést, ne egyetlen általános
+     lekérdezéssel dolgozz** (Kristóf módszertana, 2026-08-30): nagy/
+     ismert márkák, butik/kisüzemi (eurorack-modul) gyártók, megszűnt/
+     történelmi gyártók, indie/Kickstarter/egy-két fős manufaktúrák,
+     és (szűrve, lásd a Scope-nál a szoftver-szinti szabályt) jelentős
+     szoftver-szintetizátor gyártók. Mindegyik kategóriára külön,
+     célzott lekérdezés jobb, mint egy "szintetizátor gyártók" kereséssel
+     mindent megpróbálni lefedni.
+   - **Iparági kiállítói listák is jó forrást adnak, főleg kis/új
+     cégekhez**: NAMM és Superbooth (utóbbi kifejezetten a modular/butik
+     szcéna éves seregszemléje) kiállítói listái. Közösségi adatbázis:
+     ModularGrid (eurorack gyártók és moduljaik). Szaksajtó: Sound on
+     Sound is jó forrás gyártó-listákhoz a korábbiak mellett.
    - Mindig `quarantine-reader`-en át fetch-eld ezeket is, sose közvetlenül.
    - Szűrd ki a már ismert neveket (`canonical_name` VAGY
      `manufacturer_name_history.name` egyezés, kis/nagybetű-független) és a
@@ -216,6 +253,19 @@ kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
      display fields (as opposed to what's stored in `facts_sources`, which
      always keeps everything): prefer `manufacturer_official` >
      `wikidata` > `other`.
+   - **Hitelesség-jelek (Kristóf módszertana, 2026-08-30):** ha egy
+     talált cégnév KIZÁRÓLAG egyetlen forrásban bukkan fel, sehol máshol
+     (nincs önálló hivatalos oldala, nincs a nagyobb gyűjtő-adatbázisokban
+     sem), az gyanús jel -- lehet elavult listamaradvány vagy megszűnt,
+     jelöld `needs_review`-ra, ne `confirmed`-re. Azt is ellenőrizd, hogy a
+     talált név tényleges GYÁRTÓ-e, nem csak forgalmazó/viszonteladó --
+     egy webshop vagy disztribútor nem gyártó, még ha sok hangszert árul
+     is, ne vedd fel gyártóként.
+   - **Frissesség (Kristóf módszertana, 2026-08-30):** a szintetizátor-ipar
+     gyorsan változik, friss forrást (idei/tavalyi) preferálj egy régi
+     listával szemben, ha ütköznek. Aktív státuszú gyártónál érdemes
+     ellenőrizni, hogy tényleg még aktív-e (közösségi média, legutóbbi
+     termékbejelentés), nem csak egy elavult forrás állítja ezt.
 
 6. **Upsert into `manufacturers`**, matched on `canonical_name` (case-
    insensitive). If it already exists, update in place -- never insert a
@@ -229,6 +279,15 @@ kapjon rendes rekordot; ha csak felvásárol és üzemeltet másokat, ne.
    many processed, how many confirmed vs needs_review, and a one-line
    summary of anything flagged for his attention. Don't dump raw rows into
    chat -- offer to show detail if he asks.
+
+**A lista sose lesz 100%-ig teljes (Kristóf módszertana, 2026-08-30) --
+ez a témakör jellegéből fakad**, folyamatosan jönnek új, apró indie
+eurorack-manufaktúrák. Reális cél egy átfogó, de nem kimerítő lista, jól
+dokumentált fő kategóriákkal. Amikor a végleges (publikus) oldal ezt
+megjeleníti, legyen rajta egy explicit jelzés erről (pl. "a lista a
+jelenleg ismert/dokumentált gyártókat tartalmazza, folyamatosan bővül") --
+ez még nincs megépítve, csak jegyezd meg jövőbeli teendőként, ha a
+publikus oldal kapcsán kerül szóba.
 
 ## Modellválasztás (költséghatékonyság)
 
