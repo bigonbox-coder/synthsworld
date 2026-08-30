@@ -40,6 +40,20 @@ PAUSE_SECONDS = 1.5
 
 # Roots to walk. Subcategories are followed one level down, which is where the
 # per-country lists live ("... companies of Japan").
+# Other-language wikis keep their own equivalent trees, and they are not
+# translations of the English one: the German and Japanese lists carry local
+# makers en.wikipedia never had an article for. Found via the langlinks of the
+# English category.
+WIKI_ROOTS = {
+    "de": ["Kategorie:Hersteller von elektronischen Musikinstrumenten"],
+    "ja": ["Category:シンセサイザーメーカー"],
+    "nl": ["Categorie:Synthesizerbouwer"],
+    "pl": ["Kategoria:Producenci syntezatorów"],
+    "fi": ["Luokka:Syntetisaattorivalmistajat"],
+    "tr": ["Kategori:Synthesizer imalatçıları"],
+    "ko": ["분류:신시사이저 제조사"],
+}
+
 ROOTS = [
     "Category:Synthesizer manufacturing companies",
     "Category:Electronic musical instrument manufacturing companies",
@@ -71,10 +85,11 @@ NOISE_WORDS = {
 }
 
 
-def api(wiki, params):
+def api(wiki, params, host=None):
     time.sleep(PAUSE_SECONDS)
     params = {**params, "format": "json"}
-    url = f"https://{wiki}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
+    host = host or f"{wiki}.wikipedia.org"
+    url = f"https://{host}/w/api.php?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     for attempt in range(3):
         try:
@@ -105,6 +120,52 @@ def members(wiki, title, kind):
         cont = data.get("continue", {}).get("cmcontinue")
         if not cont:
             return out
+
+
+def chunks(seq, n=50):
+    for i in range(0, len(seq), n):
+        yield seq[i:i + n]
+
+
+def resolve_to_wikidata(wiki, titles):
+    """Map wiki page titles -> (qid, English label).
+
+    Non-English wikis title their articles in the local script, so the raw title
+    is useless both as a canonical name and for deduplication -- the Japanese
+    list is the same Korg and Roland we already have, spelled コルグ and
+    ローランド. The Wikidata item is the language-neutral identity, and its
+    English label is the name worth storing.
+    """
+    qid_by_title = {}
+    for batch in chunks(titles):
+        data = api(wiki, {
+            "action": "query",
+            "prop": "pageprops",
+            "ppprop": "wikibase_item",
+            "titles": "|".join(batch),
+        })
+        for page in data.get("query", {}).get("pages", {}).values():
+            qid = page.get("pageprops", {}).get("wikibase_item")
+            if qid:
+                qid_by_title[page["title"]] = qid
+
+    label_by_qid = {}
+    for batch in chunks(sorted(set(qid_by_title.values()))):
+        data = api("www", {
+            "action": "wbgetentities",
+            "ids": "|".join(batch),
+            "props": "labels",
+            "languages": "en",
+        }, host="www.wikidata.org")
+        for qid, ent in data.get("entities", {}).items():
+            label = ent.get("labels", {}).get("en", {}).get("value")
+            if label:
+                label_by_qid[qid] = label
+
+    out = {}
+    for title, qid in qid_by_title.items():
+        out[title] = (qid, label_by_qid.get(qid))
+    return out
 
 
 def clean(title):
@@ -144,8 +205,9 @@ def main():
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
-    harvested = {}  # name -> source category
-    for root in ROOTS:
+    roots = WIKI_ROOTS.get(args.wiki, ROOTS)
+    titles = {}  # raw page title -> source category
+    for root in roots:
         pages = members(args.wiki, root, "page")
         subcats = members(args.wiki, root, "subcat")
         if not pages and not subcats:
@@ -153,20 +215,31 @@ def main():
             continue
         print(f"  {root}: {len(pages)} pages, {len(subcats)} subcategories")
         for title in pages:
-            name = clean(title)
-            if name:
-                harvested.setdefault(name, root)
+            titles.setdefault(title, root)
         for sub in subcats:
             for title in members(args.wiki, sub, "page"):
-                name = clean(title)
-                if name:
-                    harvested.setdefault(name, sub)
+                titles.setdefault(title, sub)
+
+    resolved = resolve_to_wikidata(args.wiki, sorted(titles))
+    harvested = {}  # name -> (source category, qid)
+    for title, cat in titles.items():
+        qid, label = resolved.get(title, (None, None))
+        name = clean(label or title)
+        if name:
+            harvested.setdefault(name, (cat, qid))
 
     conn = sqlite3.connect(str(DB_PATH))
     known = existing_names(conn)
+    known_qids = {
+        r[0] for r in conn.execute(
+            "SELECT wikidata_qid FROM discovery_queue WHERE wikidata_qid IS NOT NULL")
+    }
     new, dupes = {}, []
-    for n, c in harvested.items():
-        (dupes.append(n) if compare_key(n) in known else new.update({n: c}))
+    for n, (cat, qid) in harvested.items():
+        if compare_key(n) in known or (qid and qid in known_qids):
+            dupes.append(n)
+        else:
+            new[n] = (cat, qid)
 
     print(f"\nharvested {len(harvested)} names, {len(new)} new, {len(dupes)} already known")
     if args.dry_run:
@@ -176,12 +249,12 @@ def main():
         return
 
     ts = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%f")[:-3] + "Z"
-    for name, cat in sorted(new.items()):
+    for name, (cat, qid) in sorted(new.items()):
         conn.execute(
             """INSERT INTO discovery_queue
-               (manufacturer_name, status, notes, created_at, updated_at)
-               VALUES (?, 'found', ?, ?, ?)""",
-            (name, f"seeded from {args.wiki}.wikipedia {cat}", ts, ts),
+               (manufacturer_name, status, notes, wikidata_qid, created_at, updated_at)
+               VALUES (?, 'found', ?, ?, ?, ?)""",
+            (name, f"seeded from {args.wiki}.wikipedia {cat}", qid, ts, ts),
         )
     conn.commit()
     print(f"inserted {len(new)} new queue rows")
