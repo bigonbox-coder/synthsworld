@@ -146,6 +146,10 @@ STYLE = """
   .pill.approved { background: #e3f5e8; color: #1e7a37; }
   .pill.outdated { background: #fbf0d6; color: #96731a; }
   .pill.wrong { background: #fbe0e0; color: #a33; }
+  .pill-sm { display: inline-block; margin-left: 6px; padding: 1px 7px; border-radius: 999px; font-size: 0.68rem; font-weight: 600; vertical-align: middle; }
+  .pill-sm.approved { background: #e3f5e8; color: #1e7a37; }
+  .pill-sm.outdated { background: #fbf0d6; color: #96731a; }
+  .pill-sm.wrong { background: #fbe0e0; color: #a33; }
   dialog { border: none; border-radius: 12px; padding: 0; max-width: 360px; width: 90vw; }
   dialog::backdrop { background: rgba(0,0,0,0.4); }
   .dialog-wrap { padding: 16px; }
@@ -387,6 +391,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         def card(r):
             status, logo = logo_status(con, r["id"])
+            review_pill = ""
             if status == "found":
                 review = logo_review_status(con, r["id"])
                 badge = (
@@ -394,6 +399,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     if review else ""
                 )
                 logo_html = f'<span class="logo-wrap"><img class="logo-thumb" src="{logo}" alt="">{badge}</span>'
+                if review:
+                    review_pill = f'<span class="pill-sm {review}">{LOGO_REVIEW_LABELS[review]}</span>'
             elif status == "not_found":
                 logo_html = '<span class="logo-missing" title="Kerestünk logót, nem találtunk">nincs<br>kép</span>'
             else:
@@ -403,7 +410,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
-                f'<div class="sub">{esc(r["country"] or "")}</div>'
+                f'<div class="sub">{esc(r["country"] or "")}{review_pill}</div>'
                 f'</div>'
                 f'{logo_html}'
                 f'</a>'
