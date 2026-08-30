@@ -225,7 +225,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header("Content-Type", "text/html; charset=utf-8")
         if set_cookie:
-            self.send_header("Set-Cookie", f"{COOKIE_NAME}={TOKEN}; Path=/; HttpOnly; SameSite=Lax")
+            # Max-Age, not a session cookie: without it the token is forgotten the
+            # moment the browser closes, so typing the bare address later fails and
+            # the tokened link has to be dug out again.
+            self.send_header(
+                "Set-Cookie",
+                f"{COOKIE_NAME}={TOKEN}; Path=/; Max-Age=31536000; HttpOnly; SameSite=Lax",
+            )
         self.send_header("X-Robots-Tag", "noindex, nofollow")
         self.end_headers()
         self.wfile.write(body.encode("utf-8"))
