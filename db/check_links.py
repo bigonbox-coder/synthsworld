@@ -28,7 +28,15 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent / "synthsworld.sqlite"
-UA = {"User-Agent": "Mozilla/5.0 (compatible; Synthsworld/1.0; link check)"}
+# A plain bot UA gets 403'd by every Cloudflare-fronted host, which would
+# label live sources dead. Present as a real browser; anything that still
+# refuses is recorded as 'blocked', not 'error'.
+UA = {
+    "User-Agent": ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/124.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+}
 WORKERS = 12
 TIMEOUT = 15
 
@@ -66,7 +74,13 @@ def check(url, domain):
         except urllib.error.HTTPError as e:
             if e.code in (403, 405, 501) and req_cls is HeadRequest:
                 continue                      # server dislikes HEAD, retry as GET
-            return ("dead" if e.code in (404, 410) else "error"), e.code, None
+            if e.code in (404, 410):
+                return "dead", e.code, None
+            # 401/402/403/451 = the host answered and refused us; that is a
+            # live server, not a broken link.
+            if e.code in (401, 402, 403, 451):
+                return "blocked", e.code, None
+            return "error", e.code, None
         except (urllib.error.URLError, socket.timeout, ConnectionError,
                 OSError, ValueError) as e:
             reason = getattr(e, "reason", e)
