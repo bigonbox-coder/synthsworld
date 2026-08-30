@@ -197,6 +197,8 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .stat.wrong .n { color: #a33; }
   .stat.not_found .n { color: #565f6f; }
   .stat.total .n { color: #333; }
+  .people-link { margin: 18px 0 0; font-size: 0.85rem; text-align: center; }
+  .people-link a { color: #777; }
   .link-list { list-style: none; padding: 0; margin: 0; }
   .link-list li { padding: 5px 0; border-bottom: 1px solid #f0efe9; font-size: 0.9rem; }
   .link-dot { display: inline-block; width: 7px; height: 7px; border-radius: 50%; margin-right: 7px; background: #bbb; vertical-align: middle; }
@@ -300,7 +302,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             return
 
         if path == "/" or path == "":
-            self._render_list(set_cookie=from_url)
+            show_people = urllib.parse.parse_qs(parsed.query).get("people") == ["1"]
+            self._render_list(set_cookie=from_url, people=show_people)
             return
 
         if path.startswith("/static/logos/"):
@@ -497,11 +500,21 @@ class Handler(http.server.BaseHTTPRequestHandler):
         self._send_json({"ok": True})
 
     # ---- rendering ----
-    def _render_list(self, set_cookie=False):
+    def _render_list(self, set_cookie=False, people=False):
         con = db()
+        # Individual builders stay in the database but off this list (Kristof,
+        # 2026-08-30): many of them made real instruments and are worth keeping
+        # for later, but they must not pad the company review queue. ?people=1
+        # shows them, so they are hidden rather than lost.
         rows = con.execute(
-            "SELECT id, canonical_name, country, founded_year, confidence_level FROM manufacturers ORDER BY canonical_name COLLATE NOCASE"
+            f"""SELECT id, canonical_name, country, founded_year, confidence_level
+                FROM manufacturers
+                WHERE entity_type = '{"individual" if people else "company"}'
+                ORDER BY canonical_name COLLATE NOCASE"""
         ).fetchall()
+        people_count = con.execute(
+            "SELECT COUNT(*) FROM manufacturers WHERE entity_type = 'individual'"
+        ).fetchone()[0]
 
         # Precompute logo state ONCE per row (used for both the stat counts
         # and the cards -- avoids hitting the DB twice per manufacturer).
@@ -646,6 +659,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <input type="search" id="q" placeholder="Gyarto kereses..." oninput="filterList()">
 <div class="azbar" id="azbar">{azbar_html}</div>
 <div id="list">{list_html}</div>
+{f'<p class="people-link"><a href="/?people=1">Magánszemély készítők ({people_count})</a></p>' if (people_count and not people) else ('<p class="people-link"><a href="/">Vissza a cégekhez</a></p>' if people else "")}
 </div>
 <script>
 var activeFilter = null; // {{dim: 'confidence'|'logo-review'|'logo-status', val: '...'}}

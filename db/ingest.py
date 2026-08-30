@@ -126,14 +126,20 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
         if previous == "confirmed":
             confidence = "confirmed"
     cols = ("country", "official_website", "status", "short_history", "long_history",
-            "founded_year", "ended_year", "city", "founders")
+            "founded_year", "ended_year", "city", "founders", "entity_type")
+    # entity_type is NOT NULL with a default, so an entry that says nothing
+    # about it must still insert as a company rather than blow up on NULL.
+    defaults = {"entity_type": "company"}
     if mid is None:
         placeholders = ", ".join(["?"] * (len(cols) + 4))
         conn.execute(
             f"""INSERT INTO manufacturers
                 (canonical_name, {', '.join(cols)}, confidence_level, created_at, updated_at)
                 VALUES ({placeholders})""",
-            (entry["canonical_name"], *[entry.get(c) for c in cols], confidence, ts, ts),
+            (entry["canonical_name"],
+             *[entry.get(c) if entry.get(c) is not None else defaults.get(c)
+               for c in cols],
+             confidence, ts, ts),
         )
         return conn.execute("SELECT last_insert_rowid()").fetchone()[0], "inserted", confidence
     # Update in place, but never blank out an existing value with a missing one.
