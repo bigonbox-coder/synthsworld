@@ -514,3 +514,27 @@ payload, and surfaces infoboxes):
   2026-08-30 but only takes effect for sessions started after Kristóf's next
   logout, and `sg`/`newgrp` cannot work around it (setuid stripped on this
   host). Until then, that command needs `sudo` and therefore Kristóf.
+
+### Batch the quarantine-reader fetches (measured 2026-08-30)
+
+Each `quarantine-reader` call costs roughly 15-17k tokens **regardless of how
+many URLs it fetches** -- almost all of it is the sub-agent's own start-up
+overhead, not the page content. Measured over one batch: five agents, one to
+three URLs each, 83k tokens total.
+
+So group the fetches: **one agent per manufacturer with all of its candidate
+URLs**, not one agent per URL, and never a second agent for a follow-up URL
+that could have been listed in the first. Same research, roughly half to a
+third of the cost.
+
+### Allowlist changes are NOT live (confirmed 2026-08-30)
+
+Adding a domain to `store/egress-allowlist.json` in the marveen repo does
+nothing for the *current* session -- `quarantine-reader` answers
+"domain not on quarantine-reader fetch allowlist" until the session restarts.
+So when a manufacturer's best sources (its own site, a specialist local-language
+page) are off-allowlist, do NOT ingest a thin record from whatever happens to
+be reachable. Add the domains, leave the queue row at `found` with a note
+saying what is blocked and why, and pick it up after the next restart. Jen
+(Italy) is the worked example: vintagesynth had only a product page, both
+Wikipedias 404, and the two useful Italian sources were unreachable.

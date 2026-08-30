@@ -1,0 +1,50 @@
+{"manufacturers": [
+ {
+  "canonical_name": "Wersi",
+  "country": "Germany",
+  "official_website": "https://www.wersi.net",
+  "status": "acquired",
+  "short_history": "Wersi is a German maker of electronic organs and keyboards, founded in 1969 by the brothers Wilhelm-Erich and Reinhard Franz in the Rhein-Hunsrueck region of Rhineland-Palatinate. The name is built from the first letters of Werlau, where they were born, and Simmern, the district town nearby. The company made its reputation on organs sold as self-assembly kits alongside finished models, an unusual proposition at the time. Ownership changed hands in 2010, after which the brand, its distribution and its development passed to Music Store in Cologne and the instruments became computer-controlled; organs carrying the name are still assembled in Germany.",
+  "long_history": "Wersi was founded in 1969 by two brothers from the Rhein-Hunsrueck district of Rhineland-Palatinate, Wilhelm-Erich and Reinhard Franz, who built the firm's first instruments in the basement of their parents' house. The company name is a contraction of two place names: Werlau, the village where the brothers were born, and Simmern, the district town, and the original entity traded as WERSI-electronic. Its distinctive business was selling electronic organs as kits for the customer to assemble, sold in parallel with ready-built models, which brought a comparatively expensive instrument within reach of hobbyists and built a devoted following among organ players in German-speaking Europe. The kit business remained the core of the company for decades, run from Werlau. In 2010 the company changed hands; the German-language account describes an insolvency that year, after which Music Store in Cologne acquired the trademark rights, while the English-language account describes the firm being bought by Music Store Professional GmbH together with Medeli, a Chinese musical instrument manufacturer. Both agree that from 2010 the brand, its distribution and its development sat with Music Store in Cologne, and that the organs were by then computer-controlled instruments rather than analogue ones. Instruments continue to be assembled in Germany, with production associated with the Wersi-Studio Hochrhein at Hohentengen am Hochrhein in Baden-Wuerttemberg.",
+  "name_history": [{"name": "WERSI-electronic", "start_year": 1969, "end_year": null}],
+  "relations": [],
+  "sources": [
+   {"field_name": "country", "value": "Germany", "source_url": "https://de.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "country", "value": "Germany", "source_url": "https://en.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "status", "value": "acquired", "source_url": "https://de.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "status", "value": "acquired", "source_url": "https://en.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "short_history", "value": "synthesised from both Wikipedia articles", "source_url": "https://de.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "short_history", "value": "synthesised from both Wikipedia articles", "source_url": "https://en.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "long_history", "value": "synthesised from both Wikipedia articles", "source_url": "https://de.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "long_history", "value": "synthesised from both Wikipedia articles", "source_url": "https://en.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "name_history:WERSI-electronic", "value": "WERSI-electronic", "source_url": "https://de.wikipedia.org/wiki/Wersi", "source_tier": "wikidata"},
+   {"field_name": "official_website", "value": "https://www.wersi.net", "source_url": "https://www.wersi.net/ueber-uns/", "source_tier": "other"}
+  ],
+  "conflicts": [],
+  "review_note": "2010 takeover described at different granularity, not necessarily a contradiction: de.wikipedia says the company went insolvent in 2010 and Music Store (Cologne) then acquired the trademark rights; en.wikipedia says Wersi was purchased by Music Store Professional GmbH together with Medeli (Chinese manufacturer) and mentions no insolvency. Medeli's involvement is single-sourced and no relation row was created for it. The official site wersi.net could not be read this round (not yet on the fetch allowlist), so the history is not yet anchored on the company's own account.",
+  "queue_name": "Wersi"
+ },
+ {
+  "canonical_name": "Formanta Radio Factory",
+  "country": "Russia",
+  "official_website": null,
+  "status": "defunct",
+  "short_history": "The Kachkanar Radio Factory Formanta was a Soviet, later Russian, electronics plant in Kachkanar, Sverdlovsk Oblast. It opened in August 1976 as a branch of the Sverdlovsk works Electroavtomatika, the enterprise later known as Vektor, and grew into the country's best-known producer of electronic musical instruments: synthesizers including the P-432 and the widely exported Polivoks, percussion synthesizers, the EMS-01 combined organ and synthesizer, and instrument amplifiers, alongside consumer tape recorders and music centres sold under the Okari name. The Polivoks was designed at the Vektor plant and only manufactured here. Instrument production wound down in the early 1990s as the plant turned to televisions and household appliances, and the factory was declared bankrupt in 2001.",
+  "long_history": "The plant at Kachkanar in Sverdlovsk Oblast opened in August 1976 as a branch of the Sverdlovsk enterprise Electroavtomatika, known in its later form as Vektor, and traded as the Kachkanar Radio Factory Formanta. Alongside the electronics work expected of a Soviet radio plant, it became the Soviet Union's most visible manufacturer of electronic musical instruments. Its catalogue included the P-432 and P-465 synthesizers, the Formanta Mini, the EMS-01 combining a polyphonic organ with a monophonic synthesizer, percussion and drum synthesizers, the UEMI-10 and UEMI-50 instrument amplifiers, and, outside music, tape recorders and music centres under the Okari brand and sound-producing note alphabets for schools. The instrument it is remembered for is the Polivoks, a duophonic analogue synthesizer engineered at the Vektor plant by Vladimir Kuzmin, whose wife Olimpiada shaped its severe orange-and-grey appearance after Soviet military radio equipment; the design was handed to Kachkanar for series production. Sources do not agree on the production run: one account gives roughly 100,000 units at up to 1,000 a month, while Kuzmin himself put output at 200 to 300 a month, implying no more than about 32,000 in total. The dates given for the Polivoks also differ between sources, with the Russian account placing manufacture at Kachkanar in 1988 to 1992 and the English one giving 1982 to 1990 for the instrument overall. Musical instrument production ended in the early 1990s, after which the plant made televisions, vacuum cleaners and washing machines. It was declared bankrupt on 26 May 2001 and its workers dismissed on 24 August 2001; as of 2021 parts of the former factory buildings were in use as shops, entertainment venues, hotels and small workshops.",
+  "name_history": [],
+  "relations": [{"related_company": "Vektor", "relation_type": "spun_off_from", "year": 1976}],
+  "sources": [
+   {"field_name": "country", "value": "Russia", "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D0%B0_(%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4)", "source_tier": "wikidata"},
+   {"field_name": "country", "value": "Russia", "source_url": "https://en.wikipedia.org/wiki/Polivoks", "source_tier": "wikidata"},
+   {"field_name": "status", "value": "defunct", "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D0%B0_(%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4)", "source_tier": "wikidata"},
+   {"field_name": "short_history", "value": "synthesised from the Russian factory article and the English Polivoks article", "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D0%B0_(%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4)", "source_tier": "wikidata"},
+   {"field_name": "short_history", "value": "synthesised from the Russian factory article and the English Polivoks article", "source_url": "https://en.wikipedia.org/wiki/Polivoks", "source_tier": "wikidata"},
+   {"field_name": "long_history", "value": "synthesised from the Russian factory article and the English Polivoks article", "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D0%B0_(%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4)", "source_tier": "wikidata"},
+   {"field_name": "long_history", "value": "synthesised from the Russian factory article and the English Polivoks article", "source_url": "https://en.wikipedia.org/wiki/Polivoks", "source_tier": "wikidata"},
+   {"field_name": "relation:spun_off_from:Vektor", "value": "branch of the Sverdlovsk plant Electroavtomatika, later Vektor, from 1976", "source_url": "https://ru.wikipedia.org/wiki/%D0%A4%D0%BE%D1%80%D0%BC%D0%B0%D0%BD%D1%82%D0%B0_(%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4)", "source_tier": "wikidata"}
+  ],
+  "conflicts": [],
+  "review_note": "Product-level, not company-level: sources disagree on Polivoks production years (1988-1992 at Kachkanar per ru.wikipedia vs 1982-1990 overall per en.wikipedia) and on volume (~100,000 units vs no more than ~32,000 per designer Vladimir Kuzmin). Company status 'defunct' (bankruptcy 26 May 2001) rests on the Russian article alone and wants a second source.",
+  "queue_name": "Formanta Radio Factory"
+ }
+]}
