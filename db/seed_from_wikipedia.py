@@ -30,7 +30,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 DB_PATH = Path(__file__).resolve().parent / "synthsworld.sqlite"
-UA = "synthsworld-research/1.0 (personal instrument database)"
+# Wikimedia rate-limits anonymous clients whose User-Agent carries no way to
+# contact the operator; without the project URL here the API answers 429
+# regardless of how slowly requests are paced.
+UA = "SynthsworldResearchBot/1.0 (https://synthsworld.com)"
+# The API returns 429 quickly on back-to-back calls, and a 429 looks exactly
+# like an empty category -- which silently under-seeds instead of failing.
+PAUSE_SECONDS = 1.5
 
 # Roots to walk. Subcategories are followed one level down, which is where the
 # per-country lists live ("... companies of Japan").
@@ -47,11 +53,26 @@ SKIP_PATTERNS = [
     re.compile(r"^List of ", re.I),
     re.compile(r"\(disambiguation\)$", re.I),
     re.compile(r"^Comparison of ", re.I),
+    # "Serge synthesizer" is an article about the instrument, not the company;
+    # the company already exists under its real name.
+    re.compile(r"\bsynthesi[sz]ers?$", re.I),
 ]
 MAX_NAME = 120
 
+# Dropped when comparing a harvested name against what we already have, so
+# "Oberheim Electronics" does not get queued next to the existing "Oberheim".
+# Comparison only -- the harvested spelling is what gets stored.
+NOISE_WORDS = {
+    "inc", "incorporated", "ltd", "limited", "llc", "gmbh", "ag", "ab", "kg",
+    "co", "company", "corp", "corporation", "spa", "srl", "sa", "bv", "nv",
+    "plc", "oy", "as", "electronics", "electronic", "instruments", "instrument",
+    "music", "musical", "audio", "systems", "system", "digital", "sound",
+    "technologies", "technology", "int", "international",
+}
+
 
 def api(wiki, params):
+    time.sleep(PAUSE_SECONDS)
     params = {**params, "format": "json"}
     url = f"https://{wiki}.wikipedia.org/w/api.php?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers={"User-Agent": UA})
@@ -61,9 +82,8 @@ def api(wiki, params):
                 return json.load(r)
         except Exception as exc:  # noqa: BLE001 - network flakiness, retry and move on
             if attempt == 2:
-                print(f"  ! {url[:90]}: {exc}", file=sys.stderr)
-                return {}
-            time.sleep(2 * (attempt + 1))
+                raise RuntimeError(f"wikipedia api failed: {exc}") from exc
+            time.sleep(5 * (attempt + 1))
     return {}
 
 
@@ -99,15 +119,22 @@ def clean(title):
     return name
 
 
+def compare_key(name):
+    """Loose identity key: lowercase, punctuation-free, corporate noise dropped."""
+    words = re.sub(r"[^\w\s]", " ", name.lower()).split()
+    core = [w for w in words if w not in NOISE_WORDS]
+    return " ".join(core or words)
+
+
 def existing_names(conn):
-    """Every name already known, in any form, lowercased for comparison."""
+    """Every name already known, in any form, as loose comparison keys."""
     seen = set()
     for q in (
         "SELECT canonical_name FROM manufacturers",
         "SELECT name FROM manufacturer_name_history",
         "SELECT manufacturer_name FROM discovery_queue",
     ):
-        seen |= {r[0].strip().lower() for r in conn.execute(q) if r[0]}
+        seen |= {compare_key(r[0]) for r in conn.execute(q) if r[0]}
     return seen
 
 
@@ -137,9 +164,11 @@ def main():
 
     conn = sqlite3.connect(str(DB_PATH))
     known = existing_names(conn)
-    new = {n: c for n, c in harvested.items() if n.lower() not in known}
+    new, dupes = {}, []
+    for n, c in harvested.items():
+        (dupes.append(n) if compare_key(n) in known else new.update({n: c}))
 
-    print(f"\nharvested {len(harvested)} names, {len(new)} of them new")
+    print(f"\nharvested {len(harvested)} names, {len(new)} new, {len(dupes)} already known")
     if args.dry_run:
         for n in sorted(new):
             print("  +", n)

@@ -265,6 +265,20 @@ class Handler(http.server.BaseHTTPRequestHandler):
         parsed = urllib.parse.urlparse(self.path)
         path = parsed.path
 
+        # The manifest and its icons must be reachable WITHOUT the token: the
+        # browser fetches a manifest without credentials by default, and the
+        # icons it names are fetched the same way, so gating them behind auth is
+        # why an installed shortcut fell back to a generated letter tile. They
+        # are the project's own logo and the app's name -- nothing private, and
+        # the manifest deliberately carries no token in start_url.
+        if path.startswith("/static/icons/"):
+            self._serve_static(path, ICON_DIR)
+            return
+
+        if path == "/manifest.webmanifest":
+            self._serve_manifest()
+            return
+
         if not ok:
             self._unauthorized()
             return
@@ -275,14 +289,6 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path.startswith("/static/logos/"):
             self._serve_logo(path)
-            return
-
-        if path.startswith("/static/icons/"):
-            self._serve_static(path, ICON_DIR)
-            return
-
-        if path == "/manifest.webmanifest":
-            self._serve_manifest()
             return
 
         if path.startswith("/manufacturer/"):
@@ -339,7 +345,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
         manifest = {
             "name": "Synthsworld admin",
             "short_name": "Synthsworld",
-            "start_url": f"/?token={TOKEN}",
+            # No token here: the manifest is served unauthenticated, so the
+            # token must not travel in it. The year-long auth cookie is
+            # what lets the installed shortcut open straight into the panel.
+            "start_url": "/",
             "scope": "/",
             "display": "standalone",
             "background_color": "#ffffff",
