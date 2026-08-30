@@ -1,0 +1,713 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Hammond Organ Company",
+   "country": "United States",
+   "city": "Chicago",
+   "founded_year": 1928,
+   "ended_year": 1985,
+   "status": "acquired",
+   "founders": "Laurens Hammond",
+   "short_history": "Laurens Hammond founded the Hammond Clock Company in Chicago in 1928, building synchronous-motor clocks. When the Depression cut clock sales he turned the same rotating-gear principle into a musical instrument: the tonewheel organ, patented in 1934 and sold from 1935 as the Model A. The company, renamed for the organ that made it famous, went on to build around two million instruments and to define the sound of gospel, jazz and rock through the B-3. It also produced the Novachord, an early polyphonic electronic instrument, and the Solovox. Manufacturing ended in 1985; the brand passed to Hammond Organ Australia in 1986 and to Suzuki in 1989, which has carried it on as Hammond-Suzuki.",
+   "name_history": [
+    {
+     "name": "Hammond Clock Company",
+     "start_year": 1928,
+     "end_year": 1935
+    },
+    {
+     "name": "Hammond Organ Company",
+     "start_year": 1935,
+     "end_year": 1985
+    },
+    {
+     "name": "Hammond-Suzuki",
+     "start_year": 1989,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Model A",
+     "year": 1935,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Novachord",
+     "year": 1939
+    },
+    {
+     "name": "Solovox"
+    },
+    {
+     "name": "B-3",
+     "category": "electronic organ"
+    },
+    {
+     "name": "C-3",
+     "category": "electronic organ"
+    },
+    {
+     "name": "A-100",
+     "category": "electronic organ"
+    },
+    {
+     "name": "M-3",
+     "category": "electronic organ"
+    },
+    {
+     "name": "X-66",
+     "category": "electronic organ"
+    },
+    {
+     "name": "XB-2",
+     "category": "electronic organ"
+    },
+    {
+     "name": "New B-3",
+     "year": 2002,
+     "category": "electronic organ"
+    },
+    {
+     "name": "XK-5",
+     "category": "electronic organ"
+    },
+    {
+     "name": "SK1",
+     "category": "electronic organ"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Hammond_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Chicago",
+     "source_url": "https://en.wikipedia.org/wiki/Hammond_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Chicago",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1928",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Laurens Hammond",
+     "source_url": "https://en.wikipedia.org/wiki/Hammond_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Laurens Hammond",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "acquired",
+     "source_url": "https://en.wikipedia.org/wiki/Hammond_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "acquired",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised from both articles",
+     "source_url": "https://en.wikipedia.org/wiki/Hammond_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised from both articles",
+     "source_url": "https://en.wikipedia.org/wiki/Laurens_Hammond",
+     "source_tier": "other"
+    }
+   ],
+   "review_note": "Two dates, two events: the company was founded in 1928 as the Hammond Clock Company and only began making organs in 1935. founded_year records the company, not the product line. Status 'acquired' because manufacturing ended in 1985 while the brand continues under Suzuki -- same shape as Wersi, and Kristof may want it read differently.",
+   "queue_name": "Hammond Organ Company"
+  },
+  {
+   "canonical_name": "Kawai Musical Instruments",
+   "country": "Japan",
+   "city": "Hamamatsu",
+   "founded_year": 1927,
+   "status": "active",
+   "founders": "Koichi Kawai",
+   "short_history": "Koichi Kawai, who had trained as an apprentice under Torakusu Yamaha, left Nippon Gakki in 1927 to open his own research laboratory in Hamamatsu. The company built its reputation on acoustic pianos and remains one of the largest makers of them, but it also spent the 1980s and 1990s as a serious electronic-instrument manufacturer: analogue synthesizers sold under the Teisco name it had absorbed, then its own K-series digital synthesizers, the additive K5 and K5000, and the R-series drum machines. It is publicly listed in Tokyo, still led by the founder's family, and still active.",
+   "instruments": [
+    {
+     "name": "K1",
+     "category": "synthesizer"
+    },
+    {
+     "name": "K3",
+     "category": "synthesizer"
+    },
+    {
+     "name": "K4",
+     "category": "synthesizer"
+    },
+    {
+     "name": "K5",
+     "category": "synthesizer"
+    },
+    {
+     "name": "K5000",
+     "category": "synthesizer"
+    },
+    {
+     "name": "K11",
+     "category": "synthesizer"
+    },
+    {
+     "name": "GMega",
+     "category": "sound module"
+    },
+    {
+     "name": "Q-80",
+     "category": "sequencer"
+    },
+    {
+     "name": "R-100",
+     "category": "drum machine"
+    },
+    {
+     "name": "R-50",
+     "category": "drum machine"
+    },
+    {
+     "name": "XD-5",
+     "category": "drum machine"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Teisco",
+     "relation_type": "owner_of"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Japan",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Hamamatsu",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1927",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Koichi Kawai",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Kawai_Musical_Instruments",
+     "source_tier": "other"
+    }
+   ],
+   "review_note": "Single source (English Wikipedia). kawai-global.com/company/history/ is the maker's own history page and would confirm this on one source, but that domain only became reachable after this session's allowlist edit -- needs a restart before it can be fetched.",
+   "queue_name": "Kawai Musical Instruments"
+  },
+  {
+   "canonical_name": "Waldorf Music",
+   "country": "Germany",
+   "city": "Remagen",
+   "founded_year": 1988,
+   "status": "active",
+   "founders": "Wolfgang Duren",
+   "short_history": "Waldorf was founded in 1988 in the Rhineland town it is named after, by Wolfgang Duren, who had been PPG's German distributor. When PPG closed in 1987 Duren carried its wavetable synthesis forward using ASICs Wolfgang Palm had designed, and the Microwave became the company's first instrument. The Wave, the Q series and the microQ followed, and Waldorf became the reference point for wavetable sound in Germany. The original company went insolvent in February 2004; a new Waldorf Music GmbH was set up in 2006 -- a continuation of the brand rather than a legal successor -- and it is active today from Remagen with the Blofeld, Quantum, Iridium and Kyra.",
+   "name_history": [
+    {
+     "name": "Waldorf Electronics GmbH",
+     "start_year": 1988,
+     "end_year": 2004
+    },
+    {
+     "name": "Waldorf Music AG",
+     "start_year": 2004,
+     "end_year": 2006
+    },
+    {
+     "name": "Waldorf Music GmbH",
+     "start_year": 2006,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Microwave",
+     "year": 1989,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Wave",
+     "year": 1993,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Pulse",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Microwave II",
+     "year": 1997,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Microwave XT",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Q",
+     "year": 1999,
+     "category": "synthesizer"
+    },
+    {
+     "name": "microQ",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Blofeld",
+     "year": 2007,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Rocket",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Pulse 2",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Streichfett",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Quantum",
+     "year": 2018,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Kyra",
+     "year": 2019,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Iridium",
+     "year": 2020,
+     "category": "synthesizer"
+    },
+    {
+     "name": "M",
+     "year": 2021,
+     "category": "synthesizer"
+    },
+    {
+     "name": "STVC",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Zarenbourg",
+     "category": "electric piano"
+    },
+    {
+     "name": "Lector",
+     "category": "vocoder"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Remagen",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Remagen",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1988",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1988",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Wolfgang Duren",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Wolfgang Duren",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised from both articles",
+     "source_url": "https://de.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised from both articles",
+     "source_url": "https://en.wikipedia.org/wiki/Waldorf_Music",
+     "source_tier": "other"
+    }
+   ],
+   "review_note": "The 2004/2006 gap is two events, not a source conflict: insolvency of Waldorf Electronics in February 2004, then a new Waldorf Music GmbH in summer 2006. The German article calls it a successor entity, the English one says it is expressly not a legal successor -- complementary detail, both kept in the history text. PPG is deliberately NOT recorded as a relation: Waldorf licensed Palm's chip designs, it did not acquire or succeed the company, and Palm never worked there.",
+   "queue_name": "Waldorf Music"
+  },
+  {
+   "canonical_name": "GEM (General Electro Music)",
+   "country": "Italy",
+   "city": "San Giovanni in Marignano",
+   "founded_year": 1890,
+   "ended_year": 2011,
+   "status": "defunct",
+   "founders": "Antonio Galanti",
+   "short_history": "The company began in 1890 as an accordion workshop founded by Antonio Galanti in San Giovanni in Marignano, on the Adriatic coast. It turned to electronics in 1959 under the GEM name and became one of Italy's largest instrument makers, building electronic organs, then digital keyboards, pianos and the Equinox and S-series synthesizers, and supplying Baldwin-branded instruments to the American market. It took over the Elka brand in 1989 and renamed itself Generalmusic in 1992. The Rimini court opened bankruptcy proceedings in June 2011 and Italian production ended; the GEM, LEM and Elka names have since passed through Finnish ownership and, in 2026, to new Italian owners.",
+   "name_history": [
+    {
+     "name": "Premiata Fabbrica di Fisarmoniche Galanti",
+     "start_year": 1890,
+     "end_year": 1959
+    },
+    {
+     "name": "GEM",
+     "start_year": 1959,
+     "end_year": 1992
+    },
+    {
+     "name": "Generalmusic",
+     "start_year": 1992,
+     "end_year": 2011
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Mini Gem",
+     "category": "electronic organ"
+    },
+    {
+     "name": "Joker 61",
+     "category": "electronic organ"
+    },
+    {
+     "name": "S2",
+     "category": "synthesizer"
+    },
+    {
+     "name": "S2R",
+     "category": "synthesizer"
+    },
+    {
+     "name": "S3",
+     "category": "synthesizer"
+    },
+    {
+     "name": "S3 Turbo",
+     "category": "synthesizer"
+    },
+    {
+     "name": "Equinox",
+     "category": "synthesizer"
+    },
+    {
+     "name": "WK1",
+     "category": "keyboard"
+    },
+    {
+     "name": "WS2",
+     "category": "keyboard"
+    },
+    {
+     "name": "Genesys",
+     "category": "keyboard"
+    },
+    {
+     "name": "Genesys Pro",
+     "category": "keyboard"
+    },
+    {
+     "name": "Realpiano Pro1",
+     "category": "electric piano"
+    },
+    {
+     "name": "Promega 3",
+     "category": "electric piano"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Elka",
+     "relation_type": "owner_of",
+     "year": 1989
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Italy",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "San Giovanni in Marignano",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1890",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "2011",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Antonio Galanti",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://it.wikipedia.org/wiki/Generalmusic",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [
+    "canonical name: we hold 'GEM (General Electro Music)', but the Italian Wikipedia derives GEM from 'Galanti Egidio Mondaino', the family and town behind the 1959 brand, not from 'General Electro Music'. Needs a second source before the record is renamed."
+   ],
+   "review_note": "Single source (Italian Wikipedia). The company is better known in its later years as Generalmusic; if Kristof wants the canonical name changed, the name_history rows are already in place to support it.",
+   "queue_name": "GEM (General Electro Music)"
+  },
+  {
+   "canonical_name": "Sound Transform Systems",
+   "country": "United States",
+   "status": "active",
+   "founders": "Rex Probe",
+   "short_history": "Sound Transform Systems is the company Serge Modular Music System became. Serge Tcherepnin's business, founded in 1974 out of CalArts and run from Hollywood and later San Francisco, declined through the 1980s, and in the early 1990s Rex Probe took it over and renamed it. STS dropped the DIY kits that had defined the Serge ethos and standardised the range instead: first the pre-configured Shop Panels, later the smaller M-Class panels, and a handful of new modules of its own such as the pulse divider, Boolean logic and MIDI-CV. Schematics stopped being published in the late 1990s, which pushed the Serge community into reverse-engineering the designs, and from the 2010s Tcherepnin licensed them to other makers.",
+   "instruments": [
+    {
+     "name": "Animal",
+     "category": "module"
+    },
+    {
+     "name": "Animate",
+     "category": "module"
+    },
+    {
+     "name": "Blue Voice",
+     "category": "module"
+    },
+    {
+     "name": "Blue Control",
+     "category": "module"
+    },
+    {
+     "name": "Red Fun Station",
+     "category": "module"
+    },
+    {
+     "name": "Red Control Panel",
+     "category": "module"
+    },
+    {
+     "name": "Soup Kitchen 1",
+     "category": "module"
+    },
+    {
+     "name": "Soup Kitchen 2",
+     "category": "module"
+    },
+    {
+     "name": "Creature",
+     "category": "module"
+    },
+    {
+     "name": "Gator",
+     "category": "module"
+    },
+    {
+     "name": "Triple Oscillator",
+     "category": "module"
+    },
+    {
+     "name": "Quad Slope",
+     "category": "module"
+    },
+    {
+     "name": "Wave Processor",
+     "category": "module"
+    },
+    {
+     "name": "Klangziet",
+     "category": "module"
+    },
+    {
+     "name": "Mayhem",
+     "category": "module"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Serge Modular Music Systems",
+     "relation_type": "successor_of"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Rex Probe",
+     "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Serge_synthesizer",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [
+    "founded_year: the source says only 'the early 1990s' for the takeover and rename, so the field is left EMPTY rather than filled with a plausible year. An empty field is honest; a guessed one gets consumed downstream as if it were known."
+   ],
+   "review_note": "Single source (English Wikipedia, Serge synthesizer article). The second source intended for this, electronicmusic.fandom.com/wiki/Sound_Transform_Systems, returned HTTP 402 and could not be read.",
+   "queue_name": "Sound Transform Systems"
+  },
+  {
+   "canonical_name": "Vektor",
+   "country": "Russia",
+   "status": "active",
+   "short_history": "Vektor is the Ural enterprise where the Polivoks was designed, by the engineers Vladimir Kuzmin and Yuri Fiofilov, before it was put into production at the Kachkanar radio factory Formanta between 1982 and 1990. On the evidence held so far Vektor's role was design rather than manufacture, which leaves open whether it belongs in this database as an instrument maker at all.",
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Russia",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B2%D0%BE%D0%BA%D1%81",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D0%B8%D0%B2%D0%BE%D0%BA%D1%81",
+     "source_tier": "other"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Formanta Radio Factory",
+     "relation_type": "spun_off_from"
+    }
+   ],
+   "conflicts": [
+    "scope: the only source describes Vektor as the enterprise where the Polivoks was DESIGNED, with manufacturing done by Formanta in Kachkanar. A design house that never manufactured may not belong in a manufacturers table. Kristof's decision.",
+    "status: no source says whether Vektor still exists; 'active' is a default, not a finding."
+   ],
+   "review_note": "Deliberately left thin. ruskeys.net, the Soviet-synth reference that would settle this, refused an HTTPS connection (the site is HTTP-only and the fetcher upgrades the scheme).",
+   "queue_name": "Vektor"
+  }
+ ]
+}
