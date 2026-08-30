@@ -122,6 +122,29 @@ def find_manufacturer(conn, name):
     return row[0] if row else None
 
 
+def owner_confirmed(conn, mid):
+    """True if the record is confirmed AND that came from an owner decision.
+
+    Two shapes count: an `approved` click in the admin panel, and a
+    `conflict_resolved` entry written when Kristóf settles a specific dispute.
+    Both are logged with the confidence levels they moved between, so the log
+    is the audit trail; this just reads it back.
+    """
+    row = conn.execute(
+        "SELECT confidence_level FROM manufacturers WHERE id = ?", (mid,)
+    ).fetchone()
+    if not row or row[0] != "confirmed":
+        return False
+    return conn.execute(
+        """SELECT 1 FROM manufacturer_review_log
+           WHERE manufacturer_id = ?
+             AND action IN ('approved', 'conflict_resolved')
+             AND new_confidence_level = 'confirmed'
+           LIMIT 1""",
+        (mid,),
+    ).fetchone() is not None
+
+
 def upsert_manufacturer(conn, entry, confidence, conflicts):
     """Insert or update on canonical_name; never create a duplicate company."""
     ts = now()
@@ -142,6 +165,15 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
             "SELECT confidence_level FROM manufacturers WHERE id = ?", (mid,)
         ).fetchone()[0]
         if previous == "confirmed":
+            confidence = "confirmed"
+    if mid is not None and confidence == "needs_review" and conflicts:
+        # ...and a conflict must not demote a record Kristóf has personally
+        # confirmed. A batch file is a snapshot of what the sources said at
+        # research time; his approval is a later decision at a higher tier
+        # (owner > manufacturer_official > wikidata > other). Re-running an old
+        # batch would otherwise silently undo it, and nobody would notice --
+        # exactly the failure this pipeline keeps trying to design out.
+        if owner_confirmed(conn, mid):
             confidence = "confirmed"
     cols = ("country", "official_website", "status", "short_history", "long_history",
             "founded_year", "ended_year", "city", "founders", "entity_type")
@@ -337,6 +369,10 @@ def main(argv):
         extra = entry.get("review_note")
         full_note = "; ".join(n for n in (note, extra) if n)
         closed = close_queue(conn, entry, confidence, full_note)
+        if confidence == "confirmed" and note and owner_confirmed(conn, mid):
+            print(f"  ! {entry['canonical_name']}: batch reports conflicts, but Kristof "
+                  f"confirmed this record himself -- keeping confirmed, NOT demoting.")
+            print(f"    unresolved per this batch: {note}")
         print(f"{entry['canonical_name']:<34} id={mid:<4} {action:<8} {confidence}")
         print(f"    facts+{facts} names+{names} relations+{rels} instruments+{insts} "
               f"queue={closed or 'no row'}")
