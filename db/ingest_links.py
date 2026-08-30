@@ -111,7 +111,14 @@ def is_official(dom, maker_name):
     return False
 
 
+AUDIO_EXT = re.compile(r"\.(mp3|wav|flac|ogg|m4a|aiff?)(\?|$)", re.I)
+
+
 def classify(url, label, dom, official):
+    # A media FILE is not a media page: an .mp3 of the instrument is primary
+    # material (phase 3), while a review or a video is a source to read.
+    if AUDIO_EXT.search(url):
+        return "audio_demo"
     if official:
         return "manufacturer_official"
     hay = f"{label or ''} {url}".lower()

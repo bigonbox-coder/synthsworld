@@ -1,0 +1,3636 @@
+{
+  "source": "synthmania",
+  "pages": [
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "01R/W",
+      "display_name": "KORG 01R/W",
+      "source_url": "https://synthmania.com/2009/09/20/korg-01r-w/",
+      "links": [
+        {
+          "url": "http://synthmania.com/Korg%2001R-W/Audio/Factory%20Songs/Song%201%20-%20The%20Phantom.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "http://synthmania.com/Korg%2001R-W/Audio/Factory%20Songs/Song%202%20-%20Arabesque.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "http://synthmania.com/Korg%2001R-W/Audio/Factory%20Songs/Song%203%20-%20WKRG%20Radio.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "http://synthmania.com/Korg%2001R-W/Audio/Factory%20Songs/Song%204%20-%20Rock%20Show!.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song-0-But-Is-It-Art.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song-1-The-Phantom.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song-2-Arabesque.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song-3-WKRG-Radio.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song-4-Rock-Show.mp3",
+          "label": "01R/W audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "05R/W",
+      "display_name": "KORG 05R/W",
+      "source_url": "https://synthmania.com/2006/11/10/korg-05r-w/",
+      "links": [
+        {
+          "url": "http://synthmania.com/Korg%2005RW/Audio/Factory%20Demo%20Song.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/00-StarBurst.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-LayerPiano.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Synth-Fat.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-Mr.-Tone.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07-Layer-Str.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/08-Sax-Heaven.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09-Celebrate.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/10-FirstSnow.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-BassPiano.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-LilBit-O.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/18-Half-Moons.mp3",
+          "label": "05R/W audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Half-Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Ensoniq",
+      "model_slug": "TS-12",
+      "display_name": "Ensoniq TS-12",
+      "source_url": "https://synthmania.com/2020/05/11/ensoniq-ts-12/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/3-Trumpets.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/6-String.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/808-Kit.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Ac-Bs-Piano.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Belle-Amour.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Best-Pad.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Big-Anna.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/BorealisPad.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Celeste.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Chmbr-Music.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/Choirs.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/04/El-Bs-Organ.mp3",
+          "label": "TS-12 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "A4000",
+      "display_name": "Yamaha A4000",
+      "source_url": "https://synthmania.com/2005/04/09/yamaha-a4000/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/120-bpm.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/74-bpm.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/ALM-Fing.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Alto-Fl.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/AmbKitBr.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Ambient-Kit.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Arabic-Ashut.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Arabic-Dhohola.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Arabic-Mazhar.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/BDLp134D.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Bari.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Berimbau.mp3",
+          "label": "A4000 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Sampler, Sampler"
+      }
+    },
+    {
+      "maker_slug": "Alesis",
+      "model_slug": "QuadraSynth Plus Piano",
+      "display_name": "Alesis QuadraSynth Plus Piano",
+      "source_url": "https://synthmania.com/2020/05/13/alesis-quadrasynth-plus-piano/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/000-Cinema-Piano.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/000-TrueStereo.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/001-Periphelion.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/003-Stereo06Str.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/004-ModWhlClav.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/005-Slap-It.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/005-WalkinMute.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/007-Quadratix.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/008-BayOf-Pigs.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/008-D4-Pwr-Kit.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/008-Shufflin.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/009-ToneWhlPrc.mp3",
+          "label": "QuadraSynth Plus Piano audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Alesis",
+      "model_slug": "airSynth",
+      "display_name": "Alesis airSynth",
+      "source_url": "https://synthmania.com/2005/03/02/alesis-airsynth/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/00-Chopper.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Android-Choir.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Beat-Machine.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-FM.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-Didgiri-Dont.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-Oberon-Swell.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-Demon-Pad.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07-Star-Chime.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/08-C-Saw.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09-Air-amin.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/10-Radio-Bass.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-Free-Bass.mp3",
+          "label": "airSynth audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Desktop Digital Monophonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Alpha Juno-2",
+      "display_name": "Roland Alpha Juno-2",
+      "source_url": "https://synthmania.com/2015/09/28/roland-alpha-juno-2/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-Bi-Phase.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-Brass-1.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-Brass-2.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-Sweep-Down.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-PWM-Brass.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-Sunrise.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-Seq-Pluck1.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-Spit-Valve.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-Syn-Harp-1.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-Synth-Brass.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-Brass-Swell.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-GlideOrgan.mp3",
+          "label": "Alpha Juno-2 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "AN200",
+      "display_name": "Yamaha AN200",
+      "source_url": "https://synthmania.com/2005/03/01/yamaha-an200/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song001.mp3",
+          "label": "AN200 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song002.mp3",
+          "label": "AN200 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Song003.mp3",
+          "label": "AN200 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Groovebox"
+      }
+    },
+    {
+      "maker_slug": "Crumar",
+      "model_slug": "One",
+      "display_name": "Bit One",
+      "source_url": "https://synthmania.com/2004/09/06/bit-one/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/08.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/10.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12.mp3",
+          "label": "One audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Crumar",
+      "model_slug": "Bit 99",
+      "display_name": "Bit 99",
+      "source_url": "https://synthmania.com/2015/08/29/bit-99/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-ELECTRIC-GRAND.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-PIANO.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-BRASS-1.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-ELECTRIC-PIANO.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-BRASS-1.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-DIGITAL-PIANO.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-BOWED-STRINGS.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-BOWED-VIOLINS.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-ELECTRIC-PIANO-1.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-MARIMBA.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-ORGAN-1.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-VELOCITY-CONTR.-PULSE.mp3",
+          "label": "Bit 99 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Hammond Organ Company",
+      "model_slug": "C-3",
+      "display_name": "Hammond C-3",
+      "source_url": "https://synthmania.com/2005/01/05/hammond-c-3/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Hammond-C-3-examples-Back-At-The-Chicken-Shack.mp3",
+          "label": "C-3 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Hammond-C-3-examples-various-blues-reggae-church.mp3",
+          "label": "C-3 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Hammond-C-3-examples-various-jazzy.mp3",
+          "label": "C-3 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Electro-Mechanical Organ, Organ"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JX-8P",
+      "display_name": "Roland JX-8P",
+      "source_url": "https://synthmania.com/2012/06/03/roland-jx-8p/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Piano-1.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Piano-4.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Piano-2.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Piano-5.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-Piano-3.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-Piano-6.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-Cello-Sect.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-StrngBrass.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-ArcoString.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-Bright-Bow.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-Lo-Strings.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-Strings-1.mp3",
+          "label": "JX-8P audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-10",
+      "display_name": "Roland D-10",
+      "source_url": "https://synthmania.com/2014/03/15/roland-d-10/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/1-Macho-Memory.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-8Beat-1.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-8Beat-2.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-8Beat-3.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-8Beat-4.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-8Beat-5.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-8Beat-6.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/17-Ballad.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/18-Reggae.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/2-Jah-May-Kah.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/21-16Beat-1.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/22-16Beat-2.mp3",
+          "label": "D-10 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-110",
+      "display_name": "Roland D-110",
+      "source_url": "https://synthmania.com/2006/10/15/roland-d-110/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/1-Macho-Memory-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/2-Jah-May-Kah-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/3-Sugar-Plum-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/4-My-Brother-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/5-Folk-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/6-Bumble-Dee-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/7-Mergatroid-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/8-Dinner-Set-1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A11-AcouPiano1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A15-ElecPiano1.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A22-ElecOrgan2.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A24-ElecOrgan4.mp3",
+          "label": "D-110 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-50",
+      "display_name": "Roland D-50",
+      "source_url": "https://synthmania.com/2005/12/26/roland-d-50/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-Fantasia.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-Metal-Harp.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-Jazz-Guitar-Duo.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-Arco-Strings.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-Horn-Section.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-Living-Calliope.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/17-D-50-Voices.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/18-Slow-Rotor.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/21-DigitalNativeDance.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/22-Bass-Marimba.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/23-Flute-Piano-Duo.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/24-Combie-Strings.mp3",
+          "label": "D-50 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-550",
+      "display_name": "Roland D-550",
+      "source_url": "https://synthmania.com/2005/10/30/roland-d-550/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Audiotest_D550.mp3",
+          "label": "D-550 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-70",
+      "display_name": "Roland D-70",
+      "source_url": "https://synthmania.com/2012/06/10/roland-d-70/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-D-Piano-1.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-Grandioso.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-Rhodes-1.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-BellRhodes.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-Tack-Piano.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-AcPiaStr.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/17-MIDI-Piano.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/18-BandRhodes.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/21-Stirrings.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/22-Slow-n-Low.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/23-JP-Strings.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/24-Pipes-1.mp3",
+          "label": "D-70 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D2",
+      "display_name": "Roland D2",
+      "source_url": "https://synthmania.com/2005/02/28/roland-d2/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A09-EuroTrance-9.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A13-Progressive-3.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A19-Psy-Trance-3.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A23-HardTrance-2.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A33-Trance-7.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A37-DetroitTechno-4.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A41-Minimal-2.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A50-New-Electro-4.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A51-Ambient-1.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A55-NU-NRG-1.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A62-EuroBeat-3.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A64-HappyHardcore-2.mp3",
+          "label": "D2 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Groovebox"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "DDM-110",
+      "display_name": "Korg DDM-110",
+      "source_url": "https://synthmania.com/2005/05/18/korg-ddm-110/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/DDM-110-DRUM-SAMPLES.wav",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Deee-Lite.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Electro-1.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Electro-2.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Fonky-1.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Fonky-2.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/House.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Techno-Samba.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Tribal-House.mp3",
+          "label": "DDM-110 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Drum Machine, Drum Machine"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "DJX-IIB",
+      "display_name": "Yamaha DJX-IIB",
+      "source_url": "https://synthmania.com/2005/02/22/yamaha-djx-iib/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/00-Techno.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07-Underground.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09-Discomania.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-Club-Vibes.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/22-Trance-Traxx.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/25-Elektro-Empire.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/29-Garage.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/32-Drum-n-Bass.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/38-Hip-Hop.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/41-Space-Hop.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/43-Swing-Hop.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/47-Gangsta.mp3",
+          "label": "DJX-IIB audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Groovebox"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "DJX (Portatone PSR-D1)",
+      "display_name": "Yamaha DJX (Portatone PSR-D1)",
+      "source_url": "https://synthmania.com/2005/03/12/yamaha-djx-portatone-psr-d1/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/000-DJX.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/001-Fuzzline.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/001-P_TRANCE.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/001-Pop-Techno.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/002-HIPHOP.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/002-Trip-Hop.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/003-ELEKTRO.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/003-Electro.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/004-Goa.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/004-Universe.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/005-HardStep.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/006-Handbag1.mp3",
+          "label": "DJX (Portatone PSR-D1) audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Accompaniment Keyboard, Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Siel",
+      "model_slug": "DK 80",
+      "display_name": "SIEL DK 80",
+      "source_url": "https://synthmania.com/2011/05/22/siel-dk-80/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/00-PIANO-1.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-E-PIANO.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-FAT-BRASS.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-STRINGS-1.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-SYNTH-CHOP.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-FLUTE.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-TROMBONE.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07-ORGAN-1.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/08-BASS-BRASS.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09-TWIN-PIANOS.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/10-PIANO-2.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-SYNTH-PIANO.mp3",
+          "label": "DK 80 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "DS-8",
+      "display_name": "Korg DS-8",
+      "source_url": "https://synthmania.com/2014/03/30/korg-ds-8/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/00-Piano-1.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Piano-2.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Piano-3.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-El.Piano-1.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/04-El.Piano-2.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/05-El.Piano-3.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/06-El.Piano-4.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/07-Lead-Piano.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/08-Clav-1.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/09-Clav-2.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/10-Organ-1.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-Organ-2.mp3",
+          "label": "DS-8 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "DSS-1",
+      "display_name": "Korg DSS-1",
+      "source_url": "https://synthmania.com/2009/03/22/korg-dss-1/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Clav.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Drawn-01.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Drawn-02.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Drawn-03.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Drawn-04.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Drawn-05.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Metal.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Organ-4.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Saw.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/Square.mp3",
+          "label": "DSS-1 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "DW-8000",
+      "display_name": "Korg DW-8000",
+      "source_url": "https://synthmania.com/2010/10/16/korg-dw-8000/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-BRASS-DELAY.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/11-GLIDE-BRASS-I.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-BELLS-SE-1.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/12-GLIDE-BRASS-II.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-BRASS-I.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/13-CX-3.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-BRASS-II.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/14-CHORUSED-E.PIANO_.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-MELLOW-HORNS.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/15-STRINGS-1.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-AUTO-BRASS.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/16-SLAP-BASS.mp3",
+          "label": "DW-8000 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "DX100",
+      "display_name": "Yamaha DX100",
+      "source_url": "https://synthmania.com/2017/08/13/yamaha-dx100/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Easy-Synth.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Glocken.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-IvoryEbony-1.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-IvoryEbony.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/01-Solid-Bass.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Easy-Clav.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Hamarimba.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-SyntheBass.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Uprt-piano-1.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/02-Uprt-piano.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-HonkeyTonk.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/03-Mono-Bass.mp3",
+          "label": "DX100 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "DX11",
+      "display_name": "Yamaha DX11",
+      "source_url": "https://synthmania.com/2016/06/05/yamaha-dx11/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A01-Syn.Str-1.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A02-Syn.-Str-2.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A03-Sy.Brass-1.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A04-Sy.Brass-2.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A05-Sy.Brass-3.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A06-Sy.Brass-4.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A07-Sy.Ensem_.1.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A08-Sy.Ensem_.2.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A09-Sy.Ensem_.3.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A10-Sy.Ensem_.4.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A11-Sy.Ensem_.5.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/A12-Sy.Perc_.-1.mp3",
+          "label": "DX11 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "DX7",
+      "display_name": "Yamaha DX7",
+      "source_url": "https://synthmania.com/2005/04/16/yamaha-dx7/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT01-BRASS-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT02-BRASS-2.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT03-BRASS-3.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT04-STRINGS-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT05-STRINGS-2-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT06-STRINGS-3-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT07-ORCHESTRA-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT08-PIANO-1-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT09-PIANO-2-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT10-PIANO-3-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT11-E.PIANO-1-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/05/INT12-GUITAR-1-1.mp3",
+          "label": "DX7 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EM-10",
+      "display_name": "Roland EM-10",
+      "source_url": "https://synthmania.com/2004/12/26/roland-em-10/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/50s-60s.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Acoustic.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Bass-Syn-Sfx.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Brass-Sfx.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Chr-Perc-Pipe.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Ensemble-Percussive.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Guitar-Syn-Pad.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Jazz.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Latin.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Orchestra-Ethnic.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Organ-Syn-Lead.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Piano-Reed.mp3",
+          "label": "EM-10 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Accompaniment Keyboard, Keyboard"
+      }
+    },
+    {
+      "maker_slug": "E-mu Systems",
+      "model_slug": "Emulator III",
+      "display_name": "E-mu Emulator III",
+      "source_url": "https://synthmania.com/2009/10/16/e-mu-emulator-iii/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/Alex-Stone-Lux-Aeterna-W.A.Mozart-cover-1.mp3",
+          "label": "Emulator III audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler"
+      }
+    },
+    {
+      "maker_slug": "Kawai Musical Instruments",
+      "model_slug": "EP608",
+      "display_name": "Kawai EP608",
+      "source_url": "https://synthmania.com/2006/05/22/kawai-ep608/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/roaldsdemosep608demo1.mp3",
+          "label": "EP608 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/roaldsdemosep608demo2.mp3",
+          "label": "EP608 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Electric Piano, Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Electribe S ES-1",
+      "display_name": "Korg Electribe S ES-1",
+      "source_url": "https://synthmania.com/2006/09/02/korg-electribe-s-es-1/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A01-Hardstep.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A02-Darkside.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A03-Crumb-and-Mace.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A04-Sizing-it-Up.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A05-Tribal-Step.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A06-Mad-Walking-Bass.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A07-Cyber-Funk.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A08-Rave-Jump-Up.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A09-Filter-Bass.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A10-Dark-Cyber.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A11-Boosted-Jazz.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/06/A12-Flangungle.mp3",
+          "label": "Electribe S ES-1 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler, Sampling Drum Machine"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "microSTATION",
+      "display_name": "Korg microSTATION",
+      "source_url": "https://synthmania.com/2020/07/19/korg-microstation/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-L-R-Piano.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-PianoStr.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/003-Heaven-Pad.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/003-M1-Piano.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/005-Suitcase.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/008-Pure-Wurly.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/009-Funk-Jam.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/011-Deluxe-EP.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/013-Clav-BC.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/013-Split-Org1.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/014-Perc-Organ.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/018-Bellissima.mp3",
+          "label": "microSTATION audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Novation",
+      "model_slug": "MiniNova",
+      "display_name": "Novation MiniNova",
+      "source_url": "https://synthmania.com/2020/07/19/novation-mininova/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/4ThCity.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/80sSequencer.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/Aaah-1.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/Aaah-2.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/AcidicBass.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/AlaskaSp.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/ArpProSoloist.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/Balladee.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BassHoovr.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BassIsWet.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/Black3MailBox.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BoogieOn.mp3",
+          "label": "MiniNova audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Synthesizer, Virtual Analog Polyphonic Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SE-02",
+      "display_name": "Roland SE-02",
+      "source_url": "https://synthmania.com/2020/07/20/roland-se-02/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Inbound.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Sweep-Drone.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Polite-Pluck.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/003-Little-Bigman.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/004-SweetDreams.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/006-She-Says-Bass.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/009-80s-Invert-1.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/014-Saw-Hit.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/019-Thumbtacker.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/020-Squirmany.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/021-Snoop-Up-Jump.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/035-Infected.mp3",
+          "label": "SE-02 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Desktop Analog Monophonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "Wavestation SR",
+      "display_name": "Korg Wavestation SR",
+      "source_url": "https://synthmania.com/2020/07/20/korg-wavestation-sr/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Funky-Planet.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Layers-Of-Funk.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Life-Goes-On.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Mizik-Split.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Mr-Terminator.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Pharoahs-Jig.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Sky-Jam.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/00-Toto-ly-6-8.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/01-Cin-a-max-90.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/01-Deep-Atmosphere.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/01-Leaving-the-Pod.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/02-Cosmic-Dawn.mp3",
+          "label": "Wavestation SR audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Ensoniq",
+      "model_slug": "ESQ-1",
+      "display_name": "Ensoniq ESQ-1",
+      "source_url": "https://synthmania.com/2005/02/20/ensoniq-esq-1/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/2-COOL.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/3TRUMS.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/4XFADE.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/ANABRS.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BL-PNO.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BOTTLS.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/BRASTR.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/CLAV-1.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/DIGPNO.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/ECHO1.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/HARP2.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/HEVBRS.mp3",
+          "label": "ESQ-1 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "EX5R",
+      "display_name": "Yamaha EX5R",
+      "source_url": "https://synthmania.com/2020/07/23/yamaha-ex5r/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Fx-Rising-High.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Pd-Abendstern-2.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Pd-PW-Pad.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Pf-Grusin-Split.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Pf-Natural-Grnd-1.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Pf-Natural-Grnd.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Sq-Equi-1998.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Sq-Radioactive.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Ba-Pulse-Bass-2.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-En-AahChoir.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Fx-Eternal.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Pd-Warmer.mp3",
+          "label": "EX5R audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "monologue",
+      "display_name": "KORG monologue",
+      "source_url": "https://synthmania.com/2020/07/29/korg-monologue/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-afx-acid3.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Injection.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/003-Anfem.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/004-wavetable.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/005-Lu-Fuki.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/006-Fake3OSC.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/007-Arc-Lead.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/008-Flute.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/009-Scoooping.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/010-Robot-Empire.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/011-TeeVeeSaw.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/012-AFX-bAss.mp3",
+          "label": "monologue audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Monophonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Fantom XR",
+      "display_name": "Roland Fantom XR",
+      "source_url": "https://synthmania.com/2014/08/31/roland-fantom-xr/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-ConcertGrand.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Da-Chronic.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Digital-Aahs.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-FS-Flute.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-GK-Dubguitar.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Grand-X.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-HPF-Sweep.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-Minor-Thirds.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-So-true...mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/001-UltimatGrand.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-Atk-Flute.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/07/002-ConcertPiano.mp3",
+          "label": "Fantom XR audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "XV-5080",
+      "display_name": "Roland XV-5080",
+      "source_url": "https://synthmania.com/2020/08/16/roland-xv-5080/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-128voicePno.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-80s-Retrosyn.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-Grand-XV.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-PowerDrumSet.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-XV-WayHipKit.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/001-Xtremities.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/002-Upright-Pno.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/002-XV-Bully-Kit.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/002-Y2K-Concerto.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/003-Amped-Wurlie.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/003-Swimming-EP.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/08/003-XV-Rust-Kit.mp3",
+          "label": "XV-5080 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet X",
+      "display_name": "Sequential Prophet X",
+      "source_url": "https://synthmania.com/2020/12/11/sequential-prophet-x/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-101-Avant-Choir.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P1-PX-Tease.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P10-Modern-Grand-1990.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P109-Broken-Violin.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P14-Soft-Scoring-Grand.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P2-Prophet-5-Bass.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P3-Poly-Super.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P30-Haunted-Temple.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P32-Vintage-Lead.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P34-WarmArcoStr.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P4-Clunky-Favinet.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2020/12/F1-P40-Moving-Pictures.mp3",
+          "label": "Prophet X audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Yamaha",
+      "model_slug": "PSS-170",
+      "display_name": "Yamaha PSS-170",
+      "source_url": "https://synthmania.com/2021/02/17/yamaha-pss-170/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/02/Yamaha-PSS-170.mp3",
+          "label": "PSS-170 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Accompaniment Keyboard, Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Moog Music",
+      "model_slug": "Rogue",
+      "display_name": "Moog Rogue",
+      "source_url": "https://synthmania.com/2021/03/17/moog-rogue/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/01-THE-MOOG-ROGUE.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/02-THAT-MOOG\\u00ae-SOUND-Minimoog-Sound.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/02-THAT-MOOG®-SOUND-Minimoog-Sound.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/03-ELECTRIC-GUITAR-Minimoog-Sound.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/04-ELECTRIC-PIANO.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/05-HARPSICHORD.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/06-THE-GOOD-SOUND.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/07-BASS-I-Acoustic.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/08-BASS-II-ROGUE-POWERBASS.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/09-BASS-III-TUBA-Prodigy-Sound.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/10-FRANKENFUNK-Prodigy-Sound.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/11-TYMPANI.mp3",
+          "label": "Rogue audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Monophonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "microX",
+      "display_name": "Korg microX",
+      "source_url": "https://synthmania.com/2021/03/18/korg-microx/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-Ana-Brass-Lead.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-Big-Sweep-Stab.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-EuphoricTrancer.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-Kombat.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-Mix-it-Up.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/000-Trash-Aliens.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/001-80s-Analogues.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/001-Acoustic-Piano.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/001-Massiv-Klub.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/002-Arp-Twins.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/002-Noise-Shot.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/03/002-Nylon-Dreams.mp3",
+          "label": "microX audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JV-1080",
+      "display_name": "Roland JV-1080",
+      "source_url": "https://synthmania.com/2021/08/08/roland-jv-1080/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/JV_1080_Audio_demo.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-001-Symphonique-demo-2.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-001-Symphonique.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-002-Alternative.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-003-Velo-Tekno-1.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-005-Albion.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-006-Jz-Gtr-Hall.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-007-Rocker-Spin.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-008-101-Bass.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-009-Claviduck.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-010-Jet-Pad-2.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/U-011-Raggatronic.mp3",
+          "label": "JV-1080 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Kurzweil Music Systems",
+      "model_slug": "K2500RS",
+      "display_name": "Kurzweil K2500RS",
+      "source_url": "https://synthmania.com/2021/08/08/kurzweil-k2500rs/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/015-Big-PWM.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/033-Gooshy-Lead.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/055-Garage-Kit-MW.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/075-Yama-Bass.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/084-Acoustic-Guitar.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/118-Cathedral-Choir.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/125-Fast-Solo-Tenor.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/144-Jazz-Band.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/152-Microwave.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/154-Solina-Phaze.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/163-Big-Strings.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/165-Digital-Choir.mp3",
+          "label": "K2500RS audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Rack Digital Polyphonic Synthesizer, Rack Sampler, Sampler, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Ensoniq",
+      "model_slug": "EPS",
+      "display_name": "Ensoniq EPS",
+      "source_url": "https://synthmania.com/2021/08/12/ensoniq-eps/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ac-Guitar-demo-song.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ac-Guitar.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Acstc-Guitar-demo-song.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Acstc-Guitar.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ah-Voices.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ambient-Drums-Vibraphone.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Banjo.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Bell-Tree.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Bum-Voice-Doo-Voices-demo-song.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Bwd-Strings.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Carls-Hit.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Celestial-Vc-demo-song.mp3",
+          "label": "EPS audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "S-50",
+      "display_name": "Roland S-50",
+      "source_url": "https://synthmania.com/2021/08/12/roland-s-50/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ac-Piano-Hpf.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Ac-Piano-Lpf.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Acousti-DR.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Brass.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Choir-Strngs.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Choir.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Elec-DR.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Fight.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Gated-DR.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Marimba.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Medley.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/Mellow-Piano.wav",
+          "label": "S-50 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler"
+      }
+    },
+    {
+      "maker_slug": "Korg Inc.",
+      "model_slug": "01/W FD",
+      "display_name": "Korg 01/W FD",
+      "source_url": "https://synthmania.com/2021/08/27/korg-01-w-fd/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A00-DawnOfTime.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A00-Ephemerals.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A01-A-Piano-2.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A01-MIDI-Piano.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A02-Orchbrass.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A02-The-Finale.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A03-SuperSynth.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A03-Woodwind.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A04-RosewoodGt.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A04-Vox-Picker.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A05-BellBlue.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2021/08/A05-VS-Bells-1.mp3",
+          "label": "01/W FD audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JD-Xi",
+      "display_name": "Roland JD-Xi",
+      "source_url": "https://synthmania.com/2022/12/12/roland-jd-xi/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A01-Unleash-Xi.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A02-Dist-Seq.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A03-SPACED.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A04-GETTINCLOSE.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A05-Trance-1.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A06-EDM-KIDS.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A07-COME-ON-BABY.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A08-Hardstyle-1.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A09-DUBBER.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A10-Hip-Hop-1.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A19-House-1.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2022/12/A21-E-D-M.mp3",
+          "label": "JD-Xi audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer, Mini-Key Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Ensoniq",
+      "model_slug": "Mirage",
+      "display_name": "Ensoniq Mirage",
+      "source_url": "https://synthmania.com/2023/03/24/ensoniq-mirage/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A1-a-AMBIENT-DRUMS.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A1-b-LATIN-PERCUSSION.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A1-c-VIBRAPHONE.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A10-a-PIPE-ORGAN-HIT-MARK-TREE-DOWN.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A10-b-SNARE-BUZZ-ROLL-TELEPHONE-MARK-TREE-UP.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A10-c-IGORS-HIT-ORCH-HIT-II.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A2-a-CLAVI.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A2-b-ELECTRIC-PIANO-1.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A2-c-DRAWBAR-ORGAN-1.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A3-a-TA.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A3-b-DOO.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/03/A3-c-MALE.wav",
+          "label": "Mirage audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Sampler"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "DrumTraks",
+      "display_name": "Sequential Circuits DrumTraks",
+      "source_url": "https://synthmania.com/2023/07/09/sequential-circuits-drumtraks/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/00-1.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/00-2.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/00.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/01-1.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/01-2.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/01.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/02-1.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/02-2.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/02.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/03-1.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/03.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/07/04.mp3",
+          "label": "DrumTraks audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Drum Machine, Drum Machine"
+      }
+    },
+    {
+      "maker_slug": "Sequential",
+      "model_slug": "Prophet-5 Rev. 2",
+      "display_name": "Sequential Circuits Prophet-5 Rev. 2",
+      "source_url": "https://synthmania.com/2023/09/15/sequential-circuits-prophet-5-rev-2/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/11-Brass.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/12-Low-Strings.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/13-Muted-Clav.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/14-Percussive-Electric-Piano.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/15-Flutes.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/16-Harpsichord.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/17-Sync-I.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/18-Percussive-Organ.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/21-Unison-Glide-With-Resonance.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/22-Harmonium.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/23-Organ-With-Resonance.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/24-Toy-Piano.mp3",
+          "label": "Prophet-5 Rev. 2 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Oberheim",
+      "model_slug": "OB-Xa",
+      "display_name": "Oberheim OB-Xa",
+      "source_url": "https://synthmania.com/2023/09/24/oberheim-ob-xa/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/001-A1-Brass-Ensemble.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/002-A2-Clavinet.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/003-A3-Low-Strings.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/004-A4-Electric-Piano.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/005-A5-Rotary-Organ.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/006-A6-Flutes.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/007-A7-Harpsichord.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/008-A8-Rock-Unison.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/009-B1-French-Horns.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/010-B2-Celeste.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/011-B3-High-Strings.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2023/09/012-B4-Electronic-Piano.mp3",
+          "label": "OB-Xa audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Analog Polyphonic Synthesizer, Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Jupiter-80",
+      "display_name": "Roland Jupiter-80",
+      "source_url": "https://synthmania.com/2025/02/02/roland-jupiter-80/",
+      "links": [
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A1-Big-Mouth-Pad.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A2-Neo-Jupiter.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A3-Classic-Ways.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A4-Dog-Collar-Lead.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A5-Saw-Crusher.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A6-Hammerhead.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A7-GG-Saws.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-A8-Dream-Drone.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-B1-Very-Wet-Floor.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-B2-Club-Stack.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-B3-Plat-Synth-Brass.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        },
+        {
+          "url": "https://synthmania.com/wp-content/uploads/2025/02/01-B4-Mini-Ripper.mp3",
+          "label": "Jupiter-80 audio demo",
+          "block": "resources"
+        }
+      ],
+      "specs": {
+        "categories": "Digital Polyphonic Synthesizer"
+      }
+    }
+  ]
+}

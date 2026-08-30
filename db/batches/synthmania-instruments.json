@@ -1,0 +1,421 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Alesis",
+      "instruments": [
+        {
+          "name": "QuadraSynth Plus Piano",
+          "source_url": "https://synthmania.com/2020/05/13/alesis-quadrasynth-plus-piano/",
+          "year": 1993,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "airSynth",
+          "source_url": "https://synthmania.com/2005/03/02/alesis-airsynth/",
+          "year": 2001,
+          "category": "Desktop Digital Monophonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Crumar",
+      "instruments": [
+        {
+          "name": "Bit 99",
+          "source_url": "https://synthmania.com/2015/08/29/bit-99/",
+          "year": 1985,
+          "category": "Analog Polyphonic Synthesizer"
+        },
+        {
+          "name": "One",
+          "source_url": "https://synthmania.com/2004/09/06/bit-one/",
+          "year": 1984,
+          "category": "Analog Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "E-mu Systems",
+      "instruments": [
+        {
+          "name": "Emulator III",
+          "source_url": "https://synthmania.com/2009/10/16/e-mu-emulator-iii/",
+          "year": 1987,
+          "category": "Sampler"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ensoniq",
+      "instruments": [
+        {
+          "name": "EPS",
+          "source_url": "https://synthmania.com/2021/08/12/ensoniq-eps/",
+          "year": 1988,
+          "category": "Sampler"
+        },
+        {
+          "name": "ESQ-1",
+          "source_url": "https://synthmania.com/2005/02/20/ensoniq-esq-1/",
+          "year": 1986,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "Mirage",
+          "source_url": "https://synthmania.com/2023/03/24/ensoniq-mirage/",
+          "year": 1984,
+          "category": "Sampler"
+        },
+        {
+          "name": "TS-12",
+          "source_url": "https://synthmania.com/2020/05/11/ensoniq-ts-12/",
+          "year": 1993,
+          "category": "Digital Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hammond Organ Company",
+      "instruments": [
+        {
+          "name": "C-3",
+          "source_url": "https://synthmania.com/2005/01/05/hammond-c-3/",
+          "year": 1954,
+          "category": "Electro-Mechanical Organ"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kawai Musical Instruments",
+      "instruments": [
+        {
+          "name": "EP608",
+          "source_url": "https://synthmania.com/2006/05/22/kawai-ep608/",
+          "year": 1983,
+          "category": "Electric Piano"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Korg Inc.",
+      "instruments": [
+        {
+          "name": "01/W FD",
+          "source_url": "https://synthmania.com/2021/08/27/korg-01-w-fd/",
+          "year": 1991,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "01R/W",
+          "source_url": "https://synthmania.com/2009/09/20/korg-01r-w/",
+          "year": 1991,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "05R/W",
+          "source_url": "https://synthmania.com/2006/11/10/korg-05r-w/",
+          "year": 1993,
+          "category": "Half-Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "DDM-110",
+          "source_url": "https://synthmania.com/2005/05/18/korg-ddm-110/",
+          "year": 1984,
+          "category": "Digital Drum Machine"
+        },
+        {
+          "name": "DS-8",
+          "source_url": "https://synthmania.com/2014/03/30/korg-ds-8/",
+          "year": 1987,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "DSS-1",
+          "source_url": "https://synthmania.com/2009/03/22/korg-dss-1/",
+          "year": 1986,
+          "category": "Sampler"
+        },
+        {
+          "name": "DW-8000",
+          "source_url": "https://synthmania.com/2010/10/16/korg-dw-8000/",
+          "year": 1985,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "Electribe S ES-1",
+          "source_url": "https://synthmania.com/2006/09/02/korg-electribe-s-es-1/",
+          "year": 2000,
+          "category": "Sampler"
+        },
+        {
+          "name": "Wavestation SR",
+          "source_url": "https://synthmania.com/2020/07/20/korg-wavestation-sr/",
+          "year": 1992,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "microSTATION",
+          "source_url": "https://synthmania.com/2020/07/19/korg-microstation/",
+          "year": 2010,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "microX",
+          "source_url": "https://synthmania.com/2021/03/18/korg-microx/",
+          "year": 2007,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "monologue",
+          "source_url": "https://synthmania.com/2020/07/29/korg-monologue/",
+          "year": 2016,
+          "category": "Analog Monophonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kurzweil Music Systems",
+      "instruments": [
+        {
+          "name": "K2500RS",
+          "source_url": "https://synthmania.com/2021/08/08/kurzweil-k2500rs/",
+          "year": 1996,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Moog Music",
+      "instruments": [
+        {
+          "name": "Rogue",
+          "source_url": "https://synthmania.com/2021/03/17/moog-rogue/",
+          "year": 1981,
+          "category": "Analog Monophonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Novation",
+      "instruments": [
+        {
+          "name": "MiniNova",
+          "source_url": "https://synthmania.com/2020/07/19/novation-mininova/",
+          "year": 2012,
+          "category": "Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oberheim",
+      "instruments": [
+        {
+          "name": "OB-Xa",
+          "source_url": "https://synthmania.com/2023/09/24/oberheim-ob-xa/",
+          "year": 1980,
+          "category": "Analog Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Roland Corporation",
+      "instruments": [
+        {
+          "name": "Alpha Juno-2",
+          "source_url": "https://synthmania.com/2015/09/28/roland-alpha-juno-2/",
+          "year": 1985,
+          "category": "Analog Polyphonic Synthesizer"
+        },
+        {
+          "name": "D-10",
+          "source_url": "https://synthmania.com/2014/03/15/roland-d-10/",
+          "year": 1988,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "D-110",
+          "source_url": "https://synthmania.com/2006/10/15/roland-d-110/",
+          "year": 1990,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "D-50",
+          "source_url": "https://synthmania.com/2005/12/26/roland-d-50/",
+          "year": 1987,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "D-550",
+          "source_url": "https://synthmania.com/2005/10/30/roland-d-550/",
+          "year": 1987,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "D-70",
+          "source_url": "https://synthmania.com/2012/06/10/roland-d-70/",
+          "year": 1990,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "D2",
+          "source_url": "https://synthmania.com/2005/02/28/roland-d2/",
+          "year": 2001,
+          "category": "Groovebox"
+        },
+        {
+          "name": "EM-10",
+          "source_url": "https://synthmania.com/2004/12/26/roland-em-10/",
+          "year": 1999,
+          "category": "Digital Accompaniment Keyboard"
+        },
+        {
+          "name": "Fantom XR",
+          "source_url": "https://synthmania.com/2014/08/31/roland-fantom-xr/",
+          "year": 2004,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "JD-Xi",
+          "source_url": "https://synthmania.com/2022/12/12/roland-jd-xi/",
+          "year": 2015,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "JV-1080",
+          "source_url": "https://synthmania.com/2021/08/08/roland-jv-1080/",
+          "year": 1994,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "JX-8P",
+          "source_url": "https://synthmania.com/2012/06/03/roland-jx-8p/",
+          "year": 1985,
+          "category": "Analog Polyphonic Synthesizer"
+        },
+        {
+          "name": "Jupiter-80",
+          "source_url": "https://synthmania.com/2025/02/02/roland-jupiter-80/",
+          "year": 2011,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "S-50",
+          "source_url": "https://synthmania.com/2021/08/12/roland-s-50/",
+          "year": 1986,
+          "category": "Sampler"
+        },
+        {
+          "name": "SE-02",
+          "source_url": "https://synthmania.com/2020/07/20/roland-se-02/",
+          "year": 2017,
+          "category": "Desktop Analog Monophonic Synthesizer"
+        },
+        {
+          "name": "XV-5080",
+          "source_url": "https://synthmania.com/2020/08/16/roland-xv-5080/",
+          "year": 2000,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sequential",
+      "instruments": [
+        {
+          "name": "DrumTraks",
+          "source_url": "https://synthmania.com/2023/07/09/sequential-circuits-drumtraks/",
+          "year": 1983,
+          "category": "Digital Drum Machine"
+        },
+        {
+          "name": "Prophet X",
+          "source_url": "https://synthmania.com/2020/12/11/sequential-prophet-x/",
+          "year": 2018,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "Prophet-5 Rev. 2",
+          "source_url": "https://synthmania.com/2023/09/15/sequential-circuits-prophet-5-rev-2/",
+          "year": 1978,
+          "category": "Analog Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Siel",
+      "instruments": [
+        {
+          "name": "Cruise",
+          "source_url": "https://synthmania.com/2004/07/15/siel-cruise/",
+          "year": 1981,
+          "category": "Analog Polyphonic Synthesizer"
+        },
+        {
+          "name": "DK 80",
+          "source_url": "https://synthmania.com/2011/05/22/siel-dk-80/",
+          "year": 1985,
+          "category": "Analog Polyphonic Synthesizer"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yamaha",
+      "instruments": [
+        {
+          "name": "A4000",
+          "source_url": "https://synthmania.com/2005/04/09/yamaha-a4000/",
+          "year": 1999,
+          "category": "Rack Sampler"
+        },
+        {
+          "name": "AN200",
+          "source_url": "https://synthmania.com/2005/03/01/yamaha-an200/",
+          "year": 2001,
+          "category": "Groovebox"
+        },
+        {
+          "name": "DJX (Portatone PSR-D1)",
+          "source_url": "https://synthmania.com/2005/03/12/yamaha-djx-portatone-psr-d1/",
+          "year": 1998,
+          "category": "Digital Accompaniment Keyboard"
+        },
+        {
+          "name": "DJX-IIB",
+          "source_url": "https://synthmania.com/2005/02/22/yamaha-djx-iib/",
+          "year": 2000,
+          "category": "Groovebox"
+        },
+        {
+          "name": "DX100",
+          "source_url": "https://synthmania.com/2017/08/13/yamaha-dx100/",
+          "year": 1985,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "DX11",
+          "source_url": "https://synthmania.com/2016/06/05/yamaha-dx11/",
+          "year": 1988,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "DX7",
+          "source_url": "https://synthmania.com/2005/04/16/yamaha-dx7/",
+          "year": 1983,
+          "category": "Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "EX5R",
+          "source_url": "https://synthmania.com/2020/07/23/yamaha-ex5r/",
+          "year": 1998,
+          "category": "Rack Digital Polyphonic Synthesizer"
+        },
+        {
+          "name": "PSS-170",
+          "source_url": "https://synthmania.com/2021/02/17/yamaha-pss-170/",
+          "year": 1986,
+          "category": "Digital Accompaniment Keyboard"
+        }
+      ]
+    }
+  ]
+}
