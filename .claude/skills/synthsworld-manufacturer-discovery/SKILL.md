@@ -103,6 +103,14 @@ automatic continuous expansion.
       original summary sentence is both the accuracy rule (see confidence
       logic below) and the copyright-safety rule at the same time -- do it
       that way by default, don't treat it as an extra step.
+   f. **Also write `long_history`**, a second, roughly 3x longer version of
+      the history -- more specific dates, named products, people involved,
+      notable events -- same rules as `short_history`: own words, synthesized
+      across sources, never a copy or light reword of one source. Both
+      versions are kept side by side, `long_history` never replaces
+      `short_history`. Write BOTH into `facts_sources` as separate rows
+      (`field_name` = `'short_history'` and `'long_history'`), same
+      per-field confidence rules apply to each independently.
 
 4. **Write every fact to `facts_sources`** BEFORE deciding on confidence --
    one row per (manufacturer, field, source), never overwrite an existing

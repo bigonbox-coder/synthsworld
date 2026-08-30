@@ -24,8 +24,8 @@ def main() -> None:
 
     cur.execute(
         """
-        SELECT id, canonical_name, country, short_history, official_website,
-               status, confidence_level
+        SELECT id, canonical_name, country, short_history, long_history,
+               official_website, status, confidence_level
         FROM manufacturers
         ORDER BY canonical_name COLLATE NOCASE
         """

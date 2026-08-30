@@ -4,6 +4,7 @@
     "canonical_name": "Aguilar Amplification",
     "country": null,
     "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
@@ -11,10 +12,58 @@
     "relations": []
   },
   {
+    "id": 14,
+    "canonical_name": "ARP Instruments",
+    "country": "United States",
+    "short_history": "Founded in 1969 in Lexington, Massachusetts by engineer Alan R. Pearlman, initially as Tonus, Inc., before adopting the ARP name (from his own initials). Became a dominant force in 1970s synthesizers, at one point holding roughly 40% of the market, with instruments like the ARP 2600 and Odyssey. A costly, underperforming guitar-synthesizer project drained the company's finances, and ARP was forced into bankruptcy in 1981; its assets, including the prototype ARP Chroma, were sold to CBS Musical Instruments and the Chroma was later released as the Rhodes Chroma.",
+    "long_history": "ARP Instruments was founded in Lexington, Massachusetts in 1969 by Alan R. Pearlman, an electrical engineer who had previously co-founded and sold an amplifier company, Nexus Research Labs, giving him the capital to start a synthesizer venture on his own terms. The company was initially incorporated as Tonus, Inc. before taking the ARP name, derived from Pearlman's own initials. Through the 1970s ARP became one of the two dominant American synthesizer makers alongside Moog, producing widely used instruments such as the ARP 2600 (a semi-modular synth popular in both studios and education) and the more affordable, best-selling ARP Odyssey, at one point capturing roughly 40 percent of the synthesizer market. The company's decline began in 1977, when it committed heavily to developing the ARP Avatar, a guitar synthesizer, against Pearlman's own objections. The Avatar arrived late, worked poorly, and consumed about four million dollars in development and production costs against roughly one million dollars in sales over two years, crippling the company's cash flow and starving other product development. With sales declining and no major new product to rely on, ARP was pushed into bankruptcy in 1981 after a bank called in an outstanding loan; a court-appointed trustee liquidated the company's assets later that year. Among the assets sold was the prototype for a new polyphonic synthesizer, the ARP Chroma, which CBS Musical Instruments purchased along with other ARP assets for $350,000; CBS ultimately brought the instrument to market under its own Rhodes brand as the Rhodes Chroma rather than the ARP name.",
+    "official_website": null,
+    "status": "defunct",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Tonus, Inc.",
+        "start_year": 1969,
+        "end_year": 1970
+      },
+      {
+        "name": "ARP Instruments, Inc.",
+        "start_year": 1970,
+        "end_year": 1981
+      }
+    ],
+    "relations": []
+  },
+  {
     "id": 8,
     "canonical_name": "Darkglass Electronics",
     "country": null,
     "short_history": null,
+    "long_history": null,
+    "official_website": null,
+    "status": "active",
+    "confidence_level": "unresearched",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 15,
+    "canonical_name": "Elektron",
+    "country": "Sweden",
+    "short_history": "Founded in 1998 in Gothenburg, Sweden by Daniel Hansson, Anders Gärder and Mikael Räim, who began the project a year earlier as a Chalmers University of Technology computer science course assignment. Its first product, the SidStation (built around the Commodore 64's sound chip), shipped in 1999, followed by the influential Monomachine in 2001 and a long line of sequencer-driven synths, samplers and drum machines (Machinedrum, Analog series, Digitakt, Digitone, Syntakt). Still active, headquartered in Gothenburg with additional offices opened in Los Angeles and Tokyo since 2012.",
+    "long_history": "Elektron began not as a company but as a student project: in 1997, three computer science classmates at Chalmers University of Technology in Gothenburg, Sweden -- Daniel Hansson, Anders Gärder and Mikael Räim -- built a hardware synthesizer around the MOS 6581 sound chip from the Commodore 64 home computer as coursework. The project turned into a real product and the trio formally founded Elektron in 1998. Their first release, the SidStation, was built in a test run of just ten units in 1998 before reaching the public market in 1999; it remained in production until 2006, when the company's supply of vintage SID chips ran out. Elektron's commercial breakthrough came with the Monomachine in 2001, a digital synthesizer built around the company's now-signature deep sequencer, which established the workflow-focused design philosophy the brand became known for. Over the following two decades Elektron expanded into sample-based instruments (the Machinedrum and Octatrack), modern analog-hybrid grooveboxes (the Analog Four, Analog Rytm), and a more accessible compact product line (Digitakt, Digitone, Syntakt), building a reputation among electronic musicians for deep, performance-oriented sequencing rather than raw synthesis novelty. The company has remained headquartered in Gothenburg, where its research, development and production are based, and expanded internationally with branch offices in Los Angeles and Tokyo opened in 2012.",
+    "official_website": "https://www.elektron.se/",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 12,
+    "canonical_name": "Focusrite",
+    "country": null,
+    "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
@@ -26,6 +75,7 @@
     "canonical_name": "inMusic Brands",
     "country": null,
     "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
@@ -37,6 +87,7 @@
     "canonical_name": "Korg Inc.",
     "country": "Japan",
     "short_history": "Founded in 1962 in Tokyo as Keio Electronic Laboratories by Tsutomu Kato and Tadashi Osanai, initially producing rhythm machines and organs. Adopted the Korg brand and later the corporate name Korg Inc.; entered synthesizers in 1973 (Mini-Korg), with major success from the MS-20 and later Wavestation. Yamaha held a 51% stake 1987-1993 before founder Kato bought back control. Remains privately held and active, with a history of acquiring other audio-equipment brands (Vox in 1992, Darkglass Electronics in 2022).",
+    "long_history": null,
     "official_website": "https://www.korg.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -101,6 +152,7 @@
     "canonical_name": "Moog Music",
     "country": "United States",
     "short_history": "Founded in 1953 in New York by Robert Moog and his father as R.A. Moog Co., producing theremins. Introduced the first commercial modular synthesizer in 1964 and the Minimoog in 1970; renamed Moog Music in 1972. Sold to Norlin Musical Instruments in 1973, went bankrupt in 1987. Robert Moog's Big Briar reacquired the Moog trademark and revived Moog Music in 2002. Acquired by inMusic Brands in June 2023; still actively producing instruments in Asheville, North Carolina.",
+    "long_history": null,
     "official_website": "https://www.moogmusic.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -146,9 +198,22 @@
     "canonical_name": "Norlin Musical Instruments",
     "country": null,
     "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 13,
+    "canonical_name": "Oberheim",
+    "country": "United States",
+    "short_history": "Founded in 1969 in Santa Monica, California by Tom Oberheim, initially making effects and the Synthesizer Expander Module before releasing pioneering polyphonic synths from 1975 onward (Four Voice, Two Voice, later the OB-series). Went bankrupt in the mid-1980s and passed through several owners (including a company called ECC and guitar maker Gibson), with the Oberheim name later licensed to Italian organ maker Viscount in the 1990s. Gibson returned the trademark to Tom Oberheim in 2019, who now produces instruments again under the Oberheim name.",
+    "long_history": "Oberheim Electronics was founded in Santa Monica, California in 1969 by engineer Tom Oberheim, who began by building effects units and the Synthesizer Expander Module (SEM) for other musicians before moving into complete instruments. Starting around 1975-76, Oberheim introduced some of the first widely available polyphonic synthesizers, the Four Voice and Two Voice, which pioneered the now-standard idea of a fixed pool of voice circuits allocated dynamically to played notes, and the company became a major force in synthesizers and drum machines through the mid-1980s with its OB-series (OB-X, OB-Xa, OB-8) and DMX/DX drum machines. The company's finances deteriorated in the mid-1980s, leading to bankruptcy and a chaotic period of ownership changes -- sources differ on the exact sequence and years, but the brand passed through a company known as ECC and was eventually acquired by guitar maker Gibson, which kept some Oberheim products (like the Xpander and Matrix-1000) in limited production and later attempted a revival with the 1994 OB-Mx. Gibson then shelved the brand and licensed the Oberheim name to Italian organ manufacturer Viscount, which released new instruments under the name in the 1990s, including the OB-12 virtual analog synth, before Viscount stopped making synthesizers around 1998. The Oberheim name then sat dormant under Gibson until 2019, when Gibson returned the trademark and rights to Tom Oberheim himself, who has since resumed producing instruments under his own name and the restored Oberheim brand.",
+    "official_website": "https://www.tomoberheim.com/",
+    "status": "active",
+    "confidence_level": "needs_review",
     "name_history": [],
     "relations": []
   },
@@ -157,6 +222,7 @@
     "canonical_name": "Roland Corporation",
     "country": "Japan",
     "short_history": "Founded April 18, 1972 in Osaka, Japan by Ikutaro Kakehashi (previously founder of Ace Electronic Industries, a separate earlier company). Became a global leader in electronic musical instruments and drum machines (SH-1000, Jupiter-4, Juno-60, TB-303, TR-808, TR-909). Headquarters moved to Hamamatsu, Shizuoka in 2005. Taken private via a 2014 management buyout backed by Taiyo Pacific Partners; relisted on the Tokyo Stock Exchange in December 2020.",
+    "long_history": null,
     "official_website": "https://www.roland.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -164,10 +230,52 @@
     "relations": []
   },
   {
+    "id": 11,
+    "canonical_name": "Sequential",
+    "country": "United States",
+    "short_history": "Founded in 1974 in San Jose, California as Sequential Circuits by Dave Smith, whose 1978 Prophet-5 became the first fully programmable polyphonic synthesizer. Went out of business in 1987 and was bought by Yamaha; Smith continued under Dave Smith Instruments, which regained the Sequential trademark from Yamaha in 2015 and rebranded as Sequential in 2018. Acquired by Focusrite in 2021; still active today.",
+    "long_history": "Sequential traces back to 1974, when engineer Dave Smith founded Sequential Circuits in San Jose, California, initially selling a 16-step analog sequencer module before moving into full synthesizers. The company's defining product was the Prophet-5, introduced in 1977-78: the first fully programmable polyphonic synthesizer, letting musicians save and recall patch settings instead of manually re-patching for every sound, and the first commercial instrument built around an embedded microprocessor. Sequential Circuits followed with other influential Prophet-series instruments through the early-to-mid 1980s, and Dave Smith was a central figure in developing MIDI, the technical standard that let electronic instruments from different manufacturers communicate, first demonstrated in 1983. Despite its technical influence, Sequential Circuits struggled commercially in the mid-1980s amid competition from cheaper digital synths, and the company folded in 1987, with Yamaha acquiring its assets and the Sequential trademark. Dave Smith went on to found Dave Smith Instruments, continuing to design synthesizers under his own name for over two decades, including the influential Prophet '08 and Prophet-6. In 2015, Yamaha returned the Sequential Circuits trademark to Dave Smith Instruments, and the company formally rebranded as Sequential in 2018, restoring the original name to its instrument lineup. Dave Smith passed away in 2022. In 2021, British audio technology group Focusrite acquired Sequential, which continues to design and manufacture synthesizers under the Sequential name.",
+    "official_website": "https://sequential.com/",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Sequential Circuits",
+        "start_year": 1974,
+        "end_year": 1987
+      },
+      {
+        "name": "Dave Smith Instruments",
+        "start_year": 1987,
+        "end_year": 2018
+      },
+      {
+        "name": "Sequential",
+        "start_year": 2018,
+        "end_year": null
+      }
+    ],
+    "relations": [
+      {
+        "relation_type": "acquired_by",
+        "year": 1987,
+        "related_manufacturer_id": 6,
+        "related_name": "Yamaha"
+      },
+      {
+        "relation_type": "acquired_by",
+        "year": 2021,
+        "related_manufacturer_id": 12,
+        "related_name": "Focusrite"
+      }
+    ]
+  },
+  {
     "id": 9,
     "canonical_name": "Spector Bass",
     "country": null,
     "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
@@ -179,6 +287,7 @@
     "canonical_name": "Vox",
     "country": null,
     "short_history": null,
+    "long_history": null,
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
@@ -188,12 +297,24 @@
   {
     "id": 6,
     "canonical_name": "Yamaha",
-    "country": null,
-    "short_history": null,
-    "official_website": null,
+    "country": "Japan",
+    "short_history": "Founded in 1887 in Hamamatsu, Japan by Torakusu Yamaha, who built the first reed organ made in Japan; incorporated in 1897 as Nippon Gakki Co., Ltd. Grew into one of the world's largest musical instrument makers, spinning off its motorcycle business as the separate Yamaha Motor Co. in 1955. Introduced the influential DX7 digital synthesizer in 1983 and briefly held a 51% stake in Korg (1987-1993). Still active today as Yamaha Corporation.",
+    "long_history": "Yamaha's roots go back to 1887, when Torakusu Yamaha repaired a broken reed organ at a Hamamatsu hospital and, finding no local expertise to fix it, built one himself -- the first reed organ manufactured in Japan. He founded a workshop that grew quickly, employing around 100 people and producing roughly 250 instruments a year within two years. The company was formally incorporated in 1897 as Nippon Gakki Co., Ltd. (\"Japan Musical Instrument Company\"), and over the following decades expanded into pianos (its first upright in 1900, first grand piano in 1902), harmonicas, xylophones, and eventually a vast range of instrument families including guitars, brass, woodwinds, and strings, becoming one of the largest musical instrument manufacturers in the world. In 1955 the company spun off its motorcycle-manufacturing arm into a separately managed company, Yamaha Motor Co., Ltd. -- a well-known brand in its own right but a financially and organizationally distinct entity from the instrument-making Yamaha Corporation. On the electronic side, Yamaha became a major force in synthesizers, most notably with the 1983 DX7, the first commercially successful digital synthesizer, built on FM synthesis technology licensed from Stanford University -- its distinctive digital sound helped define the pop music of the mid-1980s. Yamaha also played a brief corporate role in Korg's history, holding a 51% stake in the company from 1987 to 1993 before Korg's founder reacquired control. Yamaha Corporation remains active today, headquartered in Hamamatsu, Shizuoka, Japan, and continues to manufacture instruments, professional audio equipment, and electronics.",
+    "official_website": "https://www.yamaha.com/en/",
     "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
+    "confidence_level": "confirmed",
+    "name_history": [
+      {
+        "name": "Nippon Gakki Co., Ltd.",
+        "start_year": 1897,
+        "end_year": 1987
+      },
+      {
+        "name": "Yamaha Corporation",
+        "start_year": 1987,
+        "end_year": null
+      }
+    ],
     "relations": []
   }
 ]

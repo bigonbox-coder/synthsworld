@@ -201,6 +201,27 @@ html, body {
   margin-bottom: 24px;
 }
 
+.expand-toggle {
+  background: none;
+  border: 1px solid var(--border, #3a3f4b);
+  color: inherit;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  margin-top: 4px;
+  min-height: 36px;
+}
+
+.expand-toggle:hover {
+  border-color: var(--confirmed, #4caf6a);
+}
+
+.long-history {
+  margin-top: 12px;
+  line-height: 1.6;
+}
+
 .detail section {
   margin-bottom: 28px;
 }

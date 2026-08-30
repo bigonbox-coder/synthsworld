@@ -97,7 +97,12 @@
     }
 
     if (m.short_history) {
-      html += "<section><h2>Történet</h2><p>" + escapeHtml(m.short_history) + "</p></section>";
+      html += "<section><h2>Történet</h2><p>" + escapeHtml(m.short_history) + "</p>";
+      if (m.long_history) {
+        html += '<button type="button" class="expand-toggle" id="long-history-toggle">Bővebben</button>' +
+          '<p class="long-history" id="long-history-text" hidden>' + escapeHtml(m.long_history) + "</p>";
+      }
+      html += "</section>";
     }
 
     if (m.official_website) {
@@ -126,6 +131,16 @@
     }
 
     detailEl.innerHTML = html;
+
+    var toggle = document.getElementById("long-history-toggle");
+    if (toggle) {
+      toggle.addEventListener("click", function () {
+        var text = document.getElementById("long-history-text");
+        var expanded = !text.hidden;
+        text.hidden = expanded;
+        toggle.textContent = expanded ? "Bővebben" : "Kevesebbet";
+      });
+    }
   }
 
   function selectManufacturer(id) {

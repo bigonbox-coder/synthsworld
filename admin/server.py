@@ -91,6 +91,8 @@ STYLE = """
   .btn-approve { background: #2e9e4f; color: #fff; }
   .btn-unapprove { background: #d9a520; color: #fff; }
   .btn-disabled { background: #d5d8de; color: #6b7280; cursor: not-allowed; }
+  .btn-toggle { display: inline-block; margin-top: 6px; padding: 8px 14px; border-radius: 6px; border: 1px solid #ccc; background: #fff; font-size: 0.9rem; cursor: pointer; min-height: 36px; }
+  .long-history { margin-top: 10px; line-height: 1.6; }
   .back { display: inline-block; margin-bottom: 10px; color: #555; text-decoration: none; }
   textarea { width: 100%; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; min-height: 70px; }
   .note-list li { background: #fff; border: 1px solid #e5e3dd; border-radius: 8px; padding: 8px 10px; margin-bottom: 6px; list-style: none; }
@@ -339,7 +341,11 @@ function filterList() {{
 </div>
 <button class="btn {btn_class}" onclick="toggleApproval()" {"disabled" if is_unresearched else ""}>{btn_label}</button>
 
-{"<section><h2>Tortenet</h2><p>" + esc(m["short_history"]) + "</p></section>" if m["short_history"] else ""}
+{("<section><h2>Tortenet</h2><p>" + esc(m["short_history"]) + "</p>"
+  + ('<button class="btn-toggle" onclick="toggleLongHistory()" id="longHistBtn">Bovebben</button>'
+     '<p class="long-history" id="longHistText" style="display:none">' + esc(m["long_history"]) + "</p>"
+     if m["long_history"] else "")
+  + "</section>") if m["short_history"] else ""}
 {"<section><h2>Hivatalos weboldal</h2><p><a href=\"" + esc(m["official_website"]) + "\" target=\"_blank\">" + esc(m["official_website"]) + "</a></p></section>" if m["official_website"] else ""}
 {"<section><h2>Nevtortenet</h2><ul>" + hist_html + "</ul></section>" if hist_html else ""}
 {"<section><h2>Kapcsolodo gyartok</h2><ul>" + rel_html + "</ul></section>" if rel_html else ""}
@@ -357,6 +363,13 @@ function filterList() {{
 </section>
 </div>
 <script>
+function toggleLongHistory() {{
+  var t = document.getElementById('longHistText');
+  var b = document.getElementById('longHistBtn');
+  var show = t.style.display === 'none';
+  t.style.display = show ? 'block' : 'none';
+  b.textContent = show ? 'Kevesebbet' : 'Bovebben';
+}}
 function toggleApproval() {{
   fetch('/api/manufacturer/{mid}/toggle', {{method:'POST'}}).then(function(r) {{
     if (r.ok) {{ location.reload(); return; }}
