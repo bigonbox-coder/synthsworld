@@ -1,0 +1,1263 @@
+{
+  "source": "roland-support",
+  "pages": [
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "AX-Edge",
+      "display_name": "AX-Edge",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/ax-edge/updates_drivers/",
+          "label": "AX-Edge updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "AX-Synth",
+      "display_name": "AX-Synth",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/ax-synth/updates_drivers/",
+          "label": "AX-Synth updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D-05",
+      "display_name": "D-05",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/d-05/updates_drivers/",
+          "label": "D-05 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "D2",
+      "display_name": "D2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/d2/updates_drivers/",
+          "label": "D2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Fantom",
+      "display_name": "Fantom",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fantom/updates_drivers/",
+          "label": "Fantom updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Fantom S",
+      "display_name": "Fantom S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fantom-s/updates_drivers/",
+          "label": "Fantom S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Fantom XR",
+      "display_name": "Fantom XR",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fantom-xr/updates_drivers/",
+          "label": "Fantom XR updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FANTOM-6",
+      "display_name": "FANTOM-6",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fantom_6/updates_drivers/",
+          "label": "FANTOM-6 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FANTOM-8",
+      "display_name": "FANTOM-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fantom_8/updates_drivers/",
+          "label": "FANTOM-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Gaia SH-01",
+      "display_name": "Gaia SH-01",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gaia_sh-01/updates_drivers/",
+          "label": "Gaia SH-01 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JD-XA",
+      "display_name": "JD-XA",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jd-xa/updates_drivers/",
+          "label": "JD-XA updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JD-Xi",
+      "display_name": "JD-Xi",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jd-xi/updates_drivers/",
+          "label": "JD-Xi updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JP-8000",
+      "display_name": "JP-8000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jp-8000/updates_drivers/",
+          "label": "JP-8000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JU-06A",
+      "display_name": "JU-06A",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/ju-06a/updates_drivers/",
+          "label": "JU-06A updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno-D",
+      "display_name": "Juno-D",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-d/updates_drivers/",
+          "label": "Juno-D updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno DI",
+      "display_name": "Juno DI",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-di/updates_drivers/",
+          "label": "Juno DI updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno DS-61",
+      "display_name": "Juno DS-61",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-ds61/updates_drivers/",
+          "label": "Juno DS-61 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno-G",
+      "display_name": "Juno-G",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-g/updates_drivers/",
+          "label": "Juno-G updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno-Gi",
+      "display_name": "Juno-Gi",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-gi/updates_drivers/",
+          "label": "Juno-Gi updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Juno Stage",
+      "display_name": "Juno Stage",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/juno-stage/updates_drivers/",
+          "label": "Juno Stage updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Jupiter-50",
+      "display_name": "Jupiter-50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jupiter-50/updates_drivers/",
+          "label": "Jupiter-50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Jupiter-80",
+      "display_name": "Jupiter-80",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jupiter-80/updates_drivers/",
+          "label": "Jupiter-80 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JUPITER-X",
+      "display_name": "JUPITER-X",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jupiter-x/updates_drivers/",
+          "label": "JUPITER-X updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Jupiter-Xm",
+      "display_name": "Jupiter-Xm",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jupiter-xm/updates_drivers/",
+          "label": "Jupiter-Xm updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "JV-1010",
+      "display_name": "JV-1010",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/jv-1010/updates_drivers/",
+          "label": "JV-1010 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-09",
+      "display_name": "MC-09",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-09/updates_drivers/",
+          "label": "MC-09 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-307",
+      "display_name": "MC-307",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-307/updates_drivers/",
+          "label": "MC-307 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-505",
+      "display_name": "MC-505",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-505/updates_drivers/",
+          "label": "MC-505 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-707",
+      "display_name": "MC-707",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-707/updates_drivers/",
+          "label": "MC-707 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-808",
+      "display_name": "MC-808",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-808/updates_drivers/",
+          "label": "MC-808 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MC-909",
+      "display_name": "MC-909",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mc-909/updates_drivers/",
+          "label": "MC-909 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RS-50",
+      "display_name": "RS-50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rs-50/updates_drivers/",
+          "label": "RS-50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SE-02",
+      "display_name": "SE-02",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/se-02/updates_drivers/",
+          "label": "SE-02 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-01A",
+      "display_name": "SH-01A",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sh-01a/updates_drivers/",
+          "label": "SH-01A updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-201",
+      "display_name": "SH-201",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sh-201/updates_drivers/",
+          "label": "SH-201 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-32",
+      "display_name": "SH-32",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sh-32/updates_drivers/",
+          "label": "SH-32 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SH-4d",
+      "display_name": "SH-4d",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sh-4d/updates_drivers/",
+          "label": "SH-4d updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Soniccell",
+      "display_name": "Soniccell",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/soniccell/updates_drivers/",
+          "label": "Soniccell updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SP-404",
+      "display_name": "SP-404",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sp-404/updates_drivers/",
+          "label": "SP-404 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SP-555",
+      "display_name": "SP-555",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sp-555/updates_drivers/",
+          "label": "SP-555 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SP-606",
+      "display_name": "SP-606",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sp-606/updates_drivers/",
+          "label": "SP-606 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SP-808",
+      "display_name": "SP-808",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/sp-808/updates_drivers/",
+          "label": "SP-808 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-8",
+      "display_name": "SYSTEM-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-8/updates_drivers/",
+          "label": "SYSTEM-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-6S",
+      "display_name": "TR-6S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tr-6s/updates_drivers/",
+          "label": "TR-6S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-8S",
+      "display_name": "TR-8S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tr-8s/updates_drivers/",
+          "label": "TR-8S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Synth",
+      "display_name": "V-Synth",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-synth/updates_drivers/",
+          "label": "V-Synth updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VariOS",
+      "display_name": "VariOS",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/varios/updates_drivers/",
+          "label": "VariOS updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VK-8",
+      "display_name": "VK-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vk-8/updates_drivers/",
+          "label": "VK-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VP-770",
+      "display_name": "VP-770",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vp-770/updates_drivers/",
+          "label": "VP-770 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VP-9000",
+      "display_name": "VP-9000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vp-9000/updates_drivers/",
+          "label": "VP-9000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "XV-3080",
+      "display_name": "XV-3080",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/xv-3080/updates_drivers/",
+          "label": "XV-3080 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "XV-5050",
+      "display_name": "XV-5050",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/xv-5050/updates_drivers/",
+          "label": "XV-5050 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "XV-5080",
+      "display_name": "XV-5080",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/xv-5080/updates_drivers/",
+          "label": "XV-5080 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {}
+    }
+  ],
+  "unmatched_slugs": [
+    "a-01",
+    "a-300pro",
+    "a-49",
+    "a-500pro",
+    "a-500s",
+    "a-70",
+    "a-800pro",
+    "a-88",
+    "a-88mk2",
+    "a-90",
+    "aerocaster",
+    "aerophone_ae-10",
+    "aerophone_ae-20",
+    "aerophone_pro",
+    "aira_modular_customizer",
+    "ar-200",
+    "ar-3000",
+    "at-100",
+    "at-300",
+    "at-500",
+    "at-75",
+    "at-800",
+    "at-900",
+    "at-900c",
+    "atelier_combo_at-350c",
+    "bitrazer",
+    "bk-3",
+    "bk-5",
+    "bk-5_or",
+    "bk-7m",
+    "bk-9",
+    "blues_cube_artist",
+    "blues_cube_artist212",
+    "blues_cube_hot",
+    "blues_cube_hot_british_el84_modified",
+    "blues_cube_stage",
+    "blues_cube_tour",
+    "bridge_cast",
+    "bridge_cast_one",
+    "bridge_cast_x",
+    "c-200",
+    "cd-2",
+    "cd-2e",
+    "cd-2u",
+    "cdx-1",
+    "cy-18dr",
+    "da-2496",
+    "demora",
+    "dif-at",
+    "discover_5",
+    "discover_5m",
+    "dj-202",
+    "dj-505",
+    "dj-707m",
+    "dj-808",
+    "dp-90",
+    "dp-90s",
+    "dp603",
+    "dp90e",
+    "dp90se",
+    "dt-1",
+    "duo-capture",
+    "duo-capture_ex",
+    "duo-capture_mk2",
+    "e-4",
+    "e-50",
+    "e-60",
+    "e-80",
+    "e-a7",
+    "e-x10",
+    "e-x50",
+    "em-2000",
+    "em-55",
+    "ev-7",
+    "exr-3",
+    "exr-3s",
+    "exr-40_or",
+    "exr-46_or",
+    "exr-5",
+    "exr-5s",
+    "exr-7",
+    "exr-7s",
+    "f-110",
+    "f-120r",
+    "f-130r",
+    "f-140r",
+    "f-20",
+    "f107",
+    "f701",
+    "fa-06",
+    "fa-07",
+    "fa-08",
+    "fa-101",
+    "fa-66",
+    "fantom-06",
+    "fantom-07",
+    "fantom-08",
+    "fantom-g6",
+    "fantom-g7",
+    "fantom-g8",
+    "fantom-s88",
+    "fantom-x6",
+    "fantom-x7",
+    "fantom-x8",
+    "fantom-xa",
+    "fantom_6_ex",
+    "fantom_7",
+    "fantom_7_ex",
+    "fantom_8_ex",
+    "fc-200",
+    "fc-300",
+    "fd-7",
+    "fp-10",
+    "fp-2",
+    "fp-30",
+    "fp-30x",
+    "fp-4",
+    "fp-4f",
+    "fp-5",
+    "fp-50",
+    "fp-60",
+    "fp-60x",
+    "fp-7",
+    "fp-7f",
+    "fp-80",
+    "fp-90",
+    "fp-90x",
+    "fp-e50",
+    "fr-18_diatonic",
+    "fr-1x",
+    "fr-1xb",
+    "fr-3x",
+    "fr-3xb",
+    "fr-4x",
+    "fr-4xb",
+    "fr-7x",
+    "fr-7xb",
+    "fr-8x",
+    "fr-8x_dallape",
+    "fr-8xb",
+    "g-70",
+    "gaia_2",
+    "gi-20",
+    "gokeys_3",
+    "gokeys_5",
+    "gokeys_go-61k",
+    "gomixer_studio",
+    "gopiano_go-61p",
+    "gopiano_go-88p",
+    "gopiano_go-88px",
+    "gp-3",
+    "gp-6",
+    "gp-9",
+    "gp-9m",
+    "gp607",
+    "gp609",
+    "gr-20",
+    "gr-33",
+    "gr-55",
+    "gw-7",
+    "gw-8",
+    "handsonic_hpd-15",
+    "handsonic_hpd-20",
+    "hp-107",
+    "hp-109",
+    "hp-201",
+    "hp-203",
+    "hp-207",
+    "hp-302",
+    "hp-305",
+    "hp-307",
+    "hp-503",
+    "hp-505",
+    "hp-507",
+    "hp504",
+    "hp506",
+    "hp508",
+    "hp601",
+    "hp603",
+    "hp605",
+    "hp702",
+    "hp704",
+    "hpi-50",
+    "hpi-50e",
+    "hpi-6",
+    "hpi-6s",
+    "hpi-7",
+    "hpi-7f",
+    "hpi-7le",
+    "hpi-7s",
+    "hs-5",
+    "integra-7",
+    "j-6",
+    "jd-08",
+    "jp-08",
+    "ju-06",
+    "juno-d6",
+    "juno-d7",
+    "juno-d8",
+    "juno-ds76",
+    "juno-ds88",
+    "juno-x",
+    "jx-03",
+    "jx-08",
+    "kiyola_kf-10",
+    "kiyola_kf-20",
+    "kiyola_kf-25",
+    "kr-103",
+    "kr-105",
+    "kr-107",
+    "kr-111",
+    "kr-115",
+    "kr-115m",
+    "kr-117m",
+    "kr-15m",
+    "kr-17m",
+    "lucina_ax-09",
+    "lx-10",
+    "lx-10f",
+    "lx-15",
+    "lx-15e",
+    "lx-17",
+    "lx-5",
+    "lx-6",
+    "lx-7",
+    "lx-9",
+    "lx705",
+    "lx706",
+    "lx708",
+    "m-1000",
+    "m-100fx",
+    "m-16dx",
+    "mc-101",
+    "md-p1-s",
+    "mmp-2",
+    "mobile_studio_canvas",
+    "mobile_ua",
+    "mp200",
+    "mt-90u",
+    "mv-8000",
+    "mv-8800",
+    "mx-1",
+    "octa-capture",
+    "octapad_spd-30",
+    "p-6",
+    "pc-300",
+    "pc-50",
+    "pc-80",
+    "pcr-1",
+    "pcr-30",
+    "pcr-300",
+    "pcr-50",
+    "pcr-500",
+    "pcr-80",
+    "pcr-800",
+    "pcr-a30",
+    "pcr-m1",
+    "pcr-m30",
+    "pcr-m50",
+    "pcr-m80",
+    "pd-100",
+    "pd-120",
+    "pd-140ds",
+    "pd-14dsx",
+    "prelude",
+    "quad-capture",
+    "r-05",
+    "r-07",
+    "r-09",
+    "r-09hr",
+    "r-1",
+    "r-26",
+    "rc_fantom_ex_upgrade",
+    "rcp800",
+    "rd-08",
+    "rd-150",
+    "rd-2000",
+    "rd-2000_ex",
+    "rd-300gx",
+    "rd-300nx",
+    "rd-300sx",
+    "rd-600",
+    "rd-64",
+    "rd-700",
+    "rd-700gx",
+    "rd-700nx",
+    "rd-700sx",
+    "rd-800",
+    "rd-88",
+    "rd-88_ex",
+    "rg-1",
+    "rg-1f",
+    "rg-3",
+    "rg-3f",
+    "rg-3m",
+    "rg-7",
+    "rk-100",
+    "rk-300",
+    "rk-500",
+    "rm-700",
+    "rp-301r",
+    "rp102",
+    "rp107",
+    "rp401r",
+    "rp501r",
+    "rp701",
+    "rpc-1",
+    "rs-70",
+    "rt-mics",
+    "rubix22",
+    "rubix24",
+    "rubix44",
+    "s-1",
+    "s-760",
+    "sbx-1",
+    "scooper",
+    "sd-20",
+    "sd-80",
+    "sd-90",
+    "si-24",
+    "sp-404a",
+    "sp-404mk2",
+    "sp-404sx",
+    "sp-808ex",
+    "spd-s",
+    "spd-sx",
+    "spd-sx_pro",
+    "spd-sx_special_edition",
+    "spd_one_electro",
+    "spd_one_kick",
+    "spd_one_percussion",
+    "spd_one_wav_pad",
+    "srx-01",
+    "srx-04",
+    "srx-05",
+    "srx-08",
+    "srx-10",
+    "studio-capture",
+    "super_ua",
+    "system-1",
+    "system-1m",
+    "system-500_512",
+    "system-500_521",
+    "system-500_530",
+    "system-500_540",
+    "system-500_572",
+    "system-500_complete_set",
+    "t-8",
+    "taiko-1",
+    "tb-03",
+    "tb-3",
+    "td-02k",
+    "td-02kv",
+    "td-07dmk",
+    "td-07kv",
+    "td-07kvx",
+    "td-07kx",
+    "td-11",
+    "td-11k",
+    "td-11kv",
+    "td-12",
+    "td-12kx",
+    "td-12s",
+    "td-12sv",
+    "td-15",
+    "td-15k",
+    "td-15kv",
+    "td-17",
+    "td-17k-l",
+    "td-17kv",
+    "td-17kv2",
+    "td-17kvx",
+    "td-17kvx2",
+    "td-20",
+    "td-20s",
+    "td-25",
+    "td-25k",
+    "td-25kv",
+    "td-25kvx",
+    "td-27",
+    "td-27kv",
+    "td-27kv2",
+    "td-30",
+    "td-30k",
+    "td-30kv",
+    "td-50",
+    "td-50dp",
+    "td-50k",
+    "td-50k180",
+    "td-50k2",
+    "td-50kv",
+    "td-50kv-rm",
+    "td-50kv2",
+    "td-50kvx",
+    "td-50x",
+    "td-6s",
+    "td-6sx",
+    "td-6sxt",
+    "td-6v",
+    "td-8",
+    "td313",
+    "td316",
+    "td513",
+    "td516",
+    "td713",
+    "td716",
+    "tdw-20",
+    "tm-1",
+    "tm-2",
+    "tm-6_pro",
+    "torcido",
+    "tr-06",
+    "tr-08",
+    "tr-09",
+    "tr-1000",
+    "tr-8",
+    "tri-capture",
+    "ua-100",
+    "ua-1000",
+    "ua-101",
+    "ua-1ex",
+    "ua-1g",
+    "ua-1x",
+    "ua-20",
+    "ua-25",
+    "ua-25ex",
+    "ua-3fx",
+    "ua-4fx",
+    "ua-5",
+    "ua-700",
+    "um-1",
+    "um-1ex",
+    "um-1g",
+    "um-1s",
+    "um-1sx",
+    "um-1x",
+    "um-2",
+    "um-2ex",
+    "um-2g",
+    "um-3ex",
+    "um-3g",
+    "um-550",
+    "um-880",
+    "um-one",
+    "um-one_mk2",
+    "ur-80",
+    "v-combo_vr-09",
+    "v-combo_vr-09-b",
+    "v-combo_vr-700",
+    "v-combo_vr-730",
+    "v-piano",
+    "v-piano_grand",
+    "v-stage_76",
+    "v-stage_88",
+    "v-studio_100",
+    "v-studio_20",
+    "v-studio_700",
+    "v-synth_gt",
+    "v-synth_xt",
+    "v31",
+    "v51",
+    "v71",
+    "vad103",
+    "vad306",
+    "vad307",
+    "vad316",
+    "vad503",
+    "vad504",
+    "vad506",
+    "vad507",
+    "vad516",
+    "vad706",
+    "vad716",
+    "vb-99",
+    "verselab_mv-1",
+    "vg-8ex",
+    "vg-99",
+    "vh-14d",
+    "vima_jm-5",
+    "vima_jm-8",
+    "vk-77",
+    "vk-88",
+    "vk-8m",
+    "vm-3100pro",
+    "vm-7100",
+    "vm-7200",
+    "vm-c7100",
+    "vm-c7200",
+    "vp-03",
+    "vp-7",
+    "vr-760",
+    "vs-1176ln",
+    "vs-1680",
+    "vs-1824cd",
+    "vs-1880",
+    "vs-2000cd",
+    "vs-2400cd",
+    "vs-2480",
+    "vs-2480cd",
+    "vs-2480dvd",
+    "vs-840",
+    "vs-840ex",
+    "vs-840gx",
+    "vs-880",
+    "vs-880ex",
+    "vs-890",
+    "vs-la2a",
+    "vs8f-3",
+    "vsr-880",
+    "vt-3",
+    "vt-4",
+    "wt-10",
+    "xv-2020",
+    "xv-88"
+  ]
+}
