@@ -614,3 +614,50 @@ manufacturers table.
 addition to an existing record, not a research pass, and cannot change its
 `confidence_level` in either direction. So a model-list-only batch will never
 silently promote a `needs_review` manufacturer to `confirmed`.
+
+### Wikipedia category harvest -- do this BEFORE spending fetch tokens on models
+
+`db/harvest_wikipedia_instruments.py` reads model names straight out of English
+Wikipedia's category tree: every `Category:<Maker> synthesizers` under
+`Category:Synthesizers by manufacturer`, plus the flat drum-machine, sampler,
+music-workstation, sequencer, electronic-organ, electric-piano and
+groove-machine categories (title prefix decides the maker there).
+
+It writes an `ingest.py`-shaped batch and touches nothing else:
+
+    python3 db/harvest_wikipedia_instruments.py --out db/batches/<name>.json
+    python3 db/ingest.py db/batches/<name>.json
+
+It is a script, so it costs no fetch budget -- run it again whenever new
+manufacturers get researched, and only spend agent fetches on what it could not
+reach.
+
+**Why it exists (2026-08-30):** the first model list was backfilled from prose
+already in the DB, which gave 80 models -- only the ones a history paragraph
+happened to name. Kristóf immediately spotted how thin that was. The category
+harvest took the same DB to 424 in one run (Roland 107, Korg 58, Yamaha 57).
+The lesson generalises: *incidental mentions are not a collection pass.*
+
+Two behaviours to keep:
+- **Unmatched titles are printed, never dropped.** That list is a manufacturer
+  discovery channel in its own right -- Casio, Clavia, Access, Fairlight,
+  Hartmann, Linn, PAiA, Seeburg, Cheetah, Forat, Technos, Rhodes and Wurlitzer
+  all surfaced there and went into `discovery_queue`.
+- **`ALIASES` / `EXTRA_TITLE_MAP` are the only hand-maintained parts.** A
+  category short name (`ARP`, `EMS`, `Sequential Circuits`) rarely equals our
+  `canonical_name`, and a few models carry no maker prefix at all (Synclavier,
+  ASR-10, Prophet 2000, Kaoss Pad). Extend those two dicts, do not loosen the
+  matching -- a fuzzy match would attach models to the wrong company.
+
+**What it cannot do:** English Wikipedia barely covers the vintage European and
+Soviet makers (Siel, Crumar, Elka, Formanta all came out around 5 models). Those
+need the dedicated catalogues -- synthpedia.net, vintagesynth.com,
+equipboard.com -- and the local-language wikis, which do carry them
+(`Categoria:Sintetizzatori Elka`, `Поливокс`, `Crumar DS-2`). Non-English
+category members must be resolved to their Wikidata QID and English label first,
+exactly as `seed_from_wikipedia.py` does for manufacturers, or the same model
+lands twice under two scripts.
+
+**Wikidata is again not the answer here.** `P176` (manufacturer of) over the
+instrument classes returns ~33 items across 12 makers for the whole site. Same
+sparseness as `P1056` for manufacturers -- do not spend another round on it.

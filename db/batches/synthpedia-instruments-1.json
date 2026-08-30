@@ -1,0 +1,210 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Crumar",
+      "instruments": [
+        {
+          "name": "Bassman",
+          "source_url": "https://synthpedia.net/crumar/"
+        },
+        {
+          "name": "Hamichord M-C3",
+          "source_url": "https://synthpedia.net/crumar/"
+        },
+        {
+          "name": "Mojo 61",
+          "source_url": "https://synthpedia.net/crumar/"
+        },
+        {
+          "name": "Mojo",
+          "source_url": "https://synthpedia.net/crumar/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Siel",
+      "instruments": [
+        {
+          "name": "Opera 6",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "Orchestra",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "CMK 49",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "DK600",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "DK70",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "DK700",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "DK80",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "Expander 80",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "Expander",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "Mono",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "OR400",
+          "source_url": "https://synthpedia.net/siel/"
+        },
+        {
+          "name": "Orchestra 2",
+          "source_url": "https://synthpedia.net/siel/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Teisco",
+      "instruments": [
+        {
+          "name": "100P",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "60F",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "100F",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "110F",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "SX-210",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "SX-240",
+          "source_url": "https://synthpedia.net/teisco/"
+        },
+        {
+          "name": "SX-400",
+          "source_url": "https://synthpedia.net/teisco/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Electronic Music Studios (London) Ltd.",
+      "instruments": [
+        {
+          "name": "Spectron",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi 100",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi A",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi AKS",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "VCS 3",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "PolySynthi",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi AK",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi E",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi Hi-Fli",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Synthi Sequencer 256",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Vocoder 2000",
+          "source_url": "https://synthpedia.net/ems/"
+        },
+        {
+          "name": "Vocoder 5000",
+          "source_url": "https://synthpedia.net/ems/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Formanta Radio Factory",
+      "instruments": [
+        {
+          "name": "Polivoks",
+          "source_url": "https://synthpedia.net/formanta/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Electronic Dream Plant",
+      "instruments": [
+        {
+          "name": "Caterpillar",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Gnat",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Gnat Special",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Keytar",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Spider",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Wasp",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Wasp Deluxe",
+          "source_url": "https://synthpedia.net/edp/"
+        },
+        {
+          "name": "Wasp Special",
+          "source_url": "https://synthpedia.net/edp/"
+        }
+      ]
+    }
+  ]
+}

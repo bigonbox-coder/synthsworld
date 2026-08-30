@@ -132,6 +132,22 @@ def load_makers(conn):
     return index
 
 
+def strip_maker_prefix(name, maker, index):
+    """'Roland Jupiter-8' -> 'Jupiter-8'; the parent record already says Roland.
+
+    Only strips when what remains still reads as a model name, so
+    'Moog synthesizer' and 'Moog modular synthesizer' survive intact.
+    """
+    keys = sorted((k for k, v in index.items() if v == maker), key=len, reverse=True)
+    for key in keys:
+        if name.lower().startswith(key + " "):
+            rest = name[len(key) + 1:].strip()
+            if len(rest) >= 2 and (rest[0].isupper() or rest[0].isdigit()):
+                return rest
+            return name
+    return name
+
+
 def match_maker(text, index):
     low = text.lower()
     for key in sorted(index, key=len, reverse=True):
@@ -157,8 +173,9 @@ def main():
         if title.lower() in index:          # the manufacturer's own article
             return
         url = "https://en.wikipedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"))
-        entry = {"name": title, "category": category, "source_url": url}
-        found.setdefault(maker, {}).setdefault(title, entry)
+        name = strip_maker_prefix(title, maker, index)
+        entry = {"name": name, "category": category, "source_url": url}
+        found.setdefault(maker, {}).setdefault(name, entry)
 
     # 1. per-manufacturer synthesizer categories
     for sub in members(BY_MAKER_ROOT, cmtype="subcat"):
