@@ -60,6 +60,15 @@ egyetlen mondat: van-e olyan konkrét, megvásárolható, összeszerelt hangszer
 vagy modul, amit ő ad ki? Ha csak PCB, panel, rajz vagy építési útmutató van,
 akkor nem. Ha bizonytalan a kép, `unresearched` marad és Kristóf dönt.
 
+**Ha egy magánszemély átmegy a teszten, `entity_type='individual'` értékkel
+kerül be** (migráció 0014), nem külön táblába: ugyanolyan entitás,
+ugyanazokkal a hangszerekkel, kapcsolatokkal és linkekkel. Kristóf döntése
+(2026-08-30 06:11) szerint ezek megmaradnak az adatbázisban későbbre, de az
+adminfelület gyártólistáján NEM jelennek meg -- ott csak `company` látszik,
+a magánszemélyek a `?people=1` nézetben érhetők el. A kutatásnál tehát nem
+kell köztes döntést hozni arról, hogy "kell-e egyáltalán": ha készít kész
+hangszert, felveszed `individual`-ként, és nem szennyezi a cég-listát.
+
 A `discovery_queue`-ban ezek a sorok `notes`-ában ott van a
 `SZEMELY -- vizsgald meg gyart-e kesz terméket` jelölés, hogy a kutatásnál ne
 csússzon át rajta a figyelem. Konkrét, már sorban álló esetek a matrixsynth
