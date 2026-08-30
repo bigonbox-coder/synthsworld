@@ -12,6 +12,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Ace Electronic Industries Inc.",
@@ -44,7 +45,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 18,
@@ -59,6 +61,7 @@
     "official_website": "akaipro.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -217,6 +220,22 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-10.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:AKAI_professional_logo.svg",
+        "review_status": "approved"
+      },
+      {
+        "file": "logos/logo-30.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": "https://commons.wikimedia.org/wiki/File:Akai_brand_logo.svg",
+        "review_status": null
+      }
     ]
   },
   {
@@ -232,6 +251,7 @@
     "official_website": "alesis.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -345,7 +365,8 @@
         "year": 2005,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 14,
@@ -360,6 +381,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Tonus, Inc.",
@@ -504,7 +526,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 19,
@@ -519,6 +542,7 @@
     "official_website": "behringer.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -587,6 +611,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-11.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -602,9 +635,11 @@
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [],
+    "logos": []
   },
   {
     "id": 21,
@@ -619,6 +654,7 @@
     "official_website": "https://buchla.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -817,6 +853,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-12.png",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -832,6 +877,7 @@
     "official_website": "https://world.casio.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Kashio Seisakujo",
@@ -936,7 +982,8 @@
         "year": 2003,
         "category": "digital piano"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 38,
@@ -951,6 +998,7 @@
     "official_website": "https://www.crumar.it/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1024,6 +1072,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-20.png",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -1039,6 +1096,7 @@
     "official_website": "doepfer.de",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1072,7 +1130,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 22,
@@ -1087,6 +1146,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1285,6 +1345,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-13.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -1300,6 +1369,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Electronic Dream Plant (Oxford)",
@@ -1349,7 +1419,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 26,
@@ -1364,6 +1435,7 @@
     "official_website": "https://emssynthesisers.co.uk/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1437,7 +1509,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 15,
@@ -1452,6 +1525,7 @@
     "official_website": "https://www.elektron.se/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1535,6 +1609,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-7.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -1550,6 +1633,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [
       {
@@ -1590,7 +1674,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 23,
@@ -1605,6 +1690,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -1718,6 +1804,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-14.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -1733,6 +1828,7 @@
     "official_website": null,
     "status": "acquired",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Fairlight Audio Pty Ltd",
@@ -1822,7 +1918,8 @@
         "year": 2012,
         "category": "console"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 46,
@@ -1836,7 +1933,8 @@
     "long_history": "The three firms that became Farfisa were all part of the accordion industry clustered around Castelfidardo in the Marche, and all had been damaged by the Second World War: Paolo Settimio Soprani of Castelfidardo, the Scandalli brothers of Camerano, founded by Silvio Scandalli and employing between four and seven hundred people before the merger, and Frontalini of Numana. Their 1946 union at Camerano produced a company whose formal name is recorded as Fabbriche Riunite Fisarmoniche Italiane S.p.A., glossed as united Italian accordion factories, while the Italian sources gloss the acronym slightly differently as FAbbriche Riunite di FISArmoniche. Accordions remained the core business into the 1950s, when the company branched into guitars, pianos and organs, and it kept an acoustic piano line, Furstein, from 1969 to 1998. The real turn came with electronics in the 1960s. The Microrgan portable reed organ appeared in 1958 and the Cordovox electrified accordion, developed with Lowrey, in 1960, but the Combo Compact of 1964 defined the company. Built in Osimo with production also at Castelfidardo, Aspio Terme and Camerano, and sold in the United States through Chicago Musical Instruments, initially rebadged as CMI organs, the Compact range exploited low Italian labour costs to undercut its rivals: in 1966 the Mini Compact listed at 495 dollars against 995 for a Vox Continental. Compact, Mini Compact, Compact Deluxe and Compact Duo organs became a fixture of 1960s garage rock and were later used by Richard Wright of Pink Floyd, Philip Glass on Einstein on the Beach, Steve Reich in Four Organs, Sun Ra, Elton John on Crocodile Rock, Mike Oldfield on Tubular Bells, and later still by Blondie, The B-52's, Talking Heads and Stereolab. The FAST series from the late 1960s, its name glossed as Farfisa All Silicon Transistor, and the Professional series that followed extended the range, and the drawbar Matador of 1972 chased the Hammond sound that fashion had turned toward. The VIP series ran through the 1970s with foot-operated pitch bend, the VIP 255 turning up with John Paul Jones of Led Zeppelin, the VIP 400 with Edgar Froese of Tangerine Dream and the VIP 600 with Michael MacNeil of Simple Minds. Farfisa moved into multitimbral keyboards and synthesizers from 1975 with the Syntorchestra, a polyphonic string ensemble combined with a monophonic synthesizer that Klaus Schulze used on Moondawn and Manuel Goettsching on New Age of Earth, followed by the Polychrome and the Soundmaker, which Tony Banks of Genesis played. The company also ran a music publishing arm, Farfisa Edizioni Musicali, issuing accordion and electronic organ repertoire and the magazine Fisarmonica. American conglomerate Lear Siegler held a controlling interest from the 1960s until 1984, with the Italian and English sources giving 1965 and 1968 respectively for when that began. The synthesizer boom of the late 1970s destroyed combo organ volumes; Bravo and Commander of 1980 were the last combo organ models and the last unit was built in 1982. Bontempi S.p.A. acquired the company in October 1984 and it closed in 1998, passing to Comus, which ceased trading in 2003. The intercom division, created in 1967 as an internal unit, was given its own legal personality in 1993 and continues today as ACI Farfisa at Via Ezio Vanoni 3 in Osimo, making door entry, video surveillance and home automation systems, keeping the Farfisa name but no longer making instruments. The company's archive, covering 1946 to 1984, was acquired by the municipality of Camerano around 2005. The instrument brand was later bought alongside Bontempi by iCom S.p.A., and production of Farfisa-branded instruments restarted in 2025.",
     "official_website": null,
     "status": "defunct",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Fabbriche Riunite Fisarmoniche Italiane S.p.A.",
@@ -1943,7 +2041,8 @@
         "year": null,
         "category": "electronic accordion"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 50,
@@ -1958,9 +2057,11 @@
     "official_website": null,
     "status": "active",
     "confidence_level": "unresearched",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [],
+    "logos": []
   },
   {
     "id": 42,
@@ -1975,6 +2076,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -2003,7 +2105,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 40,
@@ -2018,6 +2121,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Premiata Fabbrica di Fisarmoniche Galanti",
@@ -2114,7 +2218,8 @@
         "year": null,
         "category": "keyboard"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 35,
@@ -2129,6 +2234,7 @@
     "official_website": null,
     "status": "acquired",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Hammond Clock Company",
@@ -2223,7 +2329,8 @@
         "year": null,
         "category": "electronic organ"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 33,
@@ -2238,6 +2345,7 @@
     "official_website": "https://www.kawai-global.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Kawai Musical Instruments Research Laboratory",
@@ -2359,7 +2467,8 @@
         "year": null,
         "category": "drum machine"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 5,
@@ -2374,6 +2483,7 @@
     "official_website": "https://www.korg.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Korg Inc.",
@@ -3018,6 +3128,15 @@
         "year": null,
         "category": "synthesizer"
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-3.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -3033,6 +3152,7 @@
     "official_website": "https://kurzweil.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -3086,6 +3206,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-15.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -3101,6 +3230,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "needs_review",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Linn Moffett Electronics",
@@ -3147,7 +3277,8 @@
         "year": 1986,
         "category": "drum machine"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 1,
@@ -3162,6 +3293,7 @@
     "official_website": "https://www.moogmusic.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "R.A. Moog Co.",
@@ -3431,6 +3563,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-1.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -3446,6 +3587,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -3459,7 +3601,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 16,
@@ -3474,6 +3617,7 @@
     "official_website": "novationmusic.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -3592,6 +3736,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-8.png",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -3607,6 +3760,7 @@
     "official_website": "https://www.tomoberheim.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -3755,6 +3909,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-6.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -3770,6 +3933,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [
       {
@@ -3785,7 +3949,8 @@
         "year": 1983,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 27,
@@ -3800,6 +3965,7 @@
     "official_website": null,
     "status": "defunct",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Palm Products GmbH",
@@ -3851,7 +4017,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 48,
@@ -3866,6 +4033,7 @@
     "official_website": "https://rhodesmusic.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Rhodes Piano Corporation",
@@ -3977,7 +4145,8 @@
         "year": 2024,
         "category": "electric piano"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 4,
@@ -3992,6 +4161,7 @@
     "official_website": "https://www.roland.com",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [],
     "instruments": [
@@ -6650,6 +6820,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-2.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "outdated"
+      }
     ]
   },
   {
@@ -6665,6 +6844,7 @@
     "official_website": "https://sequential.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Sequential Circuits",
@@ -6866,6 +7046,15 @@
         "year": 2021,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-5.png",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
+      }
     ]
   },
   {
@@ -6881,6 +7070,7 @@
     "official_website": "https://serge-modular.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [
       {
@@ -6896,7 +7086,8 @@
         "year": 1975,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 31,
@@ -6911,6 +7102,7 @@
     "official_website": null,
     "status": "acquired",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Societa Industrie Elettroniche",
@@ -7002,7 +7194,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 37,
@@ -7017,6 +7210,7 @@
     "official_website": null,
     "status": "active",
     "confidence_level": "needs_review",
+    "entity_type": "company",
     "name_history": [],
     "relations": [
       {
@@ -7102,7 +7296,8 @@
         "year": null,
         "category": "module"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 32,
@@ -7117,6 +7312,7 @@
     "official_website": null,
     "status": "acquired",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Aoi Onpa Kenkyujo",
@@ -7203,6 +7399,15 @@
         "year": null,
         "category": null
       }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-21.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": null
+      }
     ]
   },
   {
@@ -7218,6 +7423,7 @@
     "official_website": null,
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [],
     "relations": [
       {
@@ -7233,7 +7439,8 @@
         "year": null,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 28,
@@ -7248,6 +7455,7 @@
     "official_website": "https://waldorfmusic.com/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Waldorf Electronics GmbH",
@@ -7407,7 +7615,8 @@
         "year": null,
         "category": "electric piano"
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 41,
@@ -7422,6 +7631,7 @@
     "official_website": "https://www.wersi.net",
     "status": "acquired",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "WERSI-electronic",
@@ -7436,7 +7646,8 @@
         "year": 1977,
         "category": null
       }
-    ]
+    ],
+    "logos": []
   },
   {
     "id": 6,
@@ -7451,6 +7662,7 @@
     "official_website": "https://www.yamaha.com/en/",
     "status": "active",
     "confidence_level": "confirmed",
+    "entity_type": "company",
     "name_history": [
       {
         "name": "Nippon Gakki Co., Ltd.",
@@ -8094,6 +8306,15 @@
         "name": "YMF278",
         "year": null,
         "category": "synthesizer"
+      }
+    ],
+    "logos": [
+      {
+        "file": "logos/logo-4.svg",
+        "start_year": null,
+        "end_year": null,
+        "source_url": null,
+        "review_status": "approved"
       }
     ]
   }

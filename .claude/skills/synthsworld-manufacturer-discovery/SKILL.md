@@ -453,6 +453,18 @@ függetlenül attól, hogy ma is gyárt.
    pláne kell neki. A migráció előtti tizenhat logónál a mező NULL, mert a
    származásuk sehol nem volt feljegyezve.
 
+   **Melyik logót gyűjtsd (Kristóf szabálya, 2026-08-30):** a NAGYON
+   MEGHATÁROZÓ változatokat tegyük el, nem minden létező variánst. Egy cég
+   életében néhány logó definiálja a márkát, a többi apró tipográfiai
+   igazítás; utóbbiakra ne pazarolj kört. **És a lényeg: legalább EGY logónak
+   ki kell kerülnie a publikus weboldalra** -- ez a tényleges cél, nem a
+   gyűjtés önmagáért. A `site/generate.py` ezt automatikusan elvégzi: átmásolja
+   a fájlokat `site/logos/`-ba és beleírja a JSON-be, a `deploy.sh` pedig
+   felviszi őket. A publikus oldalon a hero-logó a Kristóf által JÓVÁHAGYOTT
+   változat, egy `outdated`-nek jelölt logó soha nem lesz hero, hacsak nincs
+   más (akkor jobb egy elavult logó, mint semmi -- és egyben jelzés, hogy kell
+   egy friss).
+
    **NE találj ki évszámot egy logóhoz.** A `start_year`/`end_year` maradjon
    NULL, ha a forrás nem mond korszakot. Konkrét eset (2026-08-30): Kristóf az
    `Akai brand logo.svg`-t választotta régi logónak, de a Commons-oldal

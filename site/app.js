@@ -26,6 +26,13 @@
     return "Ellenőrzésre vár";
   }
 
+  // generate.py already orders logos newest-era first, so the first entry is
+  // the current one. Kristóf's rule: collect the defining variants, but at
+  // least one has to reach the public site.
+  function primaryLogo(m) {
+    return m.logos && m.logos.length ? m.logos[0] : null;
+  }
+
   function yearRange(startYear, endYear) {
     var start = startYear == null ? "?" : startYear;
     var end = endYear == null ? "present" : endYear;
@@ -59,6 +66,16 @@
       label.textContent = m.canonical_name;
       label.style.flex = "1";
 
+      var primary = primaryLogo(m);
+      if (primary) {
+        var thumb = document.createElement("img");
+        thumb.className = "logo-thumb";
+        thumb.src = primary.file;
+        thumb.alt = "";
+        thumb.loading = "lazy";
+        li.appendChild(thumb);
+      }
+
       li.appendChild(label);
       li.appendChild(badge);
       li.addEventListener("click", function () { selectManufacturer(m.id); });
@@ -79,6 +96,12 @@
     var isConfirmed = m.confidence_level === "confirmed";
     var isUnresearched = m.confidence_level === "unresearched";
     var html = "";
+
+    var primary = primaryLogo(m);
+    if (primary) {
+      html += '<img class="logo-hero" src="' + escapeHtml(primary.file) + '" alt="' +
+        escapeHtml(m.canonical_name) + ' logó">';
+    }
 
     html += "<h1>" + escapeHtml(m.canonical_name) + "</h1>";
     html += '<div class="meta-row">';
@@ -130,6 +153,18 @@
           "</li>";
       });
       html += "</ul></section>";
+    }
+
+    if (m.logos && m.logos.length > 1) {
+      html += '<section><h2>Logók <span class="count">' + m.logos.length +
+        '</span></h2><div class="logo-gallery">';
+      m.logos.forEach(function (lg) {
+        var era = (lg.start_year || lg.end_year)
+          ? escapeHtml(yearRange(lg.start_year, lg.end_year)) : "";
+        html += '<figure class="logo-item"><img src="' + escapeHtml(lg.file) + '" alt="" loading="lazy">' +
+          (era ? '<figcaption>' + era + "</figcaption>" : "") + "</figure>";
+      });
+      html += "</div></section>";
     }
 
     if (m.name_history && m.name_history.length) {
