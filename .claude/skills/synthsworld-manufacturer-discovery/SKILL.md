@@ -296,6 +296,30 @@ függetlenül attól, hogy ma is gyárt.
      talált név tényleges GYÁRTÓ-e, nem csak forgalmazó/viszonteladó --
      egy webshop vagy disztribútor nem gyártó, még ha sok hangszert árul
      is, ne vedd fel gyártóként.
+   - **KÉT ÉVSZÁM NEM FELTÉTLENÜL ELLENTMONDÁS -- előbb nézd meg, nem KÉT
+     KÜLÖNBÖZŐ ESEMÉNYRŐL van-e szó** (Kristóf javítása, 2026-08-30). Konkrét
+     eset: a Siel megszűnésére az egyik forrás 1986-ot, a másik 1987-et adta,
+     és a pipeline ezt `needs_review`-ra tette. Valójában 1986 az OPERATÍV vég
+     volt (utolsó saját márkás modellek: DK70, EX70, a Gibsonnak gyártott
+     Keytek CTS-2000; fizetésképtelenség; ekkor kezdte Kakehashi a
+     tárgyalásokat), 1987 pedig a JOGI vég (a cégjegyzékből törölték a
+     Societa Industrie Elettroniche S.p.A.-t, helyére bejegyezték a Roland
+     Europe S.p.A.-t). Ezzel a "felvásárlás vagy vegyesvállalat" kérdés is
+     megszűnt: felvásárlás volt, 1987-ben lezárva.
+     Cégek végénél tipikusan ELKÜLÖNÜLŐ dátumok: termelés leállása,
+     fizetésképtelenség, a felvásárlás aláírása, a jogi megszűnés/cégjegyzéki
+     törlés, a márka utolsó használata. Alapításnál ugyanígy: ötlet/műhely
+     indulása vs. formális cégbejegyzés. MIELŐTT `conflicts`-ba írsz egy
+     évszám-eltérést, nézd meg, hogy a két forrás ugyanARRA az eseményre
+     mond-e két számot. Ha nem, akkor nincs ellentmondás: írd le MINDKÉT
+     dátumot a történetbe azzal együtt, MELYIK esemény melyik, és mehet
+     `confirmed`-re.
+   - **Ha Kristóf dönt el egy ellentmondást**, a döntés `facts_sources` sorba
+     kerül `source_tier='owner'` értékkel és
+     `source_url='owner-review:kristof/YYYY-MM-DD'` alakban (migration 0007),
+     plusz egy `conflict_resolved` sor a `manufacturer_review_log`-ba
+     (migration 0008), a `previous`/`new_confidence_level` kitöltve. A tier-
+     sorrend: `owner` > `manufacturer_official` > `wikidata` > `other`.
    - **Frissesség (Kristóf módszertana, 2026-08-30):** a szintetizátor-ipar
      gyorsan változik, friss forrást (idei/tavalyi) preferálj egy régi
      listával szemben, ha ütköznek. Aktív státuszú gyártónál érdemes
