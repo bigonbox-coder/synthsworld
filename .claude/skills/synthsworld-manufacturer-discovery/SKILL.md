@@ -148,6 +148,16 @@ találgatva kihagyj egy tényleg releváns gyártót.
       original summary sentence is both the accuracy rule (see confidence
       logic below) and the copyright-safety rule at the same time -- do it
       that way by default, don't treat it as an extra step.
+      **If the manufacturer has an official website with its own
+      About/History/Story content, that is the PRIMARY, anchor source for
+      the history text** (Kristóf's explicit instruction, 2026-08-30) --
+      build the narrative from what the company says about itself first,
+      then use Wikipedia/other sources to fill gaps, add dates the official
+      site glosses over, or catch anything the official version omits
+      (acquisitions, name changes, etc. a company's own site sometimes
+      underplays). This doesn't relax the multi-source/own-words rules
+      above -- it's about which source anchors the narrative, not about
+      accepting a single source uncritically.
    f. **Also write `long_history`**, a second, roughly 3x longer version of
       the history -- more specific dates, named products, people involved,
       notable events -- same rules as `short_history`: own words, synthesized
