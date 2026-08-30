@@ -90,6 +90,15 @@ találgatva kihagyj egy tényleg releváns gyártót.
    feltétlenül szerepelnek. Ugyanúgy csak a NÉV-forrás bővítése ez a lépés
    is, a tényleges mélykutatás marad a 3. lépésben.
 
+   **Az országokat rangsorolva dolgozd fel**, várható gyártó-sűrűség
+   szerint (Kristóf javaslata: nyilván Olaszországban több lesz, mint
+   Nigériában). Magasabb prioritás (ismert elektronikus hangszeripar):
+   USA, Japán, Egyesült Királyság, Németország, Olaszország, Franciaország,
+   Hollandia, Svédország, Oroszország, Dél-Korea. Ezeket dolgozd fel előbb.
+   Alacsony a priori valószínűségű országoknál (ahol valószínűleg nincs
+   releváns gyártó) ne pazarolj rájuk keresést, hacsak Kristóf kifejezetten
+   nem kér teljes, kimerítő globális lefedettséget.
+
 1. **Backup first, always.** Before touching the live DB, copy it:
    `cp db/synthsworld.sqlite db/backups/$(date -u +%Y%m%dT%H%M%SZ).sqlite`
    (skip only if the file doesn't exist yet, i.e. before the first run).
