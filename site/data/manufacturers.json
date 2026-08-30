@@ -1,5 +1,29 @@
 [
   {
+    "id": 18,
+    "canonical_name": "Akai Professional",
+    "country": "Japan",
+    "short_history": "Music-production division spun out in 1984 from the Japanese consumer-electronics maker Akai (founded 1929); developed the influential MPC sampler/sequencer line with engineer Roger Linn starting in 1988, became fully independent from its parent in 1999, and has been part of inMusic Brands since a 2005 acquisition.",
+    "long_history": "Akai Electric Co., Ltd. was founded in Tokyo in 1929 by Masukichi Akai and his son Saburo, and became internationally known for tape recorders through the 1960s-70s. In 1984 the company spun out a dedicated music-production division, Akai Professional, focused on synthesizers and samplers. Working with engineer Roger Linn, Akai Professional released the MPC60 in 1988, combining a 12-bit sampler, sequencer and the now-iconic 4x4 velocity-sensitive pad grid; the MPC line went on to shape the sound of hip-hop production for artists including Dr. Dre and J Dilla. Akai Professional separated into an independent business in 1999, while its parent company went through a series of ownership changes (Mitsubishi Electric, then International Semi-Tech Microsystems) before the wider Akai Holdings group filed for insolvency in 2000 and passed to Hong Kong's Grande Holdings. Akai Professional itself was acquired in 2005 by businessman Jack O'Donnell and is now part of his inMusic Brands group, continuing to develop MPC hardware and other production instruments.",
+    "official_website": "akaipro.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 17,
+    "canonical_name": "Alesis",
+    "country": "United States",
+    "short_history": "American audio-technology company founded in 1984 by Keith Barr, initially known for digital effects units and the ADAT multitrack recorder, that entered synthesizers in 2000 with the analog Andromeda A6 and the Ion virtual-analog synth before financial trouble in 2001 led to acquisition and eventual ownership by inMusic Brands.",
+    "long_history": "Keith Barr, previously a principal at guitar-effects maker MXR, founded Alesis in 1984, choosing the name to evoke Algorithmic Electronic Systems. The company built its early reputation on affordable digital signal processing: the 1985 XT Reverb undercut competitors at $799, and the 1986 MIDIverb became one of the first widely affordable MIDI-controllable effects units. Its most influential product was the 1991 ADAT, the first multitrack digital tape recorder priced within reach of home and project studios, which reshaped affordable recording. Alesis moved into synthesizers around 2000, using its custom IC design expertise to build the Andromeda A6, among the last large-scale polyphonic analog synthesizers to reach mass production, followed by the virtual-analog Ion. The company went through bankruptcy in 2001 and was acquired by Jack O'Donnell; it has not released a new synth design since the 2005 Fusion. Alesis is now a brand of inMusic Brands and continues to make drum machines, interfaces and controllers, headquartered in Cumberland, Rhode Island.",
+    "official_website": "alesis.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
     "id": 14,
     "canonical_name": "ARP Instruments",
     "country": "United States",
@@ -20,6 +44,30 @@
         "end_year": 1981
       }
     ],
+    "relations": []
+  },
+  {
+    "id": 19,
+    "canonical_name": "Behringer",
+    "country": "Germany",
+    "short_history": "German audio-electronics company founded in 1989 by Uli Behringer, built on affordable processors and mixers before manufacturing shifted to China from 1997; entered synthesizers in 2016 with the Model D (a Minimoog clone) and has since released many analog and digital synth clones, operating today under the Music Tribe corporate umbrella alongside brands like Midas and TC Electronic.",
+    "long_history": "Uli Behringer, who built his first synthesizer (the UB1) at age 16, founded the company in Willich, Germany on 25 January 1989, starting with an Aural Exciter and a compressor designed around his own kitchen table. Early growth came from affordable studio processors, and in 1997 the company began moving manufacturing to China, opening its first large Chinese factory in 2002. Through the 2000s and 2010s the parent structure (renamed Music Group, then Music Tribe in 2017) acquired a string of established audio brands, including Midas and Klark Teknik (2009), Turbosound (2012), TC Group/TC Electronic/TC-Helicon (2015), Tannoy, and Aston Microphones. Behringer's own entry into synthesizers came later than its mixer and interface business: the 2016 Model D, a faithful clone of the Minimoog, marked the brand's serious arrival in the synth market, followed by many further analog and digital clone and original instruments. Music Tribe is today based in Manila, the Philippines, with its main manufacturing complex, Music Tribe City, in Zhongshan, China.",
+    "official_website": "behringer.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 20,
+    "canonical_name": "Doepfer",
+    "country": "Germany",
+    "short_history": "German modular-synthesizer maker founded in 1979 by Dieter Doepfer near Munich, best known for introducing the A-100 system in 1995-96, whose 3U/HP module standard became the Eurorack format that is now the dominant modular synthesizer standard worldwide.",
+    "long_history": "Dieter Doepfer began working with synth hardware in 1977, building a voltage-controlled phaser module for the Formant, a DIY analog synth kit published by Elektor magazine, and founded Doepfer Musikelektronik in Gräfelfing, Upper Bavaria in 1979. The company built a reputation for well-engineered, accessible electronics before its defining product: the A-100 modular system, unveiled at the 1995 Frankfurt Musikmesse and shipped from 1996, launched with around 10 module types and has since grown to well over 120. The A-100 fixed a set of mechanical and electrical standards -- 3U (128.5mm) panel height, module widths in multiples of 5.08mm (HP), and +-12V bus power -- that other manufacturers adopted as a de facto standard now known as Eurorack, today the most widely used modular synthesizer format in the world. Doepfer remains active and independently owned, continuing to produce Eurorack modules and other synth hardware.",
+    "official_website": "doepfer.de",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
     "relations": []
   },
   {
@@ -123,12 +171,12 @@
   {
     "id": 16,
     "canonical_name": "Novation",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
+    "country": "United Kingdom",
+    "short_history": "British music-technology maker founded in 1992 by Ian Jannaway and Mark Thompson as Novation Electronic Music Systems; started with MIDI keyboard controllers, added the analog-modeled Bass Station synth in 1993, and became a Focusrite division after a 2004 acquisition.",
+    "long_history": "Founded in High Wycombe, England in 1992 by Ian Jannaway and Mark Thompson under the name Novation Electronic Music Systems, the company's first product was the MM10, a battery-portable MIDI keyboard controller meant to pair with the Yamaha QY10 workstation. Its next release, the 1993 Bass Station, used digitally controlled oscillators to emulate a classic monophonic analog synth at an accessible price, establishing the brand in the synth market. Chris Huggett, previously known for designing the EDP Wasp and OSCar synthesizers, joined as technical director and shaped the company's instrument designs until his death in 2020. Through the late 1990s and 2000s Novation released the Supernova (1998), Nova (1999) and Supernova II (2000) synth workstations, then pivoted toward MIDI controllers with the ReMOTE and X-Station lines. In August 2004 Focusrite Audio Engineering acquired Novation, making it a subsidiary while it kept its own product identity. The 2009 Launchpad grid controller became one of the best-known tools in modern electronic production, and the company continued releasing instruments including the Circuit groovebox (2015), Peak synthesizer (2017) and Summit (2019). Novation instruments have been used by artists such as Orbital, Jean-Michel Jarre and Aphex Twin, the last of whom collaborated on the 2020 AFX Station.",
+    "official_website": "novationmusic.com",
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": []
   },
