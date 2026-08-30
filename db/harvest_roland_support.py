@@ -41,27 +41,56 @@ UA = {"User-Agent": ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
       "Accept-Language": "en-US,en;q=0.9"}
 
 
-# Decided on Roland's OWN descriptor, never on the model number.
+# Scope is decided on Roland's OWN descriptor, never on the model number.
+#
+# Kristof's rulings (2026-08-30 06:59): digital pianos IN, V-Drums IN,
+# arrangers IN, and accordions and wind instruments IN **when the instrument
+# GENERATES the sound** -- an amplified acoustic accordion is not an
+# instrument for this database, a V-Accordion is a synthesizer in a different
+# shell. The same test settles the pads: a Sampling Pad or a HandSonic makes
+# sound, a mesh V-Pad or a hi-hat trigger only reports a hit.
+
+# Checked FIRST: things that only sense, route, amplify or record.
+NOT_AN_INSTRUMENT = re.compile(
+    r"\binterface\b|\bmixer\b|\brecorder\b|amplifier|\bpreamp\b|"
+    r"keyboard controller|dj controller|foot controller|expandable controller|"
+    r"controller\+generator|expression pedal|hi-hat control|trigger|"
+    r"\bv-pad\b|v-cymbal|v-hi-hat|mesh v-pad|hand percussion pad|"
+    r"exp\. board|expansion board|upgrade|plug-in|tutor|disclab|music player|"
+    r"audio capture|recording system|streaming|livestreaming|sync box|"
+    r"gaming|video capture|patcher|control surface|adapter|interface card|"
+    r"e-mix|motion dive|v-mixing|mix performer|digital audio studio|"
+    # 'Digital Studio Workstation' is the VS-series multitrack recorder line,
+    # not a music workstation. Caught only after 14 recorders had been created.
+    r"digital (studio|audio) workstation|bit digital workstation|"
+    r"portable music production studio", re.I)
+
+# Effects: out at PRODUCT level even though Roland is in scope as a maker.
+EFFECT_ONLY = re.compile(
+    r"modular (crusher|delay|distortion|scatter)|voice transformer|"
+    r"vocal processor|voice tweaker|customizer", re.I)
+
+# Everything that makes sound and belongs in the museum.
 IN_SCOPE = re.compile(
-    r"synthesi[sz]er|synth\b|synth module|sampler|sampling|groovebox|"
-    r"rhythm (composer|performer|machine)|sequencer|workstation|organ|"
-    r"stage piano|sound canvas", re.I)
-# 'Drum Sound Module' and 'Percussion Sound Module' are V-Drums brains, not
-# drum machines -- they go to ASK, so 'sound module' must not match them here.
-SOUND_MODULE = re.compile(r"(?<!drum )(?<!percussion )sound module|"
-                          r"\bsynth module\b", re.I)
-OUT_OF_SCOPE = re.compile(
-    r"interface|controller|amplifier|accordion|wind instrument|recorder|"
-    r"mixer|trigger|monitor|speaker|switcher|camera|expansion|foot|"
-    r"\bpad\b|announcement|dj\b|guitar amp", re.I)
+    r"synthesi[sz]er|\bsynth\b|synth module|sampler|sampling|groovebox|"
+    r"rhythm (composer|performer|creator|machine)|drumatix|beat machine|"
+    r"bass ?line|sequencer|workstation|organ|atelier|"
+    r"\bpiano\b|\bgrand\b|"
+    r"v-drums|v-pro|v-tour|v-stage|drum module|drum sound module|"
+    r"percussion sound module|percussion pad|sampling pad|taiko|hand percussion|"
+    r"arranger|backing (keyboard|module)|\bkeyboard\b|vima|orchestrator|"
+    r"entertainment module|production studio|vocoder|v-combo|"
+    r"accordion|wind instrument|"
+    r"modular (vco|vcf|vca|2env|phase)", re.I)
 
 
 def bucket(descriptor):
+    """in / out / ask -- ask means it is Kristof's call, not mine."""
     if not descriptor:
         return "ask"
-    if OUT_OF_SCOPE.search(descriptor):
+    if NOT_AN_INSTRUMENT.search(descriptor) or EFFECT_ONLY.search(descriptor):
         return "out"
-    if IN_SCOPE.search(descriptor) or SOUND_MODULE.search(descriptor):
+    if IN_SCOPE.search(descriptor):
         return "in"
     return "ask"
 

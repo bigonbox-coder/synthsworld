@@ -3,6 +3,86 @@
   "pages": [
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "Aerophone AE-10",
+      "display_name": "Aerophone AE-10",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/aerophone_ae-10/updates_drivers/",
+          "label": "Aerophone AE-10 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Wind Instrument"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Aerophone AE-20",
+      "display_name": "Aerophone AE-20",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/aerophone_ae-20/updates_drivers/",
+          "label": "Aerophone AE-20 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Wind Instrument"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "Aerophone Pro",
+      "display_name": "Aerophone Pro",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/aerophone_pro/updates_drivers/",
+          "label": "Aerophone Pro updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Wind Instrument"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "AT-100",
+      "display_name": "AT-100",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/at-100/updates_drivers/",
+          "label": "AT-100 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "MUSIC ATELIER"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "AT-300",
+      "display_name": "AT-300",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/at-300/updates_drivers/",
+          "label": "AT-300 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "MUSIC ATELIER"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "AT-500",
       "display_name": "AT-500",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -35,6 +115,22 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "AT-800",
+      "display_name": "AT-800",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/at-800/updates_drivers/",
+          "label": "AT-800 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "MUSIC ATELIER"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "AT-900",
       "display_name": "AT-900",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -47,6 +143,38 @@
       ],
       "specs": {
         "roland_descriptor": "Atelier Organ"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "AT-900C",
+      "display_name": "AT-900C",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/at-900c/updates_drivers/",
+          "label": "AT-900C updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "MUSIC ATELIER"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "ATELIER Combo AT-350C",
+      "display_name": "ATELIER Combo AT-350C",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/atelier_combo_at-350c/updates_drivers/",
+          "label": "ATELIER Combo AT-350C updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "MUSIC ATELIER"
       }
     },
     {
@@ -79,6 +207,86 @@
       ],
       "specs": {
         "roland_descriptor": "Shoulder Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "BK-3",
+      "display_name": "BK-3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/bk-3/updates_drivers/",
+          "label": "BK-3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Backing Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "BK-5",
+      "display_name": "BK-5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/bk-5/updates_drivers/",
+          "label": "BK-5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Backing Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "BK-5 OR",
+      "display_name": "BK-5 OR",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/bk-5_or/updates_drivers/",
+          "label": "BK-5 OR updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Backing Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "BK-7m",
+      "display_name": "BK-7m",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/bk-7m/updates_drivers/",
+          "label": "BK-7m updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Backing Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "BK-9",
+      "display_name": "BK-9",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/bk-9/updates_drivers/",
+          "label": "BK-9 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Backing Keyboard"
       }
     },
     {
@@ -131,6 +339,118 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "DisCover 5",
+      "display_name": "DisCover 5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/discover_5/updates_drivers/",
+          "label": "DisCover 5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "RealTime Orchestrator"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DisCover 5M",
+      "display_name": "DisCover 5M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/discover_5m/updates_drivers/",
+          "label": "DisCover 5M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Realtime Orchestrator"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DP-90",
+      "display_name": "DP-90",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/dp-90/updates_drivers/",
+          "label": "DP-90 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DP-90S",
+      "display_name": "DP-90S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/dp-90s/updates_drivers/",
+          "label": "DP-90S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DP603",
+      "display_name": "DP603",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/dp603/updates_drivers/",
+          "label": "DP603 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DP90e",
+      "display_name": "DP90e",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/dp90e/updates_drivers/",
+          "label": "DP90e updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "DP90Se",
+      "display_name": "DP90Se",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/dp90se/updates_drivers/",
+          "label": "DP90Se updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "E-50",
       "display_name": "E-50",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -175,6 +495,326 @@
       ],
       "specs": {
         "roland_descriptor": "Music Workstation"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "E-A7",
+      "display_name": "E-A7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/e-a7/updates_drivers/",
+          "label": "E-A7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Expandable Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "E-X10",
+      "display_name": "E-X10",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/e-x10/updates_drivers/",
+          "label": "E-X10 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Arranger Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "E-X50",
+      "display_name": "E-X50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/e-x50/updates_drivers/",
+          "label": "E-X50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Arranger Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EM-2000",
+      "display_name": "EM-2000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/em-2000/updates_drivers/",
+          "label": "EM-2000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Creative Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EM-55",
+      "display_name": "EM-55",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/em-55/updates_drivers/",
+          "label": "EM-55 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-3",
+      "display_name": "EXR-3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-3/updates_drivers/",
+          "label": "EXR-3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-3s",
+      "display_name": "EXR-3s",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-3s/updates_drivers/",
+          "label": "EXR-3s updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-40 OR",
+      "display_name": "EXR-40 OR",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-40_or/updates_drivers/",
+          "label": "EXR-40 OR updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-46 OR",
+      "display_name": "EXR-46 OR",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-46_or/updates_drivers/",
+          "label": "EXR-46 OR updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-5",
+      "display_name": "EXR-5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-5/updates_drivers/",
+          "label": "EXR-5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-5s",
+      "display_name": "EXR-5s",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-5s/updates_drivers/",
+          "label": "EXR-5s updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-7",
+      "display_name": "EXR-7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-7/updates_drivers/",
+          "label": "EXR-7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "EXR-7s",
+      "display_name": "EXR-7s",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/exr-7s/updates_drivers/",
+          "label": "EXR-7s updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Interactive Arranger"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F-110",
+      "display_name": "F-110",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f-110/updates_drivers/",
+          "label": "F-110 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F-120R",
+      "display_name": "F-120R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f-120r/updates_drivers/",
+          "label": "F-120R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F-130R",
+      "display_name": "F-130R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f-130r/updates_drivers/",
+          "label": "F-130R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F-140R",
+      "display_name": "F-140R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f-140r/updates_drivers/",
+          "label": "F-140R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F-20",
+      "display_name": "F-20",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f-20/updates_drivers/",
+          "label": "F-20 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F107",
+      "display_name": "F107",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f107/updates_drivers/",
+          "label": "F107 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "F701",
+      "display_name": "F701",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/f701/updates_drivers/",
+          "label": "F701 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -547,6 +1187,454 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "FP-10",
+      "display_name": "FP-10",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-10/updates_drivers/",
+          "label": "FP-10 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-2",
+      "display_name": "FP-2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-2/updates_drivers/",
+          "label": "FP-2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-30",
+      "display_name": "FP-30",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-30/updates_drivers/",
+          "label": "FP-30 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-30X",
+      "display_name": "FP-30X",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-30x/updates_drivers/",
+          "label": "FP-30X updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-4",
+      "display_name": "FP-4",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-4/updates_drivers/",
+          "label": "FP-4 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Portable Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-4F",
+      "display_name": "FP-4F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-4f/updates_drivers/",
+          "label": "FP-4F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-5",
+      "display_name": "FP-5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-5/updates_drivers/",
+          "label": "FP-5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-50",
+      "display_name": "FP-50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-50/updates_drivers/",
+          "label": "FP-50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-60",
+      "display_name": "FP-60",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-60/updates_drivers/",
+          "label": "FP-60 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-60X",
+      "display_name": "FP-60X",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-60x/updates_drivers/",
+          "label": "FP-60X updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-7",
+      "display_name": "FP-7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-7/updates_drivers/",
+          "label": "FP-7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Portable Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-7F",
+      "display_name": "FP-7F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-7f/updates_drivers/",
+          "label": "FP-7F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-80",
+      "display_name": "FP-80",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-80/updates_drivers/",
+          "label": "FP-80 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-90",
+      "display_name": "FP-90",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-90/updates_drivers/",
+          "label": "FP-90 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-90X",
+      "display_name": "FP-90X",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-90x/updates_drivers/",
+          "label": "FP-90X updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FP-E50",
+      "display_name": "FP-E50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fp-e50/updates_drivers/",
+          "label": "FP-E50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-18 diatonic",
+      "display_name": "FR-18 diatonic",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-18_diatonic/updates_drivers/",
+          "label": "FR-18 diatonic updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-1x",
+      "display_name": "FR-1x",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-1x/updates_drivers/",
+          "label": "FR-1x updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-1xb",
+      "display_name": "FR-1xb",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-1xb/updates_drivers/",
+          "label": "FR-1xb updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-3x",
+      "display_name": "FR-3x",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-3x/updates_drivers/",
+          "label": "FR-3x updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-3xb",
+      "display_name": "FR-3xb",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-3xb/updates_drivers/",
+          "label": "FR-3xb updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-4x",
+      "display_name": "FR-4x",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-4x/updates_drivers/",
+          "label": "FR-4x updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-4xb",
+      "display_name": "FR-4xb",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-4xb/updates_drivers/",
+          "label": "FR-4xb updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-7x",
+      "display_name": "FR-7x",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-7x/updates_drivers/",
+          "label": "FR-7x updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-7xb",
+      "display_name": "FR-7xb",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-7xb/updates_drivers/",
+          "label": "FR-7xb updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-8x",
+      "display_name": "FR-8x",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-8x/updates_drivers/",
+          "label": "FR-8x updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-8x Dallapè",
+      "display_name": "FR-8x Dallapè",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-8x_dallape/updates_drivers/",
+          "label": "FR-8x Dallapè updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "FR-8xb",
+      "display_name": "FR-8xb",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/fr-8xb/updates_drivers/",
+          "label": "FR-8xb updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Accordion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "G-70",
       "display_name": "G-70",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -591,6 +1679,198 @@
       ],
       "specs": {
         "roland_descriptor": "Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:KEYS 3",
+      "display_name": "GO:KEYS 3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gokeys_3/updates_drivers/",
+          "label": "GO:KEYS 3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Music Creation Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:KEYS 5",
+      "display_name": "GO:KEYS 5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gokeys_5/updates_drivers/",
+          "label": "GO:KEYS 5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Music Creation Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:KEYS",
+      "display_name": "GO:KEYS",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gokeys_go-61k/updates_drivers/",
+          "label": "GO:KEYS updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Music Creation Keyboard (GO-61K)"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:PIANO",
+      "display_name": "GO:PIANO",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gopiano_go-61p/updates_drivers/",
+          "label": "GO:PIANO updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano (GO-61P)"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:PIANO88",
+      "display_name": "GO:PIANO88",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gopiano_go-88p/updates_drivers/",
+          "label": "GO:PIANO88 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GO:PIANO88",
+      "display_name": "GO:PIANO88",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gopiano_go-88px/updates_drivers/",
+          "label": "GO:PIANO88 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano (GO-88PX)"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP-3",
+      "display_name": "GP-3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp-3/updates_drivers/",
+          "label": "GP-3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP-6",
+      "display_name": "GP-6",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp-6/updates_drivers/",
+          "label": "GP-6 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP-9",
+      "display_name": "GP-9",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp-9/updates_drivers/",
+          "label": "GP-9 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP-9M",
+      "display_name": "GP-9M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp-9m/updates_drivers/",
+          "label": "GP-9M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP607",
+      "display_name": "GP607",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp607/updates_drivers/",
+          "label": "GP607 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "GP609",
+      "display_name": "GP609",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/gp609/updates_drivers/",
+          "label": "GP609 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -671,6 +1951,454 @@
       ],
       "specs": {
         "roland_descriptor": "Workstation"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HandSonic HPD-20",
+      "display_name": "HandSonic HPD-20",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/handsonic_hpd-20/updates_drivers/",
+          "label": "HandSonic HPD-20 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Hand Percussion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-107",
+      "display_name": "HP-107",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-107/updates_drivers/",
+          "label": "HP-107 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-109",
+      "display_name": "HP-109",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-109/updates_drivers/",
+          "label": "HP-109 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Mini-Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-201",
+      "display_name": "HP-201",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-201/updates_drivers/",
+          "label": "HP-201 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-203",
+      "display_name": "HP-203",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-203/updates_drivers/",
+          "label": "HP-203 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-207",
+      "display_name": "HP-207",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-207/updates_drivers/",
+          "label": "HP-207 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-302",
+      "display_name": "HP-302",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-302/updates_drivers/",
+          "label": "HP-302 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-305",
+      "display_name": "HP-305",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-305/updates_drivers/",
+          "label": "HP-305 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-307",
+      "display_name": "HP-307",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-307/updates_drivers/",
+          "label": "HP-307 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-503",
+      "display_name": "HP-503",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-503/updates_drivers/",
+          "label": "HP-503 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-505",
+      "display_name": "HP-505",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-505/updates_drivers/",
+          "label": "HP-505 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP-507",
+      "display_name": "HP-507",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp-507/updates_drivers/",
+          "label": "HP-507 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP504",
+      "display_name": "HP504",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp504/updates_drivers/",
+          "label": "HP504 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP506",
+      "display_name": "HP506",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp506/updates_drivers/",
+          "label": "HP506 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP508",
+      "display_name": "HP508",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp508/updates_drivers/",
+          "label": "HP508 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP601",
+      "display_name": "HP601",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp601/updates_drivers/",
+          "label": "HP601 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP603/HP603A",
+      "display_name": "HP603/HP603A",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp603/updates_drivers/",
+          "label": "HP603/HP603A updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP605",
+      "display_name": "HP605",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp605/updates_drivers/",
+          "label": "HP605 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP702",
+      "display_name": "HP702",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp702/updates_drivers/",
+          "label": "HP702 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HP704",
+      "display_name": "HP704",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hp704/updates_drivers/",
+          "label": "HP704 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-50",
+      "display_name": "HPi-50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-50/updates_drivers/",
+          "label": "HPi-50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-50e",
+      "display_name": "HPi-50e",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-50e/updates_drivers/",
+          "label": "HPi-50e updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-6",
+      "display_name": "HPi-6",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-6/updates_drivers/",
+          "label": "HPi-6 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Interactive Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-6s",
+      "display_name": "HPi-6s",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-6s/updates_drivers/",
+          "label": "HPi-6s updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Interactive Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-7",
+      "display_name": "HPi-7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-7/updates_drivers/",
+          "label": "HPi-7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Interactive Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-7F",
+      "display_name": "HPi-7F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-7f/updates_drivers/",
+          "label": "HPi-7F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-7LE",
+      "display_name": "HPi-7LE",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-7le/updates_drivers/",
+          "label": "HPi-7LE updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Interactive Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "HPi-7s",
+      "display_name": "HPi-7s",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/hpi-7s/updates_drivers/",
+          "label": "HPi-7s updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Interactive Piano"
       }
     },
     {
@@ -1123,6 +2851,198 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "KIYOLA KF-10",
+      "display_name": "KIYOLA KF-10",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kiyola_kf-10/updates_drivers/",
+          "label": "KIYOLA KF-10 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Artisan Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KIYOLA KF-20",
+      "display_name": "KIYOLA KF-20",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kiyola_kf-20/updates_drivers/",
+          "label": "KIYOLA KF-20 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Artisan Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KIYOLA KF-25",
+      "display_name": "KIYOLA KF-25",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kiyola_kf-25/updates_drivers/",
+          "label": "KIYOLA KF-25 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Artisan Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-103",
+      "display_name": "KR-103",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-103/updates_drivers/",
+          "label": "KR-103 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-105",
+      "display_name": "KR-105",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-105/updates_drivers/",
+          "label": "KR-105 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-107",
+      "display_name": "KR-107",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-107/updates_drivers/",
+          "label": "KR-107 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-111",
+      "display_name": "KR-111",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-111/updates_drivers/",
+          "label": "KR-111 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Mini-Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-115",
+      "display_name": "KR-115",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-115/updates_drivers/",
+          "label": "KR-115 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Mini-Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-115M",
+      "display_name": "KR-115M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-115m/updates_drivers/",
+          "label": "KR-115M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Mini-Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-117M",
+      "display_name": "KR-117M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-117m/updates_drivers/",
+          "label": "KR-117M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-15M",
+      "display_name": "KR-15M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-15m/updates_drivers/",
+          "label": "KR-15M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Mini-Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "KR-17M",
+      "display_name": "KR-17M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/kr-17m/updates_drivers/",
+          "label": "KR-17M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Intelligent Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "Lucina AX-09",
       "display_name": "Lucina AX-09",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1135,6 +3055,198 @@
       ],
       "specs": {
         "roland_descriptor": "Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-10",
+      "display_name": "LX-10",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-10/updates_drivers/",
+          "label": "LX-10 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Upright Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-10F",
+      "display_name": "LX-10F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-10f/updates_drivers/",
+          "label": "LX-10F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-15",
+      "display_name": "LX-15",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-15/updates_drivers/",
+          "label": "LX-15 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-15e",
+      "display_name": "LX-15e",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-15e/updates_drivers/",
+          "label": "LX-15e updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-17",
+      "display_name": "LX-17",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-17/updates_drivers/",
+          "label": "LX-17 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-5",
+      "display_name": "LX-5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-5/updates_drivers/",
+          "label": "LX-5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-6",
+      "display_name": "LX-6",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-6/updates_drivers/",
+          "label": "LX-6 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-7",
+      "display_name": "LX-7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-7/updates_drivers/",
+          "label": "LX-7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX-9",
+      "display_name": "LX-9",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx-9/updates_drivers/",
+          "label": "LX-9 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX705",
+      "display_name": "LX705",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx705/updates_drivers/",
+          "label": "LX705 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX706",
+      "display_name": "LX706",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx706/updates_drivers/",
+          "label": "LX706 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "LX708",
+      "display_name": "LX708",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/lx708/updates_drivers/",
+          "label": "LX708 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -1267,6 +3379,70 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "MP200",
+      "display_name": "MP200",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mp200/updates_drivers/",
+          "label": "MP200 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MV-8000",
+      "display_name": "MV-8000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mv-8000/updates_drivers/",
+          "label": "MV-8000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Production Studio"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "MV-8800",
+      "display_name": "MV-8800",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/mv-8800/updates_drivers/",
+          "label": "MV-8800 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Production Studio"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "OCTAPAD SPD-30",
+      "display_name": "OCTAPAD SPD-30",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/octapad_spd-30/updates_drivers/",
+          "label": "OCTAPAD SPD-30 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Percussion Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "P-6",
       "display_name": "P-6",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1279,6 +3455,38 @@
       ],
       "specs": {
         "roland_descriptor": "Creative Sampler"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "PRELUDE",
+      "display_name": "PRELUDE",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/prelude/updates_drivers/",
+          "label": "PRELUDE updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Portable Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RCP800",
+      "display_name": "RCP800",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rcp800/updates_drivers/",
+          "label": "RCP800 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -1315,6 +3523,22 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "RD-2000",
+      "display_name": "RD-2000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rd-2000/updates_drivers/",
+          "label": "RD-2000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "RD-2000 EX",
       "display_name": "RD-2000 EX",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1343,6 +3567,22 @@
       ],
       "specs": {
         "roland_descriptor": "Digital Stage Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RD-300NX",
+      "display_name": "RD-300NX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rd-300nx/updates_drivers/",
+          "label": "RD-300NX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -1379,6 +3619,22 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "RD-64",
+      "display_name": "RD-64",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rd-64/updates_drivers/",
+          "label": "RD-64 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "RD-700",
       "display_name": "RD-700",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1407,6 +3663,22 @@
       ],
       "specs": {
         "roland_descriptor": "Digital Stage Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RD-700NX",
+      "display_name": "RD-700NX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rd-700nx/updates_drivers/",
+          "label": "RD-700NX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
       }
     },
     {
@@ -1475,6 +3747,262 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "RG-1",
+      "display_name": "RG-1",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-1/updates_drivers/",
+          "label": "RG-1 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Mini-Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RG-1F",
+      "display_name": "RG-1F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-1f/updates_drivers/",
+          "label": "RG-1F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Grand"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RG-3",
+      "display_name": "RG-3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-3/updates_drivers/",
+          "label": "RG-3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Mini-Grand Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RG-3F",
+      "display_name": "RG-3F",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-3f/updates_drivers/",
+          "label": "RG-3F updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Grand"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RG-3M",
+      "display_name": "RG-3M",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-3m/updates_drivers/",
+          "label": "RG-3M updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Mini-Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RG-7",
+      "display_name": "RG-7",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rg-7/updates_drivers/",
+          "label": "RG-7 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Grand Player Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RK-100",
+      "display_name": "RK-100",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rk-100/updates_drivers/",
+          "label": "RK-100 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "VIMA Recreational Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RK-300",
+      "display_name": "RK-300",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rk-300/updates_drivers/",
+          "label": "RK-300 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "VIMA Recreational Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RK-500",
+      "display_name": "RK-500",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rk-500/updates_drivers/",
+          "label": "RK-500 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "VIMA Recreational Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RM-700",
+      "display_name": "RM-700",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rm-700/updates_drivers/",
+          "label": "RM-700 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Entertainment Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP-301R",
+      "display_name": "RP-301R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp-301r/updates_drivers/",
+          "label": "RP-301R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "SuperNATURAL Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP102",
+      "display_name": "RP102",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp102/updates_drivers/",
+          "label": "RP102 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP107",
+      "display_name": "RP107",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp107/updates_drivers/",
+          "label": "RP107 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP401R",
+      "display_name": "RP401R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp401r/updates_drivers/",
+          "label": "RP401R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP501R",
+      "display_name": "RP501R",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp501r/updates_drivers/",
+          "label": "RP501R updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RP701",
+      "display_name": "RP701",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rp701/updates_drivers/",
+          "label": "RP701 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Digital Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "RS-50",
       "display_name": "RS-50",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1503,6 +4031,22 @@
       ],
       "specs": {
         "roland_descriptor": "Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "RT-MicS",
+      "display_name": "RT-MicS",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/rt-mics/updates_drivers/",
+          "label": "RT-MicS updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Hybrid Drum Module"
       }
     },
     {
@@ -1779,6 +4323,134 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "SPD-S",
+      "display_name": "SPD-S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd-s/updates_drivers/",
+          "label": "SPD-S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Sampling Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD-SX",
+      "display_name": "SPD-SX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd-sx/updates_drivers/",
+          "label": "SPD-SX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Sampling Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD-SX PRO",
+      "display_name": "SPD-SX PRO",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd-sx_pro/updates_drivers/",
+          "label": "SPD-SX PRO updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Sampling Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD-SX Special Edition",
+      "display_name": "SPD-SX Special Edition",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd-sx_special_edition/updates_drivers/",
+          "label": "SPD-SX Special Edition updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Sampling Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD::ONE ELECTRO",
+      "display_name": "SPD::ONE ELECTRO",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd_one_electro/updates_drivers/",
+          "label": "SPD::ONE ELECTRO updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD::ONE KICK",
+      "display_name": "SPD::ONE KICK",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd_one_kick/updates_drivers/",
+          "label": "SPD::ONE KICK updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD::ONE PERCUSSION",
+      "display_name": "SPD::ONE PERCUSSION",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd_one_percussion/updates_drivers/",
+          "label": "SPD::ONE PERCUSSION updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SPD::ONE WAV PAD",
+      "display_name": "SPD::ONE WAV PAD",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/spd_one_wav_pad/updates_drivers/",
+          "label": "SPD::ONE WAV PAD updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Pad"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "SYSTEM-1",
       "display_name": "SYSTEM-1",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1807,6 +4479,86 @@
       ],
       "specs": {
         "roland_descriptor": "PLUG-OUT Synthesizer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-500 512",
+      "display_name": "SYSTEM-500 512",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-500_512/updates_drivers/",
+          "label": "SYSTEM-500 512 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Modular VCO"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-500 521",
+      "display_name": "SYSTEM-500 521",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-500_521/updates_drivers/",
+          "label": "SYSTEM-500 521 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Modular VCF"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-500 530",
+      "display_name": "SYSTEM-500 530",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-500_530/updates_drivers/",
+          "label": "SYSTEM-500 530 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Modular VCA"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-500 540",
+      "display_name": "SYSTEM-500 540",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-500_540/updates_drivers/",
+          "label": "SYSTEM-500 540 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Modular 2ENV-LFO"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "SYSTEM-500 572",
+      "display_name": "SYSTEM-500 572",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/system-500_572/updates_drivers/",
+          "label": "SYSTEM-500 572 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Modular PHASE SHIFTER/DELAY/LFO"
       }
     },
     {
@@ -1843,6 +4595,742 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "T-8",
+      "display_name": "T-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/t-8/updates_drivers/",
+          "label": "T-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Beat Machine"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TAIKO-1",
+      "display_name": "TAIKO-1",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/taiko-1/updates_drivers/",
+          "label": "TAIKO-1 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Electronic Taiko Percussion"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TB-03",
+      "display_name": "TB-03",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tb-03/updates_drivers/",
+          "label": "TB-03 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Bass Line"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TB-3",
+      "display_name": "TB-3",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tb-3/updates_drivers/",
+          "label": "TB-3 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Touch Bassline"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-02K",
+      "display_name": "TD-02K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-02k/updates_drivers/",
+          "label": "TD-02K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-02KV",
+      "display_name": "TD-02KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-02kv/updates_drivers/",
+          "label": "TD-02KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-07DMK",
+      "display_name": "TD-07DMK",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-07dmk/updates_drivers/",
+          "label": "TD-07DMK updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-07KV",
+      "display_name": "TD-07KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-07kv/updates_drivers/",
+          "label": "TD-07KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-07KVX",
+      "display_name": "TD-07KVX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-07kvx/updates_drivers/",
+          "label": "TD-07KVX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-07KX",
+      "display_name": "TD-07KX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-07kx/updates_drivers/",
+          "label": "TD-07KX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-11",
+      "display_name": "TD-11",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-11/updates_drivers/",
+          "label": "TD-11 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-11K",
+      "display_name": "TD-11K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-11k/updates_drivers/",
+          "label": "TD-11K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-11KV",
+      "display_name": "TD-11KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-11kv/updates_drivers/",
+          "label": "TD-11KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-12",
+      "display_name": "TD-12",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-12/updates_drivers/",
+          "label": "TD-12 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-12KX",
+      "display_name": "TD-12KX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-12kx/updates_drivers/",
+          "label": "TD-12KX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Stage Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-12S",
+      "display_name": "TD-12S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-12s/updates_drivers/",
+          "label": "TD-12S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Stage Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-12SV",
+      "display_name": "TD-12SV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-12sv/updates_drivers/",
+          "label": "TD-12SV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Stage Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-15",
+      "display_name": "TD-15",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-15/updates_drivers/",
+          "label": "TD-15 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-15K",
+      "display_name": "TD-15K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-15k/updates_drivers/",
+          "label": "TD-15K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums V-Tour Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-15KV",
+      "display_name": "TD-15KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-15kv/updates_drivers/",
+          "label": "TD-15KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums V-Tour Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17",
+      "display_name": "TD-17",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17/updates_drivers/",
+          "label": "TD-17 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17K-L",
+      "display_name": "TD-17K-L",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17k-l/updates_drivers/",
+          "label": "TD-17K-L updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17KV",
+      "display_name": "TD-17KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17kv/updates_drivers/",
+          "label": "TD-17KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17KV2",
+      "display_name": "TD-17KV2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17kv2/updates_drivers/",
+          "label": "TD-17KV2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17KVX",
+      "display_name": "TD-17KVX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17kvx/updates_drivers/",
+          "label": "TD-17KVX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-17KVX2",
+      "display_name": "TD-17KVX2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-17kvx2/updates_drivers/",
+          "label": "TD-17KVX2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-20",
+      "display_name": "TD-20",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-20/updates_drivers/",
+          "label": "TD-20 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-20S",
+      "display_name": "TD-20S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-20s/updates_drivers/",
+          "label": "TD-20S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Pro Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-25",
+      "display_name": "TD-25",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-25/updates_drivers/",
+          "label": "TD-25 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-25K",
+      "display_name": "TD-25K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-25k/updates_drivers/",
+          "label": "TD-25K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-25KV",
+      "display_name": "TD-25KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-25kv/updates_drivers/",
+          "label": "TD-25KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-25KVX",
+      "display_name": "TD-25KVX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-25kvx/updates_drivers/",
+          "label": "TD-25KVX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-27",
+      "display_name": "TD-27",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-27/updates_drivers/",
+          "label": "TD-27 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-27KV",
+      "display_name": "TD-27KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-27kv/updates_drivers/",
+          "label": "TD-27KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-27KV2",
+      "display_name": "TD-27KV2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-27kv2/updates_drivers/",
+          "label": "TD-27KV2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-30",
+      "display_name": "TD-30",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-30/updates_drivers/",
+          "label": "TD-30 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-30K",
+      "display_name": "TD-30K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-30k/updates_drivers/",
+          "label": "TD-30K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-30KV",
+      "display_name": "TD-30KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-30kv/updates_drivers/",
+          "label": "TD-30KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50",
+      "display_name": "TD-50",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50/updates_drivers/",
+          "label": "TD-50 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50K",
+      "display_name": "TD-50K",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50k/updates_drivers/",
+          "label": "TD-50K updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50K180",
+      "display_name": "TD-50K180",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50k180/updates_drivers/",
+          "label": "TD-50K180 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50K2",
+      "display_name": "TD-50K2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50k2/updates_drivers/",
+          "label": "TD-50K2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50KV",
+      "display_name": "TD-50KV",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50kv/updates_drivers/",
+          "label": "TD-50KV updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50KV-RM",
+      "display_name": "TD-50KV-RM",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50kv-rm/updates_drivers/",
+          "label": "TD-50KV-RM updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Custom V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50KV2",
+      "display_name": "TD-50KV2",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50kv2/updates_drivers/",
+          "label": "TD-50KV2 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-50KVX",
+      "display_name": "TD-50KVX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-50kvx/updates_drivers/",
+          "label": "TD-50KVX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "TD-50X",
       "display_name": "TD-50X",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -1855,6 +5343,198 @@
       ],
       "specs": {
         "roland_descriptor": "Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-6S",
+      "display_name": "TD-6S",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-6s/updates_drivers/",
+          "label": "TD-6S updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Tour Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-6SX",
+      "display_name": "TD-6SX",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-6sx/updates_drivers/",
+          "label": "TD-6SX updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Tour Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-6SXT",
+      "display_name": "TD-6SXT",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-6sxt/updates_drivers/",
+          "label": "TD-6SXT updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Tour Series"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-6V",
+      "display_name": "TD-6V",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-6v/updates_drivers/",
+          "label": "TD-6V updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD-8",
+      "display_name": "TD-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td-8/updates_drivers/",
+          "label": "TD-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Percussion Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD313",
+      "display_name": "TD313",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td313/updates_drivers/",
+          "label": "TD313 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD316",
+      "display_name": "TD316",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td316/updates_drivers/",
+          "label": "TD316 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD513",
+      "display_name": "TD513",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td513/updates_drivers/",
+          "label": "TD513 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD516",
+      "display_name": "TD516",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td516/updates_drivers/",
+          "label": "TD516 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD713",
+      "display_name": "TD713",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td713/updates_drivers/",
+          "label": "TD713 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TD716",
+      "display_name": "TD716",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/td716/updates_drivers/",
+          "label": "TD716 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-06",
+      "display_name": "TR-06",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tr-06/updates_drivers/",
+          "label": "TR-06 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drumatix"
       }
     },
     {
@@ -1887,6 +5567,22 @@
       ],
       "specs": {
         "roland_descriptor": "Rhythm Composer"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "TR-1000",
+      "display_name": "TR-1000",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/tr-1000/updates_drivers/",
+          "label": "TR-1000 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Rhythm Creator"
       }
     },
     {
@@ -1939,18 +5635,130 @@
     },
     {
       "maker_slug": "Roland Corporation",
-      "model_slug": "V-STUDIO 700",
-      "display_name": "V-STUDIO 700",
+      "model_slug": "V-Combo VR-09",
+      "display_name": "V-Combo VR-09",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
       "links": [
         {
-          "url": "https://www.roland.com/us/support/by_product/v-studio_700/updates_drivers/",
-          "label": "V-STUDIO 700 updates & drivers (Roland)",
+          "url": "https://www.roland.com/us/support/by_product/v-combo_vr-09/updates_drivers/",
+          "label": "V-Combo VR-09 updates & drivers (Roland)",
           "block": "links"
         }
       ],
       "specs": {
-        "roland_descriptor": "Digital Audio Workstation"
+        "roland_descriptor": "Live Performance Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Combo VR-09-B",
+      "display_name": "V-Combo VR-09-B",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-combo_vr-09-b/updates_drivers/",
+          "label": "V-Combo VR-09-B updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Live Performance Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Combo VR-700",
+      "display_name": "V-Combo VR-700",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-combo_vr-700/updates_drivers/",
+          "label": "V-Combo VR-700 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Stage Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Combo VR-730",
+      "display_name": "V-Combo VR-730",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-combo_vr-730/updates_drivers/",
+          "label": "V-Combo VR-730 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Live Performance Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Piano",
+      "display_name": "V-Piano",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-piano/updates_drivers/",
+          "label": "V-Piano updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-Piano Grand",
+      "display_name": "V-Piano Grand",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-piano_grand/updates_drivers/",
+          "label": "V-Piano Grand updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Piano"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-STAGE 76",
+      "display_name": "V-STAGE 76",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-stage_76/updates_drivers/",
+          "label": "V-STAGE 76 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Performance Keyboard"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V-STAGE 88",
+      "display_name": "V-STAGE 88",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v-stage_88/updates_drivers/",
+          "label": "V-STAGE 88 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Performance Keyboard"
       }
     },
     {
@@ -2003,6 +5811,230 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "V31",
+      "display_name": "V31",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v31/updates_drivers/",
+          "label": "V31 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V51",
+      "display_name": "V51",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v51/updates_drivers/",
+          "label": "V51 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "V71",
+      "display_name": "V71",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/v71/updates_drivers/",
+          "label": "V71 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Drum Sound Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD103",
+      "display_name": "VAD103",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad103/updates_drivers/",
+          "label": "VAD103 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD306",
+      "display_name": "VAD306",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad306/updates_drivers/",
+          "label": "VAD306 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD307",
+      "display_name": "VAD307",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad307/updates_drivers/",
+          "label": "VAD307 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD316",
+      "display_name": "VAD316",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad316/updates_drivers/",
+          "label": "VAD316 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD503",
+      "display_name": "VAD503",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad503/updates_drivers/",
+          "label": "VAD503 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD504",
+      "display_name": "VAD504",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad504/updates_drivers/",
+          "label": "VAD504 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD506",
+      "display_name": "VAD506",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad506/updates_drivers/",
+          "label": "VAD506 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD507",
+      "display_name": "VAD507",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad507/updates_drivers/",
+          "label": "VAD507 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD516",
+      "display_name": "VAD516",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad516/updates_drivers/",
+          "label": "VAD516 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD706",
+      "display_name": "VAD706",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad706/updates_drivers/",
+          "label": "VAD706 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VAD716",
+      "display_name": "VAD716",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vad716/updates_drivers/",
+          "label": "VAD716 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "V-Drums Acoustic Design"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "VariOS",
       "display_name": "VariOS",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -2015,6 +6047,54 @@
       ],
       "specs": {
         "roland_descriptor": "Open System Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VERSELAB MV-1",
+      "display_name": "VERSELAB MV-1",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/verselab_mv-1/updates_drivers/",
+          "label": "VERSELAB MV-1 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Song Production Studio"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VIMA JM-5",
+      "display_name": "VIMA JM-5",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vima_jm-5/updates_drivers/",
+          "label": "VIMA JM-5 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Entertainment Module"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
+      "model_slug": "VIMA JM-8",
+      "display_name": "VIMA JM-8",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vima_jm-8/updates_drivers/",
+          "label": "VIMA JM-8 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Entertainment Module"
       }
     },
     {
@@ -2083,6 +6163,22 @@
     },
     {
       "maker_slug": "Roland Corporation",
+      "model_slug": "VP-03",
+      "display_name": "VP-03",
+      "source_url": "https://www.roland.com/us/support/updates_drivers/",
+      "links": [
+        {
+          "url": "https://www.roland.com/us/support/by_product/vp-03/updates_drivers/",
+          "label": "VP-03 updates & drivers (Roland)",
+          "block": "links"
+        }
+      ],
+      "specs": {
+        "roland_descriptor": "Vocoder"
+      }
+    },
+    {
+      "maker_slug": "Roland Corporation",
       "model_slug": "VP-770",
       "display_name": "VP-770",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
@@ -2115,34 +6211,18 @@
     },
     {
       "maker_slug": "Roland Corporation",
-      "model_slug": "VS-1680",
-      "display_name": "VS-1680",
+      "model_slug": "VR-760",
+      "display_name": "VR-760",
       "source_url": "https://www.roland.com/us/support/updates_drivers/",
       "links": [
         {
-          "url": "https://www.roland.com/us/support/by_product/vs-1680/updates_drivers/",
-          "label": "VS-1680 updates & drivers (Roland)",
+          "url": "https://www.roland.com/us/support/by_product/vr-760/updates_drivers/",
+          "label": "VR-760 updates & drivers (Roland)",
           "block": "links"
         }
       ],
       "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-1824CD",
-      "display_name": "VS-1824CD",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-1824cd/updates_drivers/",
-          "label": "VS-1824CD updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "24-bit Digital Workstation"
+        "roland_descriptor": "V-Combo"
       }
     },
     {
@@ -2159,166 +6239,6 @@
       ],
       "specs": {
         "roland_descriptor": "24-bit Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-2000CD",
-      "display_name": "VS-2000CD",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-2000cd/updates_drivers/",
-          "label": "VS-2000CD updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-2400CD",
-      "display_name": "VS-2400CD",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-2400cd/updates_drivers/",
-          "label": "VS-2400CD updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-2480",
-      "display_name": "VS-2480",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-2480/updates_drivers/",
-          "label": "VS-2480 updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-2480CD",
-      "display_name": "VS-2480CD",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-2480cd/updates_drivers/",
-          "label": "VS-2480CD updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-2480DVD",
-      "display_name": "VS-2480DVD",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-2480dvd/updates_drivers/",
-          "label": "VS-2480DVD updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-840",
-      "display_name": "VS-840",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-840/updates_drivers/",
-          "label": "VS-840 updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-840EX",
-      "display_name": "VS-840EX",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-840ex/updates_drivers/",
-          "label": "VS-840EX updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-840GX",
-      "display_name": "VS-840GX",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-840gx/updates_drivers/",
-          "label": "VS-840GX updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-880",
-      "display_name": "VS-880",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-880/updates_drivers/",
-          "label": "VS-880 updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
-      }
-    },
-    {
-      "maker_slug": "Roland Corporation",
-      "model_slug": "VS-880EX",
-      "display_name": "VS-880EX",
-      "source_url": "https://www.roland.com/us/support/updates_drivers/",
-      "links": [
-        {
-          "url": "https://www.roland.com/us/support/by_product/vs-880ex/updates_drivers/",
-          "label": "VS-880EX updates & drivers (Roland)",
-          "block": "links"
-        }
-      ],
-      "specs": {
-        "roland_descriptor": "Digital Studio Workstation"
       }
     },
     {
@@ -2420,1052 +6340,8 @@
   ],
   "ask": [
     {
-      "name": "AeroCaster",
-      "descriptor": "AeroCaster Livestreaming System"
-    },
-    {
-      "name": "AIRA Modular Customizer",
-      "descriptor": "AIRA Modular Customizer"
-    },
-    {
-      "name": "AT-100",
-      "descriptor": "MUSIC ATELIER"
-    },
-    {
-      "name": "AT-300",
-      "descriptor": "MUSIC ATELIER"
-    },
-    {
-      "name": "AT-800",
-      "descriptor": "MUSIC ATELIER"
-    },
-    {
-      "name": "AT-900C",
-      "descriptor": "MUSIC ATELIER"
-    },
-    {
-      "name": "ATELIER Combo AT-350C",
-      "descriptor": "MUSIC ATELIER"
-    },
-    {
-      "name": "BITRAZER",
-      "descriptor": "Modular Crusher"
-    },
-    {
-      "name": "BK-3",
-      "descriptor": "Backing Keyboard"
-    },
-    {
-      "name": "BK-5",
-      "descriptor": "Backing Keyboard"
-    },
-    {
-      "name": "BK-5 OR",
-      "descriptor": "Backing Keyboard"
-    },
-    {
-      "name": "BK-7m",
-      "descriptor": "Backing Module"
-    },
-    {
-      "name": "BK-9",
-      "descriptor": "Backing Keyboard"
-    },
-    {
-      "name": "CDX-1",
-      "descriptor": "DiscLab"
-    },
-    {
-      "name": "CY-18DR",
-      "descriptor": "V-Cymbal Ride"
-    },
-    {
-      "name": "DEMORA",
-      "descriptor": "Modular Delay"
-    },
-    {
-      "name": "DisCover 5",
-      "descriptor": "RealTime Orchestrator"
-    },
-    {
-      "name": "DisCover 5M",
-      "descriptor": "Realtime Orchestrator"
-    },
-    {
-      "name": "DP-90",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "DP-90S",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "DP603",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "DP90e",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "DP90Se",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "DT-1",
-      "descriptor": "V-Drums Tutor"
-    },
-    {
-      "name": "E-4",
-      "descriptor": "Voice Tweaker"
-    },
-    {
-      "name": "E-A7",
-      "descriptor": "Expandable Arranger"
-    },
-    {
-      "name": "E-X10",
-      "descriptor": "Arranger Keyboard"
-    },
-    {
-      "name": "E-X50",
-      "descriptor": "Arranger Keyboard"
-    },
-    {
-      "name": "EM-2000",
-      "descriptor": "Creative Keyboard"
-    },
-    {
-      "name": "EM-55",
-      "descriptor": "Interactive Keyboard"
-    },
-    {
-      "name": "EV-7",
-      "descriptor": "Expression Pedal"
-    },
-    {
-      "name": "EXR-3",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-3s",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-40 OR",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-46 OR",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-5",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-5s",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-7",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "EXR-7s",
-      "descriptor": "Interactive Arranger"
-    },
-    {
-      "name": "F-110",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F-120R",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F-130R",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F-140R",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F-20",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F107",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "F701",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FD-7",
-      "descriptor": "Hi-Hat Control Pedal"
-    },
-    {
-      "name": "FP-10",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-2",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-30",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-30X",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-4",
-      "descriptor": "Digital Portable Piano"
-    },
-    {
-      "name": "FP-4F",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-5",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-50",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-60",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-60X",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-7",
-      "descriptor": "Digital Portable Piano"
-    },
-    {
-      "name": "FP-7F",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-80",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-90",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-90X",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "FP-E50",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GO:KEYS 3",
-      "descriptor": "Music Creation Keyboard"
-    },
-    {
-      "name": "GO:KEYS 5",
-      "descriptor": "Music Creation Keyboard"
-    },
-    {
-      "name": "GO:KEYS",
-      "descriptor": "Music Creation Keyboard (GO-61K)"
-    },
-    {
-      "name": "GO:PIANO",
-      "descriptor": "Digital Piano (GO-61P)"
-    },
-    {
-      "name": "GO:PIANO88",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GO:PIANO88",
-      "descriptor": "Digital Piano (GO-88PX)"
-    },
-    {
-      "name": "GP-3",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GP-6",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GP-9",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GP-9M",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GP607",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "GP609",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HandSonic HPD-20",
-      "descriptor": "Digital Hand Percussion"
-    },
-    {
-      "name": "HP-107",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP-109",
-      "descriptor": "Digital Mini-Grand Piano"
-    },
-    {
-      "name": "HP-201",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP-203",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP-207",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP-302",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP-305",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP-307",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP-503",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP-505",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP-507",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "HP504",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP506",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP508",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP601",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP603/HP603A",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP605",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP702",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HP704",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HPi-50",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HPi-50e",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HPi-6",
-      "descriptor": "Digital Interactive Piano"
-    },
-    {
-      "name": "HPi-6s",
-      "descriptor": "Digital Interactive Piano"
-    },
-    {
-      "name": "HPi-7",
-      "descriptor": "Digital Interactive Piano"
-    },
-    {
-      "name": "HPi-7F",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "HPi-7LE",
-      "descriptor": "Digital Interactive Piano"
-    },
-    {
-      "name": "HPi-7s",
-      "descriptor": "Digital Interactive Piano"
-    },
-    {
-      "name": "KIYOLA KF-10",
-      "descriptor": "Artisan Digital Piano"
-    },
-    {
-      "name": "KIYOLA KF-20",
-      "descriptor": "Artisan Digital Piano"
-    },
-    {
-      "name": "KIYOLA KF-25",
-      "descriptor": "Artisan Digital Piano"
-    },
-    {
-      "name": "KR-103",
-      "descriptor": "Digital Intelligent Piano"
-    },
-    {
-      "name": "KR-105",
-      "descriptor": "Digital Intelligent Piano"
-    },
-    {
-      "name": "KR-107",
-      "descriptor": "Digital Intelligent Piano"
-    },
-    {
-      "name": "KR-111",
-      "descriptor": "Digital Intelligent Mini-Grand Piano"
-    },
-    {
-      "name": "KR-115",
-      "descriptor": "Digital Intelligent Mini-Grand Piano"
-    },
-    {
-      "name": "KR-115M",
-      "descriptor": "Digital Intelligent Mini-Grand Player Piano"
-    },
-    {
-      "name": "KR-117M",
-      "descriptor": "Digital Intelligent Grand Player Piano"
-    },
-    {
-      "name": "KR-15M",
-      "descriptor": "Digital Intelligent Mini-Grand Player Piano"
-    },
-    {
-      "name": "KR-17M",
-      "descriptor": "Digital Intelligent Grand Player Piano"
-    },
-    {
-      "name": "LX-10",
-      "descriptor": "Digital Upright Grand Piano"
-    },
-    {
-      "name": "LX-10F",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "LX-15",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "LX-15e",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX-17",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX-5",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX-6",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX-7",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX-9",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX705",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX706",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "LX708",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "MD-P1-S",
-      "descriptor": "motion dive .tokyo Performance Package"
-    },
-    {
-      "name": "MMP-2",
-      "descriptor": "Mic Modeling Preamp"
-    },
-    {
-      "name": "MP200",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "MT-90U",
-      "descriptor": "Music Player"
-    },
-    {
-      "name": "MV-8000",
-      "descriptor": "Production Studio"
-    },
-    {
-      "name": "MV-8800",
-      "descriptor": "Production Studio"
-    },
-    {
-      "name": "MX-1",
-      "descriptor": "Mix Performer"
-    },
-    {
-      "name": "PRELUDE",
-      "descriptor": "Portable Keyboard"
-    },
-    {
-      "name": "FANTOM EX Upgrade",
-      "descriptor": "System Upgrade for FANTOM 6/7/8"
-    },
-    {
-      "name": "RCP800",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RD-2000",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RD-300NX",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RD-64",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RD-700NX",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RG-1",
-      "descriptor": "Digital Mini-Grand Piano"
-    },
-    {
-      "name": "RG-1F",
-      "descriptor": "Digital Grand"
-    },
-    {
-      "name": "RG-3",
-      "descriptor": "Digital Mini-Grand Piano"
-    },
-    {
-      "name": "RG-3F",
-      "descriptor": "Digital Grand"
-    },
-    {
-      "name": "RG-3M",
-      "descriptor": "Digital Mini-Grand Player Piano"
-    },
-    {
-      "name": "RG-7",
-      "descriptor": "Digital Grand Player Piano"
-    },
-    {
-      "name": "RK-100",
-      "descriptor": "VIMA Recreational Keyboard"
-    },
-    {
-      "name": "RK-300",
-      "descriptor": "VIMA Recreational Keyboard"
-    },
-    {
-      "name": "RK-500",
-      "descriptor": "VIMA Recreational Keyboard"
-    },
-    {
-      "name": "RM-700",
-      "descriptor": "Digital Entertainment Piano"
-    },
-    {
-      "name": "RP-301R",
-      "descriptor": "SuperNATURAL Piano"
-    },
-    {
-      "name": "RP102",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RP107",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RP401R",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RP501R",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RP701",
-      "descriptor": "Digital Piano"
-    },
-    {
-      "name": "RT-MicS",
-      "descriptor": "Hybrid Drum Module"
-    },
-    {
-      "name": "SBX-1",
-      "descriptor": "SYNC BOX"
-    },
-    {
-      "name": "SCOOPER",
-      "descriptor": "Modular Scatter"
-    },
-    {
-      "name": "SD-90",
-      "descriptor": "USB Digital Audio Studio"
-    },
-    {
-      "name": "SP-808EX",
-      "descriptor": "e-MIX Studio"
-    },
-    {
-      "name": "SRX-01",
-      "descriptor": "Dynamic Drums Exp. Board"
-    },
-    {
-      "name": "SRX-04",
-      "descriptor": "Symphonique Strings Exp. Board"
-    },
-    {
-      "name": "SRX-05",
-      "descriptor": "Supreme Dance Exp. Board"
-    },
-    {
-      "name": "SRX-08",
-      "descriptor": "Platinum Trax Exp. Board"
-    },
-    {
-      "name": "SRX-10",
-      "descriptor": "Big Brass Ensemble Exp. Board"
-    },
-    {
-      "name": "SYSTEM-500 512",
-      "descriptor": "Modular VCO"
-    },
-    {
-      "name": "SYSTEM-500 521",
-      "descriptor": "Modular VCF"
-    },
-    {
-      "name": "SYSTEM-500 530",
-      "descriptor": "Modular VCA"
-    },
-    {
-      "name": "SYSTEM-500 540",
-      "descriptor": "Modular 2ENV-LFO"
-    },
-    {
-      "name": "SYSTEM-500 572",
-      "descriptor": "Modular PHASE SHIFTER/DELAY/LFO"
-    },
-    {
-      "name": "T-8",
-      "descriptor": "Beat Machine"
-    },
-    {
-      "name": "TAIKO-1",
-      "descriptor": "Electronic Taiko Percussion"
-    },
-    {
-      "name": "TB-03",
-      "descriptor": "Bass Line"
-    },
-    {
-      "name": "TB-3",
-      "descriptor": "Touch Bassline"
-    },
-    {
-      "name": "TD-02K",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-02KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-07DMK",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-07KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-07KVX",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-07KX",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-11",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-11K",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-11KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-12",
-      "descriptor": "Percussion Sound Module"
-    },
-    {
-      "name": "TD-12KX",
-      "descriptor": "V-Stage Series"
-    },
-    {
-      "name": "TD-12S",
-      "descriptor": "V-Stage Series"
-    },
-    {
-      "name": "TD-12SV",
-      "descriptor": "V-Stage Series"
-    },
-    {
-      "name": "TD-15",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-15K",
-      "descriptor": "V-Drums V-Tour Series"
-    },
-    {
-      "name": "TD-15KV",
-      "descriptor": "V-Drums V-Tour Series"
-    },
-    {
-      "name": "TD-17",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-17K-L",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-17KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-17KV2",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-17KVX",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-17KVX2",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-20",
-      "descriptor": "Percussion Sound Module"
-    },
-    {
-      "name": "TD-20S",
-      "descriptor": "V-Pro Series"
-    },
-    {
-      "name": "TD-25",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-25K",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-25KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-25KVX",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-27",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-27KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-27KV2",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-30",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-30K",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-30KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "TD-50DP",
-      "descriptor": "TD-50 Digital Upgrade Pack"
-    },
-    {
-      "name": "TD-50K",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50K180",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50K2",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50KV",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50KV-RM",
-      "descriptor": "Custom V-Drums"
-    },
-    {
-      "name": "TD-50KV2",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-50KVX",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD-6S",
-      "descriptor": "V-Tour Series"
-    },
-    {
-      "name": "TD-6SX",
-      "descriptor": "V-Tour Series"
-    },
-    {
-      "name": "TD-6SXT",
-      "descriptor": "V-Tour Series"
-    },
-    {
-      "name": "TD-6V",
-      "descriptor": "Percussion Sound Module"
-    },
-    {
-      "name": "TD-8",
-      "descriptor": "Percussion Sound Module"
-    },
-    {
-      "name": "TD313",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD316",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD513",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD516",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD713",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TD716",
-      "descriptor": "V-Drums"
-    },
-    {
-      "name": "TORCIDO",
-      "descriptor": "Modular Distortion"
-    },
-    {
-      "name": "TR-06",
-      "descriptor": "Drumatix"
-    },
-    {
-      "name": "TR-1000",
-      "descriptor": "Rhythm Creator"
-    },
-    {
-      "name": "UA-25EX",
-      "descriptor": "24Bit/96kHz Audio Capture"
-    },
-    {
-      "name": "UA-3FX",
-      "descriptor": "USB Audio Capture/Playback Device with Effects"
-    },
-    {
-      "name": "UA-5",
-      "descriptor": "USB Digital Audio Capture"
-    },
-    {
-      "name": "UR-80",
-      "descriptor": "24 Bit/96 kHz USB Recording System"
-    },
-    {
-      "name": "V-Combo VR-09",
-      "descriptor": "Live Performance Keyboard"
-    },
-    {
-      "name": "V-Combo VR-09-B",
-      "descriptor": "Live Performance Keyboard"
-    },
-    {
-      "name": "V-Combo VR-700",
-      "descriptor": "Stage Keyboard"
-    },
-    {
-      "name": "V-Combo VR-730",
-      "descriptor": "Live Performance Keyboard"
-    },
-    {
-      "name": "V-Piano",
-      "descriptor": "V-Piano"
-    },
-    {
-      "name": "V-Piano Grand",
-      "descriptor": "V-Piano"
-    },
-    {
-      "name": "V-STAGE 76",
-      "descriptor": "Performance Keyboard"
-    },
-    {
-      "name": "V-STAGE 88",
-      "descriptor": "Performance Keyboard"
-    },
-    {
-      "name": "V-STUDIO 100",
-      "descriptor": "Portable Music Production Studio"
-    },
-    {
-      "name": "V31",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "V51",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "V71",
-      "descriptor": "Drum Sound Module"
-    },
-    {
-      "name": "VAD103",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD306",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD307",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD316",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD503",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD504",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD506",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD507",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD516",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD706",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
-      "name": "VAD716",
-      "descriptor": "V-Drums Acoustic Design"
-    },
-    {
       "name": "VB-99",
       "descriptor": "V-Bass System"
-    },
-    {
-      "name": "VERSELAB MV-1",
-      "descriptor": "Song Production Studio"
     },
     {
       "name": "VG-8EX",
@@ -3474,62 +6350,6 @@
     {
       "name": "VG-99",
       "descriptor": "V-Guitar System"
-    },
-    {
-      "name": "VH-14D",
-      "descriptor": "V-Hi-Hat"
-    },
-    {
-      "name": "VIMA JM-5",
-      "descriptor": "Entertainment Module"
-    },
-    {
-      "name": "VIMA JM-8",
-      "descriptor": "Entertainment Module"
-    },
-    {
-      "name": "VM-7100",
-      "descriptor": "V-Mixing Processor"
-    },
-    {
-      "name": "VM-7200",
-      "descriptor": "V-Mixing Processor"
-    },
-    {
-      "name": "VM-C7100",
-      "descriptor": "V-Mixing Console"
-    },
-    {
-      "name": "VM-C7200",
-      "descriptor": "V-Mixing Console"
-    },
-    {
-      "name": "VP-03",
-      "descriptor": "Vocoder"
-    },
-    {
-      "name": "VP-7",
-      "descriptor": "Vocal Processor"
-    },
-    {
-      "name": "VR-760",
-      "descriptor": "V-Combo"
-    },
-    {
-      "name": "VS-1176LN",
-      "descriptor": "VS Plug-In by Universal Audio"
-    },
-    {
-      "name": "VS-LA2A",
-      "descriptor": "VS Plug-In by Universal Audio"
-    },
-    {
-      "name": "VT-3",
-      "descriptor": "Voice Transformer"
-    },
-    {
-      "name": "VT-4",
-      "descriptor": "Voice Transformer"
     }
   ],
   "out_of_scope": [
@@ -3574,16 +6394,12 @@
       "descriptor": "Expandable Controller"
     },
     {
-      "name": "Aerophone AE-10",
-      "descriptor": "Digital Wind Instrument"
+      "name": "AeroCaster",
+      "descriptor": "AeroCaster Livestreaming System"
     },
     {
-      "name": "Aerophone AE-20",
-      "descriptor": "Digital Wind Instrument"
-    },
-    {
-      "name": "Aerophone Pro",
-      "descriptor": "Digital Wind Instrument"
+      "name": "AIRA Modular Customizer",
+      "descriptor": "AIRA Modular Customizer"
     },
     {
       "name": "AR-200",
@@ -3592,6 +6408,10 @@
     {
       "name": "AR-3000",
       "descriptor": "Digital Announcement Recorder"
+    },
+    {
+      "name": "BITRAZER",
+      "descriptor": "Modular Crusher"
     },
     {
       "name": "Blues Cube Artist",
@@ -3642,8 +6462,20 @@
       "descriptor": "SD/CD Recorder"
     },
     {
+      "name": "CDX-1",
+      "descriptor": "DiscLab"
+    },
+    {
+      "name": "CY-18DR",
+      "descriptor": "V-Cymbal Ride"
+    },
+    {
       "name": "DA-2496",
       "descriptor": "8x8 Multi-track Digital Audio Recording Interface"
+    },
+    {
+      "name": "DEMORA",
+      "descriptor": "Modular Delay"
     },
     {
       "name": "DIF-AT",
@@ -3666,6 +6498,10 @@
       "descriptor": "DJ Controller"
     },
     {
+      "name": "DT-1",
+      "descriptor": "V-Drums Tutor"
+    },
+    {
       "name": "DUO-CAPTURE",
       "descriptor": "USB Audio Interface"
     },
@@ -3676,6 +6512,14 @@
     {
       "name": "DUO-CAPTURE mk2",
       "descriptor": "USB Audio Interface"
+    },
+    {
+      "name": "E-4",
+      "descriptor": "Voice Tweaker"
+    },
+    {
+      "name": "EV-7",
+      "descriptor": "Expression Pedal"
     },
     {
       "name": "FA-101",
@@ -3694,52 +6538,8 @@
       "descriptor": "MIDI Foot Controller"
     },
     {
-      "name": "FR-18 diatonic",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-1x",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-1xb",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-3x",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-3xb",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-4x",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-4xb",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-7x",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-7xb",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-8x",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-8x Dallapè",
-      "descriptor": "V-Accordion"
-    },
-    {
-      "name": "FR-8xb",
-      "descriptor": "V-Accordion"
+      "name": "FD-7",
+      "descriptor": "Hi-Hat Control Pedal"
     },
     {
       "name": "GI-20",
@@ -3770,16 +6570,28 @@
       "descriptor": "16-Channel Digital Mixer"
     },
     {
+      "name": "MD-P1-S",
+      "descriptor": "motion dive .tokyo Performance Package"
+    },
+    {
+      "name": "MMP-2",
+      "descriptor": "Mic Modeling Preamp"
+    },
+    {
       "name": "Mobile UA",
       "descriptor": "USB Audio Interface"
     },
     {
-      "name": "OCTA-CAPTURE",
-      "descriptor": "Hi-Speed USB Audio Interface"
+      "name": "MT-90U",
+      "descriptor": "Music Player"
     },
     {
-      "name": "OCTAPAD SPD-30",
-      "descriptor": "Digital Percussion Pad"
+      "name": "MX-1",
+      "descriptor": "Mix Performer"
+    },
+    {
+      "name": "OCTA-CAPTURE",
+      "descriptor": "Hi-Speed USB Audio Interface"
     },
     {
       "name": "PC-300",
@@ -3886,6 +6698,10 @@
       "descriptor": "6-Channel Portable Recorder"
     },
     {
+      "name": "FANTOM EX Upgrade",
+      "descriptor": "System Upgrade for FANTOM 6/7/8"
+    },
+    {
       "name": "RPC-1",
       "descriptor": "R-BUS Interface Card"
     },
@@ -3902,40 +6718,44 @@
       "descriptor": "USB Audio Interface"
     },
     {
+      "name": "SBX-1",
+      "descriptor": "SYNC BOX"
+    },
+    {
+      "name": "SCOOPER",
+      "descriptor": "Modular Scatter"
+    },
+    {
+      "name": "SD-90",
+      "descriptor": "USB Digital Audio Studio"
+    },
+    {
       "name": "SI-24",
       "descriptor": "Studio Interface"
     },
     {
-      "name": "SPD-S",
-      "descriptor": "Sampling Pad"
+      "name": "SP-808EX",
+      "descriptor": "e-MIX Studio"
     },
     {
-      "name": "SPD-SX",
-      "descriptor": "Sampling Pad"
+      "name": "SRX-01",
+      "descriptor": "Dynamic Drums Exp. Board"
     },
     {
-      "name": "SPD-SX PRO",
-      "descriptor": "Sampling Pad"
+      "name": "SRX-04",
+      "descriptor": "Symphonique Strings Exp. Board"
     },
     {
-      "name": "SPD-SX Special Edition",
-      "descriptor": "Sampling Pad"
+      "name": "SRX-05",
+      "descriptor": "Supreme Dance Exp. Board"
     },
     {
-      "name": "SPD::ONE ELECTRO",
-      "descriptor": "Percussion Pad"
+      "name": "SRX-08",
+      "descriptor": "Platinum Trax Exp. Board"
     },
     {
-      "name": "SPD::ONE KICK",
-      "descriptor": "Percussion Pad"
-    },
-    {
-      "name": "SPD::ONE PERCUSSION",
-      "descriptor": "Percussion Pad"
-    },
-    {
-      "name": "SPD::ONE WAV PAD",
-      "descriptor": "Percussion Pad"
+      "name": "SRX-10",
+      "descriptor": "Big Brass Ensemble Exp. Board"
     },
     {
       "name": "STUDIO-CAPTURE",
@@ -3944,6 +6764,10 @@
     {
       "name": "Super UA",
       "descriptor": "USB Audio Interface"
+    },
+    {
+      "name": "TD-50DP",
+      "descriptor": "TD-50 Digital Upgrade Pack"
     },
     {
       "name": "TDW-20",
@@ -3960,6 +6784,10 @@
     {
       "name": "TM-6 PRO",
       "descriptor": "Trigger Module"
+    },
+    {
+      "name": "TORCIDO",
+      "descriptor": "Modular Distortion"
     },
     {
       "name": "TRI-CAPTURE",
@@ -3998,8 +6826,20 @@
       "descriptor": "USB Audio Interface"
     },
     {
+      "name": "UA-25EX",
+      "descriptor": "24Bit/96kHz Audio Capture"
+    },
+    {
+      "name": "UA-3FX",
+      "descriptor": "USB Audio Capture/Playback Device with Effects"
+    },
+    {
       "name": "UA-4FX",
       "descriptor": "USB Audio/MIDI Interface"
+    },
+    {
+      "name": "UA-5",
+      "descriptor": "USB Digital Audio Capture"
     },
     {
       "name": "UA-700",
@@ -4066,12 +6906,104 @@
       "descriptor": "USB MIDI Interface"
     },
     {
+      "name": "UR-80",
+      "descriptor": "24 Bit/96 kHz USB Recording System"
+    },
+    {
+      "name": "V-STUDIO 100",
+      "descriptor": "Portable Music Production Studio"
+    },
+    {
       "name": "V-STUDIO 20",
       "descriptor": "Audio Interface/Control Surface with DAW Software"
     },
     {
+      "name": "V-STUDIO 700",
+      "descriptor": "Digital Audio Workstation"
+    },
+    {
+      "name": "VH-14D",
+      "descriptor": "V-Hi-Hat"
+    },
+    {
       "name": "VM-3100Pro",
       "descriptor": "Digital Mixer"
+    },
+    {
+      "name": "VM-7100",
+      "descriptor": "V-Mixing Processor"
+    },
+    {
+      "name": "VM-7200",
+      "descriptor": "V-Mixing Processor"
+    },
+    {
+      "name": "VM-C7100",
+      "descriptor": "V-Mixing Console"
+    },
+    {
+      "name": "VM-C7200",
+      "descriptor": "V-Mixing Console"
+    },
+    {
+      "name": "VP-7",
+      "descriptor": "Vocal Processor"
+    },
+    {
+      "name": "VS-1176LN",
+      "descriptor": "VS Plug-In by Universal Audio"
+    },
+    {
+      "name": "VS-1680",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-1824CD",
+      "descriptor": "24-bit Digital Workstation"
+    },
+    {
+      "name": "VS-2000CD",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-2400CD",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-2480",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-2480CD",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-2480DVD",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-840",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-840EX",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-840GX",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-880",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-880EX",
+      "descriptor": "Digital Studio Workstation"
+    },
+    {
+      "name": "VS-LA2A",
+      "descriptor": "VS Plug-In by Universal Audio"
     },
     {
       "name": "VS8F-3",
@@ -4080,6 +7012,14 @@
     {
       "name": "VSR-880",
       "descriptor": "Digital Studio Recorder"
+    },
+    {
+      "name": "VT-3",
+      "descriptor": "Voice Transformer"
+    },
+    {
+      "name": "VT-4",
+      "descriptor": "Voice Transformer"
     },
     {
       "name": "WT-10",

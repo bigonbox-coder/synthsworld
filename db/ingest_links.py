@@ -289,7 +289,7 @@ def main():
                 continue
             official = is_official(dom, canon)
             ltype = classify(url, link.get("label"), dom, official)
-            if official:
+            if official and not iid:
                 key = (mid, url)
                 if key in seen_maker_links:
                     continue
@@ -297,6 +297,11 @@ def main():
                 rows.append((mid, None, url, dom, link.get("label"), ltype,
                              page["source_url"], source_name))
             elif iid:
+                # An own-domain link that is ABOUT one instrument (a product or
+                # downloads page) belongs to that instrument, even though it is
+                # still typed manufacturer_official. Filing it under the company
+                # loses which model it documents, and dedupes away 500 distinct
+                # pages into one company link.
                 rows.append((None, iid, url, dom, link.get("label"), ltype,
                              page["source_url"], source_name))
             else:
