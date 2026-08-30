@@ -24,6 +24,7 @@ PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DB_PATH = os.path.join(PROJECT_ROOT, "db", "synthsworld.sqlite")
 TOKEN_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), ".token")
 LOGO_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static", "logos")
+ICON_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static", "icons")
 COOKIE_NAME = "synthsworld_admin_token"
 
 BIND_HOST = os.environ.get("SYNTHSWORLD_ADMIN_HOST", "100.123.64.100")
@@ -117,6 +118,16 @@ def esc(s):
         .replace('"', "&quot;")
     )
 
+
+# Home-screen install: without a manifest and a real icon, saving this to an
+# Android home screen gives a screenshot thumbnail. start_url carries the token
+# so the standalone window authenticates even if the cookie is not shared.
+ICON_TAGS = """<link rel="icon" type="image/png" sizes="32x32" href="/static/icons/favicon-32.png">
+<link rel="apple-touch-icon" href="/static/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<meta name="theme-color" content="#2f72b8">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Synthsworld">"""
 
 STYLE = """
 <style>
@@ -266,6 +277,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._serve_logo(path)
             return
 
+        if path.startswith("/static/icons/"):
+            self._serve_static(path, ICON_DIR)
+            return
+
+        if path == "/manifest.webmanifest":
+            self._serve_manifest()
+            return
+
         if path.startswith("/manufacturer/"):
             try:
                 mid = int(path.rsplit("/", 1)[-1])
@@ -313,7 +332,34 @@ class Handler(http.server.BaseHTTPRequestHandler):
         self.end_headers()
 
     def _serve_logo(self, path):
-        # path like /static/logos/<mid>.<ext> -- resolve safely under LOGO_DIR,
+        self._serve_static(path, LOGO_DIR)
+
+    def _serve_manifest(self):
+        """Web app manifest, so an Android home-screen shortcut gets a real icon."""
+        manifest = {
+            "name": "Synthsworld admin",
+            "short_name": "Synthsworld",
+            "start_url": f"/?token={TOKEN}",
+            "scope": "/",
+            "display": "standalone",
+            "background_color": "#ffffff",
+            "theme_color": "#2f72b8",
+            "icons": [
+                {"src": "/static/icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                {"src": "/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                {"src": "/static/icons/icon-512.png", "sizes": "512x512", "type": "image/png",
+                 "purpose": "maskable"},
+            ],
+        }
+        body = json.dumps(manifest).encode("utf-8")
+        self.send_response(200)
+        self.send_header("Content-Type", "application/manifest+json")
+        self.send_header("Cache-Control", "no-store")
+        self.end_headers()
+        self.wfile.write(body)
+
+    def _serve_static(self, path, base_dir):
+        # path like /static/<kind>/<name>.<ext> -- resolve safely under base_dir,
         # no path traversal (basename only, extension whitelist).
         fname = os.path.basename(path)
         ext = fname.rsplit(".", 1)[-1].lower() if "." in fname else ""
@@ -321,8 +367,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self.send_response(404)
             self.end_headers()
             return
-        fpath = os.path.join(LOGO_DIR, fname)
-        if not os.path.isfile(fpath) or os.path.dirname(os.path.abspath(fpath)) != os.path.abspath(LOGO_DIR):
+        fpath = os.path.join(base_dir, fname)
+        if not os.path.isfile(fpath) or os.path.dirname(os.path.abspath(fpath)) != os.path.abspath(base_dir):
             self.send_response(404)
             self.end_headers()
             return
@@ -552,6 +598,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
+{ICON_TAGS}
 <title>Synthsworld admin</title>{STYLE}</head><body>
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
@@ -663,6 +710,7 @@ function filterList() {{
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
+{ICON_TAGS}
 <title>{esc(m["canonical_name"])} -- Synthsworld admin</title>{STYLE}</head><body>
 <header>Synthsworld -- ellenorzes</header>
 <div class="wrap">
