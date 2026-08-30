@@ -59,6 +59,18 @@
     "relations": []
   },
   {
+    "id": 21,
+    "canonical_name": "Buchla Electronic Musical Instruments",
+    "country": "United States",
+    "short_history": "Founded in 1963 in Berkeley, California, by synthesizer pioneer Don Buchla as Buchla & Associates, producing one of the earliest modular voltage-controlled synthesizer systems alongside Robert Moog's parallel work. Buchla avoided the term \"synthesizer\", favoring instruments built for original sound design over imitating existing instruments. Australian investors acquired the company in 2012 and renamed it Buchla Electronic Musical Instruments; after Don Buchla's death in 2016, the assets passed to Buchla U.S.A. in 2018, which continues production today.",
+    "long_history": "Don Buchla built his first modular system in 1963 on commission from composers Morton Subotnick and Ramon Sender at the San Francisco Tape Music Center, funded by a Rockefeller Foundation grant; the resulting Buchla 100 series was installed at the Tape Music Center in 1965 and moved to Mills College in 1966. It became one of the two foundational voltage-controlled synthesizer designs of the era alongside Robert Moog's instruments, and was used on landmark early electronic works including Subotnick's \"Silver Apples of the Moon\" and Buffy Sainte-Marie's 1969 album \"Illuminations\". The 200 series (\"Electric Music Box\", 1970) expanded the control capabilities, and later computer-integrated systems (the 300, 400, 500 and 700 series through the mid-1970s and 1980s) brought digital control to the modular format. In the late 1980s Buchla also built MIDI controllers (Thunder, Lightning, Marimba Lumina), and returned to the modular format with the hybrid analog-digital 200e series in 2004. Throughout, Buchla's design philosophy centered on complex oscillators, vactrol-based circuits and unconventional performance interfaces intended to generate genuinely new sounds rather than imitate acoustic instruments. Ownership passed from Buchla himself to a group of Australian investors (Audio Supermarket Pty Ltd) in 2012, who renamed the company Buchla Electronic Musical Instruments; Don Buchla died in September 2016, and in 2018 the company's assets were acquired by a new entity, Buchla U.S.A., under which production continues.",
+    "official_website": "https://buchla.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
     "id": 20,
     "canonical_name": "Doepfer",
     "country": "Germany",
@@ -71,6 +83,18 @@
     "relations": []
   },
   {
+    "id": 22,
+    "canonical_name": "E-mu Systems",
+    "country": "United States",
+    "short_history": "Founded in 1971 in Santa Cruz, California by Dave Rossum, Steve Gabriel and Jim Ketcham (Scott Wedge joined soon after), initially building custom modular synthesizers before becoming an influential force in digital sampling. Its 1981 Emulator brought affordable sampling to musicians at a fraction of the cost of the Fairlight CMI, and later products included the SP-12 and SP-1200 drum samplers, a mainstay of early hip-hop production. Acquired by Creative Technology in 1993 and merged with fellow synthesizer maker Ensoniq in 1998, E-mu wound down as an instrument brand by 2002.",
+    "long_history": "E-mu's engineers developed a digitally scanned polyphonic keyboard in 1973 that was licensed to both Oberheim Electronics and Sequential Circuits, whose Prophet-5 became the best-selling synthesizer built on the patent; through most of the 1970s this licensing income, alongside synthesizer IC chips co-developed with Solid State Micro Technology, funded the company more than instrument sales did. E-mu's own first products were the E-mu 25 (1971) and a modular synthesizer system, of which roughly 250 units were built for artists and universities. The Emulator (1981), priced at $7,900 against the Fairlight CMI's roughly $30,000, opened sampling to a much wider range of musicians, and was followed by the Drumulator, Emulator II and III, and the Emax series. The SP-12 and SP-1200 (mid-to-late 1980s) became foundational tools in early hip-hop production for their distinctive sampled drum sound. In 1990 E-mu introduced the ROM-based Proteus rackmount sound module line. Creative Technology (maker of Sound Blaster sound cards, not itself an instrument manufacturer) acquired E-mu in 1993, relocated it to nearby Scotts Valley, and in 1998 merged its instrument operations with Ensoniq, another synthesizer and sampler maker Creative had also acquired. From 2003 to 2007 the E-mu name was used for \"Creative Professional\" computer sound cards (the 0404, 1212m, 1616 and 1820 series) rather than instruments, alongside software such as Emulator X (2004) and Proteus X (2005), before the brand was wound down by 2002 as an instrument line in practice.",
+    "official_website": null,
+    "status": "defunct",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
     "id": 15,
     "canonical_name": "Elektron",
     "country": "Sweden",
@@ -78,6 +102,18 @@
     "long_history": "Elektron began not as a company but as a student project: in 1997, three computer science classmates at Chalmers University of Technology in Gothenburg, Sweden -- Daniel Hansson, Anders Gärder and Mikael Räim -- built a hardware synthesizer around the MOS 6581 sound chip from the Commodore 64 home computer as coursework. The project turned into a real product and the trio formally founded Elektron in 1998. Their first release, the SidStation, was built in a test run of just ten units in 1998 before reaching the public market in 1999; it remained in production until 2006, when the company's supply of vintage SID chips ran out. Elektron's commercial breakthrough came with the Monomachine in 2001, a digital synthesizer built around the company's now-signature deep sequencer, which established the workflow-focused design philosophy the brand became known for. Over the following two decades Elektron expanded into sample-based instruments (the Machinedrum and Octatrack), modern analog-hybrid grooveboxes (the Analog Four, Analog Rytm), and a more accessible compact product line (Digitakt, Digitone, Syntakt), building a reputation among electronic musicians for deep, performance-oriented sequencing rather than raw synthesis novelty. The company has remained headquartered in Gothenburg, where its research, development and production are based, and expanded internationally with branch offices in Los Angeles and Tokyo opened in 2012.",
     "official_website": "https://www.elektron.se/",
     "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 23,
+    "canonical_name": "Ensoniq",
+    "country": "United States",
+    "short_history": "Founded in 1982 in Malvern, Pennsylvania by former Commodore/MOS Technology engineers Bruce Crockett, Albert Charpentier and Bob Yannes (co-designer of the Commodore 64's SID chip), after the trio left MOS over disagreements with its parent company. Ensoniq's 1984 Mirage brought digital sampling below $2,000 for the first time, and the company went on to build the ESQ-1, EPS, VFX and ASR synthesizer and sampler lines through the 1990s. Creative Technology acquired Ensoniq in January 1998 for $77 million, mainly for its sound-card technology, merged its instrument division with E-mu Systems, and wound down instrument production; the company was fully dissolved by 2002.",
+    "long_history": "The founders initially traded as Peripheral Visions before adopting the Ensoniq name in 1983, and built their business around a custom Digital Oscillator Chip (DOC) that let them undercut rival sampler makers. The 1984 Mirage sampling keyboard, listed around $1,695 and often discounted further, was the first sampler to reach that price point, opening digital sampling to home and project studios rather than only professional facilities. Ensoniq followed with the ESQ-1 synthesizer, the EPS sampler line, and from 1989 introduced wave-scanning synthesis (an idea drawn from the far more expensive PPG systems) across its VFX and later models; the 1993 DP/4 was one of the first MIDI-controllable multi-effects units. Through the early 1990s Ensoniq competed directly with Japanese manufacturers Roland, Korg and Yamaha, and increasing competitive pressure and reported quality issues gradually pushed the company out of the instrument business. In parallel, Ensoniq diversified into computer sound cards in the mid-1990s (the Soundscape and AudioPCI lines, built on its own ES5503/ES5504/ES5505/ES5506/ES5548 chips), selling millions of units; it was this sound-card business, not the instrument catalogue, that motivated Creative Technology's $77 million acquisition of the company in January 1998. Creative merged Ensoniq's instrument operations with E-mu Systems, quickly discontinued the remaining synth models, and the Ensoniq name ceased operating by 2002.",
+    "official_website": null,
+    "status": "defunct",
     "confidence_level": "confirmed",
     "name_history": [],
     "relations": []
@@ -136,6 +172,18 @@
     ]
   },
   {
+    "id": 24,
+    "canonical_name": "Kurzweil Music Systems",
+    "country": "United States",
+    "short_history": "Founded in 1982 by inventor Ray Kurzweil, musician Stevie Wonder and engineer Bruce Cichowlas, growing out of Kurzweil's work adapting reading-machine technology for music. Its first instrument, the 1983 K250, was among the first synthesizers widely regarded as convincingly reproducing a grand piano's sound. Acquired by Korean piano maker Young Chang in 1990 (itself later acquired by Hyundai Development Company in 2006), Kurzweil has continued releasing flagship workstations, from the V.A.S.T.-powered K2000 (1991) through the K2700 (2021), and remains active today.",
+    "long_history": "The company's instrument line traces back to Ray Kurzweil's collaboration with Stevie Wonder on reading-machine technology for the blind; a friendly wager between the two over whether a synthesizer could truly replicate a grand piano's sound became the starting point for Kurzweil's first instrument. The K250 (1983-84) was widely regarded as the first digital keyboard to convincingly emulate a grand piano. Young Chang, a Korean piano manufacturer, acquired the company in 1990; Hyundai Development Company acquired Young Chang itself in 2006, and in January 2007 Raymond Kurzweil returned to the company as Chief Strategy Officer. The K2000 (1991) introduced Variable Architecture Synthesis Technology (V.A.S.T.), establishing the K2xxx workstation line that continued through the K2600 (1999, with expanded effects) and later models, all supporting up to 8 GB of internal SCSI sample storage. The mid-1990s PCx series offered 88-key weighted MIDI performance controllers with four control zones, while the SP, Artis and Forte lines focused on sampled-piano stage instruments. The K2700, released in late 2021, continues the flagship workstation line with backward compatibility for K- and PC-series patches. Kurzweil has competed throughout its history with Korg, Roland, Yamaha, Clavia and Kawai Musical Instruments in the synthesizer and workstation market.",
+    "official_website": "https://kurzweil.com",
+    "status": "active",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
     "id": 1,
     "canonical_name": "Moog Music",
     "country": "United States",
@@ -166,6 +214,18 @@
         "end_year": null
       }
     ],
+    "relations": []
+  },
+  {
+    "id": 25,
+    "canonical_name": "New England Digital",
+    "country": "United States",
+    "short_history": "Founded in 1976 in Norwich, Vermont by Sydney Alonso and Cameron Jones, working with Dartmouth College composer Jon Appleton to develop what became the Synclavier, one of the first digital synthesizers. The Synclavier II (1980) combined digital synthesis, polyphonic sampling and, from 1981, hard-disk recording in a single system used by artists including Michael Jackson, Frank Zappa and Sting, though complete systems cost over $200,000 by the late 1980s. Unable to compete with cheaper MIDI synthesizers and personal computers, New England Digital closed in 1992; Fostex and AirWorks Media purchased its assets, and the Synclavier name continues through successor companies today.",
+    "long_history": "The Synclavier began as the \"Dartmouth Digital Synthesizer\", developed from 1976 by Dartmouth students Cameron Jones and Sydney Alonso under composer Jon Appleton and professor Frederick Hooven; New England Digital Corporation was founded that year in Norwich, Vermont to bring the instrument to market, later relocating to White River Junction. The original Synclavier I (1977) was aimed mainly at university electronic-music programs as an alternative to expensive time-shared mainframes. Development accelerated in late 1978 and early 1979 when synthesist Denny Jaeger joined the team, and the commercially oriented Synclavier II debuted at the AES show in May 1980. In 1981 New England Digital pioneered recording digital audio directly to hard disk with its Sample-to-Disk option, years ahead of most competitors, and its Signal File Manager (SFM) software found use well beyond music, including U.S. military analysis of submarine acoustic signatures. The system's list of users included Michael Jackson, Frank Zappa, Pat Metheny, Sting, Genesis and Herbie Hancock, and its sound was distinctive enough that some concert halls reportedly banned it out of concern it would make musicians obsolete. By the late 1980s a complete Synclavier system cost upward of $200,000, and the combination of that price, an economic downturn, and rapidly improving affordable MIDI synthesizers and personal computers drove New England Digital to close in 1992. Fostex acquired assets for use in hard-disk recording systems, and AirWorks Media also purchased assets; the Synclavier trademark and software continue in use today through successor organizations.",
+    "official_website": null,
+    "status": "defunct",
+    "confidence_level": "confirmed",
+    "name_history": [],
     "relations": []
   },
   {
