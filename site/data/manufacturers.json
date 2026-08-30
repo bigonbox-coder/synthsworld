@@ -1,17 +1,5 @@
 [
   {
-    "id": 10,
-    "canonical_name": "Aguilar Amplification",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
-    "relations": []
-  },
-  {
     "id": 14,
     "canonical_name": "ARP Instruments",
     "country": "United States",
@@ -35,18 +23,6 @@
     "relations": []
   },
   {
-    "id": 8,
-    "canonical_name": "Darkglass Electronics",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
-    "relations": []
-  },
-  {
     "id": 15,
     "canonical_name": "Elektron",
     "country": "Sweden",
@@ -61,24 +37,24 @@
   {
     "id": 12,
     "canonical_name": "Focusrite",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
+    "country": "United Kingdom",
+    "short_history": "British audio-electronics company founded 1985 by Rupert Neve; makes audio interfaces and studio preamps rather than instruments itself, but owns synth/groovebox maker Novation (since 2004) and synth maker Sequential (since 2021).",
+    "long_history": "Focusrite was founded in 1985 by British audio engineer Rupert Neve, shortly after he ended his consulting relationship with his earlier company, Neve Electronics; his first work under the Focusrite name was building console extenders and outboard modules for Neve consoles already installed at Sir George Martin's AIR Studios in London and Montserrat. In April 1989 Phil Dudderidge, who remains the company's chairman, acquired Focusrite and steered its subsequent growth; under his direction Focusrite designed the Focusrite Studio Console in 1990 and built a reputation for high-end microphone preamps, equalizers and channel strips, particularly the ISA series descended from the original ISA110 designs. Rather than making instruments itself, Focusrite has expanded mainly by acquisition, building a group of complementary audio brands: it bought synthesizer and groovebox maker Novation in August 2004, floated on London's AIM market as Focusrite plc in December 2014, and added monitor-speaker maker ADAM Audio in July 2019 and loudspeaker manufacturer Martin Audio in December 2019. In April 2021 Focusrite acquired Sequential, the American analog-synthesizer company founded by Dave Smith, bringing an actual instrument-manufacturing brand into the group; the Focusrite Group now trades under eight brands including Focusrite, Focusrite Pro, Martin Audio, ADAM Audio, Novation, Ampify Music, Optimal Audio, and Sequential. Focusrite itself continues to focus on audio interfaces and studio recording hardware rather than instruments; its relevance to this database is chiefly as the parent company of Sequential and Novation.",
+    "official_website": "https://focusrite.com",
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": []
   },
   {
     "id": 3,
     "canonical_name": "inMusic Brands",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
+    "country": "United States",
+    "short_history": "American music-technology holding company (founded from Numark's 1992 acquisition) that owns Moog Music, Akai Professional, Denon DJ, Numark, Rane and M-Audio among others; does not design instruments itself, only acquires and operates other brands.",
+    "long_history": "inMusic Brands traces its roots to 1992, when Jack O'Donnell purchased the assets of Numark, a DJ-equipment brand. Over the following three decades O'Donnell built inMusic into a large private portfolio of professional audio and music-technology companies through a sustained string of acquisitions rather than organic in-house product development: Alesis was taken over out of bankruptcy in 2001, Akai Professional's musical-instrument division was acquired in 2005, Italian live-sound company Alto Professional joined the group in 2010, and in June 2023 inMusic acquired Moog Music, giving the group its first serious foothold in analog synthesizer manufacturing. In May 2026 inMusic agreed to acquire the Berlin-based music-technology company Native Instruments, maker of Kontakt, Traktor and iZotope, further extending its reach into software instruments. Today inMusic's brand portfolio includes Akai Professional, Moog Music, Denon DJ, Numark, Rane, and M-Audio, among others. Like Norlin before it, inMusic itself does not design or build instruments under its own name; its relevance to this database is as Moog Music's current parent company.",
+    "official_website": "https://www.inmusicbrands.com",
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": []
   },
@@ -87,7 +63,7 @@
     "canonical_name": "Korg Inc.",
     "country": "Japan",
     "short_history": "Founded in 1962 in Tokyo as Keio Electronic Laboratories by Tsutomu Kato and Tadashi Osanai, initially producing rhythm machines and organs. Adopted the Korg brand and later the corporate name Korg Inc.; entered synthesizers in 1973 (Mini-Korg), with major success from the MS-20 and later Wavestation. Yamaha held a 51% stake 1987-1993 before founder Kato bought back control. Remains privately held and active, with a history of acquiring other audio-equipment brands (Vox in 1992, Darkglass Electronics in 2022).",
-    "long_history": null,
+    "long_history": "Korg's roots trace to a Tokyo nightclub owner, Tsutomu Kato, who partnered with accordionist and engineer Tadashi Osanai in 1962 to build a better rhythm machine than the commercial units then available; their company began as Keio Gijutsu Kenkyujo, soon renamed Keio Electronic Laboratories and later Keio Giken Kogyo, named for the nearby Keio railway line. Their first product, the Donca-Matic DA-20 electro-mechanical rhythm machine, appeared in 1963, followed by a solid-state successor in 1966. In 1967 engineer Fumio Mieda joined the company and, after roughly 18 months of development, produced a programmable organ; the resulting product line was branded KORG (from Keio plus organ), and the company itself eventually took the same name. Concerned about competition in the organ market, Kato pushed the company into the emerging synthesizer category, releasing the miniKORG in 1973. Through the 1970s Korg built both affordable instruments for hobbyists and large patchable systems such as the PS series; co-founder Osanai died in 1977, and Kato continued leading the company alone. Yamaha acquired a controlling stake in Korg in 1987, shortly before Korg's breakthrough product, the 1988 M1 workstation, which sold more than 250,000 units and became one of the best-selling synthesizers ever made; despite Yamaha's ownership the two companies continued developing and marketing their instruments separately, even competing directly in the market. In 1989 Korg hired the design team let go by Sequential Circuits, then owned by Yamaha, and by 1993 Kato had bought back most of Yamaha's shares, restoring Korg's independence. Korg has since expanded well beyond synthesizers into digital pianos, samplers, drum machines, effects, tuners and software instruments, largely through acquisition: it bought the Vox amplifier and organ brand in 1992, saving it from a struggling parent company, and its current subsidiaries include ARP Instruments alongside Vox; in September 2022 Korg also acquired the bass-focused electronics company Darkglass Electronics. Founder Kato died of cancer in 2011, but Korg remains privately held and continues to release new instrument lines.",
     "official_website": "https://www.korg.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -110,16 +86,10 @@
     ],
     "relations": [
       {
-        "relation_type": "acquired",
+        "relation_type": "owner_of",
         "year": null,
-        "related_manufacturer_id": 9,
-        "related_name": "Spector Bass"
-      },
-      {
-        "relation_type": "acquired",
-        "year": null,
-        "related_manufacturer_id": 10,
-        "related_name": "Aguilar Amplification"
+        "related_manufacturer_id": 14,
+        "related_name": "ARP Instruments"
       },
       {
         "relation_type": "acquired_by",
@@ -138,12 +108,6 @@
         "year": 1993,
         "related_manufacturer_id": 6,
         "related_name": "Yamaha"
-      },
-      {
-        "relation_type": "acquired",
-        "year": 2022,
-        "related_manufacturer_id": 8,
-        "related_name": "Darkglass Electronics"
       }
     ]
   },
@@ -152,7 +116,7 @@
     "canonical_name": "Moog Music",
     "country": "United States",
     "short_history": "Founded in 1953 in New York by Robert Moog and his father as R.A. Moog Co., producing theremins. Introduced the first commercial modular synthesizer in 1964 and the Minimoog in 1970; renamed Moog Music in 1972. Sold to Norlin Musical Instruments in 1973, went bankrupt in 1987. Robert Moog's Big Briar reacquired the Moog trademark and revived Moog Music in 2002. Acquired by inMusic Brands in June 2023; still actively producing instruments in Asheville, North Carolina.",
-    "long_history": null,
+    "long_history": "Robert Moog and his father founded R.A. Moog Co. in 1953, initially selling theremin kits from Trumansburg, New York, where Moog was studying engineering physics at Cornell. Moog began designing early modular synthesizer circuits around 1961 and introduced the first commercial modular synthesizer system in 1964, working closely with composers such as Wendy Carlos, whose 1968 album Switched-On Bach used Moog instruments and became a surprise commercial hit, briefly making the company profitable in 1969. The 1970 Minimoog, a compact, pre-patched synthesizer aimed at performing musicians rather than studios, became the company's most influential product and helped popularize the synthesizer as a mainstream instrument; the company was renamed Moog Music in 1972. Financial trouble led Robert Moog to sell the company and its trademark to Norlin Musical Instruments in 1973; Moog stayed on as a Norlin engineer with no real control over the products bearing his name, and left in 1977 to found a new company, Big Briar, in Asheville, North Carolina, initially focused on theremins and ribbon controllers. Norlin's Moog Music arm filed for bankruptcy in 1987. Robert Moog spent years working to recover commercial rights to his own name; by 2002 Big Briar had regained the Moog Music trademark and relaunched under that name, releasing the Minimoog Voyager the same year as its flagship reintroduction. Robert Moog died in 2005, but the company continued developing new instruments such as the Sub 37 (2014) and Subsequent 37 (2017). In June 2023 Moog Music was acquired by inMusic Brands, the audio-technology group that also owns Akai Professional, Numark and other music brands; Moog continues to design and build instruments at its original Asheville, North Carolina facility.",
     "official_website": "https://www.moogmusic.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -196,6 +160,18 @@
   {
     "id": 2,
     "canonical_name": "Norlin Musical Instruments",
+    "country": "United States",
+    "short_history": "American holding company that owned Gibson guitars, Epiphone, Lowrey organs and Moog Music from 1973 to the mid-1980s, before financial trouble and a hostile takeover forced it to sell off all its instrument brands; no longer exists as an instrument business.",
+    "long_history": "Norlin traces back to 1913 as the Ecuadorian Corporation, originally a holding company for a brewery, cement plant and other business interests in Ecuador. Under president Norton Stevens the company pivoted toward American electronics and manufacturing acquisitions during the 1960s, and took its final name, Norlin, by combining Norton Stevens' surname with that of Arnold Berlin, president of the Chicago Musical Instrument Company (CMI), which Norlin acquired in 1969. That acquisition made Norlin, briefly, the largest musical-instrument manufacturer in the United States, with a portfolio that came to include Gibson guitars, Epiphone, Lowrey organs, and, from 1973, Moog Music. The music division drove the bulk of Norlin's revenue through the early-to-mid 1970s, but the industry downturn following the 1975 recession forced the conglomerate to sell off its remaining Ecuadorian operations and other units. Norlin became the target of a hostile takeover attempt in the mid-1980s, and in response divested its instrument brands one by one: Lowrey Organ was sold in October 1984, Moog Music not long after, and finally Gibson itself in January 1986, sold for five million dollars to a group of investors who took over a company that was within months of shutting down entirely. Norlin no longer exists as an independent musical-instrument business; its relevance to this database is entirely as Moog Music's owner during a difficult, formative decade of that company's history.",
+    "official_website": null,
+    "status": "defunct",
+    "confidence_level": "confirmed",
+    "name_history": [],
+    "relations": []
+  },
+  {
+    "id": 16,
+    "canonical_name": "Novation",
     "country": null,
     "short_history": null,
     "long_history": null,
@@ -213,7 +189,7 @@
     "long_history": "Oberheim Electronics was founded in Santa Monica, California in 1969 by engineer Tom Oberheim, who began by building effects units and the Synthesizer Expander Module (SEM) for other musicians before moving into complete instruments. Starting around 1975-76, Oberheim introduced some of the first widely available polyphonic synthesizers, the Four Voice and Two Voice, which pioneered the now-standard idea of a fixed pool of voice circuits allocated dynamically to played notes, and the company became a major force in synthesizers and drum machines through the mid-1980s with its OB-series (OB-X, OB-Xa, OB-8) and DMX/DX drum machines. The company's finances deteriorated in the mid-1980s, leading to bankruptcy and a chaotic period of ownership changes -- sources differ on the exact sequence and years, but the brand passed through a company known as ECC and was eventually acquired by guitar maker Gibson, which kept some Oberheim products (like the Xpander and Matrix-1000) in limited production and later attempted a revival with the 1994 OB-Mx. Gibson then shelved the brand and licensed the Oberheim name to Italian organ manufacturer Viscount, which released new instruments under the name in the 1990s, including the OB-12 virtual analog synth, before Viscount stopped making synthesizers around 1998. The Oberheim name then sat dormant under Gibson until 2019, when Gibson returned the trademark and rights to Tom Oberheim himself, who has since resumed producing instruments under his own name and the restored Oberheim brand.",
     "official_website": "https://www.tomoberheim.com/",
     "status": "active",
-    "confidence_level": "needs_review",
+    "confidence_level": "confirmed",
     "name_history": [],
     "relations": []
   },
@@ -222,7 +198,7 @@
     "canonical_name": "Roland Corporation",
     "country": "Japan",
     "short_history": "Founded April 18, 1972 in Osaka, Japan by Ikutaro Kakehashi (previously founder of Ace Electronic Industries, a separate earlier company). Became a global leader in electronic musical instruments and drum machines (SH-1000, Jupiter-4, Juno-60, TB-303, TR-808, TR-909). Headquarters moved to Hamamatsu, Shizuoka in 2005. Taken private via a 2014 management buyout backed by Taiyo Pacific Partners; relisted on the Tokyo Stock Exchange in December 2020.",
-    "long_history": null,
+    "long_history": "Ikutaro Kakehashi founded Roland Corporation in Osaka on April 18, 1972, after resigning from his earlier company Ace Electronic Industries when its main investor was absorbed by an outside industrial firm; he started Roland with about seven staff and roughly $100,000 in funding. The name was chosen deliberately: short, easy to pronounce internationally, and starting with a letter not already claimed by rival manufacturers. Roland's first product was a rhythm machine, the TR-77, followed in 1973 by the SH-1000, the first compact synthesizer built in Japan, and the non-preset SH-3. The company expanded quickly into adjacent gear: the RE-201 Space Echo tape delay in 1974, the JC-60/JC-120 Jazz Chorus guitar amplifiers in 1975, and the semi-modular System 100 and modular System 700 synthesizers in 1976. In 1977 Roland released the MC-8 MicroComposer, one of the earliest microprocessor-controlled music sequencers. Kakehashi was also central to the creation of MIDI, working with Sequential Circuits' Dave Smith to standardize a common protocol among competing manufacturers, unveiled in 1983. Roland's later instruments, especially the TR-808 drum machine (1980), TB-303 bass synthesizer, and TR-909 (1983-84), became foundational to entire genres of electronic music including hip-hop, house and techno, well beyond their original design intent. The company listed on the Osaka Stock Exchange in 1989, and its headquarters moved from Osaka to Hamamatsu, Shizuoka in 2005. In 2014 Roland was taken private through a management buyout backed by Taiyo Pacific Partners, before returning to public markets on the Tokyo Stock Exchange in December 2020. Today Roland's portfolio spans synthesizers, digital pianos, electronic drums, guitar amplifiers, effects units, mixers and DJ equipment, and includes the Boss brand for guitar effects and Roland DG for digital fabrication and printing technology.",
     "official_website": "https://www.roland.com",
     "status": "active",
     "confidence_level": "confirmed",
@@ -271,28 +247,23 @@
     ]
   },
   {
-    "id": 9,
-    "canonical_name": "Spector Bass",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
-    "official_website": null,
-    "status": "active",
-    "confidence_level": "unresearched",
-    "name_history": [],
-    "relations": []
-  },
-  {
     "id": 7,
     "canonical_name": "Vox",
-    "country": null,
-    "short_history": null,
-    "long_history": null,
+    "country": "United Kingdom",
+    "short_history": "British organ and guitar-amplifier maker founded 1950 as the Jennings Organ Company; creator of the AC15/AC30 amps and the Vox Continental organ, famously used by the Beatles. Changed owners repeatedly after 1967 and has been Korg-owned since 1992.",
+    "long_history": "Vox began as the Jennings Organ Company, founded by Thomas Walter Jennings in Dartford, Kent, England in 1950, initially selling accordions before developing its own instruments; its first notable product was the Univox, a mains-powered electronic keyboard with a built-in valve amplifier, similar in concept to the Clavioline. In 1956 employee and big-band guitarist Dick Denney showed Jennings a prototype guitar amplifier, prompting the company to rename itself Jennings Musical Industries (JMI) and pivot toward amplification alongside its organs. The 15-watt Vox AC15 launched in 1958, and Denney's follow-up design, effectively doubling the AC15's output with an extra speaker and cabinet, became the AC30 in 1959. Vox amplifiers became closely associated with British rock groups of the early 1960s, most famously the Beatles, after the band's manager negotiated free amplifiers in exchange for exclusive use; the Rolling Stones and other major acts of the era used Vox gear as well. Alongside amplifiers, Vox also produced electronic organs, including the Vox Continental, a distinctive reversed-color-key combo organ that became a signature sound of 1960s pop and rock. JMI's parent company, Royston, went bankrupt in 1967, and the Vox brand changed ownership repeatedly between 1967 and 1993, including a period under Rose Morris, which relaunched an AC30 reissue in the early 1990s. In late 1992 a struggling Rose Morris sold the Vox name to a new management team operating under the Korg umbrella; Korg, already the US distributor for rival amp maker Marshall in many markets, used that relationship to have Marshall manufacture new Vox-branded amplifiers under contract, stabilizing and modernizing the brand for the following decades. Vox remains a Korg-owned brand today, producing both guitar amplifiers and its historic line of combo organs.",
     "official_website": null,
     "status": "active",
-    "confidence_level": "unresearched",
+    "confidence_level": "confirmed",
     "name_history": [],
-    "relations": []
+    "relations": [
+      {
+        "relation_type": "acquired_by",
+        "year": 1992,
+        "related_manufacturer_id": 5,
+        "related_name": "Korg Inc."
+      }
+    ]
   },
   {
     "id": 6,
