@@ -1,0 +1,154 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Buchla Electronic Musical Instruments",
+      "instruments": [
+        {
+          "name": "202h Utilities",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "206e Mixer / Preset Manager",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "207e Mixer / Microphone Preamplifier",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "210e Control and Signal Router",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "223e Multi Dimensional Kinesthetic Input / Tactile Input Port",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "225e MIDI Decoder / Preset Manager",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "225h MIDI CV Interface",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "226h CV MIDI Interface",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "227e System Interface",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "230e Triple Envelope Tracker Preamplifier",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "250e Arbitrary Function Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "251e Quad Sequential Voltage Source",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "252e Buchla Polyphonic Rhythm Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "256e Quad Control Voltage Processor",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "257 Control Voltage Processor",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "259e Twisted Waveform Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "261e Complex Waveform Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "266e Source of Uncertainty",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "267e Uncertainty Source Dual Filter",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "272e Polyphonic Tuner",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "281e Quad Function Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "281h Dual Function Generator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "285e Frequency Shifter / Balance Modulator",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "291e Triple Morphing Filter",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "292e Quad Dynamic Manager",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "292h Dual Lowpass Gate",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "296e Spectral Processor",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "297 Infinite Phase Shifter",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        },
+        {
+          "name": "LEM218",
+          "category": "module",
+          "source_url": "https://synthpedia.net/buchla/"
+        }
+      ]
+    }
+  ]
+}

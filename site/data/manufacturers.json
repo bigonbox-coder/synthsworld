@@ -561,6 +561,146 @@
         "category": null
       },
       {
+        "name": "202h Utilities",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "206e Mixer / Preset Manager",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "207e Mixer / Microphone Preamplifier",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "210e Control and Signal Router",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "223e Multi Dimensional Kinesthetic Input / Tactile Input Port",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "225e MIDI Decoder / Preset Manager",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "225h MIDI CV Interface",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "226h CV MIDI Interface",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "227e System Interface",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "230e Triple Envelope Tracker Preamplifier",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "250e Arbitrary Function Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "251e Quad Sequential Voltage Source",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "252e Buchla Polyphonic Rhythm Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "256e Quad Control Voltage Processor",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "257 Control Voltage Processor",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "259e Twisted Waveform Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "261e Complex Waveform Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "266e Source of Uncertainty",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "267e Uncertainty Source Dual Filter",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "272e Polyphonic Tuner",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "281e Quad Function Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "281h Dual Function Generator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "285e Frequency Shifter / Balance Modulator",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "291e Triple Morphing Filter",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "292e Quad Dynamic Manager",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "292h Dual Lowpass Gate",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "296e Spectral Processor",
+        "year": null,
+        "category": "module"
+      },
+      {
+        "name": "297 Infinite Phase Shifter",
+        "year": null,
+        "category": "module"
+      },
+      {
         "name": "400 Series",
         "year": null,
         "category": null
@@ -574,6 +714,11 @@
         "name": "Charles Cohen",
         "year": null,
         "category": "synthesizer"
+      },
+      {
+        "name": "LEM218",
+        "year": null,
+        "category": "module"
       },
       {
         "name": "Lightning",
