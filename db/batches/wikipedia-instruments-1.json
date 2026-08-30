@@ -1,0 +1,1859 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "ARP Instruments",
+      "instruments": [
+        {
+          "name": "ARP 16-Voice Electronic Piano",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_16-Voice_Electronic_Piano"
+        },
+        {
+          "name": "ARP 2002",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_2002"
+        },
+        {
+          "name": "ARP 2500",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_2500"
+        },
+        {
+          "name": "ARP 2600",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_2600"
+        },
+        {
+          "name": "ARP Avatar",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Avatar"
+        },
+        {
+          "name": "ARP Axxe",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Axxe"
+        },
+        {
+          "name": "ARP Little Brother",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Little_Brother"
+        },
+        {
+          "name": "ARP Odyssey",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Odyssey"
+        },
+        {
+          "name": "ARP Omni",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Omni"
+        },
+        {
+          "name": "ARP Omni 2",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Omni_2"
+        },
+        {
+          "name": "ARP Pro Soloist",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Pro_Soloist"
+        },
+        {
+          "name": "ARP Pro/DGX",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Pro/DGX"
+        },
+        {
+          "name": "ARP Quadra",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Quadra"
+        },
+        {
+          "name": "ARP Quartet",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Quartet"
+        },
+        {
+          "name": "ARP Sequencer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Sequencer"
+        },
+        {
+          "name": "ARP Solus",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Solus"
+        },
+        {
+          "name": "ARP String Ensemble",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_String_Ensemble"
+        },
+        {
+          "name": "ARP String Synthesizer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_String_Synthesizer"
+        },
+        {
+          "name": "Rhodes Chroma",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Rhodes_Chroma"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Akai Professional",
+      "instruments": [
+        {
+          "name": "Akai AX60",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_AX60"
+        },
+        {
+          "name": "Akai AX80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_AX80"
+        },
+        {
+          "name": "Akai MPC",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_MPC"
+        },
+        {
+          "name": "Akai S1000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_S1000"
+        },
+        {
+          "name": "Akai S3000XL",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_S3000XL"
+        },
+        {
+          "name": "Akai S900",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_S900"
+        },
+        {
+          "name": "Akai SG01v",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_SG01v"
+        },
+        {
+          "name": "Akai X7000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Akai_X7000"
+        },
+        {
+          "name": "Electronic wind instrument",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_wind_instrument"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Alesis",
+      "instruments": [
+        {
+          "name": "Alesis Andromeda A6",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Alesis_Andromeda_A6"
+        },
+        {
+          "name": "Alesis Fusion",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Alesis_Fusion"
+        },
+        {
+          "name": "Alesis Ion",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Alesis_Ion"
+        },
+        {
+          "name": "Alesis Quadrasynth",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Alesis_Quadrasynth"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Buchla Electronic Musical Instruments",
+      "instruments": [
+        {
+          "name": "Buchla 200 series Electric Music Box",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Buchla_200_series_Electric_Music_Box"
+        },
+        {
+          "name": "Buchla Lightning",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Buchla_Lightning"
+        },
+        {
+          "name": "Buchla Thunder",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Buchla_Thunder"
+        },
+        {
+          "name": "Charles Cohen",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Charles_Cohen"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Doepfer",
+      "instruments": [
+        {
+          "name": "Doepfer A-100",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Doepfer_A-100"
+        },
+        {
+          "name": "Doepfer MS-404",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Doepfer_MS-404"
+        }
+      ]
+    },
+    {
+      "canonical_name": "E-mu Systems",
+      "instruments": [
+        {
+          "name": "E-mu Audity",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Audity"
+        },
+        {
+          "name": "E-mu Drumulator",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Drumulator"
+        },
+        {
+          "name": "E-mu Emax",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Emax"
+        },
+        {
+          "name": "E-mu Emulator",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Emulator"
+        },
+        {
+          "name": "E-mu Emulator X",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Emulator_X"
+        },
+        {
+          "name": "E-mu Modular System",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Modular_System"
+        },
+        {
+          "name": "E-mu Proteus",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_Proteus"
+        },
+        {
+          "name": "E-mu SP-12",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_SP-12"
+        },
+        {
+          "name": "E-mu SP-1200",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/E-mu_SP-1200"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Electronic Music Studios (London) Ltd.",
+      "instruments": [
+        {
+          "name": "EMS Synthi 100",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_Synthi_100"
+        },
+        {
+          "name": "EMS Synthi A",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_Synthi_A"
+        },
+        {
+          "name": "EMS Synthi AKS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_Synthi_AKS"
+        },
+        {
+          "name": "EMS VCS 3",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/EMS_VCS_3"
+        },
+        {
+          "name": "Electronic Music Studios",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Studios"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elektron",
+      "instruments": [
+        {
+          "name": "Elektron Monomachine",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Elektron_Monomachine"
+        },
+        {
+          "name": "Elektron SidStation",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Elektron_SidStation"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Elka",
+      "instruments": [
+        {
+          "name": "Elka Synthex",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Elka_Synthex"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Ensoniq",
+      "instruments": [
+        {
+          "name": "ASR-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ASR-10"
+        },
+        {
+          "name": "Ensoniq ASR-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_ASR-10"
+        },
+        {
+          "name": "Ensoniq EPS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_EPS"
+        },
+        {
+          "name": "Ensoniq EPS-16 Plus",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_EPS-16_Plus"
+        },
+        {
+          "name": "Ensoniq EPS-16+",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_EPS-16%2B"
+        },
+        {
+          "name": "Ensoniq ESQ-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_ESQ-1"
+        },
+        {
+          "name": "Ensoniq Fizmo",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_Fizmo"
+        },
+        {
+          "name": "Ensoniq MR61",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_MR61"
+        },
+        {
+          "name": "Ensoniq Mirage",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_Mirage"
+        },
+        {
+          "name": "Ensoniq SDP-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_SDP-1"
+        },
+        {
+          "name": "Ensoniq SQ-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_SQ-80"
+        },
+        {
+          "name": "Ensoniq TS-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_TS-10"
+        },
+        {
+          "name": "Ensoniq VFX",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Ensoniq_VFX"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Hammond Organ Company",
+      "instruments": [
+        {
+          "name": "Hammond organ",
+          "category": "electronic organ",
+          "source_url": "https://en.wikipedia.org/wiki/Hammond_organ"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kawai Musical Instruments",
+      "instruments": [
+        {
+          "name": "Kawai K1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_K1"
+        },
+        {
+          "name": "Kawai K4",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_K4"
+        },
+        {
+          "name": "Kawai K5000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_K5000"
+        },
+        {
+          "name": "Kawai Q-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_Q-80"
+        },
+        {
+          "name": "Kawai R-100",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_R-100"
+        },
+        {
+          "name": "Kawai XD-5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kawai_XD-5"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Korg Inc.",
+      "instruments": [
+        {
+          "name": "ARP Odyssey",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/ARP_Odyssey"
+        },
+        {
+          "name": "Electribe",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Electribe"
+        },
+        {
+          "name": "KORG DS-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/KORG_DS-10"
+        },
+        {
+          "name": "KORG DSN-12",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/KORG_DSN-12"
+        },
+        {
+          "name": "Kaoss Pad",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/Kaoss_Pad"
+        },
+        {
+          "name": "Korg 01/W",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_01/W"
+        },
+        {
+          "name": "Korg CX-3",
+          "category": "electronic organ",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_CX-3"
+        },
+        {
+          "name": "Korg DDD-1",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DDD-1"
+        },
+        {
+          "name": "Korg DRM-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DRM-1"
+        },
+        {
+          "name": "Korg DS-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DS-8"
+        },
+        {
+          "name": "Korg DSS-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DSS-1"
+        },
+        {
+          "name": "Korg DW-6000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DW-6000"
+        },
+        {
+          "name": "Korg DW-8000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_DW-8000"
+        },
+        {
+          "name": "Korg KARMA",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_KARMA"
+        },
+        {
+          "name": "Korg KR 55",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_KR_55"
+        },
+        {
+          "name": "Korg Kaossilator",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Kaossilator"
+        },
+        {
+          "name": "Korg Kronos",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Kronos"
+        },
+        {
+          "name": "Korg M01D",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_M01D"
+        },
+        {
+          "name": "Korg M1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_M1"
+        },
+        {
+          "name": "Korg M3",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_M3"
+        },
+        {
+          "name": "Korg MS-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_MS-10"
+        },
+        {
+          "name": "Korg MS-20",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_MS-20"
+        },
+        {
+          "name": "Korg MS2000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_MS2000"
+        },
+        {
+          "name": "Korg Mini Pops",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Mini_Pops"
+        },
+        {
+          "name": "Korg Minilogue",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Minilogue"
+        },
+        {
+          "name": "Korg Mono/Poly",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Mono/Poly"
+        },
+        {
+          "name": "Korg Monologue",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Monologue"
+        },
+        {
+          "name": "Korg N364/264",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_N364/264"
+        },
+        {
+          "name": "Korg Nautilus",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Nautilus"
+        },
+        {
+          "name": "Korg OASYS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_OASYS"
+        },
+        {
+          "name": "Korg PS-3300",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_PS-3300"
+        },
+        {
+          "name": "Korg Poly-61",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Poly-61"
+        },
+        {
+          "name": "Korg Poly-800",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Poly-800"
+        },
+        {
+          "name": "Korg Polyphonic Ensemble P",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Polyphonic_Ensemble_P"
+        },
+        {
+          "name": "Korg Polysix",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Polysix"
+        },
+        {
+          "name": "Korg Prophecy",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Prophecy"
+        },
+        {
+          "name": "Korg RADIAS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_RADIAS"
+        },
+        {
+          "name": "Korg Sigma",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Sigma"
+        },
+        {
+          "name": "Korg Trident",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Trident"
+        },
+        {
+          "name": "Korg Trinity",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Trinity"
+        },
+        {
+          "name": "Korg Triton",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Triton"
+        },
+        {
+          "name": "Korg VC-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_VC-10"
+        },
+        {
+          "name": "Korg Volca",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Volca"
+        },
+        {
+          "name": "Korg Wavestation",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Wavestation"
+        },
+        {
+          "name": "Korg X3",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_X3"
+        },
+        {
+          "name": "Korg Z1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_Z1"
+        },
+        {
+          "name": "Korg i3",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_i3"
+        },
+        {
+          "name": "Korg miniKORG 700",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Korg_miniKORG_700"
+        },
+        {
+          "name": "LittleBits Synth Kit",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/LittleBits_Synth_Kit"
+        },
+        {
+          "name": "MicroKORG",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/MicroKORG"
+        },
+        {
+          "name": "Monotron",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Monotron"
+        },
+        {
+          "name": "Volca Bass",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Volca_Bass"
+        },
+        {
+          "name": "Volca Beats",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Volca_Beats"
+        },
+        {
+          "name": "Volca Keys",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Volca_Keys"
+        },
+        {
+          "name": "Volca Modular",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Volca_Modular"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Kurzweil Music Systems",
+      "instruments": [
+        {
+          "name": "Kurzweil K2000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kurzweil_K2000"
+        },
+        {
+          "name": "Kurzweil K250",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Kurzweil_K250"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Moog Music",
+      "instruments": [
+        {
+          "name": "Animoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Animoog"
+        },
+        {
+          "name": "Memorymoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Memorymoog"
+        },
+        {
+          "name": "Micromoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Micromoog"
+        },
+        {
+          "name": "Minimoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Minimoog"
+        },
+        {
+          "name": "Minimoog Voyager",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Minimoog_Voyager"
+        },
+        {
+          "name": "Moog Grandmother",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Grandmother"
+        },
+        {
+          "name": "Moog Guitar",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Guitar"
+        },
+        {
+          "name": "Moog Liberation",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Liberation"
+        },
+        {
+          "name": "Moog Little Phatty",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Little_Phatty"
+        },
+        {
+          "name": "Moog Model 15",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Model_15"
+        },
+        {
+          "name": "Moog Mother-32",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Mother-32"
+        },
+        {
+          "name": "Moog Opus 3",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Opus_3"
+        },
+        {
+          "name": "Moog Prodigy",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Prodigy"
+        },
+        {
+          "name": "Moog Rogue",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Rogue"
+        },
+        {
+          "name": "Moog Satellite",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Satellite"
+        },
+        {
+          "name": "Moog Sonic Six",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Sonic_Six"
+        },
+        {
+          "name": "Moog Source",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Source"
+        },
+        {
+          "name": "Moog Sub 37",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Sub_37"
+        },
+        {
+          "name": "Moog Taurus",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Taurus"
+        },
+        {
+          "name": "Moog Werkstatt-Ø1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_Werkstatt-%C3%981"
+        },
+        {
+          "name": "Moog synthesizer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Moog_synthesizer"
+        },
+        {
+          "name": "Mother-32",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Mother-32"
+        },
+        {
+          "name": "Multimoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Multimoog"
+        },
+        {
+          "name": "Polymoog",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Polymoog"
+        },
+        {
+          "name": "Realistic Concertmate MG-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Realistic_Concertmate_MG-1"
+        },
+        {
+          "name": "Slim Phatty",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Slim_Phatty"
+        },
+        {
+          "name": "Theremini",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Theremini"
+        }
+      ]
+    },
+    {
+      "canonical_name": "New England Digital",
+      "instruments": [
+        {
+          "name": "Synclavier",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/Synclavier"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Novation",
+      "instruments": [
+        {
+          "name": "Novation Digital Music Systems",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Novation_Digital_Music_Systems"
+        },
+        {
+          "name": "Novation DrumStation",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Novation_DrumStation"
+        },
+        {
+          "name": "Novation Supernova",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Novation_Supernova"
+        },
+        {
+          "name": "Novation X-Station",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Novation_X-Station"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Oberheim",
+      "instruments": [
+        {
+          "name": "Oberheim DMX",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_DMX"
+        },
+        {
+          "name": "Oberheim DS-2",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_DS-2"
+        },
+        {
+          "name": "Oberheim DSX",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_DSX"
+        },
+        {
+          "name": "Oberheim Eight Voice",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Eight_Voice"
+        },
+        {
+          "name": "Oberheim Four Voice",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Four_Voice"
+        },
+        {
+          "name": "Oberheim Matrix synthesizers",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Matrix_synthesizers"
+        },
+        {
+          "name": "Oberheim OB-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB-1"
+        },
+        {
+          "name": "Oberheim OB-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB-8"
+        },
+        {
+          "name": "Oberheim OB-SX",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB-SX"
+        },
+        {
+          "name": "Oberheim OB-X",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB-X"
+        },
+        {
+          "name": "Oberheim OB-Xa",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB-Xa"
+        },
+        {
+          "name": "Oberheim OB12",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_OB12"
+        },
+        {
+          "name": "Oberheim Polyphonic Synthesizer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Polyphonic_Synthesizer"
+        },
+        {
+          "name": "Oberheim Prommer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Prommer"
+        },
+        {
+          "name": "Oberheim SEM",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_SEM"
+        },
+        {
+          "name": "Oberheim Two Voice",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Two_Voice"
+        },
+        {
+          "name": "Oberheim Two-Voice Pro",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Two-Voice_Pro"
+        },
+        {
+          "name": "Oberheim Xpander",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Oberheim_Xpander"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Roland Corporation",
+      "instruments": [
+        {
+          "name": "Aira Compact",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Aira_Compact"
+        },
+        {
+          "name": "Boss SP-202",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Boss_SP-202"
+        },
+        {
+          "name": "Boss SP-303",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Boss_SP-303"
+        },
+        {
+          "name": "Boss SP-505",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Boss_SP-505"
+        },
+        {
+          "name": "D-Beam",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/D-Beam"
+        },
+        {
+          "name": "Roland AX-Edge",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_AX-Edge"
+        },
+        {
+          "name": "Roland Alpha Juno",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Alpha_Juno"
+        },
+        {
+          "name": "Roland CR-78",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_CR-78"
+        },
+        {
+          "name": "Roland D-05",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_D-05"
+        },
+        {
+          "name": "Roland D-50",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_D-50"
+        },
+        {
+          "name": "Roland D-70",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_D-70"
+        },
+        {
+          "name": "Roland D2",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_D2"
+        },
+        {
+          "name": "Roland DDR-30",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_DDR-30"
+        },
+        {
+          "name": "Roland DJ-70",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_DJ-70"
+        },
+        {
+          "name": "Roland E-20",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_E-20"
+        },
+        {
+          "name": "Roland Fantom",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Fantom"
+        },
+        {
+          "name": "Roland Fantom-X",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Fantom-X"
+        },
+        {
+          "name": "Roland GR-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_GR-1"
+        },
+        {
+          "name": "Roland GR-300",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_GR-300"
+        },
+        {
+          "name": "Roland GR-500",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_GR-500"
+        },
+        {
+          "name": "Roland HandSonic",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_HandSonic"
+        },
+        {
+          "name": "Roland JD-800",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JD-800"
+        },
+        {
+          "name": "Roland JD-990",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JD-990"
+        },
+        {
+          "name": "Roland JD-XA",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JD-XA"
+        },
+        {
+          "name": "Roland JD-Xi",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JD-Xi"
+        },
+        {
+          "name": "Roland JP-8000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JP-8000"
+        },
+        {
+          "name": "Roland JV-1080",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JV-1080"
+        },
+        {
+          "name": "Roland JV-2080",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JV-2080"
+        },
+        {
+          "name": "Roland JX-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JX-1"
+        },
+        {
+          "name": "Roland JX-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JX-10"
+        },
+        {
+          "name": "Roland JX-305",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JX-305"
+        },
+        {
+          "name": "Roland JX-3P",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JX-3P"
+        },
+        {
+          "name": "Roland JX-8P",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_JX-8P"
+        },
+        {
+          "name": "Roland Juno",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno"
+        },
+        {
+          "name": "Roland Juno-106",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno-106"
+        },
+        {
+          "name": "Roland Juno-60",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno-60"
+        },
+        {
+          "name": "Roland Juno-D",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno-D"
+        },
+        {
+          "name": "Roland Juno-G",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno-G"
+        },
+        {
+          "name": "Roland Juno-Gi",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Juno-Gi"
+        },
+        {
+          "name": "Roland Jupiter",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter"
+        },
+        {
+          "name": "Roland Jupiter-4",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter-4"
+        },
+        {
+          "name": "Roland Jupiter-50",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter-50"
+        },
+        {
+          "name": "Roland Jupiter-6",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter-6"
+        },
+        {
+          "name": "Roland Jupiter-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter-8"
+        },
+        {
+          "name": "Roland Jupiter-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Jupiter-80"
+        },
+        {
+          "name": "Roland MC-09",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-09"
+        },
+        {
+          "name": "Roland MC-202",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-202"
+        },
+        {
+          "name": "Roland MC-303",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-303"
+        },
+        {
+          "name": "Roland MC-307",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-307"
+        },
+        {
+          "name": "Roland MC-4 Microcomposer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-4_Microcomposer"
+        },
+        {
+          "name": "Roland MC-505",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-505"
+        },
+        {
+          "name": "Roland MC-8 Microcomposer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-8_Microcomposer"
+        },
+        {
+          "name": "Roland MC-808",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-808"
+        },
+        {
+          "name": "Roland MC-909",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MC-909"
+        },
+        {
+          "name": "Roland MKS-20",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MKS-20"
+        },
+        {
+          "name": "Roland MKS-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MKS-80"
+        },
+        {
+          "name": "Roland MS-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MS-1"
+        },
+        {
+          "name": "Roland MT-32",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_MT-32"
+        },
+        {
+          "name": "Roland OP-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_OP-8"
+        },
+        {
+          "name": "Roland R-5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_R-5"
+        },
+        {
+          "name": "Roland R-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_R-8"
+        },
+        {
+          "name": "Roland RD-1000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_RD-1000"
+        },
+        {
+          "name": "Roland RS-202",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_RS-202"
+        },
+        {
+          "name": "Roland S-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_S-10"
+        },
+        {
+          "name": "Roland S-50",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_S-50"
+        },
+        {
+          "name": "Roland SC-55",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SC-55"
+        },
+        {
+          "name": "Roland SC-7",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SC-7"
+        },
+        {
+          "name": "Roland SC-8850",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SC-8850"
+        },
+        {
+          "name": "Roland SH-01 Gaia",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SH-01_Gaia"
+        },
+        {
+          "name": "Roland SH-1000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SH-1000"
+        },
+        {
+          "name": "Roland SH-101",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SH-101"
+        },
+        {
+          "name": "Roland SH-201",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SH-201"
+        },
+        {
+          "name": "Roland SH-3A",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SH-3A"
+        },
+        {
+          "name": "Roland SP-404",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SP-404"
+        },
+        {
+          "name": "Roland SP-555",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SP-555"
+        },
+        {
+          "name": "Roland SP-606",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SP-606"
+        },
+        {
+          "name": "Roland SP-808",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_SP-808"
+        },
+        {
+          "name": "Roland Sound Canvas",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Sound_Canvas"
+        },
+        {
+          "name": "Roland System 100",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_System_100"
+        },
+        {
+          "name": "Roland System 700",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_System_700"
+        },
+        {
+          "name": "Roland System-100M",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_System-100M"
+        },
+        {
+          "name": "Roland TB-303",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TB-303"
+        },
+        {
+          "name": "Roland TR-505",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TR-505"
+        },
+        {
+          "name": "Roland TR-606",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TR-606"
+        },
+        {
+          "name": "Roland TR-707",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TR-707"
+        },
+        {
+          "name": "Roland TR-808",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TR-808"
+        },
+        {
+          "name": "Roland TR-909",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_TR-909"
+        },
+        {
+          "name": "Roland U-110",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_U-110"
+        },
+        {
+          "name": "Roland U-20",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_U-20"
+        },
+        {
+          "name": "Roland V-Synth",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_V-Synth"
+        },
+        {
+          "name": "Roland VK-7",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_VK-7"
+        },
+        {
+          "name": "Roland VK-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_VK-8"
+        },
+        {
+          "name": "Roland VP-330",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_VP-330"
+        },
+        {
+          "name": "Roland VariOS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_VariOS"
+        },
+        {
+          "name": "Roland W-30",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_W-30"
+        },
+        {
+          "name": "Roland XP-30",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_XP-30"
+        },
+        {
+          "name": "Roland XP-50",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_XP-50"
+        },
+        {
+          "name": "Roland XP-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_XP-80"
+        },
+        {
+          "name": "Roland Zenology",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Roland_Zenology"
+        },
+        {
+          "name": "SRX expansion board",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/SRX_expansion_board"
+        },
+        {
+          "name": "System-1 Aira",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/System-1_Aira"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Sequential",
+      "instruments": [
+        {
+          "name": "Drumtraks",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Drumtraks"
+        },
+        {
+          "name": "Prophet 2000",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Prophet_2000"
+        },
+        {
+          "name": "Prophet VS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Prophet_VS"
+        },
+        {
+          "name": "Prophet-5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Prophet-5"
+        },
+        {
+          "name": "Sequential Circuits Studio 440",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Sequential_Circuits_Studio_440"
+        },
+        {
+          "name": "Six-Trak",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Six-Trak"
+        },
+        {
+          "name": "Split-8",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Split-8"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Vox",
+      "instruments": [
+        {
+          "name": "Vox Continental",
+          "category": "electronic organ",
+          "source_url": "https://en.wikipedia.org/wiki/Vox_Continental"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Waldorf Music",
+      "instruments": [
+        {
+          "name": "Waldorf Blofeld",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Waldorf_Blofeld"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Yamaha",
+      "instruments": [
+        {
+          "name": "List of Yamaha Corporation products",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/List_of_Yamaha_Corporation_products"
+        },
+        {
+          "name": "Yamaha A3000",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_A3000"
+        },
+        {
+          "name": "Yamaha AN1x",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_AN1x"
+        },
+        {
+          "name": "Yamaha CP-70",
+          "category": "electric piano",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CP-70"
+        },
+        {
+          "name": "Yamaha CP88-73",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CP88-73"
+        },
+        {
+          "name": "Yamaha CS-15",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS-15"
+        },
+        {
+          "name": "Yamaha CS-60",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS-60"
+        },
+        {
+          "name": "Yamaha CS-80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS-80"
+        },
+        {
+          "name": "Yamaha CS1x",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS1x"
+        },
+        {
+          "name": "Yamaha CS2x",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS2x"
+        },
+        {
+          "name": "Yamaha CS30/CS30L synthesizer",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CS30/CS30L_synthesizer"
+        },
+        {
+          "name": "Yamaha CX5M",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_CX5M"
+        },
+        {
+          "name": "Yamaha DTX series",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DTX_series"
+        },
+        {
+          "name": "Yamaha DX1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX1"
+        },
+        {
+          "name": "Yamaha DX100 (synthesizer)",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX100_%28synthesizer%29"
+        },
+        {
+          "name": "Yamaha DX21",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX21"
+        },
+        {
+          "name": "Yamaha DX27",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX27"
+        },
+        {
+          "name": "Yamaha DX7",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX7"
+        },
+        {
+          "name": "Yamaha DX9",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_DX9"
+        },
+        {
+          "name": "Yamaha EX5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_EX5"
+        },
+        {
+          "name": "Yamaha FS1R",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_FS1R"
+        },
+        {
+          "name": "Yamaha GS1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_GS1"
+        },
+        {
+          "name": "Yamaha GS2",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_GS2"
+        },
+        {
+          "name": "Yamaha GX-1",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_GX-1"
+        },
+        {
+          "name": "Yamaha KX-5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_KX-5"
+        },
+        {
+          "name": "Yamaha MM6",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_MM6"
+        },
+        {
+          "name": "Yamaha MO",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_MO"
+        },
+        {
+          "name": "Yamaha MU-series",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_MU-series"
+        },
+        {
+          "name": "Yamaha Motif",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_Motif"
+        },
+        {
+          "name": "Yamaha PSR-E323",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_PSR-E323"
+        },
+        {
+          "name": "Yamaha PTX8",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_PTX8"
+        },
+        {
+          "name": "Yamaha PortaSound",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_PortaSound"
+        },
+        {
+          "name": "Yamaha QY10",
+          "category": "music workstation",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_QY10"
+        },
+        {
+          "name": "Yamaha RM1x",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_RM1x"
+        },
+        {
+          "name": "Yamaha RX-11",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_RX-11"
+        },
+        {
+          "name": "Yamaha RX-5",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_RX-5"
+        },
+        {
+          "name": "Yamaha Reface",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_Reface"
+        },
+        {
+          "name": "Yamaha Reface CS",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_Reface_CS"
+        },
+        {
+          "name": "Yamaha S80",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_S80"
+        },
+        {
+          "name": "Yamaha S90",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_S90"
+        },
+        {
+          "name": "Yamaha SHS-10",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_SHS-10"
+        },
+        {
+          "name": "Yamaha SY22",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_SY22"
+        },
+        {
+          "name": "Yamaha SY77",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_SY77"
+        },
+        {
+          "name": "Yamaha SY85",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_SY85"
+        },
+        {
+          "name": "Yamaha SY99",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_SY99"
+        },
+        {
+          "name": "Yamaha TG33",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_TG33"
+        },
+        {
+          "name": "Yamaha TG77",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_TG77"
+        },
+        {
+          "name": "Yamaha TMX",
+          "category": "drum machine",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_TMX"
+        },
+        {
+          "name": "Yamaha TX16W",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_TX16W"
+        },
+        {
+          "name": "Yamaha TX81Z",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_TX81Z"
+        },
+        {
+          "name": "Yamaha Tenori-on",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_Tenori-on"
+        },
+        {
+          "name": "Yamaha Tyros2",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_Tyros2"
+        },
+        {
+          "name": "Yamaha V50 (music workstation)",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_V50_%28music_workstation%29"
+        },
+        {
+          "name": "Yamaha WX5",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_WX5"
+        },
+        {
+          "name": "Yamaha XG",
+          "category": "sampler",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_XG"
+        },
+        {
+          "name": "Yamaha YS200",
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Yamaha_YS200"
+        }
+      ]
+    }
+  ]
+}

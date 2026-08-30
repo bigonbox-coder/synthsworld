@@ -63,6 +63,51 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Akai AX60",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai AX80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai MPC",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai S1000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai S3000XL",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai S900",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai SG01v",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Akai X7000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Electronic wind instrument",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "MPC",
         "year": null,
         "category": null
@@ -85,6 +130,26 @@
     "name_history": [],
     "relations": [],
     "instruments": [
+      {
+        "name": "Alesis Andromeda A6",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Alesis Fusion",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Alesis Ion",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Alesis Quadrasynth",
+        "year": null,
+        "category": "synthesizer"
+      },
       {
         "name": "Andromeda A6",
         "year": null,
@@ -125,9 +190,94 @@
     "relations": [],
     "instruments": [
       {
+        "name": "ARP 16-Voice Electronic Piano",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP 2002",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP 2500",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "ARP 2600",
         "year": null,
         "category": null
+      },
+      {
+        "name": "ARP Avatar",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Axxe",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Little Brother",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Odyssey",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Omni",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Omni 2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Pro Soloist",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Pro/DGX",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Quadra",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Quartet",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Sequencer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP Solus",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP String Ensemble",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "ARP String Synthesizer",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "Chroma",
@@ -138,6 +288,11 @@
         "name": "Odyssey",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Rhodes Chroma",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -179,7 +334,28 @@
     "confidence_level": "confirmed",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [
+      {
+        "name": "Buchla 200 series Electric Music Box",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Buchla Lightning",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Buchla Thunder",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Charles Cohen",
+        "year": null,
+        "category": "synthesizer"
+      }
+    ]
   },
   {
     "id": 38,
@@ -244,6 +420,16 @@
         "name": "A-100",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Doepfer A-100",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Doepfer MS-404",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -263,6 +449,51 @@
     "name_history": [],
     "relations": [],
     "instruments": [
+      {
+        "name": "E-mu Audity",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "E-mu Drumulator",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "E-mu Emax",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "E-mu Emulator",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "E-mu Emulator X",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "E-mu Modular System",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "E-mu Proteus",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "E-mu SP-12",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "E-mu SP-1200",
+        "year": null,
+        "category": "sampler"
+      },
       {
         "name": "Emulator",
         "year": null,
@@ -341,6 +572,31 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Electronic Music Studios",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "EMS Synthi 100",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "EMS Synthi A",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "EMS Synthi AKS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "EMS VCS 3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "Synthi A",
         "year": null,
         "category": null
@@ -382,6 +638,16 @@
         "name": "Digitone",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Elektron Monomachine",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Elektron SidStation",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "Machinedrum",
@@ -429,6 +695,11 @@
     ],
     "instruments": [
       {
+        "name": "Elka Synthex",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "Rhapsody",
         "year": null,
         "category": null
@@ -460,6 +731,71 @@
         "name": "ASR",
         "year": null,
         "category": null
+      },
+      {
+        "name": "ASR-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq ASR-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq EPS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq EPS-16 Plus",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq EPS-16+",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq ESQ-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq Fizmo",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq Mirage",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq MR61",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq SDP-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq SQ-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq TS-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Ensoniq VFX",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "EPS",
@@ -565,7 +901,13 @@
     "confidence_level": "unresearched",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [
+      {
+        "name": "Hammond organ",
+        "year": null,
+        "category": "electronic organ"
+      }
+    ]
   },
   {
     "id": 33,
@@ -582,7 +924,38 @@
     "confidence_level": "unresearched",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [
+      {
+        "name": "Kawai K1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kawai K4",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kawai K5000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kawai Q-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kawai R-100",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kawai XD-5",
+        "year": null,
+        "category": "synthesizer"
+      }
+    ]
   },
   {
     "id": 5,
@@ -642,14 +1015,289 @@
     ],
     "instruments": [
       {
+        "name": "ARP Odyssey",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Electribe",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kaoss Pad",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "Korg 01/W",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg CX-3",
+        "year": null,
+        "category": "electronic organ"
+      },
+      {
+        "name": "Korg DDD-1",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Korg DRM-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "KORG DS-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg DS-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "KORG DSN-12",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg DSS-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg DW-6000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg DW-8000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg i3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Kaossilator",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg KARMA",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg KR 55",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Kronos",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg M01D",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg M1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg M3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Mini Pops",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg miniKORG 700",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Minilogue",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Mono/Poly",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Monologue",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg MS-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg MS-20",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg MS2000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg N364/264",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Nautilus",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg OASYS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Poly-61",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Poly-800",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Polyphonic Ensemble P",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Polysix",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Prophecy",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg PS-3300",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg RADIAS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Sigma",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Trident",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Trinity",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Triton",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg VC-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Volca",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Wavestation",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg X3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Korg Z1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "LittleBits Synth Kit",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "MicroKORG",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "MiniKorg 700",
         "year": null,
         "category": null
       },
       {
+        "name": "Monotron",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "MS-20",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Volca Bass",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Volca Beats",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Volca Keys",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Volca Modular",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "Wavestation",
@@ -688,6 +1336,16 @@
         "name": "K2700",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Kurzweil K2000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Kurzweil K250",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -729,6 +1387,21 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Animoog",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Memorymoog",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Micromoog",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "Minimoog",
         "year": null,
         "category": null
@@ -737,6 +1410,121 @@
         "name": "Minimoog Model D",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Minimoog Voyager",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Grandmother",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Guitar",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Liberation",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Little Phatty",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Model 15",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Mother-32",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Opus 3",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Prodigy",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Rogue",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Satellite",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Sonic Six",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Source",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Sub 37",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog synthesizer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Taurus",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Moog Werkstatt-Ø1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Mother-32",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Multimoog",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Polymoog",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Realistic Concertmate MG-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Slim Phatty",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Theremini",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -788,6 +1576,26 @@
         "name": "Bass Station",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Novation Digital Music Systems",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Novation DrumStation",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Novation Supernova",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Novation X-Station",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -811,6 +1619,96 @@
         "name": "Four Voice",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Oberheim DMX",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Oberheim DS-2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim DSX",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Eight Voice",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Four Voice",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Matrix synthesizers",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB-SX",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB-X",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB-Xa",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim OB12",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Polyphonic Synthesizer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Prommer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim SEM",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Two Voice",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Two-Voice Pro",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Oberheim Xpander",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "Synthesizer Expander Module",
@@ -911,6 +1809,31 @@
     "relations": [],
     "instruments": [
       {
+        "name": "Aira Compact",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Boss SP-202",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Boss SP-303",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Boss SP-505",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "D-Beam",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "Juno-60",
         "year": null,
         "category": null
@@ -921,9 +1844,489 @@
         "category": null
       },
       {
+        "name": "Roland Alpha Juno",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland AX-Edge",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland CR-78",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland D-05",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland D-50",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland D-70",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland D2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland DDR-30",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Roland DJ-70",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland E-20",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Fantom",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Fantom-X",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland GR-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland GR-300",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland GR-500",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland HandSonic",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Roland JD-800",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JD-990",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JD-XA",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JD-Xi",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JP-8000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno-106",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno-60",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno-D",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno-G",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Juno-Gi",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter-4",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter-50",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter-6",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Jupiter-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JV-1080",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JV-2080",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JX-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JX-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JX-305",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JX-3P",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland JX-8P",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-09",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-202",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-303",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-307",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-4 Microcomposer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-505",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-8 Microcomposer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-808",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MC-909",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MKS-20",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MKS-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MS-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland MT-32",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland OP-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland R-5",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland R-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland RD-1000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland RS-202",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland S-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland S-50",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SC-55",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SC-7",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SC-8850",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SH-01 Gaia",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SH-1000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SH-101",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SH-201",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SH-3A",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Sound Canvas",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SP-404",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SP-555",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SP-606",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland SP-808",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland System 100",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland System 700",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland System-100M",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TB-303",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TR-505",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TR-606",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TR-707",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TR-808",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland TR-909",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland U-110",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland U-20",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland V-Synth",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland VariOS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland VK-7",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland VK-8",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland VP-330",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland W-30",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland XP-30",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland XP-50",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland XP-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Roland Zenology",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "SH-1000",
         "year": null,
         "category": null
+      },
+      {
+        "name": "SRX expansion board",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "System-1 Aira",
+        "year": null,
+        "category": "synthesizer"
       },
       {
         "name": "TB-303",
@@ -982,9 +2385,39 @@
     ],
     "instruments": [
       {
+        "name": "Drumtraks",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Prophet 2000",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Prophet VS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
         "name": "Prophet-5",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Sequential Circuits Studio 440",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Six-Trak",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Split-8",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   },
@@ -1195,6 +2628,11 @@
         "name": "Continental",
         "year": null,
         "category": null
+      },
+      {
+        "name": "Vox Continental",
+        "year": null,
+        "category": "electronic organ"
       }
     ]
   },
@@ -1213,7 +2651,13 @@
     "confidence_level": "unresearched",
     "name_history": [],
     "relations": [],
-    "instruments": []
+    "instruments": [
+      {
+        "name": "Waldorf Blofeld",
+        "year": null,
+        "category": "synthesizer"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1269,6 +2713,286 @@
         "name": "DX7",
         "year": null,
         "category": null
+      },
+      {
+        "name": "List of Yamaha Corporation products",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha A3000",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "Yamaha AN1x",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CP-70",
+        "year": null,
+        "category": "electric piano"
+      },
+      {
+        "name": "Yamaha CP88-73",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS-15",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS-60",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS-80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS1x",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS2x",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CS30/CS30L synthesizer",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha CX5M",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DTX series",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Yamaha DX1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DX100 (synthesizer)",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DX21",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DX27",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DX7",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha DX9",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha EX5",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha FS1R",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha GS1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha GS2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha GX-1",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha KX-5",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha MM6",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha MO",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha Motif",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha MU-series",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "Yamaha PortaSound",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha PSR-E323",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha PTX8",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Yamaha QY10",
+        "year": null,
+        "category": "music workstation"
+      },
+      {
+        "name": "Yamaha Reface",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha Reface CS",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha RM1x",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha RX-11",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Yamaha RX-5",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Yamaha S80",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha S90",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha SHS-10",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha SY22",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha SY77",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha SY85",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha SY99",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha Tenori-on",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha TG33",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha TG77",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha TMX",
+        "year": null,
+        "category": "drum machine"
+      },
+      {
+        "name": "Yamaha TX16W",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha TX81Z",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha Tyros2",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha V50 (music workstation)",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha WX5",
+        "year": null,
+        "category": "synthesizer"
+      },
+      {
+        "name": "Yamaha XG",
+        "year": null,
+        "category": "sampler"
+      },
+      {
+        "name": "Yamaha YS200",
+        "year": null,
+        "category": "synthesizer"
       }
     ]
   }
