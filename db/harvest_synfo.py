@@ -57,6 +57,11 @@ FOLDER_ALIASES = {
     "Solina": "Eminent",
     "EDP": "Electronic Dream Plant",
     "EMS": "Electronic Music Studios (London) Ltd.",
+    "Paia": "PAiA Electronics, Inc.",
+    "EML": "Electronic Music Laboratories",
+    "Octave": "Octave-Plateau",
+    "Star": "Star Instruments",
+    "Pollard": "Pollard Industries",
 }
 
 # Trailing tokens that describe the document, not the model.

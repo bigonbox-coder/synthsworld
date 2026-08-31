@@ -61,7 +61,10 @@ SLUG_ALIASES = {
     "sequential-circuit": "Sequential",
     "waldorf": "Waldorf Music",
     "buchla": "Buchla Electronic Musical Instruments",
-    "electronic-music-laboratories": "EML (Electronic Music Laboratories)",
+    "electronic-music-laboratories": "Electronic Music Laboratories",
+    "wurlitzer": "The Rudolph Wurlitzer Company",
+    "hohner": "Hohner Musikinstrumente GmbH & Co. KG",
+    "octave-plateau": "Octave-Plateau",
 }
 
 # Not instrument makers -- indexed by synthxl but out of this museum's scope.

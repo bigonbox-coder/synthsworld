@@ -1,0 +1,684 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Arturia",
+   "queue_name": "Arturia",
+   "country": "France",
+   "city": "Grenoble",
+   "official_website": null,
+   "status": "active",
+   "founded_year": 1999,
+   "ended_year": null,
+   "founders": "Frédéric Brun, Gilles Pommereuil",
+   "entity_type": "company",
+   "short_history": "Arturia is a French electronics company founded in 1999 in Grenoble by INPG engineers Frederic Brun and Gilles Pommereuil, originally to create affordable software synthesizers. Its first product, the virtual instrument workstation Storm, was unveiled in 2000, and close emulations of classic analog synthesizers built the company's reputation. Arturia later moved into hardware, releasing the DSP-based Origin in 2009 and the analog MiniBrute in 2012, and it now designs and manufactures software synthesizers, analog and digital hardware synthesizers, drum machines, MIDI controllers, sequencers, audio interfaces and mobile apps.",
+   "long_history": "Arturia was founded in 1999 in Grenoble by Frederic Brun and Gilles Pommereuil, both engineers from INPG, with the goal of making affordable software synthesizers. Their first product, Storm, was a virtual instrument workstation unveiled in 2000. The company gained popularity through close emulation of classic analog synthesizers, for which Brun and Pommereuil developed software algorithms intended to create sound with minimal digital artifacts.\n\nIn 2003 Arturia worked with Robert Moog on the Modular V softsynth, which used the company's True Analog Emulation (TAE) technology to reproduce the oscillators, filters and other modules of the Moog 3C and Moog 55. Emulations of the ARP 2600, Roland Jupiter-8, Minimoog and Sequential Circuits Prophet-5 followed. These software instruments and effects are bundled in the V Collection and FX Collection, which are updated each year. In 2007 Arturia gathered sounds from several softsynth titles into Analog Factory, offering about 2000 preset patches, and released it the following year as Analog Experience, a hybrid of the software with a MIDI keyboard controller built to play it. Analog Lab, a preset collection drawn from these instruments with limited sound editing, is bundled with many Arturia MIDI controllers. In 2018 Arturia released Pigments, its first original software synthesizer, which now offers six synthesis types and extensive modulation, and in 2022 it added the Augmented line of software instruments.\n\nArturia entered hardware in 2009 with the Origin, a standalone DSP-based system running the same engine as its virtual instruments. The 2012 MiniBrute, a 25-key monophonic analog synthesizer with one voltage-controlled oscillator, two low-frequency oscillators and a multi-mode Steiner-Parker filter, sold well despite pre-production doubts, and the smaller MicroBrute followed in 2013 with minikeys, a patch bank and a sequencer. The Brute family expanded with the DrumBrute analog drum machine in 2016 and the DrumBrute Impact in 2018, and with the semi-modular MiniBrute 2 and the pad-and-sequencer MiniBrute 2S in 2018. The hybrid MicroFreak of 2019 combined digital oscillators, including algorithms by Mutable Instruments and Noise Engineering, with an analog filter and a touch capacitive keyboard; the MiniFreak followed in 2022 with six voices and a conventional keyboard. The flagship six-voice polyphonic PolyBrute arrived in 2021, sharing much of its architecture with the monophonic MatrixBrute and adding a touchstrip and a multidimensional touchpad called morphee, and the PolyBrute 12 appeared in May 2024.\n\nAlongside instruments, Arturia has built other studio product lines. The AudioFuse compact audio interface launched in 2015 and grew into a range including the AudioFuse Studio and AudioFuse 8pre, joined in 2021 by the more affordable MiniFuse interfaces. In 2016 the company released the KeyStep, a 32-note keyboard focused on sequencing and connectivity, later extended with the KeyStep Pro, BeatStep Pro and KeyStep 37. In April 2024 Arturia introduced the AstroLab, a 61-key standalone stage keyboard preloaded with presets from the V Collection, Pigments and Analog Lab, and expanded the range in 2025 with the 88-key hammer-action AstroLab 88 and the 37-key AstroLab 37.",
+   "name_history": [
+    {
+     "name": "Arturia",
+     "start_year": 1999,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Storm",
+     "year": 2000,
+     "category": "workstation"
+    },
+    {
+     "name": "Modular V",
+     "year": 2003,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Analog Factory",
+     "year": 2007,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Analog Experience",
+     "year": 2008,
+     "category": "keyboard"
+    },
+    {
+     "name": "Origin",
+     "year": 2009,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MiniBrute",
+     "year": 2012,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MicroBrute",
+     "year": 2013,
+     "category": "synthesizer"
+    },
+    {
+     "name": "DrumBrute",
+     "year": 2016,
+     "category": "drum machine"
+    },
+    {
+     "name": "Pigments",
+     "year": 2018,
+     "category": "synthesizer"
+    },
+    {
+     "name": "DrumBrute Impact",
+     "year": 2018,
+     "category": "drum machine"
+    },
+    {
+     "name": "MiniBrute 2",
+     "year": 2018,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MiniBrute 2S",
+     "year": 2018,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MicroFreak",
+     "year": 2019,
+     "category": "synthesizer"
+    },
+    {
+     "name": "PolyBrute",
+     "year": 2021,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MiniFreak",
+     "year": 2022,
+     "category": "synthesizer"
+    },
+    {
+     "name": "AstroLab",
+     "year": 2024,
+     "category": "keyboard"
+    },
+    {
+     "name": "PolyBrute 12",
+     "year": 2024,
+     "category": "synthesizer"
+    },
+    {
+     "name": "AstroLab 88",
+     "year": 2025,
+     "category": "keyboard"
+    },
+    {
+     "name": "AstroLab 37",
+     "year": 2025,
+     "category": "keyboard"
+    },
+    {
+     "name": "MatrixBrute",
+     "year": null,
+     "category": "synthesizer"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Mutable Instruments",
+     "relation_type": "collaboration",
+     "year": 2019
+    },
+    {
+     "related_company": "Noise Engineering",
+     "relation_type": "collaboration",
+     "year": 2019
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "France",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Grenoble",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1999",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Frédéric Brun, Gilles Pommereuil",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "entity_type",
+     "value": "company",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "Arturia",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "Arturia is a French electronics company founded in 1999 and based in Grenoble, France.",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "History and Products sections of the article",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "Storm, Modular V, Analog Factory, Analog Experience, Origin, MiniBrute, MicroBrute, DrumBrute, Pigments, DrumBrute Impact, MiniBrute 2, MiniBrute 2S, MicroFreak, PolyBrute, MiniFreak, AstroLab, PolyBrute 12, AstroLab 88, AstroLab 37, MatrixBrute",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "MicroFreak digital oscillator algorithms by Mutable Instruments and Noise Engineering",
+     "source_url": "https://en.wikipedia.org/wiki/Arturia",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "official_website is null: the article's external links mention an official website but the plain-text extract contains no URL. Non sound-generating products are deliberately kept out of the instruments list and described in the prose instead: the AudioFuse and MiniFuse audio interfaces, and the KeyStep, KeyStep Pro, KeyStep 37 and BeatStep Pro controller/sequencer keyboards. The V Collection, FX Collection, Analog Lab and the Augmented range are software bundles rather than single instruments, so they are in the prose too. Category choices needing a check: Storm is described only as a 'virtual instrument workstation' (mapped to workstation), Analog Factory is a preset collection built from softsynths (mapped to synthesizer), Analog Experience is software plus a dedicated MIDI keyboard (mapped to keyboard), and the AstroLab models are stage keyboards (mapped to keyboard). MatrixBrute is mentioned only in passing as the monophonic counterpart of the PolyBrute, so no year is given. The 2003 work with Robert Moog is a collaboration with a person, not a company, so it is in the prose and not in relations."
+  },
+  {
+   "canonical_name": "Simmons",
+   "queue_name": "Simmons",
+   "country": "United Kingdom",
+   "city": null,
+   "official_website": null,
+   "status": "acquired",
+   "founded_year": 1978,
+   "ended_year": 1999,
+   "founders": "Dave Simmons",
+   "entity_type": "company",
+   "short_history": "Simmons is an electronic drum brand that began as a pioneering British manufacturer of electronic drums, founded in 1978 by Dave Simmons and supplying electronic kits from 1980 to 1998. Its SDSV of 1981, developed with Richard James Burgess of Landscape, was the world's first fully electronic drum set, and its hexagonal pads and distinctive sounds became an icon of 1980s recorded music. A long line of brains followed, from the SDS7 and SDS8 of 1984 to the high-end SDX of 1987 and the final SDS 2000 of 1989. Sales collapsed as drummers returned to acoustic kits and as Roland and Yamaha took the market, and the company closed in 1999. Guitar Center acquired the Simmons trademark and relaunched the brand, and Dave Simmons returned to it in 2017.",
+   "long_history": "Single-pad analog drum synthesizers such as the Pollard Syndrum and the Synare appeared in the 1970s, but their unrealistic sound made them more useful as percussion effects than as replacements for acoustic drums. Around 1978, while working for the company Musicaid in St Albans, Dave Simmons developed a device with similar capabilities that he called the SDS3, a four-channel unit with a noise generator; the SDS IV was a two-channel version of the same idea. At this stage the pads were round, with wooden frames and real 8-inch drum heads. Musicaid also distributed the Lyricon wind synthesizer played by John L. Walters of Landscape, and Walters introduced Richard James Burgess to Simmons. Burgess used the SDS3 and SDS4 on stage with Landscape and, seeing the potential for a fully electronic kit that could replace an acoustic set rather than supplement it, began collaborating with Simmons. They mocked up the sounds and the flowchart on an ARP 2600, added four customisable preset buttons for live use, and after trying triangles and bat-wing shapes settled on the hexagonal pad because a honeycomb layout fitted together ergonomically. The descending tom sound was modelled on the way Burgess tuned his single-headed concert toms.\n\nThe SDSV was introduced commercially in 1981, after Burgess had already recorded with the prototype on the Landscape album From the Tea-rooms of Mars ...., on Spandau Ballet's \"Chant No. 1\" and on Shock's \"Angel Face\". It consisted of an expandable rack-mountable brain holding the drum sounds plus pad modules for bass drum, snare and three toms, with two spare slots for cymbals or extra toms, XLR connections and the option of interfacing with a drum sequencer. Its solid polycarbonate heads were durable but hard on the wrists, so softer rubber surfaces followed. After Landscape and Spandau Ballet appeared on Top of the Pops with the instrument, adoption spread quickly, and Group Centre Inc. became the sole US distributor, securing orders in New York, Washington, Los Angeles and Chicago and expanding the brand through demonstrations at the NAMM show in Chicago. In Germany and the rest of Europe the kits were promoted by clinicians including Sibi Siebert and Baz Watts.\n\nThe range grew steadily. Alongside the SDSV came a suitcase-sized trigger unit with seven small pads, used extensively by New Order, and the SDS6 drum sequencer. In 1984 Simmons added the SDS7, a modular rack brain expandable to twelve modules and the first to use digital samples held on EPROM, and the cheaper all-analog SDS8 with a single non-expandable desktop brain. Smaller products followed, including the single-pad SDS1 with a built-in EPROM reader, the analog SDS 200, SDS 400 and SDS 800 systems, the SDS-EPB EPROM blower and the Digital ClapTrap. The SDS9 of 1985 was a hybrid digital and analog brain with three changeable EEPROM channels, analog toms, forty presets and a built-in digital delay, and it came with new floating-head pads. The rack-mounted, MIDI-equipped SDS 1000 of 1986 carried the same sounds in a 1U format and added a second-skin feature. Simmons also built a special SDS9 for Def Leppard's Rick Allen, spending over a year developing a kit whose foot pedals compensated for the arm he lost in a car accident.\n\nIn 1987 the company moved into the high-end professional market with the SDX, which introduced zone intelligence, assigning up to three samples to positions on a pad, and pad layering, selecting from a 3 by 3 matrix of up to nine samples by strike velocity and position, with volume, pitch, brightness, panning, noise element and sample start point all continuously variable. It included a sampler with a floppy drive and internal SCSI hard disk, a 9-inch monochrome CRT with a trackball-driven graphical interface, and a 64-track real-time sequencer. At roughly $10,154 it sold poorly, with about 250 consoles built, though a 1988 software update made it usable as a MIDI sound source rivalling the Fairlight CMI for a fraction of the price. Its users included Bill Bruford, Jo Hammer and Danny Carey. By then sales had fallen sharply as drummers returned to acoustic kits, and the expensive development of the SDX was losing money. The final kit, the SDS 2000, arrived in 1989 with SDX library sounds, digital effects and Hexahead pads with real drumheads. During the 1990s the company turned to triggering and MIDI control with the ADT acoustic drum trigger, the Trixer, Drum Huggers and the Silicon Mallet, but these sold poorly and the company closed in 1999. In 2005 Guitar Center acquired the rights to the Simmons trademark and began marketing affordable Chinese-manufactured electronic drums under the Simmons name and original logo, some of them carrying traces of the hexagon shape, similar model numbers and samples of the classic sounds. In 2017 the company announced the SD2000 series and the return of Dave Simmons, after which kit design was brought back in house. The SD2000 was a full redesign in five- and seven-piece configurations, the first Simmons line to use mesh heads, tensioned with a standard drum key and mounted in hexagonal frames recalling the SDSV. Its module offered a full-colour LCD, a built-in mixer, user-loadable samples, MIDI over USB and USB playback and recording of WAV and MP3 files.",
+   "name_history": [
+    {
+     "name": "Simmons",
+     "start_year": 1978,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "SDS3",
+     "year": 1978,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS IV",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDSV",
+     "year": 1981,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS6",
+     "year": null,
+     "category": "sequencer"
+    },
+    {
+     "name": "SDS7",
+     "year": 1984,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS8",
+     "year": 1984,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS1",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS 200",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS 400",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS 800",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Digital ClapTrap",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS9",
+     "year": 1985,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS 1000",
+     "year": 1986,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDX",
+     "year": 1987,
+     "category": "drum machine"
+    },
+    {
+     "name": "SDS 2000",
+     "year": 1989,
+     "category": "drum machine"
+    },
+    {
+     "name": "SD2000",
+     "year": 2017,
+     "category": "drum machine"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Guitar Center",
+     "relation_type": "acquired_by",
+     "year": 2005
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "British manufacturer of electronic drums",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "company closed in 1999, relaunched under Guitar Center ownership",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1978",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1999",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Dave Simmons",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "entity_type",
+     "value": "company",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "Simmons",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "Simmons is an electronic drum brand, which originally was a pioneering British manufacturer of electronic drums.",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "History, More models, The SDX, Decline and Relaunch sections of the article",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "SDS3, SDS IV, SDSV, SDS6, SDS7, SDS8, SDS1, SDS 200, SDS 400, SDS 800, Digital ClapTrap, SDS9, SDS 1000, SDX, SDS 2000, SD2000",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "In 2005, Guitar Center acquired the rights to the Simmons trademark",
+     "source_url": "https://en.wikipedia.org/wiki/Simmons_(electronic_drum_company)",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "The resolved article title is 'Simmons (electronic drum company)'. city is null: the article places Dave Simmons at the company Musicaid in St Albans around 1978, but never states where Simmons itself was based, so no city was stored. status is set to 'acquired' because the original company closed in 1999 while the trademark lives on under Guitar Center; ended_year 1999 refers to the original company. The lead says the brand was relaunched under Guitar Center ownership in 2006, while the Relaunch section says Guitar Center acquired the trademark rights in 2005 and began marketing kits; 2005 is stored as the acquisition year and the two statements are not necessarily contradictory. The lead also says kits were supplied from 1980 to 1998, while the model history dates the SDS3 to around 1978 and the SDS 2000 to 1989. No category in the existing vocabulary covers electronic drum kits and brains, so 'drum machine' was used for them and 'sequencer' for the SDS6. Non sound-generating products are described in the prose only: the ADT acoustic drum trigger, Trixer, Drum Huggers, the Silicon Mallet MIDI controller, the Turtle Trap MIDI controller, the SDS-EPB EPROM blower and the seven-pad briefcase trigger unit. Years are null where the article gives no date."
+  },
+  {
+   "canonical_name": "The Rudolph Wurlitzer Company",
+   "queue_name": "Wurlitzer",
+   "country": "United States",
+   "city": "Cincinnati",
+   "official_website": null,
+   "status": "acquired",
+   "founded_year": 1853,
+   "ended_year": null,
+   "founders": "Franz Rudolph Wurlitzer",
+   "entity_type": "company",
+   "short_history": "The Rudolph Wurlitzer Company was started in Cincinnati in 1853 by the German immigrant Franz Rudolph Wurlitzer, initially importing stringed, woodwind and brass instruments from Germany for resale in the United States. It began manufacturing pianos in 1880 and later moved to North Tonawanda, New York, where it built band organs, orchestrions, player pianos and the theatre organs known as the Mighty Wurlitzer. As technology changed, Wurlitzer moved into electric pianos, electronic organs and jukeboxes, becoming best known for the latter. The piano and organ brands and US plants passed to the Baldwin Piano Company in 1988, Baldwin was in turn acquired by the Gibson Guitar Corporation around 1996, and Baldwin stopped making Wurlitzer-brand pianos in 2009.",
+   "long_history": "Franz Rudolph Wurlitzer (1831-1914), an immigrant from Schöneck in Saxony, founded the company in Cincinnati in 1853, and his sons Howard, Rudolph and Farny directed it in turn after his death. It first imported instruments from the Wurlitzer family in Germany for resale in the United States, and was an early American defence contractor, supplying instruments to the US military during the Civil War and the Spanish-American War. Wurlitzer began making its own pianos in 1880, selling them through its Chicago retail outlets, and produced its first coin-operated pianos in 1896. In 1897 it bought an interest in Eugene de Kleist's North Tonawanda Barrel Organ Factory, took over the factory in 1909 and moved all manufacturing from Ohio to New York.\n\nFrom the North Tonawanda plant Wurlitzer built band organs copied largely from European designs, automatic harps, nickelodeon coin pianos and, from late 1910, the Mighty Wurlitzer theatre organ that became its most famous product. After Robert Hope-Jones merged his organ business with Wurlitzer, the company built more than 2,243 pipe organs between 1914 and 1942, more theatre organs than all other theatre organ builders combined, with the United Kingdom as its largest export market and a 58-rank instrument at Radio City Music Hall as its largest. Band organ production ended in 1939 and organ production at North Tonawanda stopped in 1942 when the plant switched to bomb proximity fuses for the war. Around 1933 the Wurlitzer name had begun to be associated more with jukeboxes than with instruments, and Wurlitzer jukeboxes became iconic of the Big Band era, helped by a strong marketing department, the reliable Simplex record changer and Paul Fuller's light-up cabinet designs. The company also made Lyric brand radios, assumed from the All American Mohawk Radio Company, and built a large landscaped factory complex in North Tonawanda in the early 1930s that is now a National Historic Landmark.\n\nAfter the war the focus shifted to radios, jukeboxes and small electronic organs for the home. Wurlitzer's electronic instruments began with electrostatic reed organs in 1947, and the most important of them were the fully electronic organs, especially the two-manual-and-pedals spinet type for domestic use, which from 1971 included synthesizer features. In the mid-1950s the company began manufacturing portable electric pianos, and the Wurlitzer electric piano series was produced from 1955 to 1982. On the acoustic side Wurlitzer became the sole distributor of Melville Clark pianos in 1914 and acquired that company in 1919, was one of the first to bring the 39-inch spinet piano to the mass market in 1935, and built the symmetrical Butterfly grand pianos in DeKalb, Illinois from the mid-1930s. Rembert Wurlitzer independently directed the firm's violin department from 1949 until his death in 1963, building it into a leading centre for rare string instruments. In 1964 Wurlitzer bought the Henry C. Martin Band Instrument Company of Elkhart, Indiana, selling those rights to LeBlanc in 1971, and between 1967 and 1969 it distributed guitars made first by Holman-Woodell and then by Welson of Italy before leaving the guitar market.\n\nWurlitzer had founded the wholly owned subsidiary Deutsche Wurlitzer GmbH in Hullhorst, Germany in 1960 to build electronic organs, vending machines and jukeboxes for the European market. Technology outpaced the US jukebox line, which lost its lead to Seeburg in the 1950s; a final nostalgic model, the 1050 of 1971, sold only about 1,600 units, and in 1973 Wurlitzer sold the jukebox brand to a German company and closed the North Tonawanda factory, while piano and organ manufacturing continued for some years in Mississippi and Arkansas. Deutsche Wurlitzer was sold to the Australian Nelson Group of Companies in 1985 and kept building jukeboxes and vending machines. The Baldwin Piano Company bought Wurlitzer's piano-making assets and brand in 1988 and moved most piano manufacturing overseas; the Gibson Guitar Corporation then acquired Baldwin, including its Wurlitzer assets, around 1996, and acquired Deutsche Wurlitzer and the Wurlitzer jukebox and vending trademarks in 2006, briefly reuniting the best-known Wurlitzer products under one owner. Baldwin stopped using the Wurlitzer name on pianos by the end of 2009, and Gibson has since used the brand for vending machines. Deutsche Wurlitzer went out of business in 2013 and jukebox manufacturing ended. In 2021 the Wurlitzer family re-secured rights to the brand for several music and consumer electronics categories and regions, and in 2024 the brand was reintroduced when the British jukebox maker Sound Leisure partnered with the family to launch a tribute to the 1940s Wurlitzer 1015.",
+   "name_history": [
+    {
+     "name": "The Rudolph Wurlitzer Company",
+     "start_year": 1853,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Electrostatic reed organ",
+     "year": 1947,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Wurlitzer electric piano series",
+     "year": 1955,
+     "category": "electric piano"
+    },
+    {
+     "name": "Two-manual-and-pedals spinet electronic organ with synthesizer features",
+     "year": 1971,
+     "category": "electronic organ"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "North Tonawanda Barrel Organ Factory",
+     "relation_type": "acquired",
+     "year": 1909
+    },
+    {
+     "related_company": "Melville Clark Piano Company",
+     "relation_type": "acquired",
+     "year": 1919
+    },
+    {
+     "related_company": "Henry C. Martin Band Instrument Company",
+     "relation_type": "acquired",
+     "year": 1964
+    },
+    {
+     "related_company": "Deutsche Wurlitzer GmbH",
+     "relation_type": "owner_of",
+     "year": 1960
+    },
+    {
+     "related_company": "Baldwin Piano Company",
+     "relation_type": "acquired_by",
+     "year": 1988
+    },
+    {
+     "related_company": "Gibson Guitar Corporation",
+     "relation_type": "acquired_by",
+     "year": 1996
+    },
+    {
+     "related_company": "Sound Leisure",
+     "relation_type": "collaboration",
+     "year": 2024
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "an American company started in Cincinnati in 1853",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Cincinnati",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "piano and organ brands acquired by Baldwin in 1988, Baldwin acquired by Gibson around 1996",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1853",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "(Franz) Rudolph Wurlitzer",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "entity_type",
+     "value": "company",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "The Rudolph Wurlitzer Company, usually referred to as simply Wurlitzer",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "The Rudolph Wurlitzer Company ... started in Cincinnati in 1853 by German immigrant (Franz) Rudolph Wurlitzer",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "History and Products sections of the article",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "electrostatic reed organs in 1947, fully electronic spinet organs from 1971 with synthesizer features, Wurlitzer electric piano series 1955 to 1982",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "North Tonawanda Barrel Organ Factory 1909, Melville Clark 1919, Deutsche Wurlitzer 1960, Martin Band Instrument Company 1964, Baldwin 1988, Gibson about 1996, Sound Leisure 2024",
+     "source_url": "https://en.wikipedia.org/wiki/Wurlitzer",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "official_website is null: the article's external links list official sites but the plain-text extract gives no URL. city is set to Cincinnati, the founding city; the article says the company later relocated to North Tonawanda, New York, and that piano and organ manufacturing continued in Mississippi and Arkansas after 1973. status is 'acquired' because the piano and organ business passed to Baldwin and then to Gibson, though the article describes the company in the present tense and the family re-secured brand rights in 2021. Per scope, only the electric and electronic instruments are listed: the electrostatic reed organ, the electronic spinet organs and the electric piano series. Band organs, orchestrions, nickelodeons and player pianos, theatre and pipe organs, acoustic and Butterfly grand pianos, jukeboxes, vending machines, radios, band instruments and guitars are described in the prose only. The electric piano series year 1955 is the start of a run stated as 1955 to 1982, and the 1971 entry is a family of spinet organs rather than a single named model. Detail-level discrepancy: the article says the jukebox line was sold to a German company in 1973 and elsewhere that Wurlitzer in the US ceased building jukeboxes in 1974. relation_type values other than acquired_by ('acquired', 'subsidiary', 'partnership') were chosen by analogy and may need mapping to the project's vocabulary. The article disagrees with itself on when Gibson took over Deutsche Wurlitzer: the lead and the 21st century section say 2006, the Jukeboxes section says around 2008. No relation was stored for that event, so this is recorded here rather than in conflicts."
+  },
+  {
+   "canonical_name": "Hohner Musikinstrumente GmbH & Co. KG",
+   "queue_name": "Hohner",
+   "country": "Germany",
+   "city": "Trossingen",
+   "official_website": null,
+   "status": "active",
+   "founded_year": 1857,
+   "ended_year": null,
+   "founders": "Matthias Hohner",
+   "entity_type": "company",
+   "short_history": "Hohner Musikinstrumente GmbH & Co. KG is a German manufacturer of musical instruments founded in 1857 by the clock maker Matthias Hohner (1833-1902), with its roots in Trossingen, Baden-Württemberg, and it is a subsidiary of Matth. Hohner AG. The company is known mostly for harmonicas, but from the 1940s through the 1990s it also manufactured a range of electric and electronic keyboards, including the electromechanical cembalet, pianet, basset, guitaret and clavinet, and in the 1980s several Casio synthesizers were sold under the Hohner brand. Control of the firm passed to Kunz-Holding GmbH & Co. in 1989 and then to the Taiwanese company KHS Musical Instruments in 1997. Hohner today produces harmonicas, melodicas, accordions and recorder flutes.",
+   "long_history": "The clock maker Matthias Hohner began crafting diatonic harmonicas in Trossingen in 1857, assisted by his wife and a single employee, making 650 in the first year. The instruments quickly became popular and in his lifetime he built the largest harmonica factory in the world, distributing harmonicas during the American Civil War to family members in the United States who passed them on to soldiers. Chromatic harmonica manufacture began in the 1920s. In 1964 the company released The Beatles Harmonica Kit, which it credits with a new upsurge in the popularity of its harmonicas on both sides of the Atlantic. Matthias Karl Eduard Hohner, a fourth-generation descendant of the founder, joined the business in 1968 and served as president in the 1980s until he left in 1986, and he was among the last family members to manage the firm.\n\nOver its history Hohner has made a wide range of instruments, including harmonicas, kazoos, accordions, recorder flutes, melodicas, banjos, electric, acoustic, resonator and classical guitars, basses, mandolins and ukuleles under the Lanikai brand. Guitars carried the Hohner name from the late 1950s until around 2015, when the company left the guitar market; they were commissioned or designed by Hohner companies in Germany, the United States, the United Kingdom and France, and sourced over time from makers in Italy, Japan, South Korea and what is now the Czech Republic. Notable models included the earliest Hohner London Kingsway of 1960, the HG-320 acoustic of 1975, the HG-490 of about 1977 that became a favourite of Prince, the headless Professional B2 bass of 1985 built with a bridge licensed from Steinberger, and the JT60 of 1991. Hohner also built the Electravox, an electronic accordion of the late 1960s and early 1970s with 92 bass and chord buttons, one or two channels, keyboard percussion and vibrato effects, 16', 8', 5 1/3' and 4' registers, a separate power supply unit, and tuning that could be matched to another instrument by changing all twelve master tone generators with a special tool.\n\nFrom the 1940s through the 1990s Hohner manufactured various electric and electronic keyboards. The article singles out the 1960s and the 1990s as the periods in which it produced a range of innovative and popular electromechanical keyboard instruments: the cembalet, pianet, basset, guitaret and clavinet. In the 1980s several Casio synthesizers were also sold under the Hohner brand, among them the Casio HT-3000 as the Hohner KS61midi and the Casio VZ-1 as the Hohner HS-2.\n\nOwnership moved away from the family in the late twentieth century. In 1989 the German wood products manufacturer Kunz-Holding GmbH & Co. acquired a controlling interest, taking 67 percent of the public firm while the Hohner family retained an 8 percent stake. In 1997 the Taiwanese company KHS Musical Instruments bought a majority holding from Kunz through the Tortola-based HS Investments Group, and the company returned to profitability in 2001 after more than 20 years of losses; by 2012 HS Investments Group held a 75 percent stake. Hohner now produces harmonicas, melodicas, accordions and recorder flutes, and many descendants of the founder remain active in the Deutsches Harmonika Museum and the Hohner'sche Familienverein.",
+   "name_history": [
+    {
+     "name": "Hohner Musikinstrumente GmbH & Co. KG",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Cembalet",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Pianet",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Basset",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Guitaret",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Clavinet",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Electravox",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "KS61midi",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "HS-2",
+     "year": null,
+     "category": "synthesizer"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Matth. Hohner AG",
+     "relation_type": "subsidiary_of",
+     "year": null
+    },
+    {
+     "related_company": "Kunz-Holding GmbH & Co.",
+     "relation_type": "acquired_by",
+     "year": 1989
+    },
+    {
+     "related_company": "KHS Musical Instruments",
+     "relation_type": "acquired_by",
+     "year": 1997
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "a German manufacturer of musical instruments",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "The roots of the Hohner firm are in Trossingen, Baden-Württemberg.",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "Nowadays, Hohner produces harmonicas, melodicas, accordions and recorder flutes.",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1857",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Matthias Hohner (1833-1902)",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "entity_type",
+     "value": "company",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "Hohner Musikinstrumente GmbH & Co. KG",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "Hohner Musikinstrumente GmbH & Co. KG is a German manufacturer of musical instruments, founded in 1857 by Matthias Hohner.",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "Lead and History sections, plus the Guitars and Accordions sections of the article",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "the cembalet, pianet, basset, guitaret, and clavinet; Casio HT-3000/Hohner KS61midi and VZ-1/HS-2; the Hohner Electravox electronic accordion",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "It is a subsidiary of Matth. Hohner AG; Kunz-Holding 1989; KHS Musical Instruments 1997",
+     "source_url": "https://en.wikipedia.org/wiki/Hohner",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "official_website is null: the article's external links mention an official website but the plain-text extract has no URL. city is Trossingen, which the article gives as the roots of the firm rather than explicitly as the present headquarters. Per scope, only sound-generating electric and electronic instruments are listed. Harmonicas of every model, kazoos, acoustic accordions, recorder flutes, melodicas, banjos, mandolins, ukuleles, basses and the whole guitar line are described in the prose instead. The Electravox is included because the article calls it an electronic accordion with twelve master tone generators, which puts it outside the acoustic accordion exclusion, but a reviewer may want to move it. The article gives no year for any of the keyboards: it says only that Hohner made electric and electronic keyboards from the 1940s through the 1990s and singles out the 1960s and 1990s for the cembalet, pianet, basset, guitaret and clavinet, which is odd since these are usually placed in the 1960s and 1970s; all years are therefore null. The article also calls these five collectively 'electromechanical keyboard instruments' without per-model categories, so all five were mapped to 'keyboard' rather than guessing 'electric piano' for the pianet, cembalet or clavinet. KS61midi and HS-2 are Casio instruments (HT-3000 and VZ-1) rebadged for Hohner in the 1980s rather than Hohner designs, and no relation was stored for Casio because no relation type in use describes a rebranding agreement. relation_type 'subsidiary_of' was chosen by analogy and may need mapping to the project's vocabulary."
+  }
+ ]
+}

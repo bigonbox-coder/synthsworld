@@ -12,7 +12,7 @@ Expected JSON shape:
 
     {"manufacturers": [
        {"canonical_name": "...", "country": "...", "official_website": "...",
-        "status": "active|defunct|acquired",
+        "status": "active|defunct|acquired|unknown",
         "founded_year": 1969, "ended_year": null, "city": "Simmern",
         "founders": "Wilhelm-Erich Franz, Reinhard Franz",
         "short_history": "...", "long_history": "...",
@@ -177,9 +177,13 @@ def upsert_manufacturer(conn, entry, confidence, conflicts):
             confidence = "confirmed"
     cols = ("country", "official_website", "status", "short_history", "long_history",
             "founded_year", "ended_year", "city", "founders", "entity_type")
-    # entity_type is NOT NULL with a default, so an entry that says nothing
-    # about it must still insert as a company rather than blow up on NULL.
-    defaults = {"entity_type": "company"}
+    # Two NOT NULL columns need a value even when the research says nothing.
+    # entity_type defaults to company. status defaults to 'unknown' (migration
+    # 0017) rather than to the column's old 'active': for an obscure maker
+    # whose only source is a product article, asserting that it still trades is
+    # a claim nobody made. 'unknown' says what we actually know, and keeps
+    # status out of the confirmed count until a source states it.
+    defaults = {"entity_type": "company", "status": "unknown"}
     if mid is None:
         placeholders = ", ".join(["?"] * (len(cols) + 4))
         conn.execute(

@@ -1,0 +1,671 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Electronic Music Laboratories",
+   "queue_name": "EML (Electronic Music Laboratories)",
+   "country": "United States",
+   "city": "Vernon, Connecticut",
+   "official_website": null,
+   "status": "defunct",
+   "founded_year": 1968,
+   "ended_year": 1984,
+   "founders": "Dale Blake, Norman Millard, Dennis Daugherty, Jeff Murray",
+   "entity_type": "company",
+   "short_history": "Electronic Music Laboratories, commonly abbreviated to EML, was a synthesizer company founded in 1968 in Vernon, Connecticut, United States. It was started by four Gerber Scientific employees, Dale Blake, Norman Millard, Dennis Daugherty and Jeff Murray, who were due to be laid off, and who built their first instruments following schematics by a fellow audio engineer, Fred Locke. EML competed directly with Moog and ARP with a range of synthesizers that shared the same basic design principles. The instruments were less sophisticated than those of the competition but were marketed as far more reliable, partly because they used op-amps rather than discrete transistors. The company stopped manufacturing synthesizers in 1976 and continued in business until 1984.",
+   "long_history": "Electronic Music Laboratories was founded in 1968 in Vernon, Connecticut. The four founders, Dale Blake, Norman Millard, Dennis Daugherty and Jeff Murray, all worked at Gerber Scientific and were facing layoffs. Working from schematics supplied by another audio engineer, Fred Locke, they built synthesizers aimed at the same buyers as Moog and ARP. The EML instruments were positioned on reliability rather than sophistication, and their use of op-amps instead of discrete transistors was part of that argument.\n\nThe company's first instrument, the EML-200 or ElectroComp 200, was designed in part for Connecticut's \"Pilot Electronic Project\", an educational programme for secondary school students created by the then State Music Consultant, Lloyd Schmidt. A wider ElectroComp line followed through the early 1970s: the portable duophonic 100 and 101, the 300 and 301 controller units, the 400 sequencer with its 401 synthesizer module, and the keyboard-equipped 500, which competed with the Minimoog and the ARP Odyssey. EML also sold individual synthesizer modules so that musicians could assemble their own modular systems more cheaply than with a Moog, EMS or ARP instrument, and built a small number of custom units from its standard modules.\n\nTwo later products stand apart from the ElectroComp series. The PolyBox was a small module with a 13-key keyboard that added polyphony to monophonic analog synthesizers, and only about 150 were made. The SynKey was EML's last major product; it used organ-style divide-down oscillators and interval select buttons for a basic paraphonic and chord function, and stored its patches on plastic punched cards. It came in a programmable version, the 2001, and a non-programmable version, the 1500.\n\nIn 1976 two EML employees left to found Star Instruments, the makers of the Synare drum synthesizers, and EML stopped manufacturing synthesizers. The company itself carried on until 1984, designing and manufacturing products for other firms and repairing its own instruments. A separate company, I.W. Turner, produced a series of \"Electronic Music Lab\" modules that are often mistaken for EML products.",
+   "name_history": [
+    {
+     "name": "Electronic Music Laboratories",
+     "start_year": 1968,
+     "end_year": 1984
+    },
+    {
+     "name": "EML",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "ElectroComp 200 (EML-200)",
+     "year": 1969,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ElectroComp 100",
+     "year": 1970,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ElectroComp 101",
+     "year": 1972,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ElectroComp 300",
+     "year": null,
+     "category": "module"
+    },
+    {
+     "name": "ElectroComp 301",
+     "year": null,
+     "category": "module"
+    },
+    {
+     "name": "ElectroComp 400 Sequencer",
+     "year": null,
+     "category": "sequencer"
+    },
+    {
+     "name": "ElectroComp 401 Synthesizer",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ElectroComp 500",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "PolyBox",
+     "year": null,
+     "category": "module"
+    },
+    {
+     "name": "SynKey",
+     "year": null,
+     "category": "synthesizer"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Star Instruments",
+     "relation_type": "spinoff",
+     "year": null
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Vernon, Connecticut",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1968",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1984",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Dale Blake, Norman Millard, Dennis Daugherty, Jeff Murray",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "ElectroComp 100/101/200/300/301/400/401/500, PolyBox, SynKey",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "Two EML employees left to found Star Instruments, makers of the Synare",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "All facts from the English Wikipedia article on Electronic Music Laboratories. No official website, no legal entity name and no exact street address are given. Dated products are the ElectroComp 200 (1969), 100 (1970) and 101 (1972); the 300, 301, 400, 401, 500, PolyBox and SynKey are undated in the source, so their year is null. The SynKey numbers 2001 and 1500 are model designations for the programmable and non-programmable versions, not years. The ElectroComp 300 and 301 are described as \"controller\" units containing oscillator and envelope sections, so they are filed as modules. The Star Instruments spinoff is tied to 1976 in the article only as the year EML stopped manufacturing synthesizers \"following the departure\" of the two employees, so the relation year is left null. The article also warns that \"Electronic Music Lab\" modules by I.W. Turner are often mistaken for EML products."
+  },
+  {
+   "canonical_name": "PAiA Electronics, Inc.",
+   "queue_name": "PAiA Electronics",
+   "country": "United States",
+   "city": "Oklahoma City, Oklahoma",
+   "official_website": null,
+   "status": "active",
+   "founded_year": 1967,
+   "ended_year": null,
+   "founders": "John Simonton",
+   "entity_type": "company",
+   "short_history": "PAiA Electronics, Inc. is an American synthesizer kit company started by John Simonton in Oklahoma City in 1967. It began with small mail-order electronics kits and moved into analog synthesizer kits in 1972, selling both modular and all-in-one designs. Its products, designed by Simonton, Craig Anderton, Marvin Jones, Steve Wood and others, include analog synthesizers, theremins, mixers and other music production units. PAiA's low prices made modular synthesis affordable at a time when Moog and ARP instruments cost thousands of dollars. Simonton ran the company until his death in November 2005; product marketing, sales and development passed to Paia Corporation in autumn 2006, and the company now operates facilities in Austin, Texas and Edmond, Oklahoma.",
+   "long_history": "John Simonton founded PAiA in Oklahoma City in 1967 and started selling small electronics kits by mail order. The first kit was a circuit board for the \"Cyclops Intrusion Detector\", tied to an article in the May 1968 issue of Popular Electronics. From 1972 the company produced analog synthesizer kits in both modular and all-in-one form. PAiA also published Polyphony Magazine from June 1975; the magazine was later renamed Electronic Musician and sold to Mix Publications in 1985.\n\nThe first synthesizer line was the 2720 modular series of 1972, which used shirt buttons attached to wires in place of a keyboard, with a keyboard version following. The 4700 series that came next was an improved, quieter design, and the P4700J was computer controlled using a MOS 6503 processor, which gave a PAiA modular the first polyphony in the range. The controller involved was the PAiA 8700; Larry Fast used the same controller running Simonton's \"Pink Tunes\" program on his album Computer Experiments, Volume One. As interest in modular systems fell away, PAiA stopped selling modular kits in the late 1980s and 1990s, then launched the 9700 modular line in the early 2000s.\n\nOther products included the 3740 Gnome of 1974, a keyboard-less synthesizer that sold for $48.95, used a resistive vinyl strip in place of keys, was aimed at non-harmonic sound effects and ran on two nine volt batteries. The following year brought the Programmable Drum Set, described in the source as the first programmable drum machine. Later came the Oz, a small synthesizer with an 18-key keyboard, and in the 1990s the FatMan Analog MIDI Synth, a MIDI-capable monophonic analog synthesizer.\n\nPAiA's significance rests largely on price. Where Moog and ARP synthesizers could cost between $5,000 and $10,000, PAiA's most basic modular system, the 2700, started at $230, with individual modules from $50 to $800, and complete modular systems stayed under $1,000. Simonton continued to run the company in Oklahoma until his death in November 2005. In the autumn of 2006 product marketing, sales and development were transferred to Paia Corporation, and facilities are now in Austin, Texas and Edmond, Oklahoma.",
+   "name_history": [
+    {
+     "name": "PAiA Electronics, Inc.",
+     "start_year": 1967,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "2700 modular synthesizer system",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "2720 modular synthesizer series",
+     "year": 1972,
+     "category": "synthesizer"
+    },
+    {
+     "name": "4700 modular synthesizer series",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "P4700J",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "3740 Gnome",
+     "year": 1974,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Programmable Drum Set",
+     "year": 1975,
+     "category": "drum machine"
+    },
+    {
+     "name": "Oz",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "FatMan Analog MIDI Synth",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "9700 modular synthesizer line",
+     "year": null,
+     "category": "synthesizer"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Paia Corporation",
+     "relation_type": "successor",
+     "year": 2006
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Oklahoma City, Oklahoma",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1967",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "John Simonton",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "2700, 2720, 4700, P4700J, 3740 Gnome, Programmable Drum Set, Oz, FatMan, 9700",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "Product marketing, sales and development transferred to Paia Corporation in Fall 2006",
+     "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Both supplied files (paia__PAiA.json and paia__PAiA_Electronics.json) resolve to the same English Wikipedia article, PAiA Electronics, and their extracts are identical, so nothing had to be merged. The article links a \"PAiA Electronics home page\" but gives no URL, so official_website is null. City is the founding city, Oklahoma City; the article says the company now operates facilities in Austin, Texas and Edmond, Oklahoma, which is recorded in the prose only. The 2006 transfer to Paia Corporation is described as a transfer of product marketing, sales and development, not explicitly as a rename or acquisition, so it is recorded as a relation rather than in name_history. Undated products: the 2700 and 4700 series, P4700J, Oz (\"later\"), FatMan (\"in the 1990s\") and the 9700 line (\"early 2000s\"). The article mentions theremins and mixers only generically, with no model names, so they are not listed. The PAiA 8700 controller and the Polyphony/Electronic Musician magazine are in the prose because they are not sound-generating instruments."
+  },
+  {
+   "canonical_name": "Star Instruments",
+   "queue_name": "Star Instruments",
+   "country": "United States",
+   "city": "Stafford, Connecticut",
+   "official_website": null,
+   "status": null,
+   "founded_year": null,
+   "ended_year": null,
+   "founders": null,
+   "entity_type": "company",
+   "short_history": "Star Instruments was an American maker of electronic drums, based in Stafford, Connecticut and owned by Norman Millard. It built the Synare series of drum synthesizers from the mid-1970s through the 1980s. Dave Kusek served as chief engineer from 1975 to 1979. The company was founded by two employees who left Electronic Music Laboratories, the Connecticut synthesizer maker, an event that coincided with EML ending synthesizer production in 1976. No article on the company itself exists in the supplied sources, so the record is assembled from the article about its product line.",
+   "long_history": "Star Instruments was based in Stafford, Connecticut and was owned by Norman Millard. According to the article on Electronic Music Laboratories, the company was founded by two former EML employees, and their departure coincided with EML ending synthesizer manufacture in 1976. Dave Kusek was chief engineer from 1975 to 1979. Beyond these points the supplied sources say nothing about the company's founding date, its legal form or its closure.\n\nThe product the company is known for is the Synare, a series of electronic drums made from the mid-1970s through the 1980s. A Synare was a drum synthesizer: essentially a synthesizer, but triggered by hitting pressure-sensitive or programmable rubber pads instead of being played from a keyboard. The first model, the Synare 1, also called the Synare Percussion Synthesizer, Synare PS or PS1, was made from 1975 to 1981 and paired four rubber pads with a module carrying one oscillator, a white noise generator, an LFO, a mixer, a low-pass filter with resonance and cutoff, and an ADSR envelope generator.\n\nThe Synare 2, or PS2, was the company's flagship and was manufactured from 1976 to 1982. It kept the single oscillator but added assignable routing so that the LFO could modulate several parameters at once, a wider octave range with fine tuning, twelve pads instead of four, and a fairly advanced sequencer with multiple patterns that could be switched on the fly. At a 1976 retail price of $1,395.00 it sold poorly and remains very rare. The Synare 3, or PS3, made from 1977 to 1982, was the first model most musicians could afford. Known for its flying saucer shape and able to run on batteries, it had two oscillators with fixed waveforms, a white noise generator and a sweep function whose descending boom was used heavily on disco records. The S3X was effectively the same machine with more flexible modulation controls and was made alongside the Synare 3.\n\nThe Synare 4, made from about 1978 to 1983, was similar to the Synare 3 but used an actual drumhead rather than a rubber pad and added modulation route and depth controls; it is very rare and can be seen in the video for \"Love Don't Live Here Anymore\" by Rose Royce. The Synare Lo Tom was a variant of the Synare 4, and the Synare Sensor was a small box with one VCO, an LFO and an envelope generator that could be clamped to the rim of an acoustic drum. Users listed in the source include Alan Myers of Devo, David Robinson of the Cars, Gary Numan, the Cure, Warren Cann of Ultravox, Stephen Morris of Joy Division and New Order, Merzbow, Layne Rico of Our Daughter's Wedding, Josh Klinghoffer, Alan Wilder of Depeche Mode, Herbie Hancock, Michael Garrison, Jean-Michel Jarre, Charly Alberti of Soda Stereo and Nick Banks of Pulp.",
+   "name_history": [
+    {
+     "name": "Star Instruments",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Synare 1 (Synare Percussion Synthesizer, PS1)",
+     "year": 1975,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare 2 (PS2)",
+     "year": 1976,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare 3 (PS3)",
+     "year": 1977,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare S3X",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare 4",
+     "year": 1978,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare Lo Tom",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Synare Sensor",
+     "year": null,
+     "category": "drum machine"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Electronic Music Laboratories",
+     "relation_type": "spun_off_from",
+     "year": null
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Synare",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Stafford, Connecticut",
+     "source_url": "https://en.wikipedia.org/wiki/Synare",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "Synare 1, 2, 3, S3X, 4, Lo Tom, Sensor",
+     "source_url": "https://en.wikipedia.org/wiki/Synare",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "Founded by two employees who left EML, makers of the Synare line of drum synthesizers",
+     "source_url": "https://en.wikipedia.org/wiki/Electronic_Music_Laboratories",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "COMPANY RECORD BUILT FROM A PRODUCT ARTICLE. The only supplied source about Star Instruments is the English Wikipedia article on the Synare, its product line; star__Star_Instruments.json is a missing page. The article states only that Star Instruments was based in Stafford, Connecticut, US, was owned by Norman Millard, and that Dave Kusek was chief engineer from 1975 to 1979. Founding year, ending year, status, founders, legal entity name and website are not stated anywhere and are left null. Norman Millard is named as owner, not as founder, so founders is null even though he is also one of the four founders of EML in the EML article; the two statements are not joined by any supplied source. The spinoff relation comes from the EML article, which says two EML employees left to found Star Instruments, without naming them or giving a year. Instrument years are the first year of the manufacturing ranges given: Synare 1 1975-1981, Synare 2 1976-1982, Synare 3 1977-1982, Synare 4 approximately 1978-1983; the S3X and Lo Tom and Sensor have no dates. All Synare models are filed under category drum machine, the closest value in the existing list, although the article calls them drum synthesizers."
+  },
+  {
+   "canonical_name": "Pollard Industries",
+   "queue_name": "Pollard Industries",
+   "country": "United States",
+   "city": "Culver City, California",
+   "official_website": null,
+   "status": null,
+   "founded_year": 1976,
+   "ended_year": null,
+   "founders": "Joe Pollard, Mark Barton, Donald Stone",
+   "entity_type": "company",
+   "short_history": "Pollard Industries was an American company incorporated by session drummer Joe Pollard, engineer Mark Barton and Donald Stone to sell the Syndrum, described as the first commercially available electronic drum. Pollard and Barton invented the instrument in 1976, and the company sold it from Culver City, California. Two models were on sale at the outset, the single drum 177 and the four drum 477, and three major types are recorded overall: the Syndrum 1, the Syndrum TwinDrum and the Syndrum Quad. The Syndrum was a musical success with a large roster of endorsers but a financial failure for the young company. No article on the company itself exists in the supplied sources, so this record is assembled from the article about its product.",
+   "long_history": "At the time the Syndrum was conceived, Joe Pollard was a session drummer working for the Beach Boys and the Grass Roots. In 1976 he met Mark Barton, who had designed and built working prototypes of an electronic drum and shown them to some prominent drummers. The reactions were encouraging, so Pollard, Barton and Donald Stone incorporated Pollard Industries and began selling Syndrums in Culver City, California. Two models were sold at the time: the single drum 177 and the four drum 477.\n\nThe Pollard Syndrum is described as the first commercially available electronic drum. Three major types are named: the Syndrum 1, the Syndrum TwinDrum, and the Syndrum Quad, the last being the most famous. The instrument was a musical success with a surplus of endorsers, but a financial failure for the young company.\n\nAlthough the Syndrum could produce many different sounds, the one favoured by most recording artists was a sine wave that pitch-bends downward. It opens \"Good Times Roll\" on the Cars' 1978 debut album and appears on disco hits including \"Ring My Bell\" by Anita Ward, \"Knock on Wood\" by Amii Stewart and \"The Second Time Around\" by Shalamar. Rick Marotta played it on Linda Ronstadt's 1978 single \"Poor Poor Pitiful Me\" and Henry Spinetti on Gerry Rafferty's \"Baker Street\". It runs through Sparks' 1979 album No. 1 in Heaven, particularly \"Tryouts for the Human Race\" and \"The Number One Song in Heaven\", and appears in the percussion break of \"Rydeen\" by Yellow Magic Orchestra, on Joy Division's debut album Unknown Pleasures, and on the American post-punk band Flipper's recordings of \"Sex Bomb\". After the Syndrum reached the market several other companies produced electronic drum units, among them the Synare.",
+   "name_history": [
+    {
+     "name": "Pollard Industries",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Syndrum",
+     "year": 1976,
+     "category": "drum machine"
+    },
+    {
+     "name": "Syndrum 1",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Syndrum TwinDrum",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Syndrum Quad",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Syndrum 177",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Syndrum 477",
+     "year": null,
+     "category": "drum machine"
+    }
+   ],
+   "relations": [],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Pollard_Syndrum",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Culver City, California",
+     "source_url": "https://en.wikipedia.org/wiki/Pollard_Syndrum",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Joe Pollard, Mark Barton, Donald Stone",
+     "source_url": "https://en.wikipedia.org/wiki/Pollard_Syndrum",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1976",
+     "source_url": "https://en.wikipedia.org/wiki/Pollard_Syndrum",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "Syndrum 1, Syndrum TwinDrum, Syndrum Quad, models 177 and 477",
+     "source_url": "https://en.wikipedia.org/wiki/Pollard_Syndrum",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "COMPANY RECORD BUILT FROM A PRODUCT ARTICLE. The only supplied source is the English Wikipedia article Pollard Syndrum (the file pollard__Syndrum.json redirects to that title); pollard__Pollard_Industries.json is a missing page. The article never states the company's founding or closing year directly: founded_year 1976 is taken from the sentence sequence \"In 1976, he met Barton ... so Joe, Mark and Donald Stone incorporated Pollard Industries\", so a reviewer may want to confirm it. Status is null; the article calls the Syndrum a financial failure for the young company but never says the company closed, and gives no ending year. No website, no legal entity name, no employee counts. Instruments: the article names three major types (Syndrum 1, TwinDrum, Quad) and separately says two models were sold at the outset, the single drum 177 and the four drum 477; it does not say whether 177 and 477 are the same products as the Syndrum 1 and the Quad, so both sets are listed and none except the generic Syndrum carries a year. Category drum machine is used as the closest existing value for an electronic drum."
+  },
+  {
+   "canonical_name": "Dynacord",
+   "queue_name": "Dynacord",
+   "country": "Germany",
+   "city": "Straubing",
+   "official_website": null,
+   "status": "acquired",
+   "founded_year": 1946,
+   "ended_year": null,
+   "founders": "Werner Pinternagel",
+   "entity_type": "company",
+   "short_history": "Dynacord is a manufacturer of professional audio equipment based in Straubing in Lower Bavaria, Germany. The engineer Werner Pinternagel opened a radio repair workshop in Pilsting in 1945 and built his first tube amplifiers there; a year later the firm \"Dynacord Funktechnik und Gerätebau\" was founded, moving to Landau an der Isar in 1947 and to Straubing in 1958. The company built its reputation on amplifiers, mixing amplifiers, the Echocord tape echo, PA and discotheque systems, and briefly on electric guitars in the 1960s. In the 1980s it also made electronic drum products, including the ADDone digital drums, the Percuter drum machine and the Rhythm Stick MIDI controller. Dynacord was sold to Telex Communications in 1990, belonged to the Robert Bosch group from 2006, and since 2025 has been part of Keenfinity Group under Triton Partners.",
+   "long_history": "In 1945 the engineer Werner Pinternagel opened a radio repair workshop in Pilsting, where he built his first tube amplifiers. The firm \"Dynacord Funktechnik und Gerätebau\" was founded a year later, and in 1947 the business moved to Landau an der Isar. Early products were the Dynaphon MV1, a very simply wired tube amplifier with inputs for high impedance microphones, radio and crystal pickups, and cinema amplifiers for film theatres. In 1948 and 1949 the first mixing and portable amplifiers appeared under the name \"DYNACORD Ing. W. Pinternagel\". The KV 6 and KV 10 portable amplifiers, of 6 and 10 watts, were a large success in the 1950s, with the KV 12 following only in 1960, and more than 70,000 units of the DA 15 were sold over a ten year production run.\n\nDevelopment of the Echocord, which produced echo and reverberation for live performance, began in the 1950s. From the middle of that decade Dynacord made high quality mixing amplifiers such as the MV 15 for musicians, and from 1958 it was already supplying stereo amplifiers. Exports rose from 3 percent of turnover in 1955 to 15 percent of a 1959 turnover of 928,000 DM, and in 1958 the company moved to Straubing. In the 1960s its engineers built the Eminent, a mixing amplifier with five mixable inputs and the first tone control with separate treble and bass controls, followed in the 1970s by the Gigant II, a large orchestra and vocal system that could be operated from the middle of the hall at big events.\n\nDuring the 1960s Dynacord also built electric guitars and semi-acoustic electric basses. The Cora of 1965 was an innovation, a frame guitar with three pickups and no conventional wooden body. The Cora was developed and built by Dynacord itself, while parts for the following models came from various suppliers, and for a time there was a collaboration with the Hopf company; guitar production ended at the close of the 1960s. In 1969 Dynacord merged with Echolette, the amplifier and effects maker responsible among other things for the distinctive live sound of the Beatles. Echolette equipment was produced by Dynacord until 1981 and the former Echolette owner Hans Bauer became a partner in Dynacord. From the late 1960s the company built discotheque systems, including the fully transistorised STE series power amplifier modules, mixing desks and loudspeakers, and lighting controllers such as the four channel Dynalux light organ. By the end of the 1970s the discotheque programme was extensive and still growing, and the ST 2200 stereo power amplifier module of 1979, rated 2 x 200 watts RMS for hard continuous use, was a particular success.\n\nIn the 1980s the ADDone, Advanced Digital Drums, made Dynacord a temporary market leader in digital drums. From 1984 the company sold 1,950 units of its Percuter drum machine, and from 1985 it produced the Rhythm Stick, a guitar-shaped MIDI controller for drummers. From 1982 it also built the CLS series, effects units simulating a Leslie loudspeaker. Dynacord was sold to the American company Telex Communications in 1990. From 1 January 2006 it belonged to the Bosch security systems group, and amplifiers, mixing desks and loudspeaker cabinets are still sold under the Dynacord brand. In December 2024 Bosch announced the sale of the security and communications product business of its Building Technologies division to the private equity firm Triton; the transaction closed on 30 June 2025 and since 1 July 2025 the business has traded as Keenfinity Group, which also holds the Bosch communications systems, Electro-Voice, RTS and Telex brands and is based in Munich. As of 2013 about 40 engineers worked in Straubing. Dynacord now serves the whole audio chain as a full-line supplier and is regarded as a market leader in public address, with nine of the ten stadiums for the 2010 football World Cup in South Africa fitted with Dynacord loudspeakers. EVI Audio GmbH, based in Straubing, is Dynacord's European headquarters and employs about 650 people in Europe, roughly 500 of them in Germany.",
+   "name_history": [
+    {
+     "name": "Dynacord Funktechnik und Gerätebau",
+     "start_year": 1946,
+     "end_year": null
+    },
+    {
+     "name": "DYNACORD Ing. W. Pinternagel",
+     "start_year": 1948,
+     "end_year": null
+    },
+    {
+     "name": "Dynacord",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "ADDone (Advanced Digital Drums)",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Percuter",
+     "year": 1984,
+     "category": "drum machine"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Echolette",
+     "relation_type": "merged_with",
+     "year": 1969
+    },
+    {
+     "related_company": "Telex Communications",
+     "relation_type": "acquired_by",
+     "year": 1990
+    },
+    {
+     "related_company": "Robert Bosch GmbH",
+     "relation_type": "acquired_by",
+     "year": 2006
+    },
+    {
+     "related_company": "Triton Partners",
+     "relation_type": "acquired_by",
+     "year": 2025
+    },
+    {
+     "related_company": "Keenfinity Group",
+     "relation_type": "part_of",
+     "year": 2025
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Straubing",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1946",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Werner Pinternagel",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "acquired",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "Dynacord Funktechnik und Gerätebau (1946), DYNACORD Ing. W. Pinternagel (1948/49)",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "Cora electric guitar 1965, ADDone Advanced Digital Drums, Percuter drum machine from 1984",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "Merged with Echolette 1969; sold to Telex Communications 1990; Bosch group from 1 January 2006; Triton Partners / Keenfinity Group 2025",
+     "source_url": "https://de.wikipedia.org/wiki/Dynacord",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relations",
+     "value": "Bosch acquired Telex Communications in August 2006; in 2025 the Bosch unit holding Dynacord and Electro-Voice was sold to Triton Partners, to operate as Keenfinity Group",
+     "source_url": "https://en.wikipedia.org/wiki/Telex_Communications",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Facts translated into English from the German Wikipedia article Dynacord, with the ownership chain cross-checked against the English article Telex Communications (the file dynacord__Dynacord.json redirects to that title and contains no Dynacord history of its own beyond the Bosch and Triton ownership steps). No official website URL is given in either article, so official_website is null; the German article links only an unlabelled \"Deutsche Unternehmens-Website\". founded_year 1946 comes from \"1945 ... Ein Jahr später wurde die Firma gegründet\". Status is set to acquired because the brand is still active but has been under Telex, then Bosch, then Triton/Keenfinity ownership; ended_year is null since the brand still trades. SCOPE: only sound-generating instruments are listed. The amplifiers (Dynaphon MV1, KV 6, KV 10, KV 12, DA 15, MV 15, Eminent, Gigant II, ST 2200), the Echocord echo unit, the CLS Leslie simulators, PA and discotheque systems and the Dynalux light organ are described in the prose only. The Rhythm Stick (from 1985) is also left out of the instruments list because the article calls it a MIDI controller in guitar form, which does not itself generate sound; a reviewer may want it added. The Cora is listed with the category electric guitar, which is NOT in the existing category list, because none of the existing values fits an electric frame guitar; drop it or recategorise if the museum excludes guitars. The ADDone has no year beyond \"in the 1980s\". Detail worth noting but not a stored-field conflict: the German article dates Dynacord's entry into the Bosch group to 1 January 2006, while the English Telex article dates Bosch's acquisition of Telex Communications to August 2006. | A Cora electric guitar was dropped at ingest: a guitar does not generate sound electronically, so it fails this museum's scope test. It stays described in the prose."
+  },
+  {
+   "canonical_name": "Octave-Plateau",
+   "queue_name": "Octave-Plateau",
+   "country": "United States",
+   "city": "Queens, New York",
+   "official_website": null,
+   "status": "active",
+   "founded_year": 1975,
+   "ended_year": null,
+   "founders": "Carmine Bonanno",
+   "entity_type": "company",
+   "short_history": "Octave-Plateau was an American synthesizer maker founded by Carmine Bonanno in Queens, New York in 1975 as Octave Electronics. Its first notable instrument was the Cat Synthesizer, designed by Bonanno and released in 1976. The firm became Octave Plateau in 1979 and was known for the Voyetra Eight synthesizer, also designed by Bonanno. It pioneered music software for the IBM PC and created one of the first sequencer programs, Sequencer Plus. In 1986 the company changed its name to Voyetra Technologies, left the synthesizer business and concentrated on music software; the same corporate line later became Voyetra Turtle Beach and today Turtle Beach Corporation.",
+   "long_history": "The company that is now Turtle Beach Corporation has roots dating back to 1975, when Carmine Bonanno founded Octave Electronics in Queens, New York. Octave was known for the Cat Synthesizer, which Bonanno designed and which was released in 1976.\n\nIn 1979 the company became Octave Plateau. Under that name it was known for the Voyetra Eight synthesizer, again designed by Bonanno. Octave Plateau also pioneered music software for the IBM PC and created one of the first music sequencer programs, Sequencer Plus.\n\nIn 1986 the company changed its name to Voyetra Technologies, exited the synthesizer business and concentrated on music software. Voyetra Technologies was one of the original companies included in the MIDI standard and, in the early 1990s, had developed drivers and software for nearly every sound card manufacturer in the world. In 1996 Voyetra Technologies, based in Yonkers, New York, acquired Turtle Beach Systems, renamed itself Voyetra Turtle Beach under Bonanno as chief executive, and focused on sound cards and music composition software. The name was changed again to Turtle Beach Corporation in April 2014.",
+   "name_history": [
+    {
+     "name": "Octave Electronics",
+     "start_year": 1975,
+     "end_year": 1979
+    },
+    {
+     "name": "Octave Plateau",
+     "start_year": 1979,
+     "end_year": 1986
+    },
+    {
+     "name": "Voyetra Technologies",
+     "start_year": 1986,
+     "end_year": 1996
+    },
+    {
+     "name": "Voyetra Turtle Beach",
+     "start_year": 1996,
+     "end_year": 2014
+    },
+    {
+     "name": "Turtle Beach Corporation",
+     "start_year": 2014,
+     "end_year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Cat Synthesizer",
+     "year": 1976,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Voyetra Eight",
+     "year": null,
+     "category": "synthesizer"
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Turtle Beach Corporation",
+     "relation_type": "successor",
+     "year": 2014
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Queens, New York",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1975",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Carmine Bonanno",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history",
+     "value": "Founded as Octave Electronics, later becoming Octave-Plateau (1979) and then Voyetra Technologies (1986)",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instruments",
+     "value": "Cat Synthesizer (1976) and Voyetra Eight Synthesizer, both designed by Carmine Bonanno",
+     "source_url": "https://en.wikipedia.org/wiki/Turtle_Beach_Corporation",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "The only supplied source is the English Wikipedia article Turtle Beach Corporation (octaveplateau__Voyetra_Turtle_Beach.json redirects to that title); octaveplateau__Octave-Plateau_Electronics.json and octaveplateau__Octave_Plateau.json are missing pages, and octaveplateau__Voyetra.json is not valid JSON and could not be read. Per instruction, only the passages about Octave Electronics, Octave-Plateau and the Voyetra synthesizers were used; the Turtle Beach headset, sound card and esports history is not reproduced here. Status is set to active because the article describes one continuous corporate line still trading as Turtle Beach Corporation, but the Octave-Plateau name itself ended in 1986; a reviewer treating this as a brand record may prefer status defunct with ended_year 1986. The article spells the name both \"Octave-Plateau\" and \"Octave Plateau\" and gives no legal entity name, no website for the synthesizer era and no year for the Voyetra Eight. Sequencer Plus and the other software are not listed as instruments because they do not generate sound on their own. The 1975 founding is given as \"roots dating back to 1975\"."
+  }
+ ]
+}
