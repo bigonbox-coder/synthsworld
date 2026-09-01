@@ -39,6 +39,9 @@ if [ "$REFRESH" = "1" ]; then
   python3 db/probe_domains.py --top 20 2>&1 | sed 's/^/  domain:  /'
 fi
 
+# A gyartoi honlapok csaladja: egy leszedo, forrasonkent egy beallitassal.
+python3 db/harvest_sitemap.py --all --ingest $([ "$REFRESH" = "1" ] && echo --refresh) 2>&1 | grep -E "^(yamaha|casio):" | sed 's/^/  sitemap: /'
+
 python3 db/harvest_synfo.py   --ingest 2>&1 | tail -3 | sed 's/^/  synfo:   /'
 python3 db/harvest_synthxl.py --ingest 2>&1 | tail -3 | sed 's/^/  synthxl: /'
 python3 db/relink_manuals.py  --apply  2>&1 | tail -2 | sed 's/^/  relink:  /'
