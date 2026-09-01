@@ -675,27 +675,45 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # Kristof kerese (2026-09-01): "Ha kell leszedo szkript azt mutasd az
         # adminon (mihez, mennyi)". Ez a munkalista: meres szerint feldolgozhato
         # domainek, amikhez meg nincs leszedo, a hozam szerint sorrendben.
-        needs_harvester = con.execute(
-            """SELECT domain, product_urls, sitemap_urls, route_url
-               FROM source_domains
+        # Ket lista, mert ket kulonbozo munka. A termekkatalogusokat a
+        # sitemapos leszedo viszi (egy script, forrasonkent egy beallitas); a
+        # dokumentum-archivumoknak sajat logika kell, a synfo mintajara.
+        #
+        # Eloszor egy listat csinaltam es osszekevertem a kettot; aztan
+        # kiszurtem a termekoldal nelkulieket, amitol a synthfool eltunt az
+        # adminrol -- Kristof rogton eszrevette. Az elrejtes nem javitas.
+        # A helyes valasz a besorolas: minden forras latszik, csak a maga
+        # helyen.
+        needs_catalog = con.execute(
+            """SELECT domain, product_urls FROM source_domains
                WHERE verdict='harvestable' AND harvester IS NULL
                  AND COALESCE(product_urls, 0) > 0
-               ORDER BY product_urls DESC
-               LIMIT 12""").fetchall()
+               ORDER BY product_urls DESC LIMIT 10""").fetchall()
+        needs_other = con.execute(
+            """SELECT domain, sitemap_urls FROM source_domains
+               WHERE verdict='harvestable' AND harvester IS NULL
+                 AND COALESCE(product_urls, 0) = 0
+               ORDER BY COALESCE(inbound_spread, 0) DESC, COALESCE(sitemap_urls, 0) DESC
+               LIMIT 10""").fetchall()
 
-        if needs_harvester:
-            rows = "".join(
+        def _need_block(title, rows, unit, note):
+            if not rows:
+                return ""
+            items = "".join(
                 f'<li><span class="dom">{esc(d)}</span>'
-                f'<span class="amount">{(str(p) + " termékoldal") if p else (str(u) + " cím")}</span></li>'
-                for d, p, u, _ in needs_harvester)
-            needs_html = (
-                '<div class="needs"><h3>Leszedő kell hozzá</h3>'
-                f'<ul class="need-list">{rows}</ul>'
-                '<p class="forecast-note">Mérés szerint feldolgozhatók, de még nincs aki '
-                'begyűjtse őket. Nem oldalanként külön script: a sitemapos források '
-                'egy közös leszedőt kapnak, forrásonként egy beállítással.</p></div>')
-        else:
-            needs_html = ""
+                f'<span class="amount">{n or 0} {unit}</span></li>' for d, n in rows)
+            return (f'<div class="needs"><h3>{title}</h3>'
+                    f'<ul class="need-list">{items}</ul>'
+                    f'<p class="forecast-note">{note}</p></div>')
+
+        needs_html = _need_block(
+            "Leszedő kell &middot; termékkatalógus", needs_catalog, "termékoldal",
+            "A gyártó kiadja a sitemapját, benne a modellekkel. Ezeket egy közös "
+            "leszedő viszi, forrásonként egy beállítással -- nem oldalanként külön script.")
+        needs_html += _need_block(
+            "Leszedő kell &middot; dokumentum-archívum", needs_other, "cím",
+            "Van sitemapjuk, de nem termékkatalógus: szervizanyagok, szkennek, "
+            "gyűjtemények. Ezekhez saját logika kell, a synfo mintájára.")
 
         total_links = con.execute(
             "SELECT COUNT(*) FROM external_links").fetchone()[0]
