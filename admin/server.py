@@ -684,6 +684,27 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # adminrol -- Kristof rogton eszrevette. Az elrejtes nem javitas.
         # A helyes valasz a besorolas: minden forras latszik, csak a maga
         # helyen.
+        # Kristof: "tegyunk jelzest hogy mennyi dokumentumhoz van forrasunk,
+        # ezt is lassam kb mennyit tudunk majd letolteni."
+        #
+        # Ket szam, mert ket kulonbozo dolog, es osszemosva felrevezetne.
+        # A 'dokumentum-forras' az, ahol TUDJUK hogy letezik szervizkonyv vagy
+        # rajz. A 'kozvetlen fajl' az, ahol a cim maga a fajlra mutat -- azt
+        # tenylegesen le lehet tolteni. A synthxl linkjei peldaul oldalak,
+        # amiken RAJTA van a manual, de nem maguk a fajlok.
+        doc_sources = con.execute(
+            "SELECT COUNT(*) FROM external_links WHERE link_type='service_mod'").fetchone()[0]
+        direct_files = con.execute(
+            """SELECT COUNT(*) FROM external_links
+               WHERE lower(url) GLOB '*.[pz][di][fp]'
+                  OR lower(url) LIKE '%.pdf' OR lower(url) LIKE '%.zip'
+                  OR lower(url) LIKE '%.doc%' OR lower(url) LIKE '%.tif%'
+                  OR lower(url) LIKE '%.jpg' OR lower(url) LIKE '%.jpeg'
+                  OR lower(url) LIKE '%.gif' OR lower(url) LIKE '%.png'""").fetchone()[0]
+        audio_files = con.execute(
+            """SELECT COUNT(*) FROM external_links
+               WHERE lower(url) LIKE '%.wav' OR lower(url) LIKE '%.mp3'""").fetchone()[0]
+
         needs_catalog = con.execute(
             """SELECT domain, product_urls FROM source_domains
                WHERE verdict='harvestable' AND harvester IS NULL
@@ -793,6 +814,14 @@ class Handler(http.server.BaseHTTPRequestHandler):
     <div class="stat total"><span class="n">{pending_models}</span><span class="lbl">modellnév dokumentumból</span></div>
     <div class="stat total"><span class="n">{pending_pages}</span><span class="lbl">megmért termékoldal</span></div>
   </div>
+  <div class="stats-row2">
+    <div class="stat total"><span class="n">{doc_sources}</span><span class="lbl">dokumentum-forrás</span></div>
+    <div class="stat total"><span class="n">{direct_files}</span><span class="lbl">közvetlen fájl</span></div>
+    <div class="stat total"><span class="n">{audio_files}</span><span class="lbl">hangminta</span></div>
+  </div>
+  <p class="forecast-note">Dokumentum-forrás: tudjuk, hogy létezik hozzá szervizkönyv vagy rajz.
+  Közvetlen fájl: a cím magára a fájlra mutat, tehát letölthető. A kettő nem ugyanaz, mert sok
+  forrás oldalt ad, nem fájlt. Letöltés egyelőre nincs, csak nyilvántartás.</p>
   {needs_html}
   <p class="forecast-note">Felső becslés, nem ígéret. A sorban álló nevek egy része el fog bukni a
   scope-teszten, a megmért termékoldalak közt pedig ott van a Yamaha fúvós- és gitárkínálata is.
