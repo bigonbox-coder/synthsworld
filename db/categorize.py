@@ -23,6 +23,12 @@ Használat:
   python3 db/categorize.py --rename "Digital Grand" "digital piano"
   python3 db/categorize.py --merge "V-Drums" "elektronikus dobkeszlet"
   python3 db/categorize.py --sync-mirror                # tükör újraépítése
+  python3 db/categorize.py --tech 354 digital           # analog|digital|hybrid|unknown
+  python3 db/categorize.py --by-function Sampler        # formától függetlenül
+
+A kategória neve összetett ("Keyboard - Synthesizer"), a tárolása nem: a `form`
+és a `function` külön oszlop. Ezért lehet arra kérdezni, hogy "minden sampler,
+formától függetlenül", és ezért nem szorzótábla a lista.
 """
 
 import argparse
@@ -39,13 +45,21 @@ def connect():
     return con
 
 
+def split_axes(name):
+    """'Keyboard - Synthesizer' -> ('Keyboard', 'Synthesizer'), egyébként (None, None)."""
+    parts = [p.strip() for p in name.split(" - ", 1)]
+    return (parts[0], parts[1]) if len(parts) == 2 and all(parts) else (None, None)
+
+
 def cat_id(con, name, create=False):
     row = con.execute("SELECT id FROM categories WHERE name = ?", (name,)).fetchone()
     if row:
         return row[0]
     if not create:
         sys.exit(f"nincs ilyen kategória: {name!r} (--list mutatja a meglévőket)")
-    con.execute("INSERT INTO categories (name) VALUES (?)", (name,))
+    form, func = split_axes(name)
+    con.execute("INSERT INTO categories (name, form, function) VALUES (?,?,?)",
+                (name, form, func))
     return con.execute("SELECT last_insert_rowid()").fetchone()[0]
 
 
@@ -68,6 +82,9 @@ def main():
     ap.add_argument("--rename", nargs=2, metavar=("OLD", "NEW"))
     ap.add_argument("--merge", nargs=2, metavar=("FROM", "INTO"))
     ap.add_argument("--sync-mirror", action="store_true")
+    ap.add_argument("--tech", nargs=2, metavar=("INSTRUMENT_ID", "ANALOG|DIGITAL|HYBRID|UNKNOWN"))
+    ap.add_argument("--by-function", metavar="FUNCTION",
+                    help="minden hangszer ezzel a funkcióval, formától függetlenül")
     ap.add_argument("--primary", action="store_true",
                     help="--add mellett: ez legyen az elsődleges kategória")
     args = ap.parse_args()
@@ -75,14 +92,17 @@ def main():
 
     if args.list:
         rows = con.execute("""
-            SELECT c.name, COUNT(ic.instrument_id)
+            SELECT c.name, COUNT(ic.instrument_id), c.form, c.function
             FROM categories c LEFT JOIN instrument_categories ic ON ic.category_id = c.id
             GROUP BY c.id ORDER BY 2 DESC, 1""").fetchall()
         unc = con.execute("""SELECT COUNT(*) FROM instruments
             WHERE id NOT IN (SELECT instrument_id FROM instrument_categories)""").fetchone()[0]
-        for name, n in rows:
-            print(f"{n:6d}  {name}")
-        print(f"\n{len(rows)} kategória, {unc} hangszer kategória nélkül")
+        for name, n, form, func in rows:
+            axes = f"   [{form} / {func}]" if form else ""
+            print(f"{n:6d}  {name}{axes}")
+        axed = sum(1 for r in rows if r[2])
+        print(f"\n{len(rows)} kategória ({axed} tengelyekre bontva), "
+              f"{unc} hangszer kategória nélkül")
         return
 
     if args.show is not None:
@@ -96,6 +116,32 @@ def main():
                 WHERE ic.instrument_id = ? ORDER BY ic.is_primary DESC, c.name""",
                 (args.show,)):
             print(f"  {'*' if prim else ' '} {cname}")
+        return
+
+    if args.tech:
+        iid, value = int(args.tech[0]), args.tech[1].lower()
+        if value not in ("analog", "digital", "hybrid", "unknown"):
+            sys.exit("csak: analog, digital, hybrid, unknown")
+        if not con.execute("SELECT 1 FROM instruments WHERE id=?", (iid,)).fetchone():
+            sys.exit(f"nincs ilyen hangszer: {iid}")
+        con.execute("UPDATE instruments SET technology=? WHERE id=?", (value, iid))
+        con.commit()
+        name = con.execute("SELECT name FROM instruments WHERE id=?", (iid,)).fetchone()[0]
+        print(f"{name}: {value}")
+        return
+
+    if args.by_function:
+        rows = con.execute("""
+            SELECT i.id, i.name, c.form, i.technology, m.canonical_name
+            FROM instrument_categories ic
+            JOIN categories c ON c.id = ic.category_id
+            JOIN instruments i ON i.id = ic.instrument_id
+            JOIN manufacturers m ON m.id = i.manufacturer_id
+            WHERE c.function = ? COLLATE NOCASE
+            ORDER BY m.canonical_name, i.name""", (args.by_function,)).fetchall()
+        for iid, iname, form, tech, maker in rows:
+            print(f"  {iid:6d}  {maker} {iname}   [{form}] {tech}")
+        print(f"\n{len(rows)} hangszer, funkció: {args.by_function}")
         return
 
     if args.add:
