@@ -679,7 +679,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             """SELECT domain, product_urls, sitemap_urls, route_url
                FROM source_domains
                WHERE verdict='harvestable' AND harvester IS NULL
-               ORDER BY COALESCE(product_urls, 0) DESC, COALESCE(sitemap_urls, 0) DESC
+                 AND COALESCE(product_urls, 0) > 0
+               ORDER BY product_urls DESC
                LIMIT 12""").fetchall()
 
         if needs_harvester:
