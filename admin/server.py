@@ -701,6 +701,19 @@ class Handler(http.server.BaseHTTPRequestHandler):
                   OR lower(url) LIKE '%.doc%' OR lower(url) LIKE '%.tif%'
                   OR lower(url) LIKE '%.jpg' OR lower(url) LIKE '%.jpeg'
                   OR lower(url) LIKE '%.gif' OR lower(url) LIKE '%.png'""").fetchone()[0]
+        # Kristof jobb kerdest tett fel, mint amit en szamoltam: nem az
+        # erdekes hogy hany dokumentumunk van, hanem hogy HANY HANGSZERHEZ.
+        # Egy gepnek lehet husz manualja, mikozben ezer masiknak egy sem --
+        # a link-szam ezt elrejti, a lefedettseg megmutatja.
+        inst_total = con.execute("SELECT COUNT(*) FROM instruments").fetchone()[0]
+        inst_doc = con.execute(
+            """SELECT COUNT(DISTINCT instrument_id) FROM external_links
+               WHERE instrument_id IS NOT NULL AND link_type='service_mod'""").fetchone()[0]
+        inst_audio = con.execute(
+            """SELECT COUNT(DISTINCT instrument_id) FROM external_links
+               WHERE instrument_id IS NOT NULL
+                 AND (link_type='audio_demo' OR lower(url) LIKE '%.wav' OR lower(url) LIKE '%.mp3')""").fetchone()[0]
+
         audio_files = con.execute(
             """SELECT COUNT(*) FROM external_links
                WHERE lower(url) LIKE '%.wav' OR lower(url) LIKE '%.mp3'""").fetchone()[0]
@@ -818,6 +831,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
     <div class="stat total"><span class="n">{doc_sources}</span><span class="lbl">dokumentum-forrás</span></div>
     <div class="stat total"><span class="n">{direct_files}</span><span class="lbl">közvetlen fájl</span></div>
     <div class="stat total"><span class="n">{audio_files}</span><span class="lbl">hangminta</span></div>
+  </div>
+  <div class="stats-row2">
+    <div class="stat total"><span class="n">{inst_doc}</span><span class="lbl">hangszer, dokumentummal</span></div>
+    <div class="stat total"><span class="n">{inst_audio}</span><span class="lbl">hangszer, hangmintával</span></div>
+    <div class="stat total"><span class="n">{inst_total}</span><span class="lbl">hangszer összesen</span></div>
   </div>
   <p class="forecast-note">Dokumentum-forrás: tudjuk, hogy létezik hozzá szervizkönyv vagy rajz.
   Közvetlen fájl: a cím magára a fájlra mutat, tehát letölthető. A kettő nem ugyanaz, mert sok
