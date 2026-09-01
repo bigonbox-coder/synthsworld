@@ -89,12 +89,36 @@ def roll_up(entry, prior_sources=()):
     second pass that adds one new source re-derives confidence from that batch
     alone and leaves the record stuck at needs_review forever.
     """
-    reasons = list(entry.get("conflicts") or [])
+    # A conflicts dokumentalt alakja szoveg-lista, de egy kutato-ago strukturalt
+    # objektumot irt bele (mezonev + ertekek + forrasok), es a join TypeError-ral
+    # elhalt. A batch-et megirni konnyu volt; a scriptet ellenallova tenni
+    # fontosabb, mert a napi automatikus kutatas felugyelet nelkul fut, es ott
+    # egy ilyen hiba csendben kihagyna a napot. Az objektumot tehat olvashato
+    # szovegge lapitjuk, nem eldobjuk -- a konfliktus leirasa a lenyeg.
+    reasons = [c if isinstance(c, str) else _flatten_conflict(c)
+               for c in (entry.get("conflicts") or [])]
     sources = list(entry.get("sources") or []) + list(prior_sources)
     for field in CORE_FIELDS:
         if entry.get(field) and field_confidence(sources, field) != "confirmed":
             reasons.append(f"{field}: single non-official source only")
     return ("needs_review" if reasons else "confirmed"), "; ".join(reasons)
+
+
+def _flatten_conflict(c):
+    """Strukturalt konfliktus -> egy olvashato mondat."""
+    if not isinstance(c, dict):
+        return str(c)
+    field = c.get("field_name") or c.get("field") or "ismeretlen mezo"
+    vals = c.get("values") or []
+    parts = []
+    for v in vals:
+        if isinstance(v, dict):
+            parts.append(f"{v.get('value')} ({v.get('source_url') or 'forras nelkul'})")
+        else:
+            parts.append(str(v))
+    note = c.get("note") or ""
+    body = " vs ".join(parts) if parts else ""
+    return f"{field}: {body}{(' -- ' + note) if note else ''}".strip()
 
 
 def load_prior_sources(conn, name):

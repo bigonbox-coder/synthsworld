@@ -1,0 +1,750 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Clavia DMI AB",
+      "queue_name": "Clavia",
+      "country": "Sweden",
+      "city": "Stockholm",
+      "official_website": null,
+      "status": "active",
+      "founded_year": 1983,
+      "ended_year": null,
+      "founders": "Hans Nordelius, Mikael Carlsson",
+      "entity_type": "company",
+      "short_history": "Clavia Digital Musical Instruments (Clavia DMI AB) is a Swedish maker of digital musical instruments, specifically virtual analog synthesizers, virtual electromechanical pianos, stage pianos and organs. It was founded in Stockholm in 1983 by Hans Nordelius and Mikael Carlsson, who started out in the basement of a house in the southern suburbs of Stockholm and built the Digital Percussion Plate 1, described as the first dedicated digital drum made for the commercial market. Digital drum systems under the ddrum name were the company's focus until 1995, when it released the Nord Lead virtual analog synthesizer; since that year Clavia's keyboards have carried the Nord brand. The ddrum brand and its products were later sold to the company's US distributor, Armadillo Enterprises. Clavia's instruments have been used by players and acts including Prince, Madonna, Jean Michel Jarre, Antiloop, Depeche Mode, The Prodigy, Mike Oldfield and Pet Shop Boys.",
+      "long_history": "Hans Nordelius and Mikael Carlsson began working in 1983 in the basement of a home in the southern suburbs of Stockholm, where they created the Digital Percussion Plate 1, described as the world's first dedicated digital drum for the commercial market. In 1984 an improved version that could play four sounds from an EPROM appeared under the ddrum name, in what became the brand's signature red colour, and the same year a drum system was released with several sound modules in a rack, each with its own EPROM. The trigger pads were unusual for the period because they used real drum heads rather than the rubber pads of other electronic kits of the time, and a separate trigger for the snare rim added to the playing feel. The ddrum brand and products were sold to the company's US distributor, Armadillo Enterprises, which has continued to manufacture drum products under that name.\n\nIn 1995 Clavia released the Nord Lead, which popularized virtual analog synthesis; the phrase itself was coined by Clavia at the instrument's launch, and Sound on Sound called the instrument \"a magic piece of electronics\". The first Nord Lead was created with the help of Peter Jubel, who also co-founded Propellerhead Software. Instead of analog components it used digital signal processors programmed to emulate subtractive and analog FM synthesis, and it was unusual for its time in being covered in knobs that gave direct access to every sound parameter without menu diving. It had four notes of polyphony, later raised to twelve by a hardware upgrade that also added PCMCIA patch storage and a drum map. The Nord Lead 2 of 1997 raised polyphony to sixteen voices and added a ring modulator, oscillator sync with the noise generator, a sine wave for oscillator 1, more LFO and arpeggiator options, filter distortion and four individual outputs. The Nord Lead 3 of 2001 brought a reworked sound engine, four operator FM synthesis, better D/A converters, monophonic aftertouch and endless rotary knobs ringed by lighted LED collars, but its higher price kept the cheaper line alive: the Nord Lead 2X of 2003 offered twenty voices, 24-bit 96 kHz converters and expanded patch memory while dropping PCMCIA storage. The Nord Lead 3 was discontinued in 2007. A limited run of 300 Nord Lead 2X Anniversary Edition units with inverted key colours marked the company's 25 year history in 2008. The Nord Lead 4 was announced at Musikmesse in 2013 with a new sound engine, new filter sections, a True Voice Unison mode, a dedicated effects section and MIDI over USB, and the Nord Lead A1 followed at the 2014 NAMM Show with a simplified oscillator interface aimed at a wider user base.\n\nAlongside the Lead line, Clavia released the Nord Modular in 1997, a virtual analog modular synthesizer that let the user build their own instrument and was called a landmark in synthesis by Paul Nagle in Sound On Sound; it was upgraded in 2004 as the Nord Modular G2, which adopted the endless rotary knobs of the Nord Lead 3 and a larger keyboard with aftertouch. The Nord Electro of 2001 emulated classic electromechanical keyboards such as the Hammond organ, the Rhodes Stage 73, the Wurlitzer electric piano and the Hohner Clavinet, with sampled pianos and digitally simulated organs. The Nord Stage of 2005 combined the organ and piano sections of the Electro with some of the Lead's synth functionality, added further piano features and came in a version with 88 weighted keys. The Nord Wave of October 2007 added sample playback to the virtual analog engine of the Lead series, the Nord C1 organ carried the Electro 3 organ section into a dual manual instrument and gained a Baroque pipe organ emulation in 2009, the Nord Drum virtual analog drum synthesizer arrived in 2012, and the Nord Piano of 2010 put the Electro 3 piano section under an 88-key hammer action keyboard.\n\nClavia manufactures most of its instruments itself, with the exception of the keybeds, which come from Fatar in Italy and Kawai in Japan. Each of the model lines has been updated repeatedly, and by 2025 the Nord range included the Nord Stage 4, Nord Piano 5, Nord Grand 2, Nord Electro 6, Nord Lead A1 and Nord Wave 2, with the Swedish source also listing the Nord Electro 7, Nord Organ 3, Nord Piano 6 and Nord Drum 3P on sale in mid-2026. Beyond the sound generating instruments the company also offers accessories such as the Nord Piano Monitor monitor boxes and the Nord Pedal Keys 27 MIDI organ pedalboard, and the Nord Modular family relied on software editors running on a computer.",
+      "name_history": [
+        {
+          "name": "Clavia Digital Musical Instruments",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "name": "Clavia DMI AB",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Digital Percussion Plate 1",
+          "year": 1983,
+          "category": "Electronic Drum"
+        },
+        {
+          "name": "ddrum",
+          "year": 1984,
+          "category": "Electronic Drum"
+        },
+        {
+          "name": "Nord Lead",
+          "year": 1995,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Lead Rack",
+          "year": 1995,
+          "category": "Module - Synthesizer"
+        },
+        {
+          "name": "Nord Rack",
+          "year": null,
+          "category": "Module - Synthesizer"
+        },
+        {
+          "name": "Nord Lead 2",
+          "year": 1997,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Rack 2",
+          "year": null,
+          "category": "Module - Synthesizer"
+        },
+        {
+          "name": "Nord Modular",
+          "year": 1997,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Nord Micro Modular",
+          "year": null,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Nord Lead 3",
+          "year": 2001,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Rack 3",
+          "year": null,
+          "category": "Module - Synthesizer"
+        },
+        {
+          "name": "Nord Electro",
+          "year": 2001,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Electro Rack",
+          "year": null,
+          "category": "sound module"
+        },
+        {
+          "name": "Nord Electro 2",
+          "year": 2002,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Electro Rack 2",
+          "year": null,
+          "category": "sound module"
+        },
+        {
+          "name": "Nord Lead 2X",
+          "year": 2003,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Rack 2X",
+          "year": null,
+          "category": "Module - Synthesizer"
+        },
+        {
+          "name": "Nord Modular G2",
+          "year": 2004,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Nord Modular G2X",
+          "year": null,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Nord Stage",
+          "year": 2005,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord C1",
+          "year": 2005,
+          "category": "electronic organ"
+        },
+        {
+          "name": "Nord Wave",
+          "year": 2007,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Stage EX",
+          "year": 2008,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Electro 3",
+          "year": 2008,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Lead 2X Anniversary Edition",
+          "year": 2008,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord C2",
+          "year": 2009,
+          "category": "electronic organ"
+        },
+        {
+          "name": "Nord Piano",
+          "year": 2010,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Stage 2",
+          "year": 2011,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Drum",
+          "year": 2012,
+          "category": "Electronic Drum"
+        },
+        {
+          "name": "Nord C2D",
+          "year": 2012,
+          "category": "electronic organ"
+        },
+        {
+          "name": "Nord Electro 4",
+          "year": 2012,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Piano 2",
+          "year": 2012,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Lead 4",
+          "year": 2013,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Lead A1",
+          "year": 2014,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Drum 2",
+          "year": 2014,
+          "category": "Electronic Drum"
+        },
+        {
+          "name": "Nord Stage 2 EX",
+          "year": 2015,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Piano 3",
+          "year": 2015,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Electro 5",
+          "year": 2015,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Piano 4",
+          "year": 2017,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Stage 3",
+          "year": 2017,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Grand",
+          "year": 2019,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Piano 5",
+          "year": 2021,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Stage 4",
+          "year": null,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Grand 2",
+          "year": null,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Electro 6",
+          "year": null,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Electro 7",
+          "year": null,
+          "category": "keyboard"
+        },
+        {
+          "name": "Nord Wave 2",
+          "year": null,
+          "category": "Keyboard - Synthesizer"
+        },
+        {
+          "name": "Nord Organ 3",
+          "year": null,
+          "category": "electronic organ"
+        },
+        {
+          "name": "Nord Piano 6",
+          "year": null,
+          "category": "Keyboard - Piano"
+        },
+        {
+          "name": "Nord Drum 3P",
+          "year": null,
+          "category": "Electronic Drum"
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Armadillo Enterprises",
+          "relation_type": "sold_brand_to",
+          "year": 2005
+        },
+        {
+          "related_company": "Fatar",
+          "relation_type": "supplier",
+          "year": null
+        },
+        {
+          "related_company": "Kawai",
+          "relation_type": "supplier",
+          "year": null
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "canonical_name",
+          "value": "Clavia DMI AB",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "Sweden",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "city",
+          "value": "Stockholm",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1983",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1983",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Hans Nordelius, Mikael Carlsson",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Hans Nordelius, Mikael Carlsson",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "entity_type",
+          "value": "company",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Company overview and history section",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Company overview",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Company history: digital drums and Nord keyboards",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Company overview, manufacturing and instrument lists",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Nord Lead model history",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history",
+          "value": "Clavia Digital Musical Instruments (Clavia DMI AB)",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history",
+          "value": "Clavia DMI",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relations",
+          "value": "ddrum brand and products sold to Armadillo Enterprises",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relations",
+          "value": "keyboards made by Fatar in Italy and Kawai in Japan",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "Products and Discontinued products lists, plus history section",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "Nuvarande instrument and Aldre instrument lists with production years",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "Nord Lead series models and years",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Digital Percussion Plate 1",
+          "value": "1983",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.ddrum",
+          "value": "1984",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead",
+          "value": "1995",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead Rack",
+          "value": "1995",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Rack",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead 2",
+          "value": "1997",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Rack 2",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Modular",
+          "value": "1997",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Micro Modular",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead 3",
+          "value": "2001",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Rack 3",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro",
+          "value": "2001",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro Rack",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 2",
+          "value": "2002",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro Rack 2",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead 2X",
+          "value": "2003",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Rack 2X",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Modular G2",
+          "value": "2004",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Modular G2X",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage",
+          "value": "2005",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord C1",
+          "value": "2005",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Wave",
+          "value": "2007",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage EX",
+          "value": "2008",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 3",
+          "value": "2008",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead 2X Anniversary Edition",
+          "value": "2008",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord C2",
+          "value": "2009",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano",
+          "value": "2010",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage 2",
+          "value": "2011",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Drum",
+          "value": "2012",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord C2D",
+          "value": "2012",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 4",
+          "value": "2012",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano 2",
+          "value": "2012",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead 4",
+          "value": "2013",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Lead A1",
+          "value": "2014",
+          "source_url": "https://en.wikipedia.org/wiki/Nord_Lead",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Drum 2",
+          "value": "2014",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage 2 EX",
+          "value": "2015",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano 3",
+          "value": "2015",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 5",
+          "value": "2015",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano 4",
+          "value": "2017",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage 3",
+          "value": "2017",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Grand",
+          "value": "2019",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano 5",
+          "value": "2021",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Stage 4",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Grand 2",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 6",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Electro 7",
+          "value": "no year stated",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Wave 2",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Organ 3",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Piano 6",
+          "value": "no year stated",
+          "source_url": "https://sv.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Nord Drum 3P",
+          "value": "no year stated",
+          "source_url": "https://en.wikipedia.org/wiki/Clavia",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "relations.Armadillo Enterprises.year",
+          "values": [
+            {
+              "value": 2005,
+              "source_url": "https://en.wikipedia.org/wiki/Clavia"
+            },
+            {
+              "value": 2004,
+              "source_url": "https://sv.wikipedia.org/wiki/Clavia"
+            }
+          ],
+          "note": "The English article says the ddrum brand and products were sold in 2005 to the US distributor Armadillo Enterprises; the Swedish article says the ddrum trademark was sold in 2004 and names no buyer. Stored value follows the English article, which names the buyer."
+        }
+      ],
+      "review_note": "official_website is null: both articles only carry an unresolved 'Official website' / 'Clavias webbplats' link label with no URL in the extract. Neither source gives a street address, legal form details beyond the AB suffix, employee count, revenue or ownership, and neither states that Clavia was ever acquired, so status 'active' rests on the Swedish article's present tense product list dated 2026-06-26 and the English article's 2025 range summary. Instrument years: where the English article gives no year, the start year of the Swedish production ranges was used; instruments still on sale (Nord Stage 4, Grand 2, Electro 6, Electro 7, Wave 2, Organ 3, Piano 6, Drum 3P, Nord Wave 2) have no year in either source and are left null, as are the rack variants Nord Rack, Nord Rack 2, Nord Rack 2X, Nord Rack 3, Nord Electro Rack, Nord Electro Rack 2, Nord Modular G2X and Nord Micro Modular. The English article's sentence about March 2012 runs the Nord Drum and the Nord C1 together, which could be read as dating the C1 to 2012, but the same sentence says a Baroque organ emulation was added to the C1 in 2009 and the Swedish article gives the C1 a 2005 to 2009 production run, so 2005 is stored. The English list names 'Nord Electro 4D / HP' and 'Nord Electro 5D / HP' while the Swedish list names 'Nord Electro 4' and 'Nord Electro 5'; the plain names are stored. The Nord Modular family is described as software-based semi-modular, and the sources do not make the keyboard versus rack form unambiguous for the Modular, Modular G2, G2X and Micro Modular, so the plain 'synthesizer' category is used for those. Nord Electro and Nord Stage are stored as 'keyboard' because they combine organ, piano and in the Stage's case synth sections. Excluded from the instrument list as non sound generating: Nord Piano Monitor (monitor boxes) and Nord Pedal Keys 27 (MIDI organ pedalboard). The 1984 rack drum system with several EPROM sound modules is folded into the 'ddrum' entry, since the English article gives it no separate product name. Peter Jubel, who helped create the first Nord Lead and co-founded Propellerhead Software, is a person and not stored as a company relation."
+    }
+  ]
+}
