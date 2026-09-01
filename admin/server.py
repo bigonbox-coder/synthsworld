@@ -162,6 +162,12 @@ STYLE = """
 .forecast { margin-bottom: 12px; }
 .forecast h2 { font-size: 1rem; margin: 0 0 6px; opacity: .8; }
 .forecast-note { font-size: .78rem; opacity: .6; margin: 6px 2px 0; line-height: 1.45; }
+.needs { margin-top: 10px; }
+.needs h3 { font-size: .82rem; text-transform: uppercase; letter-spacing: .04em; opacity: .65; margin: 0 0 6px; }
+.need-list { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 3px; }
+.need-list li { display: flex; justify-content: space-between; gap: 10px; background: #fff; border: 1px solid #e5e3dd; border-radius: 6px; padding: 5px 10px; font-size: .86rem; }
+.need-list .dom { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.need-list .amount { opacity: .6; white-space: nowrap; }
 .instrument-list .cat { opacity: .75; font-size: .82em; border-left: 1px solid rgba(127,127,127,.4); margin-left: .35em; padding-left: .4em; }
 .instrument-list .tech { opacity: .6; font-size: .78em; font-style: italic; margin-left: .3em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
@@ -665,6 +671,31 @@ class Handler(http.server.BaseHTTPRequestHandler):
         pending_pages = con.execute(
             """SELECT COALESCE(SUM(product_urls), 0) FROM source_domains
                WHERE verdict='harvestable' AND product_urls > 0""").fetchone()[0]
+
+        # Kristof kerese (2026-09-01): "Ha kell leszedo szkript azt mutasd az
+        # adminon (mihez, mennyi)". Ez a munkalista: meres szerint feldolgozhato
+        # domainek, amikhez meg nincs leszedo, a hozam szerint sorrendben.
+        needs_harvester = con.execute(
+            """SELECT domain, product_urls, sitemap_urls, route_url
+               FROM source_domains
+               WHERE verdict='harvestable' AND harvester IS NULL
+               ORDER BY COALESCE(product_urls, 0) DESC, COALESCE(sitemap_urls, 0) DESC
+               LIMIT 12""").fetchall()
+
+        if needs_harvester:
+            rows = "".join(
+                f'<li><span class="dom">{esc(d)}</span>'
+                f'<span class="amount">{(str(p) + " termékoldal") if p else (str(u) + " cím")}</span></li>'
+                for d, p, u, _ in needs_harvester)
+            needs_html = (
+                '<div class="needs"><h3>Leszedő kell hozzá</h3>'
+                f'<ul class="need-list">{rows}</ul>'
+                '<p class="forecast-note">Mérés szerint feldolgozhatók, de még nincs aki '
+                'begyűjtse őket. Nem oldalanként külön script: a sitemapos források '
+                'egy közös leszedőt kapnak, forrásonként egy beállítással.</p></div>')
+        else:
+            needs_html = ""
+
         total_links = con.execute(
             "SELECT COUNT(*) FROM external_links").fetchone()[0]
         totals_html = (
@@ -743,6 +774,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     <div class="stat total"><span class="n">{pending_models}</span><span class="lbl">modellnév dokumentumból</span></div>
     <div class="stat total"><span class="n">{pending_pages}</span><span class="lbl">megmért termékoldal</span></div>
   </div>
+  {needs_html}
   <p class="forecast-note">Felső becslés, nem ígéret. A sorban álló nevek egy része el fog bukni a
   scope-teszten, a megmért termékoldalak közt pedig ott van a Yamaha fúvós- és gitárkínálata is.
   Feldolgozás nélkül ezekből még nem lesz rekord.</p>
