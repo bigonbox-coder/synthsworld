@@ -159,6 +159,9 @@ STYLE = """
 .instrument-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
 .instrument-list li { background: rgba(127,127,127,.14); border-radius: 4px; padding: .2rem .55rem; font-size: .9rem; }
 .instrument-list .year { opacity: .6; }
+.forecast { margin-bottom: 12px; }
+.forecast h2 { font-size: 1rem; margin: 0 0 6px; opacity: .8; }
+.forecast-note { font-size: .78rem; opacity: .6; margin: 6px 2px 0; line-height: 1.45; }
 .instrument-list .cat { opacity: .75; font-size: .82em; border-left: 1px solid rgba(127,127,127,.4); margin-left: .35em; padding-left: .4em; }
 .instrument-list .tech { opacity: .6; font-size: .78em; font-style: italic; margin-left: .3em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
@@ -641,6 +644,27 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # amibol nem derul ki, hogy 1546-bol hany van tenylegesen besorolva.
         categorised = con.execute(
             "SELECT COUNT(DISTINCT instrument_id) FROM instrument_categories").fetchone()[0]
+
+        # ELOREJELZES. Kristof kerdese (2026-09-01): latszodjon-e, hogy a mar
+        # begyujtott, de meg fel nem dolgozott anyagbol korulbelul mennyi uj
+        # gyarto es hangszer johet ki.
+        #
+        # Ezek FELSO BECSLESEK, nem joslaok, es a felirat ezt ki is mondja.
+        # A varolistan allo nevek egy resze el fog bukni a scope-teszten -- a
+        # Vektor es a Bontempi pont ilyen volt --, a megmert termekoldalak kozt
+        # pedig ott a Yamaha fuvos- es gitarkinalata is. A szam arra jo, hogy
+        # lassuk merre tart a dolog, nem arra hogy igerjunk vele.
+        #
+        # Mind a harom tiszta SQL, hogy a fooldal gyors maradjon.
+        pending_makers = con.execute(
+            "SELECT COUNT(*) FROM discovery_queue WHERE status='found'").fetchone()[0]
+        pending_models = con.execute(
+            """SELECT COUNT(*) FROM external_links
+               WHERE instrument_id IS NULL AND manufacturer_id IS NOT NULL
+                 AND source_name IN ('synfo','synthxl')""").fetchone()[0]
+        pending_pages = con.execute(
+            """SELECT COALESCE(SUM(product_urls), 0) FROM source_domains
+               WHERE verdict='harvestable' AND product_urls > 0""").fetchone()[0]
         total_links = con.execute(
             "SELECT COUNT(*) FROM external_links").fetchone()[0]
         totals_html = (
@@ -712,6 +736,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
 <div class="stats">{stats_html}</div>
 <div class="stats-row2">{logo_stats_html}</div>
 <div class="stats-row2">{totals_html}</div>
+<div class="forecast">
+  <h2>Ami a csőben van</h2>
+  <div class="stats-row2">
+    <div class="stat total"><span class="n">{pending_makers}</span><span class="lbl">gyártónév a sorban</span></div>
+    <div class="stat total"><span class="n">{pending_models}</span><span class="lbl">modellnév dokumentumból</span></div>
+    <div class="stat total"><span class="n">{pending_pages}</span><span class="lbl">megmért termékoldal</span></div>
+  </div>
+  <p class="forecast-note">Felső becslés, nem ígéret. A sorban álló nevek egy része el fog bukni a
+  scope-teszten, a megmért termékoldalak közt pedig ott van a Yamaha fúvós- és gitárkínálata is.
+  Feldolgozás nélkül ezekből még nem lesz rekord.</p>
+</div>
 {review_html}
 <input type="search" id="q" placeholder="Gyarto kereses..." oninput="filterList()">
 <div class="azbar" id="azbar">{azbar_html}</div>
