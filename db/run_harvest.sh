@@ -37,6 +37,9 @@ fi
 # a sajat linkgrafunk szorasa szerint all.
 if [ "$REFRESH" = "1" ]; then
   python3 db/probe_domains.py --top 20 2>&1 | sed 's/^/  domain:  /'
+  # A Wikidata nem valtozik naponta, es a vegpont vendegszeretetet sem
+  # illik heti egynel tobbszor igenybe venni.
+  python3 db/harvest_wikidata.py --ingest 2>&1 | tail -2 | sed 's/^/  wikidata: /'
 fi
 
 # A gyartoi honlapok csaladja: egy leszedo, forrasonkent egy beallitassal.
