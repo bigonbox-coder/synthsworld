@@ -159,6 +159,8 @@ STYLE = """
 .instrument-list { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: .4rem; }
 .instrument-list li { background: rgba(127,127,127,.14); border-radius: 4px; padding: .2rem .55rem; font-size: .9rem; }
 .instrument-list .year { opacity: .6; }
+.instrument-list .cat { opacity: .75; font-size: .82em; border-left: 1px solid rgba(127,127,127,.4); margin-left: .35em; padding-left: .4em; }
+.instrument-list .tech { opacity: .6; font-size: .78em; font-style: italic; margin-left: .3em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
 </style>
 <style>
@@ -635,9 +637,15 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # meaningless -- this is a progress readout, nothing more.
         total_instruments = con.execute(
             "SELECT COUNT(*) FROM instruments").fetchone()[0]
+        # A kategoria-munka haladasa. Enelkul csak a nyers hangszerszam latszik,
+        # amibol nem derul ki, hogy 1546-bol hany van tenylegesen besorolva.
+        categorised = con.execute(
+            "SELECT COUNT(DISTINCT instrument_id) FROM instrument_categories").fetchone()[0]
         total_links = con.execute(
             "SELECT COUNT(*) FROM external_links").fetchone()[0]
         totals_html = (
+            f'<div class="stat total"><span class="n">{categorised}</span>'
+            f'<span class="lbl">Besorolva</span></div>'
             f'<div class="stat total"><span class="n">{total_instruments}</span>'
             f'<span class="lbl">Hangszerek</span></div>'
             f'<div class="stat total"><span class="n">{total_links}</span>'
@@ -774,7 +782,8 @@ function filterList() {{
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
         instruments = con.execute(
-            """SELECT name, year, category FROM instruments WHERE manufacturer_id=?
+            """SELECT name, year, category, technology FROM instruments
+               WHERE manufacturer_id=?
                ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
         ).fetchall()
         notes = con.execute(
@@ -853,10 +862,18 @@ function filterList() {{
             yr = f'{nh["start_year"] or "?"}-{nh["end_year"] or "jelen"}'
             hist_html += f'<li class="timeline"><strong>{esc(nh["name"])}</strong> -- {esc(yr)}</li>'
 
+        # A kategoria eddig le volt kerdezve, de sosem jelent meg. Az esti
+        # kategoria-munka igy lathatatlan maradt azon a feluleten, ahol Kristof
+        # atnezi. A technologia ugyanigy. Mindketto apro cimke, hogy a lista
+        # olvashato maradjon.
+        TECH_LABEL = {"analog": "analóg", "digital": "digitális", "hybrid": "vegyes"}
         inst_html = ""
         for it in instruments:
             year = f' <span class="year">{it["year"]}</span>' if it["year"] else ""
-            inst_html += f'<li>{esc(it["name"])}{year}</li>'
+            cat = f' <span class="cat">{esc(it["category"])}</span>' if it["category"] else ""
+            tech = TECH_LABEL.get(it["technology"] or "")
+            tech = f' <span class="tech">{tech}</span>' if tech else ""
+            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}</li>'
 
         rel_html = ""
         for r in relations:
