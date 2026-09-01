@@ -32,6 +32,13 @@ if [ "$REFRESH" = "1" ]; then
   python3 db/harvest_synthxl.py --fetch 2>&1 | tail -3 | sed 's/^/  synthxl: /'
 fi
 
+# Heti korben megmerunk nehany meg nem vizsgalt forras-domaint. Csak a
+# refresh-korben, mert ez kulso oldalakat kerdez; huszan bosegesen eleg, a sor
+# a sajat linkgrafunk szorasa szerint all.
+if [ "$REFRESH" = "1" ]; then
+  python3 db/probe_domains.py --top 20 2>&1 | sed 's/^/  domain:  /'
+fi
+
 python3 db/harvest_synfo.py   --ingest 2>&1 | tail -3 | sed 's/^/  synfo:   /'
 python3 db/harvest_synthxl.py --ingest 2>&1 | tail -3 | sed 's/^/  synthxl: /'
 python3 db/relink_manuals.py  --apply  2>&1 | tail -2 | sed 's/^/  relink:  /'
