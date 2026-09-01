@@ -48,7 +48,7 @@ SLUG_ALIASES = {
     "akai": "Akai Professional",
     "e-mu-system": "E-mu Systems",
     "edp": "Electronic Dream Plant",
-    "electronic-music-studios": "Electronic Music Studios (London) Ltd.",
+    "electronic-music-studios": "EMS",
     "general-music": "Generalmusic",
     "hammond": "Hammond Organ Company",
     "kawai": "Kawai Musical Instruments",
@@ -62,8 +62,8 @@ SLUG_ALIASES = {
     "waldorf": "Waldorf Music",
     "buchla": "Buchla Electronic Musical Instruments",
     "electronic-music-laboratories": "Electronic Music Laboratories",
-    "wurlitzer": "The Rudolph Wurlitzer Company",
-    "hohner": "Hohner Musikinstrumente GmbH & Co. KG",
+    "wurlitzer": "Wurlitzer",
+    "hohner": "Hohner",
     "octave-plateau": "Octave-Plateau",
 }
 

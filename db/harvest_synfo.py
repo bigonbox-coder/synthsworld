@@ -56,12 +56,12 @@ FOLDER_ALIASES = {
     "Boss": "Roland",          # Boss is Roland's brand, not a separate company
     "Solina": "Eminent",
     "EDP": "Electronic Dream Plant",
-    "EMS": "Electronic Music Studios (London) Ltd.",
+    "EMS": "EMS",
     "Paia": "PAiA Electronics, Inc.",
     "EML": "Electronic Music Laboratories",
     "Octave": "Octave-Plateau",
     "Star": "Star Instruments",
-    "Pollard": "Pollard Industries",
+    "Pollard": "Pollard",
 }
 
 # Trailing tokens that describe the document, not the model.
