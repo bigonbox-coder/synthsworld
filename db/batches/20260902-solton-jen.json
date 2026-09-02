@@ -1,0 +1,58 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Solton",
+      "queue_name": "Solton",
+      "country": "Germany",
+      "city": "Pocking",
+      "founded_year": 1972,
+      "founders": "Josef Sperl",
+      "status": "active",
+      "official_website": "https://www.solton-acoustic.de/",
+      "entity_type": "company",
+      "short_history": "A SOLTON markat 1972-ben alapitotta Josef Sperl a nemetorszagi Pockingban, kezdetben gitar- es basszus-csoverositokkel es hangfalakkal. 1975-ben Europa elso forgohangszoro-kabinetjeivel tortek be a nemzetkozi piacra. 1979-ben leptek be az orgona-uzletagba, egyuttmukodesben a CRB Italy nevu olasz gyartoval, es ekkortol keszitettek elektronikus orgonakat. 1981-tol az olasz Ketronnal dolgoztak egyutt a billentyus hangszereken; a sajat tortenetuk az MS50 es az MS100 billentyus hangszereket emeli ki ebbol a korbol. 1983-tol a Klug & Sperl nev alatt akusztikus zongorakat is gyartottak Kronachban. Ma a ceg PRO-audio teruleten dolgozik, SOLTON es aa-CRAAFT markak alatt.",
+      "review_note": "KRISTOF KERESE 2026-09-02: en elobb azt mondtam, hogy a Solton nem kutathato, mert az angol es olasz Wikipedian a Solton egy szibériai falu, a cegrol pedig nincs szocikk. TEVEDTEM: a ceg sajat oldala (solton-acoustic.de) reszletes evszamos idovonalat kozol, es egy sima webkereses elso talalatai kozott volt. A hiba a modszerben volt, nem a forrasokban. FONTOS PONTOSITAS: a Solton NEM olasz, hanem NEMET marka. Az olasz kapcsolat a gyartas: az orgonak a CRB Italyval (1979-tol), a billentyus hangszerek a Ketronnal (1981-tol) keszultek. SCOPE: a hangfal-, erosito- es PA-termekcsalad (aa-CRAAFT, SIERA, Lucky Line, MIRA) NEM hangszer, ezert nem kerult be, es a Klug & Sperl AKUSZTIKUS zongorak sem. ORGONA-MODELL NINCS: a forras kimondja, hogy 1979-tol gyartottak elektronikus orgonakat, de egyetlen modellnevet sem ad, ezert egyet sem talaltam ki. AZ MS50 ES MS100 EVSZAM NELKUL all: a sajat tortenetuk csak annyit mond, hogy 1981 utan 'a kovetkezo evekben' szulettek. A Programmer 24 (1985) es az Arranger Plus (1987) forrasa masodlagos (matrixsynth es synthtopia), es a matrixsynth szovege ott egy video-leiras idezete, tehat felhasznaloi tartalom. A K160 (1990) a vintagesynth adatlapjarol jott, ami MAR A SAJAT LESZEDETT ADATUNKBAN benne volt.",
+      "relations": [
+        {"related_company": "CRB Italy", "relation_type": "collaboration", "year": 1979},
+        {"related_company": "Ketron", "relation_type": "collaboration", "year": 1981}
+      ],
+      "sources": [
+        {"field_name": "founded_year", "value": "1972", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "founders", "value": "Josef Sperl", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "city", "value": "Pocking", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "country", "value": "Germany", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "status", "value": "active", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "1972 alapitas, 1979 orgona CRB Italyval, 1981 Ketron-egyuttmukodes, MS50 es MS100", "source_url": "https://www.solton-acoustic.de/about-us", "source_tier": "manufacturer_official"},
+        {"field_name": "instruments", "value": "Programmer 24, 1985, Olaszorszagban a Ketron gyartotta", "source_url": "https://www.matrixsynth.com/2012/06/solton-programmer-24-drum-machine.html", "source_tier": "other"},
+        {"field_name": "instruments", "value": "Arranger Plus, 1987, Olaszorszagban a Ketron gyartotta", "source_url": "https://www.synthtopia.com/content/2020/01/07/the-solton-arranger-plus-the-amazing-italo-disco-machine/", "source_tier": "other"},
+        {"field_name": "instruments", "value": "K160, 1990", "source_url": "https://www.vintagesynth.com/solton/k160", "source_tier": "other"}
+      ],
+      "instruments": [
+        {"name": "MS50", "category": "keyboard", "source_url": "https://www.solton-acoustic.de/about-us"},
+        {"name": "MS100", "category": "keyboard", "source_url": "https://www.solton-acoustic.de/about-us"},
+        {"name": "Programmer 24", "year": 1985, "category": "Drum Machine", "source_url": "https://www.matrixsynth.com/2012/06/solton-programmer-24-drum-machine.html"},
+        {"name": "Arranger Plus", "year": 1987, "category": "keyboard", "source_url": "https://www.synthtopia.com/content/2020/01/07/the-solton-arranger-plus-the-amazing-italo-disco-machine/"},
+        {"name": "K160", "year": 1990, "category": "keyboard", "source_url": "https://www.vintagesynth.com/solton/k160"}
+      ]
+    },
+    {
+      "canonical_name": "Jen",
+      "queue_name": "Jen",
+      "country": "Italy",
+      "status": "unknown",
+      "entity_type": "company",
+      "short_history": "Olasz gyarto, amely a hetvenes evek vegen olcso analog monoszintetizatorokat keszitett Synthetone neven. A vintagesynth adatlapjai szerint az SX-1000 es az SX-2000 egyarant 1978 es 1982 kozott keszult. Az SX-1000 egy egyoszcillatoros monoszinti 37 billentyuvel, az SX-2000 pedig egy 44 billentyus, het gyari hangszinnel ellatott valtozat, amit orgona tetejere szantak.",
+      "name_history": [{"name": "Jen Electronics"}],
+      "review_note": "KRISTOF KERESE 2026-09-02, ugyanaz a tanulsag, mint a Soltonnal: elobb azt mondtam, nem kutathato, mert nincs Wikipedia-szocikke. Kozben a SAJAT LESZEDETT ADATUNKBAN (db/batches/vintagesynth-pages-1.json) ott allt mindket modell teljes adatlapja evszammal. ALAPITASI EV, VAROS, ALAPITO NINCS: egyik elert forras sem mondja ki. A STATUSZ unknown: a ceg sorsarol egyik forras sem nyilatkozik, es nem talaltunk elo hivatalos oldalt. A hivatalos hosszu cegnev (JEN Elettronica S.r.l.) csak keresesi osszefoglaloban bukkant fel, elsodleges forrasban nem, ezert NEM irtuk be; a nev_tortenetbe csak a vintagesynth altal hasznalt 'Jen Electronics' alak kerult. A ket evszam TARTOMANY kezdo eve (1978-1982 mindkettonel). Az equipboard.com/brands/jen, amit Kristof kuldott, HTTP 403-mal elutasitott minket, tehat abbol nem dolgoztunk. A JEN korabbi kulon varolistas sora (JEN Elettronica) ugyanez a ceg.",
+      "sources": [
+        {"field_name": "country", "value": "Italy", "source_url": "https://www.vintagesynth.com/jen-electronics/sx-1000-synthetone", "source_tier": "other"},
+        {"field_name": "short_history", "value": "SX-1000 es SX-2000 Synthetone, 1978-1982", "source_url": "https://www.vintagesynth.com/jen-electronics/sx-1000-synthetone", "source_tier": "other"},
+        {"field_name": "instruments", "value": "SX-2000 Synthetone, 1978-1982, orgona tetejere szant monoszinti", "source_url": "https://www.vintagesynth.com/jen-electronics/sx-2000-synthetone", "source_tier": "other"}
+      ],
+      "instruments": [
+        {"name": "SX-1000 Synthetone", "year": 1978, "category": "synthesizer", "source_url": "https://www.vintagesynth.com/jen-electronics/sx-1000-synthetone"},
+        {"name": "SX-2000 Synthetone", "year": 1978, "category": "synthesizer", "source_url": "https://www.vintagesynth.com/jen-electronics/sx-2000-synthetone"}
+      ]
+    }
+  ]
+}
