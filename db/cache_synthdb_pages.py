@@ -87,17 +87,31 @@ def main():
         if args.limit and done >= args.limit:
             break
         enc = urllib.parse.quote(url, safe=":/")
+        # BYTE-ban kerjuk, NEM text=True-val. Az oldal nem UTF-8: 2026-09-02-en
+        # a letoltes 23 oldal utan elszallt egy 0x92-es bajton (Windows-1252
+        # gorbe aposztrof), es a text=True miatt maga a subprocess dobta el,
+        # tehat nem lehetett elkapni oldal-szinten. Byte-ban jon, mi dontjuk el
+        # hogyan olvassuk: eloszor utf-8, aztan cp1252, vegul csere.
         g = subprocess.run(["curl", "-sSL", "--max-time", "30", "-A", UA, enc],
-                           capture_output=True, text=True)
+                           capture_output=True)
         time.sleep(DELAY)
         if g.returncode != 0 or not g.stdout:
             failed += 1
             print(f"  ! nem jott le: {mfr} / {model}")
             continue
+        raw = g.stdout
+        for codec in ("utf-8", "cp1252"):
+            try:
+                page = raw.decode(codec)
+                break
+            except UnicodeDecodeError:
+                continue
+        else:
+            page = raw.decode("utf-8", errors="replace")
         path.write_text(json.dumps({
             "manufacturer": mfr, "model": model, "url": url,
             "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-            "text": to_text(g.stdout),
+            "text": to_text(page),
         }, ensure_ascii=False, indent=1), encoding="utf-8")
         done += 1
         if done % 50 == 0:
