@@ -1,0 +1,283 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Mutable Instruments",
+      "queue_name": "Mutable Instruments",
+      "official_website": "https://mutable-instruments.net/",
+      "status": "defunct",
+      "ended_year": 2022,
+      "entity_type": "company",
+      "short_history": "Mutable Instruments eurorack modulokat keszito gyarto volt. Sajat dokumentacios archivuma szerint az elso ot modul 2013 augusztusaban jelent meg (Grids, Braids, Edges, Ripples, Volts), az utolso pedig a Beads 2021 februarjaban; a gyartas 2022 decembereben ert veget, amikor a ceg bezart. A modulok szoftvere es hardvere nyilt forrasu, a dokumentacio es a kapcsolasi rajzok tovabbra is elerhetok az archivumban.",
+      "review_note": "ORSZAG ES ALAPITO NINCS FORRASSAL. A ceg sajat oldala csak a bezarast mondja ki, a dokumentacios archivum pedig a modulokat es a datumaikat. Az angol Wikipedian NINCS szocikk, a Wikidata keresés sem ad talalatot, es a GitHub profil (pichenettes) nem ad meg helyet. A kozismert 'Parizs, Franciaorszag' es 'Emilie Gillet' allitast SZANDEKOSAN nem irtam be, mert egyik forras sem mondja ki. Ha Kristof elfogadja masodlagos forrasbol, potolhato.",
+      "sources": [
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://mutable-instruments.net/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "ended_year",
+          "value": "2022",
+          "source_url": "https://mutable-instruments.net/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://mutable-instruments.net/",
+          "source_url": "https://mutable-instruments.net/",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "short_history",
+          "value": "modul-idovonal 2013-2021, bezaras 2022 december",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/",
+          "source_tier": "manufacturer_official"
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Grids",
+          "year": 2013,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Braids",
+          "year": 2013,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Edges",
+          "year": 2013,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Ripples",
+          "year": 2013,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Volts",
+          "year": 2013,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Links (PCBCart)",
+          "year": 2014,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Tides",
+          "year": 2014,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Frames",
+          "year": 2014,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Yarns",
+          "year": 2014,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Peaks",
+          "year": 2014,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Clouds",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Shelves",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Elements",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Streams",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Shades",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Branches",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Shelves Expander",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Links",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Warps",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Rings",
+          "year": 2015,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Shelves 2015",
+          "year": 2016,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Kinks",
+          "year": 2016,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Blinds",
+          "year": 2016,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Veils",
+          "year": 2016,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Ears",
+          "year": 2016,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Marbles",
+          "year": 2018,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Plaits",
+          "year": 2018,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Stages",
+          "year": 2018,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Tides 2018",
+          "year": 2018,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Shades 2020",
+          "year": 2020,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Ripples 2020",
+          "year": 2020,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Veils 2020",
+          "year": 2020,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Blades",
+          "year": 2020,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        },
+        {
+          "name": "Beads",
+          "year": 2021,
+          "category": "module",
+          "source_url": "https://pichenettes.github.io/mutable-instruments-documentation/"
+        }
+      ]
+    },
+    {
+      "canonical_name": "Noise Engineering",
+      "queue_name": "Noise Engineering",
+      "country": "United States",
+      "official_website": "https://noiseengineering.us/",
+      "status": "active",
+      "entity_type": "company",
+      "short_history": "A Noise Engineering sajat oldala szerint egy kis csapat Del-Kaliforniaban, amely eurorack modulokat, szoftvert es pedalokat keszit ('Designed and built in Southern California'). Az oldal negy embert nevez meg: Stephen McCaul (Chief Noisemaker), Kris Kaiser, Markus Cancilla es Patrick O'Brien. Azt NEM mondja ki, hogy kozuluk ki alapito, es alapitasi evet sem ad meg.",
+      "review_note": "HANGSZER-LISTA MEG NINCS. A termekkatalogus JS-bol renderelodik, a sitemap 563 cimet ad (125 termekoldal), de a cim maga nem arulja el, hogy hardver modul, pedal vagy szoftver plugin. Kristof hardver-elsobbsege miatt ezt nem talalgatom: sajat leszedo kell hozza, ami a hardvert elvalasztja a szoftvertol. A domain felmerve a source_domains-ben. ALAPITASI EV ES ALAPITO NINCS FORRASSAL: az About oldal nem mondja ki.",
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://noiseengineering.us/pages/about",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://noiseengineering.us/pages/about",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://noiseengineering.us/",
+          "source_url": "https://noiseengineering.us/pages/about",
+          "source_tier": "manufacturer_official"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Del-Kalifornia, eurorack + szoftver + pedal",
+          "source_url": "https://noiseengineering.us/pages/about",
+          "source_tier": "manufacturer_official"
+        }
+      ],
+      "instruments": []
+    }
+  ]
+}
