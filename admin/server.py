@@ -774,6 +774,19 @@ class Handler(http.server.BaseHTTPRequestHandler):
                ORDER BY COALESCE(inbound_spread, 0) DESC, COALESCE(sitemap_urls, 0) DESC
                LIMIT 10""").fetchall()
 
+        # Kristof kerese (2026-09-02): "a sequencer.de-t is tedd a masik melle,
+        # hogy ezekkel tudjak foglalkozni". Ket forras all ma politikai tiltas
+        # alatt: a modulargrid.net kifejezetten AI-crawlereket tilt, a
+        # sequencer.de pedig Anubis proof-of-work vedelem mogott all, es a
+        # kiszolgalt oldal szo szerint az AI-scraping ellen hivatkozik.
+        # EZEKET NEM KERULJUK MEG. Viszont eddig sehol nem latszottak, tehat
+        # Kristof nem is tudott lepni az ugyben. Ez a lista neki szol: mi az,
+        # amihez EMBERI dontes vagy engedely kell.
+        blocked = con.execute(
+            """SELECT domain, verdict, note FROM source_domains
+               WHERE verdict IN ('blocked_policy', 'blocked_bot')
+               ORDER BY verdict, domain""").fetchall()
+
         def _need_block(title, rows, unit, note):
             if not rows:
                 return ""
@@ -792,6 +805,21 @@ class Handler(http.server.BaseHTTPRequestHandler):
             "Leszedő kell &middot; dokumentum-archívum", needs_other, "cím",
             "Van sitemapjuk, de nem termékkatalógus: szervizanyagok, szkennek, "
             "gyűjtemények. Ezekhez saját logika kell, a synfo mintájára.")
+
+        if blocked:
+            WHY = {"blocked_policy": "kifejezetten tiltja a gépi olvasást",
+                   "blocked_bot": "botvédelem áll a tartalom előtt"}
+            items = "".join(
+                f'<li><span class="dom">{esc(d)}</span>'
+                f'<span class="amount">{esc(WHY.get(v, v))}</span></li>'
+                for d, v, _n in blocked)
+            needs_html += (
+                '<div class="needs"><h3>Rád vár &middot; engedélyhez kötött forrás</h3>'
+                f'<ul class="need-list">{items}</ul>'
+                '<p class="forecast-note">Ezeket nem kerüljük meg és nem is fogjuk. '
+                'Amit te tudsz: megnyitod böngészőben és bemásolod a szöveget, vagy '
+                'engedélyt kérsz az üzemeltetőtől. Az indoklás forrásonként a '
+                'source_domains.note mezőben áll.</p></div>')
 
         total_links = con.execute(
             "SELECT COUNT(*) FROM external_links").fetchone()[0]
