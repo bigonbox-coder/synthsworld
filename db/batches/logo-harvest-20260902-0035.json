@@ -1,0 +1,44 @@
+[
+  {
+    "manufacturer_id": 42,
+    "name": "Formanta Radio Factory",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 49,
+    "name": "Linn",
+    "reason": "egyik talalat sem azonosithato biztosan",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 79,
+    "name": "Octave-Plateau",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 70,
+    "name": "PAiA Electronics, Inc.",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 72,
+    "name": "Pollard",
+    "reason": "Q2494039 nevben egyezik, de nem ceg (Unicode block (U+16F00-16F9F))",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 37,
+    "name": "Sound Transform Systems",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 69,
+    "name": "Star Instruments",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  }
+]

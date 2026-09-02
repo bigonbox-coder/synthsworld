@@ -75,33 +75,73 @@ UA = ("SynthsworldResearch/0.1 (synthsworld museum database; "
 WD_API = "https://www.wikidata.org/w/api.php"
 COMMONS_FILEPATH = "https://commons.wikimedia.org/wiki/Special:FilePath/"
 
-# P31 (instance of) ertekek, amik CEGET/SZERVEZETET jelentenek. Ezen a listan
-# bukik el a szivacsnemzetseg, a videojatek es a vezeteknev.
+# Az azonossag-teszt HAROM retege. A P31-lista onmagaban keves volt: a Hohner
+# es a Dynacord tetelen a P31 = Q167270 (brand), nem "company", ezert 2026-09-02
+# elso futasan mindketto elbukott -- pedig ott a szekhely, az alapitas eve, az
+# alapito es a hivatalos honlap. Egy vezeteknev-tetelen viszont EGYIK sincs.
+# Ezert: tiltolista + P31-lista + "cegjelek szamolasa".
+
+# 1. Amit sosem fogadunk el, barmi is a neve.
+REJECT_QIDS = {
+    "Q101352",     # family name
+    "Q12308941",   # male given name
+    "Q11879590",   # female given name
+    "Q3409032",    # unisex given name
+    "Q202444",     # given name
+    "Q16521",      # taxon
+    "Q7889",       # video game
+    "Q4167410",    # disambiguation page
+    "Q5",          # human
+    "Q4167836",    # category
+    "Q13406463",   # list article
+    "Q3624078",    # sovereign state
+    "Q3918",       # university
+    "Q875538",     # public university
+}
+
+# 2. Egyertelmu cegtipusok.
 COMPANY_QIDS = {
     "Q4830453",   # business
     "Q783794",    # company
     "Q6881511",   # enterprise
     "Q891723",    # public company
-    "Q210167",    # video game developer -- nem ide valo, lasd lent
-    "Q43229",     # organization
     "Q167037",    # corporation
     "Q1058914",   # software company
     "Q18388277",  # technology company
-    "Q3778211",   # legal person
-    "Q2085381",   # publisher
     "Q1786882",   # sole proprietorship
     "Q728646",    # limited company
-    "Q15911314",  # association
     "Q219577",    # holding company
     "Q740752",    # Aktiengesellschaft
-    "Q1364180",   # GmbH-fele
-    "Q10689397",  # television production company
-    "Q4830453",
+    "Q167270",    # brand -- a Hohner es a Dynacord is ez
+    "Q431289",    # brand (masodik azonosito ugyanarra)
 }
-# A Q210167 (video game developer) SZANDEKOSAN bent van: a Fairlight-fele
-# nevutkozesnel a videojatek MAGA nem ceg (az Q7889 = video game), a fejleszto
-# viszont valodi ceg lenne. A szures igy nem a jatekot fogadja el, hanem csak
-# egy ceget -- a nevegyezes es a honlap-egyezes donti el a tobbit.
+
+# 2b. A LEGEROSEBB jel ebben a projektben: a Wikidata sajat tipusa arra, hogy a
+#     tetel hangszergyarto ceg. A Hohner es a Rudolph Wurlitzer Company is ez.
+INSTRUMENT_MAKER_QIDS = {
+    "Q55190325",  # musical instrument manufacturing company
+    "Q1955150",   # musical instrument maker
+}
+
+# 3. Cegjelek. NEM dontenek magukban -- 2026-09-02-en kiprobaltam ugy, hogy ket
+#    cegjel (szekhely + alapitas + honlap) mar eleg legyen, es azonnal beengedte
+#    a Simmons University-t a Simmons dobgepgyarto helyere, es egy sved
+#    demoscene-csoportot a Fairlight helyere. Egy egyetemnek es egy
+#    demoscene-csoportnak ugyanugy van szekhelye es alapitasi eve, mint egy
+#    cegnek. A lista dokumentaciokent marad, dontesre nem hasznaljuk.
+COMPANY_SIGNAL_PROPS = (
+    "P452",    # industry
+    "P1056",   # product or material produced
+    "P159",    # headquarters location
+    "P571",    # inception
+    "P856",    # official website
+    "P112",    # founded by
+    "P169",    # chief executive officer
+    "P1128",   # employees
+    "P2403",   # total assets
+    "P355",    # subsidiary
+    "P127",    # owned by
+)
 
 # Hangszer-ipari kapaszkodo: ha a ceg P452 (industry) vagy P1056 (product)
 # mezoje hangszerre mutat, az onmagaban eros jel, hogy a JO ceget talaltuk.
@@ -191,7 +231,7 @@ def api_json(url):
 
 # ---------------------------------------------------------------- 1. fok: Wikidata
 
-def wd_search(name, limit=5):
+def wd_search(name, limit=8):
     url = (f"{WD_API}?action=wbsearchentities&format=json&language=en&uselang=en"
            f"&type=item&limit={limit}&search={urllib.parse.quote(name)}")
     d = api_json(url) or {}
@@ -202,7 +242,7 @@ def wd_entities(qids):
     if not qids:
         return {}
     url = (f"{WD_API}?action=wbgetentities&format=json&ids={'|'.join(qids)}"
-           f"&props=claims|labels|descriptions|sitelinks")
+           f"&props=claims|labels|aliases|descriptions|sitelinks")
     d = api_json(url) or {}
     return d.get("entities") or {}
 
@@ -243,6 +283,7 @@ def identify(name, our_site):
         if not e:
             continue
         label = ((e.get("labels") or {}).get("en") or {}).get("value", "")
+        aliases = [a.get("value", "") for a in (e.get("aliases") or {}).get("en", [])]
         sites = [domain(s) for s in claim_values(e, "P856")]
         p31 = set(claim_values(e, "P31"))
         industry = set(claim_values(e, "P452")) | set(claim_values(e, "P1056"))
@@ -250,13 +291,19 @@ def identify(name, our_site):
         if our_site and domain(our_site) and domain(our_site) in sites:
             return qid, e, f"honlap-egyezes ({domain(our_site)})"
 
-        name_ok = names_match(name, label)
-        if not name_ok:
+        if p31 & REJECT_QIDS:
+            continue
+        # A cimke mellett az aliasok is szamitanak: a Wikidata gondozott
+        # nevvaltozatai (ceg regi neve, rovid alak) pont ezt a celt szolgaljak.
+        if not (names_match(name, label)
+                or any(names_match(name, a) for a in aliases)):
             continue
         if industry & INSTRUMENT_HINT_QIDS:
             return qid, e, "nevegyezes + hangszeripari cegprofil"
+        if p31 & INSTRUMENT_MAKER_QIDS:
+            return qid, e, "nevegyezes + hangszergyarto ceg (Wikidata-tipus)"
         if p31 & COMPANY_QIDS:
-            return qid, e, "nevegyezes + ceg/szervezet tipus"
+            return qid, e, "nevegyezes + cegtipus"
         if fallback is None:
             desc = ((e.get("descriptions") or {}).get("en") or {}).get("value", "")
             fallback = f"{qid} nevben egyezik, de nem ceg ({desc or 'nincs leiras'})"
@@ -298,9 +345,22 @@ def rung_wikipedia(entity):
         time.sleep(0.6)
         text = (((d.get("parse") or {}).get("wikitext") or {}).get("*")) or ""
         m = WIKI_LOGO_RE.search(text)
-        if m:
-            fname = m.group(1).strip()
-            return COMMONS_FILEPATH + urllib.parse.quote(fname.replace(" ", "_"))
+        if not m:
+            continue
+        fname = m.group(1).strip()
+        # A fajl cimet a SAJAT wiki API-jatol kerjuk el, nem tippeljuk meg a
+        # Commons-utvonalat: az infobox hivatkozhat helyben feltoltott fajlra
+        # is. 2026-09-02: a Bontempi olasz szocikke "Bontempi.jpg"-t ir, ami a
+        # Commonson NINCS meg (404), a letoltes egy HTML hibaoldalt hozott.
+        info = api_json(
+            f"https://{lang}.wikipedia.org/w/api.php?action=query&format=json"
+            f"&prop=imageinfo&iiprop=url&titles=File:"
+            + urllib.parse.quote(fname.replace(" ", "_"))) or {}
+        time.sleep(0.4)
+        for page in ((info.get("query") or {}).get("pages") or {}).values():
+            ii = (page.get("imageinfo") or [])
+            if ii and ii[0].get("url"):
+                return ii[0]["url"]
     return None
 
 
@@ -341,8 +401,11 @@ def logo_candidates_from_html(html, base):
             u = absolutise(attrs.get("src") or attrs.get("data-src"), base)
             if u:
                 out.append(u)
+    # og:image CSAK akkor, ha a cimeben is ott van a "logo". A megosztasi
+    # elonezet altalaban egy hangulatkep: a dynacord.com 2026-09-02-en egy
+    # "cars-and-trucks_16_9.jpg"-t adott volna logokent.
     m = OG_RE.search(html or "")
-    if m:
+    if m and "logo" in (m.group(1) or "").lower():
         u = absolutise(m.group(1), base)
         if u:
             out.append(u)

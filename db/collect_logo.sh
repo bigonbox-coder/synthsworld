@@ -24,11 +24,22 @@ case "$TYPE" in
   *PNG*|*JPEG*|*JPG*)
     EXT="png"; case "$TYPE" in *JPEG*|*JPG*) EXT="jpg" ;; esac
     OUT="/tmp/synthlogos/${BASE}.${EXT}"
-    # Scale down only if either dimension exceeds 2000px; force_original_aspect_ratio
-    # keeps proportions; this never upscales a small logo (min() with the source size).
-    ffmpeg -y -loglevel error -i "$RAW" -vf "scale='min(2000,iw)':'min(2000,ih)':force_original_aspect_ratio=decrease" "$OUT"
-    rm -f "$RAW"
-    echo "Raster, resized if needed: $OUT"
+    # Only re-encode when the image is ACTUALLY too big. A logo is almost always
+    # well under 2000px, and running it through ffmpeg for nothing is both waste
+    # and risk: 2026-09-02 a 645x122 yuvj444p jpeg (the Bontempi wordmark) made
+    # ffmpeg fail with -22, so a perfectly good logo was dropped as "download
+    # failed". Measure first, convert only if needed.
+    W="$(ffprobe -v error -select_streams v:0 -show_entries stream=width -of csv=p=0 "$RAW" 2>/dev/null || echo 0)"
+    H="$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "$RAW" 2>/dev/null || echo 0)"
+    if [ "${W:-0}" -le 2000 ] && [ "${H:-0}" -le 2000 ] && [ "${W:-0}" -gt 0 ]; then
+      mv "$RAW" "$OUT"
+      echo "Raster ${W}x${H}, no resize needed: $OUT"
+    else
+      # force_original_aspect_ratio keeps proportions; min() never upscales.
+      ffmpeg -y -loglevel error -i "$RAW" -vf "scale='min(2000,iw)':'min(2000,ih)':force_original_aspect_ratio=decrease" "$OUT"
+      rm -f "$RAW"
+      echo "Raster ${W}x${H}, resized: $OUT"
+    fi
     ;;
   *)
     echo "Unrecognized file type for $URL: $TYPE" >&2
