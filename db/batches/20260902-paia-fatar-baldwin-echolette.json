@@ -1,0 +1,148 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Paia Corporation",
+      "queue_name": "Paia Corporation",
+      "country": "United States",
+      "city": "Oklahoma City",
+      "founded_year": 1967,
+      "founders": "John Simonton",
+      "official_website": "https://www.paia.com/",
+      "status": "unknown",
+      "entity_type": "company",
+      "short_history": "Amerikai szintetizator-epitokeszlet gyarto, az angol Wikipedia szerint PAiA Electronics, Inc. neven. John Simonton alapitotta 1967-ben Oklahoma Cityben, eleinte kisebb elektronikai keszleteket arult csomagkuldessel (az elso a Cyclops Intrusion Detector nyakja volt a Popular Electronics 1968 majusi szamahoz), 1972-tol pedig analog szintetizator-keszleteket gyartott modularis es egybeepitett formaban is. 1975 juniusaban inditotta a Polyphony magazint, amelyet kesobb Electronic Musician nevre kereszteltek es 1985-ben eladtak a Mix Publications-nek. Simonton a 2005 novembereben bekovetkezett halalaig vezette a ceget Oklahomaban; a termekmarketing, az ertekesites es a fejlesztes 2006 oszen kerult at a Paia Corporation-hoz, amely Austinban (Texas) es Edmondban (Oklahoma) mukodtet telephelyeket. A ceg sajat oldala 2026 aprilisa ota gyaszkozlemeny: Scott Lee 2026-04-21-en elhunyt, a paia.com atmenetileg offline marad, es a fia, Nathan Lee probalja ujrainditani a mukodest.",
+      "name_history": [
+        {"name": "PAiA Electronics, Inc."},
+        {"name": "Paia Corporation", "start_year": 2006}
+      ],
+      "review_note": "STATUSZ BIZONYTALAN, EZERT unknown. A paia.com 2026 aprilisa ota gyaszkozlemenyt mutat (Scott Lee, 1958-03-13 - 2026-04-21), az oldal sajat megfogalmazasa szerint 'temporarily remain offline', a fia probalja ujrainditani a ceget. Ez sem az aktiv mukodest, sem a megszunest nem mondja ki, es a Wikipedia szocikk sem allit ujabb allapotot, ezert nem allitottam sem active, sem defunct erteket. ORSZAG CSAK WIKIPEDIABOL: a paia.com jelenlegi allapotaban nem mondja ki a szekhelyet, igy a country egyetlen, nem hivatalos forrason all. TERMEKNEVEK BIZONYTALANSAGA: a Wikipedia szocikk a modularis alapmodellt egyszer 2720 (1972, gombos, billentyuzet nelkuli), egyszer 2700 ($230-tol indulo alapkonfiguracio) neven emliti, es a keszletet ugy fogalmazza, hogy 'A version with a keyboard, the 2720, was later released' -- a ket szam viszonya a forrasbol nem tisztazhato, ezert mindkettot felvettem kulon tetelkent. A 4700-as sorozathoz, a 9700-as vonalhoz, az Oz-hoz es a FatMan-hez a forras nem ad evszamot, ezert azok evszam nelkul allnak. KIHAGYVA a hangkeltes-teszt miatt: a 8700-as MOS 6503 alapu vezerlo (szamitogepes kontroller, nem hangforras), tovabba a szocikkben emlitett keverok es egyeb studioegysegek. A theremineket a forras csak mufajkent emliti, modellnev nelkul, ezert nem vettem fel egyetlen theremint sem.",
+      "sources": [
+        {"field_name": "country", "value": "United States", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics", "source_tier": "other"},
+        {"field_name": "city", "value": "Oklahoma City", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics", "source_tier": "other"},
+        {"field_name": "founded_year", "value": "1967", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics", "source_tier": "other"},
+        {"field_name": "founders", "value": "John Simonton", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics", "source_tier": "other"},
+        {"field_name": "status", "value": "unknown -- a hivatalos oldal gyaszkozlemeny, az oldal atmenetileg offline, az ujraindulas bizonytalan", "source_url": "https://www.paia.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "official_website", "value": "https://www.paia.com/", "source_url": "https://www.paia.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "alapitas, keszlet-uzletag, Polyphony magazin, tulajdonos-valtas 2006", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics", "source_tier": "other"},
+        {"field_name": "short_history", "value": "Scott Lee halala 2026-04-21, az oldal atmenetileg offline", "source_url": "https://www.paia.com/", "source_tier": "manufacturer_official"}
+      ],
+      "instruments": [
+        {"name": "2720", "year": 1972, "category": "modular synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "2700", "category": "modular synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "4700", "category": "modular synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "P4700J", "category": "modular synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "9700", "category": "modular synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "3740 Gnome", "year": 1974, "category": "synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "Programmable Drum Set", "year": 1975, "category": "drum machine", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "Oz", "category": "synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"},
+        {"name": "FatMan", "category": "synthesizer", "source_url": "https://en.wikipedia.org/wiki/PAiA_Electronics"}
+      ]
+    },
+    {
+      "canonical_name": "Fatar",
+      "queue_name": "Fatar",
+      "country": "Italy",
+      "city": "Recanati",
+      "founded_year": 1956,
+      "founders": "Lino Ragni",
+      "official_website": "https://www.fatar.com/",
+      "status": "active",
+      "entity_type": "company",
+      "short_history": "A Fatar 1956-ban alakult az olaszorszagi Recanatiban, az olasz hangszergyartas kozpontjaban; a nev a Fabbrica Tastiere Ragni roviditese, az alapito Lino Ragni volt, akihez kesobb testverei, Laurino, Paolo, Giuseppe es Claudio is csatlakoztak. A ceg fo profilja ma is billentyuzet-mechanikak (keybed) gyartasa digitalis zongorakhoz, szintetizatorokhoz, klasszikus es elektronikus orgonakhoz, valamint pedalbordokhoz, sajat allitasa szerint a vilag legszelesebb keybed-katalogusaval; nagy hangszergyartoknak szallit OEM/ODM partnerkent (az olasz Wikipedia peldakent Ensoniq, Kurzweil, Roland, Clavia, Korg, Alesis, Wersi es Casio neveit sorolja, korabbi vasarloikent pedig a Farfisat, az Elkat es a Crumart). A masodik szerepe sajat marka: a Studiologic nev alatt kesz hangszereket is gyart, a Numa csalad digitalis es szinpadi zongorait es orgonait, valamint MIDI-kontroller billentyuzeteket. Az angol Wikipedia szerint 1989-ben szabadalmaztatta sajat kalapacs-mechanika prototipusat, 1990-ben vezette be a vezetogumis kontaktust, 2008-ban pedig megjelent a teljesen ABS-bol keszult Numa billentyuzet-kontroller. A cegcsoport ket gyarban dolgozik: Recanati (10 000 negyzetmeter, 80 fo, fejlesztes es high-end keybed gyartas) es Tunezia (5 000 negyzetmeter, 150 fo, nagysorozatu gyartas).",
+      "review_note": "KETTOS SZEREP: a Fatar elsosorban keybed-beszallito, de a sajat Studiologic markaja alatt hangkelto hangszereket is gyart, ezert szerepel gyartokent. HANGKELTES-TESZT MIATT KIHAGYVA a Studiologic hivatalos termekadatbazisabol (studiologic-music.com/db/productsDB.json): a billentyuzet-kontrollerek (SL990XP, SL990Pro, VMK 88/161/161 Organ/176/188 Plus, Acuna 73, Acuna 88, SL88 Grand, SL88 Studio, SL73 Studio, SL73, SL88, SL88 GT, SL Mixface), az MP-113 es MP-117 MIDI-pedalbordok, valamint a pedalok, allvanyok es tokok. SZOFTVER, EZERT KIMARADT (hardver eloszor): Numa Player virtualis hangszer, Stage D, Vintage Pianos es a GRAN CODA by PSound hangkeszletek, tovabba a Smart Mapper. BIZONYTALAN, EZERT NEM VETTEM FEL: a Numa (2008), Numa Nero, Numa Nano, Numa Piano es a Sledge, Sledge 2.0, Sledge Black Edition, SUPERSLEDGE. A Numat az angol Wikipedia kifejezetten 'keyboard controller'-nek nevezi, tehat elbukik a hangkeltes-teszten; a tobbihez a hivatalos termekadatbazisban nincs leiras, a SUPERSLEDGE termekoldala pedig ures, es a Sledge csaladot csak egy Wikipedia-hivatkozas cime nevesiti, ami nem mondja ki, hogy hangkelto hangszer. Ezek kesobbi korben potolhatok, ha lesz ra kimondott forras. A Numa Organ es Numa Organ 2 besorolasa a termeknevbol es a Numa Organ 2 hivatalos leirasabol ('Designed to turn the wheels', vagyis huzoregiszteres orgona) all, nem kulon kimondott tipusmegjelolesbol. Az OEM-vasarlok listajat NEM vittem be relaciokent, mert az uj, kutatatlan csonkokat hozott volna letre olyan cegekre (CRB elettronica, Webo, Elgam, LOGAN Electronics), amelyek meg nincsenek az adatbazisban.",
+      "sources": [
+        {"field_name": "country", "value": "Italy", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "country", "value": "Italy", "source_url": "https://en.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "country", "value": "Italy", "source_url": "https://it.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "city", "value": "Recanati", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "city", "value": "Recanati", "source_url": "https://en.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "founded_year", "value": "1956", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "founded_year", "value": "1956", "source_url": "https://en.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "founders", "value": "Lino Ragni", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "founders", "value": "Lino Ragni", "source_url": "https://en.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "status", "value": "active", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "official_website", "value": "https://www.fatar.com/", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "alapitas 1956, Recanati, Lino Ragni es testverei, keybed-katalogus, ket gyar", "source_url": "https://www.fatar.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "sajat Studiologic marka, kesz hangszerek", "source_url": "https://www.studiologic-music.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "kalapacs-mechanika szabadalom 1989, vezetogumis kontaktus 1990, Numa 2008", "source_url": "https://en.wikipedia.org/wiki/Fatar", "source_tier": "other"},
+        {"field_name": "short_history", "value": "OEM-vasarlok listaja", "source_url": "https://it.wikipedia.org/wiki/Fatar", "source_tier": "other"}
+      ],
+      "instruments": [
+        {"name": "Numa Concert", "category": "digital piano", "source_url": "https://www.studiologic-music.com/db/productsDB.json"},
+        {"name": "Numa Stage", "category": "stage piano", "source_url": "https://www.studiologic-music.com/db/productsDB.json"},
+        {"name": "Numa Organ", "category": "electronic organ", "source_url": "https://www.studiologic-music.com/db/productsDB.json"},
+        {"name": "Numa Organ 2", "category": "electronic organ", "source_url": "https://www.studiologic-music.com/db/productsDB.json"},
+        {"name": "Numa Compact", "source_url": "https://www.studiologic-music.com/products/numacompact_se/"},
+        {"name": "Numa Compact 2", "source_url": "https://www.studiologic-music.com/products/numacompact_se/"},
+        {"name": "Numa Compact 2x", "source_url": "https://www.studiologic-music.com/"},
+        {"name": "Numa Compact SE", "source_url": "https://www.studiologic-music.com/products/numacompact_se/"},
+        {"name": "Numa Compact X SE", "source_url": "https://www.studiologic-music.com/products/numacompact_se/"},
+        {"name": "Numa X Piano 73", "category": "digital piano", "source_url": "https://www.studiologic-music.com/products/numa_x_piano/"},
+        {"name": "Numa X Piano 88", "category": "digital piano", "source_url": "https://www.studiologic-music.com/products/numa_x_piano/"},
+        {"name": "Numa X Piano GT", "category": "digital piano", "source_url": "https://www.studiologic-music.com/products/numa_x_piano_gt/"},
+        {"name": "Numa X Piano GTse", "category": "digital piano", "source_url": "https://www.studiologic-music.com/products/numa_x_piano_gtse/"}
+      ]
+    },
+    {
+      "canonical_name": "Baldwin",
+      "queue_name": "Baldwin",
+      "country": "United States",
+      "founded_year": 1890,
+      "founders": "Dwight Hamilton Baldwin",
+      "official_website": "https://www.baldwinpiano.com/",
+      "status": "acquired",
+      "entity_type": "company",
+      "short_history": "Amerikai zongoramarka, hivatalos neven Baldwin Piano Company. Az angol Wikipedia szerint a ceg gyokerei 1857-ig nyulnak vissza, amikor Dwight Hamilton Baldwin zongorat, orgonat es hegedut kezdett tanitani a Ohio allambeli Cincinnatiben; 1862-ben Decker Brothers zongorakereskedest nyitott, 1866-ban felvette Lucien Wulsint, akibol kesobb uzlettars lett, es a vallalkozas D.H. Baldwin & Company neven mukodott. 1889-ben vagy 1890-ben ket gyarto ceg alakult: a nadnyelves orgonakat epito Hamilton Organ es a zongorakat gyarto Baldwin Piano Company. 1946-ban mutatta be elso elektronikus orgonajat, amelyet 1941-ben fejlesztettek ki, es ennek sikere miatt valtozott a nev Baldwin Piano & Organ Company-ra. A popzenei fellendulesre 1965-ben a Burns of London gitargyarto, 1967-ben a Gretsch megvasarlasaval reagalt (a Gretsch gitaruzletagat 1989-ben adta vissza a csaladnak), 1963-ban pedig megszerezte a nemet C. Bechstein zongoragyartot, amelyet 1986-ig birtokolt. 1977-ben a United Corp-pal valo fuzio utan Baldwin-United lett a neve, majd az 1983-as, akkor rekordmeretu csod utan 1984-ben a zongorauzletagat a menedzsment vette meg, es 1986-ban Baldwin Piano and Organ Company neven ment tozsdere. Kesobb felvasarolta a Wurlitzert, 2001-ben a Gibson szerezte meg, az egyesult allamokbeli gyartas pedig 2008 decembereben allt le, a zongorak gyartasa Kinaba kerult.",
+      "name_history": [
+        {"name": "D.H. Baldwin & Company"},
+        {"name": "Baldwin Piano Company", "start_year": 1890},
+        {"name": "Baldwin Piano & Organ Company"},
+        {"name": "Baldwin-United", "start_year": 1977},
+        {"name": "Baldwin Piano and Organ Company", "start_year": 1986}
+      ],
+      "conflicts": [
+        "founded_year: 1890 az angol Wikipedia szerint ('Founded in 1890', a szoveg maga 1889 vagy 1890 alakot ir a gyarto ceg megalakulasara) vs. 1862 a baldwinpiano.com szerint ('The company got its start in 1862'), ami a zongorakereskedes indulasat veszi kezdetnek, nem a gyartast"
+      ],
+      "review_note": "NINCS FELVETT HANGSZER EBBOL A BATCHBOL. A ket forras nevesitett modelljei kizarolag akusztikus zongorak (BP 148, BP 152/Model R, BP 165, BP 178, BP 190, BP 211 szarnyzongorak, illetve B342/B42 es B442/B42 Acrosonic, B243/B47 Hamilton, B252 Concert Vertical, BP1, BPE1, BP3, BP3T, BP5, BP-X5 pianinok), ezek pedig nem valok elektronikus hangszer-adatbazisba. Az elektronikus orgonarol a Wikipedia csak annyit mond, hogy 1946-ban mutattak be az elsot (1941-ben fejlesztettek ki), MODELLNEVET NEM AD, ezert nem talaltam ki egyetlen orgonamodellt sem. A baldwinpiano.com jelenleg csak zongorat kinal (Grand, Academy Series, Upright), elektronikus termeket nem nevesit. Az adatbazisban mar szerepel egy Syntha-Sound (1973) tetel korabbi kutatasbol; ezt a ket mostani forras egyike sem emliti, tehat nem erositettem meg, de nem is nyultam hozza. RELACIOK SZUKITVE: csak a Gibson (2001, acquired_by) es a Wurlitzer (acquired) kapcsolatot vittem be, mert ezek a cegek mar szerepelnek az adatbazisban. A Burns of London (1965), a Gretsch (1967, visszaadva 1989) es a C. Bechstein (1963-1986) kapcsolatot szandekosan NEM vittem be, mert uj, kutatatlan csonkokat hozott volna letre gitar- es akusztikuszongora-gyartokra, ami kivul esik a scope-on. VAROS NINCS KITOLTVE: a szekhely a forras szerint tobbszor valtozott (Cincinnati, majd 1986-tol Loveland, 1998-tol Deerfield Township), egyertelmu aktualis erteket nem ad.",
+      "sources": [
+        {"field_name": "country", "value": "United States", "source_url": "https://en.wikipedia.org/wiki/Baldwin_Piano_Company", "source_tier": "other"},
+        {"field_name": "country", "value": "United States", "source_url": "https://www.baldwinpiano.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "founded_year", "value": "1890", "source_url": "https://en.wikipedia.org/wiki/Baldwin_Piano_Company", "source_tier": "other"},
+        {"field_name": "founders", "value": "Dwight Hamilton Baldwin", "source_url": "https://en.wikipedia.org/wiki/Baldwin_Piano_Company", "source_tier": "other"},
+        {"field_name": "founders", "value": "Dwight Hamilton Baldwin", "source_url": "https://www.baldwinpiano.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "status", "value": "acquired", "source_url": "https://en.wikipedia.org/wiki/Baldwin_Piano_Company", "source_tier": "other"},
+        {"field_name": "official_website", "value": "https://www.baldwinpiano.com/", "source_url": "https://www.baldwinpiano.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "alapitas, nevvaltozasok, elektronikus orgona 1946, felvasarlasok, Gibson 2001, gyartas leallitasa 2008", "source_url": "https://en.wikipedia.org/wiki/Baldwin_Piano_Company", "source_tier": "other"},
+        {"field_name": "short_history", "value": "1862-es indulas, D.H. Baldwin & Company, Trumann-i gyar", "source_url": "https://www.baldwinpiano.com/", "source_tier": "manufacturer_official"}
+      ],
+      "relations": [
+        {"related_company": "Gibson", "relation_type": "acquired_by", "year": 2001},
+        {"related_company": "Wurlitzer", "relation_type": "acquired"}
+      ],
+      "instruments": []
+    },
+    {
+      "canonical_name": "Echolette",
+      "queue_name": "Echolette",
+      "country": "Germany",
+      "official_website": "https://www.echolette.com/",
+      "status": "acquired",
+      "entity_type": "company",
+      "short_history": "Az Echolette az 1950-es es 1960-as evek egyik legismertebb europai enek- es hangszererosito, valamint effektkeszulek gyartoja volt. A nemet Wikipedia szerint Arthur Klemt az 1930-as evekben alapitotta a vallalkozast Radio Klemt neven a Munchen melletti Olchingban; az 1950-es evek kozepen Hans Bauer zenekari muzsikus otletere indult el a Klemtnel egy negycsatornas kevero-erosito gyartasa. Az Echolette 1959-tol lett a haz osszes erositojenek es effektkeszulekenek markaneve, es a nevhez fuzodo osszes markajog Hans Bauert illette, aki a sajat, munchen szekhelyu Echolette-Vertrieb cegen keresztul forgalmazta a Klemt termekeit. A kinalat gyorsan bovult az NG-sorozat szalagecho- es zengetokeszulekeivel, hangfalakkal, basszuserositokkel es mikrofonokkal; a mikrofonokat az AKG Acoustics es a Sennheiser, a hangfalakat a berlini Isophon gyartotta, es Bauer csak a markanevet tette rajuk. 1969-ben a Dynacord felvasarolta az Echolettet, amelyben Bauer viszont reszesedest szerzett; az 1970-es evek keszulekei egy ideig azonos kivitelben Dynacord neven is piacra kerultek, majd 1981-tol mar minden uj keszulek csak Dynacord neven keszult. Bauer 1981-ben eladta a Dynacord-reszesedeset, a markajogok a Dynacordnal maradtak, amely korabbi tulajdonosaval, a Telex Communications-szel egyutt 2006 ota a Robert Bosch GmbH resze. A markanev 2016-ban tert vissza az MK I ketcsatornas, teljesen csoves gitar-topteljel es a hozza tartozo 2x12 collos hangfallal.",
+      "review_note": "SCOPE-TESZT: AZ ECHOLETTE ELBUKIK A HANGKELTES-TESZTEN, EZERT AZ INSTRUMENTS LISTA URES. A forrasokban nevesitett osszes termek hangatalakito vagy hangerosito eszkoz, nem hangkelto hangszer: M40 Gold Cage negycsatornas enek- es hangszererosito (1959), NG51 S szalagecho (1960), Showstar gitarerosito (1962), ME I es ME II forgohangszorok (1971), ME IV E forgohangszoro tranzisztoros Space-Sound-dal (1978), tovabba az NG-sorozat tobbi szalagecho- es zengetokeszuleke, hangfalak, basszuserositok es a mas gyartoktol (AKG, Sennheiser) atcimkezett mikrofonok, valamint a 2016-os MK I csoves gitarerosito a hozza tartozo 2x12 collos hangfallal. Egyetlen orgona, zongora, szintetizator vagy mas hangkelto hangszer sem szerepel a forrasokban. A gyarto adatlapjat ettol fuggetlenul erdemes megtartani, mert a Dynacord-kapcsolat az adatbazisban mar szereplo ceghez kot. FORRAS-MEGJEGYZES: a www.echolette.de NEM a gyarto oldala, HTTP 302-vel a bandecho.de-re iranyit at, ami egy tobbmarkas gyujtoi-dokumentacios archivum (Allsound, Dynacord, Echolette, Hohner, Schaller, Vermona kezikonyvekkel es kapcsolasi rajzokkal), ezert az onnan szarmazo allitas source_tier-je 'other'. Hivatalos oldalkent a nemet Wikipedia altal nevesitett echolette.com szerepel, ez a 2016-ban ujraindult Echolette Amplification marka oldala. ALAPITASI EV NINCS: a forras csak annyit mond, hogy Arthur Klemt 'az 1930-as evekben' alapitotta a Radio Klemtet, pontos evszam nelkul, ezert nem toltottem ki a founded_year mezot. A VAROS sem egyertelmu: a gyartas Olchingban folyt (Klemt), a markat forgalmazo Echolette-Vertrieb viszont munchen szekhelyu volt, ezert a city mezo ures. ALAPITO SINCS KITOLTVE: Arthur Klemt a Radio Klemtet alapitotta, Hans Bauer pedig a markanev jogtulajdonosa es forgalmazoja volt, egyikuk sem nevezheto a forras alapjan egyertelmuen az Echolette alapitojanak.",
+      "sources": [
+        {"field_name": "country", "value": "Germany", "source_url": "https://de.wikipedia.org/wiki/Echolette", "source_tier": "other"},
+        {"field_name": "country", "value": "Germany", "source_url": "https://www.echolette.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "status", "value": "acquired", "source_url": "https://de.wikipedia.org/wiki/Echolette", "source_tier": "other"},
+        {"field_name": "official_website", "value": "https://www.echolette.com/", "source_url": "https://de.wikipedia.org/wiki/Echolette", "source_tier": "other"},
+        {"field_name": "short_history", "value": "Klemt/Echolette tortenet, markajogok, Dynacord felvasarlas 1969, Bosch 2006, MK I 2016", "source_url": "https://de.wikipedia.org/wiki/Echolette", "source_tier": "other"},
+        {"field_name": "short_history", "value": "az 1950-es evekben alapitott nemet marka visszaterese, MK I csoves gitarerosito", "source_url": "https://www.echolette.com/", "source_tier": "manufacturer_official"},
+        {"field_name": "short_history", "value": "Echolette keszulek-katalogus: bandechok (E51, NG-sorozat, SE251), erositok (M40, M70, M80, M100, Showstar S40), hangfalak (ET es LE sorozat)", "source_url": "https://bandecho.de/", "source_tier": "other"}
+      ],
+      "relations": [
+        {"related_company": "Dynacord", "relation_type": "acquired_by", "year": 1969}
+      ],
+      "instruments": []
+    }
+  ]
+}

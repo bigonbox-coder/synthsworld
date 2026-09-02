@@ -21,8 +21,23 @@ case "$TYPE" in
     mv "$RAW" "/tmp/synthlogos/${BASE}.svg"
     echo "SVG, no resize needed: /tmp/synthlogos/${BASE}.svg"
     ;;
-  *PNG*|*JPEG*|*JPG*)
+  *PNG*|*JPEG*|*JPG*|*GIF*)
+    # GIF is converted to PNG, never kept: 2026-09-02 the Echolette wordmark
+    # (300x93 GIF, echolette.com) was dropped as "unrecognized file type"
+    # because only PNG/JPEG/SVG were listed here. A logo in GIF is old but
+    # perfectly usable, and the admin serves PNG anyway.
     EXT="png"; case "$TYPE" in *JPEG*|*JPG*) EXT="jpg" ;; esac
+    if [ "${TYPE#*GIF}" != "$TYPE" ]; then
+      OUT="/tmp/synthlogos/${BASE}.png"
+      # -frames:v 1 and an explicit rgba pixel format are BOTH needed: a GIF is
+      # paletted (pal8) and may hold several frames, and without these ffmpeg
+      # answers -22 (Invalid argument) instead of writing the file.
+      ffmpeg -y -loglevel error -i "$RAW" -frames:v 1 \
+        -vf "scale='min(2000,iw)':'min(2000,ih)':force_original_aspect_ratio=decrease,format=rgba" "$OUT"
+      rm -f "$RAW"
+      echo "GIF converted to PNG: $OUT"
+      exit 0
+    fi
     OUT="/tmp/synthlogos/${BASE}.${EXT}"
     # Only re-encode when the image is ACTUALLY too big. A logo is almost always
     # well under 2000px, and running it through ffmpeg for nothing is both waste
