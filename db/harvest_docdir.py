@@ -38,6 +38,9 @@ import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from maker_lookup import MakerLookup  # noqa: E402
+
 DB = Path(__file__).resolve().parent / "synthsworld.sqlite"
 UA = "SynthsworldResearch/0.1 (synthsworld museum database; contact kristof.gal@gmail.com)"
 
@@ -146,16 +149,19 @@ def main():
     print(f"\n{len(rows)} dokumentum {len({r[0] for r in rows})} gyarto-mappaban")
 
     con = sqlite3.connect(DB)
-    makers = {r[1]: r[0] for r in con.execute("SELECT id, canonical_name FROM manufacturers")}
+    # A feloldas kozos (db/maker_lookup.py): rovid nev, hosszu ceg-alak es
+    # nev-tortenet egyutt. A lenti aliases tabla a HOSSZU alakokra mutat, ami a
+    # 2026-09-02-i nev-modell ota mar nem a canonical_name -- enelkul a Korg, a
+    # Moog, a Roland, a Buchla es az EML mappaja csendben kimaradt.
+    makers = MakerLookup(con)
     norm = lambda s: re.sub(r"[^a-z0-9]", "", (s or "").lower())
-    by_norm = {norm(k): v for k, v in makers.items()}
 
     have = {r[0] for r in con.execute(
         "SELECT url FROM external_links WHERE source_name=?", (args.source,))}
     ts, new, unknown = now_iso(), 0, set()
     for folder, hint, url in rows:
         want = src["aliases"].get(folder, folder)
-        mid = makers.get(want) or by_norm.get(norm(want))
+        mid = makers.find(want)
         if mid is None:
             unknown.add(folder)
             continue

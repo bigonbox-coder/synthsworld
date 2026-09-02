@@ -37,6 +37,9 @@ import urllib.parse
 from datetime import datetime, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from maker_lookup import MakerLookup  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent
 DB = ROOT / "synthsworld.sqlite"
 CACHE = ROOT / "cache" / "synfo-servicemanuals.html"
@@ -137,19 +140,17 @@ def parse():
 
 def resolve(conn):
     """-> (folder -> manufacturer_id), unresolved folders"""
-    makers = {r[0]: r[1] for r in conn.execute(
-        "select canonical_name, id from manufacturers")}
-    alt = {}
-    for name, mid in conn.execute(
-            "select name, manufacturer_id from manufacturer_name_history"):
-        alt.setdefault(norm(name), mid)
-    by_norm = {norm(k): v for k, v in makers.items()}
+    # Kozos feloldas (db/maker_lookup.py): rovid nev + hosszu ceg-alak +
+    # nev-tortenet. A FOLDER_ALIASES a HOSSZU alakokra mutat ("Arp" ->
+    # "ARP Instruments"), ami a 2026-09-02-i nev-modell ota nem canonical_name.
+    makers = MakerLookup(conn)
+    by_norm = makers.by_norm
 
     mapping, missing = {}, []
     folders = {r["folder"] for r in parse()}
     for f in sorted(folders):
         want = FOLDER_ALIASES.get(f, f)
-        mid = makers.get(want) or by_norm.get(norm(want)) or alt.get(norm(want))
+        mid = makers.find(want)
         if mid is None:
             # last resort: a unique prefix match, e.g. "Kurzweil" -> "Kurzweil Music Systems"
             hits = [v for k, v in by_norm.items() if k.startswith(norm(want)) and len(norm(want)) > 3]

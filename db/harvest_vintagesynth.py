@@ -26,6 +26,9 @@ import xml.etree.ElementTree as ET
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+from maker_lookup import MakerLookup  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
 from harvest_wikipedia_instruments import load_makers  # noqa: E402
 
 DB_PATH = Path(__file__).resolve().parent / "synthsworld.sqlite"
@@ -140,6 +143,7 @@ def main():
 
     conn = sqlite3.connect(DB_PATH)
     index = load_makers(conn)          # lowercase name -> canonical_name
+    lookup = MakerLookup(conn)         # rovid + hosszu + nev-tortenet -> fonev
 
     known = existing_names(conn)
     found, unmapped = {}, {}
@@ -152,9 +156,12 @@ def main():
         maker_slug, model_slug = parts
         if maker_slug in SKIP_SLUGS or model_slug in SKIP_SLUGS:
             continue
-        maker = SLUG_ALIASES.get(maker_slug.lower())
+        # A SLUG_ALIASES a HOSSZU ceg-alakra mutat ("korg" -> "Korg Inc."), ami a
+        # 2026-09-02-i nev-modell ota mar nem a canonical_name. A kozos feloldo
+        # visszaadja a MOSTANI fonevet, tehat a tabla javitas nelkul is ervenyes.
+        maker = lookup.canonical(SLUG_ALIASES.get(maker_slug.lower()) or "")
         if not maker:
-            maker = index.get(maker_slug.replace("-", " ").lower())
+            maker = lookup.canonical(maker_slug.replace("-", " "))                 or index.get(maker_slug.replace("-", " ").lower())
         name = title_case(model_slug)
         if not maker:
             unmapped.setdefault(maker_slug, []).append(name)

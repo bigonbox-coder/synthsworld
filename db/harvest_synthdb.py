@@ -101,6 +101,11 @@ def main():
     known = {}
     for r in conn.execute("SELECT id, canonical_name FROM manufacturers"):
         known[key(r["canonical_name"])] = (r["id"], r["canonical_name"])
+    # A hosszu ceg-alak is egyezes: a forras hol a rovid, hol a teljes nevet
+    # hasznalja, es a ketto ugyanaz a ceg (nev-modell, 2026-09-02).
+    for r in conn.execute("SELECT id, canonical_name, long_name FROM manufacturers "
+                          "WHERE long_name IS NOT NULL"):
+        known.setdefault(key(r["long_name"]), (r["id"], r["canonical_name"]))
     for r in conn.execute("SELECT h.name, m.id, m.canonical_name FROM manufacturer_name_history h "
                           "JOIN manufacturers m ON m.id = h.manufacturer_id"):
         known.setdefault(key(r["name"]), (r["id"], r["canonical_name"]))

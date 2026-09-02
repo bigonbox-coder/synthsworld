@@ -33,6 +33,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from maker_lookup import MakerLookup  # noqa: E402
+
 SITEMAP = "https://synthmania.com/wp-sitemap-posts-post-1.xml"
 DB_PATH = Path(__file__).resolve().parent / "synthsworld.sqlite"
 CACHE = Path(__file__).resolve().parent / "cache" / "synthmania"
@@ -110,6 +113,7 @@ def main():
 
     conn = sqlite3.connect(DB_PATH)
     index = load_makers(conn)
+    lookup = MakerLookup(conn)
     existing = {c for (c,) in conn.execute("SELECT canonical_name FROM manufacturers")}
 
     by_maker, pages, unknown = {}, [], {}
@@ -121,7 +125,11 @@ def main():
             continue
         canon = None
         for brand in post["brands"]:
-            cand = BRAND_ALIASES.get(brand.lower()) or index.get(brand.lower())
+            # Ugyanaz mint a vintagesynth-nel: a BRAND_ALIASES a hosszu alakot
+            # adja, a kozos feloldo a mostani fonevet (nev-modell, 2026-09-02).
+            cand = (lookup.canonical(BRAND_ALIASES.get(brand.lower()) or "")
+                    or lookup.canonical(brand)
+                    or index.get(brand.lower()))
             if cand in existing:
                 canon = cand
                 break

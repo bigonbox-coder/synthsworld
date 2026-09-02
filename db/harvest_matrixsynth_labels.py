@@ -116,6 +116,9 @@ def known_names(conn):
     """
     names = set()
     for sql in ("SELECT canonical_name FROM manufacturers",
+                # A hosszu ceg-alak is ismert nev: nelkule a "Korg Inc." tipusu
+                # cimke ujra jeloltkent jelenne meg (nev-modell, 2026-09-02).
+                "SELECT long_name FROM manufacturers WHERE long_name IS NOT NULL",
                 "SELECT name FROM manufacturer_name_history",
                 "SELECT manufacturer_name FROM discovery_queue"):
         names |= {norm(n) for (n,) in conn.execute(sql) if n}
