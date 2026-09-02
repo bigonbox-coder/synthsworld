@@ -1,0 +1,32 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Matth. Hohner AG",
+      "queue_name": "Matth. Hohner AG",
+      "country": "Germany",
+      "entity_type": "company",
+      "short_history": "A Matth. Hohner AG a Hohner-csoport anyavallalata: az angol Wikipedia Hohner-szocikke szerint a hangszereket gyarto Hohner Musikinstrumente GmbH & Co. KG ennek a leanyvallalata. NEM kulon gyarto tehat, hanem a mar meglevo Hohner (id 64) rekord tulajdonosi oldala. A reszvenytarsasagban 1989-ben a Kunz-Holding GmbH & Co. szerzett 67 szazalekos iranyito reszesedest, majd 1997-ben a tajvani KHS Musical Instruments vasarolta meg a tobbseget.",
+      "review_note": "NEM GYARTO, HANEM ANYAVALLALAT. Azert kap sajat rekordot, mert a Hohner (id 64) tortenete nevesiti, es mert eddig ures csonkkent allt a kikutatatlan gyartok kozott, ahol felesleges kort inditott volna. A hangszerek MIND a Hohner (id 64) rekordhoz tartoznak, ide egy sem kerul. Sajat alapitasi evet, varost es alapitot NEM irtunk be: a forras nem az AG-rol, hanem a hangszergyarto leanyvallalatrol mondja ezeket. Kristof kerese volt 2026-09-02-en, hogy a Hohner rendbe legyen teve, es ez a ket rekord kozotti viszony rendezese.",
+      "relations": [
+        {"related_company": "Hohner", "relation_type": "owner_of"},
+        {"related_company": "Kunz-Holding GmbH & Co.", "relation_type": "acquired_by", "year": 1989},
+        {"related_company": "KHS Musical Instruments", "relation_type": "acquired_by", "year": 1997}
+      ],
+      "sources": [
+        {
+          "field_name": "short_history",
+          "value": "a hangszergyarto Hohner Musikinstrumente GmbH & Co. KG a Matth. Hohner AG leanyvallalata",
+          "source_url": "https://en.wikipedia.org/wiki/Hohner",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "Germany",
+          "source_url": "https://en.wikipedia.org/wiki/Hohner",
+          "source_tier": "other"
+        }
+      ],
+      "instruments": []
+    }
+  ]
+}

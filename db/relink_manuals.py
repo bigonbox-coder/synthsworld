@@ -35,13 +35,16 @@ from collections import Counter
 from pathlib import Path
 
 DB = Path(__file__).resolve().parent / "synthsworld.sqlite"
-SOURCES = ("synfo", "synthxl")
+SOURCES = ("synfo", "synthxl", "bandecho")
+# A bandecho 2026-09-02-en jott hozza. Nemet archivum, ezert a doku-vegzodesek
+# nemetul allnak a fajlnevben (Handbuch, Schaltplan, Prospekt, Flyer), es a
+# cimke maga a fajlnev, mert az anchor szovege minden linken csak "Download".
 
 DOC_TAIL = re.compile(
     r"\s+(service manual|service notes|service information|schematics|schematic|"
     r"repair manual|owners manual|midiguide|test-program|construction|parts list|"
     r"bedienungsanleitung|bauanleitung|document|engineering-change|installation|"
-    r"tunen-vorgang|developement-report|resource book)$", re.I)
+    r"tunen-vorgang|developement-report|resource book|handbuch|handbuecher|schaltplan|schaltplaene|schaltbild|bedienungs-und-serviceanleitung|bedienung-und-serviceanleitung|serviceanleitung|prospekt|flyer|brochure|katalog|preisliste|garantieschein|werks-pruefprotokoll)$", re.I)
 
 
 def norm(s):

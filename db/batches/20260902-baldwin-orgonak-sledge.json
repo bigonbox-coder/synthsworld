@@ -1,0 +1,72 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Baldwin",
+      "queue_name": "Baldwin",
+      "city": "Cincinnati",
+      "review_note": "KRISTOF ADTA A KET FORRAST 2026-09-02-en, mert a delelotti korben nulla hangszer jott ki: a Wikipedia es a baldwinpiano.com csak akusztikus zongoramodelleket nevesit, az elektronikus orgonarol pedig csak annyit mondanak, hogy 1946-ban jott az elso. A theatreorgans.com Baldwin Organ Page viszont MODELLSZINTEN sorolja oket, ezert most 10 elektronikus orgona bekerult. EVSZAM-ELLENTMONDAS a ket forras kozott: a theatreorgans.com szerint a Model 5 1946-ban jelent meg, a 120years.net kepalaírasa szerint 'Baldwin Organ Model Five 1947'. Az 1946-ot vettuk, mert azt a forras FOSZOVEGE mondja ki, a masikat csak egy kepalairas. NEVESITETT MODELL NELKUL MARADT: az 1971-es elso Baldwin elektromos zongora (a forras nem ad neki nevet), es az 'Orga-Sonic 1166-A', ami szinten csak kepalairasban all. A 'Howard' nem modell, hanem alnev: a forras szerint egyes spinet- es konzolorgonak ezen a neven jelentek meg. A mar bent levo Syntha-Sound (1973) egyik uj forrasban sem szerepel, tehat nem erositettuk meg, de nem is bantottuk.",
+      "sources": [
+        {
+          "field_name": "city",
+          "value": "Cincinnati",
+          "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "10 elektronikus orgona modellszinten, evszamokkal",
+          "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "az elso Baldwin orgona 1946, Winston E. Kock tervezte, neon gazkisulesu csovekkel",
+          "source_url": "https://120years.net/the-baldwin-organ-winston-e-kock-usa-1946/",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        "Model 5 megjelenesi eve: 1946 a theatreorgans.com foszovege szerint ('In 1946, Baldwin released to market its first electronic organ, the Model 5') vs. 1947 a 120years.net kepalairasa szerint ('Winston Kock's Baldwin Organ Model Five 1947')"
+      ],
+      "relations": [
+        {"related_company": "Wurlitzer", "relation_type": "acquired", "year": 1988}
+      ],
+      "instruments": [
+        {"name": "Model 5", "year": 1946, "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Model 5-A", "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Model 10", "year": 1950, "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Model 11", "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Model 45", "year": 1953, "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Model 45-HP", "year": 1958, "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Orga-Sonic", "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "HT-2", "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "HT-2R", "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"},
+        {"name": "Fun Machine", "year": 1974, "category": "electronic organ", "source_url": "http://theatreorgans.com/hammond/keng/kenhtml/Baldwin%20Organ%20Page.htm"}
+      ]
+    },
+    {
+      "canonical_name": "Fatar",
+      "queue_name": "Fatar",
+      "review_note": "KRISTOF ADTA A FORRAST 2026-09-02-en: a delelotti korben a Sledge kimaradt, mert a gyarto sajat oldala nem mondja ki, mi az. A Sound On Sound recenzioja (Gordon Reid, 2012 november) kimondja: 'Studiologic Sledge, Virtual Analogue Synthesizer', es azt is, hogy 'Studiologic isn't a company in the conventional sense; it's a trading name of Fatar' -- ez fuggetlen megerositese a kettos szerepnek. A Sledge 2.0 es a Sledge Black Edition a gyarto SAJAT termek-adatbazisaban ugyanabban a csoportban all (support: sledge), tehat ugyanannak a hardver-szintinek a valtozatai; evszamuk nincs kimondva, ezert ures. A SUPERSLEDGE SZANDEKOSAN KIMARADT: a termekoldalanak azonositoja 'vsledge', nincs hardver-tamogatasi csoportja, es sem az oldal, sem az adatbazis nem mondja ki, hogy fizikai eszkoz. A hardver-elsobbseg mellett ezt nem talalgatjuk, emberi dontesre var. Ugyanigy kimaradt tovabbra is a Numa (2008), amit a Wikipedia kifejezetten kontrollernek hiv, es a Numa Nero / Nano / Piano, amikrol egyik forras sem mondja ki, hogy sajat hangkeltesuk van.",
+      "sources": [
+        {
+          "field_name": "instruments",
+          "value": "Sledge: virtual analogue synthesizer, 2012 november",
+          "source_url": "https://www.soundonsound.com/reviews/studiologic-sledge",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "Sledge 2.0 es Sledge Black Edition a gyarto sajat termek-adatbazisaban",
+          "source_url": "https://www.studiologic-music.com/db/productsDB.json",
+          "source_tier": "manufacturer_official"
+        }
+      ],
+      "instruments": [
+        {"name": "Sledge", "year": 2012, "category": "synthesizer", "source_url": "https://www.soundonsound.com/reviews/studiologic-sledge"},
+        {"name": "Sledge 2.0", "category": "synthesizer", "source_url": "https://www.studiologic-music.com/db/productsDB.json"},
+        {"name": "Sledge Black Edition", "category": "synthesizer", "source_url": "https://www.studiologic-music.com/db/productsDB.json"}
+      ]
+    }
+  ]
+}
