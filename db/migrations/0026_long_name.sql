@@ -1,0 +1,25 @@
+-- Rovid (ismert) nev es hosszu (teljes) cegnev egyutt.
+--
+-- Kristof, 2026-09-02: "a Gyartoknal a nevet hasznalhatjuk ugy hogy amelyiknek
+-- van hosszu neve, annal azt is megjegyezzuk, tehat pl.: Buchla es a hosszu
+-- neve Buchla Electronic Musical Instruments. Ez kulonosen hasznos lesz
+-- azoknal, mint az EML (ez az ismert elnevezes de megjegyezzuk a Electronic
+-- Music Laboratories nevet is. Az adminban a fonev a nagyobb, alatta picivel
+-- lehet a hosszabb nev, ezt majd a vegleges website-on is igy fogom."
+--
+-- Eddig a canonical_name-ben a TELJES cegnev allt (Buchla Electronic Musical
+-- Instruments, Kawai Musical Instruments, Korg Inc.), es a rovid, kozismert
+-- alak sehol. Ez ket bajt okozott. Egyreszt a listak olvashatatlanok, mert
+-- mindenki a jogi nevevel szerepel. Masreszt a kulso forrasok a ROVID alakot
+-- hasznaljak, tehat minden importnal ujra es ujra duplikatum-gyanu keletkezett
+-- (2026-09-02, synth-db: ARP, Buchla, E-mu, Formanta, Kurzweil, PAiA, Waldorf).
+--
+-- Mostantol:
+--   canonical_name = a KOZISMERT nev, ez a fonev, ez latszik nagyban
+--   long_name      = a teljes ceg-alak, ez megy ala kicsiben (lehet NULL)
+--
+-- A manufacturer_name_history TOVABBRA IS mas: az a cegnev VALTOZASA idoben
+-- (start_year/end_year). A long_name nem tortenet, hanem ugyanannak a nevnek
+-- a hosszu alakja ugyanabban a pillanatban.
+
+ALTER TABLE manufacturers ADD COLUMN long_name TEXT;

@@ -80,7 +80,7 @@ def main() -> None:
 
     cur.execute(
         """
-        SELECT id, canonical_name, country, city, founded_year, ended_year,
+        SELECT id, canonical_name, long_name, country, city, founded_year, ended_year,
                founders, short_history, long_history,
                official_website, status, confidence_level, entity_type
         FROM manufacturers

@@ -211,6 +211,10 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .dot.needs_review { background: #d9a520; }
   .dot.unresearched { background: #8b93a3; }
   .name { font-weight: 600; font-size: 1.05rem; }
+  /* A teljes ceg-alak. Kristof kerese 2026-09-02: a fonev a nagyobb, alatta
+     picivel a hosszabb nev. Ugyanez megy majd a vegleges weboldalra is. */
+  .longname { font-size: 0.78rem; opacity: 0.62; margin-top: 1px; }
+  .longname-big { font-size: 0.95rem; opacity: 0.62; margin: -2px 0 6px; }
   .sub { color: #666; font-size: 0.85rem; margin-top: 2px; }
   h1 { font-size: 1.3rem; margin: 4px 0 10px; }
   .meta-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 10px; font-size: 0.85rem; color: #555; }
@@ -578,7 +582,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # for later, but they must not pad the company review queue. ?people=1
         # shows them, so they are hidden rather than lost.
         rows = con.execute(
-            f"""SELECT id, canonical_name, country, founded_year, confidence_level
+            f"""SELECT id, canonical_name, long_name, country, founded_year, confidence_level
                 FROM manufacturers
                 WHERE entity_type = '{"individual" if people else "company"}'
                 ORDER BY canonical_name COLLATE NOCASE"""
@@ -631,6 +635,9 @@ class Handler(http.server.BaseHTTPRequestHandler):
             # on) -- left blank for not_found/not_attempted so it can't
             # accidentally match that filter.
             logo_review_attr = (review or "none") if status == "found" else ""
+            # A teljes ceg-alak a fonev ala megy, kicsiben (Kristof, 2026-09-02).
+            longname_html = (f'<div class="longname">{esc(r["long_name"])}</div>'
+                             if r["long_name"] else "")
             return (
                 f'<a class="card" href="/manufacturer/{r["id"]}" '
                 f'data-confidence="{esc(r["confidence_level"])}" '
@@ -639,6 +646,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
+                f'{longname_html}'
                 f'<div class="sub">{esc(", ".join([x for x in (r["country"], str(r["founded_year"]) if r["founded_year"] else None) if x]))}{review_pill}</div>'
                 f'</div>'
                 f'{logo_html}'
@@ -1058,6 +1066,7 @@ function filterList() {{
 <a class="back" href="/">&larr; vissza a listahoz</a>
 <div class="logo-strip">{logos_html}</div>
 <h1>{esc(m["canonical_name"])}</h1>
+{f'<div class="longname-big">{esc(m["long_name"])}</div>' if m["long_name"] else ''}
 <div class="meta-row">
 <span class="pill {esc(conf)}">{pill_label}</span>
 <span>{esc(", ".join([x for x in (m["city"], m["country"]) if x]))}</span>
