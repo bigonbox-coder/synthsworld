@@ -1,0 +1,116 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Steiner-Parker",
+      "queue_name": "Steiner Parker",
+      "country": null,
+      "city": "Salt Lake City",
+      "official_website": null,
+      "status": "unknown",
+      "founded_year": null,
+      "ended_year": null,
+      "founders": "Nyle Steiner",
+      "entity_type": "company",
+      "short_history": "Steiner-Parker was a Salt Lake City based synthesizer manufacturer. Its best documented product is the Synthacon, a monophonic analog synthesizer built between 1975 and 1979 and introduced as a more affordable competitor to the Minimoog and the ARP Odyssey. The Synthacon used the same circuitry as Steiner-Parker's modular synthesizer of the same period, the SynthaSystem, and carried three voltage-controlled oscillators, two ADSR envelope generators, a pink and white noise generator, a 49-key keyboard and a 12dB per octave multimode filter designed by company co-founder Nyle Steiner. The company sold only a few hundred Synthacons, and around 1977 it also developed the Microcon, a smaller version of the Synthacon, for the Swede Patch 2000 synthesizer and guitar hybrid. The Steiner-Parker filter circuit outlived the instrument itself: it appears in contemporary modular synthesizer designs because of its low cost and ease of construction, and it is the basis of the filter in Arturia's MiniBrute and the Minibrute and Polybrute series of analog keyboard synthesizers.",
+      "long_history": "The sources support only a short account of the company itself, so this record stays close to what they state. Steiner-Parker is described as a synthesizer manufacturer based in Salt Lake City. It released the Synthacon in 1975 and built it until 1979, positioning it as a more affordable competitor to the Minimoog and the ARP Odyssey. The Synthacon shared its circuitry with the SynthaSystem, Steiner-Parker's modular synthesizer of the same period, and although the Synthacon was not a modular system, signal routing could be achieved through a series of switches. Its filter was designed by company co-founder Nyle Steiner and is a 12dB per octave multimode design that can work as a resonant low-pass, high-pass or band-pass filter, is capable of self-oscillation, and, because it uses positive feedback, does not lose output amplitude as resonance is increased. According to Nyle Steiner, several hundred Synthacons were made and sold, and the instrument is considered relatively rare. Around 1977 Steiner-Parker developed the Microcon, a smaller version of the Synthacon, for the Swede Patch 2000 synthesizer and guitar hybrid. The company's lasting influence is its filter circuit, often called the Steiner-Parker filter, which is found in contemporary modular synthesizer designs and which Yves Usson adapted, under guidance from Nyle Steiner, for the Arturia MiniBrute, with improvements meant to reduce the chaotic behaviour of the original circuit. The second source deals with Nyle Steiner as an individual inventor rather than with the company: it credits him with bringing the EVI wind synthesizer to market in the 1970s and with inventing the EWI, whose first working models appeared in the 1970s and which reached the market commercially in the early 1980s, and it states that Akai later took over the EVI and EWI instruments from Steiner. Neither the EVI nor the EWI is attributed to Steiner-Parker in that source, so neither is recorded here as a Steiner-Parker instrument.",
+      "name_history": [],
+      "instruments": [
+        {
+          "name": "Synthacon",
+          "year": 1975,
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon"
+        },
+        {
+          "name": "SynthaSystem",
+          "year": null,
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon"
+        },
+        {
+          "name": "Microcon",
+          "year": 1977,
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon"
+        }
+      ],
+      "relations": [],
+      "sources": [
+        {
+          "field_name": "canonical_name",
+          "value": "Steiner-Parker",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "city",
+          "value": "Salt Lake City",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "entity_type",
+          "value": "company, described as a synthesizer manufacturer",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Nyle Steiner, called a company co-founder",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "unknown, neither source states whether the company still exists",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Company overview, Development, Sales and Legacy sections of the Synthacon article",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Company overview, Development, Synthesis model, Sales, Legacy and See also sections",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "History and Operation sections on Nyle Steiner's EVI and EWI and the Akai takeover",
+          "source_url": "https://en.wikipedia.org/wiki/Electronic_wind_instrument",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments",
+          "value": "Synthacon, SynthaSystem and Microcon named as Steiner-Parker products",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Synthacon",
+          "value": "1975, monophonic analog synthesizer built between 1975 and 1979",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.SynthaSystem",
+          "value": "no year stated, Steiner-Parker's modular synthesizer of the same period",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instruments.Microcon",
+          "value": "around 1977, a smaller version of the Synthacon developed for the Swede Patch 2000",
+          "source_url": "https://en.wikipedia.org/wiki/Steiner-Parker_Synthacon",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [],
+      "review_note": "Strict two-source pass, both Wikipedia, so no manufacturer_official tier evidence exists for any field. country is null on purpose: the article only says 'Salt Lake City-based' and never names a country, and naming one would be inference rather than a stated fact. founded_year, ended_year and official_website are null because neither source states them; 1975 to 1979 is the Synthacon's production span, not the company's lifetime, so it was not reused as founded_year or ended_year. status is 'unknown' because neither source says whether Steiner-Parker still trades, was wound up or was acquired. founders holds only Nyle Steiner, who is called a 'company co-founder'; the other co-founder or founders are never named, and the Parker half of the name is never explained. The Microcon year is recorded as 1977 but the source says 'around 1977', so treat it as approximate. The SynthaSystem has no year: it is only dated as 'of the same period' as the Synthacon. No relations rows were written. The Arturia link is real but is described as Yves Usson designing the MiniBrute filter under guidance from Nyle Steiner based on the Synthacon filter, which is a design lineage rather than a stated corporate relationship, and the Akai takeover in the second source is explicitly a takeover of instruments 'from Steiner' the person, not from Steiner-Parker. Both are described in long_history instead. The EWI and EVI are deliberately not in the instruments list for the same reason. The Steiner-Parker filter is not listed as an instrument because the sources present it as a circuit inside the Synthacon and in other makers' products, not as a product the company sold. Injection check: nothing in either extract read as an instruction, command or request aimed at the reader; both are ordinary encyclopaedic prose."
+    }
+  ]
+}
