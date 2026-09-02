@@ -106,11 +106,16 @@ def main():
 
     # 5. Varolistas nev, ami PONTOSAN egyezik egy meglevo gyartoval: a
     #    duplikatum-szuro nem futott le a legutobbi beemeles ota.
+    # A csonk (unresearched) gyartokhoz tartozo sorok SZANDEKOSAN maradnak a
+    # sorban: eppen azok inditanak kutatast a csonkra. A queue_dupe_check.py is
+    # bekene hagyja oket, tehat itt sem szabad hibakent jelenteni -- kulonben az
+    # ellenorzes minden nap ugyanazt a nem-hibat kiabalja.
     dupes = con.execute(
         """SELECT COUNT(*) FROM discovery_queue q
             WHERE q.status='found'
               AND EXISTS (SELECT 1 FROM manufacturers m
-                           WHERE lower(m.canonical_name) = lower(q.manufacturer_name))"""
+                           WHERE lower(m.canonical_name) = lower(q.manufacturer_name)
+                             AND m.confidence_level <> 'unresearched')"""
     ).fetchone()[0]
     if dupes:
         stale.append(f"{dupes} varolistas nev PONTOSAN egyezik egy meglevo gyartoval "
