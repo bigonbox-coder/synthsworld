@@ -174,14 +174,70 @@ def apply_fact(conn, fact):
     return cur.rowcount
 
 
+def show_proposals(conn):
+    """A javaslatok allapota. A dontesre varok legfelul, mert azok az enyeim."""
+    order = {"proposed": 0, "approved": 1, "implemented": 2, "rejected": 3}
+    rows = sorted(conn.execute("SELECT * FROM derivation_rule_proposals"),
+                  key=lambda r: (order.get(r["status"], 9), r["rule_name"]))
+    if not rows:
+        print("nincs egyetlen szabaly-javaslat sem")
+        return 0
+    for r in rows:
+        print(f"\n[{r['status']}] {r['rule_name']}")
+        print(f"  {r['description']}")
+        if r["evidence"]:
+            print(f"  bizonyitek: {r['evidence']}")
+        if r["affects"]:
+            print(f"  erintene:   {r['affects']}")
+        if r["note"]:
+            print(f"  megjegyzes: {r['note']}")
+    pending = sum(1 for r in rows if r["status"] == "proposed")
+    print(f"\n{len(rows)} javaslat, ebbol {pending} var dontesre")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--apply", action="store_true", help="irjon is, ne csak mutasson")
     ap.add_argument("--rule", action="append", help="csak ezt a szabalyt futtassa")
+    ap.add_argument("--proposals", action="store_true",
+                    help="a szabaly-javaslatok listaja, futtatas nelkul")
+    ap.add_argument("--propose", nargs=2, metavar=("NEV", "LEIRAS"),
+                    help="uj szabaly-javaslat felvetele")
+    ap.add_argument("--evidence", help="--propose melle: a mert bizonyitek")
+    ap.add_argument("--affects", help="--propose melle: hany rekordot erintene")
+    ap.add_argument("--decide", nargs=2, metavar=("NEV", "ALLAPOT"),
+                    help="dontes: approved | rejected | implemented")
+    ap.add_argument("--note", help="--decide melle: miert")
     args = ap.parse_args()
 
     conn = sqlite3.connect(DB)
     conn.row_factory = sqlite3.Row
+
+    if args.propose:
+        conn.execute(
+            "INSERT OR REPLACE INTO derivation_rule_proposals "
+            "(rule_name, description, evidence, affects, status) "
+            "VALUES (?, ?, ?, ?, 'proposed')",
+            (args.propose[0], args.propose[1], args.evidence, args.affects))
+        conn.commit()
+        print(f"felveve: {args.propose[0]} (dontesre var)")
+        return 0
+
+    if args.decide:
+        name, status = args.decide
+        if status not in ("approved", "rejected", "implemented"):
+            print("az allapot csak approved, rejected vagy implemented lehet")
+            return 2
+        cur = conn.execute(
+            "UPDATE derivation_rule_proposals SET status = ?, note = ?, decided_at = ? "
+            "WHERE rule_name = ?", (status, args.note, now_iso(), name))
+        conn.commit()
+        print(f"{name}: {status}" if cur.rowcount else f"nincs ilyen javaslat: {name}")
+        return 0 if cur.rowcount else 1
+
+    if args.proposals:
+        return show_proposals(conn)
 
     names = args.rule or list(RULES)
     unknown = [n for n in names if n not in RULES]
