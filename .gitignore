@@ -11,3 +11,7 @@ admin/admin.error.log
 
 __pycache__/
 *.pyc
+
+# A synth-db oldal-cache (1903 fajl, 12 MB) generalt es barmikor ujra
+# letoltheto a db/cache_synthdb_pages.py-vel. Nem tartozik a tortenetbe.
+db/cache/

@@ -596,6 +596,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
         counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
         logo_counts = {"needs_approval": 0, "outdated": 0, "wrong": 0,
                        "not_found": 0, "not_attempted": 0}
+        # Hangszer-szintu ellenorzendo (0027). Ma 36 ilyen sor van: a synth-db
+        # sitemapja felsorolta oket, de a forras-oldal halott. A kartya azert
+        # kap sajat dimenziot, hogy a fooldalrol egy kattintassal eloallnak
+        # azok a gyartok, akiknel van ilyen hangszer.
+        inst_review_makers = {r[0] for r in con.execute(
+            "SELECT DISTINCT manufacturer_id FROM instruments "
+            "WHERE review_status='needs_review'")}
+        inst_review_count = con.execute(
+            "SELECT COUNT(*) FROM instruments WHERE review_status='needs_review'"
+        ).fetchone()[0]
         enriched = []
         for r in rows:
             lstatus, lpath = logo_status(con, r["id"])
@@ -642,6 +652,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'<a class="card" href="/manufacturer/{r["id"]}" '
                 f'data-confidence="{esc(r["confidence_level"])}" '
                 f'data-logo-status="{esc(status)}" '
+                f'data-inst-review="{"needs_review" if r["id"] in inst_review_makers else ""}" '
                 f'data-logo-review="{esc(logo_review_attr)}">'
                 f'<div class="card-text">'
                 f'<span class="dot {esc(r["confidence_level"])}"></span>'
@@ -781,6 +792,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
             f'<span class="lbl">Hangszerek</span></div>'
             f'<div class="stat total"><span class="n">{total_links}</span>'
             f'<span class="lbl">Külső linkek</span></div>'
+            + (f'<div class="stat needs_review clickable" data-filter-dim="inst-review" '
+               f'data-filter-val="needs_review" onclick="toggleFilter(this)">'
+               f'<span class="n">{inst_review_count}</span>'
+               f'<span class="lbl">Hangszer: forrás?</span></div>'
+               if inst_review_count else "")
         )
 
         logo_stats_html = "".join(
@@ -939,7 +955,8 @@ function filterList() {{
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
         instruments = con.execute(
-            """SELECT name, year, category, technology FROM instruments
+            """SELECT name, year, category, technology, review_status, review_note
+               FROM instruments
                WHERE manufacturer_id=?
                ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
         ).fetchall()
@@ -1031,7 +1048,14 @@ function filterList() {{
             cat = f' <span class="cat">{esc(it["category"])}</span>' if it["category"] else ""
             tech = TECH_LABEL.get(it["technology"] or "")
             tech = f' <span class="tech">{tech}</span>' if tech else ""
-            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}</li>'
+            # Hangszer-szintu ellenorzendo jelzes (0027). Ma 36 ilyen van: a
+            # synth-db sitemapja felsorolta oket, de a forras-oldal halott.
+            # A cimke a note-ot hordozza, hogy a dontes ne igenyeljen nyomozast.
+            flag = ""
+            if it["review_status"] == "needs_review":
+                flag = (f' <span class="pill needs_review" title="{esc(it["review_note"] or "")}">'
+                        f'forrás?</span>')
+            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{flag}</li>'
 
         rel_html = ""
         for r in relations:
