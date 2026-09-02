@@ -1,0 +1,74 @@
+[
+  {
+    "manufacturer_id": 47,
+    "name": "Bontempi",
+    "reason": "a talalt cim nem toltheto le: https://commons.wikimedia.org/wiki/Special:FilePath/Bontempi.jpg",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 73,
+    "name": "Dynacord",
+    "reason": "Q15806909 nevben egyezik, de nem ceg (nincs leiras)",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 44,
+    "name": "Fairlight",
+    "reason": "Q3661010 nevben egyezik, de nem ceg (1985 video game)",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 42,
+    "name": "Formanta Radio Factory",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 64,
+    "name": "Hohner",
+    "reason": "Q677705 nevben egyezik, de nem ceg (German manufacturer of musical instruments)",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 79,
+    "name": "Octave-Plateau",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 70,
+    "name": "PAiA Electronics, Inc.",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 72,
+    "name": "Pollard",
+    "reason": "Q16881317 nevben egyezik, de nem ceg (family name)",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 54,
+    "name": "Simmons",
+    "reason": "Q113128547 nevben egyezik, de nem ceg (given name)",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 37,
+    "name": "Sound Transform Systems",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 69,
+    "name": "Star Instruments",
+    "reason": "a Wikidata nem ismeri ezt a nevet",
+    "our_site": null
+  },
+  {
+    "manufacturer_id": 56,
+    "name": "Wurlitzer",
+    "reason": "Q109769675 nevben egyezik, de nem ceg (family name)",
+    "our_site": null
+  }
+]
