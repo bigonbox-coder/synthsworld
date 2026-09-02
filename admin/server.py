@@ -120,6 +120,11 @@ LOGO_STAT_LABELS = {
     "outdated": "Elavult",
     "wrong": "Téves",
     "not_found": "Nincs logó",
+    # Külön a "nincs logó"-tól, mert MÁS teendő tartozik hozzá: ott kerestünk
+    # és nem találtunk (lezárt kör), itt még senki nem nézte meg. A napi
+    # automatikus kutatás nem keres logót, ezért minden új gyártó IDE esik --
+    # jelzés nélkül ezek némán tűntek el a listában (Kristóf, 2026-09-02).
+    "not_attempted": "Nem kerestünk",
 }
 
 
@@ -190,6 +195,7 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .logo-badge.outdated { background: #d9a520; }
   .logo-badge.wrong { background: #c0392b; }
   .logo-missing { width: 48px; height: 48px; border-radius: 6px; background: #f0efe9; border: 1px dashed #ccc; flex: 0 0 auto; order: 2; display: flex; align-items: center; justify-content: center; font-size: 0.6rem; color: #999; text-align: center; line-height: 1; }
+  .logo-missing.unattempted { border-style: dotted; color: #b3aa96; }
   .logo-strip { display: flex; flex-wrap: wrap; gap: 18px; align-items: flex-start; margin-bottom: 10px; }
   .logo-card { background: #fff; border: 1px solid #e6e4dc; border-radius: 10px; padding: 12px 14px; }
   .logo-era { font-size: 0.75rem; color: #666; margin-bottom: 2px; }
@@ -237,6 +243,7 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .stat.outdated .n { color: #96731a; }
   .stat.wrong .n { color: #a33; }
   .stat.not_found .n { color: #565f6f; }
+  .stat.not_attempted .n { color: #8a7f6a; }
   .stat.total .n { color: #333; }
   .people-link { margin: 18px 0 0; font-size: 0.85rem; text-align: center; }
   .people-link a { color: #777; }
@@ -579,7 +586,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # Precompute logo state ONCE per row (used for both the stat counts
         # and the cards -- avoids hitting the DB twice per manufacturer).
         counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
-        logo_counts = {"needs_approval": 0, "outdated": 0, "wrong": 0, "not_found": 0}
+        logo_counts = {"needs_approval": 0, "outdated": 0, "wrong": 0,
+                       "not_found": 0, "not_attempted": 0}
         enriched = []
         for r in rows:
             lstatus, lpath = logo_status(con, r["id"])
@@ -595,6 +603,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
                     logo_counts["needs_approval"] += 1
             elif lstatus == "not_found":
                 logo_counts["not_found"] += 1
+            else:
+                logo_counts["not_attempted"] += 1
 
         def card(item):
             r, status, logo, review = item
@@ -610,7 +620,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
             elif status == "not_found":
                 logo_html = '<span class="logo-missing" title="Kerestünk logót, nem találtunk">nincs<br>kép</span>'
             else:
-                logo_html = ""
+                logo_html = ('<span class="logo-missing unattempted" '
+                             'title="Még nem kerestünk logót">logó<br>?</span>')
             # data-logo-review is 'none' ONLY for a found-but-unreviewed logo
             # (that is exactly what the "needs approval" stat tile filters
             # on) -- left blank for not_found/not_attempted so it can't
@@ -769,6 +780,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 ("outdated", "review", "outdated"),
                 ("wrong", "review", "wrong"),
                 ("not_found", "status", "not_found"),
+                ("not_attempted", "status", "not_attempted"),
             )
         )
 
@@ -988,7 +1000,8 @@ function filterList() {{
             )
         if not logos_html:
             logos_html = ('<div class="logo-detail-missing">Kerestunk logot, nem talaltunk</div>'
-                          if logo_state == "not_found" else "")
+                          if logo_state == "not_found" else
+                          '<div class="logo-detail-missing">Meg nem kerestunk logot</div>')
 
         hist_html = ""
         for nh in name_hist:

@@ -483,6 +483,15 @@ függetlenül attól, hogy ma is gyárt.
    "attempted, nothing found", a row with a url means "found". The admin
    panel (`admin/server.py`, `logo_status()`) already renders all three
    states distinctly, keep feeding it this way.
+   **Javitva 2026-09-02:** ez a mondat addig nem volt igaz. A `not_attempted`
+   allapotra a listaoldal URES cellat rajzolt, es egyetlen szamlalo sem
+   szamolta -- vagyis egy logo nelkuli uj gyarto SEHOL nem jelent meg
+   teendokent (Kristof jelezte a Clavia utan). Most sajat, pontozott
+   helyorzoje van a kartyan ("logo?"), sajat csempeje a fejlecben ("Nem
+   kerestunk", most 46 gyarto), es a csempe szuroje is mukodik. A napi
+   kutatas eddig egyaltalan nem gyujtott logot; a
+   `~/.claude/scheduled-tasks/synthsworld-napi-kutatas/SKILL.md` 4b lepese
+   most erre a 7a pontra mutat.
    **Logo review workflow (added 2026-08-30):** Kristóf can mark a FOUND
    logo as `approved` / `outdated` (real logo, but not the current one) /
    `wrong` (mismatched, needs a fresh search) via a button on the admin
