@@ -702,9 +702,19 @@ class Handler(http.server.BaseHTTPRequestHandler):
             """SELECT COUNT(*) FROM external_links
                WHERE instrument_id IS NULL AND manufacturer_id IS NOT NULL
                  AND source_name IN ('synfo','synthxl')""").fetchone()[0]
+        # CSAK a meg le nem szedett forrasok szamitanak jovobeli hozamnak.
+        # 2026-09-02-ig a harvested_at nem letezett, ezert itt 9052 termekoldal
+        # allt (Yamaha, Casio, synth-db) ugy, hogy mind a harmat mar leszedtuk.
+        # Az elorejelzes igy pont arrol hazudott, ami alapjan eldontjuk, hova
+        # erdemes menni. A mar feldolgozott mennyiseg nem tunik el, csak atkerul
+        # a maga helyere (lasd done_pages).
         pending_pages = con.execute(
             """SELECT COALESCE(SUM(product_urls), 0) FROM source_domains
-               WHERE verdict='harvestable' AND product_urls > 0""").fetchone()[0]
+               WHERE verdict='harvestable' AND product_urls > 0
+                 AND harvested_at IS NULL""").fetchone()[0]
+        done_pages = con.execute(
+            """SELECT COALESCE(SUM(product_urls), 0) FROM source_domains
+               WHERE product_urls > 0 AND harvested_at IS NOT NULL""").fetchone()[0]
 
         # Kristof kerese (2026-09-01): "Ha kell leszedo szkript azt mutasd az
         # adminon (mihez, mennyi)". Ez a munkalista: meres szerint feldolgozhato
@@ -866,6 +876,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
     <div class="stat total"><span class="n">{pending_makers}</span><span class="lbl">gyártónév a sorban</span></div>
     <div class="stat total"><span class="n">{pending_models}</span><span class="lbl">modellnév dokumentumból</span></div>
     <div class="stat total"><span class="n">{pending_pages}</span><span class="lbl">megmért termékoldal</span></div>
+    <div class="stat total"><span class="n">{done_pages}</span><span class="lbl">termékoldal feldolgozva</span></div>
   </div>
   <div class="stats-row2">
     <div class="stat total"><span class="n">{doc_sources}</span><span class="lbl">dokumentum-forrás</span></div>
