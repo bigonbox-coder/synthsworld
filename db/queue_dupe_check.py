@@ -40,6 +40,12 @@ from pathlib import Path
 DB = Path(__file__).resolve().parent / "synthsworld.sqlite"
 RESEARCHED = ("confirmed", "needs_review")
 
+# Melyik kapcsolat-tipus arul el sajat gyartast, es melyik csak tulajdonlast.
+# Lasd a 0024-es migracio indoklasat: a csonkok kozott ez a valaszvonal.
+MAKER_RELATIONS = {"collaboration", "successor", "supplier", "merged_with"}
+OWNER_RELATIONS = {"acquired_by", "acquired", "part_of", "subsidiary_of",
+                   "owner_of", "sold_brand_to"}
+
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
@@ -85,6 +91,19 @@ def classify(conn):
     return stale, stubs, contained
 
 
+def stub_is_maker(conn, mid):
+    """Egy csonkrol a KAPCSOLAT TIPUSA mondja meg, hogy maga is gyarto-e, vagy
+    csak tulajdonos, akit kontextuskent vettunk fel. None = nem tudjuk."""
+    kinds = {r["relation_type"] for r in conn.execute(
+        "SELECT relation_type FROM manufacturer_relations "
+        "WHERE manufacturer_id = ? OR related_manufacturer_id = ?", (mid, mid))}
+    if kinds & MAKER_RELATIONS:
+        return True
+    if kinds & OWNER_RELATIONS:
+        return False
+    return None
+
+
 def mark(conn, row, hit, why):
     note = (row["notes"] or "").strip()
     add = (f"[dupe-check {now_iso()[:10]}] {why} Meglevo rekord: "
@@ -109,8 +128,14 @@ def main():
 
     print(f"\n2. PONTOS egyezes, de a gyarto csak UNRESEARCHED csonk -> BEKEN HAGYVA: {len(stubs)}")
     print("   (ezek nem felesleges sorok: eppen ezek inditanak kutatast a csonkokra)")
+    makers = []
     for r, h in stubs:
-        print(f"   queue#{r['id']:4d} {r['manufacturer_name']:38s} -> csonk id {h[0]}")
+        kind = stub_is_maker(conn, h[0])
+        tag = {True: "GYARTO  -> elore", False: "tulajdonos", None: "nem tudni"}[kind]
+        if kind:
+            makers.append((r, h))
+        print(f"   queue#{r['id']:4d} {r['manufacturer_name']:38s} {tag}")
+    print(f"   ebbol sajat jogan gyarto, tehat elore sorolando: {len(makers)}")
 
     print(f"\n3. TARTALMAZAS, ember donti el: {len(contained)}")
     for r, h in contained:
@@ -121,8 +146,12 @@ def main():
             mark(conn, r, h, "A nev PONTOSAN egyezik egy mar kikutatott gyartoeval.")
         for r, h in contained:
             mark(conn, r, h, "A nev TARTALMAZ egy meglevo gyartonevet.")
+        for r, h in makers:
+            conn.execute("UPDATE discovery_queue SET priority = 1, updated_at = ? WHERE id = ?",
+                         (now_iso(), r["id"]))
         conn.commit()
-        print(f"\n{len(stale) + len(contained)} sor needs_review lett. A {len(stubs)} csonk-sor erintetlen.")
+        print(f"\n{len(stale) + len(contained)} sor needs_review lett. "
+              f"A {len(stubs)} csonk-sor statusza erintetlen, ebbol {len(makers)} kapott elsobbseget.")
     else:
         print(f"\n{len(stale) + len(contained)} sor kapna jelolest. -- szarazfutas, --apply kell hozza --")
     conn.close()
