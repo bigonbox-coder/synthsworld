@@ -53,8 +53,11 @@ def collect_logos(cur, by_id):
         m = by_id.get(row["manufacturer_id"])
         if m is None:
             continue
+        # svg, png, jpg, jpeg -- ugyanaz a lista, mint az admin
+        # logo_rel_path()-jaban; a ketto nem terhet el, kulonben a panelen
+        # latszo logo nem kerul ki a publikus oldalra.
         src = next((LOGO_SRC_DIR / f"logo-{row['id']}.{ext}"
-                    for ext in ("svg", "png")
+                    for ext in ("svg", "png", "jpg", "jpeg")
                     if (LOGO_SRC_DIR / f"logo-{row['id']}.{ext}").exists()), None)
         if src is None:
             continue

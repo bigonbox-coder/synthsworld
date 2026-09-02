@@ -61,7 +61,11 @@ def logo_rel_path(logo_id):
     are for), and the old <manufacturer_id>.<ext> naming left a second logo
     with nowhere to live. Master assets are in Drive; this is a small local
     copy so the admin page never depends on Drive sharing/hotlinking."""
-    for ext in ("svg", "png"):
+    # A sorrend minoseg szerinti: vektor elobb, raszter utana. A jpg/jpeg
+    # 2026-09-02-ig HIANYZOTT errol a listarol, pedig a collect_logo.sh mindig
+    # is irt .jpg-t -- egy JPEG logo igy letoltve is "kerestunk, nem talaltunk"
+    # allapotban maradt (Arturia, Forat, Hammond).
+    for ext in ("svg", "png", "jpg", "jpeg"):
         p = os.path.join(LOGO_DIR, f"logo-{logo_id}.{ext}")
         if os.path.exists(p):
             return f"/static/logos/logo-{logo_id}.{ext}"
