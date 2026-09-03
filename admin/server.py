@@ -153,6 +153,56 @@ def esc(s):
     )
 
 
+
+# Ket lapon all ugyanaz a harom gomb (a hangszer-dontesek lapon es a gyarto
+# lapjan), ezert egy helyen keszul. Kristof, 2026-09-03: "tegyel mindegyikhez
+# egy opciot hogy megjegyzes es oda beirom hogy mi a helyzet vele." A
+# megjegyzes-doboz alapbol csukva van: a legtobb sornal a ket gyors gomb eleg,
+# es harom nyitott szovegdoboz egymas alatt olvashatatlan listat adna.
+def instrument_review_buttons(r):
+    iid = r["id"]
+    keys = r.keys()
+    owner = (r["owner_note"] if "owner_note" in keys else None) or ""
+    answered = ("review_status" in keys and r["review_status"] == "owner_answered")
+    shown = f'<div class="owner-note"><b>Kristóf:</b> {esc(owner)}</div>' if owner else ""
+    label = "Megjegyzés módosítása" if answered else "Megjegyzés"
+    return (
+        shown +
+        f'<button class="btn-mini btn-approve" onclick="instrumentReview({iid}, &quot;accept&quot;, this)">Marad</button>'
+        f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({iid}, &quot;delete&quot;, this)">Törlés</button>'
+        f'<button class="btn-mini btn-note" onclick="toggleNoteBox({iid})">{label}</button>'
+        f'<div class="note-box" id="notebox-{iid}" hidden>'
+        f'<textarea id="notetext-{iid}" placeholder="Mi a helyzet vele? Pl. ez ket kulon termek, vagy a nev elirás, vagy mas neven fut.">{esc(owner)}</textarea>'
+        f'<button class="btn-mini btn-approve" onclick="saveInstrumentNote({iid}, this)">Mentés</button>'
+        f'</div>')
+
+
+# A ket lap JS-e is ugyanaz. Nem f-string, ezert egyszeres kapcsos zarojel:
+# a beszurasa mar a formazas UTAN tortenik.
+INSTRUMENT_NOTE_JS = """
+function toggleNoteBox(id) {
+  var box = document.getElementById('notebox-' + id);
+  if (!box) return;
+  box.hidden = !box.hidden;
+  if (!box.hidden) document.getElementById('notetext-' + id).focus();
+}
+function saveInstrumentNote(id, btn) {
+  var t = document.getElementById('notetext-' + id).value.trim();
+  if (!t) { alert('Ures megjegyzest nem mentek el.'); return; }
+  btn.disabled = true;
+  fetch('/api/instrument/' + id + '/review', {
+    method: 'POST',
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({action: 'note', note: t})
+  }).then(function(r) {
+    if (r.ok) { location.reload(); return; }
+    btn.disabled = false;
+    r.json().then(function(j) { alert(j.error || 'Hiba tortent.'); })
+            .catch(function() { alert('Hiba tortent.'); });
+  });
+}
+"""
+
 # Home-screen install: without a manifest and a real icon, saving this to an
 # Android home screen gives a screenshot thumbnail. start_url carries the token
 # so the standalone window authenticates even if the cookie is not shared.
@@ -179,6 +229,14 @@ STYLE = """
 .need-list .amount { opacity: .6; white-space: nowrap; }
 .instrument-list .cat { opacity: .75; font-size: .82em; border-left: 1px solid rgba(127,127,127,.4); margin-left: .35em; padding-left: .4em; }
 .instrument-list .tech { opacity: .6; font-size: .78em; font-style: italic; margin-left: .3em; }
+.btn-note { border-color: rgba(140,110,200,.5); }
+.note-box { margin: .4em 0 .2em; }
+.note-box textarea { width: 100%; min-height: 4.5em; padding: .45em .6em; border-radius: 6px;
+  border: 1px solid rgba(127,127,127,.45); font: inherit; font-size: .9em; background: transparent;
+  color: inherit; box-sizing: border-box; }
+.owner-note { margin: .35em 0; padding: .4em .6em; border-radius: 6px; font-size: .9em;
+  background: rgba(140,110,200,.12); border-left: 3px solid rgba(140,110,200,.6); }
+.review-split { margin-top: 2.2em; border-top: 1px solid rgba(127,127,127,.3); padding-top: .8em; }
 .instrument-list .ed { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
   background: rgba(140,110,200,.18); color: #7d5fc0; letter-spacing: .02em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
@@ -426,7 +484,8 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path.startswith("/api/instrument/") and path.endswith("/review"):
             iid = int(path.split("/")[3])
-            self._instrument_review(iid, data.get("action", ""))
+            self._instrument_review(iid, data.get("action", ""),
+                                    (data.get("note") or "").strip())
             return
 
         if path.startswith("/api/manufacturer/") and path.endswith("/logo-review"):
@@ -514,7 +573,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.close()
         self._send_json({"ok": True, "new_confidence_level": new})
 
-    def _instrument_review(self, iid, action):
+    def _instrument_review(self, iid, action, note_text=""):
         """Hangszer-szintu ellenorzendo jelzes feloldasa vagy a sor torlese.
 
         Kristof, 2026-09-03: "A 92-re hogyan tudok donteni? Admin?" Eddig
@@ -523,17 +582,27 @@ class Handler(http.server.BaseHTTPRequestHandler):
         'accept' -> a jeloles lekerul, a hangszer marad. Arra valo, amirol
         tudjuk hogy letezik, csak a forrasa dolt be.
         'delete' -> a sor TENYLEG torlodik, mert sitemap-szemet volt.
+        'note'   -> Kristof beir valamit, amit tud rola, es a sor atkerul
+                    hozzam feldolgozasra (review_status='owner_answered').
+                    Kristof, 2026-09-03: "tegyel mindegyikhez egy opciot hogy
+                    megjegyzes es oda beirom hogy mi a helyzet vele." Ez nem
+                    itelet a sorrol, hanem adat hozza: hogy ket kulon
+                    termekrol van szo, hogy a nev elirás, hogy mas neven fut.
 
         Mindketto nyomot hagy a gyarto review_logjaban, mert a hangszer sor
         torlese utan mar nem lenne hova irni, es egy torles ne legyen nema.
         """
-        if action not in ("accept", "delete"):
+        if action not in ("accept", "delete", "note"):
             self._send_json({"error": "invalid action"}, 400)
+            return
+        if action == "note" and not note_text:
+            self._send_json({"error": "Ures megjegyzest nem mentek el."}, 400)
             return
         con = db()
         cur = con.cursor()
         row = cur.execute(
-            "SELECT id, manufacturer_id, name, year, review_note FROM instruments WHERE id=?",
+            "SELECT id, manufacturer_id, name, year, review_note, owner_note "
+            "FROM instruments WHERE id=?",
             (iid,)).fetchone()
         if not row:
             con.close()
@@ -550,6 +619,17 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 (note, iid))
             log = (f'Hangszer-jeloles feloldva: {row["name"]}{year}. A sor marad, '
                    f'a forrasa tovabbra is hianyzik.')
+        elif action == "note":
+            # Az emberi allitas KULON mezobe megy, nem a gepi jegyzet vegere.
+            # A sor nem tunik el, csak atkerul hozzam: a hangszer-dontesek lapon
+            # a "Rad var" szakaszban all, es ott felul is irhato.
+            cur.execute(
+                "UPDATE instruments SET owner_note=?, "
+                "owner_note_at=strftime('%Y-%m-%dT%H:%M:%fZ','now'), "
+                "review_status='owner_answered' WHERE id=?",
+                (note_text, iid))
+            log = (f'Hangszer-megjegyzes Kristoftol: {row["name"]}{year} -- '
+                   f'"{note_text}" A sor Jarvisra var.')
         else:
             cur.execute("DELETE FROM external_links WHERE instrument_id=?", (iid,))
             cur.execute("DELETE FROM instrument_categories WHERE instrument_id=?", (iid,))
@@ -561,7 +641,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
             (mid, log))
         con.commit()
         con.close()
-        self._send_json({"ok": True, "action": action})
+        self._send_json({"ok": True, "action": action, "note": note_text or None})
 
     def _logo_review(self, mid, status, logo_id=None, reason=None):
         # Reversible verdict on a FOUND logo -- Kristóf can change his mind
@@ -1084,30 +1164,45 @@ function filterList() {{
         """
         con = db()
         rows = con.execute(
-            """SELECT i.id, i.name, i.year, i.review_note, m.id AS mid,
+            """SELECT i.id, i.name, i.year, i.review_note, i.review_status,
+                      i.owner_note, i.owner_note_at, m.id AS mid,
                       m.canonical_name AS maker
                FROM instruments i JOIN manufacturers m ON m.id = i.manufacturer_id
-               WHERE i.review_status = 'needs_review'
+               WHERE i.review_status IN ('needs_review', 'owner_answered')
                ORDER BY m.canonical_name COLLATE NOCASE, i.name COLLATE NOCASE"""
         ).fetchall()
         con.close()
 
-        body, current = "", None
-        for r in rows:
-            if r["maker"] != current:
-                current = r["maker"]
-                body += (f'<h2 class="review-maker">'
-                         f'<a href="/manufacturer/{r["mid"]}">{esc(current)}</a></h2>')
-            year = f' <span class="year">{r["year"]}</span>' if r["year"] else ""
-            body += (
-                f'<div class="review-row" id="inst-{r["id"]}">'
-                f'<div class="review-name">{esc(r["name"])}{year}</div>'
-                f'<div class="inst-note">{esc(r["review_note"] or "")}</div>'
-                f'<button class="btn-mini btn-approve" onclick="instrumentReview({r["id"]}, &quot;accept&quot;, this)">Marad</button>'
-                f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({r["id"]}, &quot;delete&quot;, this)">Törlés</button>'
-                f'</div>')
-        if not rows:
-            body = '<p class="empty">Nincs eldontendo hangszer. Ez a lap ilyenkor ures.</p>'
+        pending = [r for r in rows if r["review_status"] == "needs_review"]
+        answered = [r for r in rows if r["review_status"] == "owner_answered"]
+
+        def section(items):
+            out, current = "", None
+            for r in items:
+                if r["maker"] != current:
+                    current = r["maker"]
+                    out += (f'<h2 class="review-maker">'
+                            f'<a href="/manufacturer/{r["mid"]}">{esc(current)}</a></h2>')
+                year = f' <span class="year">{r["year"]}</span>' if r["year"] else ""
+                out += (
+                    f'<div class="review-row" id="inst-{r["id"]}">'
+                    f'<div class="review-name">{esc(r["name"])}{year}</div>'
+                    f'<div class="inst-note">{esc(r["review_note"] or "")}</div>'
+                    + instrument_review_buttons(r) + '</div>')
+            return out
+
+        body = section(pending)
+        if not pending:
+            body = ('<p class="empty">Nincs eldontendo hangszer. Ez a lap ilyenkor ures.</p>'
+                    if not answered else
+                    '<p class="empty">Nincs tobb eldontendo hangszer. Amire megjegyzest '
+                    'irtal, az lent all.</p>')
+        if answered:
+            body += ('<h2 class="review-split">Megjegyzest kaptak '
+                     f'<span class="count">{len(answered)}</span></h2>'
+                     '<p class="lede">Ezekre valaszoltal, innentol ez az en dolgom. '
+                     'A megjegyzes felulirhato, amig nem dolgoztam fel.</p>'
+                     + section(answered))
 
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -1117,13 +1212,15 @@ function filterList() {{
 <header>Synthsworld -- hangszer-dontesek</header>
 <div class="wrap">
 <a class="back" href="/">&larr; vissza a gyartokhoz</a>
-<h1>Ellenorizendo hangszerek <span class="count">{len(rows)}</span></h1>
+<h1>Ellenorizendo hangszerek <span class="count">{len(pending)}</span></h1>
 <p class="lede">Ezeknel a forras nem igazol semmit: a lap, amirol a nev jott, halott.
 A hangszer maga tobbnyire valodi. A "Marad" leveszi a jelolest es a sor marad,
-a "Torles" tenylegesen torli. Mindket dontes bekerul a gyarto naplojaba.</p>
+a "Torles" tenylegesen torli. A "Megjegyzes" a harmadik ut: ha tudsz rola valamit,
+amit a forrasok nem mondanak meg, ird be, es a sor visszakerul hozzam. Mindharom
+bekerul a gyarto naplojaba.</p>
 {body}
 </div>
-<script>
+<script>{INSTRUMENT_NOTE_JS}
 function instrumentReview(id, action, btn) {{
   if (action === 'delete' && !confirm('Biztos torold ezt a hangszert? Ez nem vonhato vissza.')) return;
   var row = document.getElementById('inst-' + id);
@@ -1160,7 +1257,7 @@ function instrumentReview(id, action, btn) {{
         ).fetchall()
         instruments = con.execute(
             """SELECT id, name, year, category, technology, review_status, review_note,
-                      edition, edition_note
+                      edition, edition_note, owner_note, owner_note_at
                FROM instruments
                WHERE manufacturer_id=?
                ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
@@ -1275,16 +1372,17 @@ function instrumentReview(id, action, btn) {{
             # synth-db sitemapja felsorolta oket, de a forras-oldal halott.
             # A cimke a note-ot hordozza, hogy a dontes ne igenyeljen nyomozast.
             flag = ""
-            if it["review_status"] == "needs_review":
+            if it["review_status"] in ("needs_review", "owner_answered"):
                 # A dontes ne igenyeljen nyomozast: a jegyzet LATSZIK, nem csak
                 # tooltipben all, es mellette ott a ket gomb. Kristof kerdese
                 # 2026-09-03: "A 92-re hogyan tudok donteni? Admin?"
+                pill = ('forrás?' if it["review_status"] == "needs_review"
+                        else 'megjegyzés van')
                 flag = (
-                    ' <span class="pill needs_review">forrás?</span>'
+                    f' <span class="pill needs_review">{pill}</span>'
                     '<div class="inst-review">'
                     f'<div class="inst-note">{esc(it["review_note"] or "")}</div>'
-                    f'<button class="btn-mini btn-approve" onclick="instrumentReview({it["id"]}, &quot;accept&quot;, this)">Marad</button>'
-                    f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({it["id"]}, &quot;delete&quot;, this)">Törlés</button>'
+                    + instrument_review_buttons(it) +
                     '</div>')
             inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{ed}{flag}</li>'
 
@@ -1362,7 +1460,7 @@ function instrumentReview(id, action, btn) {{
 <button onclick="logoReview('wrong')">Teves, ez nem is a megfelelo logo</button>
 <button class="cancel" onclick="document.getElementById('logoDialog').close()">Megsem</button>
 </div></dialog>''' if logo_state == "found" else ""}
-<script>
+<script>{INSTRUMENT_NOTE_JS}
 function toggleLinks() {{
   var rows = document.querySelectorAll('.link-extra');
   var b = document.getElementById('linksBtn');
