@@ -254,6 +254,8 @@ STYLE = """
 .instrument-list .fam { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
   background: rgba(90,150,120,.18); color: #3f7d63; }
 .instrument-list .var { opacity: .7; font-size: .8em; margin-left: .4em; }
+.instrument-list .spec { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
+  background: rgba(70,120,190,.16); color: #3a6ba5; cursor: help; }
 .instrument-list .ed { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
   background: rgba(140,110,200,.18); color: #7d5fc0; letter-spacing: .02em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
@@ -1282,6 +1284,15 @@ function instrumentReview(id, action, btn) {{
                WHERE i.manufacturer_id=?
                ORDER BY i.year IS NULL, i.year, i.name COLLATE NOCASE""", (mid,)
         ).fetchall()
+        # Muszaki adatok (0033). A listaban csak a DARABSZAM latszik, a
+        # tartalom tooltipben: 12 mezo hangszerenkent kiirva olvashatatlan
+        # lenne, de az, hogy VAN-e adatlapunk, egy pillantasbol kell.
+        specs = {r["instrument_id"]: (r["n"], r["items"]) for r in con.execute(
+            """SELECT s.instrument_id, COUNT(*) AS n,
+                      group_concat(s.label || ': ' || s.value, '  |  ') AS items
+               FROM instrument_specs s JOIN instruments i ON i.id = s.instrument_id
+               WHERE i.manufacturer_id = ?
+               GROUP BY s.instrument_id""", (mid,))}
         notes = con.execute(
             "SELECT action, note, previous_confidence_level, new_confidence_level, created_at FROM manufacturer_review_log WHERE manufacturer_id=? ORDER BY created_at DESC",
             (mid,),
@@ -1392,6 +1403,9 @@ function instrumentReview(id, action, btn) {{
                    if it["family"] else "")
             var = (f' <span class="var">{esc(it["variant_label"])}</span>'
                    if it["variant_label"] else "")
+            sp = specs.get(it["id"])
+            spec = (f' <span class="spec" title="{esc(sp[1])}">adatlap: {sp[0]} mező</span>'
+                    if sp else "")
             ed = EDITION_LABEL.get(it["edition"] or "")
             ed = (f' <span class="ed" title="{esc(it["edition_note"] or "")}">{ed}</span>'
                   if ed else "")
@@ -1412,7 +1426,7 @@ function instrumentReview(id, action, btn) {{
                     + instrument_review_buttons(it) +
                     '</div>')
             anchor = f' id="inst-{it["id"]}"' if flag else ""
-            inst_html += f'<li{anchor}>{esc(it["name"])}{year}{fam}{var}{cat}{tech}{ed}{flag}</li>'
+            inst_html += f'<li{anchor}>{esc(it["name"])}{year}{fam}{var}{cat}{tech}{ed}{spec}{flag}</li>'
 
         rel_html = ""
         for r in relations:
