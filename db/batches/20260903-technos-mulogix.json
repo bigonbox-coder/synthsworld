@@ -1,0 +1,260 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Technos",
+      "long_name": null,
+      "country": "Canada",
+      "city": "Quebec City",
+      "founded_year": null,
+      "ended_year": null,
+      "founders": "Pierre Guilmette, Nil Parent",
+      "status": "defunct",
+      "official_website": null,
+      "queue_name": "Technos",
+      "short_history": "Technos was a Quebec company, based in Quebec City, that built the Acxel, the first dedicated hardware resynthesizer. The system was invented by Pierre Guilmette, its operational design was realised by Nil Parent, an electroacoustic music teacher at Laval University, and the company was owned and directed by Guilmette, Parent and further partners. Technos grew out of an earlier instrument, the 16 Pi, whose team was already working under the Technos name in 1984 and which was shown at the summer 1985 NAMM show in New Orleans. The Acxel analysed incoming sound with an FFT and rebuilt it from up to 1024 individually editable sine oscillators, edited by finger on a bank of 2114 LEDs behind conductive sensors instead of an LCD or CRT. It was never a commercial success and only around 35 to 40 units were ever delivered, which is why the machine is now extremely rare. Technos belongs in this database as the maker of one of the few genuinely original synthesis architectures of the late 1980s, and it must not be confused with Technosaurus, the Swiss maker of the Microcon and Selector.",
+      "long_history": "Technos was a Quebec company built around the resynthesis concept of Pierre Guilmette. According to the history pages of Idarca-Audio, the later Quebec company through which Guilmette continued the work, the design of the 16 Pi and the principle of resynthesis with applied additive synthesis date from 1981, and the first meetings between Guilmette and Nil Parent, an electroacoustic music teacher at Laval University in Quebec City, took place in 1982. The initial team of six was organised at the beginning of 1983, and the same source shows a photograph captioned as the first Technos team in 1984, listing Nil Parent, Patrice Dion, Pierre Guilmette, Bernard Guilmette, Luc Patry and Andre Cote. A second photograph records the team leaving Quebec City for the summer 1985 NAMM show in New Orleans with the 16 Pi, under the caption Technos / PiTechnos, where the company met its first European distributors.\n\nThe 16 Pi was the direct ancestor of the Acxel. English Wikipedia describes it as dating from 1984, never put into production, with four units delivered, and as including a keyboard; it introduced the concept but was limited to 64 oscillators, and its main panel already used the LED and conductive sensor matrix that the Acxel later expanded. The Idarca-Audio history splits it into two builds, a console and keyboard version and a later rackmount second version, with different unit counts, so the two accounts do not agree on how many were made.\n\nThe Acxel itself consisted of two parts, the Grapher, a graphic console, and the Solitary, a rackmount unit holding the synthesis and analysis hardware. The standard machine had 256 oscillators for eight voices and could be expanded to 1024 oscillators for 32 voices. Sound fed into the machine was broken down by Fast Fourier Transform into variable amplitude and variable frequency sine components, which could then be transposed as a group without changing the length of the sound and without the artefacts a sampler would produce. The same oscillator bank could also be used for additive synthesis from scratch, with drawable waveforms, drawable spectra for amplitude, frequency and phase, drawable envelopes of up to 128 stages per oscillator and per voice, a harmonic based digital filter called COLOR, FM envelopes, timbre interpolation and time stretching. Nil Parent coined the term re-synthese for what the machine did, and the name Acxel is a contraction of acoustical element, formed by analogy with pixel for picture element.\n\nThe machine was expensive and hard to learn, and it never reached the mainstream. English Wikipedia states that only about 35 to 40 units were sold between 1987 and 1990, while the Idarca-Audio history dates the Acxel to 1988 to 1992 and states that 39 Acxels were delivered between 1989 and 1992. The synth-db entry in our own cache gives a production span of 1987 to 1990 and about 40 units made. The sources therefore agree on the order of magnitude but not on the years, so no launch or end year is asserted here.\n\nNo source read for this batch states when Technos itself was wound up, or under what legal name it traded. What the sources do show is that the Acxel line ended in the early 1990s and that when Guilmette returned to the idea, he did so through a different Quebec company. Idarca-Audio Inc. began an Acxel II project in 2008, designed by Guilmette, as an evolution of the original with additional signal processing and higher performance. French Wikipedia states that Idarca was declared bankrupt at the end of 2010 after less than fourteen months of activity, and English Wikipedia gives the same year and attributes the failure to lack of funding. No units shipped. Idarca-Audio is a separate legal entity and is recorded here only as context, not as a corporate relation, because none of the relation types available in this schema describes a successor company founded by the same inventor.\n\nA separate warning belongs in the record. Technos is not Technosaurus. Technosaurus is a Swiss manufacturer, already present in our data through the Microcon, Microcon II, Selector and Cyclodon, and shares nothing with the Quebec company beyond the first seven letters of its name.",
+      "name_history": [
+        {
+          "name": "Technos",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "relations": [],
+      "instruments": [
+        {
+          "name": "16 Pi",
+          "year": 1984,
+          "category": "synthesizer"
+        },
+        {
+          "name": "Acxel",
+          "year": null,
+          "category": "synthesizer"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "canonical_name",
+          "value": "Technos",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "Canada",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "Canada",
+          "source_url": "https://fr.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "city",
+          "value": "Quebec City",
+          "source_url": "https://www.idarca.com/pages/acxel-en_hist2a.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Pierre Guilmette, Nil Parent",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Pierre Guilmette, Nil Parent",
+          "source_url": "https://fr.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:16 Pi",
+          "value": "16 Pi, 1984, Acxel ancestor, 64 oscillators, included a keyboard",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:16 Pi:year",
+          "value": "1984",
+          "source_url": "https://www.idarca.com/pages/acxel-en_hist1.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Acxel",
+          "value": "Acxel resynthesizer, Grapher console plus Solitary rack, 256 to 1024 oscillators",
+          "source_url": "https://en.wikipedia.org/wiki/Technos_Acxel",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Acxel",
+          "value": "Acxel, digital, 1987 to 1990, about 40 made",
+          "source_url": "http://www.synth-db.com/synths/Technos/Acxel/Acxel.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Team and chronology of Technos, 16 Pi and Acxel as given by the inventor",
+          "source_url": "https://www.idarca.com/pages/acxel-en_hist2a.html",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "instrument:Acxel:year",
+          "description": "English Wikipedia says the Acxel was launched in 1987 and that about 35 to 40 units were sold from 1987 to 1990. The Idarca-Audio history page written by the inventor Pierre Guilmette dates the Acxel to 1988 to 1992 and states that 39 Acxels were delivered between 1989 and 1992. Our cached synth-db entry gives 1987 to 1990. No launch year is asserted.",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Technos_Acxel",
+            "https://www.idarca.com/pages/acxel-en_hist1.html",
+            "http://www.synth-db.com/synths/Technos/Acxel/Acxel.php"
+          ]
+        },
+        {
+          "field_name": "instrument:16 Pi:units",
+          "description": "English Wikipedia says the 16 Pi was never in production and that four units were delivered. The Idarca-Audio history says the first version, with console and keyboard, was presented at the summer 1985 NAMM in New Orleans and two units were produced, and that a second, rackmount version followed of which four units were produced. Unit counts are therefore not settled.",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Technos_Acxel",
+            "https://www.idarca.com/pages/acxel-en_hist1.html"
+          ]
+        }
+      ],
+      "review_note": "Fields deliberately left null: long_name, founded_year, ended_year, official_website. No source read states a legal name such as Technos inc., a date of incorporation, a date of dissolution, or a company website, so name_history carries only the single plain name Technos. The Idarca-Audio history shows a photo caption reading Technos / PiTechnos for the summer 1985 NAMM trip, which may indicate a second trading name, but the page does not explain it and no years are attached, so PiTechnos was not entered as a name_history row. A human should check whether the Quebec enterprise register (Registraire des entreprises du Quebec) holds the legal name. Status was set to defunct rather than left blank because the enum has no unknown value; the supporting evidence is indirect, namely that the Acxel line ended in the early 1990s and that the Acxel II had to be started in 2008 by a different Quebec company, Idarca-Audio Inc. No source states an explicit dissolution. City was taken from the Idarca-Audio history, which places the first meetings and the departure for NAMM in Quebec City and describes Nil Parent as a teacher at Laval University in Quebec City; no source gives a street address or a borough. The instrument name 16 Pi is written out because the sources render it with the Greek letter pi as 16 Pi. The 16 Pi is included even though Wikipedia says it never went into production, since units were delivered; a curator who only wants shipped products may want to drop it. Idarca-Audio Inc. is not entered in relations because none of supplier, owner_of, acquired_by or subsidiary_of describes a later company founded by the same inventor. Perfect Circuit's Acxel history article returned HTTP 403 and could not be read, so a widely repeated claim that production ran from 1986 to 1992 with 30 to 40 units, and the phrase now defunct Quebecois company, are not cited here. The muzines.co.uk scan of the Music Technology March 1988 Acxel review exists but is page images without machine readable text, so no company address could be pulled from it. IMPORTANT for the curator: Technos is a different company from Technosaurus, the Swiss maker already in our data through Microcon, Microcon II, Selector and Cyclodon. Do not merge them."
+    },
+    {
+      "canonical_name": "Mulogix",
+      "long_name": "Music Logic Systems, Inc.",
+      "country": null,
+      "city": null,
+      "founded_year": null,
+      "ended_year": null,
+      "founders": "Mercer \"Stoney\" Stockell, Jim Wright, Jerry Ptascynski",
+      "status": "defunct",
+      "official_website": null,
+      "queue_name": "Mulogix",
+      "short_history": "Mulogix, formally Music Logic Systems, Inc., was a short lived company founded by former Digital Keyboards people, among them Digital Keyboards' chief designer Mercer \"Stoney\" Stockell together with Jim Wright and Jerry Ptascynski. Its only product was the Slave 32, a rack mounted, MIDI equipped version of the Digital Keyboards Synergy, able to read and write the Synergy's EPROM cartridges. The lineage behind it runs from Hal Alles' digital synthesizer work at Bell Labs through Crumar's American arm, first called Music Technology and then Digital Keyboards Inc., to the Crumar GDS and the Synergy, the machine Wendy Carlos used extensively. When Digital Keyboards ended, the Synergy hardware survived in the Slave 32. The company lasted roughly two years and only about 25 to 30 Slave 32s were built, making it one of the rarest instruments of the era. Mulogix is in this database as the last maker of the Bell Labs derived Synergy engine.",
+      "long_history": "Mulogix is the tail end of one of the most unusual instrument lineages in commercial synthesis. In the mid 1970s Hal Alles at Bell Labs developed one of the first digital synthesizers capable of real time performance. The Italian company Crumar took an interest and set up a United States spinoff, first known as Music Technology and later as Digital Keyboards Inc., to commercialise the technology. Its first product was the Crumar General Development Station, or GDS, a Z80 based machine running the Synergy operating system, with 16 virtual oscillators and additive, frequency modulation and phase modulation capability. It cost around 27,500 dollars and sold only in tiny numbers. The team then produced a cheaper and more compact version, the Synergy, which appeared in 1981 at about 5,000 dollars, with 32 digital oscillators allocated dynamically, 24 tone presets and a cartridge slot for 24 more. Roughly 600 to 800 Synergy and Synergy II or II+ units were made. Wendy Carlos became the instrument's most prominent user and built an extensive voice library for it.\n\nWhen Digital Keyboards ended, its chief designer Mercer \"Stoney\" Stockell left and formed Mulogix with Jim Wright and Jerry Ptascynski. The Electronic Music Wiki describes the same event in more general terms, saying that a few of the Digital Keyboards principals formed another company and offered the Mulogix Slave-32. The product was the Synergy repackaged into a 2U rack mount module with a MIDI interface, and it could read and write the EPROM cartridges made for the Synergy. Tone Tweakers, a dealer that has handled one, states plainly that it was made by Music Logic Systems, Inc. and that it is the rack version of the Digital Keyboards DK Synergy 2. Vintage Synth Explorer describes it the same way, as the Synergy technology ported to a rack mount MIDI equipped instrument, produced until 1989.\n\nThe company did not last. The Electronic Music Wiki says the Slave-32 lasted about two years. Aaron Lanterman's Digital Keyboards Synergy preservation page, the main technical archive for the family, calls the Slave 32 essentially a rack mounted Synergy and states that only 25 to 30 were made, against roughly 700 to 800 Synergy units, of which fewer than 100 were thought to be still working. That makes the Slave 32 substantially rarer than the keyboard it descends from, and it remains a collector item rather than a working studio instrument.\n\nThe sources do not agree on when Mulogix began, because they do not agree on when Digital Keyboards ended. The Silo states that Digital Keyboards was shut down in early 1985 and that Stockell then formed Mulogix. The Electronic Music Wiki instead says the Synergy II+ stayed in production until the parent company Crumar went out of business in 1987, and only then did the Digital Keyboards principals form the new company. Our cached synth-db entry gives a Slave 32 production span of 1985 to 1989, while Vintage Synth Explorer only says it was produced until 1989. Because of this, neither a founding year for Mulogix nor a first year for the Slave 32 is asserted here.\n\nOne correction is worth recording for the curator. The Slave 32 has nothing to do with the Oberheim Xpander or the Matrix series. It is a Digital Keyboards Synergy in a rack, and the design lineage behind it is Bell Labs, Crumar and Digital Keyboards. No source read for this batch connects Mulogix to Oberheim in any way. The link to Digital Keyboards is not entered in relations because the available relation types, supplier, owner_of, acquired_by and subsidiary_of, do not describe a company formed by departing staff of another firm.",
+      "name_history": [
+        {
+          "name": "Music Logic Systems, Inc.",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "name": "Mulogix",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "relations": [],
+      "instruments": [
+        {
+          "name": "Slave 32",
+          "year": null,
+          "category": "synthesizer"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "canonical_name",
+          "value": "Mulogix",
+          "source_url": "https://tonetweakers.com/products/mulogix-slave-32",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_name",
+          "value": "Music Logic Systems, Inc.",
+          "source_url": "https://tonetweakers.com/products/mulogix-slave-32",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Mercer \"Stoney\" Stockell, Jim Wright, Jerry Ptascynski",
+          "source_url": "https://www.thesilo.ca/synthesizer-spotlight-the-synergy/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://electronicmusic.fandom.com/wiki/Synergy",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Slave 32",
+          "value": "Synergy repackaged into a 2U rack mount module with a MIDI interface, reads and writes Synergy EPROM cartridges",
+          "source_url": "https://www.thesilo.ca/synthesizer-spotlight-the-synergy/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Slave 32",
+          "value": "rack mount MIDI equipped version of the Synergy, produced until 1989",
+          "source_url": "https://www.vintagesynth.com/digital-keyboards/synergy",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Slave 32",
+          "value": "essentially a rack mounted Synergy, only 25 to 30 were made",
+          "source_url": "https://lanterman.ece.gatech.edu/synergy/",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Bell Labs to Crumar to Digital Keyboards lineage, and a few DKI principals forming another company that offered the Mulogix Slave-32, lasting about two years",
+          "source_url": "https://electronicmusic.fandom.com/wiki/Synergy",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Slave 32 specification data as recorded by synth-db",
+          "source_url": "http://www.synth-db.com/synths/Mulogix/Slave%2032/Slave%2032.php",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "founded_year",
+          "description": "The Silo says Digital Keyboards was shut down in early 1985 and that chief designer Mercer \"Stoney\" Stockell then decamped and formed Mulogix. The Electronic Music Wiki says the Synergy II+ continued in production until parent company Crumar went out of business in 1987, and that a few Digital Keyboards principals then formed another company which offered the Slave-32. The two accounts put the founding of Mulogix roughly two years apart, so no founding year is asserted.",
+          "source_urls": [
+            "https://www.thesilo.ca/synthesizer-spotlight-the-synergy/",
+            "https://electronicmusic.fandom.com/wiki/Synergy"
+          ]
+        },
+        {
+          "field_name": "instrument:Slave 32:year",
+          "description": "Our cached synth-db entry gives a Slave 32 production span of 1985 to 1989. Vintage Synth Explorer states only that it was produced until 1989 and gives no start year. The Electronic Music Wiki implies a start no earlier than 1987, since it places the founding of the company after Crumar went out of business in 1987 and says the product lasted about two years. No first year is asserted.",
+          "source_urls": [
+            "http://www.synth-db.com/synths/Mulogix/Slave%2032/Slave%2032.php",
+            "https://www.vintagesynth.com/digital-keyboards/synergy",
+            "https://electronicmusic.fandom.com/wiki/Synergy"
+          ]
+        },
+        {
+          "field_name": "instrument:Slave 32:form_factor",
+          "description": "The synth-db entry in our cache describes the Slave 32 as a keyboard instrument with 74 weighted keys and a four track recorder, which are the specifications of the Digital Keyboards Synergy keyboard. The Silo, Vintage Synth Explorer, Tone Tweakers and Aaron Lanterman's Synergy preservation page all describe the Slave 32 as a rack mount module without a keyboard. The synth-db entry appears to have inherited the parent instrument's specification sheet and should not be trusted for this instrument.",
+          "source_urls": [
+            "http://www.synth-db.com/synths/Mulogix/Slave%2032/Slave%2032.php",
+            "https://www.thesilo.ca/synthesizer-spotlight-the-synergy/",
+            "https://www.vintagesynth.com/digital-keyboards/synergy",
+            "https://lanterman.ece.gatech.edu/synergy/"
+          ]
+        },
+        {
+          "field_name": "instrument:Slave 32:units_built",
+          "description": "Aaron Lanterman's Synergy preservation page and the Electronic Music Wiki both say about 25 to 30 Slave-32s were built. A secondary summary attributes to Paul Schreiber of MOTM an estimate that only eight were ever completed before the company folded, but the primary page for that claim could not be read directly, so the lower figure is recorded here only as an open question and is not used.",
+          "source_urls": [
+            "https://lanterman.ece.gatech.edu/synergy/",
+            "https://electronicmusic.fandom.com/wiki/Synergy"
+          ]
+        }
+      ],
+      "review_note": "Fields deliberately left null: country, city, founded_year, ended_year, official_website. No source read for this batch states where Music Logic Systems, Inc. was located. Vintage Synth Explorer describes Digital Keyboards as a United States based division of Crumar, and the founders came from Digital Keyboards, but that does not state Mulogix's own country, so country was left empty rather than inferred. A human should check trade press from 1986 to 1989 or a Slave 32 manual, which would carry the company address. The premise given in the research queue, that the Slave 32 is an expander related to the Oberheim Xpander or Matrix design lineage, is not supported by any source read here and appears to be wrong. Every source describes the Slave 32 as a rack mounted Digital Keyboards Synergy, whose lineage is Hal Alles at Bell Labs, then Crumar, then Digital Keyboards Inc. There is no Oberheim link in the sources, so none was recorded. The link to Digital Keyboards is not in relations because the schema's relation types do not cover a company formed by departing staff. Founder names come from a single secondary source, The Silo, which is a magazine style article; the Electronic Music Wiki independently confirms that Digital Keyboards principals founded the company but names nobody, so the three names would benefit from a second confirmation. Aaron Lanterman's preservation page mentions Stoney Stockell only as a Synergy engineer and does not connect him to Mulogix. Long name Music Logic Systems, Inc. rests on the Tone Tweakers dealer listing and on a firmware update listing at monotanz.de that uses the same wording; a manual or a corporate record would be a stronger source. name_history holds both the legal and the trading name with no years, because no source dates either. Blocked sources: electronicmusic.fandom.com returned HTTP 402 through the normal fetch path and HTTP 403 to a direct page request, and was read through the MediaWiki API instead. All tiers here are other because no owner, manufacturer or Wikidata source for Mulogix was found."
+    }
+  ]
+}

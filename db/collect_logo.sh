@@ -14,7 +14,11 @@ URL="${1:?usage: collect_logo.sh <url> <output-basename>}"
 BASE="${2:?usage: collect_logo.sh <url> <output-basename>}"
 mkdir -p /tmp/synthlogos
 RAW="/tmp/synthlogos/${BASE}.raw"
-curl -sL -o "$RAW" "$URL"
+# Some hosts (WordPress behind a WAF, e.g. 360systems.com 2026-09-03) answer a
+# UA-less curl with an HTML challenge page instead of the image, and the script
+# then died with "Unrecognized file type" on a URL that is perfectly fine in a
+# browser. Send a normal browser UA so the image comes back as an image.
+curl -sL -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36" -o "$RAW" "$URL"
 TYPE="$(file -b "$RAW")"
 case "$TYPE" in
   *SVG*)

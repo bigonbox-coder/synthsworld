@@ -1,0 +1,497 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Peavey",
+   "long_name": "Peavey Electronics Corporation",
+   "country": "United States",
+   "city": "Meridian",
+   "founded_year": 1965,
+   "ended_year": null,
+   "founders": "Hartley Peavey",
+   "status": "active",
+   "official_website": "https://www.peavey.com",
+   "queue_name": "Peavey",
+   "short_history": "Peavey Electronics Corporation is a privately owned American company, founded in 1965 by Hartley Peavey and headquartered in Meridian, Mississippi, that designs and manufactures professional audio equipment. Nearly all of its output falls outside this database: guitar and bass amplifiers, power amplifiers, PA and sound reinforcement systems, speakers, mixers and electric guitars, none of which generate sound of their own. Peavey is here for one narrow slice of its catalogue. At the end of the 1980s it entered the keyboard market with the DPM family of synthesizers and rack modules, built around a sound generation method the company called Digital Phase Modulation, and followed it in the early 1990s with the Spectrum series of sound modules and with MIDI controllers such as the MIDIbase and the PC1600.",
+   "long_history": "Hartley Peavey built his first amplifier in 1957 and founded Peavey Electronics in 1965. The company grew into one of the largest audio equipment manufacturers in the world, privately held, with its headquarters in Meridian, Mississippi. At its peak it held roughly 1,500,000 square feet of warehouse space across North America, Europe and Asia, and its catalogue at one time ran to more than 2000 designs, backed by 180 patents. Since 2004 the vast majority of its products have been manufactured overseas. In 2014 Peavey closed its UK distribution and manufacturing operations and its A Street plant in Meridian, laying off nearly 100 employees, and further layoffs followed in 2019. In 2023 the company announced a US distribution partnership with the Canadian guitar maker Riversong Guitars.\n\nThe bulk of what Peavey makes is amplification and sound reinforcement, and it is best known for products that have no place in an instrument database: the 5150 guitar amplifier developed with Eddie Van Halen and its later 6505 and 6534+ versions, the Bandit solid state combos, the Classic valve amplifiers, the CS series power amplifiers, the JSX, XXX, ValveKing, Vypyr, Windsor and TNT lines, and the Wolfgang electric guitar. The company also owns a set of audio brands, among them Crest Audio, Trace Elliot, Budda Amplification, Composite Acoustic, MediaMatrix, Architectural Acoustics, PVDJ and the Sanctuary Series.\n\nThe reason Peavey belongs in this database is the DPM range. In 1989 the company, until then a guitar amplifier manufacturer, entered the hi-tech keyboard market with the DPM 3, described in its advertising as a Digital Phase Modulation synthesizer. When Sound On Sound reviewed it in May 1990 it had already been announced for over a year. The DPM 3 was a 16 note polyphonic, 16 part multitimbral sample plus synthesis instrument with a 61 note weighted keyboard and aftertouch, a nine track sequencer holding 20,000 events, two digital multi effects processors, a 3.5 inch floppy drive, a 16 bit Burr-Brown converter running at 39.5 kHz and three Motorola 56001 DSP chips, and it sold in the UK for 1,899 pounds including VAT. Its architecture was programmable, with wave sample ROM expandable to 16 MWords and user sample RAM so that the built in waveforms could be augmented.\n\nVariants and companions followed. The DPM 3 SE Plus could loop, trim and combine samples loaded into 512K of battery backed sample RAM. The SX was an inexpensive mono 16 bit sampling module that loaded samples into the DPM 3 or into any gear that could read the SDS format. The DPM SP Sample Playback Synthesizer arrived in the early nineties as a fuller answer to dedicated samplers, with its own synthesis section for processing samples, 2 MB of sample RAM expandable to 32 MB, a floppy drive, SCSI ports for a hard disk, and 16 voice, 16 part operation.\n\nThe Spectrum series took the same sound set into single rack space modules. The DPM Spectrum Bass of 1993 was a dedicated bass sound module carrying 1 MB of 16 bit waveforms drawn from the DPM 3 sound set, 8 voice polyphonic and 4 part multitimbral with 200 presets, sold in the UK for 279 pounds including VAT. It was designed in part as a sound source for the Peavey MIDIbase, a MIDI controller built in the form of a bass guitar, and was often paired with the PC1600, Peavey's fader based MIDI controller. A Spectrum Synth module was also produced.",
+   "name_history": [
+    {
+     "name": "Peavey Electronics Corporation",
+     "start_year": 1965,
+     "end_year": null
+    }
+   ],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "DPM 3",
+     "year": 1989,
+     "category": "synthesizer",
+     "source_url": "https://www.matrixsynth.com/2010/11/1989-peavey-dpm-3-digital-phase.html"
+    },
+    {
+     "name": "DPM 3 SE Plus",
+     "year": null,
+     "category": "synthesizer",
+     "source_url": "https://www.vintagesynth.com/peavey/DPM-SP-Sample-Playback-Synthesizer"
+    },
+    {
+     "name": "DPM SP Sample Playback Synthesizer",
+     "year": null,
+     "category": "sampler",
+     "source_url": "https://www.vintagesynth.com/peavey/DPM-SP-Sample-Playback-Synthesizer"
+    },
+    {
+     "name": "DPM Spectrum Bass",
+     "year": 1993,
+     "category": "sound module",
+     "source_url": "https://synthmania.com/2009/11/06/peavey-dpm-spectrum-bass/"
+    },
+    {
+     "name": "Spectrum Synth",
+     "year": null,
+     "category": "synthesizer",
+     "source_url": "https://www.matrixsynth.com/2022/07/peavey-spectrum-synth.html"
+    },
+    {
+     "name": "MIDIbase",
+     "year": null,
+     "category": "midi controller",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576"
+    },
+    {
+     "name": "PC1600",
+     "year": null,
+     "category": "midi controller",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "long_name",
+     "value": "Peavey Electronics Corporation",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://www.wikidata.org/wiki/Q1339598",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "city",
+     "value": "Meridian",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Meridian",
+     "source_url": "https://www.wikidata.org/wiki/Q1339598",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1965",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1965",
+     "source_url": "https://www.wikidata.org/wiki/Q1339598",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "founders",
+     "value": "Hartley Peavey",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Hartley Peavey",
+     "source_url": "https://www.wikidata.org/wiki/Q1339598",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "official_website",
+     "value": "http://www.peavey.com",
+     "source_url": "https://www.wikidata.org/wiki/Q1339598",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "short_history",
+     "value": "founding, headquarters, product scope",
+     "source_url": "https://en.wikipedia.org/wiki/Peavey_Electronics",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "DPM 3 launch, specifications, price, Peavey's first move into keyboards",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-dpm3/5816",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "DPM 3 SE Plus, SX sampling module, DPM SP specifications",
+     "source_url": "https://www.vintagesynth.com/peavey/DPM-SP-Sample-Playback-Synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "Spectrum Bass specifications, price, MIDIbase and PC1600",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM 3:year",
+     "value": "1989",
+     "source_url": "https://www.matrixsynth.com/2010/11/1989-peavey-dpm-3-digital-phase.html",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM 3:name",
+     "value": "DPM 3, Digital Phase Modulation Synthesizer",
+     "source_url": "https://www.synthxl.com/service-manual/peavey/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM 3 SE Plus:name",
+     "value": "DPM3 SE Plus",
+     "source_url": "https://www.vintagesynth.com/peavey/DPM-SP-Sample-Playback-Synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM SP Sample Playback Synthesizer:name",
+     "value": "Peavey DPM SP Sample Playback Synthesizer",
+     "source_url": "https://www.vintagesynth.com/peavey/DPM-SP-Sample-Playback-Synthesizer",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM Spectrum Bass:year",
+     "value": "1993",
+     "source_url": "https://synthmania.com/2009/11/06/peavey-dpm-spectrum-bass/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DPM Spectrum Bass:year",
+     "value": "1993",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:Spectrum Synth:name",
+     "value": "Peavey Spectrum Synth",
+     "source_url": "https://www.matrixsynth.com/2022/07/peavey-spectrum-synth.html",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:MIDIbase:name",
+     "value": "a sophisticated MIDI controller in the form of a bass guitar, the MIDIbase",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:PC1600:name",
+     "value": "the PC1600, a slick MIDI controller",
+     "source_url": "https://www.muzines.co.uk/articles/peavey-spectrum-bass/10576",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "SCOPE. Peavey is overwhelmingly an amplifier and PA company, and only its sound generating products were taken. Deliberately left out, all named by en.wikipedia: the 5150 / 6505 / 6534+, Bandit, Classic, CS, JSX, XXX / 3120, ValveKing, Vypyr, Windsor, TNT and 400BH amplifier lines, the Wolfgang and HP2 electric guitars, and the eight audio brands Peavey owns (MediaMatrix, Architectural Acoustics, PVDJ, Crest Audio, Composite Acoustic, Sanctuary Series, Budda Amplification, Trace Elliot). Those brands were also NOT written into relations, because every one of them is amplification, install audio or guitars, and ingest.py stubs an unresearched discovery_queue row for each related_company; eight non-instrument stubs would be pollution. If the project wants corporate completeness over instrument focus, add them by hand.\n\nALSO EXCLUDED and worth a human decision: (a) the Peavey Spectrum Analog Filter, a one rack space voltage controlled filter and amplifier for processing external signals. It is an effects / processing unit, not a sound source, so it failed the sound generation test, but it sits in the same Spectrum product family as two modules that ARE included. (b) The Radial Pro Series drum kits, in production 1994 to 2002, which are ACOUSTIC drums. The earlier RMIF batch did include acoustic pianos, so the precedent is inconsistent; if acoustic instruments count, these belong here too.\n\nMIDI CONTROLLERS. MIDIbase and PC1600 were included only because the batch instructions say MIDI controllers are in scope. Neither generates sound. Both come from a single source (the Sound On Sound Spectrum Bass review) and neither has a year.\n\nNOT INCLUDED FOR LACK OF A CITABLE SOURCE, but they exist and should be picked up on a later pass: the DPM 2, which synthxl's service manual index labels a 'Performance Sequencer' (a sequencer alone would be out of scope) while secondary web material calls it a stripped down DPM keyboard model, so the device type is genuinely unsettled; the DPM V2 and DPM V3 rack versions; the SX sampling module, which vintagesynth describes as a mono 16 bit sampling module but never gives a full model designation, so a row would have to be called just 'SX'; and the Spectrum Organ, for which the only sources found (soundprogramming.net, worthpoint) are not reachable from this environment.\n\nSOURCING GAPS. peavey.com, the manufacturer's own site, is NOT on the quarantine-reader fetch allowlist, so there is NO manufacturer_official source in this record and the /about page was never read. official_website is taken from Wikidata P856, which gives http://www.peavey.com; it was written as https://www.peavey.com, a scheme normalisation and the only value in this record not copied verbatim from a source. Every other source here is tier 'other': en.wikipedia, muzines.co.uk (scans of Sound On Sound May 1990 and May 1993), matrixsynth, vintagesynth, synthxl and synthmania. Wikidata was used for country, city, founded_year, founders and website.\n\nDPM 3 YEAR. 1989 comes from the title of a matrixsynth post reproducing a 1989 Peavey DPM 3 print advertisement, corroborated by the Sound On Sound review of May 1990 stating the instrument had been announced over a year earlier. That is the advertising / announcement year, not a verified first shipping date. No source consulted gives a shipping date.\n\nNAME. The Spectrum Bass appears as 'Peavey DPM Spectrum Bass' (synthmania), 'Peavey Spectrum Bass' (Sound On Sound headline) and 'Peavey Spectrum Bass DPM' in the body of that same review. 'DPM Spectrum Bass' was used. en.wikipedia's Peavey Electronics article does not mention the DPM range, the Spectrum modules or keyboards at all, so nothing about the instruments came from it.\n\nQUEUE. The discovery queue holds TWO Peavey rows: id 27 'Peavey Electronics' and id 790 'Peavey'. queue_name is set to 'Peavey'. close_queue() in ingest.py returns after the first match, so id 27 will NOT be closed by this batch and needs closing by hand."
+  },
+  {
+   "canonical_name": "RMI",
+   "long_name": "Rocky Mount Instruments",
+   "country": "United States",
+   "city": "Rocky Mount",
+   "founded_year": 1966,
+   "ended_year": 1982,
+   "founders": null,
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "RMI",
+   "short_history": "RMI, short for Rocky Mount Instruments, was an American maker of electronic keyboards and a subsidiary of the Allen Organ Company, active from 1966 to 1982. It was set up to build portable instruments, and its keyboards generated sound with oscillators rather than the mechanical tines or reeds of a Rhodes or a Wurlitzer. Its products were designed at Allen's headquarters in Pennsylvania and built in Rocky Mount, North Carolina, which is where the name comes from. The Rock-Si-Chord and, above all, the Electra-piano made it a fixture of late sixties and early seventies rock keyboard rigs, and in the mid seventies it became an early digital instrument maker with the Keyboard Computer and the Harmonic Synthesizer, one of the first commercially produced digital synthesizers and the only true synthesizer RMI ever made. It could not compete with the polyphonic synthesizers of the early eighties and ceased production in 1982.",
+   "long_history": "The origins of RMI go back to 1959, when the Allen Organ Company began using transistors in its organs instead of vacuum tubes and set up a separate division to see whether the technology could be applied to portable musical instruments. A patent on the group's electronic keyboard design was filed in 1963. Most models were designed at Allen's headquarters in Pennsylvania and manufactured in Rocky Mount, North Carolina, which gave the subdivision its name. Production began in part of a former tobacco warehouse before moving to a 60,000 square foot factory employing 100 staff. Allen had sold to churches and theatres and had no experience of the rock and pop market, which shows in the early advertising, built around a mascot called Gopher Baroque.\n\nThe first products were combo organs, in early 1967. The Explorer was a four octave instrument at 845 dollars with a dedicated oscillator for every key and a flying hammer mechanism that repeatedly made and broke the oscillator's connection for a strummed, banjo like sound. The Lark was a three octave organ sharing one oscillator between every two notes. A three octave Band Organ, an electrical imitation of a calliope, was made from 1968 to 1969.\n\nThe first keyboard in the piano family was the Model 100 Rock-Si-Chord of 1967, at 695 dollars, which emulated a harpsichord and carried two sounds, string and lute. The later Model 100A added harpsichord, cembalo, lute and two guitars, and the Model 200 at 995 dollars added a 4 foot voice that needed an extra set of tone generator boards for every key. Allen's Tom Emerick later explained that the harpsichord voicings were simply easier to design and build than piano ones, which is why the Rock-Si-Chord came first. It was discontinued in 1968.\n\nThe 300 Series Electra-piano followed in 1967 and became the company's best selling product, with around 10,000 sold in total. Like the earlier instruments it used one oscillator per key, an LC oscillator chosen because it held its frequency without drift, and shaped the signal through filters into a piano like envelope. It also had an organ mode for indefinite sustain and an accenter that added percussion to the note attack. The 300A of 1967 and the 300B of 1969 had 61 keys; the 368 of 1972 added seven notes at the top and outsold the rest; the 368X of 1974 put the same instrument in a moulded plastic case instead of tolex covered plywood; and the 68D was a touch sensitive, made to order version of the 368X, of which few were built. The Model 400 was a console version for the home and club market with a built in speaker system, the 400A of 1970 using the 300B internals plus a 50 watt amplifier and the 468 of 1972 based on the 368. The 600 series combined Electra-piano and Rock-Si-Chord sounds: the 600A of 1968, the 600B of 1970 with improved voicing and a pedal board carrying two volume and two sustain pedals, and the 668 and 668X answering to the 368 and 368X. The 668X weighed 100 pounds, cost 2,095 dollars and was the last analogue Electra-piano still in production in the early eighties. RMI also built matching amplifiers, the 140 and 140A, which are not instruments and are not listed here.\n\nIn 1974 RMI produced the Keyboard Computer, derived from the digital Allen Computer Organ with fewer voices and marketed as the world's first portable digital musical instrument. It cost 4,495 dollars, supported transposition and pitch bend, and its voices were upgradeable through punch cards on which users could also store their own patches. Although sold as a synthesizer it was built on organ technology and lacked a full set of synthesizer functions. A Keyboard Computer II followed at 4,750 dollars with a better interface, more voices and more patch storage.\n\nThe RMI Harmonic Synthesizer, at 2,995 dollars, was the company's only true synthesizer and one of the first digital synthesizers to be commercially produced, almost a decade before the Yamaha DX7. It carried two digital harmonic generators, each with sixteen sliders setting the intensity of the fundamental and its overtones, each feeding an independent audio output so that the instrument played in stereo, plus five preset waveforms (clarinet, pulse, flute, horn, reed) that could be selected or mixed in. A voltage controlled filter with mixable low pass, band pass and high pass outputs was fed from the left generator only, and there were an octave shifter, pitch bend, portamento on a touch bar above the keyboard, amplitude and frequency modulation including noise modulation, and an arpeggiator that ran patterns for as long as a chord was held. It was technically advanced and sold badly. Between 150 and 250 were made and only four were ever sold in Europe. Both the Keyboard Computer and the Harmonic Synthesizer were used by Jean Michel Jarre on Oxygene in 1976.\n\nThe DK-20 Digital Keyboard of 1979 replaced the analogue Electra-pianos, with 68 keys in a similar cabinet and effects including adjustable decay, a phaser and various filters, and stayed in production until 1982. By the early eighties RMI's instruments were expensive and outclassed by polyphonic synthesizers such as the Prophet 5 and the Oberheim OB-X, and the company ceased production in 1982.\n\nRMI keyboards had a wide reach. The Rock-Si-Chord was used by the Beach Boys, the Lovin' Spoonful, Quasi, Sun Ra and Garth Hudson of The Band. The Electra-piano was played by Jon Lord of Deep Purple, Todd Rundgren, Frank Zappa, Rick Wakeman with Yes, Tony Banks with Genesis, Ron Mael with Sparks, Nicky Hopkins, Stevie Wonder and Elton John; Steve Winwood played one on Empty Pages and Dr. John on Right Place, Wrong Time. The Keyboard Computer was used by Isaac Hayes, Wakeman, Roger Powell of Utopia, Garth Hudson, Mike Pinder of the Moody Blues, Robert John Godfrey of The Enid, and later by Aphex Twin, who credited it on Syro in 2014.",
+   "name_history": [
+    {
+     "name": "Rocky Mount Instruments",
+     "start_year": 1966,
+     "end_year": 1982
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Allen Organ Company",
+     "relation_type": "subsidiary_of",
+     "year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Explorer",
+     "year": 1967,
+     "category": "electronic organ",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Lark",
+     "year": null,
+     "category": "electronic organ",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Band Organ",
+     "year": 1968,
+     "category": "electronic organ",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Model 100 Rock-Si-Chord",
+     "year": 1967,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Model 100A Rock-Si-Chord",
+     "year": null,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Model 200 Rock-Si-Chord",
+     "year": null,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 300A",
+     "year": 1967,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 300B",
+     "year": 1969,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 368",
+     "year": 1972,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 368X",
+     "year": 1974,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 68D",
+     "year": null,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 400A",
+     "year": 1970,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Electra-piano 468",
+     "year": 1972,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "600A",
+     "year": 1968,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "600B",
+     "year": 1970,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "668",
+     "year": null,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "668X",
+     "year": null,
+     "category": "electric piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Keyboard Computer",
+     "year": 1974,
+     "category": "digital keyboard",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Keyboard Computer II",
+     "year": null,
+     "category": "digital keyboard",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "Harmonic Synthesizer",
+     "year": null,
+     "category": "synthesizer",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    },
+    {
+     "name": "DK-20",
+     "year": 1979,
+     "category": "digital piano",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "long_name",
+     "value": "Rocky Mount Instruments",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Rocky Mount Instruments inc. USA",
+     "source_url": "http://www.synth-db.com/synths/RMI/Harmonic%20Synthesizer/Harmonic%20Synthesizer.php",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Rocky Mount, North Carolina",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1966",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1982",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:Allen Organ Company",
+     "value": "RMI was a subsidiary of the Allen Organ Company",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:Allen Organ Company",
+     "value": "Allen Organs created a handful of electric pianos in the 1970s and 1980s: Electra-Piano, Rock-si-cord, RMI Keyboard Computer KC-I and KC-II",
+     "source_url": "https://en.wikipedia.org/wiki/Allen_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:Allen Organ Company",
+     "value": "parent organization Allen Organ Company",
+     "source_url": "https://www.wikidata.org/wiki/Q3928329",
+     "source_tier": "wikidata"
+    },
+    {
+     "field_name": "canonical_name",
+     "value": "Rocky Mount Instruments (RMI / Allen Organ) Harmonic Synthesizer",
+     "source_url": "https://sonicstate.com/synth_reviews/rmi_harmonic_synth/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "subsidiary of Allen Organ Company, Rocky Mount NC, 1966 to 1982, oscillator based keyboards",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "full company and model history",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "Harmonic Synthesizer description and RMI product brochure text",
+     "source_url": "http://www.synth-db.com/synths/RMI/Harmonic%20Synthesizer/Harmonic%20Synthesizer.php",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:Harmonic Synthesizer:name",
+     "value": "RMI Harmonic Synthesizer, mark RMI (Rocky Mount Instruments inc. USA)",
+     "source_url": "http://www.synth-db.com/synths/RMI/Harmonic%20Synthesizer/Harmonic%20Synthesizer.php",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:Keyboard Computer:year",
+     "value": "1974",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "instrument:DK-20:year",
+     "value": "1979",
+     "source_url": "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [
+    {
+     "field_name": "instrument:Harmonic Synthesizer:year",
+     "description": "en.wikipedia says RMI produced the Harmonic Synthesizer in 1975 and discontinued it in 1976. synth-db gives the production period as 1974 to 1976 and repeats 'Produced: 1974 - 1976' in its spec table. The two do not agree on the first year, so the year was left null. Both agree that between 150 and 250 units were made.",
+     "source_urls": [
+      "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+      "http://www.synth-db.com/synths/RMI/Harmonic%20Synthesizer/Harmonic%20Synthesizer.php"
+     ]
+    },
+    {
+     "field_name": "instrument:Keyboard Computer II:year",
+     "description": "en.wikipedia's Rocky Mount Instruments article says the Keyboard Computer II was introduced in 1977. en.wikipedia's Allen Organ Company article says RMI Keyboard Computer KC-I (1974) and KC-II (1975). The year was left null. Note also the naming difference: KC-I and KC-II in the Allen article, Keyboard Computer and Keyboard Computer II in the RMI article.",
+     "source_urls": [
+      "https://en.wikipedia.org/wiki/Rocky_Mount_Instruments",
+      "https://en.wikipedia.org/wiki/Allen_Organ_Company"
+     ]
+    }
+   ],
+   "review_note": "ONE COMPANY, TWO QUEUE ROWS. The hypothesis is confirmed by the sources, not assumed. en.wikipedia's article is titled 'Rocky Mount Instruments' and opens 'Rocky Mount Instruments (RMI) was a subsidiary of the Allen Organ Company'; it explains the name directly, saying the instruments were manufactured in Rocky Mount, North Carolina, 'which led to the sub-division's name, Rocky Mount Instruments'. The synth-db page for the Harmonic Synthesizer records the mark as 'RMI (Rocky Mount Instruments inc. USA)'. Sonic State titles the same instrument 'Rocky Mount Instruments (RMI / Allen Organ) Harmonic Synthesizer'. RMI is simply the abbreviation. Discovery queue rows 651 'RMI' and 558 'Rocky Mount Instruments' should BOTH resolve to this single manufacturer. queue_name is 'RMI' as instructed; 'Rocky Mount Instruments' is in name_history, but close_queue() in ingest.py returns after the first match, so row 558 will NOT be closed automatically and needs closing by hand.\n\nNOT RMIF. This company has nothing to do with RMIF, id 104 in the manufacturers table, the Riga musical instrument factory in Latvia. Same looking abbreviation, different continent, different decades, no source links them. Nothing from the RMIF record was reused here.\n\nCITY. Rocky Mount, North Carolina is where the instruments were BUILT. en.wikipedia is explicit that 'most models were designed at the company headquarters in Pennsylvania', which is Allen's site in Macungie. The city field carries Rocky Mount because that is the operating and naming location of RMI itself, but a reviewer who prefers corporate headquarters should change it.\n\nFOUNDERS is null on purpose. No source names a person who founded RMI. It was a division created inside the Allen Organ Company, and the only named individual in any source is Tom Emerick, described as 'Allen's Tom Emerick', who explained a product decision. He is not stated to be a founder and was not written into the field.\n\nFOUNDED_YEAR. 1966 is the lead sentence of en.wikipedia ('active from 1966 to 1982'). The same article dates the origins to 1959 (Allen's move to transistors), a patent filing to 1963, and the first shipping products to early 1967. Those are not treated as conflicts, they are different milestones, but 1966 rests on one sentence in one source.\n\nINSTRUMENT NAMING. The Electra-piano variants appear in en.wikipedia as bare model numbers inside a section about the 300 Series Electra-piano. They were written as 'Electra-piano 300A' and so on to keep the rows identifiable on their own. The 600 series was NOT given that prefix, because en.wikipedia describes it as combining the sounds of the Electra-piano AND the Rock-Si-Chord rather than as an Electra-piano; those four rows are the bare numbers 600A, 600B, 668, 668X, which is ugly but is what the source says.\n\nCATEGORIES are a judgement call. The Keyboard Computer and Keyboard Computer II were filed as 'digital keyboard', not 'synthesizer', because en.wikipedia states explicitly that 'though marketed as a synthesizer, the Keyboard Computer was based more on organ technology and did not have the full set of synthesizer functions'. The Rock-Si-Chord models are 'electric piano' following en.wikipedia's own sentence 'the first electric piano model was the Model 100 Rock-Si-Chord', even though the instrument emulates a harpsichord. The DK-20 is 'digital piano'.\n\nLEFT OUT DELIBERATELY: the RMI 140 and 140A amplifiers and the Hi-Scream Cone accessory, all amplification, and the sample libraries and Nord / Roland JV sample sets derived from RMI instruments, which are software.\n\nUNRESOLVED SPEC DISAGREEMENT, not a manufacturer field so not filed as a conflict: en.wikipedia says the Harmonic Synthesizer had 48 keys, synth-db's spec table says 78 keys. Whoever does the specs phase needs to settle that. en.wikipedia also says the Harmonic Synthesizer was RMI's ONLY true synthesizer, which is worth keeping in mind before anything else in this list gets recategorised as one.\n\nSOURCE TIERS. There is no manufacturer_official source: RMI has been gone since 1982 and has no website. Wikidata Q3928329 carries only a parent organization claim, nothing else, so it could only be cited for the Allen Organ relation. Everything else is tier 'other': en.wikipedia (two articles), synth-db and sonicstate. The sonicstate page returned only its title and navigation through the fetch route available here, so it was used ONLY as evidence of how the maker is named, not for any fact.\n\nThe relations entry will make ingest.py stub an unresearched 'Allen Organ Company' row in the discovery queue. That is intended: Allen made the digital Computer Organ the RMI Keyboard Computer was derived from, and it is a legitimate target for a later pass."
+  }
+ ]
+}

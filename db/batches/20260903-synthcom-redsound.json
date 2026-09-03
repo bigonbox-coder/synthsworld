@@ -1,0 +1,389 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "Synthesizers.com",
+      "long_name": null,
+      "country": "United States",
+      "city": null,
+      "founded_year": null,
+      "ended_year": null,
+      "founders": "Roger Arrick",
+      "status": "active",
+      "official_website": "https://www.synthesizers.com/",
+      "queue_name": "Synthesizers.com",
+      "short_history": "Synthesizers.com is an American company that builds analog modular synthesizers in the 5U Moog Modular form factor and sells them direct over the internet. It was founded by the engineer and robotics designer Roger Arrick and began accepting orders for modular systems in 2000. It belongs in this database because it is one of the small number of firms that kept large format voltage controlled modular synthesis in production after the vintage era ended, selling both complete pre built cabinets such as the QSP, QSR and QSS systems and the individual Q series modules that fill them, all of which are mechanically and electrically compatible with original Moog modulars. The company has changed hands three times since 2018 and is trading again under new management as of late 2025.",
+      "long_history": "Synthesizers.com was started by Roger Arrick, an engineer who also designs robots. The English Wikipedia article dates the founding to 1997 in its text but to 1996 in its infobox, and Wikidata records the inception as 1996, so this record leaves the year open. What the sources agree on is that the company began accepting orders for modular synthesizers in 2000.\n\nThe products are large format analog modulars. Cabinets and modules conform to the physical Moog Modular 5U form factor, and Vintage Synth Explorer notes that the modules will fit into Moog modulars and that the signal levels are compatible, the difference being an upgraded power supply system. The systems are described as hyper modular, meaning any module including the power modules can be placed in any position without rewiring. The module range covers the basic oscillator, filter and amplifier functions along with sequencers, ring modulators and quantizers, and includes a 24dB ladder filter, a state variable filter and a 14 bank fixed filter. Complete systems were offered in three shapes: the QSP portable systems in road worthy cabinets, the QSR rack mount systems built around an 8.75 inch frame, and the QSS studio systems in wood cabinets, each in a 22 space and a 44 space size except the rack line, which came as the 8 module QSR8 and the QSR24 built from three QSR8 frames. A five octave keyboard, the QKB15S, was offered as an option and converts MIDI to CV and gate.\n\nIn 2005 the company began offering a clone of the Moog 960 sequencer, duplicating the original front panel layout with redesigned electronics, together with recreations of the Moog 961 and 962 accessory modules. That product is a sequencer and a pair of interface modules rather than a sound source, so it is recorded here in prose only.\n\nOwnership has moved several times. In 2018 Arrick sold the business to a long time employee, James Allen. In September 2023 the company was sold again and operations moved to Stafford, Texas. In May 2025 that group sold the Synthesizers.com brand in its entirety, including inventory and branding rights, to Lysandra LLC, a group of modular hobbyists turned retailers whose other properties include synthCube, Music From Outer Space, Small Bear Electronics and Blacet Research. In November 2025 Matrixsynth carried the announcement that Synthesizers.com was returning to full operation under Dan Snazelle of Snazzy FX, with the operation relocated to the Boston area and a stated commitment to continued hand built manufacture in the United States, to honouring the legacy modules and to the wider 5U community.",
+      "name_history": [],
+      "relations": [
+        {
+          "related_company": "Lysandra LLC",
+          "relation_type": "acquired_by",
+          "year": 2025
+        }
+      ],
+      "instruments": [
+        {
+          "name": "QSP22",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSP22/QSP22.php"
+        },
+        {
+          "name": "QSP44",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSP44/QSP44.php"
+        },
+        {
+          "name": "QSR8",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSR8/QSR8.php"
+        },
+        {
+          "name": "QSR24",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSR24/QSR24.php"
+        },
+        {
+          "name": "QSS22",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSS22/QSS22.php"
+        },
+        {
+          "name": "QSS44",
+          "year": 2000,
+          "category": "modular synthesizer",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSS44/QSS44.php"
+        },
+        {
+          "name": "QKB15S",
+          "year": null,
+          "category": "keyboard controller",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/rack-mount-systems"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://www.wikidata.org/wiki/Q7662715",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "country",
+          "value": "United States",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Roger Arrick",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "official_website",
+          "value": "https://www.synthesizers.com/",
+          "source_url": "https://www.wikidata.org/wiki/Q7662715",
+          "source_tier": "wikidata"
+        },
+        {
+          "field_name": "official_website",
+          "value": "http://www.synthesizers.com",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://www.matrixsynth.com/2025/11/synthesizerscom-is-back-with-dan.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "active",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relations",
+          "value": "Lysandra LLC acquired the Synthesizers.com brand, inventory and branding rights in May 2025",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "American maker of 5U Moog format analog modular synthesizers, orders from 2000",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Ownership chain Arrick to James Allen 2018, to new owners September 2023, to Lysandra LLC May 2025; Moog 960 sequencer clone from 2005",
+          "source_url": "https://en.wikipedia.org/wiki/Synthesizers.com",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Company returned to full operation under Dan Snazelle of Snazzy FX, relocated to the Boston area",
+          "source_url": "https://www.matrixsynth.com/2025/11/synthesizerscom-is-back-with-dan.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Systems use the Moog modular form factor with an upgraded power supply, modules fit Moog modulars and signal levels are compatible",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/portable-systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSP22:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSP22/QSP22.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSP44:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSP44/QSP44.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSR8:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSR8/QSR8.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSR24:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSR24/QSR24.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSS22:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSS22/QSS22.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSS44:year",
+          "value": "2000",
+          "source_url": "http://www.synth-db.com/synths/Synthesizers.com/QSS44/QSS44.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSP22:name",
+          "value": "QSP22, 22 space road worthy portable cabinet system",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/portable-systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSR8:name",
+          "value": "QSR8, 8.75 inch high rack frame holding 8 single width modules",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/rack-mount-systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QSS22:name",
+          "value": "QSS22, 22 space wood studio cabinet system",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/studio-systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:QKB15S:name",
+          "value": "Optional QKB15S 5 octave studio keyboard which uses and converts MIDI to CV/Gate",
+          "source_url": "https://www.vintagesynth.com/synthesizers-com/rack-mount-systems",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "founded_year",
+          "description": "Wikidata gives inception 1996 and the English Wikipedia infobox also says Founded 1996, while the body text of the same Wikipedia article says Roger Arrick founded the company in 1997. The article contradicts itself, so no year was written.",
+          "source_urls": [
+            "https://www.wikidata.org/wiki/Q7662715",
+            "https://en.wikipedia.org/wiki/Synthesizers.com"
+          ]
+        },
+        {
+          "field_name": "city",
+          "description": "Wikidata gives headquarters location Tyler, Texas, and the English Wikipedia infobox agrees, but the body of the same Wikipedia article says the company is based in Boston, Massachusetts, and the Matrixsynth announcement of November 2025 says the new management relocated it to the Boston area. The sources describe different points in a relocation history rather than one city, so the field was left empty.",
+          "source_urls": [
+            "https://www.wikidata.org/wiki/Q7662715",
+            "https://en.wikipedia.org/wiki/Synthesizers.com",
+            "https://www.matrixsynth.com/2025/11/synthesizerscom-is-back-with-dan.html"
+          ]
+        }
+      ],
+      "review_note": "SYSTEMS OR MODULES. Instrument rows here are the packaged pre built SYSTEMS, not the individual modules. Reasons: a system is the complete self contained sound generating instrument, a powered cabinet already holding oscillators, filter, amplifier and envelopes, and our sources give each system a name and a production year; a single module is a component that cannot make a sound without a cabinet and power, and most of the catalogue we can see (mixers, multiples, power interfaces, switches, blank panels, the Q119 sequencer, the Q115 reverb) would fail the sound generation test outright. The module names we hold come from the bills of materials printed on the Vintage Synth Explorer and synth-db system pages, not from a dated product catalogue, and not one module has a year stated in any source we could read. A module level catalogue would have to come from synthesizers.com itself, which this project cannot fetch (see below), so no module catalogue was invented.\n\nCOULD NOT READ THE MANUFACTURER SITE. synthesizers.com and rogerarrick.com are not on this project's egress allowlist, so the company's own About page and Roger Arrick's own History of Synthesizers.com page, which Wikipedia cites as its source for the founding, could not be opened. web.archive.org is also not fetchable from this environment (the fetch tool refused it outright), so the Wayback copies were not reachable either. Every fact below therefore rests on third party pages. A human with direct access should read https://www.rogerarrick.com/synthesizersdotcom/ and https://www.synthesizers.com/about.html and settle the founding year and the city from the owner's own account.\n\nNOT ESTABLISHED. founded_year is empty because Wikidata and the Wikipedia infobox say 1996 while the Wikipedia body says 1997; see conflicts. city is empty because the company has moved at least three times and the sources point at different stops; see conflicts. long_name is empty because no source states a legal entity name, Wikipedia only records the type as Proprietorship. ended_year is empty and status is active on the strength of the November 2025 Matrixsynth announcement.\n\nLEFT OUT DELIBERATELY. The Moog 960 sequencer clone of 2005 and the 961 and 962 recreations: sequencers and interface modules, not sound sources. All individual Q series modules, for the reason above. The Wikipedia gallery captions name four further systems, Studio-66, Portable-22, Rack-24 and Box-33, which look like a later generation of the same three cabinet lines, but a gallery caption states only a name, with no year and no description, so they were not entered. They are the obvious next lead if the manufacturer site becomes readable.\n\nCHECK THIS. QKB15S was entered as a keyboard controller because the scope rule counts controllers as instruments, but the sources describe it only as an optional keyboard accessory for the systems, with no year. If the project would rather not carry bare accessories, drop that row."
+    },
+    {
+      "canonical_name": "Red Sound Systems",
+      "long_name": null,
+      "country": "United Kingdom",
+      "city": null,
+      "founded_year": null,
+      "ended_year": null,
+      "founders": null,
+      "status": "defunct",
+      "official_website": "http://www.redsound.com/",
+      "queue_name": "Red Sound Systems",
+      "short_history": "Red Sound Systems was a British maker of music equipment that came out of the DJ market and built three virtual analog synthesizers around a DSP modelling engine of its own. It first appeared in the British press in 1998 with the Beat Xtractor tempo detection box, released its first synthesizer, the desktop 8 voice DarkStar, in 1999, followed it with the revised DarkStar XP2, and in 2001 scaled the same engine up into the 16 voice Elevata sound module. It belongs in this database for those three instruments, which offered a cheap route into modelled analog polyphony at the time of the Nord Lead and the Novation Supernova, and for the EPROM upgrade idea that let a DarkStar be converted into the Vocoda vocoder. The company is gone.",
+      "long_history": "Red Sound Systems was a British manufacturer of music equipment. Sound On Sound described it in March 2000 as a newly formed company whose Buckinghamshire offices had sent in the Beat Xtractor 1 about two years earlier, a box that detected the tempo of an incoming audio source and synchronised a MIDI sequencer to it. The Elevata review of August 2002 dates that first appearance in the magazine to 1998 and notes that the company stayed close to the dance and DJ market throughout. The Federation BPM FX Pro, an effects unit, was reviewed in October 1999.\n\nThe first instrument was the DarkStar of 1999, a table top 8 voice polyphonic synthesizer whose analog sounds are produced by DSP based analog modelling. It carries two oscillators per voice, a five part multitimbral setup, a joystick for mixing the oscillators, ring modulation and pink, white and blue noise generators, two LFOs, two ADSR envelopes, a 12dB per octave resonant filter switchable between low, high and band pass, and 64 patch memories. Fourteen knobs transmit MIDI. Its look was modelled on the company's DJ tools. It was sold for under 400 pounds. The machine was designed to be upgraded by plugging an EPROM into a compartment underneath, and the Vocoda kit did exactly that, turning the DarkStar into a five mode 11 band vocoder with an 8 step formant sequencer and 15 preset vowels. A revision, the DarkStar XP2, added a headphone jack, a second pair of audio outputs and a stereo input, moved everything to quarter inch jacks, replaced the program button with a wheel, added a master volume control, and added chorus and a sine wave mode for the second oscillator.\n\nIn 2001 the same DSP modelling engine was enlarged for the Elevata, a 16 voice, eight part multitimbral sound module whose front panel swivels through 90 degrees so it can be racked or used on a desk. Two modelling oscillators per voice offer square, sawtooth, sine and formant waveforms plus noise, the filter is again a 12dB per octave resonant design with low, high and band pass modes, and there are two syncable LFOs, ADSR envelopes for filter and amplifier, portamento, an arpeggiator, chorus and flange, and a joystick assignable to any modulatable parameter. A Sound Wizard function randomises parameters. It stores 127 preset and 127 user patches and 90 multi patches of up to eight programs each, has six outputs and stereo inputs for processing external audio, and takes up to three EPROMs including the Vocoda. Sound On Sound reviewed it in August 2002 at 649 pounds including VAT and placed it against the Nord Leads and the Novation Supernovas.\n\nThe company did not survive its move into instruments. Sequencer.de records flatly that the UK based company died after trying to sell a new virtual analog synth, adding an unresolved question of whether it might have returned. Wikipedia writes about the product line in the past tense and the redsound.com address given in the Sound On Sound contact box no longer serves the company.",
+      "name_history": [],
+      "relations": [],
+      "instruments": [
+        {
+          "name": "DarkStar",
+          "year": 1999,
+          "category": "synthesizer",
+          "source_url": "https://www.vintagesynth.com/red-sound-systems/darkstar"
+        },
+        {
+          "name": "DarkStar XP2",
+          "year": null,
+          "category": "synthesizer",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Sound_Systems"
+        },
+        {
+          "name": "Elevata",
+          "year": 2001,
+          "category": "synthesizer",
+          "source_url": "https://www.vintagesynth.com/red-sound-systems/elevata"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Sound_Systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.sequencer.de/syns/redsound/index.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.soundonsound.com/reviews/red-sound-systems-dark-star",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "status",
+          "value": "defunct",
+          "source_url": "https://www.sequencer.de/syns/redsound/index.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "official_website",
+          "value": "http://www.redsound.com/",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Sound_Systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "official_website",
+          "value": "www.redsound.com",
+          "source_url": "https://www.soundonsound.com/reviews/red-sound-elevata",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "British manufacturer of music equipment, made the Darkstar and optional Vocoda kit, the Darkstar XP2 and Elevata synthesizers, and DJ equipment such as the Federation BPM FX Pro and the Beat Xtractor1",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Sound_Systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "The Beat Xtractor 1 arrived for review from the Buckinghamshire offices of a newly formed company by the name of Red Sound Systems, and the Federation BPM FX Pro followed, reviewed October 1999",
+          "source_url": "https://www.soundonsound.com/reviews/red-sound-systems-dark-star",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Red Sound Systems first appeared in Sound On Sound in 1998 with the Beat Xtractor tempo detection device and remained close to the dance and DJ market",
+          "source_url": "https://www.soundonsound.com/reviews/red-sound-elevata",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:DarkStar:year",
+          "value": "1999",
+          "source_url": "https://www.vintagesynth.com/red-sound-systems/darkstar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:DarkStar:year",
+          "value": "1999",
+          "source_url": "http://www.synth-db.com/synths/Red Sound Systems/DarkStar/DarkStar.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:DarkStar:name",
+          "value": "Red Sound System's first synth, a table top 8 voice polyphonic DSP based analog modelling synthesizer",
+          "source_url": "https://www.vintagesynth.com/red-sound-systems/darkstar",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:DarkStar XP2:name",
+          "value": "the Darkstar XP2",
+          "source_url": "https://en.wikipedia.org/wiki/Red_Sound_Systems",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:DarkStar XP2:name",
+          "value": "The Darkstar XP2, which adds the earphone jack in addition to a second pair of audio out a stereo in jack, all quarter inch now instead of RCA jacks",
+          "source_url": "http://www.synth-db.com/synths/Red Sound Systems/DarkStar II/DarkStar II.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Elevata:year",
+          "value": "2001",
+          "source_url": "https://www.vintagesynth.com/red-sound-systems/elevata",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Elevata:year",
+          "value": "2001",
+          "source_url": "http://www.synth-db.com/synths/Red Sound Systems/Elevata/Elevata.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Elevata:year",
+          "value": "2001",
+          "source_url": "https://www.sequencer.de/syns/redsound/index.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Elevata:name",
+          "value": "16 voice polyphonic, eight part multitimbral modelled analogue synthesizer, reviewed August 2002 at 649 pounds including VAT",
+          "source_url": "https://www.soundonsound.com/reviews/red-sound-elevata",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "instrument:DarkStar XP2:name",
+          "description": "The English Wikipedia and the synth-db body text both call the machine the Darkstar XP2, but synth-db files the same page under the model name DarkStar II. Nothing states that the two names belong to different products or that one superseded the other, so the row carries the XP2 name and the discrepancy is recorded rather than resolved.",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Red_Sound_Systems",
+            "http://www.synth-db.com/synths/Red Sound Systems/DarkStar II/DarkStar II.php"
+          ]
+        },
+        {
+          "field_name": "instrument:DarkStar XP2:year",
+          "description": "Sequencer.de lists Dark Star and XP2 together as a single entry built in 1999, which dates the original DarkStar and does not separately date the XP2. The synth-db DarkStar II page has an empty Produced field. No source gives the XP2 its own year, so the year was left empty.",
+          "source_urls": [
+            "https://www.sequencer.de/syns/redsound/index.html",
+            "http://www.synth-db.com/synths/Red Sound Systems/DarkStar II/DarkStar II.php"
+          ]
+        }
+      ],
+      "review_note": "OUT OF SCOPE, DELIBERATELY LEFT OUT. Red Sound Systems is best known for gear that is not an instrument, and none of it was entered. The Beat Xtractor and Beat Xtractor 1 are tempo detection and MIDI sync boxes. The Federation BPM FX Pro is an effects unit. C-Loops and the Micro BPM belong to the same DJ range. None of these generate sound, so all fail the scope test. The Vocoda was also left out: it is not a separate product but an EPROM upgrade kit plus a decal that converts a DarkStar into a vocoder, and a vocoder processes an incoming signal rather than standing on its own as an instrument. It is described in the history text instead.\n\nNOT ESTABLISHED. founded_year is empty. Sound On Sound in March 2000 calls the company newly formed at the time the Beat Xtractor 1 arrived, which its Elevata review dates to 1998, whereas a UK Companies House record for RED SOUND SYSTEMS LIMITED, company number 03149517, was reported by a search engine as incorporated on 23 January 1996 at 6 Jacobs Yard, Middle Barton, Chipping Norton, Oxfordshire, and dissolved on 26 November 2019. That Companies House page could NOT be opened from this environment because the domain is not on the project fetch allowlist, so nothing from it was written into any field, including long_name, city and ended_year. A human should open https://find-and-update.company-information.service.gov.uk/company/03149517 and confirm the legal name, the incorporation date and the dissolution date before any of them is entered.\n\ncity is empty on purpose. The only location any readable source gives is a county, not a city: Sound On Sound refers to the Buckinghamshire offices of the company in March 2000. The Oxfordshire address above is from the unread Companies House record and is in any case a later registered office rather than the works.\n\nfounders is empty. Not one readable source names a founder or a principal of the company. Wikidata item Q55631333 exists but is a shell: no country, no inception, no headquarters, no founder, no website, no logo, no dissolution date, only a Commons category and a Google Knowledge Graph id.\n\nstatus is defunct on the strength of the Sequencer.de sentence that the UK based company died after trying to sell a new VA synth. Note that the same sentence ends with the hedge that possibly they are back now, so this is not a hard closure statement, and ended_year was left empty rather than guessed.\n\nLEAD NOT FOLLOWED. The Wikipedia further reading list cites a Future Music review of the Red Sound SoundBITE XL in issue 175, June 2006, and a web search summary described it as a sampler and groovebox. A sampler and groovebox would pass the scope test, but the only thing an actually readable source states is the product name in a magazine citation, with no description and no confirmation of what the device does, so no row was created. This is the one instrument sized gap in this record and worth checking."
+    }
+  ]
+}

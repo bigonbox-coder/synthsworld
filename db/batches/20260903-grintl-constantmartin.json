@@ -1,0 +1,324 @@
+{
+  "manufacturers": [
+    {
+      "canonical_name": "GR International",
+      "long_name": "GR International Ltd",
+      "country": "United Kingdom",
+      "city": null,
+      "founded_year": null,
+      "ended_year": null,
+      "founders": null,
+      "status": "unknown",
+      "entity_type": "company",
+      "official_website": null,
+      "queue_name": "GR International",
+      "short_history": "GR International Ltd was a Scottish electronics manufacturer, owned by two brothers who were both musicians, that in 1977 designed and built the Bandmaster Powerhouse rhythm machine. The Powerhouse plays back 8-track cartridges carrying loops of a live session drummer rather than synthesised percussion, which places it in the tape-replay family alongside the Chamberlin Rhythmate and the Wurlitzer Sideman. The company also made cassette recorders for hi-fi music centres. It is in this database as the maker of the Powerhouse, which is the only sound-generating instrument attributable to it.",
+      "long_history": "Sound On Sound states that in 1977 the Scottish company GR International Ltd, owned by two brothers who both happened to be musicians, designed and manufactured a rhythm machine called the Powerhouse. The same source states that the company also manufactured cassette recorders for hi-fi music centres, and that the Powerhouse was designed to take eight-track cartridges loaded with drum loops apparently performed by a top session drummer.\n\nThe machine was sold under the Bandmaster name. Sightings and listings therefore attribute it variously to \"Bandmaster L.T.D./G.R. International\" and to \"Bandmaster Ltd. Scotland\", and Vintage Synth Explorer files the instrument under GR International. The relationship between the GR International company name and the Bandmaster brand or company name is not explained by any source found, so both names are recorded here without asserting which was the legal entity.\n\nVintage Synth Explorer describes the operation of the instrument: inserting a cartridge gives eight loops, categorised in four modes each containing a pair of tempo-synced rhythms, with some cartridges holding solo percussion such as bongos, timbales, tambourines and cowbells. The unit shipped with eight tapes as standard, with a rare four-tape Disco/Hustle expansion pack and an even rarer two-tape Nashville pack, giving fourteen tapes and 112 rhythms in total. Sound On Sound lists the styles as Quickstep, Shuffle, Twist, Waltz, Foxtrot, Tango, Pasadoble, Bolero, Samba, Mambo, Meringue, Calypso, March, Polka, Jig, Rhumba, Cha-Cha, Bossa Nova, Beguine and Cuban, plus more contemporary Rock, Funk, Glitter Rock and Motown Slowbeat.\n\nThe Powerhouse reached the United States: Vintage Synth Explorer notes US distribution, and a 1977 Contemporary Keyboard advertisement indexed by Retro Synth Ads presents the \"Powerhouse 8-Track Rhythm Unit\" under the name Sound Sales Inc. Vintage Synth Explorer notes that the instrument remains largely undiscovered but has users ranging from Mount Kimbie to Vangelis. No source found states when GR International was founded, when it stopped trading, or what became of it.",
+      "name_history": [
+        {
+          "name": "GR International Ltd",
+          "start_year": null,
+          "end_year": null
+        },
+        {
+          "name": "Bandmaster",
+          "start_year": null,
+          "end_year": null
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Sound Sales Inc.",
+          "relation_type": "us_distributor",
+          "year": 1977
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Bandmaster Powerhouse",
+          "year": 1977,
+          "category": "drum machine"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "long_name",
+          "value": "GR International Ltd",
+          "source_url": "https://www.soundonsound.com/reviews/bandmaster-powerhouse-breaks",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.soundonsound.com/reviews/bandmaster-powerhouse-breaks",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "country",
+          "value": "United Kingdom",
+          "source_url": "https://www.vintagesynth.com/grinternational/bandmaster-powerhouse",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "Scottish maker of the Bandmaster Powerhouse tape rhythm machine, 1977",
+          "source_url": "https://www.soundonsound.com/reviews/bandmaster-powerhouse-breaks",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Operation, tape complement and rhythm list of the Bandmaster Powerhouse",
+          "source_url": "https://www.vintagesynth.com/grinternational/bandmaster-powerhouse",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Bandmaster Powerhouse:year",
+          "value": "1977",
+          "source_url": "https://www.soundonsound.com/reviews/bandmaster-powerhouse-breaks",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Bandmaster Powerhouse:category",
+          "value": "drum machine",
+          "source_url": "https://www.vintagesynth.com/grinternational/bandmaster-powerhouse",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Bandmaster",
+          "value": "Bandmaster L.T.D./G.R. International",
+          "source_url": "https://www.matrixsynth.com/2006/10/scottish-made-powerhouse-drum-machine.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Bandmaster",
+          "value": "Bandmaster Ltd. Scotland",
+          "source_url": "https://www.matrixsynth.com/2023/01/bandmaster-ltd-scotland-bmi-powerhouse.html",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:Sound Sales Inc.",
+          "value": "Sound Sales Inc. Powerhouse 8-Track Rhythm Unit, Contemporary Keyboard 1977",
+          "source_url": "https://retrosynthads.blogspot.com/2009/09/sound-sales-inc-powerhouse-8-track.html",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "canonical_name",
+          "description": "Sources disagree on which company name belongs to the maker. Sound On Sound names GR International Ltd. Matrixsynth listings name Bandmaster Ltd. Scotland, and a 2006 listing writes it as Bandmaster L.T.D./G.R. International. Vintage Synth Explorer files the instrument under GR International. No source explains whether Bandmaster was a brand of GR International, a separate legal entity, or a successor. The row is kept under GR International because that is the queue name and the Vintage Synth Explorer filing, with Bandmaster recorded in name_history.",
+          "source_urls": [
+            "https://www.soundonsound.com/reviews/bandmaster-powerhouse-breaks",
+            "https://www.matrixsynth.com/2023/01/bandmaster-ltd-scotland-bmi-powerhouse.html",
+            "https://www.matrixsynth.com/2006/10/scottish-made-powerhouse-drum-machine.html",
+            "https://www.vintagesynth.com/grinternational/bandmaster-powerhouse"
+          ]
+        }
+      ],
+      "review_note": "All sources here are secondary, tier other. No manufacturer site, Wikipedia article or Wikidata item for this company was found. Deliberately left null: founded_year, ended_year, founders, city, status, official_website. On founders, Sound On Sound states only that GR International Ltd was owned by two brothers who were both musicians, without naming them, so founders stays null. Web search result snippets repeatedly assert that the company was based in Perth, Scotland and that the brothers were Robin and Tony Twine, players in the Tayside Big Band, but I could not tie that text to any fetchable page. It does not appear in the Sound On Sound article, in either matrixsynth post, on Vintage Synth Explorer, or on the archived 12bitcrunch site. It most likely originates from an eBay or Reverb listing description, which are not reachable here. So city is null and the Twine names are recorded only in this note as an unverified lead worth checking against an eBay or Reverb listing or a Perth company registry. Country is set to United Kingdom to match the existing convention in this database; every source says Scotland specifically. Dating: Sound On Sound gives 1977 for design and manufacture of the Powerhouse, and the 1977 Contemporary Keyboard advertisement agrees, so the instrument year is 1977. Vintage Synth Explorer says only mid-1970s, which is looser but not contradictory. Status left as unknown because no source states the company closed, even though it plainly no longer trades. Excluded on the sound-generation test: the cassette recorders for hi-fi music centres that Sound On Sound says the company also made. Also excluded, and unrelated: the Studiomaster Powerhouse, a powered mixer reviewed in Music Technology in January 1993, which shares only the product name. The 12bitcrunch.com site listed by Vintage Synth Explorer as the Powerhouse website of interest was a sample-pack shop, not the manufacturer, and the domain is now parked and for sale; its archived pages contain no company history. The cached Vintage Synth Explorer page and the fetched pages contained no text attempting to give me instructions."
+    },
+    {
+      "canonical_name": "Constant Martin",
+      "long_name": null,
+      "country": "France",
+      "city": "Versailles",
+      "founded_year": 1932,
+      "ended_year": null,
+      "founders": "Constant Martin",
+      "status": "unknown",
+      "entity_type": "individual",
+      "official_website": null,
+      "queue_name": "Constant Martin",
+      "short_history": "Constant Martin (1910 to 1995) was a French electrical and radio engineer who invented the Clavioline, the monophonic valve keyboard launched in 1947 that became one of the most widely heard early electronic instruments. This is a person, not a company: Martin worked through his own establishments in Versailles, Le relief sonore from 1932 and later the SEBCM patent exploitation company, and licensed the Clavioline out for manufacture by Selmer, Gibson and Jorgensen rather than building it at scale himself. He is in this database as the originating designer of the Clavioline and of a series of electronic organs, bells and carillons.",
+      "long_history": "Constant Martin took diplomas as an electrical engineer and radio engineer in 1930 and began his career with Victor Martin, a radio manufacturer with whom he had no family connection, where he developed an original receiver. In 1932 he set up his own establishments, Le relief sonore, at 36 avenue de Saint-Cloud in Versailles, and in the same year began experimenting with the creation of electronic music. Between 1932 and 1937 he developed a first electronic instrument related to the organ, using harmonium reeds; it was demonstrated at the Church of Sainte-Odile in Paris in July 1939. In 1943 he completed an electronic organ with independent oscillators and harmonic analysers, presented at the Oratoire du Louvre, the Hotel des Invalides and the Palais de Chaillot. From 1945 his work continued within the SEBCM, the Societe d'exploitation des brevets Constant Martin, in Versailles.\n\nThe Clavioline grew out of this work. A prototype was used at a gala in 1940 and the instrument was put on the market in 1947 in Versailles. It was a small monophonic keyboard designed to be mounted under a piano and to imitate orchestral solo instruments. It was a commercial success on a scale unusual for early electronic instruments: Wikipedia reports more than 30,000 sold in the United Kingdom alone. Martin did not manufacture it everywhere himself. The patents were licensed and instruments were built locally: Selmer made it in France and in Great Britain, producing the Standard, Reverb and Concert models in the 1950s, Gibson made it in the United States, at Kalamazoo, and Jorgensen Electronic made it in Germany, at Dusseldorf. The six-octave model with octave transposition was developed by Harald Bode and manufactured under licence by Jorgensen. Constant Martin also designed a duophonic Clavioline in 1949, which never reached production.\n\nThe Clavioline's influence runs wider than its own licensees. In England the Jennings Organ Company's first successful product, the Univox, was an early self-powered electronic keyboard inspired by the Selmer Clavioline, and in Japan Ace Tone's first prototype, the Canary S-2 of 1962, was based on the Clavioline. Neither of these was a licensed Clavioline, so they are noted rather than recorded as licensee relations.\n\nMartin's other work was largely in electronic bells and organs for churches and public spaces. His research on free reeds led him to observe that the complex vibration of a vibrating rod resembles that of a bronze bell, and from this he built electronic bells, demonstrating new ones at the Eglise Saint-Philippe-du-Roule in Paris in the 1950s. In the early 1960s he created electronic carillons, and from the early 1960s his electronic sounds were used for the time signal on Radio Europe 1 and for announcements at Orly Airport. His research led in 1968 to the manufacture of an electronic pipe organ. He was born in 1910 at Villefranche-de-Rouergue and died on 16 June 1995 at Upie. He is the grandfather of the film director Michel Gondry.",
+      "name_history": [
+        {
+          "name": "Le relief sonore",
+          "start_year": 1932,
+          "end_year": null
+        },
+        {
+          "name": "SEBCM (Societe d'exploitation des brevets Constant Martin)",
+          "start_year": 1945,
+          "end_year": null
+        }
+      ],
+      "relations": [
+        {
+          "related_company": "Selmer",
+          "relation_type": "licensee",
+          "year": null
+        },
+        {
+          "related_company": "Gibson",
+          "relation_type": "licensee",
+          "year": null
+        },
+        {
+          "related_company": "Jorgensen Electronic",
+          "relation_type": "licensee",
+          "year": null
+        }
+      ],
+      "instruments": [
+        {
+          "name": "Clavioline",
+          "year": 1947,
+          "category": "electronic keyboard"
+        },
+        {
+          "name": "Electronic organ",
+          "year": 1943,
+          "category": "electronic organ"
+        },
+        {
+          "name": "Electronic bells",
+          "year": null,
+          "category": "electronic carillon"
+        },
+        {
+          "name": "Carillon electronique",
+          "year": null,
+          "category": "electronic carillon"
+        },
+        {
+          "name": "Orgue electronique a tuyaux",
+          "year": 1968,
+          "category": "electronic organ"
+        }
+      ],
+      "sources": [
+        {
+          "field_name": "country",
+          "value": "France",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "city",
+          "value": "Versailles",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founded_year",
+          "value": "1932",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "founders",
+          "value": "Constant Martin",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "entity_type",
+          "value": "individual",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "short_history",
+          "value": "French engineer and inventor who perfected and commercialised the Clavioline",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Career, establishments, instruments and dates",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Clavioline invented in 1947 in Versailles; licensed manufacture and derivatives",
+          "source_url": "https://en.wikipedia.org/wiki/Clavioline",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "long_history",
+          "value": "Duophonic Clavioline of 1949 never reached production",
+          "source_url": "https://www.soundonsound.com/sos/mar07/articles/clavioline.htm",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:Le relief sonore",
+          "value": "En 1932, il cree 36, avenue de Saint-Cloud a Versailles les etablissements Le relief sonore",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "name_history:SEBCM (Societe d'exploitation des brevets Constant Martin)",
+          "value": "A partir de 1945, dans le cadre de la SEBCM a Versailles",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Clavioline:year",
+          "value": "1947",
+          "source_url": "https://en.wikipedia.org/wiki/Clavioline",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Clavioline:name",
+          "value": "Clavioline",
+          "source_url": "http://www.synth-db.com/synths/Constant Martin/Clavioline/Clavioline.php",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Electronic organ:year",
+          "value": "1943",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Electronic bells:name",
+          "value": "Electronic bells demonstrated at the Eglise Saint-Philippe-du-Roule in Paris in the 1950s",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Carillon electronique:name",
+          "value": "Au debut des annees 1960, Constant Martin cree egalement des carillons electroniques",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "instrument:Orgue electronique a tuyaux:year",
+          "value": "1968",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:Selmer",
+          "value": "fabrique par Selmer en France et en Grande-Bretagne",
+          "source_url": "https://fr.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:Gibson",
+          "value": "Gibson aux Etats-Unis, at Kalamazoo",
+          "source_url": "https://en.wikipedia.org/wiki/Constant_Martin",
+          "source_tier": "other"
+        },
+        {
+          "field_name": "relation:Jorgensen Electronic",
+          "value": "The six-octave model employing octave transposition was developed by Harald Bode and manufactured under license by Jorgensen Electronic in Germany",
+          "source_url": "https://en.wikipedia.org/wiki/Clavioline",
+          "source_tier": "other"
+        }
+      ],
+      "conflicts": [
+        {
+          "field_name": "birth_date",
+          "description": "The English and French Wikipedia articles give different birth dates for Constant Martin. English Wikipedia states 10 May 1910. French Wikipedia states 26 May 1910 at Villefranche-de-Rouergue. Both agree on the death date, 16 June 1995. The birth date is not a column in this schema, so nothing is set from it, and the long_history gives only the year 1910.",
+          "source_urls": [
+            "https://en.wikipedia.org/wiki/Constant_Martin",
+            "https://fr.wikipedia.org/wiki/Constant_Martin"
+          ]
+        }
+      ],
+      "review_note": "This row is a person, not a registered company, and entity_type is set to individual accordingly. Constant Martin is treated as a manufacturer entry here because the queue name is his and because he is the originating designer of the Clavioline, but the Clavioline was built by licensees, so the licensee companies are recorded as relations and are not merged into this row. Selmer built it in France and Great Britain, Gibson in the United States at Kalamazoo, and Jorgensen Electronic in Germany at Dusseldorf, with the six-octave transposing model designed by Harald Bode. Two further instruments are Clavioline-derived but were not licensed and are therefore deliberately NOT recorded as relations: the Jennings Organ Company Univox in England, which English Wikipedia says was inspired by the Selmer Clavioline, and Ace Tone's Canary S-2 prototype of 1962 in Japan, which it says was based on the Clavioline. A human may want to decide whether those belong as influence relations. founded_year 1932 and city Versailles come from the founding of his establishments Le relief sonore at 36 avenue de Saint-Cloud in Versailles, per French Wikipedia; that is a real sourced date but it is the founding of his business, not of a company literally called Constant Martin, so treat it as an interpretation and check it if the entity is later split. long_name is left null on purpose: SEBCM, the Societe d'exploitation des brevets Constant Martin, is his patent exploitation company from 1945 rather than a legal name for this row, so it sits in name_history together with Le relief sonore. ended_year and status are null and unknown: no source says when either establishment ceased, and his death in 1995 is not evidence about the businesses. Beyond the Clavioline, the sources do credit him with further instruments: an electronic organ completed in 1943, electronic bells, electronic carillons from the early 1960s, and an electronic pipe organ in 1968. The 1932 to 1937 harmonium-reed organ is described but never named or dated to a single year, so it has no instrument row. The duophonic Clavioline of 1949 has no row either because Sound On Sound states it never reached production. Two US patents by Constant Martin for the Clavioline exist and are scanned on Wikimedia Commons, US2563477A filed 1948 and US2710555A filed 1949, which is useful corroboration for a human. Our local synth-db cache entry for Constant Martin Clavioline is a nearly empty specification stub and contributed only the brand and model names. All sources are tier other; no Wikidata item was found in a search for either Constant Martin or the Clavioline. No fetched page contained text attempting to give me instructions."
+    }
+  ]
+}
