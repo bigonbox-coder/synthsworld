@@ -228,6 +228,11 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .inst-note { font-size: 12px; color: #6a5f45; margin-bottom: 6px; line-height: 1.45; }
   .btn-mini { font: inherit; font-size: 12px; padding: 3px 10px; margin-right: 6px;
               border: 0; border-radius: 4px; cursor: pointer; }
+  .review-maker { font-size: 15px; margin: 22px 0 8px; }
+  .review-row { padding: 10px 12px; margin-bottom: 8px; background: #fff;
+                border: 1px solid #e4e6ea; border-radius: 6px; }
+  .review-name { font-weight: 600; margin-bottom: 4px; }
+  .lede { color: #5a6270; font-size: 13px; line-height: 1.5; max-width: 60em; }
   .dot.out_of_scope { background: #a98cd0; }
   .stat.out_of_scope .n { color: #5b4380; }
   .scope-note { color: #5b4380; font-size: 13px; }
@@ -373,6 +378,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         if path.startswith("/static/logos/"):
             self._serve_logo(path)
+            return
+
+        if path == "/hangszerek":
+            self._render_instrument_review(set_cookie=from_url)
             return
 
         if path.startswith("/manufacturer/"):
@@ -916,10 +925,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             f'<span class="lbl">Hangszerek</span></div>'
             f'<div class="stat total"><span class="n">{total_links}</span>'
             f'<span class="lbl">Külső linkek</span></div>'
-            + (f'<div class="stat needs_review clickable" data-filter-dim="inst-review" '
-               f'data-filter-val="needs_review" onclick="toggleFilter(this)">'
+            + (f'<a class="stat needs_review clickable" href="/hangszerek" '
+               f'title="Itt tudsz donteni rola, egy lapon">'
                f'<span class="n">{inst_review_count}</span>'
-               f'<span class="lbl">Hangszer: forrás?</span></div>'
+               f'<span class="lbl">Hangszer: forrás?</span></a>'
                if inst_review_count else "")
         )
 
@@ -1058,6 +1067,74 @@ function filterList() {{
     }});
     reviewSection.style.display = anyVisible ? '' : 'none';
   }}
+}}
+</script>
+</body></html>"""
+        self._send_html(html, set_cookie=set_cookie)
+
+    def _render_instrument_review(self, set_cookie=False):
+        """Egy lap, ahol MINDEN jelolt hangszer egyben all, gombostul.
+
+        Kristof, 2026-09-03: "Az adminban nem talalom hol tudok donteni a
+        hangszereknel." Jogos: a gombok a gyartolapon vannak, a hangszer mellett,
+        tehat vegig kellett kattintani ertuk 17 gyartot. Ez a lap az, ahol egy
+        helyen vegig lehet menni rajtuk.
+        """
+        con = db()
+        rows = con.execute(
+            """SELECT i.id, i.name, i.year, i.review_note, m.id AS mid,
+                      m.canonical_name AS maker
+               FROM instruments i JOIN manufacturers m ON m.id = i.manufacturer_id
+               WHERE i.review_status = 'needs_review'
+               ORDER BY m.canonical_name COLLATE NOCASE, i.name COLLATE NOCASE"""
+        ).fetchall()
+        con.close()
+
+        body, current = "", None
+        for r in rows:
+            if r["maker"] != current:
+                current = r["maker"]
+                body += (f'<h2 class="review-maker">'
+                         f'<a href="/manufacturer/{r["mid"]}">{esc(current)}</a></h2>')
+            year = f' <span class="year">{r["year"]}</span>' if r["year"] else ""
+            body += (
+                f'<div class="review-row" id="inst-{r["id"]}">'
+                f'<div class="review-name">{esc(r["name"])}{year}</div>'
+                f'<div class="inst-note">{esc(r["review_note"] or "")}</div>'
+                f'<button class="btn-mini btn-approve" onclick="instrumentReview({r["id"]}, &quot;accept&quot;, this)">Marad</button>'
+                f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({r["id"]}, &quot;delete&quot;, this)">Törlés</button>'
+                f'</div>')
+        if not rows:
+            body = '<p class="empty">Nincs eldontendo hangszer. Ez a lap ilyenkor ures.</p>'
+
+        html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+{ICON_TAGS}
+<title>Hangszer-dontesek -- Synthsworld admin</title>{STYLE}</head><body>
+<header>Synthsworld -- hangszer-dontesek</header>
+<div class="wrap">
+<a class="back" href="/">&larr; vissza a gyartokhoz</a>
+<h1>Ellenorizendo hangszerek <span class="count">{len(rows)}</span></h1>
+<p class="lede">Ezeknel a forras nem igazol semmit: a lap, amirol a nev jott, halott.
+A hangszer maga tobbnyire valodi. A "Marad" leveszi a jelolest es a sor marad,
+a "Torles" tenylegesen torli. Mindket dontes bekerul a gyarto naplojaba.</p>
+{body}
+</div>
+<script>
+function instrumentReview(id, action, btn) {{
+  if (action === 'delete' && !confirm('Biztos torold ezt a hangszert? Ez nem vonhato vissza.')) return;
+  var row = document.getElementById('inst-' + id);
+  btn.disabled = true;
+  fetch('/api/instrument/' + id + '/review', {{
+    method: 'POST',
+    headers: {{'Content-Type': 'application/json'}},
+    body: JSON.stringify({{action: action}})
+  }}).then(function(r) {{
+    if (r.ok) {{ if (row) row.style.display = 'none'; return; }}
+    btn.disabled = false;
+    r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});
+  }});
 }}
 </script>
 </body></html>"""
