@@ -1,0 +1,237 @@
+# vintagesynth-oldalak, amikhez nincs sorunk
+
+Generalva: db/ingest_vintagesynth_specs.py. Tobbsegukben nem hiba,
+hanem olyan gyarto, aki meg nincs a tablankban.
+
+- 360 Systems MIDI Bass
+- Access Virus A
+- Access Virus B
+- Access Virus C
+- Access Virus TDM
+- Access Virus TI
+- Access Virus TI Polar
+- Access Virus TI Snow
+- Akai AX60
+- Akai AX80
+- Akai MPC1000
+- Akai MPC2000
+- Akai MPC3000
+- Akai MPC60
+- Akai S1000
+- Akai S900
+- Akai X7000
+- Analogue Systems RS-Integrator
+- Applied Acoustics Lounge Lizard
+- Applied Acoustics Tassman
+- Applied Acoustics Tassman 4
+- Aries 300 Music System
+- Arturia ARP 2600V
+- Arturia CS-80V
+- Arturia Jupiter-8V
+- Arturia MatrixBrute
+- Arturia Minimoog V
+- Arturia Moog Modular V
+- Arturia Prophet-V
+- BOSS DR-110 Dr. Rhythm
+- BOSS DR-202 Dr. Groove
+- BOSS DR-220 Dr. Rhythm
+- BOSS DR-55 Dr. Rhythm
+- BOSS HC-2 Hand Clapper
+- BOSS PC-2 Percussion Synthesizer
+- BOSS SP-202 Dr. Sample
+- BOSS SP-303 Dr. Sample
+- BOSS SP-505
+- BOSS SYB-3 Bass Synthesizer
+- BOSS SYB-5 Bass Synthesizer
+- BOSS VT-1 Voice Transformer
+- BitHeadz Retro AS-1
+- BitHeadz Unity DS-1
+- Bomb Factory Studios Moogerfoogers
+- Casio XW-P1 performance synthesizer
+- Chamberlin Rhythmate
+- Cheetah MD-16
+- Cheetah MS-6
+- Cheetah MS800
+- Chimera Synthesis bC16
+- Control Synthesis Deep Bass Nine
+- Creamware  Noah Tactive Instrument Modeller
+- Creamware Minimax ASB
+- Creamware Pulsar
+- Cyclone Analogic Cyclone Analogic BASS BOTT TT-303 V2
+- Dave Smith Instruments OB-6
+- Dave Smith Instruments Pro 2
+- Davoli Davolisint
+- Digital Keyboards Synergy
+- Dubreq Dubreq Stylophone S2
+- E-mu Proteus
+- EKO EKOsynth P15
+- EML ElectroComp 200
+- EML ElectroComp 400/401
+- Electrix Pro Filter Factory
+- Electrix Pro Repeater
+- Electrix Pro Warp Factory
+- Electro Harmonix Mini-Synthesizer
+- Electronic Dream Plant (EDP) Gnat
+- Electronic Dream Plant (EDP) Spider
+- Electronic Dream Plant (EDP) Wasp
+- Electronic Music Studios (EMS) Polysynthi
+- Electronic Music Studios (EMS) Synthi Sequencer 256
+- Electronic Music Studios (EMS) VCS3
+- Electronic Music Studios (EMS) Vocoder 2000
+- Encore Electronics Knobby
+- Encore Electronics SlideMate
+- FBT Electronica Synther-2000
+- Fairlight CMI (Series I - III)
+- Frostwave Resonator
+- Future Retro 777
+- Future Retro Mobius
+- Future Retro Revolution
+- Future Retro XS
+- GForce Software M-Tron
+- GForce Software Oddity
+- GForce Software impOSCar
+- GR International Bandmaster Powerhouse
+- Generalmusic (GEM) S2
+- Gleeman Pentaphonic
+- Gotharman's Little deFormer 2
+- Hartmann Neuron
+- Horst MWT-01 Midi Wave Theremin
+- Hypersynth Hypersynth Xenophone
+- IK Multimedia SampleTank 2
+- IK Multimedia Sonik Synth 2
+- Image Line FL Studio
+- Image Line SimSynth
+- KeyFax Phat-Boy
+- Ladyada x0xb0x
+- Lennar Digital Sylenth1
+- Linn Electronics LM-1 Drum Computer
+- Linn Electronics Linn 9000
+- Linn Electronics LinnDrum
+- Logan / Hohner String Melody II
+- Logan / Hohner String Melody II
+- MAM ADX1
+- MAM FreeBass 383
+- MAM MB 33
+- MAM VF-11
+- MAM WARP 9
+- MFB MFB Synth Lite 2
+- MacBeth Studio Systems M3X
+- MacBeth Studio Systems M5
+- Malekko Heavy Industry Corporation Malekko Heavy Industry Corporation Manther
+- Manikin-Electronic Memotron M2K
+- Marion Systems MSR-2
+- Metasonix TS-21 HellFire
+- Metasonix TS-22 Pentode FilterBank
+- MidiBox SammichSID
+- Modal Electronics Modal 001
+- Modor NF-1
+- Movement MCS Drum Computer MK1
+- Multivox Firstman SQ-01
+- Mutable Instruments Ambika
+- Mutronics MIDI Mutator
+- Native Instruments Absynth
+- Native Instruments B4
+- Native Instruments Battery
+- Native Instruments Battery 2
+- Native Instruments Dynamo
+- Native Instruments Elektrik Piano
+- Native Instruments FM7
+- Native Instruments FM8
+- Native Instruments Intakt
+- Native Instruments Kompakt
+- Native Instruments Kontakt
+- Native Instruments Massive
+- Native Instruments Pro-52
+- Native Instruments Pro-53
+- Native Instruments Pro-Five
+- Native Instruments Reaktor
+- Native Instruments Vokator
+- Nozoid Nozoid MMO-3
+- Oberheim Drummer Perf/X Interactive Drum Pattern Sequencer
+- Octave Plateau CATSTICK
+- Octave Plateau Voyetra 8
+- Octave The Cat
+- Octave The Kitten
+- PAiA Proteus 1
+- PAiA Stringz &rsquo;n&rsquo; Thingz
+- Peavey DPM SP Sample Playback Synthesizer
+- Philips PMC 100
+- Pittsburgh Modular Synthesizers Lifeforms Systems 301
+- Plankton Electronics The Bumblebee
+- Powertran Transcendent 2000
+- Powertran Transendent DPX
+- Propellerhead Software ReBirth RB-338
+- Propellerhead Software Reason
+- Prosoniq Orange Vocoder
+- Quasimidi Raven
+- RSF Kobol Expander
+- RSF Modular Model 11
+- Radikal Technologies Accelerator
+- Radikal Technologies Delta CEP A
+- Radikal Technologies Spectralis
+- Realistic Concertmate MG-1
+- Red Sound Systems DarkStar
+- Red Sound Systems Elevata
+- SOMA Laboratory Lyra-8
+- SOMA Laboratory Pulsar-23
+- Seer Systems Reality
+- Sequential Circuits DrumTraks
+- Sequential Circuits Pro One
+- Sequential Circuits Prophet 2000
+- Sequential Circuits Prophet 5
+- Sequential Circuits Prophet VS
+- Sequential Circuits Six-Trak
+- Sequential Circuits Split-8
+- Sequential Circuits Studio 440
+- Sherman Electronics FilterBank
+- Sherman Electronics FilterBank 2
+- Sherman Electronics Quad Modular Filter
+- Sonicsmith Modular A1
+- Soulsby Atmegatron
+- SoundMaster Memory Rhythm SR-88
+- SoundMaster Stix ST-305
+- Spectral Audio Cyclus 3
+- Spectral Audio Neptune
+- Spectral Audio ProTone
+- Spectral Audio Syntrack
+- Steinberg HALion
+- Steinberg LM-4
+- Steinberg Model E
+- Steinberg The Grand
+- Studio Electronics Boomstar MK2
+- Studio Electronics MidiMini V30
+- Studio Electronics Tonestar 8106
+- Suzuki QChord QC-1
+- Syntauri alphaSyntauri
+- Syntecno TeeBee
+- Synthesizers. com Portable Systems
+- Synthesizers. com Rack Mount Systems
+- Synthesizers. com Studio Systems
+- Synton Syntovox 222 Vocoder
+- TC|Works Mercury-1
+- Technics SX-WSA1
+- Technics SY-1010
+- Technosaurus Cyclodon
+- Technosaurus Microcon
+- Technosaurus Selector
+- Teenage Engineering PO-14 Sub
+- Therevox ET-4.3
+- Triadex Muse
+- Twisted Electrons TherapKid
+- Twisted Electrons TherapSid MKII
+- Twisted Electrons hapiNES L
+- VAZ Synths VAZ Modular
+- Vermona Action Filter (AF-1)
+- Vermona DRM-1 mkII
+- Vermona Dual Analog Filter (DAF-1)
+- Vermona M.A.R.S. Monophonic Analog Rack Synthesizer
+- Vermona Mephisto
+- Vermona Perfourmer
+- Vermona Synthesizer
+- Waldorf Rocket Synthesizer
+- Wave Idea Bitstream Pro
+- Way Out Ware TimewARP 2600
+- Welson Syntex
+- Wiard Modular Systems
+- Will Systems MAB-303
+- Wine Country Sequential Pro One
