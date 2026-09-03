@@ -222,6 +222,10 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .pill.confirmed { background: #e3f5e8; color: #1e7a37; }
   .pill.needs_review { background: #fbf0d6; color: #96731a; }
   .pill.unresearched { background: #e8eaee; color: #565f6f; }
+  .pill.out_of_scope { background: #ece4f5; color: #5b4380; }
+  .dot.out_of_scope { background: #a98cd0; }
+  .stat.out_of_scope .n { color: #5b4380; }
+  .scope-note { color: #5b4380; font-size: 13px; }
   .pill.approved { background: #e3f5e8; color: #1e7a37; }
   .pill.outdated { background: #fbf0d6; color: #96731a; }
   .pill.wrong { background: #fbe0e0; color: #a33; }
@@ -582,7 +586,7 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # for later, but they must not pad the company review queue. ?people=1
         # shows them, so they are hidden rather than lost.
         rows = con.execute(
-            f"""SELECT id, canonical_name, long_name, country, founded_year, confidence_level
+            f"""SELECT id, canonical_name, long_name, country, founded_year, confidence_level, scope
                 FROM manufacturers
                 WHERE entity_type = '{"individual" if people else "company"}'
                 ORDER BY canonical_name COLLATE NOCASE"""
@@ -593,7 +597,13 @@ class Handler(http.server.BaseHTTPRequestHandler):
 
         # Precompute logo state ONCE per row (used for both the stat counts
         # and the cards -- avoids hitting the DB twice per manufacturer).
+        # A scope-on kivuli sorok (tulajdonos, felvasarlo, kereskedo, akusztikus
+        # gyarto) KIMARADNAK a confidence-szamokbol es sajat csempet kapnak.
+        # Kristof, 2026-09-03: a "Kikutatatlan 16" ugy allt, hogy abbol csak
+        # harom volt valodi kutatasi jelolt. Egy out_of_scope sor orokre
+        # unresearched marad, es az nem hianyossag, hanem a besorolas kovetkezmenye.
         counts = {"confirmed": 0, "needs_review": 0, "unresearched": 0}
+        out_of_scope_count = 0
         logo_counts = {"needs_approval": 0, "outdated": 0, "wrong": 0,
                        "not_found": 0, "not_attempted": 0}
         # Hangszer-szintu ellenorzendo (0027). Ma 36 ilyen sor van: a synth-db
@@ -611,7 +621,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
             lstatus, lpath = logo_status(con, r["id"])
             lreview = logo_review_status(con, r["id"]) if lstatus == "found" else None
             enriched.append((r, lstatus, lpath, lreview))
-            counts[r["confidence_level"]] = counts.get(r["confidence_level"], 0) + 1
+            if r["scope"] == "out_of_scope":
+                out_of_scope_count += 1
+            else:
+                counts[r["confidence_level"]] = counts.get(r["confidence_level"], 0) + 1
             if lstatus == "found":
                 if lreview == "outdated":
                     logo_counts["outdated"] += 1
@@ -653,9 +666,10 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 f'data-confidence="{esc(r["confidence_level"])}" '
                 f'data-logo-status="{esc(status)}" '
                 f'data-inst-review="{"needs_review" if r["id"] in inst_review_makers else ""}" '
+                f'data-scope="{esc(r["scope"])}" '
                 f'data-logo-review="{esc(logo_review_attr)}">'
                 f'<div class="card-text">'
-                f'<span class="dot {esc(r["confidence_level"])}"></span>'
+                f'<span class="dot {esc("out_of_scope" if r["scope"] == "out_of_scope" else r["confidence_level"])}"></span>'
                 f'<span class="name">{esc(r["canonical_name"])}</span>'
                 f'{longname_html}'
                 f'<div class="sub">{esc(", ".join([x for x in (r["country"], str(r["founded_year"]) if r["founded_year"] else None) if x]))}{review_pill}</div>'
@@ -673,6 +687,12 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 ("needs_review", "Ellenőrizendő"),
                 ("unresearched", "Kikutatatlan"),
             )
+        ) + (
+            f'<div class="stat out_of_scope clickable" data-filter-dim="scope" '
+            f'data-filter-val="out_of_scope" onclick="toggleFilter(this)">'
+            f'<span class="n">{out_of_scope_count}</span>'
+            f'<span class="lbl">Kapcsolt ceg</span></div>'
+            if out_of_scope_count else ""
         )
 
         # Totals row. Deliberately NOT clickable: there are hundreds of
@@ -696,8 +716,15 @@ class Handler(http.server.BaseHTTPRequestHandler):
         # lassuk merre tart a dolog, nem arra hogy igerjunk vele.
         #
         # Mind a harom tiszta SQL, hogy a fooldal gyors maradjon.
+        # A mar scope-on kivulre sorolt cegek varolistas sorai NEM szamitanak
+        # varhato uj gyartonak: eldontott ugyek, csak a relaciok vege miatt
+        # allnak a tablaban.
         pending_makers = con.execute(
-            "SELECT COUNT(*) FROM discovery_queue WHERE status='found'").fetchone()[0]
+            """SELECT COUNT(*) FROM discovery_queue q
+               WHERE q.status='found'
+                 AND NOT EXISTS (SELECT 1 FROM manufacturers m
+                                 WHERE lower(m.canonical_name) = lower(q.manufacturer_name)
+                                   AND m.scope = 'out_of_scope')""").fetchone()[0]
         pending_models = con.execute(
             """SELECT COUNT(*) FROM external_links
                WHERE instrument_id IS NULL AND manufacturer_id IS NOT NULL
@@ -1028,6 +1055,15 @@ function filterList() {{
         is_confirmed = conf == "confirmed"
         is_unresearched = conf == "unresearched"
         pill_label = {"confirmed": "Megerősítve", "unresearched": "Kikutatatlan"}.get(conf, "Ellenőrizendő")
+        # Scope-on kivuli sor: a lap mondja is meg, MIERT az, kulonben ugy nez
+        # ki, mint egy elfelejtett csonk, es valaki ujra nekifut kikutatni.
+        scope_pill = ""
+        if m["scope"] == "out_of_scope":
+            scope_pill = ('<span class="pill out_of_scope" title="Nem elektronikus '
+                          'hangszergyarto, csak relacio miatt all a tablaban">'
+                          'Kapcsolt ceg</span>')
+            scope_pill += (f'<span class="scope-note">{esc(m["scope_note"])}</span>'
+                           if m["scope_note"] else "")
         if is_unresearched:
             btn_label = "Nincs mit jóváhagyni (kikutatatlan)"
             btn_class = "btn-disabled"
@@ -1131,7 +1167,7 @@ function filterList() {{
 <h1>{esc(m["canonical_name"])}</h1>
 {f'<div class="longname-big">{esc(m["long_name"])}</div>' if m["long_name"] else ''}
 <div class="meta-row">
-<span class="pill {esc(conf)}">{pill_label}</span>
+<span class="pill {esc(conf)}">{pill_label}</span>{scope_pill}
 <span>{esc(", ".join([x for x in (m["city"], m["country"]) if x]))}</span>
 <span>{esc((str(m["founded_year"]) if m["founded_year"] else "?") + "-" + (str(m["ended_year"]) if m["ended_year"] else "") ) if (m["founded_year"] or m["ended_year"]) else ""}</span>
 <span>{esc(m["status"] or "")}</span>
