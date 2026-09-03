@@ -195,7 +195,16 @@ function saveInstrumentNote(id, btn) {
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({action: 'note', note: t})
   }).then(function(r) {
-    if (r.ok) { location.reload(); return; }
+    if (r.ok) {
+      // Kristof, 2026-09-03: "ha megjegyzest megirom, nem latom hogy ott van."
+      // A mentett sor lekerul a lista aljara, a "Megjegyzest kaptak" szakaszba,
+      // es ujratoltes utan a lap a tetejen all: a sor ugy tunik el, mintha
+      // semmi nem tortent volna. Ezert a horgony: ujratoltes utan a bongeszo
+      // odagorget, a :target szabaly pedig kiemeli.
+      window.location.hash = 'inst-' + id;
+      location.reload();
+      return;
+    }
     btn.disabled = false;
     r.json().then(function(j) { alert(j.error || 'Hiba tortent.'); })
             .catch(function() { alert('Hiba tortent.'); });
@@ -234,6 +243,11 @@ STYLE = """
 .note-box textarea { width: 100%; min-height: 4.5em; padding: .45em .6em; border-radius: 6px;
   border: 1px solid rgba(127,127,127,.45); font: inherit; font-size: .9em; background: transparent;
   color: inherit; box-sizing: border-box; }
+.review-row:target, li:target { animation: flash 2.4s ease-out; border-radius: 8px; }
+@keyframes flash {
+  0%, 55% { background: rgba(140,110,200,.28); box-shadow: 0 0 0 6px rgba(140,110,200,.18); }
+  100% { background: transparent; box-shadow: none; }
+}
 .owner-note { margin: .35em 0; padding: .4em .6em; border-radius: 6px; font-size: .9em;
   background: rgba(140,110,200,.12); border-left: 3px solid rgba(140,110,200,.6); }
 .review-split { margin-top: 2.2em; border-top: 1px solid rgba(127,127,127,.3); padding-top: .8em; }
@@ -1200,8 +1214,9 @@ function filterList() {{
         if answered:
             body += ('<h2 class="review-split">Megjegyzest kaptak '
                      f'<span class="count">{len(answered)}</span></h2>'
-                     '<p class="lede">Ezekre valaszoltal, innentol ez az en dolgom. '
-                     'A megjegyzes felulirhato, amig nem dolgoztam fel.</p>'
+                     '<p class="lede">Ide kerul minden sor, amire megjegyzest irtal, '
+                     'es innentol ez az en dolgom: a napi kor ezzel kezd. A szoveged '
+                     'alabb olvashato, es felulirhato, amig nem dolgoztam fel.</p>'
                      + section(answered))
 
         html = f"""<!doctype html><html lang="hu"><head><meta charset="utf-8">
@@ -1384,7 +1399,8 @@ function instrumentReview(id, action, btn) {{
                     f'<div class="inst-note">{esc(it["review_note"] or "")}</div>'
                     + instrument_review_buttons(it) +
                     '</div>')
-            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{ed}{flag}</li>'
+            anchor = f' id="inst-{it["id"]}"' if flag else ""
+            inst_html += f'<li{anchor}>{esc(it["name"])}{year}{cat}{tech}{ed}{flag}</li>'
 
         rel_html = ""
         for r in relations:
