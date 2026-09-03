@@ -63,6 +63,7 @@ python3 db/relink_manuals.py  --apply  2>&1 | tail -2 | sed 's/^/  relink:  /'
 #   levezetett teny -> pl. varosbol orszag, Wikidata-alapon
 #   duplikatum      -> varolistas sorok jelolese, scope-on kivuliek lezarasa
 #   halott forras   -> a nem letezo lapra mutato source_url levalasztasa
+python3 db/harvest_retrosynthads.py --ingest 2>&1 | tail -2 | sed 's/^/  hirdetes: /'
 python3 db/import_synthdb_brands.py --apply 2>&1 | tail -2 | sed 's/^/  markapar: /'
 python3 db/read_synthdb_specs.py    --ingest 2>&1 | tail -2 | sed 's/^/  specek:  /'
 python3 db/derive_facts.py          --apply  2>&1 | tail -2 | sed 's/^/  levezet: /'
