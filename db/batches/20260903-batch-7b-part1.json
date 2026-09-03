@@ -1,0 +1,1259 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "CRB Elettronica",
+   "long_name": "Costruzioni Radioelettriche Borsini",
+   "country": "Italy",
+   "city": "Senigallia",
+   "founded_year": 1948,
+   "ended_year": 1982,
+   "founders": "Duilio Borsini",
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "CRB Italy",
+   "short_history": "CRB was an electronics firm from the Marche, founded by Duilio Borsini in 1948 to build radios. It reached musical instruments by a long detour, through portable amplifiers for street traders, voltage stabilisers for the first televisions, motors for local reed-organ factories and guitar pickups made for EKO. From 1967 it built electronic organs, and by the late seventies synthesizers: the Uranus of 1977 was its first. Japanese competition ended it in 1982.",
+   "long_history": "Duilio Borsini, born in Osimo in 1923, started CRB as a one-man workshop in Senigallia in 1948, making radios. The name is an acronym: Costruzioni Radioelettriche Borsini. When the radio trade dipped in 1952 he turned to ten-watt amplifiers that ran off batteries or the mains, sold to street traders, and had that market to himself before Geloso and others followed him into it. The firm grew to around thirty people, adding transformers for electric razors sold as far as America and France, then voltage stabilisers as the first televisions arrived.\n\nIt moved into Ancona in 1955 and started building electric motors, much in demand from the local factories making reed organs, and tape-recorder heads whose material had to be annealed in hydrogen furnaces at 1200 degrees. In 1958 it moved out to the Baraccola industrial estate and, by arrangement with Oliviero Pigini of EKO, began producing pickups for electric guitars. By one account it was Pigini who suggested Borsini should design organs of his own.\n\nThat began in 1967, with single-manual models named Coral, Topazio and Rubin, and two-manual instruments alongside them. Amplifier production restarted in 1969 with the Diamond concert range, followed by the Space Sound models whose Leslie-like effect came from a rotating-speaker system Borsini invented and patented, built in a second plant at Casenuove di Osimo. The Diamond name carried the organs too: the Diamond 800 turned up in a great many bands of the period, and the 900 Gold series, with its sinusoidal tone through a Space Sound cabinet, was sold as an alternative to the Hammond. Most models came in both portable and console form, with drawbars, vibratos and spring reverbs. Every year brought a new range to the Frankfurt fair, and the export map ran from Latin America and the United States to Spain and Scandinavia, and as far as Korea for church organs. Sandro Fontanella, Borsini's nephew, played the instruments at those fairs, joined from 1975 by Marcello Colo.\n\nThe firm added keyboards with strings and piano effects and several computer drum machines imitating an acoustic kit. Its first synthesizer, the Uranus, was shown as a prototype at Frankfurt in 1977 and went into production the next year alongside the cheaper, more live-friendly Uranus 2; CRB took both to Chicago in 1978 and Atlanta in 1979. The monophonic Oberon and the Vocostrings, a strings and vocoder keyboard, followed. The Multiplayer, meant as an answer to Crumar's Multiman, was designed at the turn of the decade but never sold, and the prototype went missing for years. Japanese competition and the collapse of the Italian instrument sector caught up with the company, and CRB Elettronica closed in 1982.",
+   "name_history": [
+    {
+     "name": "Costruzioni Radioelettriche Borsini",
+     "start_year": 1948,
+     "end_year": null
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "EKO",
+     "relation_type": "supplier",
+     "year": 1958
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Coral",
+     "year": 1967,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Topazio",
+     "year": 1967,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Rubin",
+     "year": 1967,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Diamond 800",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "900 Gold",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Uranus",
+     "year": 1977,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Uranus 2",
+     "year": 1978,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Oberon",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Vocostrings",
+     "year": null,
+     "category": "string synthesizer"
+    },
+    {
+     "name": "Multiplayer",
+     "year": null,
+     "category": "prototype"
+    },
+    {
+     "name": "Computer Drums",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Computer Band 2000",
+     "year": null,
+     "category": null
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Italy",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Italy",
+     "source_url": "https://www.smstrumentimusicali.it/synth-legend-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Senigallia",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1948",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1948",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1948",
+     "source_url": "https://www.smstrumentimusicali.it/synth-legend-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Duilio Borsini",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Duilio Borsini",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1982",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1982",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Costruzioni Radioelettriche Borsini",
+     "value": "Costruzioni Radioelettriche Borsini",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:supplier:EKO",
+     "value": "From 1958 CRB produced electric guitar pickups for EKO, by arrangement with EKO's owner Oliviero Pigini",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:supplier:EKO",
+     "value": "From 1958 CRB produced pickups for EKO at Oliviero Pigini's request; the same arrangement is recorded from EKO's side",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://it.wikipedia.org/wiki/CRB_elettronica",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.capponiclaudio.it/storia-della-crb-elettronica/",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.smstrumentimusicali.it/synth-legend-crb-elettronica/",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Renamed from the harvest placeholder 'CRB Italy' to 'CRB Elettronica', which is how the company is actually known; 'CRB Italy' was never a company name and was deliberately NOT written into name_history. The queue row still carries the old name. Founding city Senigallia rests on a single source, capponiclaudio.it; the other three start the story at the 1955 move to Ancona. anaphonic.com was NOT counted as an independent source: its history text is an English translation of the Italian Wikipedia article and the page says so. Left out of the instruments table under the scope rule: the Diamond 20, 40 and 100 concert amplifiers of 1969 and the Space Sound amplifier range, all amplifiers; note that the Diamond name covers both an amplifier series and the Diamond 800 organ. Computer Band 2000 and Computer Drums appear only as catalogue entries on anaphonic.com with no category stated; Computer Band 2000 was left with no category rather than guessed. One source, smstrumentimusicali.it, claims Ketron was born from CRB's ashes; no other source mentions any successor, so it was not recorded as a relation. Worth chasing, since Ketron is already in the database."
+  },
+  {
+   "canonical_name": "EKO",
+   "long_name": "Eko S.A.S. di Oliviero Pigini & Co",
+   "country": "Italy",
+   "city": "Castelfidardo",
+   "founded_year": 1959,
+   "ended_year": null,
+   "founders": "Oliviero Pigini, Lido Ballone Burini, Giovanni Vignoni",
+   "status": "active",
+   "official_website": "https://www.ekoguitars.it/",
+   "queue_name": "EKO",
+   "short_history": "EKO is an Italian instrument maker founded in Castelfidardo in 1959 by Oliviero Pigini, nominally to build accordions and almost immediately building guitars instead. It became the largest guitar exporter in Europe during the sixties. Its electronics division matters here: from 1972 it built the ComputeRythm, a programmable drum machine that stored its patterns on punched cards, and through the seventies a line of organs, an electric piano, bass pedalboards and synthesizers. The original company went bankrupt in 1986; the brand survives today as part of Algam Eko.",
+   "long_history": "Oliviero Pigini began after the war as an accordion maker in Castelfidardo, turned to guitars in the mid-fifties by importing cheap semi-acoustics from Yugoslavia and selling them by mail order, and set up GMI in 1956 to handle the sales. In 1959 he founded Eko s.a.s. with Lido Ballone Burini and Giovanni Vignoni, on paper to make accordions; within a year he had converted much of an accordion plant to acoustic and then electric guitars, with pickups designed and built for him from 1958 by CRB Elettronica. The guitars carried animal and exotic names, Cobra, Barracuda, Dragon, Condor, Cygnus, and by the mid-sixties EKO was the largest guitar exporter in Europe, also building instruments sold under the Vox, Eston, Thomas, Shaftesbury, D'Agostino and Camac names.\n\nThe electronics came from the same ambition. In 1965 Pigini started EME, Elettronica Musicale Italiana, an electronic-music venture in the province of Macerata with Vox and Thomas. A fire damaged the Recanati plant in 1966 and a new one was begun at Montecassiano. Pigini died suddenly of a heart attack in 1967, at forty-four, with the company turning five billion lire a year and employing four hundred people plus as many again in its supply chain. That closed its historic phase.\n\nUnder Augusto Pierdominici in the seventies EKO turned decisively towards electronic instruments, building both the circuitry and the still-wooden cabinets in its own woodworking departments. The ComputeRythm, designed in 1972 by Giuseppe Censori and Aldo Paci under Felice Labianca of the EkoElettronica division, was a programmable electronic drum machine that saved its presets on punched cards, and it was used by Tangerine Dream, Manuel Gottsching and Jean-Michel Jarre. Fabio Conti designed the Tiger and New Tiger organ lines. There was an electric piano, the Sensor, the K1, K2 and K3 bass pedalboards, and from 1974 the monophonic Ekosynth alongside the Stradivarius, a violin synthesizer. The last two products of the electronics department were the P 15, a digitally controlled analogue monosynth with presets, in 1979, and the Ekopiano at the start of the eighties. EME had passed to Farfisa in 1975.\n\nNeither the quality competition from abroad nor the price competition from the Far East proved survivable, in guitars or in electronics. Production stopped in the middle of the eighties and the company was declared bankrupt on 21 May 1986. Lamberto Pigini, Oliviero's brother, bought the trademark alone in 1987, the factory having been sold off; production in Italy was ruled out and the business ran as an importer and brand owner. It grew in the 2000s into Eko Music Group, distributing sixty international brands in Italy and resuming production through joint ventures in Korea, Taiwan, Japan, Romania, Spain and China. After 2015 the Montelupone plant, bought back earlier and used only as a seat, was given an assembly role for higher-value Italian guitars. The company later merged with Algam to form Algam Eko, which owns the brand today.",
+   "name_history": [
+    {
+     "name": "Eko s.a.s.",
+     "start_year": 1959,
+     "end_year": null
+    },
+    {
+     "name": "Eko Music Group",
+     "start_year": null,
+     "end_year": null
+    },
+    {
+     "name": "Algam Eko srl",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "ComputeRythm",
+     "year": 1972,
+     "category": "drum machine"
+    },
+    {
+     "name": "Tiger",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "New Tiger",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Sensor",
+     "year": null,
+     "category": "electric piano"
+    },
+    {
+     "name": "K1",
+     "year": null,
+     "category": "bass pedalboard"
+    },
+    {
+     "name": "K2",
+     "year": null,
+     "category": "bass pedalboard"
+    },
+    {
+     "name": "K3",
+     "year": null,
+     "category": "bass pedalboard"
+    },
+    {
+     "name": "Ekosynth",
+     "year": 1974,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Stradivarius",
+     "year": null,
+     "category": "string synthesizer"
+    },
+    {
+     "name": "P 15",
+     "year": 1979,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Ekopiano",
+     "year": null,
+     "category": "electric piano"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Italy",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Italy",
+     "source_url": "https://en.wikipedia.org/wiki/Eko_Guitars",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Castelfidardo",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1959",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1959",
+     "source_url": "https://www.ekoguitars.it/en/",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "founders",
+     "value": "Oliviero Pigini, Lido Ballone Burini, Giovanni Vignoni",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://www.ekoguitars.it/en/",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "official_website",
+     "value": "https://www.ekoguitars.it/",
+     "source_url": "https://www.ekoguitars.it/en/",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "name_history:Eko s.a.s.",
+     "value": "Eko s.a.s.",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Eko Music Group",
+     "value": "Eko Music Group",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Algam Eko srl",
+     "value": "Algam Eko srl",
+     "source_url": "https://www.ekoguitars.it/en/",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Eko_Guitars",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://it.wikipedia.org/wiki/Eko_(azienda)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Eko_Guitars",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.ekoguitars.it/en/",
+     "source_tier": "manufacturer_official"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "In scope because of the electronics division, not the guitars: the ComputeRythm drum machine, the Tiger organs, the Sensor electric piano, the K1-K3 bass pedalboards and the Ekosynth, Stradivarius, P 15 and Ekopiano. Every guitar and bass model was deliberately left out, as was the SC800 amplifier. The bass pedalboards were kept because they generate sound; if the category should be narrower, those three rows are the ones to revisit. The company's own site spells the drum machine nowhere; it.wikipedia writes it ComputeRythm, which is what was used here, not the common Computerhythm spelling. Status is recorded as active for the brand, which trades today as Algam Eko srl, but the original legal entity was declared bankrupt on 21 May 1986 and the trademark alone was bought by Lamberto Pigini in 1987; ended_year was left empty because the brand line is unbroken and the prose carries the discontinuity. The year of the Algam merger is not stated by any source. it.wikipedia contradicts itself on the plants: the lead says production moved to Montelupone in 1965, the body has the seat at Recanati and a new plant at Montecassiano after the 1966 fire. EME, the electronics venture Pigini started with Vox and Thomas in 1965, passed to Farfisa in 1975; that is prose only, since EME was a separate venture rather than an EKO brand, and forcing it into a relation row would misstate it."
+  },
+  {
+   "canonical_name": "Thomas Organ Company",
+   "long_name": null,
+   "country": "United States",
+   "city": null,
+   "founded_year": 1875,
+   "ended_year": null,
+   "founders": "Edward G. Thomas",
+   "status": "unknown",
+   "official_website": null,
+   "queue_name": "Thomas Organ Company",
+   "short_history": "Thomas Organ began in Ontario in 1875 as a pipe and pump organ builder and was reorganised in 1956 as the Thomas Organ Company of Sepulveda, California, where it became one of the biggest American makers of home electronic organs. It was the US importer of Vox through the sixties and held manufacturing rights to the Moog synthesizer, which it put into the upper manual of organs like the Monticello. It went out of business in 1979 and reopened in 1996.",
+   "long_history": "The company was founded in 1875 in Woodstock, Ontario by Edward G. Thomas as the Thomas Organ and Piano Co., building pipe organs first and later pump organs. In the early 1950s it produced a single-manual electronic organ with ten stops, and in 1956 it was reorganised as the Thomas Organ Company of Sepulveda, California, at 8345 Hayvenhurst Avenue. Its early electronic organs used dials rather than tab stops, on the theory that a dial was familiar from a radio or a television set, and the Talking Organ carried a built-in phonograph for instructional records.\n\nOwnership sat elsewhere for most of the important years. Through the fifties and early sixties Thomas was owned by Pacific Mercury Electronics, which built the organs Thomas sold and shared its officers, among them Joe Benaron as president. Late in 1963 Warwick Electronics took over both, with Sears-Roebuck holding a controlling interest in Warwick, and Warwick's development department in Niles, Illinois began designing organs for the Sepulveda plant to build. In 1966 Whirlpool took a controlling interest in Warwick, and by 1971 Whirlpool and Sears together held 83 per cent of it.\n\nThe Vox connection began in August 1964 with what was called the Million Dollar Deal, struck with Jennings Musical Industries. English Vox amplifiers and guitars started arriving in Chicago and Los Angeles that September; by June 1965 Thomas had ordered four million dollars of equipment from JMI. From mid-1965 Stan Cutler oversaw the development of a solid state amplifier line in California, which cut into the English orders. Thomas ran a Vox division, published Vox service manuals, staged a Battle of the Bands final at the Hollywood Palladium at Easter 1965 that Captain Beefheart won, and set up a recording studio, the Vox Soundlab, which it soon sold on; it became Sound City Studios.\n\nThe home organ was always the main business, and streamlined consoles with solid state electronics made Thomas the pre-eminent American maker of them. Its signature features were Repeat Percussion, the delayed vibrato called Vibra-Magic, the Band Box rhythm unit, and the Color-Glo illuminated-key teaching system with its own three-volume course. Lawrence Welk endorsed the instruments and had a model named after him; Bob Ralston played Thomas organs on The Lawrence Welk Show. The company also built organs sold as Heathkit kits and under the Sears Silvertone name. Holding Moog manufacturing rights, it put an actual Moog synthesizer into the upper manual of the Celebrity 871 and the Monticello of 1973. It went out of business in 1979 and reopened in 1996.",
+   "name_history": [
+    {
+     "name": "Thomas Organ & Piano Co.",
+     "start_year": 1875,
+     "end_year": 1956
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Moog",
+     "relation_type": "collaboration",
+     "year": null
+    },
+    {
+     "related_company": "Vox",
+     "relation_type": "collaboration",
+     "year": 1964
+    }
+   ],
+   "instruments": [
+    {
+     "name": "Talking Organ",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "AR1",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Concert Serenade",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Lawrence Welk",
+     "year": 1968,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Celebrity",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Celebrity 871",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Monticello",
+     "year": 1973,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Monticello 371",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Monticello 372",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Impresario",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Model 710",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Model 900",
+     "year": null,
+     "category": "electronic organ"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://www.voxac100.org.uk/thomas_organ_history.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1875",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Edward G. Thomas",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "unknown",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Thomas Organ & Piano Co.",
+     "value": "Thomas Organ & Piano Co.",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:collaboration:Moog",
+     "value": "Thomas took over manufacturing rights of the Moog synthesizer and fitted a Moog into the upper manual of the Celebrity 871 and the Monticello",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:collaboration:Vox",
+     "value": "Thomas Organ became the US importer of Vox from 1964 under the Million Dollar Deal with Jennings Musical Industries, and later designed a solid state Vox amplifier line in California",
+     "source_url": "https://www.voxac100.org.uk/thomas_organ_history.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:collaboration:Vox",
+     "value": "Thomas became the importer of the English-made Vox combo, whose electronics turned up in Thomas models",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://www.voxac100.org.uk/thomas_organ_history.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Thomas_Organ_Company",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.voxac100.org.uk/thomas_organ_history.htm",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Status is recorded as unknown on purpose. en.wikipedia says the company went out of business in 1979 and reopened in 1996, then writes about it in the present tense, and no source says anything about its state after 1996. ended_year was left empty for the same reason: 1979 is in the prose, but the company did not stay ended. Founding city left empty deliberately: the company was founded in Woodstock, Ontario, in Canada, and reorganised in 1956 into an American company in Sepulveda, California. Writing Woodstock into the city column beside a country of United States would assert something incoherent, so both facts are in the prose instead. en.wikipedia has the same tension: its lead calls the company American while its own founding section places the founding in Ontario. It also credits the early 1950s electronic organ to a 'Thomas George', a name that does not match the founder 'Edward G. Thomas' and that no source explains. The ownership chain, Pacific Mercury to Warwick Electronics to Whirlpool with Sears-Roebuck alongside, is prose only under the holding-company rule; note that Pacific Mercury actually built the organs Thomas sold, but they carried the Thomas name, so it fails the own-name test. Excluded from the instruments table: all Vox-branded amplifiers and guitars, the Band Box and Repeat Percussion and Vibra-Magic, which are features built into the organs rather than products, and the Color-Glo teaching system. The premise that Thomas Organ made the original Vox wah-wah pedal is NOT supported by either source; neither mentions a wah pedal at all, and nothing was written into the record about it."
+  },
+  {
+   "canonical_name": "Con Brio",
+   "long_name": "Con Brio, Inc.",
+   "country": "United States",
+   "city": "Pasadena",
+   "founded_year": 1978,
+   "ended_year": 1982,
+   "founders": "Tim Ryan, Alan Danziger, Don Lieberman",
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "Con Brio, Inc.",
+   "short_history": "Con Brio was an American company founded in Pasadena by three Caltech students who had been building audio synthesis equipment for mapping the cerebral cortex of cats. Between 1978 and 1982 it built the ADS, the Advanced Digital Synthesizer, one of the earliest digital synthesizers and one of the most expensive. Four units were made in total and one was sold. It is remembered mainly for the sound effects it produced for the first two Star Trek films.",
+   "long_history": "Tim Ryan, Alan Danziger and Don Lieberman founded Con Brio in Pasadena, California, out of work they had been doing on audio synthesis equipment designed to map the cerebral cortex of cats. Between 1978 and 1982 the company produced a single product line, the ADS or Advanced Digital Synthesizer.\n\nThe ADS 100 was the first, a modular production station built around MOS Technology 6502 processors and expandable with ordinary computer peripherals including an eight-inch floppy drive. Only one was built and it was never sold, in part because Con Brio was making money renting it out: it generated sound effects for Star Trek: The Motion Picture in 1979 and Star Trek II: The Wrath of Khan in 1982. The company used that aggressively in its marketing while never quoting a price, and the machine was generally assumed to be unavailable.\n\nThe ADS 200 followed, an all-in-one instrument in a wooden case, hand-wired throughout and reportedly taking over seven months to build. It listed at thirty thousand dollars. Two were made and one was sold, to a film composer. The last machine was the ADS 200-R of 1982, a detached-keyboard version marketed to touring musicians as roadable, at around twenty thousand dollars with a further twenty-five thousand of options; it never sold, and the company still had it when it closed.\n\nBy 1981 Yamaha had noticed that the ADS could do FM synthesis, on which it held the Chowning patents, and warned that royalties would be wanted if more units were sold. Con Brio replied that its machine was fully configurable and that it could not control how a customer used it. Yamaha never took action, presumably because Con Brio was never big enough to matter. The company considered turning the ADS into a sampling workstation along the lines of the Fairlight CMI, but the cost of its operation and the pressure of cheaper synthesizers and larger rivals ended it in 1982.\n\nIts ideas outlived it. The Fairlight CMI took video display concepts from the ADS 200, and the Synclavier borrowed both the reconfigurable-oscillator idea the ADS 100 pioneered and its pushbutton-covered front panel. Danziger and Lieberman went into semiconductors; Tim Ryan went on to found the company that became M-Audio. Brian Kehew acquired the surviving machines and restored the 200-R to nearly full operation in February 2009.",
+   "name_history": [],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "ADS 100",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ADS 200",
+     "year": 1980,
+     "category": "synthesizer"
+    },
+    {
+     "name": "ADS 200-R",
+     "year": 1982,
+     "category": "synthesizer"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Pasadena",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1978",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Con_Brio",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Tim Ryan, Alan Danziger, Don Lieberman",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Con_Brio",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1982",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1982",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Con_Brio",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Con_Brio",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Con_Brio,_Inc.",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Con_Brio",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "http://synth-db.com/synths/Con%20Brio/ADS%20200/ADS%20200.php",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "founded_year 1978 comes from electronicmusic.fandom.com, which says the company existed between 1978 and 1982, and is consistent with en.wikipedia's own statement that the ADS was produced from 1978. en.wikipedia separately says the company was founded 'around 1979', which contradicts its own sentence; the hedged year was not treated as a competing claim and was not recorded as a conflict. The queue holds two rows for this company, 'Con Brio, Inc.' (70) and 'Con Brio' (595); only the first was closed by this batch and the second needs merging. Product-level disagreements, not manufacturer-level: the ADS 200-R is a three-piece detached double-keyboard model per en.wikipedia but a single-manual unit that could be stacked in pairs per the fandom wiki, and its price is 20,500 dollars plus 25,000 of options in one and 20,000 in the other. The fate of the ADS 100 also differs: en.wikipedia has Brian Kehew claiming it was retooled into the 200 he owns, the fandom wiki has him believing it was scrapped for parts. Both machines are said to be at the Museum of Music Technology in Harleysville, Pennsylvania by one source and simply owned by Kehew by the other. The buyer of the one sold ADS 200 is named as film composer David Campbell by en.wikipedia and left unnamed by the fandom wiki. Tim Ryan's later company is The Sonus corporation, which became M-Audio, per en.wikipedia, and Midiman per the fandom wiki."
+  },
+  {
+   "canonical_name": "Cheetah Marketing",
+   "long_name": null,
+   "country": "United Kingdom",
+   "city": "Cardiff",
+   "founded_year": null,
+   "ended_year": 1993,
+   "founders": null,
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "Cheetah Marketing",
+   "short_history": "Cheetah was a Cardiff company that made joysticks for home computers before turning to music hardware in 1987, and it built its reputation on being cheap. Its logo read Affordable Excellence, and it put a six-voice analogue rack synth, the MS6, into the shops at a fraction of what an Oberheim Matrix cost, using the same Curtis filter chip. The music side ended with the company in 1993.",
+   "long_history": "Cheetah Marketing was based in Cardiff, run by the brothers Howard and Michael Jacobson and owned by Cannon Street Investments. Its first business was computer peripherals, joysticks like the infrared R.A.T. for the Commodore 64 and the ZX Spectrum, and it moved into music through the same channel: the SpecDrum, a sample-based drum machine that plugged into a Sinclair Spectrum, along with a sound sampler and a MIDI interface for home computers.\n\nStandalone instruments came in 1987 with the MK5 controller keyboard, which sold for a few hundred pounds at a time when master keyboards were thousand-pound stage controllers, and was followed by the MK5II, MK5V and MK7VA. The MD8 drum machine arrived in the same year as the MS6, pattern-based with eight sounds and four-note polyphony for under a hundred and fifty pounds.\n\nThe MS6 is the instrument the company is remembered for. A single-rack-unit six-voice analogue synth with two DCOs and a 24dB low-pass filter, it was built around the Curtis CEM3396, the same chip Oberheim used in the Matrix 6 and Matrix 1000, and it appeared at almost exactly the same moment as the Matrix 1000 at a small fraction of the price. It carried 320 ROM tones in five banks, 96 user tone slots and 64 performances, was six-part multitimbral, and could be chained by MIDI overflow to reach eighteen voices across three units. What it did not have was much in the way of front panel control, or a headphone socket.\n\nThe music range grew quickly because Cheetah worked with outside designers, among them Chris Wright, later the founder of Soundscape Digital Technology, Ian Jannaway, later the founder of Novation, and Mike Lynch, later the founder of Autonomy. The MD16 and its rack version, the MS800 wavetable synth, the SX16 sampler and the up-market 7P and 770 controller keyboards followed in the early nineties. The Master Series 7000 and 8000 were shown at NAMM in 1993 but never manufactured; about six prototypes are known.\n\nThe UK recession hit the share price of Cannon Street Investments and the company was closed in 1993. Chris Wright and Nick Owen bought the music products division and formed Soundscape Digital Technology; the peripherals business went to another company in the same group.",
+   "name_history": [
+    {
+     "name": "Cheetah International Ltd",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "SpecDrum",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "Sound Sampler",
+     "year": null,
+     "category": "sampler"
+    },
+    {
+     "name": "MK5",
+     "year": 1987,
+     "category": "keyboard"
+    },
+    {
+     "name": "MK5II",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "MK5V",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "MK7VA",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "MD8",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "MS6",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "MD16",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "MD16R",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "MD16RP",
+     "year": null,
+     "category": "drum machine"
+    },
+    {
+     "name": "MS800",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "SX16",
+     "year": null,
+     "category": "sampler"
+    },
+    {
+     "name": "MQ8",
+     "year": null,
+     "category": "sequencer"
+    },
+    {
+     "name": "Master Series 5",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Master Series 7",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Master Series 7P",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "770",
+     "year": null,
+     "category": "keyboard"
+    },
+    {
+     "name": "Master Series 7000",
+     "year": 1993,
+     "category": "prototype"
+    },
+    {
+     "name": "Master Series 8000",
+     "year": 1993,
+     "category": "prototype"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United Kingdom",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "United Kingdom",
+     "source_url": "https://www.soundonsound.com/sos/apr01/articles/retrozone.asp",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Cardiff",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://www.soundonsound.com/sos/apr01/articles/retrozone.asp",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1993",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1993",
+     "source_url": "https://www.soundonsound.com/sos/apr01/articles/retrozone.asp",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Cheetah International Ltd",
+     "value": "Cheetah International Ltd",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://www.soundonsound.com/sos/apr01/articles/retrozone.asp",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Cheetah_Marketing",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.soundonsound.com/sos/apr01/articles/retrozone.asp",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Founding year not stated by either source and left empty. Founders not stated either: the brothers Howard and Michael Jacobson ran the company and Cannon Street Investments owned it, but no source calls anyone a founder, so the column is empty and both facts sit in the prose. Cardiff is given as where the company was based, not explicitly as the founding city. Cannon Street Investments is a holding and got no record of its own; Soundscape Digital Technology Ltd, which bought the music division in 1993, also got none, since nothing here says it made instruments. Excluded from the instruments table: the R.A.T., 125, 125 Plus and Mach 1 joysticks, the infrared joypad, the Cheetah MIDI Interface, and the Gamate handheld console, which Cheetah only distributed. The MIDI controller keyboards were kept, since MIDI keyboards count as instruments under the scope rule. Sound on Sound names a controller called the 770 that en.wikipedia does not have; en.wikipedia lists an MD16RP that Sound on Sound does not. The two sources also differ on how complete the 1993 closure was: en.wikipedia says the company closed but the peripherals division continued inside the Cannon Street group, Sound on Sound says only that the music instrument side ceased. The MS6 has no stated release year; it is described as arriving at almost the same time as the Oberheim Matrix 1000, whose launch the same article dates to 1988."
+  },
+  {
+   "canonical_name": "Access Music",
+   "long_name": "Access Music GmbH",
+   "country": "Germany",
+   "city": null,
+   "founded_year": 1997,
+   "ended_year": null,
+   "founders": "Guido Kirsch, Christoph Kemper",
+   "status": "active",
+   "official_website": "https://www.virus.info/",
+   "queue_name": "Access Music",
+   "short_history": "Access Music is a German maker of virtual analogue synthesizers, known for one long-running family of instruments, the Virus. The company started out building hardware editors so that players could reach the parameters buried in the menus of other makers' synths, which is where the name comes from, then decided building its own would be more interesting. The first Virus appeared in 1997 and the line ran to the TI2 of 2009.",
+   "long_history": "Access began by making hardware controllers for the Oberheim Matrix-1000 and the Waldorf Microwave, sold under the name Access MIDI Tools. The idea was to give players knobs for the parameters those instruments hid behind menus, which is where the company name comes from, and by its own account it soon worked out that building a synthesizer of its own would be more fun.\n\nChristoph Kemper was prompted by the Nord Lead of 1995 to build a virtual analogue instrument, and joined Guido Kirsch to do it. The Virus A was unveiled at the Frankfurt Musikmesse in 1997, a twelve-voice virtual analogue synth that, unusually for the moment, was not trying to model any particular vintage instrument. The company has always treated that as the decisive choice, because it left the sound engine free to develop in its own direction, which it then did through free software updates that became the company's signature.\n\nThree hundred Virus A units sold in the first year. The Virus B followed in 1999 with better converters and more voices, in a rackable desktop box, with a keyboard version, the Virus KB; the Indigo and the Virus Rack came alongside. The Virus C of 2002 expanded polyphony and synthesis again, and arrived with the Virus KC, the Indigo 2 and the Virus Rack XL, plus a limited-edition Indigo 2 Redback. The Virus TI series of November 2005 added USB integration with sequencer software, offering total recall and sample-accurate timing from a standalone hardware instrument; it came as a 61-key keyboard and the 37-key Polar, with a desktop model, and was joined in February 2008 by the smaller Snow, a single-DSP version with about half the polyphony. The Virus TI2 of March 2009 revised the series. Voice count across the family eventually reached close to a hundred.\n\nGuido Kirsch left in 2007 to start Neo Instruments; Kemper stayed. The company describes itself as privately held with around twenty full-time employees, and the Virus has been used by Depeche Mode, the Prodigy, Hans Zimmer, Nine Inch Nails and Dr. Dre among many others. Kemper confirmed in February 2024 that TI2 production had stopped a few months earlier. The Virus site is operated today by Kemper GmbH of Recklinghausen.",
+   "name_history": [
+    {
+     "name": "Access MIDI Tools",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "Virus A",
+     "year": 1997,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus B",
+     "year": 1999,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus KB",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus Indigo",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus Rack",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus C",
+     "year": 2002,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus KC",
+     "year": 2002,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus Indigo 2",
+     "year": 2002,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus Rack XL",
+     "year": 2002,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus Indigo 2 Redback",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI",
+     "year": 2005,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI Keyboard",
+     "year": 2005,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI Polar",
+     "year": 2005,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI Desktop",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI Snow",
+     "year": 2008,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Virus TI2",
+     "year": 2009,
+     "category": "synthesizer"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://en.wikipedia.org/wiki/Access_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1997",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "founders",
+     "value": "Guido Kirsch, Christoph Kemper",
+     "source_url": "https://en.wikipedia.org/wiki/Access_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Guido Kirsch, Christoph Kemper",
+     "source_url": "https://www.namm.org/library/oral-history/christoph-kemper",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "official_website",
+     "value": "https://www.virus.info/",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "name_history:Access MIDI Tools",
+     "value": "Access MIDI Tools",
+     "source_url": "https://en.wikipedia.org/wiki/Access_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Access_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.virus.info/aboutus",
+     "source_tier": "manufacturer_official"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Access_Music",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.namm.org/library/oral-history/christoph-kemper",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "The Access Music article on en.wikipedia redirects to Access Virus, a product article, so there is no company infobox behind that URL and company-level facts from it are thin. Founding city not stated anywhere; the About Us page gives only a current corporate address, and that address belongs to Kemper GmbH, not to Access. The Kemper relationship is unresolved and was NOT written into the record as a relation or a name change: no source says Access was acquired, renamed or absorbed. What is documented is that the site's own imprint names Kemper GmbH, HRB 4471 at the Amtsgericht Recklinghausen, as the legal operator, that the About Us page carries a Kemper GmbH copyright, and that Christoph Kemper's NAMM entry lists him as CEO of Kemper GmbH. en.wikipedia never mentions Kemper GmbH at all. founders holds both names because en.wikipedia calls Guido Kirsch the founder while the NAMM oral history calls Christoph Kemper a co-founder; the two statements are compatible and neither was discarded. Founding year 1997 is the company's own, but en.wikipedia has Access already trading before then as Access MIDI Tools, so 1997 is best read as the year of the first Virus. Status active follows the company's own present-tense description on a site copyrighted 2026, even though Kemper confirmed in February 2024 that TI2 production had ended; the About Us page never mentions the discontinuation. Excluded from the instruments table: the TDM and VST software plugin versions, and the unnamed hardware editors for the Oberheim Matrix-1000 and Waldorf Microwave, whose product names no source gives. The Kemper Profiling Amplifier is a Kemper GmbH guitar product and was not attributed to Access."
+  },
+  {
+   "canonical_name": "RMIF",
+   "long_name": "Rigas muzikas instrumentu fabrika",
+   "country": "Latvia",
+   "city": "Riga",
+   "founded_year": 1945,
+   "ended_year": 1991,
+   "founders": null,
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "Musical Instrument Factory of Riga",
+   "short_history": "RMIF, the Riga musical instrument factory, was the largest maker of electronic musical instruments in the Soviet Union. Set up in Riga in 1945, it built acoustic pianos under the Riga name, drum kits, electronic organs, synthesizers and electronic percussion, and its synthesizers were widely used by rock and pop bands across the Eastern Bloc through the eighties. It ceased to exist in 1991, when the Soviet Union did.",
+   "long_history": "The factory was organised in Riga, in the Latvian SSR, in 1945, in the immediate post-war period, at Moskovskaya Street 250. It became the largest producer of electronic musical instruments in the Soviet era, while also turning out acoustic instruments: the Riga piano was its best-known product, and the Riga-120 took a gold medal at the All-Union Exhibition of Achievements of the National Economy. Drum kits were part of the output too.\n\nIn 1972 it prepared a sound aggregate for release, a single cabinet holding a preamplifier with tone controls, a power amplifier and loudspeakers, meant for electric guitars and keyboard instruments. The electronic instruments the factory is remembered for came later: the Perle and Miki electronic organs, the Opus, an ensemble instrument with separate piano, string, organ and bass sections, and the TI-3 and TI-5, programmable polyphonic synthesizers, the TI-3 with a sequencer and arpeggiator on board. The Elsita analogue drum modules arrived around 1989 and the ES-2-5 electronic percussion with auto-rhythm was an experimental design of 1991. Through the eighties RMIF synthesizers were popular with rock and pop bands throughout the Warsaw Pact countries.\n\nThe factory ceased to exist in 1991, along with much of Soviet industry, and the niche it left was not filled. Its former head, the economist Peteris Vilks, used what was left of it as the base for a new market-oriented company, Sonore. In the post-Soviet period the RMIF abbreviation has stayed attached to drum kits and synthesizers.",
+   "name_history": [
+    {
+     "name": "Rizhskaya fabrika muzykalnykh instrumentov",
+     "start_year": null,
+     "end_year": null
+    },
+    {
+     "name": "Rigas muzikas instrumentu fabrika",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "Perle",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Miki",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "Opus",
+     "year": 1988,
+     "category": "string synthesizer"
+    },
+    {
+     "name": "TI-3",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "TI-5",
+     "year": null,
+     "category": "synthesizer"
+    },
+    {
+     "name": "Elsita",
+     "year": 1989,
+     "category": "drum machine"
+    },
+    {
+     "name": "ES-2-5",
+     "year": 1991,
+     "category": "drum machine"
+    },
+    {
+     "name": "Riga",
+     "year": null,
+     "category": "acoustic piano"
+    },
+    {
+     "name": "Riga-120",
+     "year": null,
+     "category": "acoustic piano"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Latvia",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Latvia",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Riga",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Riga",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1945",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1991",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Rizhskaya fabrika muzykalnykh instrumentov",
+     "value": "Rizhskaya fabrika muzykalnykh instrumentov",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Rigas muzikas instrumentu fabrika",
+     "value": "Rigas muzikas instrumentu fabrika",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Musical_Instrument_Factory_of_Riga",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://ru.wikipedia.org/wiki/%D0%A0%D0%B8%D0%B6%D1%81%D0%BA%D0%B0%D1%8F_%D1%84%D0%B0%D0%B1%D1%80%D0%B8%D0%BA%D0%B0_%D0%BC%D1%83%D0%B7%D1%8B%D0%BA%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D1%85_%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://nksynthmuseum.com/en/rmif-opus/",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "canonical_name is RMIF, the brand the instruments actually carry, with the Latvian and Russian legal names in name_history; the queue row still reads 'Musical Instrument Factory of Riga'. Country recorded as Latvia, following the Formanta precedent of naming the present-day country: ru.wikipedia calls the factory Soviet and Latvian, en.wikipedia says former USSR, now Latvia, and both are in agreement on the territory. Founders not stated by any source. IMPORTANT correction to the research premise: ESTRADIN is NOT attributed to this factory by any source consulted. It appears only in the ruskeys.net index, which carries no manufacturer field at all, and neither Wikipedia article nor the museum page mentions it. Nothing Estradin was written into this record. The same caution applies to the Perle and Opus entries in that index, which lack the RMIF prefix; both are attributed here on the strength of en.wikipedia and the museum page instead. Unresolved between sources, recorded but not treated as a manufacturer-level conflict: ru.wikipedia says the factory ceased to exist in 1991 while en.wikipedia says about 20,000 Riga pianos were produced there until 1999, and neither article reconciles that; ruskeys.net treats Opus-3 and RMIF TI-3 as the same instrument while en.wikipedia lists Opus and TI-3 as two different products with different descriptions; the Opus is called a polyphonic synthesizer by en.wikipedia, a string machine by the museum page and a keyboard by ruskeys. Its 1988 year comes from the museum page alone. The successor company Sonore, organised from the factory by its former head Peteris Vilks, got no record of its own: no source says it made instruments, and no year is given. The unnamed 1972 sound aggregate was left out of the instruments table as amplification. The Riga and Riga-120 acoustic pianos WERE included, since the database already carries an acoustic piano category, but acoustic pianos are not named in the scope rule and these two rows are the ones to drop if that was wrong."
+  }
+ ]
+}
