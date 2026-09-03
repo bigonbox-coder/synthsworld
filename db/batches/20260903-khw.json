@@ -1,0 +1,79 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "VEB Klingenthaler Harmonikawerke",
+   "long_name": null,
+   "country": "Germany",
+   "city": "Klingenthal",
+   "founded_year": 1949,
+   "ended_year": 1990,
+   "founders": null,
+   "status": "defunct",
+   "official_website": null,
+   "queue_name": "VEB Klingenthaler Harmonikawerke",
+   "short_history": "VEB Klingenthaler Harmonikawerke (KHW) was an East German state enterprise headquartered in Klingenthal, in the Vogtland Musikwinkel, formed on 1 January 1949 by merging several private firms, among them F. A. Rauner and Alfred Arnold of Carlsfeld. It became the main GDR production site for accordions, harmonicas and electronic musical instruments, and by 1961 was turning out over 125,000 accordions a year for export to more than 40 countries. In 1964 it absorbed VEB Vermona, and electronic instrument development and manufacturing then continued at its Schoeneck plant, where the Vermona brand name later appeared on products such as the ET-6 organ. Seventeen further state-linked firms, including F. A. Boehm, were folded into KHW in 1972. By 1985 the combine employed more than 3,000 people. KHW and its parent Kombinat Musikinstrumente were dissolved in 1990, after which numerous independent successor companies emerged from its former divisions.",
+   "long_history": "The Volkseigener Betrieb (VEB) Klingenthaler Harmonikawerke was created on 1 January 1949 through the merger of several private instrument makers, including F. A. Rauner and Alfred Arnold, both based in Carlsfeld in the Vogtland Musikwinkel. The plant was even featured in Konrad Wolf's 1955 film Einmal ist keinmal, one of the few DDR Heimatfilme, a sign of how prominent the works were in East German public life. Production scaled up quickly: by 1961 the factory turned out 125,578 accordions in a single year, exported to more than 40 countries.\n\nIn 1964 the company absorbed VEB Vermona, which was folded into the Klingenthaler Harmonikawerke. From then on, the development and manufacture of electronic sound generators and effects units was concentrated at KHW's plant in Schoeneck, and it was there that the Vermona name first appeared on a product, the ET-6 organ, in 1972. In the same year, 1972, seventeen further companies that had until then been run with partial state participation were converted into fully state-owned enterprises and attached to KHW, among them the firm F. A. Boehm. By 1985 the combine as a whole employed more than 3,000 people across its various divisions.\n\nBesides Vermona, the company's brand portfolio (per the article, a selection only) included Goldon for children's pianos, Weltmeister for accordions as well as electronic organs and electric pianos, Regent for amplifiers and speaker cabinets, and Bandmaster for Triolas and harmonicas. Vermona itself covered electronic organs, pianos and synthesizers, and it is the only one of these brands that carried genuinely electronic sound-generating instruments named in the article, the ET-6 organ, and separately the ET 6-1 played by musician Barbara Morgenstern on a 1998 recording. Those are deliberately not repeated here, since the database already holds a dedicated Vermona record for them. The Weltmeister line is described only by product category, electronic organs and electric pianos, with no specific model named, so nothing could be entered for it either.\n\nIn 1990, with German reunification, both VEB Klingenthaler Harmonikawerke and its parent body, the Kombinat Musikinstrumente, were dissolved, and numerous independent companies re-emerged from the former Klingenthaler Harmonikawerke divisions. The Vermona brand itself lay dormant until 2000, when it was revived by a separate company, HDB electronic GmbH of Erlbach, which is not the same legal entity as KHW; that company shipped a new analogue synthesizer under the Vermona name again in 2015. The article's own external-links section glosses the Vermona name as an acronym for 'Vereinigte Harmonikawerke Klingenthal' (united harmonica works of Klingenthal), though this appears only as a link caption rather than in the article's running text, so it is noted here with that caveat.",
+   "name_history": [],
+   "relations": [
+    {
+     "related_company": "Vermona",
+     "relation_type": "acquired",
+     "year": 1964
+    }
+   ],
+   "instruments": [],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "Germany",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Klingenthal",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1949",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "ended_year",
+     "value": "1990",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "defunct",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:acquired:Vermona",
+     "value": "In 1964 VEB Vermona was incorporated ('Eingliederung') into the Klingenthaler Harmonikawerke",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://de.wikipedia.org/wiki/VEB_Klingenthaler_Harmonikawerke",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [],
+   "review_note": "Founders left null on purpose: the article names no individual founders, only that KHW was formed on 1 January 1949 by merging several existing private companies, for example F. A. Rauner and Alfred Arnold in Carlsfeld; those company names are given in the prose instead. long_name left null: the article only expands VEB to Volkseigener Betrieb in an awkward, self-referential phrase ('Der Volkseigene Betrieb VEB Klingenthaler Harmonikawerke'), which does not amount to a distinct official long name beyond the canonical one. Country is recorded as Germany; the article calls this a DDR (East German) enterprise and never uses the word Germany directly, but Klingenthal is a place in Germany, so Germany was used per the convention used elsewhere in this database.\n\nScope: the instruments table is deliberately empty. Every genuinely electronic sound-generating instrument the article names, the ET-6 organ and the ET 6-1 played by Barbara Morgenstern, carries the Vermona brand, and Vermona already has its own record in this database, so none of it was duplicated here per the scope rule. Weltmeister is described only as covering electronic organs and electric pianos as a category, with no specific model name given, so even though Weltmeister is not Vermona, nothing could be entered for it without a named product. Acoustic and non-instrument items were left out entirely per the scope rule: the Goldon children's pianos, the Bandmaster Triolas and harmonicas, the Weltmeister accordions, and the Regent amplifiers and speaker cabinets (amplifiers and speakers are treated as accessories, not instruments, consistent with how amplifier lines were excluded elsewhere in this database, e.g. EKO's SC800).\n\nRelation to Vermona: recorded as acquired, dated 1964, based on the article's statement that VEB Vermona was incorporated into the Klingenthaler Harmonikawerke that year. The later 2000 revival of the Vermona brand was carried out by a separate company, HDB electronic GmbH of Erlbach, not by any successor of KHW itself, so that fact stayed in the prose only and was not written as a second relation row.\n\nNo internal contradictions were found in the article and the conflicts array is empty. The name Vermona is glossed in the article's own external-links section as an acronym of 'Vereinigte Harmonikawerke Klingenthal'; this is only a link caption, not part of the running text, so it was included in the long history with an explicit caveat rather than treated as a confirmed fact. ended_year is set to 1990, the year both KHW and the parent Kombinat Musikinstrumente were dissolved; official_website stayed null since the company no longer exists as such."
+  }
+ ]
+}

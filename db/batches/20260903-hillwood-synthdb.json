@@ -1,0 +1,59 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Hillwood",
+   "instruments": [
+    {
+     "name": "BS-4355",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/BS-4355/BS-4355.php"
+    },
+    {
+     "name": "Blue Comets 73",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/Blue Comets 73/Blue Comets 73.php"
+    },
+    {
+     "name": "HR-2",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/HR-2/HR-2.php"
+    },
+    {
+     "name": "HR-30",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/HR-30/HR-30.php"
+    },
+    {
+     "name": "RB-1",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/RB-1/RB-1.php"
+    },
+    {
+     "name": "Rhythm Stereo",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/Rhythm Stereo/Rhythm Stereo.php"
+    },
+    {
+     "name": "ST-303",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/ST-303/ST-303.php"
+    },
+    {
+     "name": "SY-1800",
+     "year": null,
+     "category": null,
+     "source_url": "http://www.synth-db.com/synths/Hillwood/SY-1800/SY-1800.php"
+    }
+   ],
+   "sources": [],
+   "review_note": "Kiegeszito batch a synth-db.com mar letoltott oldal-cache-ebol, nulla modellhasznalattal. Csak a modellnevet es a forras-URL-t viszi be; az evszamot, a kategoriat es a technologiat utana a db/read_synthdb_specs.py tolti ki ugyanabbol a cache-bol, es CSAK ures mezobe ir. Igy ha egy modellt a kutato batch mar bevitt sajat evszammal, az marad ervenyben, es az elteres konfliktuskent kezelendo, nem felulirasként."
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Hillwood",
+   "long_name": "Hillwood Electronic Musical Instruments Corporation",
+   "country": "Japan",
+   "city": "Tokyo",
+   "founded_year": 1972,
+   "ended_year": null,
+   "founders": "Kazuo Morioka",
+   "status": "unknown",
+   "official_website": null,
+   "queue_name": "Hillwood",
+   "short_history": "Hillwood was a Japanese electronic instrument maker in Tokyo, founded in 1972 by Kazuo Morioka, who sold the same designs abroad under the name Firstman. The company built synthesizers, drum machines and portable keyboards through the seventies and into the early eighties, and from 1976 to 1980 it also built the instruments the American brand Multivox sold. Its first synthesizer came in 1973. After the company ended, Morioka developed the MG1212 recording system and the AX synthesizers for Akai, and the PK-250 for Hohner.",
+   "long_history": "Hillwood Electronic Musical Instruments Corporation was based in Tokyo and had connections to Firstman, Multivox and Sorkin. The link to Firstman is the founder himself: Kazuo Morioka, whose given name translates as first man while his family name stands for hillwood, so the two brand names are one man's name read twice. Hillwood was the name the instruments carried in Japan, Firstman the name they carried abroad, and Firstman products reached Europe through Taiyo.\n\nThe company existed from 1972, and Hillwood built what the sources call the first Firstman synthesizer in 1973. The Japanese-branded catalogue of the seventies runs from the Blue Comets 73 and the two-oscillator 1268 through the SY series, whose SY-1800 was announced with an FM-like scheme called MMSS, short for Multiple Modulated Spectrum Synthesize system, that worked without a filter at all. From 1976 to 1980 Multivox had its instruments built here, which is why a Multivox and its Japanese counterpart are frequently the same instrument with a different badge.\n\nThe Firstman-branded years around 1980 and 1981 were the busiest: the eight-voice PS 86 with a four-track sequencer and a velocity and pressure sensitive keyboard, the four-voice FS 4 V, the card-storing programmable monophonic expander FS 10 C, the pedal-played BS 999 bass synthesizer, the fully analogue Synpuls SD 1 drum synthesizer, and the SQ-01, a monophonic synthesizer with a 1024-step sequencer and a membrane keyboard, released in Japan under the Firstman name in 1980 and sold by Multivox from 1981. Morioka later worked for Akai, where he developed the MG1212 recording system and the AX synthesizers, and for Hohner, where he developed the PK-250.",
+   "name_history": [],
+   "relations": [],
+   "instruments": [
+    {
+     "name": "Blue Comets 73",
+     "year": 1973,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "1268",
+     "year": 1974,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "SY-1800",
+     "year": 1975,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "SY-2100",
+     "year": 1975,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "SY-2500",
+     "year": 1976,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "Rockeyboard",
+     "year": 1978,
+     "category": "polyphonic keyboard",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm"
+    },
+    {
+     "name": "PS 86",
+     "year": 1980,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "SQ-01",
+     "year": 1980,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "SQ-10",
+     "year": 1980,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "BS 999",
+     "year": 1981,
+     "category": "bass pedal synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "FS 4 V",
+     "year": 1981,
+     "category": "synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "FS 10 C",
+     "year": 1981,
+     "category": "synthesizer module",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    },
+    {
+     "name": "Synpuls SD 1",
+     "year": 1981,
+     "category": "drum synthesizer",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "long_name",
+     "value": "Hillwood Electronic Musical Instruments Corporation",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Japan",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "country",
+     "value": "Japan",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Firstman",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Tokyo",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1972",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Firstman",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1972",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Kazuo Morioka",
+     "source_url": "https://electronicmusic.fandom.com/wiki/Firstman",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Morioko Kazuo",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "Hillwood was a Japanese electronic instrument maker in Tokyo, founded in 1972 by Kazuo Morioka, who sold the same designs abroad under the name Firstman. The company built synthesizers, drum machines ",
+     "source_url": "http://www.synrise.de/docs/types/h/hillwood.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "Hillwood Electronic Musical Instruments Corporation was based in Tokyo and had connections to Firstman, Multivox and Sorkin. The link to Firstman is the founder himself: Kazuo Morioka, whose given nam",
+     "source_url": "http://www.synrise.de/docs/types/f/firstman.htm",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [
+    {
+     "field_name": "instrument:SY-1800:year",
+     "description": "synrise dates the SY-1800 to 1975, while the synth-db.com page for the same instrument, already in our cache, states Produced 1977. Neither source explains the other, so 1975 was written and this is recorded as an open contradiction rather than resolved.",
+     "source_urls": [
+      "http://www.synrise.de/docs/types/h/hillwood.htm",
+      "http://www.synth-db.com/synths/Hillwood/SY-1800/SY-1800.php"
+     ]
+    }
+   ],
+   "review_note": "Two brands, one company: Hillwood is the Japanese name and Firstman the export name, so the instruments of both stand in this one record. Firstman was deliberately NOT written into name_history, because no source describes a rename; they were used side by side.\n\nNOT ESTABLISHED. status is unknown and ended_year is null: not one of the three sources says when or whether the company stopped. The synrise model list simply ends in 1981, which is not a statement of closure, and a search result claiming the company was out of business by the end of 1981 could not be traced to a citable page, so it was not used. The founder's name is spelled Kazuo Morioka on the wiki and Morioko Kazuo on synrise; the first form was taken, the discrepancy is recorded here.\n\nLEFT OUT UNDER THE SCOPE RULE. FC 10: a 37-key keyboard sold as an accessory to the FS 10 C expander, no sound generation of its own. Formant: not a Firstman design at all, but modules and kits of the Elektor Formant that Firstman distributed for a while. The synrise entries Drum Synthesizer Synpuls and SD 1 are cross-references to the same Synpuls SD 1, so it appears once.\n\nNAME FORM. synrise writes the sequencer synthesizer as SQ/01, the wiki as SQ-01. SQ-01 was taken, because that is the form the database already holds under Multivox. The same instrument therefore appears twice on purpose: once here with its 1980 Firstman release and once under Multivox with its 1981 release, which is what the sources describe.\n\nRELATIONS NOT WRITTEN. The Multivox link is already in the database from the other direction (Multivox supplier Hillwood), so it was not duplicated here. Akai and Hohner are named only as places the founder worked LATER, which is a person-level connection and not a company relation; on top of that the database holds Akai under the name Akai Professional, so a relation would have created a duplicate stub. Taiyo appears only as the European distributor, and Sorkin only as a cross-reference. All four are in the prose instead."
+  }
+ ]
+}

@@ -61,12 +61,12 @@ def build_index(conn):
     """Nevkulcs -> (gyarto id, kanonikus nev, kikutatottsag). A nev-tortenet is
     beleszamit, mert egy regi cegnev ugyanugy duplikatum."""
     idx = {}
-    for r in conn.execute("SELECT id, canonical_name, confidence_level FROM manufacturers"):
-        idx[key(r["canonical_name"])] = (r["id"], r["canonical_name"], r["confidence_level"])
+    for r in conn.execute("SELECT id, canonical_name, confidence_level, scope FROM manufacturers"):
+        idx[key(r["canonical_name"])] = (r["id"], r["canonical_name"], r["confidence_level"], r["scope"])
     for r in conn.execute(
-            "SELECT h.name, m.id, m.canonical_name, m.confidence_level "
+            "SELECT h.name, m.id, m.canonical_name, m.confidence_level, m.scope "
             "FROM manufacturer_name_history h JOIN manufacturers m ON m.id = h.manufacturer_id"):
-        idx.setdefault(key(r["name"]), (r["id"], r["canonical_name"], r["confidence_level"]))
+        idx.setdefault(key(r["name"]), (r["id"], r["canonical_name"], r["confidence_level"], r["scope"]))
     return idx
 
 
@@ -74,7 +74,7 @@ def classify(conn):
     idx = build_index(conn)
     # a tartalmazas-kereseshez a hosszabb nevek elol, hogy a legpontosabb nyerjen
     by_len = sorted(idx.items(), key=lambda kv: -len(kv[0]))
-    stale, stubs, contained = [], [], []
+    stale, stubs, contained, out_of_scope = [], [], [], []
 
     for r in conn.execute(
             "SELECT id, manufacturer_name, notes FROM discovery_queue "
@@ -82,13 +82,23 @@ def classify(conn):
         qk = key(r["manufacturer_name"])
         hit = idx.get(qk)
         if hit:
-            (stale if hit[2] in RESEARCHED else stubs).append((r, hit))
+            # A scope-on kivulre sorolt ceg sora nem varolistas munka: eldontott
+            # ugy, a rekord csak egy relacio masik vegekent all a tablaban.
+            # Kristof, 2026-09-03. Ilyenkor a sort le kell zarni, nem meghagyni
+            # "csonk, ez inditja majd a kutatast" cimen, mert a napi huzas
+            # kulonben rateveszthet egy holdingra vagy egy hangszerboltra.
+            if hit[3] == "out_of_scope":
+                out_of_scope.append((r, hit))
+            elif hit[2] in RESEARCHED:
+                stale.append((r, hit))
+            else:
+                stubs.append((r, hit))
             continue
         for mk, hit in by_len:
             if mk and mk != qk and re.search(r"(^|\s)" + re.escape(mk) + r"(\s|$)", qk):
                 contained.append((r, hit))
                 break
-    return stale, stubs, contained
+    return stale, stubs, contained, out_of_scope
 
 
 def stub_is_maker(conn, mid):
@@ -120,7 +130,7 @@ def main():
 
     conn = sqlite3.connect(DB)
     conn.row_factory = sqlite3.Row
-    stale, stubs, contained = classify(conn)
+    stale, stubs, contained, out_of_scope = classify(conn)
 
     print(f"1. PONTOS egyezes, a gyarto mar ki van kutatva -> elavult sor: {len(stale)}")
     for r, h in stale:
@@ -137,6 +147,10 @@ def main():
         print(f"   queue#{r['id']:4d} {r['manufacturer_name']:38s} {tag}")
     print(f"   ebbol sajat jogan gyarto, tehat elore sorolando: {len(makers)}")
 
+    print(f"\n2b. SCOPE-ON KIVUL sorolt ceg nyitott sora -> LEZARANDO: {len(out_of_scope)}")
+    for r, h in out_of_scope:
+        print(f"   queue#{r['id']:4d} {r['manufacturer_name']:38s} -> {h[1]} (id {h[0]}, out_of_scope)")
+
     print(f"\n3. TARTALMAZAS, ember donti el: {len(contained)}")
     for r, h in contained:
         print(f"   queue#{r['id']:4d} {r['manufacturer_name']:38s} ~~ {h[1]} (id {h[0]})")
@@ -146,11 +160,20 @@ def main():
             mark(conn, r, h, "A nev PONTOSAN egyezik egy mar kikutatott gyartoeval.")
         for r, h in contained:
             mark(conn, r, h, "A nev TARTALMAZ egy meglevo gyartonevet.")
+        for r, h in out_of_scope:
+            note = (r["notes"] or "").strip()
+            add = (f"[dupe-check {now_iso()[:10]}] LEZARVA: a {h[1]} rekord (id {h[0]}) "
+                   f"scope='out_of_scope', tehat nem elektronikus hangszergyarto. "
+                   f"Kutatas nem indul ra.")
+            conn.execute("UPDATE discovery_queue SET status = 'done', priority = 0, "
+                         "notes = ?, updated_at = ? WHERE id = ?",
+                         ((note + " | " + add) if note else add, now_iso(), r["id"]))
         for r, h in makers:
             conn.execute("UPDATE discovery_queue SET priority = 1, updated_at = ? WHERE id = ?",
                          (now_iso(), r["id"]))
         conn.commit()
-        print(f"\n{len(stale) + len(contained)} sor needs_review lett. "
+        print(f"\n{len(out_of_scope)} scope-on kivuli sor lezarva (done).")
+        print(f"{len(stale) + len(contained)} sor needs_review lett. "
               f"A {len(stubs)} csonk-sor statusza erintetlen, ebbol {len(makers)} kapott elsobbseget.")
     else:
         print(f"\n{len(stale) + len(contained)} sor kapna jelolest. -- szarazfutas, --apply kell hozza --")

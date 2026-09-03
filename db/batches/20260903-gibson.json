@@ -1,0 +1,202 @@
+{
+ "manufacturers": [
+  {
+   "canonical_name": "Gibson",
+   "long_name": "Gibson, Inc.",
+   "country": "United States",
+   "city": "Kalamazoo",
+   "founded_year": 1902,
+   "ended_year": null,
+   "founders": "Orville Gibson",
+   "status": "active",
+   "official_website": null,
+   "queue_name": "Gibson",
+   "short_history": "Gibson is an American maker of guitars and other instruments, incorporated in Kalamazoo, Michigan in 1902 by Orville Gibson and now based in Nashville, Tennessee. It is included in this database for one electronic sideline rather than for its guitars: in the late 1960s Gibson sold two transistorised combo organs, the G-101 and the G-201, both actually built for it by the Lowrey Organ Company. The G-101 first reached the market under Gibson's budget brand name as the Kalamazoo K-101 before being rebadged Gibson G-101, and it became well known through Ray Manzarek's use of one with the Doors. Gibson also owns the historical Baldwin brand, which itself carries the Wurlitzer name, though none of the three sources used here describe Gibson or Baldwin building a synthesizer or drum machine.",
+   "long_history": "Orville Gibson began making instruments out of a one-room workshop in Kalamazoo, Michigan in 1894, and in 1902 the Gibson Mandolin-Guitar Mfg. Co. Ltd. was incorporated to market his mandolin-family designs. The company grew into one of the best known American guitar makers, moving through ownership by Chicago Musical Instruments from 1944, by Norlin Corporation from 1969 to 1986, by a group led by Henry Juszkiewicz and David Berryman from 1986, and by a group led by Kohlberg Kravis Roberts from November 2018. Production shifted from Kalamazoo to Nashville, Tennessee between 1976 and 1984, and the company today also builds instruments under brands including Epiphone, Kramer, Maestro, Steinberger and Tobias, and owns historical brands including Kalamazoo, Dobro, Valley Arts, and Baldwin, the last of which itself carries the Chickering, Hamilton and Wurlitzer names. None of that guitar, amplifier, pickup or pro audio business is in scope for this record.\n\nThe one place Gibson's catalog crosses into sound-generating electronic hardware is a pair of combo organs from the late 1960s. The G-101, also called the Gibson Portable Organ, was a transistorised single-manual instrument built for Gibson by the Lowrey Organ Company, which at the time was, like Gibson, owned by Chicago Musical Instruments. It answered combo organs such as the Vox Continental and the Farfisa, offering a 61-key manual split into a bass octave, a switchable second bass or treble octave, and a three-octave treble section, with a wide set of reed, string and flute voices, a Glide and Trumpet Wow-Wow effect worked from the required expression pedal, and a Repeat circuit for retriggered percussion. Because Lowrey built it, the G-101 shares its electronics and much of its sound with Lowrey's own T-1 and T-2 console models. It first appeared under Gibson's budget brand as the Kalamazoo K-101 and was renamed Gibson G-101 shortly afterward to help sales; fewer than 2,000 were made, well under a quarter of Vox Continental production, which has made it sought after by collectors. It is most associated with the Doors' Ray Manzarek, who switched to it from a Vox Continental during the recording of Waiting for the Sun in 1968 and used its volume-pedal pitch-bend on \"Not to Touch the Earth\"; jazz musician Sun Ra also used one, crediting it as the \"Solar Sound Organ\" on the 1969 album Atlantis, as did Don Preston with Frank Zappa and the Mothers of Invention.\n\nAlongside it Gibson sold the G-201, a two-manual spinet version with largely the same electronics as the G-101 but fewer features, again built by Lowrey and also marketed by Lowrey itself under the model name T2. Both organs used an external reverb unit rather than a built-in one, sold separately as the Maestro Reverb TR-370 or the Gibson Combo Reverb amplifier.",
+   "name_history": [
+    {
+     "name": "Gibson Mandolin-Guitar Mfg. Co. Ltd.",
+     "start_year": 1902,
+     "end_year": null
+    },
+    {
+     "name": "Gibson Guitar Corporation",
+     "start_year": null,
+     "end_year": null
+    },
+    {
+     "name": "Gibson Brands Inc.",
+     "start_year": null,
+     "end_year": null
+    },
+    {
+     "name": "Gibson, Inc.",
+     "start_year": null,
+     "end_year": null
+    }
+   ],
+   "relations": [
+    {
+     "related_company": "Lowrey",
+     "relation_type": "supplier",
+     "year": null
+    },
+    {
+     "related_company": "Baldwin",
+     "relation_type": "owner_of",
+     "year": null
+    },
+    {
+     "related_company": "Wurlitzer",
+     "relation_type": "owner_of",
+     "year": null
+    }
+   ],
+   "instruments": [
+    {
+     "name": "G-101",
+     "year": null,
+     "category": "electronic organ"
+    },
+    {
+     "name": "G-201",
+     "year": null,
+     "category": "electronic organ"
+    }
+   ],
+   "sources": [
+    {
+     "field_name": "country",
+     "value": "United States",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "city",
+     "value": "Kalamazoo",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founded_year",
+     "value": "1902",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "founders",
+     "value": "Orville Gibson",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "status",
+     "value": "active",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_name",
+     "value": "Gibson, Inc.",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Gibson Mandolin-Guitar Mfg. Co. Ltd.",
+     "value": "Gibson Mandolin-Guitar Mfg. Co. Ltd.",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Gibson Guitar Corporation",
+     "value": "Gibson Guitar Corporation",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Gibson Brands Inc.",
+     "value": "Gibson Brands Inc.",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "name_history:Gibson, Inc.",
+     "value": "Gibson, Inc.",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:supplier:Lowrey",
+     "value": "The Gibson G-101, a transistorised combo organ, was manufactured in the late 1960s by the Lowrey Organ Company for Gibson",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_G-101",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:supplier:Lowrey",
+     "value": "The Gibson organs were made by Lowrey, who separately marketed the G201 as their own T2 model and the G101-adjacent T1",
+     "source_url": "https://www.combo-organ.com/Gibson/gibson.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:owner_of:Baldwin",
+     "value": "Gibson owns the ownership of historical brands such as Kalamazoo, Dobro, Valley Arts, and Baldwin (including Chickering, Hamilton, and Wurlitzer)",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "relation:owner_of:Wurlitzer",
+     "value": "Gibson's ownership of the Baldwin brand is stated to include Chickering, Hamilton, and Wurlitzer",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_G-101",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "short_history",
+     "value": "synthesised",
+     "source_url": "https://www.combo-organ.com/Gibson/gibson.htm",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_(guitar_company)",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://en.wikipedia.org/wiki/Gibson_G-101",
+     "source_tier": "other"
+    },
+    {
+     "field_name": "long_history",
+     "value": "synthesised",
+     "source_url": "https://www.combo-organ.com/Gibson/gibson.htm",
+     "source_tier": "other"
+    }
+   ],
+   "conflicts": [
+    {
+     "field_name": "instrument:G-101:year",
+     "description": "The introduction year of the G-101 or K-101 is not consistent across, or even within, the sources given. gibson_g101_wikipedia.txt states in its overview that the instrument was introduced by Gibson in 1967, but its own Production section says the organ was first introduced in 1966 as the Kalamazoo K-101 and only renamed Gibson G-101 shortly afterward. combo-organ.com hedges the same way, saying the author had thought it was introduced in the summer of 1967, but that one owner reports a vibrato board stamped 22 Jan 1966. Because the sources disagree with themselves and each other, year was left null rather than picking one of 1966 or 1967.",
+     "source_urls": [
+      "https://en.wikipedia.org/wiki/Gibson_G-101",
+      "https://www.combo-organ.com/Gibson/gibson.htm"
+     ]
+    }
+   ],
+   "review_note": "The overwhelming majority of the source material concerns guitars, basses, amplifiers, effect pedals, pickups and pro audio equipment, all explicitly out of scope for this database and deliberately excluded here, along with Gibson's owned or acquired guitar-adjacent brands (Epiphone, Kramer, Steinberger, Tobias, Dobro, Valley Arts, Chickering, Hamilton), audio-equipment ventures (Stanton, Cerwin Vega, TEAC, Onkyo, KRK, Mesa Boogie amplifiers) and the Slingerland Drum Company (acoustic drums, sold to Drum Workshop in 2019). The corporate ownership chain of Gibson itself, Chicago Musical Instruments from 1944, Norlin Corporation from 1969 to 1986, the Juszkiewicz-Berryman-Zebrowski group from 1986, and the KKR-led group from 2018, is recorded in prose only and not as relations, since none of those are instrument makers relevant to this record's electronic scope. Only two relations were recorded: Lowrey, which physically built both Gibson combo organs, and Baldwin together with Wurlitzer, which the Gibson article states Gibson owns as historical brands; Baldwin and Wurlitzer are called out explicitly because this database already holds records for them.\n\nOnly two instruments qualify under the sound-generating electronic hardware scope: the G-101 combo organ (also sold as the Kalamazoo K-101, the same instrument under a different badge) and the two-manual G-201 spinet version. Both were physically built by the Lowrey Organ Company rather than by Gibson itself, which is recorded in both long_history and this note per the brand-vs-builder rule. No year could be assigned to either instrument: the G-101's year is unresolved between 1966 and 1967 (see conflicts), and no source gives any year at all for the G-201 beyond saying it was introduced 'at the same time' as the G-101. The Maestro Rhythm King drum machine is NOT included here: although Gibson owns the Maestro brand name, none of the three sources supplied for this batch document a Rhythm King or any other Maestro-branded electronic instrument, so it still needs its own source before it can be added. official_website was left null because the Wikipedia article's External links section names an 'Official website' link but the plain-text extraction used here did not carry an actual URL to cite. The transition years between Gibson's four successive legal names (Gibson Mandolin-Guitar Mfg. Co. Ltd., Gibson Guitar Corporation, Gibson Brands Inc., Gibson, Inc.) are not stated by the source, so only the 1902 incorporation date is recorded and the others are left null. founded_year uses the 1902 incorporation of Gibson Mandolin-Guitar Mfg. Co. Ltd.; Orville Gibson's earlier 1894 start as a one-room workshop is recorded in the prose only. city is given as Kalamazoo, where the company was founded and based for most of its history; the current Nashville, Tennessee headquarters is recorded in the prose only, consistent with how founding versus current location is handled elsewhere in this batch."
+  }
+ ]
+}
