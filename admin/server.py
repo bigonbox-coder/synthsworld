@@ -223,6 +223,11 @@ h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
   .pill.needs_review { background: #fbf0d6; color: #96731a; }
   .pill.unresearched { background: #e8eaee; color: #565f6f; }
   .pill.out_of_scope { background: #ece4f5; color: #5b4380; }
+  .inst-review { margin: 6px 0 10px 0; padding: 8px 10px; background: #fbf7ec;
+                 border-left: 3px solid #d8c48a; border-radius: 4px; }
+  .inst-note { font-size: 12px; color: #6a5f45; margin-bottom: 6px; line-height: 1.45; }
+  .btn-mini { font: inherit; font-size: 12px; padding: 3px 10px; margin-right: 6px;
+              border: 0; border-radius: 4px; cursor: pointer; }
   .dot.out_of_scope { background: #a98cd0; }
   .stat.out_of_scope .n { color: #5b4380; }
   .scope-note { color: #5b4380; font-size: 13px; }
@@ -408,6 +413,11 @@ class Handler(http.server.BaseHTTPRequestHandler):
             self._add_note(mid, data.get("note", "").strip())
             return
 
+        if path.startswith("/api/instrument/") and path.endswith("/review"):
+            iid = int(path.split("/")[3])
+            self._instrument_review(iid, data.get("action", ""))
+            return
+
         if path.startswith("/api/manufacturer/") and path.endswith("/logo-review"):
             mid = int(path.split("/")[3])
             self._logo_review(mid, data.get("status", ""), data.get("logo_id"),
@@ -492,6 +502,55 @@ class Handler(http.server.BaseHTTPRequestHandler):
         con.commit()
         con.close()
         self._send_json({"ok": True, "new_confidence_level": new})
+
+    def _instrument_review(self, iid, action):
+        """Hangszer-szintu ellenorzendo jelzes feloldasa vagy a sor torlese.
+
+        Kristof, 2026-09-03: "A 92-re hogyan tudok donteni? Admin?" Eddig
+        sehogy: a jelzes latszott, gomb nem volt hozza. Ket dontes van.
+
+        'accept' -> a jeloles lekerul, a hangszer marad. Arra valo, amirol
+        tudjuk hogy letezik, csak a forrasa dolt be.
+        'delete' -> a sor TENYLEG torlodik, mert sitemap-szemet volt.
+
+        Mindketto nyomot hagy a gyarto review_logjaban, mert a hangszer sor
+        torlese utan mar nem lenne hova irni, es egy torles ne legyen nema.
+        """
+        if action not in ("accept", "delete"):
+            self._send_json({"error": "invalid action"}, 400)
+            return
+        con = db()
+        cur = con.cursor()
+        row = cur.execute(
+            "SELECT id, manufacturer_id, name, year, review_note FROM instruments WHERE id=?",
+            (iid,)).fetchone()
+        if not row:
+            con.close()
+            self._send_json({"error": "not found"}, 404)
+            return
+        mid = row["manufacturer_id"]
+        year = f' ({row["year"]})' if row["year"] else ""
+        if action == "accept":
+            note = ((row["review_note"] or "") +
+                    " [admin dontes] Kristof feloldotta a jelolest: a hangszer marad, "
+                    "a hianyzo forras nem ok a torlesre.")
+            cur.execute(
+                "UPDATE instruments SET review_status=NULL, review_note=? WHERE id=?",
+                (note, iid))
+            log = (f'Hangszer-jeloles feloldva: {row["name"]}{year}. A sor marad, '
+                   f'a forrasa tovabbra is hianyzik.')
+        else:
+            cur.execute("DELETE FROM external_links WHERE instrument_id=?", (iid,))
+            cur.execute("DELETE FROM instrument_categories WHERE instrument_id=?", (iid,))
+            cur.execute("DELETE FROM instruments WHERE id=?", (iid,))
+            log = (f'Hangszer TOROLVE az adminbol: {row["name"]}{year}. Indok: a forrasa '
+                   f'halott volt es Kristof sitemap-szemetnek itelte.')
+        cur.execute(
+            "INSERT INTO manufacturer_review_log (manufacturer_id, action, note) VALUES (?, 'note_added', ?)",
+            (mid, log))
+        con.commit()
+        con.close()
+        self._send_json({"ok": True, "action": action})
 
     def _logo_review(self, mid, status, logo_id=None, reason=None):
         # Reversible verdict on a FOUND logo -- Kristóf can change his mind
@@ -1021,7 +1080,7 @@ function filterList() {{
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
         instruments = con.execute(
-            """SELECT name, year, category, technology, review_status, review_note
+            """SELECT id, name, year, category, technology, review_status, review_note
                FROM instruments
                WHERE manufacturer_id=?
                ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
@@ -1128,8 +1187,16 @@ function filterList() {{
             # A cimke a note-ot hordozza, hogy a dontes ne igenyeljen nyomozast.
             flag = ""
             if it["review_status"] == "needs_review":
-                flag = (f' <span class="pill needs_review" title="{esc(it["review_note"] or "")}">'
-                        f'forrás?</span>')
+                # A dontes ne igenyeljen nyomozast: a jegyzet LATSZIK, nem csak
+                # tooltipben all, es mellette ott a ket gomb. Kristof kerdese
+                # 2026-09-03: "A 92-re hogyan tudok donteni? Admin?"
+                flag = (
+                    ' <span class="pill needs_review">forrás?</span>'
+                    '<div class="inst-review">'
+                    f'<div class="inst-note">{esc(it["review_note"] or "")}</div>'
+                    f'<button class="btn-mini btn-approve" onclick="instrumentReview({it["id"]}, &quot;accept&quot;, this)">Marad</button>'
+                    f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({it["id"]}, &quot;delete&quot;, this)">Törlés</button>'
+                    '</div>')
             inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{flag}</li>'
 
         rel_html = ""
@@ -1220,6 +1287,20 @@ function toggleLongHistory() {{
   var show = t.style.display === 'none';
   t.style.display = show ? 'block' : 'none';
   b.textContent = show ? 'Kevesebbet' : 'Bovebben';
+}}
+function instrumentReview(id, action, btn) {{
+  // Torlesnel kerdezunk: a hangszer sor tenyleg eltunik, es nincs vissza-gomb.
+  if (action === 'delete' && !confirm('Biztos torold ezt a hangszert? Ez nem vonhato vissza.')) return;
+  btn.disabled = true;
+  fetch('/api/instrument/' + id + '/review', {{
+    method: 'POST',
+    headers: {{'Content-Type': 'application/json'}},
+    body: JSON.stringify({{action: action}})
+  }}).then(function(r) {{
+    if (r.ok) {{ location.reload(); return; }}
+    btn.disabled = false;
+    r.json().then(function(j) {{ alert(j.error || 'Hiba tortent.'); }}).catch(function() {{ alert('Hiba tortent.'); }});
+  }});
 }}
 function toggleApproval() {{
   fetch('/api/manufacturer/{mid}/toggle', {{method:'POST'}}).then(function(r) {{
