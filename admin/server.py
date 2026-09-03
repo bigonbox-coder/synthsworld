@@ -251,6 +251,9 @@ STYLE = """
 .owner-note { margin: .35em 0; padding: .4em .6em; border-radius: 6px; font-size: .9em;
   background: rgba(140,110,200,.12); border-left: 3px solid rgba(140,110,200,.6); }
 .review-split { margin-top: 2.2em; border-top: 1px solid rgba(127,127,127,.3); padding-top: .8em; }
+.instrument-list .fam { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
+  background: rgba(90,150,120,.18); color: #3f7d63; }
+.instrument-list .var { opacity: .7; font-size: .8em; margin-left: .4em; }
 .instrument-list .ed { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
   background: rgba(140,110,200,.18); color: #7d5fc0; letter-spacing: .02em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
@@ -1271,11 +1274,13 @@ function instrumentReview(id, action, btn) {{
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
         instruments = con.execute(
-            """SELECT id, name, year, category, technology, review_status, review_note,
-                      edition, edition_note, owner_note, owner_note_at
-               FROM instruments
-               WHERE manufacturer_id=?
-               ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
+            """SELECT i.id, i.name, i.year, i.category, i.technology, i.review_status,
+                      i.review_note, i.edition, i.edition_note, i.owner_note,
+                      i.owner_note_at, i.variant_label, f.name AS family
+               FROM instruments i
+               LEFT JOIN instrument_families f ON f.id = i.family_id
+               WHERE i.manufacturer_id=?
+               ORDER BY i.year IS NULL, i.year, i.name COLLATE NOCASE""", (mid,)
         ).fetchall()
         notes = con.execute(
             "SELECT action, note, previous_confidence_level, new_confidence_level, created_at FROM manufacturer_review_log WHERE manufacturer_id=? ORDER BY created_at DESC",
@@ -1380,6 +1385,13 @@ function instrumentReview(id, action, btn) {{
             cat = f' <span class="cat">{esc(it["category"])}</span>' if it["category"] else ""
             tech = TECH_LABEL.get(it["technology"] or "")
             tech = f' <span class="tech">{tech}</span>' if tech else ""
+            # Csalad es valtozat (0032). Kristof, 2026-09-03: "egy adott tipusbol
+            # milyen variaciok voltak" -- a weboldal ezt fogja mutatni, az admin
+            # addig is legalabb kiirja, hogy latszodjon, mi hova tartozik.
+            fam = (f' <span class="fam">{esc(it["family"])}</span>'
+                   if it["family"] else "")
+            var = (f' <span class="var">{esc(it["variant_label"])}</span>'
+                   if it["variant_label"] else "")
             ed = EDITION_LABEL.get(it["edition"] or "")
             ed = (f' <span class="ed" title="{esc(it["edition_note"] or "")}">{ed}</span>'
                   if ed else "")
@@ -1400,7 +1412,7 @@ function instrumentReview(id, action, btn) {{
                     + instrument_review_buttons(it) +
                     '</div>')
             anchor = f' id="inst-{it["id"]}"' if flag else ""
-            inst_html += f'<li{anchor}>{esc(it["name"])}{year}{cat}{tech}{ed}{flag}</li>'
+            inst_html += f'<li{anchor}>{esc(it["name"])}{year}{fam}{var}{cat}{tech}{ed}{flag}</li>'
 
         rel_html = ""
         for r in relations:
