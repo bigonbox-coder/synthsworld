@@ -179,6 +179,8 @@ STYLE = """
 .need-list .amount { opacity: .6; white-space: nowrap; }
 .instrument-list .cat { opacity: .75; font-size: .82em; border-left: 1px solid rgba(127,127,127,.4); margin-left: .35em; padding-left: .4em; }
 .instrument-list .tech { opacity: .6; font-size: .78em; font-style: italic; margin-left: .3em; }
+.instrument-list .ed { font-size: .74em; margin-left: .4em; padding: .05em .4em; border-radius: 4px;
+  background: rgba(140,110,200,.18); color: #7d5fc0; letter-spacing: .02em; }
 h2 .count { font-size: .8rem; font-weight: normal; opacity: .6; }
 </style>
 <style>
@@ -1157,7 +1159,8 @@ function instrumentReview(id, action, btn) {{
                WHERE r.manufacturer_id=?""", (mid,)
         ).fetchall()
         instruments = con.execute(
-            """SELECT id, name, year, category, technology, review_status, review_note
+            """SELECT id, name, year, category, technology, review_status, review_note,
+                      edition, edition_note
                FROM instruments
                WHERE manufacturer_id=?
                ORDER BY year IS NULL, year, name COLLATE NOCASE""", (mid,)
@@ -1253,12 +1256,21 @@ function instrumentReview(id, action, btn) {{
         # atnezi. A technologia ugyanigy. Mindketto apro cimke, hogy a lista
         # olvashato maradjon.
         TECH_LABEL = {"analog": "analóg", "digital": "digitális", "hybrid": "vegyes"}
+        # Kiadas-jelzes (0030). Az 'original' nem kap cimket: az az alapeset, es
+        # 3135 sorbol 3133 ilyen. Csak az elteres latszik, kulonben a lista zajos.
+        EDITION_LABEL = {
+            "reissue": "újrakiadás", "clone": "klón", "controller": "kontroller",
+            "software": "szoftver", "kit": "építőkészlet",
+        }
         inst_html = ""
         for it in instruments:
             year = f' <span class="year">{it["year"]}</span>' if it["year"] else ""
             cat = f' <span class="cat">{esc(it["category"])}</span>' if it["category"] else ""
             tech = TECH_LABEL.get(it["technology"] or "")
             tech = f' <span class="tech">{tech}</span>' if tech else ""
+            ed = EDITION_LABEL.get(it["edition"] or "")
+            ed = (f' <span class="ed" title="{esc(it["edition_note"] or "")}">{ed}</span>'
+                  if ed else "")
             # Hangszer-szintu ellenorzendo jelzes (0027). Ma 36 ilyen van: a
             # synth-db sitemapja felsorolta oket, de a forras-oldal halott.
             # A cimke a note-ot hordozza, hogy a dontes ne igenyeljen nyomozast.
@@ -1274,7 +1286,7 @@ function instrumentReview(id, action, btn) {{
                     f'<button class="btn-mini btn-approve" onclick="instrumentReview({it["id"]}, &quot;accept&quot;, this)">Marad</button>'
                     f'<button class="btn-mini btn-unapprove" onclick="instrumentReview({it["id"]}, &quot;delete&quot;, this)">Törlés</button>'
                     '</div>')
-            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{flag}</li>'
+            inst_html += f'<li>{esc(it["name"])}{year}{cat}{tech}{ed}{flag}</li>'
 
         rel_html = ""
         for r in relations:
