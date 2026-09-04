@@ -82,6 +82,34 @@ SOURCES = {
         "skip_slug": re.compile(r"\.html?$|^(specs|support|downloads|manuals)$", re.I),
     },
     # ------------------------------------------------------------------- Casio
+    # -------------------------------------------------------------- Sequential
+    # A davesmithinstruments.com 301-gyel ide megy: EGY forras, nem ketto.
+    # A gyarto a bazisban is egy (id 11), a "Sequential Circuits" es a
+    # "Dave Smith Instruments" nevtortenetkent all mellette.
+    "sequential": {
+        "manufacturer": "Sequential",
+        "sitemap": "https://sequential.com/sitemap.xml",   # sitemapindex
+        "index_include": r"product-sitemap",
+        "shape": "slug",
+        "pattern": r"/product/([^/]+)/$",
+        "allow": None,
+        "category": None,      # a Tempest dobgep, a tobbi szinti: nem talalunk
+        # A Sequential termek-sitemapja a tartozekokat is felsorolja, es tobb
+        # a tartozek, mint a hangszer. A lista a 96 valodi slug ATNEZESEVEL
+        # keszult, nem talalgatassal: toka, huzat, gombkeszlet, faoldal, polo,
+        # tapegyseg, firmware, hangminta-csomag, kezikonyv, bovitokartya.
+        # A dsm01/02/03 szuro-, karakter- es feedback-MODUL: hangot dolgoz fel,
+        # nem kelt, tehat Kristof hangkeltes-tesztjen kiesik.
+        "skip_slug": re.compile(
+            r"(?:^discontinued-products$|^dsm0\d|case|cover|gig-bag|backpack|"
+            r"wood-sides|knob-kit|knob-set|t-shirt|power-supply|firmware|"
+            r"add-on-pack|-manual$|expander-kit|expansion-card|^oberheim)", re.I),
+        # ^oberheim: a Sequential a Focusrite-csoportban OBERHEIM markanevu
+        # hangszert is arul (TEO-5). Az Oberheim nalunk KULON gyarto (id 13,
+        # 49 hangszerrel), es a marka a termek gazdaja, nem a webshop. Ha
+        # innen engednenk be, a TEO-5 tevesen a Sequentialhoz kerulne. Az
+        # Oberheim-termekek sajat forrast kapnak majd.
+    },
     "casio": {
         "manufacturer": "Casio",
         "sitemap": "https://www.casio.com/europe/sitemap.xml",
@@ -106,9 +134,32 @@ def fetch(url, dest):
     return dest
 
 
-def sitemap_locs(path):
+def sitemap_locs(path, key=None, include=None, refresh=False):
+    """A sitemap URL-jei, a sitemapindexet EGY szinttel kovetve.
+
+    Miert kell: a WordPress-alapu gyartoi oldalak (Sequential, Elektron,
+    Buchla, Waldorf) nem egy listat adnak ki, hanem egy indexet, es a termekek
+    egy kulon al-sitemapban ulnek. Aki csak a gyoker <loc>-jait olvassa, az
+    ezeknel NULLA termeket talal, es azt hiszi, a forras ures. Az `include`
+    regexszel valaszthato ki, melyik al-sitemap kell (pl. csak a product-*),
+    hogy a blogbejegyzesek es a cikkek ne jojjenek be."""
     text = path.read_text(encoding="utf-8", errors="replace")
-    return re.findall(r"<loc>([^<]+)</loc>", text)
+    locs = re.findall(r"<loc>\s*([^<]+?)\s*</loc>", text)
+    if "<sitemapindex" not in text.lower():
+        return locs
+
+    subs = [u for u in locs if u.lower().endswith((".xml", ".xml.gz"))]
+    if include:
+        rx = re.compile(include, re.I)
+        subs = [u for u in subs if rx.search(u)]
+    out = []
+    for i, sub in enumerate(subs):
+        dest = CACHE / f"sitemap-{key or 'x'}-sub{i}.xml"
+        if refresh or not dest.exists():
+            fetch(sub, dest)
+        body = dest.read_text(encoding="utf-8", errors="replace")
+        out.extend(re.findall(r"<loc>\s*([^<]+?)\s*</loc>", body))
+    return out
 
 
 def tidy_model(slug):
@@ -138,12 +189,21 @@ def harvest(key, refresh):
 
     found = {}          # modellnev -> (url, kategoria)
     skipped = 0
-    for url in sitemap_locs(cache):
+    for url in sitemap_locs(cache, key=key, include=src.get("index_include"),
+                            refresh=refresh):
         m = pat.search(url.rstrip("/") + "/")
         if not m:
             continue
         groups = m.groups()
-        if key == "casio":
+        if src.get("shape") == "slug":
+            # Egy csoport: maga a modell-slug. A gyarto es a kategoria a
+            # forras beallitasabol jon, mert az utvonal nem mond rola semmit.
+            slug = groups[0]
+            if src["skip_slug"].search(slug):
+                skipped += 1
+                continue
+            name, category = tidy_model(slug), src.get("category")
+        elif key == "casio":
             section, slug = groups[0] or "", groups[1]
             if section in src["skip_section"]:
                 skipped += 1
