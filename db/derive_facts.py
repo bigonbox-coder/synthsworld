@@ -55,6 +55,12 @@ UA = ("SynthsworldResearch/0.1 (synthsworld museum database; "
 DerivedFact = namedtuple("DerivedFact",
                          "manufacturer_id field_name value source_url source_tier derived_from")
 
+# Ugyanaz hangszer-sorra. Kulon nevvel, mert a keret a ket tipust MAS tablaba
+# irja (facts_sources kontra instrument_facts_sources), es egy elgepelt mezo
+# igy nem a masik tablara epitene az SQL-t.
+DerivedInstrumentFact = namedtuple("DerivedInstrumentFact",
+                                   "instrument_id field_name value source_url source_tier derived_from")
+
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="milliseconds").replace("+00:00", "Z")
@@ -134,15 +140,132 @@ def rule_city_to_country(conn, verbose=True):
     return out
 
 
+
+def rule_technology_from_oscillators(conn, verbose=True):
+    """A hangszer technologiaja, ha az oszcillator-leiras KIMONDJA.
+
+    Kristof, 2026-09-04: "kitoltheted ami igazolt." Ez a szabaly nem
+    kovetkeztet, hanem olvas: az instrument_specs 'oscillators' mezojeben a
+    forras sajat szavai allnak nyersen ("Digital FM synthesizer with 6
+    Operators", "1 VCO with Saw or Square waveforms"). Ha ott szerepel a
+    "Digital", "FM operator", "AWM", "PCM" vagy a "sample ROM", akkor a forras
+    kimondta, hogy digitalis. Ha a "VCO" szerepel, akkor kimondta, hogy analog.
+    Ha mindketto, akkor hibrid. Ha egyik sem, a szabaly HALLGAT.
+
+    MERES, 2026-09-04 (ezert szabad futnia):
+      513 hangszernek van 'oscillators' spec-je, ebbol 198-nak MAR ismert a
+      technologiaja. Azon a 198-on a szabaly 95 esetben nyilatkozott, es
+      MIND A 95 egyezett a mar rogzitett ertekkel. Tevedes: 0. A maradek 103
+      esetben hallgatott. A 315 ismeretlenbol 119-et tolt ki.
+
+    MIERT NINCS BENNE A DCO:
+      A digitally controlled oscillator digitalisan VEZERELT, de analog
+      jelutu. A Juno-106 vagy a Matrix-6 DCO-s es kozben analog gep. A
+      "digital" szo ott a vezerlesre vonatkozik, nem a hangkeltesre, ezert a
+      DCO-t a szabaly szandekosan nem ismeri fel, es az ilyen sorok
+      ismeretlenek maradnak, amig ember vagy jobb forras nem dont.
+
+    A szabaly a mar kitoltott technologiat SOSEM irja felul (apply_instrument_fact),
+    es minden irt sor melle megy egy instrument_facts_sources sor a
+    derived_from nyommal, tehat az egesz termes egyetlen lekerdezessel
+    azonosithato es visszavonhato.
+    """
+    import re as _re
+    # Kimondottan DIGITALIS hangkeltes.
+    DIG = _re.compile(r"\b(digital|FM operator|operators?\b.*\bFM|FM\b.*\boperators?|AWM|AFM|PCM|"
+                      r"sample ROM|ROM sample|wave ?table ROM|8-bit|12-bit|16-bit|24-bit)\b", _re.I)
+    # Kimondottan ANALOG hangkeltes.
+    # CSAK a VCO. Az "analog oscillator" kifejezes NEM kerult ide, pedig
+    # kezenfekvo lenne: 2026-09-04-en megmerve a Roland JD-XA es a Novation
+    # Ultranova is igy irja le magat, kozben mindketto digitalis, illetve
+    # virtualis-analog gep. A kifejezes tehat nem bizonyit, ezert lent, az
+    # AMBIG listaban all: ha ez a szo szerepel, a szabaly HALLGAT.
+    ANA = _re.compile(r"\b(VCO|VCOs)\b", _re.I)
+    # AMI MIATT HALLGATNI KELL. Ezek a szavak azt jelzik, hogy a ket vilag
+    # keveredik, es a mezobol NEM lehet eldonteni, melyik a hangkelto ut:
+    #   DCO        digitalisan vezerelt, de ANALOG jelut (Juno-106, OSCar, Evolver)
+    #   modeling   digitalis emulacio, ami analog nevet visel (Nord, V-Synth,
+    #              Novation Drum Station: "Digital Analog Sound Modeling")
+    #   RCO        digitalis hullam analog oszcillator mellett (JoMoX SunSyn)
+    # 2026-09-04-i meres: e nelkul a szuro nelkul a szabaly 119 sorbol 12-t
+    # rontott el, es MIND A 12 ilyen kevert eset volt.
+    AMBIG = _re.compile(r"\b(DCO|DCOs|RCO|RCOs|model+ing|modell?ed|emulat|"
+                        r"analog(ue)?\s+oscillators?)", _re.I)
+
+    # DIGITALIS ARULKODO JEL MAS MEZOBOL. A Novation Ultranova oszcillator-sora
+    # szo szerint "3 VCOs", pedig virtualis-analog gep: a vintagesynth egyszeruen
+    # VCO-nak hivja a modellezett oszcillatort is. Egyetlen mezobol ezt nem lehet
+    # eszrevenni, a szomszedos mezokbol viszont igen: ott a "ROM" hullamforma es
+    # a ROM-patch memoria. Ezert az ANALOG verdikt elott megnezzuk, mond-e a
+    # tobbi spec valami olyat, amit csak digitalis gep tud.
+    tells = set()
+    try:
+        for tr in conn.execute(
+                "SELECT DISTINCT instrument_id FROM instrument_specs WHERE "
+                "field IN ('sample_rate', 'rom_size') "
+                "OR (field IN ('waveforms', 'memory') AND (value LIKE '%ROM%' "
+                "    OR value LIKE '%wavetable%' OR value LIKE '%sample%'))").fetchall():
+            tells.add(tr[0])
+    except Exception:
+        tells = set()
+
+    rows = conn.execute(
+        "SELECT s.instrument_id, s.value, s.source_url, s.source_name, i.name, i.technology "
+        "FROM instrument_specs s JOIN instruments i ON i.id = s.instrument_id "
+        "WHERE s.field = 'oscillators' AND s.value IS NOT NULL AND s.value != '' "
+        "  AND (i.technology IS NULL OR i.technology = 'unknown') "
+        "ORDER BY i.name").fetchall()
+    if verbose:
+        print(f"technology_from_oscillators: {len(rows)} ismeretlen technologiaju "
+              f"hangszernek van oszcillator-leirasa")
+
+    out, silent = [], 0
+    for r in rows:
+        v = r["value"]
+        if AMBIG.search(v):
+            silent += 1
+            continue
+        d, a = bool(DIG.search(v)), bool(ANA.search(v))
+        # Ha MINDKETTO ott van, a mezo nem dont el semmit: hallgatunk. A regi
+        # valtozat itt "hybrid"-et irt, es ez volt a hibak masik fele.
+        if d and a:
+            silent += 1
+            continue
+        tech = "digital" if d else ("analog" if a else None)
+        if tech is None:
+            silent += 1
+            continue
+        if tech == "analog" and r["instrument_id"] in tells:
+            silent += 1
+            continue
+        out.append(DerivedInstrumentFact(
+            instrument_id=r["instrument_id"], field_name="technology", value=tech,
+            source_url=r["source_url"], source_tier="other",
+            derived_from=f"technology_from_oscillators: oscillators={v[:120]}"))
+    if verbose:
+        print(f"  kimondja: {len(out)}, hallgat: {silent}")
+    return out
+
+
 RULES = {
     "city_to_country": rule_city_to_country,
+    "technology_from_oscillators": rule_technology_from_oscillators,
 }
 
 
 # ------------------------------------------------------------------- keret
 
+def is_instrument_fact(fact):
+    return isinstance(fact, DerivedInstrumentFact)
+
+
 def already_recorded(conn, fact):
     """Ne irjuk be ketszer ugyanazt: a szabaly nyoma a kulcs."""
+    if is_instrument_fact(fact):
+        return conn.execute(
+            "SELECT 1 FROM instrument_facts_sources WHERE instrument_id = ? "
+            "AND field_name = ? AND derived_from = ?",
+            (fact.instrument_id, fact.field_name, fact.derived_from)).fetchone() is not None
     return conn.execute(
         "SELECT 1 FROM facts_sources WHERE manufacturer_id = ? AND field_name = ? "
         "AND derived_from = ?",
@@ -154,10 +277,38 @@ def already_recorded(conn, fact):
 WRITABLE_FIELDS = {"country", "city", "founded_year", "ended_year",
                    "official_website", "founders", "entity_type"}
 
+# Ugyanez hangszer-sorra. A technology kotott ertekkeszletu a semaban
+# (analog/digital/hybrid/unknown), ezert az ures mezo itt 'unknown', nem NULL:
+# a feltetel ezt kulon kezeli, kulonben a szabaly sose irna semmit.
+WRITABLE_INSTRUMENT_FIELDS = {"technology", "year", "category"}
+EMPTY_IS_UNKNOWN = {"technology"}
+
+
+def apply_instrument_fact(conn, fact):
+    """Ugyanaz a szabaly hangszer-sorra: csak ures mezot tolt ki."""
+    if fact.field_name not in WRITABLE_INSTRUMENT_FIELDS:
+        raise ValueError(f"a(z) {fact.field_name} hangszer-mezot szabaly nem irhatja "
+                         f"(vedd fel a WRITABLE_INSTRUMENT_FIELDS-be, ha tenyleg kell)")
+    col = fact.field_name
+    empty = f"({col} IS NULL OR {col} = '')"
+    if col in EMPTY_IS_UNKNOWN:
+        empty = f"({col} IS NULL OR {col} = '' OR {col} = 'unknown')"
+    cur = conn.execute(
+        f"UPDATE instruments SET {col} = ? WHERE id = ? AND {empty}",
+        (fact.value, fact.instrument_id))
+    conn.execute(
+        "INSERT INTO instrument_facts_sources (instrument_id, field_name, value, "
+        "source_url, source_tier, fetched_at, derived_from) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        (fact.instrument_id, fact.field_name, fact.value, fact.source_url,
+         fact.source_tier, now_iso(), fact.derived_from))
+    return cur.rowcount
+
 
 def apply_fact(conn, fact):
     """A mezot csak akkor toltjuk ki, ha meg ures. A levezetes nem elozi meg a
     kimondott tenyt, csak potolja a hianyat."""
+    if is_instrument_fact(fact):
+        return apply_instrument_fact(conn, fact)
     if fact.field_name not in WRITABLE_FIELDS:
         raise ValueError(f"a(z) {fact.field_name} mezot szabaly nem irhatja "
                          f"(vedd fel a WRITABLE_FIELDS-be, ha tenyleg kell)")
