@@ -64,6 +64,7 @@ Hasznalat:
 """
 import re
 import sys
+import random
 import time
 import json
 import sqlite3
@@ -328,8 +329,17 @@ def audit(con, domain, sample=8):
     have = set(known_urls(con, domain))
     cand = [u for u in urls if product_like(u, keys) and u not in have]
     print(f"{domain}: {len(urls)} URL, ebbol termek-jelolt es meg nincs nalunk: {len(cand)}")
-    step = max(1, len(cand) // sample)
-    for u in cand[::step][:sample]:
+    # VELETLEN minta, rogzitett maggal -- NEM egyenletes lepeskoz.
+    # 2026-09-05: az elektron.se-t egyenletes lepeskozzel mintaztam, es mivel a
+    # hangminta-csomagok abecesorrendben elnyomjak a hardvert, otbol ot csomag
+    # lett. Ebbol azt a kovetkeztetest vontam le, hogy a GYARTO SAJAT OLDALA
+    # nem er semmit -- Kristof javitott ki. A sitemap sorrendje nem veletlen
+    # (abece, datum, kategoria), tehat a lepeskozos minta sem az: pontosan azt
+    # a mintazatot masolja, ami a sorrendben van. A rogzitett mag miatt a
+    # futas megismetelheto marad.
+    rnd = random.Random(f"{domain}:{len(cand)}")
+    pick = rnd.sample(cand, min(sample, len(cand)))
+    for u in sorted(pick):
         time.sleep(PAUSE)
         html = fetch(u, timeout=20)
         m = re.search(r"<title[^>]*>(.*?)</title>", html, re.S | re.I)
