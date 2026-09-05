@@ -30,6 +30,7 @@ Hasznalat:
 """
 import re
 import sys
+from html import unescape as _html_unescape
 import sqlite3
 import argparse
 from pathlib import Path
@@ -106,10 +107,31 @@ def split_slug(slug, idx):
 # Ot keverot engedett volna be hangszerkent. A "module" ugyanigy ketertelmu
 # ("Roland A 110 Midi Display"). Egy szot csak akkor tegyunk ide, ha a MERT
 # eseteinkben egyertelmu volt -- a jelentese onmagaban nem eleg.
+# A "groovebox" es a "multisampler" 2026-09-05-en kerult be, MERESSEL: az
+# elektron.se tiz hardvere kozul a Model:Cycles es a Model:Samples cimeben a
+# groovebox az EGYETLEN tipus-szo ("6 Track FM Based Groovebox"), a Tonverkeben
+# a multisampler. Mindketto egyertelmuen hangkelto, es a "sampler" szoszegely
+# miatt a "Multisampler" nem talalt bele. Ket eszkoz alt emiatt eldonthetetlenul,
+# ugy hogy a cim vilagosan megmondta, mik.
 INSTRUMENT_WORD = re.compile(
-    r"\b(synthesi[sz]er|synth|piano|organ|drum|sampler|sequencer|keyboard|"
-    r"workstation|vocoder|theremin|mellotron|clavinet|rhodes|accordion|"
-    r"arranger)\b", re.I)
+    r"\b(synthesi[sz]er|synth|piano|organ|drum|sampler|multi-?sampler|sequencer|"
+    r"keyboard|groovebox|workstation|vocoder|theremin|mellotron|clavinet|rhodes|"
+    r"accordion|arranger)\b", re.I)
+
+
+# EGYERTELMU ELLEN-JELEK. Ezek felulirjak a hangszer-szavakat, mert a nevben
+# ott allhat a hangszer, amihez a termek KESZULT, anelkul hogy az maga hangszer
+# lenne. Meres, 2026-09-05, elektron.se 198 cim: a "Drum Spells - Sound Pack for
+# Syntakt" cimben ket hangszer-szo is van (drum, syntakt), es egy hangminta-
+# csomag. Ugyanigy a "Vintage Drum Machines" es az "Acoustic Drum Machines":
+# mindketto sample pack, nem dobgep. Enelkul a lista negy csomagot engedett
+# volna be hangszerkent egy gyarto sajat oldalarol.
+DECISIVE_NOT = re.compile(
+    r"(sound ?pack|sample ?pack|preset ?pack|sound ?set|soundset|expansion pack|"
+    r"booster pack|patch pack|sticker pack|enamel pin|woven patch|"
+    r"t-?shirt|tote bag|carry bag|carry sleeve|backpack|hoodie|"
+    r"protective lid|power supply|\bpsu\b|rack mount kit|usb hub|"
+    r"\bcable\b|\badapter\b|button cap|overbridge)", re.I)
 
 
 def verdict(model, label, title=None):
@@ -120,9 +142,41 @@ def verdict(model, label, title=None):
     kapaszkodo. A cimben viszont ott all ("Alesis Matica 500 Amplifier").
     Ha nincs cim, csak a nevre tamaszkodhatunk, es akkor a legtobb eset
     eldonthetetlen -- ez igy oszinte."""
-    text = f"{title or ''}".split("|")[0] or f"{model} {label}"
+    # HTML-ENTITAS DEKODOLAS, MIELOTT BARMIT MERUNK. Ez nem kozmetika:
+    # a nyers cimben allo "&amp;" az "amp" szot tartalmazza, az pedig a
+    # NOT_SOUND_SOURCE listaban a VEGFOK jele. Meres, 2026-09-05: az Elektron
+    # osszes olyan hardvere, aminek a leirasaban "&" van (Analog Rytm MKII,
+    # Digitakt II, Syntakt, Tonverk), emiatt bukott el vagy lett
+    # "eldonthetetlen" -- egy hangszer-adatbazis a sajat &-jelein vesztette
+    # volna el a dobgepeit. A hibat az tette lathatatlanna, hogy a talalat
+    # ERTELMESNEK latszott ("amp" -> erosito), csak eppen sosem az volt.
+    title = _html_unescape(title or "")
+    # A cim SZEGMENSEI, az utolso nelkul -- az utolso a marka ("| Elektron",
+    # "| SynthXL - Service Manual"), es nem az eszkozrol szol.
+    # MIERT NEM CSAK AZ ELSO SZEGMENS. Meres, 2026-09-05, elektron.se: a gyarto
+    # sajat oldalan a keszulek TIPUSA a MASODIK szegmensben all
+    # ("Analog Four MKII | Expressive 4 Voice Analog Synthesizer | Elektron"),
+    # az elsoben csak a puszta modellnev. Az elso szegmensre nezve mind a tiz
+    # Elektron hardver "eldonthetetlen" lett, kozben mind a tizrol kiirja a cim,
+    # hogy mi az. A ketszegmensu cimeknel ez valtozatlanul az elso szegmens,
+    # tehat a synthxl 249 talalata nem mozdul.
+    segs = [x for x in (title or "").split("|") if x.strip()]
+    text = " ".join(segs[:-1] if len(segs) > 1 else segs) or f"{model} {label}"
+    if DECISIVE_NOT.search(title or "") or DECISIVE_NOT.search(f"{model} {label}"):
+        return "not-instrument"
     has_instr = bool(INSTRUMENT_WORD.search(text))
     has_not = bool(NOT_SOUND_SOURCE.search(text))
+    # A CSUPASZ NEV NEM BIZONYITEK. Egy egyszegmensu cim ("Vintage Drum
+    # Machines - Elektron") csak a termek NEVE, nem a leirasa, es a nevben ott
+    # allhat a hangszer-szo ugy, hogy a termek egy hangminta-csomag. Meres,
+    # 2026-09-05: harom ilyen csomag ("Acoustic Drum Machines", "Vintage Drum
+    # Machines", "Drum Enthusiast") csuszott volna be hangszerkent. A synthxl
+    # 249 talalata ELLENBEN mind tobb-szegmensu cimbol jon (megmerve: 249/249),
+    # tehat ez a szigoritas ott NULLA-ba kerul.
+    # A harmadik allapot itt is a helyes valasz: nem engedjuk be, de nem is
+    # dobjuk el -- az eldontesehez masik jel kell, nem a cim.
+    if has_instr and not has_not and len(segs) < 2:
+        return "undecided"
     if has_instr and not has_not:
         return "instrument"
     if has_not and not has_instr:
