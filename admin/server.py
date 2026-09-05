@@ -816,7 +816,16 @@ class Handler(http.server.BaseHTTPRequestHandler):
                 )
                 logo_html = f'<span class="logo-wrap"><img class="logo-thumb" src="{logo}" alt="">{badge}</span>'
                 if review:
-                    review_pill = f'<span class="pill-sm {review}">{LOGO_REVIEW_LABELS[review]}</span>'
+                    # Ismeretlen erteket NEM szabad kivetellel jutalmazni.
+                    # 2026-09-05: negy sorban 'pending' allt a
+                    # logo_review_status oszlopban (a dokumentalt keszlet
+                    # NULL|approved|outdated|wrong), es ez a KeyError a TELJES
+                    # gyarto-listat 500-zal levitte -- nem csak azt a negy
+                    # kartyat. Egy admin feluletnek a hibas adatot MEG KELL
+                    # MUTATNIA, nem meghalnia tole: az ismeretlen birosag
+                    # nyersen jelenik meg, es a tobbi 106 gyarto olvashato marad.
+                    review_pill = (f'<span class="pill-sm {esc(review)}">'
+                                   f'{esc(LOGO_REVIEW_LABELS.get(review, review))}</span>')
             elif status == "not_found":
                 logo_html = '<span class="logo-missing" title="Kerestünk logót, nem találtunk">nincs<br>kép</span>'
             else:
